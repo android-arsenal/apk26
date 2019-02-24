@@ -1,0 +1,1615 @@
+2018-12-12 21:50:26,702 INFO  DownloadService - Downloading "https://github.com/andrewjc/kheera-testrunner-android/archive/master.zip", attempt 3
+2018-12-12 21:55:11,356 INFO  DownloadService - Downloaded https://github.com/andrewjc/kheera-testrunner-android/archive/master.zip, attempt 3
+2018-12-12 21:55:11,357 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/master.zip": 8 MB
+2018-12-12 21:55:11,357 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-12 21:55:11,363 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/master.zip: true
+2018-12-12 21:55:11,363 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src'.
+2018-12-12 21:55:11,462 INFO  FullProcessService - Size of directory with sources: 8 MB
+2018-12-12 21:55:11,462 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src]
+2018-12-12 21:55:11,480 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/.git/
+
+2018-12-12 21:55:11,485 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/gradlew
+2018-12-12 21:55:11,491 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/build.gradle
+2018-12-12 21:55:11,496 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/misc/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/misc/mvn.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/build.gradle
+2018-12-12 21:55:11,497 INFO  ProjectBuildService - Remote scripts: none
+2018-12-12 21:55:11,497 INFO  ProjectFixService - Fixing project...
+2018-12-12 21:55:11,511 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/local.properties
+2018-12-12 21:55:11,512 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-12 21:55:11,512 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-12 21:55:11,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2018-12-12 21:55:11,514 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/local.properties
+2018-12-12 21:55:11,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2018-12-12 21:55:11,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/local.properties
+2018-12-12 21:55:11,515 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
+2018-12-12 21:55:11,518 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2018-12-12 21:55:11,519 INFO  ProjectFixService - Project was maybe fixed
+2018-12-12 21:55:11,519 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-12 21:55:11,519 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-12 21:55:15,706 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-12-12 21:55:15,706 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-12-12 21:55:15,706 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-12-12 21:55:15,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-12 21:55:18,342 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-12 21:55:18,342 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating project ':samples'.
+> Failed to apply plugin [id 'com.android.application']
+   > Minimum supported Gradle version is 4.6. Current version is 4.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.6-all.zip
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating project ':samples'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:199)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:204)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.plugins.PluginApplicationException: Failed to apply plugin [id 'com.android.application']
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:150)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:125)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
+	at build_2y4jc3jaahnbcsfroclfum918.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 97 more
+Caused by: java.lang.RuntimeException: Minimum supported Gradle version is 4.6. Current version is 4.4. If using the gradle wrapper, try editing the distributionUrl in /Users/vbauer/Documents/workspace/java/bloodhound/gradle/wrapper/gradle-wrapper.properties to gradle-4.6-all.zip
+	at com.android.build.gradle.BasePlugin.checkGradleVersion(BasePlugin.java:698)
+	at com.android.build.gradle.BasePlugin.apply(BasePlugin.java:257)
+	at com.android.build.gradle.AbstractAppPlugin.apply(AbstractAppPlugin.java:122)
+	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:43)
+	at com.android.build.gradle.AppPlugin.apply(AppPlugin.java:35)
+	at org.gradle.api.internal.plugins.ImperativeOnlyPluginTarget.applyImperative(ImperativeOnlyPluginTarget.java:42)
+	at org.gradle.api.internal.plugins.RuleBasedPluginTarget.applyImperative(RuleBasedPluginTarget.java:50)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.addPlugin(DefaultPluginManager.java:165)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.access$200(DefaultPluginManager.java:47)
+	at org.gradle.api.internal.plugins.DefaultPluginManager$AddPluginBuildOperation.run(DefaultPluginManager.java:252)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.plugins.DefaultPluginManager.doApply(DefaultPluginManager.java:144)
+	... 107 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2018-12-12 21:55:18,350 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-12 21:55:18,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-12 21:55:26,260 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-12-12 21:55:26,260 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-12 21:55:26,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-12 21:55:45,346 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Task :kheera-testrunner:androidJavadocs
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/gherkin/GherkinDialectProvider.java:3: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/gherkin/TableConverter.java:3: error: package com.google.gson does not exist
+import com.google.gson.JsonElement;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/gherkin/TableConverter.java:4: error: package com.google.gson does not exist
+import com.google.gson.JsonPrimitive;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/gherkin/TableConverter.java:15: error: package de.jodamob.reflect does not exist
+import de.jodamob.reflect.SuperReflect;
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/gherkin/TableConverter.java:22: error: cannot find symbol
+    public static <T> T convert(PickleTable dataTable, Type type, JsonElement testData) {
+                                                                  ^
+  symbol:   class JsonElement
+  location: class TableConverter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/gherkin/TableConverter.java:81: error: cannot find symbol
+    static <T> List<T> toList(PickleTable dataTable, Type itemType, JsonElement testData) {
+                                                                    ^
+  symbol:   class JsonElement
+  location: class TableConverter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/gherkin/TableConverter.java:98: error: cannot find symbol
+    static List<String> toStringList(PickleTable dataTable, JsonElement testData) {
+                                                            ^
+  symbol:   class JsonElement
+  location: class TableConverter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/gherkin/TableConverter.java:162: error: cannot find symbol
+    private static String replaceWithTestData(final JsonElement sourceTestData, String inputString) {
+                                                    ^
+  symbol:   class JsonElement
+  location: class TableConverter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/StepDefFunctionTable.java:21: error: package androidx.test.core.app does not exist
+import androidx.test.core.app.ApplicationProvider;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:3: error: package com.google.gson.annotations does not exist
+import com.google.gson.annotations.SerializedName;
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/KheeraRunner.java:6: error: package androidx.test.runner does not exist
+import androidx.test.runner.AndroidJUnitRunner;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/KheeraRunner.java:8: error: cannot find symbol
+public class KheeraRunner extends AndroidJUnitRunner {
+                                  ^
+  symbol: class AndroidJUnitRunner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:7: error: package com.google.gson does not exist
+import com.google.gson.JsonElement;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:8: error: package com.google.gson does not exist
+import com.google.gson.JsonParser;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:9: error: package com.google.gson does not exist
+import com.google.gson.JsonPrimitive;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:23: error: package org.junit does not exist
+import org.junit.AssumptionViolatedException;
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:24: error: package org.junit.runner does not exist
+import org.junit.runner.Description;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:25: error: package org.junit.runner does not exist
+import org.junit.runner.Runner;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:26: error: package org.junit.runner.notification does not exist
+import org.junit.runner.notification.Failure;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:27: error: package org.junit.runner.notification does not exist
+import org.junit.runner.notification.RunNotifier;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:42: error: package androidx.test does not exist
+import androidx.test.InstrumentationRegistry;
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:43: error: package androidx.test.core.app does not exist
+import androidx.test.core.app.ApplicationProvider;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:61: error: cannot find symbol
+public class FeatureFileExecutor extends Runner {
+                                         ^
+  symbol: class Runner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:68: error: cannot find symbol
+    private JsonElement testData;
+            ^
+  symbol:   class JsonElement
+  location: class FeatureFileExecutor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:80: error: cannot find symbol
+    public Description getDescription() {
+           ^
+  symbol:   class Description
+  location: class FeatureFileExecutor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:85: error: cannot find symbol
+    public void run(RunNotifier notifier) {
+                    ^
+  symbol:   class RunNotifier
+  location: class FeatureFileExecutor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:160: error: cannot find symbol
+                                         StepDefFunctionTable stepDefinitionFunctionTable, RunNotifier notifier) throws AutomationRunnerException {
+                                                                                           ^
+  symbol:   class RunNotifier
+  location: class FeatureFileExecutor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/factory/FeatureFileExecutorFactory.java:5: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/factory/FeatureFileExecutorFactory.java:12: error: package org.junit.runner does not exist
+import org.junit.runner.Runner;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/factory/FeatureFileExecutorFactory.java:13: error: package org.junit.runners.model does not exist
+import org.junit.runners.model.RunnerBuilder;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/factory/FeatureFileExecutorFactory.java:18: error: package androidx.test.platform.app does not exist
+import androidx.test.platform.app.InstrumentationRegistry;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/factory/FeatureFileExecutorFactory.java:20: error: package androidx.test does not exist
+import static androidx.test.InstrumentationRegistry.getContext;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/factory/FeatureFileExecutorFactory.java:20: error: static import only from classes and interfaces
+import static androidx.test.InstrumentationRegistry.getContext;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/factory/FeatureFileExecutorFactory.java:26: error: cannot find symbol
+public class FeatureFileExecutorFactory extends RunnerBuilder {
+                                                ^
+  symbol: class RunnerBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/factory/FeatureFileExecutorFactory.java:28: error: cannot find symbol
+    public Runner runnerForClass(Class<?> testClass) throws Throwable {
+           ^
+  symbol:   class Runner
+  location: class FeatureFileExecutorFactory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:9: error: cannot find symbol
+    @SerializedName("Name")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:12: error: cannot find symbol
+    @SerializedName("Description")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:15: error: cannot find symbol
+    @SerializedName("TestData")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:18: error: cannot find symbol
+    @SerializedName("AppConfig")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:21: error: cannot find symbol
+    @SerializedName("Screenshots")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:24: error: cannot find symbol
+    @SerializedName("IncludeSkipped")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:27: error: cannot find symbol
+    @SerializedName("WriteTestReport")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:30: error: cannot find symbol
+    @SerializedName("ReportLogPath")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:33: error: cannot find symbol
+    @SerializedName("FilterBy")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:36: error: cannot find symbol
+    @SerializedName("FilterType")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:39: error: cannot find symbol
+    @SerializedName("DetailedErrors")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:42: error: cannot find symbol
+    @SerializedName("CoverageReport")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:45: error: cannot find symbol
+    @SerializedName("CoverageFile")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/internal/TestRunnerConfig.java:48: error: cannot find symbol
+    @SerializedName("LogTag")
+     ^
+  symbol:   class SerializedName
+  location: class TestRunnerConfig
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+javadoc: warning - Class SerializedName not found.
+100 warnings
+
+> Task :kheera-testrunner:androidJavadocsJar
+> Task :kheera-testrunner:androidSourcesJar
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with JetifyTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with JetifyTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with ExtractAarTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with ExtractAarTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with JetifyTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with JetifyTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with JetifyTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with ExtractAarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with ExtractAarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with AarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with JetifyTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with ExtractAarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with ExtractAarTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with AarTransform
+> Task :kheera-testrunner:preBuild UP-TO-DATE
+> Task :kheera-testrunner:preDebugBuild UP-TO-DATE
+> Transform material.aar (com.google.android.material:material:1.0.0) with ExtractAarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with JetifyTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with ExtractAarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with AarTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with JetifyTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with IdentityTransform
+> Transform hamcrest-integration.jar (org.hamcrest:hamcrest-integration:1.3) with JetifyTransform
+> Transform hamcrest-integration.jar (org.hamcrest:hamcrest-integration:1.3) with IdentityTransform
+> Transform core.aar (androidx.test:core:1.0.0) with JetifyTransform
+> Transform javax.inject.jar (javax.inject:javax.inject:1) with JetifyTransform
+> Transform hamcrest-core.jar (org.hamcrest:hamcrest-core:1.3) with JetifyTransform
+> Transform javax.inject.jar (javax.inject:javax.inject:1) with IdentityTransform
+> Transform core.aar (androidx.test:core:1.0.0) with ExtractAarTransform
+> Transform hamcrest-core.jar (org.hamcrest:hamcrest-core:1.3) with IdentityTransform
+> Transform core.aar (androidx.test:core:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with ExtractAarTransform
+> Transform hamcrest-library.jar (org.hamcrest:hamcrest-library:1.3) with JetifyTransform
+> Transform hamcrest-library.jar (org.hamcrest:hamcrest-library:1.3) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform kxml2.jar (net.sf.kxml:kxml2:2.3.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform kxml2.jar (net.sf.kxml:kxml2:2.3.0) with IdentityTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with AarTransform
+> Transform javawriter.jar (com.squareup:javawriter:2.1.1) with JetifyTransform
+> Transform javawriter.jar (com.squareup:javawriter:2.1.1) with IdentityTransform
+> Transform accessibility-test-framework.jar (com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:2.0) with JetifyTransform
+> Transform accessibility-test-framework.jar (com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:2.0) with IdentityTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with AarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with AarTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with AarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with AarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with AarTransform
+> Transform core.aar (androidx.test:core:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform junit.jar (junit:junit:4.12) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform junit.jar (junit:junit:4.12) with IdentityTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with AarTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with AarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with AarTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with AarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with AarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with JetifyTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with AarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with AarTransform
+> Transform core.aar (androidx.test:core:1.0.0) with AarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with ExtractAarTransform
+> Task :kheera-testrunner:checkDebugManifest
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with AarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with AarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with AarTransform
+> Task :kheera-testrunner:generateDebugBuildConfig
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.0.0) with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with LibrarySymbolTableTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with LibrarySymbolTableTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with LibrarySymbolTableTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with LibrarySymbolTableTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with LibrarySymbolTableTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with LibrarySymbolTableTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with LibrarySymbolTableTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with LibrarySymbolTableTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.test:core:1.0.0) with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with LibrarySymbolTableTransform
+> Task :kheera-testrunner:generateDebugResValues
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with JetifyTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
+> Task :kheera-testrunner:processDebugManifest
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with ExtractAarTransform
+> Task :kheera-testrunner:prepareLintJar
+> Task :kheera-testrunner:mergeDebugConsumerProguardFiles
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with AarTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with AarTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with AarTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with LibrarySymbolTableTransform
+> Task :kheera-testrunner:mergeDebugShaders
+> Task :kheera-testrunner:compileDebugAidl NO-SOURCE
+> Task :kheera-testrunner:compileDebugRenderscript
+> Task :kheera-testrunner:generateDebugResources
+> Task :kheera-testrunner:packageDebugResources
+> Transform SuperReflect.jar (de.jodamob.android:SuperReflect:1.0.1) with JetifyTransform
+> Task :kheera-testrunner:generateDebugRFile
+> Task :kheera-testrunner:generateDebugSources
+> Transform SuperReflect.jar (de.jodamob.android:SuperReflect:1.0.1) with IdentityTransform
+> Task :kheera-testrunner:compileDebugShaders
+> Task :kheera-testrunner:javaPreCompileDebug
+
+> Task :kheera-testrunner:compileDebugJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:179: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            final Description testDescription = Description.createTestDescription(featureFileModel.getName(), pickle.getName(), null);
+                                                                                                                                ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:231: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        notifier.fireTestFailure(new Failure(Description.createTestDescription(featureFileModel.getName(), "onStartTest", null), new AutomationRunnerException(errorDescription, e)));
+                                                                                                                                          ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:356: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                                        notifier.fireTestAssumptionFailed(new Failure(Description.createTestDescription(featureFileModel.getName(), pickle.getName(), null), new AutomationRunnerException(errorDescription, null)));
+                                                                                                                                                                      ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:388: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                            notifier.fireTestFailure(new Failure(Description.createTestDescription(featureFileModel.getName(), pickle.getName(), null), new AutomationRunnerException(errorDescription, null)));
+                                                                                                                                                 ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:424: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        notifier.fireTestFailure(new Failure(Description.createTestDescription(featureFileModel.getName(), "onFinishTest", null), new AutomationRunnerException(errorDescription, e)));
+                                                                                                                                           ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 warnings
+
+> Task :kheera-testrunner:extractDebugAnnotations
+> Task :kheera-testrunner:generateDebugAssets
+> Task :kheera-testrunner:packageDebugAssets
+> Task :kheera-testrunner:packageDebugRenderscript NO-SOURCE
+> Task :kheera-testrunner:processDebugJavaRes NO-SOURCE
+> Task :kheera-testrunner:transformResourcesWithMergeJavaResForDebug
+> Task :kheera-testrunner:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :kheera-testrunner:compileDebugNdk NO-SOURCE
+> Task :kheera-testrunner:mergeDebugJniLibFolders
+> Task :kheera-testrunner:transformNativeLibsWithMergeJniLibsForDebug
+> Task :kheera-testrunner:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :kheera-testrunner:transformNativeLibsWithSyncJniLibsForDebug
+> Task :kheera-testrunner:bundleDebugAar
+> Task :kheera-testrunner:compileDebugSources
+> Task :kheera-testrunner:assembleDebug
+> Task :kheera-testrunner:preReleaseBuild UP-TO-DATE
+> Task :kheera-testrunner:compileReleaseAidl NO-SOURCE
+> Task :kheera-testrunner:compileReleaseRenderscript
+> Task :kheera-testrunner:checkReleaseManifest
+> Task :kheera-testrunner:generateReleaseBuildConfig
+> Task :kheera-testrunner:generateReleaseResValues
+> Task :kheera-testrunner:generateReleaseResources
+> Task :kheera-testrunner:packageReleaseResources
+> Task :kheera-testrunner:processReleaseManifest
+> Task :kheera-testrunner:generateReleaseRFile
+> Task :kheera-testrunner:generateReleaseSources
+> Task :kheera-testrunner:javaPreCompileRelease
+
+> Task :kheera-testrunner:compileReleaseJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:179: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+            final Description testDescription = Description.createTestDescription(featureFileModel.getName(), pickle.getName(), null);
+                                                                                                                                ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:231: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        notifier.fireTestFailure(new Failure(Description.createTestDescription(featureFileModel.getName(), "onStartTest", null), new AutomationRunnerException(errorDescription, e)));
+                                                                                                                                          ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:356: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                                        notifier.fireTestAssumptionFailed(new Failure(Description.createTestDescription(featureFileModel.getName(), pickle.getName(), null), new AutomationRunnerException(errorDescription, null)));
+                                                                                                                                                                      ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:388: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                            notifier.fireTestFailure(new Failure(Description.createTestDescription(featureFileModel.getName(), pickle.getName(), null), new AutomationRunnerException(errorDescription, null)));
+                                                                                                                                                 ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/kheera-testrunner/src/main/java/com/kheera/executor/FeatureFileExecutor.java:424: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                        notifier.fireTestFailure(new Failure(Description.createTestDescription(featureFileModel.getName(), "onFinishTest", null), new AutomationRunnerException(errorDescription, e)));
+                                                                                                                                           ^
+  cast to Annotation for a varargs call
+  cast to Annotation[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 warnings
+
+> Task :kheera-testrunner:extractReleaseAnnotations
+> Task :kheera-testrunner:mergeReleaseConsumerProguardFiles
+> Task :kheera-testrunner:mergeReleaseShaders
+> Task :kheera-testrunner:compileReleaseShaders
+> Task :kheera-testrunner:generateReleaseAssets
+> Task :kheera-testrunner:packageReleaseAssets
+> Task :kheera-testrunner:packageReleaseRenderscript NO-SOURCE
+> Task :kheera-testrunner:processReleaseJavaRes NO-SOURCE
+> Task :kheera-testrunner:transformResourcesWithMergeJavaResForRelease
+> Task :kheera-testrunner:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :kheera-testrunner:compileReleaseNdk NO-SOURCE
+> Task :kheera-testrunner:mergeReleaseJniLibFolders
+> Task :kheera-testrunner:transformNativeLibsWithMergeJniLibsForRelease
+> Task :kheera-testrunner:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :kheera-testrunner:transformNativeLibsWithSyncJniLibsForRelease
+> Task :kheera-testrunner:bundleReleaseAar
+> Task :kheera-testrunner:compileReleaseSources
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with AarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with AarTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with AarTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with AarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with AarTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with AarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with AarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with AarTransform
+> Transform core.aar (androidx.test:core:1.0.0) with AarTransform
+> Task :kheera-testrunner:signArchives SKIPPED
+> Task :kheera-testrunner:mergeReleaseResources
+> Task :kheera-testrunner:verifyReleaseResources
+> Task :kheera-testrunner:assembleRelease
+> Task :kheera-testrunner:assemble
+> Task :kheera-testrunner:build
+
+BUILD SUCCESSFUL in 18s
+48 actionable tasks: 48 executed
+
+2018-12-12 21:55:45,412 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-12 21:55:45,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-12 21:55:53,801 INFO  ProjectTaskService - Detected possible tasks: 74
+2018-12-12 21:55:53,801 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-12 21:55:53,802 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-12 21:56:43,925 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :kheera-testrunner:androidJavadocs UP-TO-DATE
+> Task :kheera-testrunner:androidJavadocsJar UP-TO-DATE
+> Task :kheera-testrunner:androidSourcesJar UP-TO-DATE
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with JetifyTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with JetifyTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with JetifyTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with JetifyTransform
+> Transform print.aar (androidx.print:print:1.0.0) with JetifyTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.0.0) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with ExtractAarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with ExtractAarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with JetifyTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with JetifyTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with JetifyTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with JetifyTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with JetifyTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with JetifyTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with JetifyTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with JetifyTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with ExtractAarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with ExtractAarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with JetifyTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with JetifyTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with ExtractAarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with JetifyTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with ExtractAarTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with JetifyTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with ExtractAarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with AarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with JetifyTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with ExtractAarTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with JetifyTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with ExtractAarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with AarTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with JetifyTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with ExtractAarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with AarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with JetifyTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with ExtractAarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with JetifyTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with ExtractAarTransform
+> Transform core.aar (androidx.test:core:1.0.0) with JetifyTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with AarTransform
+> Transform core.aar (androidx.test:core:1.0.0) with ExtractAarTransform
+> Task :kheera-testrunner:preBuild UP-TO-DATE
+> Task :kheera-testrunner:preDebugBuild UP-TO-DATE
+> Transform hamcrest-core.jar (org.hamcrest:hamcrest-core:1.3) with JetifyTransform
+> Transform accessibility-test-framework.jar (com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:2.0) with JetifyTransform
+> Transform hamcrest-core.jar (org.hamcrest:hamcrest-core:1.3) with IdentityTransform
+> Transform accessibility-test-framework.jar (com.google.android.apps.common.testing.accessibility.framework:accessibility-test-framework:2.0) with IdentityTransform
+> Transform hamcrest-library.jar (org.hamcrest:hamcrest-library:1.3) with JetifyTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with JetifyTransform
+> Transform hamcrest-library.jar (org.hamcrest:hamcrest-library:1.3) with IdentityTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:2.0.1) with IdentityTransform
+> Transform javax.inject.jar (javax.inject:javax.inject:1) with JetifyTransform
+> Transform hamcrest-integration.jar (org.hamcrest:hamcrest-integration:1.3) with JetifyTransform
+> Transform hamcrest-integration.jar (org.hamcrest:hamcrest-integration:1.3) with IdentityTransform
+> Transform javax.inject.jar (javax.inject:javax.inject:1) with IdentityTransform
+> Transform kxml2.jar (net.sf.kxml:kxml2:2.3.0) with JetifyTransform
+> Transform javawriter.jar (com.squareup:javawriter:2.1.1) with JetifyTransform
+> Transform kxml2.jar (net.sf.kxml:kxml2:2.3.0) with IdentityTransform
+> Transform javawriter.jar (com.squareup:javawriter:2.1.1) with IdentityTransform
+> Transform junit.jar (junit:junit:4.12) with JetifyTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with JetifyTransform
+> Transform junit.jar (junit:junit:4.12) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with JetifyTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with JetifyTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with JetifyTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with ExtractAarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with ExtractAarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with JetifyTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with JetifyTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with AarTransform
+> Transform SuperReflect.jar (de.jodamob.android:SuperReflect:1.0.1) with JetifyTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with JetifyTransform
+> Transform SuperReflect.jar (de.jodamob.android:SuperReflect:1.0.1) with IdentityTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with AarTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with AarTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with AarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with AarTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with AarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with AarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with AarTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with AarTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with AarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with AarTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with AarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with AarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with AarTransform
+> Task :kheera-testrunner:checkDebugManifest UP-TO-DATE
+> Task :kheera-testrunner:generateDebugBuildConfig UP-TO-DATE
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with LibrarySymbolTableTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with LibrarySymbolTableTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with LibrarySymbolTableTransform
+> Transform print.aar (androidx.print:print:1.0.0) with LibrarySymbolTableTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with LibrarySymbolTableTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with LibrarySymbolTableTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with LibrarySymbolTableTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.core:core:1.0.0) with LibrarySymbolTableTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with LibrarySymbolTableTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with LibrarySymbolTableTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with LibrarySymbolTableTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with LibrarySymbolTableTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with LibrarySymbolTableTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with LibrarySymbolTableTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with LibrarySymbolTableTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with LibrarySymbolTableTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with LibrarySymbolTableTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with LibrarySymbolTableTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with LibrarySymbolTableTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with LibrarySymbolTableTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with LibrarySymbolTableTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with LibrarySymbolTableTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.test:core:1.0.0) with AarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.test:core:1.0.0) with AarTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with LibrarySymbolTableTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform core.aar (androidx.test:core:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with LibrarySymbolTableTransform
+> Task :kheera-testrunner:compileDebugAidl NO-SOURCE
+> Task :kheera-testrunner:compileDebugRenderscript UP-TO-DATE
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with LibrarySymbolTableTransform
+> Transform core.aar (androidx.test:core:1.0.0) with LibrarySymbolTableTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with LibrarySymbolTableTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with LibrarySymbolTableTransform
+> Transform aapt2-osx.jar (com.android.tools.build:aapt2:3.2.1-4818971) with Aapt2Extractor
+> Task :kheera-testrunner:generateDebugResValues UP-TO-DATE
+> Task :kheera-testrunner:generateDebugResources UP-TO-DATE
+> Task :kheera-testrunner:packageDebugResources UP-TO-DATE
+> Task :kheera-testrunner:processDebugManifest UP-TO-DATE
+> Task :kheera-testrunner:generateDebugRFile UP-TO-DATE
+> Task :kheera-testrunner:prepareLintJar UP-TO-DATE
+> Task :kheera-testrunner:generateDebugSources UP-TO-DATE
+> Task :kheera-testrunner:javaPreCompileDebug UP-TO-DATE
+> Task :kheera-testrunner:compileDebugJavaWithJavac UP-TO-DATE
+> Task :kheera-testrunner:extractDebugAnnotations UP-TO-DATE
+> Task :kheera-testrunner:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :kheera-testrunner:mergeDebugShaders UP-TO-DATE
+> Task :kheera-testrunner:compileDebugShaders UP-TO-DATE
+> Task :kheera-testrunner:generateDebugAssets UP-TO-DATE
+> Task :kheera-testrunner:packageDebugAssets UP-TO-DATE
+> Task :kheera-testrunner:packageDebugRenderscript NO-SOURCE
+> Task :kheera-testrunner:processDebugJavaRes NO-SOURCE
+> Task :kheera-testrunner:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :kheera-testrunner:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :kheera-testrunner:compileDebugNdk NO-SOURCE
+> Task :kheera-testrunner:mergeDebugJniLibFolders UP-TO-DATE
+> Task :kheera-testrunner:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :kheera-testrunner:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :kheera-testrunner:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :kheera-testrunner:bundleDebugAar UP-TO-DATE
+> Task :kheera-testrunner:compileDebugSources UP-TO-DATE
+> Task :kheera-testrunner:assembleDebug UP-TO-DATE
+> Task :kheera-testrunner:preReleaseBuild UP-TO-DATE
+> Task :kheera-testrunner:compileReleaseAidl NO-SOURCE
+> Task :kheera-testrunner:compileReleaseRenderscript UP-TO-DATE
+> Task :kheera-testrunner:checkReleaseManifest UP-TO-DATE
+> Task :kheera-testrunner:generateReleaseBuildConfig UP-TO-DATE
+> Task :kheera-testrunner:generateReleaseResValues UP-TO-DATE
+> Task :kheera-testrunner:generateReleaseResources UP-TO-DATE
+> Task :kheera-testrunner:packageReleaseResources UP-TO-DATE
+> Task :kheera-testrunner:processReleaseManifest UP-TO-DATE
+> Task :kheera-testrunner:generateReleaseRFile UP-TO-DATE
+> Task :kheera-testrunner:generateReleaseSources UP-TO-DATE
+> Task :kheera-testrunner:javaPreCompileRelease UP-TO-DATE
+> Task :kheera-testrunner:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :kheera-testrunner:extractReleaseAnnotations UP-TO-DATE
+> Task :kheera-testrunner:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :kheera-testrunner:mergeReleaseShaders UP-TO-DATE
+> Task :kheera-testrunner:compileReleaseShaders UP-TO-DATE
+> Task :kheera-testrunner:generateReleaseAssets UP-TO-DATE
+> Task :kheera-testrunner:packageReleaseAssets UP-TO-DATE
+> Task :kheera-testrunner:packageReleaseRenderscript NO-SOURCE
+> Task :kheera-testrunner:processReleaseJavaRes NO-SOURCE
+> Task :kheera-testrunner:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :kheera-testrunner:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :kheera-testrunner:compileReleaseNdk NO-SOURCE
+> Task :kheera-testrunner:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :kheera-testrunner:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :kheera-testrunner:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :kheera-testrunner:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :kheera-testrunner:bundleReleaseAar UP-TO-DATE
+> Task :kheera-testrunner:compileReleaseSources UP-TO-DATE
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform espresso-idling-resource.aar (androidx.test.espresso:espresso-idling-resource:3.1.0) with AarTransform
+> Transform monitor.aar (androidx.test:monitor:1.1.0) with AarTransform
+> Transform idling-concurrent.aar (androidx.test.espresso.idling:idling-concurrent:3.1.0) with AarTransform
+> Transform uiautomator.aar (androidx.test.uiautomator:uiautomator:2.2.0) with AarTransform
+> Transform runner.aar (androidx.test:runner:1.1.0) with AarTransform
+> Transform espresso-core.aar (androidx.test.espresso:espresso-core:3.1.0) with AarTransform
+> Transform espresso-contrib.aar (androidx.test.espresso:espresso-contrib:3.1.0) with AarTransform
+> Transform rules.aar (androidx.test:rules:1.1.0) with AarTransform
+> Transform espresso-intents.aar (androidx.test.espresso:espresso-intents:3.1.0) with AarTransform
+> Transform core.aar (androidx.test:core:1.0.0) with AarTransform
+> Task :kheera-testrunner:signArchives SKIPPED
+> Task :kheera-testrunner:mergeReleaseResources UP-TO-DATE
+> Task :kheera-testrunner:verifyReleaseResources
+> Task :kheera-testrunner:assembleRelease
+> Task :kheera-testrunner:assemble
+> Task :kheera-testrunner:build
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with JetifyTransform
+> Transform core.aar (androidx.core:core:1.0.1) with JetifyTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with ExtractAarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71) with JetifyTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71) with IdentityTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71) with JetifyTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71) with IdentityTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :samples:preBuild UP-TO-DATE
+> Transform core.aar (androidx.core:core:1.0.1) with ExtractAarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with JetifyTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with LibrarySymbolTableTransform
+> Task :samples:mainApkListPersistenceDebug
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with LibrarySymbolTableTransform
+> Task :samples:generateDebugResValues
+> Task :samples:createDebugCompatibleScreenManifests
+> Task :samples:splitsDiscoveryTaskDebug
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with ExtractAarTransform
+> Task :samples:prepareLintJar
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with LibrarySymbolTableTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.2.71) with JetifyTransform
+> Task :samples:mergeDebugShaders
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.2.71) with IdentityTransform
+> Task :samples:compileDebugShaders
+> Task :samples:checkDebugClasspath
+> Task :samples:preDebugBuild
+> Task :samples:compileDebugAidl NO-SOURCE
+> Task :samples:compileDebugRenderscript
+> Task :samples:checkDebugManifest
+> Task :samples:generateDebugBuildConfig
+> Task :samples:generateDebugResources
+> Task :samples:mergeDebugResources
+> Task :samples:processDebugManifest
+> Task :samples:processDebugResources
+> Task :samples:compileDebugKotlin
+> Task :samples:generateDebugSources
+> Task :samples:javaPreCompileDebug
+> Task :samples:compileDebugJavaWithJavac
+> Task :samples:compileDebugNdk NO-SOURCE
+> Task :samples:compileDebugSources
+> Task :samples:generateDebugAssets
+> Task :samples:mergeDebugAssets
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+> Task :samples:transformClassesWithDexBuilderForDebug
+> Task :samples:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :samples:transformDexArchiveWithDexMergerForDebug
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71) with IdentityTransform
+> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.2.71) with IdentityTransform
+> Transform annotation.jar (androidx.annotation:annotation:1.0.0) with IdentityTransform
+> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71) with IdentityTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Task :samples:mergeDebugJniLibFolders
+> Task :samples:transformNativeLibsWithMergeJniLibsForDebug
+> Task :samples:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :samples:checkDebugLibraries
+> Task :samples:processDebugJavaRes NO-SOURCE
+> Task :samples:transformResourcesWithMergeJavaResForDebug
+> Task :samples:validateSigningDebug
+> Task :samples:packageDebug
+> Task :samples:assembleDebug
+> Task :samples:checkReleaseClasspath
+> Task :samples:preReleaseBuild
+> Task :samples:compileReleaseAidl NO-SOURCE
+> Task :samples:compileReleaseRenderscript
+> Task :samples:checkReleaseManifest
+> Task :samples:generateReleaseBuildConfig
+> Task :samples:mainApkListPersistenceRelease
+> Task :samples:generateReleaseResValues
+> Task :samples:generateReleaseResources
+> Task :samples:mergeReleaseResources
+> Task :samples:createReleaseCompatibleScreenManifests
+> Task :samples:processReleaseManifest
+> Task :samples:splitsDiscoveryTaskRelease
+> Task :samples:processReleaseResources
+> Task :samples:compileReleaseKotlin
+> Task :samples:generateReleaseSources
+> Task :samples:javaPreCompileRelease
+> Task :samples:compileReleaseJavaWithJavac
+> Task :samples:compileReleaseNdk NO-SOURCE
+> Task :samples:compileReleaseSources
+> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
+> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
+> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
+> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
+> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
+> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
+> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
+> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
+> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
+> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
+> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
+> Transform core.aar (androidx.core:core:1.0.1) with AarTransform
+> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
+> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
+> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
+> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
+> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
+> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
+> Transform vectordrawable.aar (androidx.vectordrawable:vectordrawable:1.0.1) with AarTransform
+> Transform cardview.aar (androidx.cardview:cardview:1.0.0) with AarTransform
+> Transform transition.aar (androidx.transition:transition:1.0.0) with AarTransform
+> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
+> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
+> Transform vectordrawable-animated.aar (androidx.vectordrawable:vectordrawable-animated:1.0.0) with AarTransform
+> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Transform fragment.aar (androidx.fragment:fragment:1.0.0) with AarTransform
+> Transform material.aar (com.google.android.material:material:1.0.0) with AarTransform
+> Transform appcompat.aar (androidx.appcompat:appcompat:1.0.2) with AarTransform
+> Task :samples:mergeReleaseShaders
+
+> Task :samples:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/8db67291d6497c11bdf4b75b3518e3fe/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :samples:compileReleaseShaders
+> Task :samples:generateReleaseAssets
+> Task :samples:mergeReleaseAssets
+> Task :samples:transformClassesWithDexBuilderForRelease
+> Task :samples:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :samples:transformDexArchiveWithDexMergerForRelease
+> Task :samples:mergeReleaseJniLibFolders
+> Task :samples:transformNativeLibsWithMergeJniLibsForRelease
+> Task :samples:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :samples:checkReleaseLibraries
+> Task :samples:processReleaseJavaRes NO-SOURCE
+> Task :samples:transformResourcesWithMergeJavaResForRelease
+> Task :samples:packageRelease
+> Task :samples:assembleRelease
+> Task :samples:assemble
+> Task :samples:build
+
+BUILD SUCCESSFUL in 49s
+105 actionable tasks: 58 executed, 47 up-to-date
+
+2018-12-12 21:56:44,068 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544626226699-0/src/kheera-testrunner-android-master/samples/build/outputs/apk/release/samples-release-unsigned.apk

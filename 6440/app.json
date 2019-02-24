@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "in.workarounds.samples.portal",
+    "label" : "Portal",
+    "icon" : "res/drawable-web/app_icon.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.SYSTEM_ALERT_WINDOW", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/app_icon.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAGuklEQVRo3u2Zy29cVx3HP+fcc++dOxOPx3GdxomLQtpSFaqGgpCQkKjEJsoCsQGRgtRdH0IsKAsQuyxQN/0LYMWCogTRqKqUSl2xQEKIEkqrPnhUdpvGDo7tGc977uv8WNjYY8+dOzN+lAU50ujOnJm5+n5/v+/vdS7cW/fW//dSw74QUFx99As46oH/KcJUPuHyB+8pkLEJyMufOY87/RbKlFH6kAgERLavdvcqAmxf+/f3XLf/p02dtPuEenp1af/ds9GZ8pto7wjA9/OQvddJyKfRNMr7c9YvBhDKFTSOO3N8olW74CYikszKlUG8OpuUVseDXjI8IOMRElFZeAcJrKCOBXiWnCaVWgY2fexZRHIsPFY85HvomAlkWTMLkBwgLj4tD/SDyvKG5JAcw0P6WIHvAXwIb+QQMUcLWUh7HVa6AR+E57idzCECZ51VHvWWWCh2cDx/KxIHvCEH8saREYjDDjfWH+N68l1Cp0RCgdBa4lhwHSiLxes0+JZzjW+evIkx7hBQk8WGOQqFbzZ6/LT2M6pmgdh4W5tKU/A1nivU2yGdSKiU57kqP+DG3Vu8VPk5lQDUgNSGxcYxZaFaM+T56ossJQustxT1VkKjlbBR63B7tU6t1mWq4GIczUYtJNEB6855nqu9RLWrhhS48bPSoQgkUZcXNq/Q0tMUCwEzUwFTRQdjwPUNvu/TtbC80QINSms21tv4BZ9aWuZHmy8Sx+lg4IscfxALwtXqkzSc0wTGpd3qUW9HpCKUggKnKgHTJYOgaHQS1mptlFa04oSwG6OUYU3N8Zv6RZ4++caWlDJllO8Nc3DrR7yafgdtXGqbXXpRiusbTk0Vefxchc+fLTNb9FAa1poh7680eXuxShil1FshxZJHN0p53Vzme+kbuM5+60sGiSMksNitkGqfdifEcRTG1fiu4YvnZ/jaQ7N8bi6gErgAtMKU09MFAtfh9++t0mp0KAJKhNQUWAzv55FgJd/6R5tGhT/2vkI3tGgUcWpptWMefKDChYVpHjtT4vQJf6fzmi4YPLP1u1sbHd5phYRhilhBoflD9FUeCa4PKXpHmoVkxxp/kwtYFJ6nqdbbuL5hfrrA/LTPjO8OtI0nA5f7T/jMzwR4nqYbJbiOIhW4GT2eUchGWz+HgAy+ZO/4l+JS8B2SSLCi8YzGdRxcDdoZ7Mi1VjgafKNQShPFKYHv0g0TrDL7tD9+JtJDW+A9L7v3xmK5YN7FOA5RGuN6DiJCvRvTDC1hZAduGcaWVphS7yTESYJvNOJoemHCE977+4CTQWQiAv3Dd5/lxW4N4ghfD97cGZSKgUuSpCyttnh3ucE/1trUuglhYgkTS72X8K+NDu8sN/jnch1JhamSR7MdUgg8niz8aa909he1yeuADC/h2/vn3TskaYrSGl8LpEKt0eGvS1VEKZpRymzRoFDUugl/v9PkL4tVNho9jKMJoxQ/cPE1POR+nG1xGe0BM9wD+QOK0XDJfZ3r+iIOlmLB0OxGfLzapB2mfLLRZrbkbbUbnYhbd9ssr7eIY4tvFAXfxfM9LurXMIRDrD46BsxYM2xGi6uAZ8q/40b7G/RSh3Lg0u3FpGK5W22zWmtT9F0cpQhtStRLUAIl38H3DMYz6KTNMzO/Rsk+60uW/g8UxLZP+9sHUezuGWX51dxPUAoSYKZSwlEK3zgUPUO7GbK22aLTjFBK4TgaqzWhhU4U84vKCxjpZYPdL6XJ0uhusA4G897UOms2uTb/Y1zbBa04USwgShARZqYLnJopUS77FHyD8RyU0fiqw8v3/ZD7+PcIsDIksCdKoza3HigsJ3WNa3PP823/t6SkGM8jUYpeKiQCVmkigV6cctl7hVdPPcscq32zQJZ07PB4OHQQZ/QsBsv3g1d4qvgai8kCb0UX+Cg5C8Bn3WW+5L7NOf0RWnqDms/UPYfIQsgYJwuD86pCcCTkYf0hDxc+zABJdoDm7R2omRvpgSFD+f4+ZhigccEffB4YnUazTwwk57RhmFVHgP+vMY/GAzmnbXnAM63OeFI62KnEuB4Ycb6T15zl7udlpbE8kDPGHUhKktGsjdgfeKozUQxY2e4WRmcmkfzPE1k9p3gpJeMVsjOIJOHmntaBYcVMBuaE3f/1PwvLaRVEBiv+juV331trNjkzKIusSmx7d+qXJO41xdrhfVH/54FqvU8CYoeAHEKoL/Ns3cpphtXkUlYgZD+lfBa3c4Y5p8CX0Sx8CmfwQzsyLLfTHjeLK6ypXxKPRWDnYR/o43nkNMHako1VV7DcW/fW0a//AOz1FzrHLzMFAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 2216,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "��", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"in.workarounds.samples.portal\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<android:uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f080084\" android:label=\"Portal\" android:icon=\"res/drawable-mdpi-v4/app_icon.png\" android:name=\"in.workarounds.samples.portal.ExampleApplication\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<service android:name=\"in.workarounds.samples.portal.TestService\" />\n\t\t<activity android:label=\"Portal\" android:name=\"in.workarounds.samples.portal.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<serviceClass android:name=\"in.workarounds.portal.SimplePortalService\" android:enabled=\"true\" android:exported=\"false\" />\n\t\t<activity android:theme=\"resourceId:0x7f0800fd\" android:name=\"in.workarounds.portal.BlankActivity\" android:excludeFromRecents=\"true\" />\n\t\t<service android:name=\"com.squareup.leakcanary.internal.HeapAnalyzerService\" android:enabled=\"false\" android:process=\":leakcanary\" />\n\t\t<service android:name=\"com.squareup.leakcanary.DisplayLeakService\" android:enabled=\"false\" />\n\t\t<activity android:theme=\"resourceId:0x7f080022\" android:label=\"Leaks\" android:icon=\"res/drawable-mdpi-v4/__leak_canary_icon.png\" android:name=\"com.squareup.leakcanary.internal.DisplayLeakActivity\" android:enabled=\"false\" android:taskAffinity=\"com.squareup.leakcanary\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1761835,
+  "crc32" : 1832342295,
+  "sha256" : "a56de2f141fa582fabd6e6e450ebaf9d56ac96a9fcc3da286719056a7e15c4c3",
+  "buildTime" : 1535713248000
+}

@@ -1,0 +1,163 @@
+2018-09-02 00:35:22,192 INFO  DownloadService - Downloading "https://github.com/3llomi/RecordView/archive/master.zip", attempt 3
+2018-09-02 00:35:25,308 INFO  DownloadService - Downloaded https://github.com/3llomi/RecordView/archive/master.zip, attempt 3
+2018-09-02 00:35:25,308 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/master.zip": 9 MB
+2018-09-02 00:35:25,308 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-02 00:35:25,310 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/master.zip: true
+2018-09-02 00:35:25,311 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src'.
+2018-09-02 00:35:25,396 INFO  FullProcessService - Size of directory with sources: 10 MB
+2018-09-02 00:35:25,396 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src]
+2018-09-02 00:35:25,425 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/.git/
+
+2018-09-02 00:35:25,429 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/gradlew
+2018-09-02 00:35:25,432 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/record-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/build.gradle
+2018-09-02 00:35:25,435 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/record-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/settings.gradle
+2018-09-02 00:35:25,436 INFO  ProjectBuildService - Remote scripts: none
+2018-09-02 00:35:25,436 INFO  ProjectFixService - Fixing project...
+2018-09-02 00:35:25,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/app/local.properties
+2018-09-02 00:35:25,445 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-02 00:35:25,446 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/record-view/local.properties
+2018-09-02 00:35:25,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/record-view/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-02 00:35:25,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/local.properties
+2018-09-02 00:35:25,448 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-02 00:35:25,448 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-02 00:35:25,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-02 00:35:25,450 INFO  ProjectFixService - Project was maybe fixed
+2018-09-02 00:35:25,450 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-02 00:35:25,450 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-02 00:35:33,767 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-02 00:35:33,767 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-02 00:35:33,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-02 00:35:57,893 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:record-view:preBuild UP-TO-DATE
+:record-view:preDebugBuild UP-TO-DATE
+:record-view:checkDebugManifest
+:record-view:processDebugManifest
+:app:preDebugBuild
+:record-view:compileDebugAidl
+:app:compileDebugAidl
+:record-view:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:record-view:compileDebugRenderscript
+:record-view:generateDebugResValues
+:record-view:generateDebugResources
+:record-view:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:record-view:platformAttrExtractor
+:record-view:generateDebugBuildConfig
+:record-view:prepareLintJar
+:record-view:javaPreCompileDebug
+:record-view:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:record-view:generateDebugSources
+:record-view:compileDebugJavaWithJavac
+:record-view:processDebugJavaRes NO-SOURCE
+:record-view:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:record-view:mergeDebugShaders
+:record-view:compileDebugShaders
+:record-view:generateDebugAssets
+:record-view:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:record-view:compileDebugNdk NO-SOURCE
+:record-view:mergeDebugJniLibFolders
+:record-view:transformNativeLibsWithMergeJniLibsForDebug
+:record-view:transformNativeLibsWithStripDebugSymbolForDebug
+:record-view:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:record-view:preReleaseBuild UP-TO-DATE
+:record-view:checkReleaseManifest
+:record-view:processReleaseManifest
+:app:preReleaseBuild
+:record-view:compileReleaseAidl
+:app:compileReleaseAidl
+:record-view:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:record-view:compileReleaseRenderscript
+:record-view:generateReleaseResValues
+:record-view:generateReleaseResources
+:record-view:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:record-view:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:record-view:generateReleaseBuildConfig
+:record-view:generateReleaseSources
+:record-view:javaPreCompileRelease
+:record-view:compileReleaseJavaWithJavac
+:record-view:processReleaseJavaRes NO-SOURCE
+:record-view:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:record-view:mergeReleaseShaders
+:record-view:compileReleaseShaders
+:record-view:generateReleaseAssets
+:record-view:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:record-view:compileReleaseNdk NO-SOURCE
+:record-view:mergeReleaseJniLibFolders
+:record-view:transformNativeLibsWithMergeJniLibsForRelease
+:record-view:transformNativeLibsWithStripDebugSymbolForRelease
+:record-view:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 23s
+91 actionable tasks: 91 executed
+
+2018-09-02 00:35:57,960 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535823322189-0/src/RecordView-master/app/build/outputs/apk/debug/app-debug.apk

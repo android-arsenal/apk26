@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.uzias.starwarsshop",
+    "label" : "Star Wars Shop",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 6455,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.uzias.starwarsshop\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Star Wars Shop\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.uzias.starwarsshop.core.application.StarWarsShopApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.uzias.starwarsshop.menu.presentation.view.MenuActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.cooltechworks.creditcarddesign.CardEditActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.uzias.starwarsshop.checkout.presentation.view.CheckoutActivity\" android:screenOrientation=\"portrait\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<provider android:name=\"android.arch.lifecycle.ProcessLifecycleOwnerInitializer\" android:exported=\"false\" android:multiprocess=\"true\" android:authorities=\"com.uzias.starwarsshop.lifecycle-trojan\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 10116840,
+  "crc32" : 2455025175,
+  "sha256" : "647d497ab754c4e662cddca078a7abd8a0092a66ba299f5c6fd726c651d9039f",
+  "buildTime" : 1521663386000
+}

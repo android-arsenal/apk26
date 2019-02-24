@@ -1,0 +1,591 @@
+2018-12-14 12:47:24,703 INFO  DownloadService - Downloading "https://github.com/humazed/RoomAsset/archive/master.zip", attempt 3
+2018-12-14 12:47:25,836 INFO  DownloadService - Downloaded https://github.com/humazed/RoomAsset/archive/master.zip, attempt 3
+2018-12-14 12:47:25,836 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/master.zip": 538 KB
+2018-12-14 12:47:25,836 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-14 12:47:25,842 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/master.zip: true
+2018-12-14 12:47:25,843 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src'.
+2018-12-14 12:47:25,873 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-12-14 12:47:25,873 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src]
+2018-12-14 12:47:25,890 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/.git/
+
+2018-12-14 12:47:25,893 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew
+2018-12-14 12:47:25,897 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/build.gradle
+2018-12-14 12:47:25,901 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/settings.gradle
+2018-12-14 12:47:25,902 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2018-12-14 12:47:26,677 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2018-12-14 12:47:26,677 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2018-12-14 12:47:26,773 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2018-12-14 12:47:26,774 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2018-12-14 12:47:26,774 INFO  ProjectFixService - Fixing project...
+2018-12-14 12:47:26,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/local.properties
+2018-12-14 12:47:26,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-14 12:47:26,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-14 12:47:26,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/local.properties
+2018-12-14 12:47:26,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-14 12:47:26,788 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-14 12:47:26,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/local.properties
+2018-12-14 12:47:26,789 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-14 12:47:26,789 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-14 12:47:26,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-14 12:47:26,791 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-14 12:47:26,791 INFO  ProjectFixService - Project was maybe fixed
+2018-12-14 12:47:26,791 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-14 12:47:26,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-14 12:47:32,749 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-12-14 12:47:32,749 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-14 12:47:32,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-14 12:47:38,334 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-14 12:47:38,334 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':room-asset'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':room-asset'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2018-12-14 12:47:38,334 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-12-14 12:47:38,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-14 12:48:03,231 INFO  SysUtils - Configuration on demand is an incubating feature.
+:room-asset:preBuild UP-TO-DATE
+:room-asset:preDebugBuild UP-TO-DATE
+:room-asset:compileDebugAidl
+:room-asset:compileDebugRenderscript
+:room-asset:checkDebugManifest
+:room-asset:generateDebugBuildConfig
+:room-asset:generateDebugResValues
+:room-asset:generateDebugResources
+:room-asset:packageDebugResources
+:room-asset:platformAttrExtractor
+:room-asset:processDebugManifest
+:room-asset:prepareLintJar
+:room-asset:mergeDebugConsumerProguardFiles
+:room-asset:mergeDebugShaders
+:room-asset:compileDebugShaders
+:room-asset:generateDebugAssets
+:room-asset:packageDebugAssets
+:room-asset:packageDebugRenderscript NO-SOURCE
+:room-asset:processDebugJavaRes NO-SOURCE
+:room-asset:compileDebugNdk NO-SOURCE
+:room-asset:mergeDebugJniLibFolders
+:room-asset:transformNativeLibsWithMergeJniLibsForDebug
+:room-asset:transformNativeLibsWithStripDebugSymbolForDebug
+:room-asset:transformNativeLibsWithSyncJniLibsForDebug
+:room-asset:preReleaseBuild UP-TO-DATE
+:room-asset:compileReleaseAidl
+:room-asset:compileReleaseRenderscript
+:room-asset:checkReleaseManifest
+:room-asset:generateReleaseBuildConfig
+:room-asset:generateReleaseResValues
+:room-asset:generateReleaseResources
+:room-asset:packageReleaseResources
+:room-asset:processReleaseManifest
+:room-asset:mergeReleaseConsumerProguardFiles
+:room-asset:mergeReleaseShaders
+:room-asset:compileReleaseShaders
+:room-asset:generateReleaseAssets
+:room-asset:packageReleaseAssets
+:room-asset:packageReleaseRenderscript NO-SOURCE
+:room-asset:processReleaseJavaRes NO-SOURCE
+:room-asset:compileReleaseNdk NO-SOURCE
+:room-asset:mergeReleaseJniLibFolders
+:room-asset:transformNativeLibsWithMergeJniLibsForRelease
+:room-asset:transformNativeLibsWithStripDebugSymbolForRelease
+:room-asset:transformNativeLibsWithSyncJniLibsForRelease
+:room-asset:mergeReleaseResources
+:room-asset:verifyReleaseResources
+:room-asset:preDebugUnitTestBuild UP-TO-DATE
+:room-asset:mockableAndroidJar
+:room-asset:processDebugUnitTestJavaRes NO-SOURCE
+:room-asset:preReleaseUnitTestBuild UP-TO-DATE
+:room-asset:processReleaseUnitTestJavaRes NO-SOURCE
+:room-asset:generateDebugRFile
+:room-asset:compileDebugKotlin
+:room-asset:generateDebugSources
+:room-asset:javaPreCompileDebug
+:room-asset:compileDebugJavaWithJavac
+:room-asset:extractDebugAnnotations
+:room-asset:transformResourcesWithMergeJavaResForDebug
+:room-asset:transformClassesAndResourcesWithSyncLibJarsForDebug
+:room-asset:bundleDebug
+:room-asset:compileDebugSources
+:room-asset:assembleDebug
+:room-asset:generateReleaseRFile
+:room-asset:compileReleaseKotlin
+:room-asset:generateReleaseSources
+:room-asset:javaPreCompileRelease
+:room-asset:compileReleaseJavaWithJavac
+:room-asset:extractReleaseAnnotations
+:room-asset:transformResourcesWithMergeJavaResForRelease
+:room-asset:transformClassesAndResourcesWithSyncLibJarsForRelease
+:room-asset:bundleRelease
+:room-asset:compileReleaseSources
+:room-asset:assembleRelease
+:room-asset:assemble
+:room-asset:lint
+Ran lint on variant release: 2 issues found
+Ran lint on variant debug: 2 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build/reports/lint-results.xml
+:room-asset:compileDebugUnitTestKotlin
+:room-asset:javaPreCompileDebugUnitTest
+:room-asset:compileDebugUnitTestJavaWithJavac
+:room-asset:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:room-asset:testDebugUnitTest
+:room-asset:compileReleaseUnitTestKotlin
+:room-asset:javaPreCompileReleaseUnitTest
+:room-asset:compileReleaseUnitTestJavaWithJavac
+:room-asset:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:room-asset:testReleaseUnitTest
+:room-asset:test
+:room-asset:check
+:room-asset:build
+
+BUILD SUCCESSFUL in 24s
+62 actionable tasks: 62 executed
+
+2018-12-14 12:48:03,263 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-14 12:48:03,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-14 12:48:08,899 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-14 12:48:08,899 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-14 12:48:08,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-14 12:48:14,306 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-14 12:48:14,307 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':sample'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':sample'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 5s
+
+2018-12-14 12:48:14,307 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-12-14 12:48:14,307 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-12-14 12:49:03,711 INFO  SysUtils - Configuration on demand is an incubating feature.
+:room-asset:preBuild UP-TO-DATE
+:room-asset:preDebugBuild UP-TO-DATE
+:room-asset:compileDebugAidl UP-TO-DATE
+:room-asset:compileDebugRenderscript UP-TO-DATE
+:room-asset:checkDebugManifest UP-TO-DATE
+:room-asset:generateDebugBuildConfig UP-TO-DATE
+:room-asset:generateDebugResValues UP-TO-DATE
+:room-asset:generateDebugResources UP-TO-DATE
+:room-asset:packageDebugResources UP-TO-DATE
+:room-asset:platformAttrExtractor UP-TO-DATE
+:room-asset:processDebugManifest UP-TO-DATE
+:room-asset:generateDebugRFile UP-TO-DATE
+:room-asset:compileDebugKotlin UP-TO-DATE
+:room-asset:prepareLintJar UP-TO-DATE
+:room-asset:generateDebugSources UP-TO-DATE
+:room-asset:javaPreCompileDebug UP-TO-DATE
+:room-asset:compileDebugJavaWithJavac UP-TO-DATE
+:room-asset:processDebugJavaRes NO-SOURCE
+:room-asset:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:room-asset:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:kaptGenerateStubsDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-commons/0.10.4/anko-appcompat-v7-commons-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko/0.10.4/anko-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4-commons/0.10.4/anko-support-v4-commons-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sqlite/0.10.4/anko-sqlite-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-coroutines/0.10.4/anko-appcompat-v7-coroutines-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4/0.10.4/anko-support-v4-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-commons/0.10.4/anko-commons-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-coroutines/0.10.4/anko-coroutines-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-android/0.15/kotlinx-coroutines-android-0.15.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7/0.10.4/anko-appcompat-v7-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk25-coroutines/0.10.4/anko-sdk25-coroutines-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk25/0.10.4/anko-sdk25-0.10.4.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-core/0.15/kotlinx-coroutines-core-0.15.jar
+:sample:kaptDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Customers {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Customers.java:7: warning: SupportRepId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class Customers {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Employees {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Employees.java:7: warning: ReportsTo column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class Employees {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Customers {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Employees {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
+                ^
+:sample:compileDebugKotlin
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:room-asset:mergeDebugShaders UP-TO-DATE
+:room-asset:compileDebugShaders UP-TO-DATE
+:room-asset:generateDebugAssets UP-TO-DATE
+:room-asset:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 13 methods.
+D8: Stripped invalid locals information from 16 methods.
+D8: Stripped invalid locals information from 14 methods.
+D8: Stripped invalid locals information from 11 methods.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 13 methods.
+D8: Stripped invalid locals information from 4 methods.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 2 methods.
+D8: Stripped invalid locals information from 2 methods.
+D8: Stripped invalid locals information from 2 methods.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:room-asset:compileDebugNdk NO-SOURCE
+:room-asset:mergeDebugJniLibFolders UP-TO-DATE
+:room-asset:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:room-asset:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:room-asset:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:room-asset:preReleaseBuild UP-TO-DATE
+:room-asset:compileReleaseAidl UP-TO-DATE
+:room-asset:compileReleaseRenderscript UP-TO-DATE
+:room-asset:checkReleaseManifest UP-TO-DATE
+:room-asset:generateReleaseBuildConfig UP-TO-DATE
+:room-asset:generateReleaseResValues UP-TO-DATE
+:room-asset:generateReleaseResources UP-TO-DATE
+:room-asset:packageReleaseResources UP-TO-DATE
+:room-asset:processReleaseManifest UP-TO-DATE
+:room-asset:generateReleaseRFile UP-TO-DATE
+:room-asset:compileReleaseKotlin UP-TO-DATE
+:room-asset:generateReleaseSources UP-TO-DATE
+:room-asset:javaPreCompileRelease UP-TO-DATE
+:room-asset:compileReleaseJavaWithJavac UP-TO-DATE
+:room-asset:processReleaseJavaRes NO-SOURCE
+:room-asset:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:room-asset:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:kaptGenerateStubsReleaseKotlin
+:sample:kaptReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Customers {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Customers.java:7: warning: SupportRepId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class Customers {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Employees {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Employees.java:7: warning: ReportsTo column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+public final class Employees {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Customers {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Employees {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
+                ^
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease SKIPPED
+:room-asset:mergeReleaseShaders UP-TO-DATE
+:room-asset:compileReleaseShaders UP-TO-DATE
+:room-asset:generateReleaseAssets UP-TO-DATE
+:room-asset:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:room-asset:compileReleaseNdk NO-SOURCE
+:room-asset:mergeReleaseJniLibFolders UP-TO-DATE
+:room-asset:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:room-asset:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:room-asset:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:lint
+Ran lint on variant release: 11 issues found
+Ran lint on variant debug: 11 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/reports/lint-results.xml
+:sample:kaptGenerateStubsDebugUnitTestKotlin
+:sample:kaptDebugUnitTestKotlin
+:sample:compileDebugUnitTestKotlin
+:sample:preDebugUnitTestBuild UP-TO-DATE
+:sample:javaPreCompileDebugUnitTest
+:sample:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:sample:mockableAndroidJar
+:sample:processDebugUnitTestJavaRes NO-SOURCE
+:sample:testDebugUnitTest
+:sample:kaptGenerateStubsReleaseUnitTestKotlin
+:sample:kaptReleaseUnitTestKotlin
+:sample:compileReleaseUnitTestKotlin
+:sample:preReleaseUnitTestBuild UP-TO-DATE
+:sample:javaPreCompileReleaseUnitTest
+:sample:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:sample:processReleaseUnitTestJavaRes NO-SOURCE
+:sample:testReleaseUnitTest
+:sample:test
+:sample:check
+:sample:build
+
+BUILD SUCCESSFUL in 48s
+110 actionable tasks: 72 executed, 38 up-to-date
+
+2018-12-14 12:49:03,812 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

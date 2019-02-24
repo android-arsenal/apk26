@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.pspdfkit.labs.quickdemo",
+    "label" : "QuickDemo",
+    "icon" : "res/drawable/ic_launcher.xml",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "23",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.DUMP", "android.permission.EXPAND_STATUS_BAR" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 3650,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.pspdfkit.labs.quickdemo\">\n\t<uses-sdk android:minSdkVersion=\"23\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.DUMP\" />\n\t<uses-permission android:name=\"android.permission.EXPAND_STATUS_BAR\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"QuickDemo\" android:icon=\"res/drawable/ic_launcher.xml\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<service android:label=\"Demo mode\" android:icon=\"res/drawable/ic_demo_mode.xml\" android:name=\"com.pspdfkit.labs.quickdemo.service.DemoModeTileService\" android:permission=\"android.permission.BIND_QUICK_SETTINGS_TILE\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.service.quicksettings.action.QS_TILE\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<activity android:label=\"QuickDemo Settings\" android:name=\"com.pspdfkit.labs.quickdemo.activity.ConfigurationActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.pspdfkit.labs.quickdemo.activity.SetupGuideActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2434422,
+  "crc32" : 582401991,
+  "sha256" : "f97c07addc6547db07e09fd74f12ccccbd0f1b258fdc251057b9a095eb11b547",
+  "buildTime" : 1535705238000
+}

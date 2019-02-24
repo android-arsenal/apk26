@@ -1,0 +1,162 @@
+2018-08-31 18:05:36,565 INFO  DownloadService - Downloading "https://github.com/mohanmanu484/RibbonView/archive/master.zip", attempt 3
+2018-08-31 18:05:38,644 INFO  DownloadService - Downloaded https://github.com/mohanmanu484/RibbonView/archive/master.zip, attempt 3
+2018-08-31 18:05:38,645 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/master.zip": 4 MB
+2018-08-31 18:05:38,645 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 18:05:38,646 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/master.zip: true
+2018-08-31 18:05:38,646 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src'.
+2018-08-31 18:05:38,690 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-08-31 18:05:38,690 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src]
+2018-08-31 18:05:38,706 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/.git/
+
+2018-08-31 18:05:38,709 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/gradlew
+2018-08-31 18:05:38,712 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/ribbonview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/build.gradle
+2018-08-31 18:05:38,716 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/ribbonview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/settings.gradle
+2018-08-31 18:05:38,716 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 18:05:38,716 INFO  ProjectFixService - Fixing project...
+2018-08-31 18:05:38,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/app/local.properties
+2018-08-31 18:05:38,725 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:05:38,725 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:05:38,725 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/ribbonview/local.properties
+2018-08-31 18:05:38,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/ribbonview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:05:38,726 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/ribbonview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:05:38,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/local.properties
+2018-08-31 18:05:38,727 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 18:05:38,728 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 18:05:38,729 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:05:38,729 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:05:38,729 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 18:05:38,729 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 18:05:38,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 18:05:45,767 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 18:05:45,767 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 18:05:45,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 18:06:20,514 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:ribbonview:preBuild UP-TO-DATE
+:ribbonview:preDebugBuild UP-TO-DATE
+:ribbonview:checkDebugManifest
+:ribbonview:processDebugManifest
+:app:preDebugBuild
+:ribbonview:compileDebugAidl
+:app:compileDebugAidl
+:ribbonview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:ribbonview:compileDebugRenderscript
+:ribbonview:generateDebugResValues
+:ribbonview:generateDebugResources
+:ribbonview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:ribbonview:platformAttrExtractor
+:ribbonview:generateDebugBuildConfig
+:ribbonview:prepareLintJar
+:ribbonview:javaPreCompileDebug
+:ribbonview:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:ribbonview:mergeDebugShaders
+:ribbonview:compileDebugShaders
+:ribbonview:generateDebugAssets
+:ribbonview:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:ribbonview:compileDebugNdk NO-SOURCE
+:ribbonview:mergeDebugJniLibFolders
+:ribbonview:transformNativeLibsWithMergeJniLibsForDebug
+:ribbonview:transformNativeLibsWithStripDebugSymbolForDebug
+:ribbonview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:ribbonview:preReleaseBuild UP-TO-DATE
+:ribbonview:checkReleaseManifest
+:ribbonview:processReleaseManifest
+:app:preReleaseBuild
+:ribbonview:compileReleaseAidl
+:app:compileReleaseAidl
+:ribbonview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:ribbonview:compileReleaseRenderscript
+:ribbonview:generateReleaseResValues
+:ribbonview:generateReleaseResources
+:ribbonview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:ribbonview:generateReleaseBuildConfig
+:ribbonview:javaPreCompileRelease
+:ribbonview:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:ribbonview:mergeReleaseShaders
+:ribbonview:compileReleaseShaders
+:ribbonview:generateReleaseAssets
+:ribbonview:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:ribbonview:compileReleaseNdk NO-SOURCE
+:ribbonview:mergeReleaseJniLibFolders
+:ribbonview:transformNativeLibsWithMergeJniLibsForRelease
+:ribbonview:transformNativeLibsWithStripDebugSymbolForRelease
+:ribbonview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:ribbonview:processDebugResources
+:app:processDebugResources
+:ribbonview:generateDebugSources
+:ribbonview:compileDebugJavaWithJavac
+:ribbonview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+Using Kotlin incremental compilation
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:ribbonview:processReleaseResources
+:app:processReleaseResources
+:ribbonview:generateReleaseSources
+:ribbonview:compileReleaseJavaWithJavac
+:ribbonview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+Using Kotlin incremental compilation
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 33s
+90 actionable tasks: 90 executed
+
+2018-08-31 18:06:20,590 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713536562-0/src/RibbonView-master/app/build/outputs/apk/debug/app-debug.apk

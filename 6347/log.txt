@@ -1,0 +1,249 @@
+2018-08-31 21:51:56,742 INFO  DownloadService - Downloading "https://github.com/hypeapps/MaterialTimelineView/archive/master.zip", attempt 3
+2018-08-31 21:51:57,231 INFO  DownloadService - Downloaded https://github.com/hypeapps/MaterialTimelineView/archive/master.zip, attempt 3
+2018-08-31 21:51:57,231 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/master.zip": 312 KB
+2018-08-31 21:51:57,231 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 21:51:57,237 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/master.zip: true
+2018-08-31 21:51:57,237 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src'.
+2018-08-31 21:51:57,264 INFO  FullProcessService - Size of directory with sources: 441 KB
+2018-08-31 21:51:57,264 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src]
+2018-08-31 21:51:57,280 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/.git/
+
+2018-08-31 21:51:57,283 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew
+2018-08-31 21:51:57,286 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/build.gradle
+2018-08-31 21:51:57,288 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/settings.gradle
+2018-08-31 21:51:57,289 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 21:51:57,289 INFO  ProjectFixService - Fixing project...
+2018-08-31 21:51:57,296 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/local.properties
+2018-08-31 21:51:57,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2018-08-31 21:51:57,298 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2018-08-31 21:51:57,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/local.properties
+2018-08-31 21:51:57,302 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2018-08-31 21:51:57,302 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2018-08-31 21:51:57,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/local.properties
+2018-08-31 21:51:57,303 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-31 21:51:57,303 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-31 21:51:57,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2018-08-31 21:51:57,304 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
+2018-08-31 21:51:57,304 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 21:51:57,304 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:51:57,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:52:04,510 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-31 21:52:04,510 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 21:52:04,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 21:52:21,769 INFO  SysUtils - Configuration on demand is an incubating feature.
+:materialtimelineview:preBuild UP-TO-DATE
+:materialtimelineview:preDebugBuild UP-TO-DATE
+:materialtimelineview:compileDebugAidl
+:materialtimelineview:compileDebugRenderscript
+:materialtimelineview:checkDebugManifest
+:materialtimelineview:generateDebugBuildConfig
+:materialtimelineview:generateDebugResValues
+:materialtimelineview:generateDebugResources
+:materialtimelineview:packageDebugResources
+:materialtimelineview:platformAttrExtractor
+:materialtimelineview:processDebugManifest
+:materialtimelineview:prepareLintJar
+:materialtimelineview:mergeDebugConsumerProguardFiles
+:materialtimelineview:mergeDebugShaders
+:materialtimelineview:compileDebugShaders
+:materialtimelineview:generateDebugAssets
+:materialtimelineview:packageDebugAssets
+:materialtimelineview:packageDebugRenderscript NO-SOURCE
+:materialtimelineview:processDebugJavaRes NO-SOURCE
+:materialtimelineview:compileDebugNdk NO-SOURCE
+:materialtimelineview:mergeDebugJniLibFolders
+:materialtimelineview:transformNativeLibsWithMergeJniLibsForDebug
+:materialtimelineview:transformNativeLibsWithStripDebugSymbolForDebug
+:materialtimelineview:transformNativeLibsWithSyncJniLibsForDebug
+:materialtimelineview:preReleaseBuild UP-TO-DATE
+:materialtimelineview:compileReleaseAidl
+:materialtimelineview:compileReleaseRenderscript
+:materialtimelineview:checkReleaseManifest
+:materialtimelineview:generateReleaseBuildConfig
+:materialtimelineview:generateReleaseResValues
+:materialtimelineview:generateReleaseResources
+:materialtimelineview:packageReleaseResources
+:materialtimelineview:processReleaseManifest
+:materialtimelineview:mergeReleaseConsumerProguardFiles
+:materialtimelineview:mergeReleaseShaders
+:materialtimelineview:compileReleaseShaders
+:materialtimelineview:generateReleaseAssets
+:materialtimelineview:packageReleaseAssets
+:materialtimelineview:packageReleaseRenderscript NO-SOURCE
+:materialtimelineview:processReleaseJavaRes NO-SOURCE
+:materialtimelineview:compileReleaseNdk NO-SOURCE
+:materialtimelineview:mergeReleaseJniLibFolders
+:materialtimelineview:transformNativeLibsWithMergeJniLibsForRelease
+:materialtimelineview:transformNativeLibsWithStripDebugSymbolForRelease
+:materialtimelineview:transformNativeLibsWithSyncJniLibsForRelease
+:materialtimelineview:mergeReleaseResources
+:materialtimelineview:verifyReleaseResources
+:materialtimelineview:javadoc SKIPPED
+:materialtimelineview:javadocJar
+:materialtimelineview:sourcesJar
+:materialtimelineview:generateDebugRFile
+:materialtimelineview:compileDebugKotlin
+:materialtimelineview:generateDebugSources
+:materialtimelineview:javaPreCompileDebug
+:materialtimelineview:compileDebugJavaWithJavac
+:materialtimelineview:extractDebugAnnotations
+:materialtimelineview:transformResourcesWithMergeJavaResForDebug
+:materialtimelineview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:materialtimelineview:bundleDebug
+:materialtimelineview:compileDebugSources
+:materialtimelineview:assembleDebug
+:materialtimelineview:generateReleaseRFile
+:materialtimelineview:compileReleaseKotlin
+:materialtimelineview:generateReleaseSources
+:materialtimelineview:javaPreCompileRelease
+:materialtimelineview:compileReleaseJavaWithJavac
+:materialtimelineview:extractReleaseAnnotations
+:materialtimelineview:transformResourcesWithMergeJavaResForRelease
+:materialtimelineview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:materialtimelineview:bundleRelease
+:materialtimelineview:compileReleaseSources
+:materialtimelineview:assembleRelease
+:materialtimelineview:assemble
+:materialtimelineview:build
+
+BUILD SUCCESSFUL in 16s
+52 actionable tasks: 52 executed
+
+2018-08-31 21:52:21,786 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:52:21,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:52:27,996 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 21:52:27,997 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 21:52:27,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 21:53:09,499 INFO  SysUtils - Configuration on demand is an incubating feature.
+:materialtimelineview:preBuild UP-TO-DATE
+:materialtimelineview:preDebugBuild UP-TO-DATE
+:materialtimelineview:compileDebugAidl UP-TO-DATE
+:materialtimelineview:compileDebugRenderscript UP-TO-DATE
+:materialtimelineview:checkDebugManifest UP-TO-DATE
+:materialtimelineview:generateDebugBuildConfig UP-TO-DATE
+:materialtimelineview:generateDebugResValues UP-TO-DATE
+:materialtimelineview:generateDebugResources UP-TO-DATE
+:materialtimelineview:packageDebugResources UP-TO-DATE
+:materialtimelineview:platformAttrExtractor UP-TO-DATE
+:materialtimelineview:processDebugManifest UP-TO-DATE
+:materialtimelineview:generateDebugRFile UP-TO-DATE
+:materialtimelineview:compileDebugKotlin UP-TO-DATE
+:materialtimelineview:prepareLintJar UP-TO-DATE
+:materialtimelineview:generateDebugSources UP-TO-DATE
+:materialtimelineview:javaPreCompileDebug UP-TO-DATE
+:materialtimelineview:compileDebugJavaWithJavac UP-TO-DATE
+:materialtimelineview:processDebugJavaRes NO-SOURCE
+:materialtimelineview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:materialtimelineview:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:materialtimelineview:mergeDebugShaders UP-TO-DATE
+:materialtimelineview:compileDebugShaders UP-TO-DATE
+:materialtimelineview:generateDebugAssets UP-TO-DATE
+:materialtimelineview:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:materialtimelineview:compileDebugNdk NO-SOURCE
+:materialtimelineview:mergeDebugJniLibFolders UP-TO-DATE
+:materialtimelineview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:materialtimelineview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:materialtimelineview:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:materialtimelineview:preReleaseBuild UP-TO-DATE
+:materialtimelineview:compileReleaseAidl UP-TO-DATE
+:materialtimelineview:compileReleaseRenderscript UP-TO-DATE
+:materialtimelineview:checkReleaseManifest UP-TO-DATE
+:materialtimelineview:generateReleaseBuildConfig UP-TO-DATE
+:materialtimelineview:generateReleaseResValues UP-TO-DATE
+:materialtimelineview:generateReleaseResources UP-TO-DATE
+:materialtimelineview:packageReleaseResources UP-TO-DATE
+:materialtimelineview:processReleaseManifest UP-TO-DATE
+:materialtimelineview:generateReleaseRFile UP-TO-DATE
+:materialtimelineview:compileReleaseKotlin UP-TO-DATE
+:materialtimelineview:generateReleaseSources UP-TO-DATE
+:materialtimelineview:javaPreCompileRelease UP-TO-DATE
+:materialtimelineview:compileReleaseJavaWithJavac UP-TO-DATE
+:materialtimelineview:processReleaseJavaRes NO-SOURCE
+:materialtimelineview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:materialtimelineview:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:materialtimelineview:mergeReleaseShaders UP-TO-DATE
+:materialtimelineview:compileReleaseShaders UP-TO-DATE
+:materialtimelineview:generateReleaseAssets UP-TO-DATE
+:materialtimelineview:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:materialtimelineview:compileReleaseNdk NO-SOURCE
+:materialtimelineview:mergeReleaseJniLibFolders UP-TO-DATE
+:materialtimelineview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:materialtimelineview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:materialtimelineview:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 40s
+95 actionable tasks: 59 executed, 36 up-to-date
+
+2018-08-31 21:53:09,584 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

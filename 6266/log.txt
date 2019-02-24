@@ -1,0 +1,173 @@
+2018-10-30 16:24:03,746 INFO  DownloadService - Downloading "https://github.com/ThanosFisherman/WifiUtils/archive/master.zip", attempt 3
+2018-10-30 16:25:04,704 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-10-30 16:25:06,120 INFO  GithubDownloadService - Default branch of this repository: master
+2018-10-30 16:25:06,120 INFO  DownloadService - Downloading "https://github.com/ThanosFisherman/WifiUtils/archive/master.zip", attempt 3
+2018-10-30 16:26:07,692 DEBUG FullProcessService - Repository https://github.com/ThanosFisherman/WifiUtils available: true
+2018-10-30 16:26:07,692 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-10-30 16:26:07,692 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ThanosFisherman/WifiUtils, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src]
+2018-10-30 16:26:09,794 INFO  SysUtils - 
+2018-10-30 16:26:09,802 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/.git": true
+2018-10-30 16:26:09,806 INFO  FullProcessService - Size of directory with sources: 230 KB
+2018-10-30 16:26:09,806 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src]
+2018-10-30 16:26:09,823 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/.git/
+
+2018-10-30 16:26:09,826 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/gradlew
+2018-10-30 16:26:09,830 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/build.gradle
+2018-10-30 16:26:09,833 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/settings.gradle
+2018-10-30 16:26:09,834 INFO  ProjectBuildService - Remote scripts: none
+2018-10-30 16:26:09,834 INFO  ProjectFixService - Fixing project...
+2018-10-30 16:26:09,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/local.properties
+2018-10-30 16:26:09,844 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-30 16:26:09,845 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/local.properties
+2018-10-30 16:26:09,846 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-30 16:26:09,846 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/local.properties
+2018-10-30 16:26:09,846 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-30 16:26:09,847 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-30 16:26:09,847 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-30 16:26:09,847 INFO  ProjectFixService - Project was maybe fixed
+2018-10-30 16:26:09,847 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-30 16:26:09,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-30 16:26:18,122 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-10-30 16:26:18,122 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-30 16:26:18,123 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-30 16:26:59,651 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/com/thanosfisherman/elvis/elvis/2.0/elvis-2.0.pom
+:sample:checkDebugClasspath
+Download https://jcenter.bintray.com/com/thanosfisherman/elvis/elvis/2.0/elvis-2.0.jar
+:sample:preBuild UP-TO-DATE
+:wifiutils:preBuild UP-TO-DATE
+:wifiutils:preDebugBuild UP-TO-DATE
+:wifiutils:checkDebugManifest
+:wifiutils:processDebugManifest
+:sample:preDebugBuild
+:wifiutils:compileDebugAidl NO-SOURCE
+:sample:compileDebugAidl NO-SOURCE
+:wifiutils:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:wifiutils:compileDebugRenderscript
+:wifiutils:generateDebugResValues
+:wifiutils:generateDebugResources
+:wifiutils:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:wifiutils:generateDebugRFile
+:sample:processDebugResources
+:sample:generateDebugSources
+:wifiutils:generateDebugBuildConfig
+:wifiutils:prepareLintJar
+:wifiutils:generateDebugSources
+:wifiutils:javaPreCompileDebug
+:wifiutils:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:wifiutils:processDebugJavaRes NO-SOURCE
+:wifiutils:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:wifiutils:mergeDebugShaders
+:wifiutils:compileDebugShaders
+:wifiutils:generateDebugAssets
+:wifiutils:packageDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:mergeDebugJniLibFolders
+:wifiutils:compileDebugNdk NO-SOURCE
+:wifiutils:mergeDebugJniLibFolders
+:wifiutils:transformNativeLibsWithMergeJniLibsForDebug
+:wifiutils:transformNativeLibsWithStripDebugSymbolForDebug
+:wifiutils:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseClasspath
+:wifiutils:preReleaseBuild UP-TO-DATE
+:wifiutils:checkReleaseManifest
+:wifiutils:processReleaseManifest
+:sample:preReleaseBuild
+:wifiutils:compileReleaseAidl NO-SOURCE
+:sample:compileReleaseAidl NO-SOURCE
+:wifiutils:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:wifiutils:compileReleaseRenderscript
+:wifiutils:generateReleaseResValues
+:wifiutils:generateReleaseResources
+:wifiutils:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:wifiutils:generateReleaseRFile
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:wifiutils:generateReleaseBuildConfig
+:wifiutils:generateReleaseSources
+:wifiutils:javaPreCompileRelease
+:wifiutils:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:wifiutils:processReleaseJavaRes NO-SOURCE
+:wifiutils:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/androidx/test/ext/junit/1.0.0-beta02/junit-1.0.0-beta02.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/ext/junit/1.0.0-beta02/junit-1.0.0-beta02.aar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e5fa80827357510712b928a080229917/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:wifiutils:mergeReleaseShaders
+:wifiutils:compileReleaseShaders
+:wifiutils:generateReleaseAssets
+:wifiutils:packageReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:sample:mergeReleaseJniLibFolders
+:wifiutils:compileReleaseNdk NO-SOURCE
+:wifiutils:mergeReleaseJniLibFolders
+:wifiutils:transformNativeLibsWithMergeJniLibsForRelease
+:wifiutils:transformNativeLibsWithStripDebugSymbolForRelease
+:wifiutils:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 41s
+90 actionable tasks: 90 executed
+
+2018-10-30 16:26:59,725 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

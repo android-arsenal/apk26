@@ -1,0 +1,230 @@
+2018-09-01 18:10:10,144 INFO  DownloadService - Downloading "https://github.com/aprofromindia/android-mvvm/archive/master.zip", attempt 3
+2018-09-01 18:10:10,944 INFO  DownloadService - Downloaded https://github.com/aprofromindia/android-mvvm/archive/master.zip, attempt 3
+2018-09-01 18:10:10,944 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/master.zip": 120 KB
+2018-09-01 18:10:10,944 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 18:10:10,950 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/master.zip: true
+2018-09-01 18:10:10,950 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src'.
+2018-09-01 18:10:10,966 INFO  FullProcessService - Size of directory with sources: 140 KB
+2018-09-01 18:10:10,966 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src]
+2018-09-01 18:10:10,983 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/.git/
+
+2018-09-01 18:10:10,985 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/gradlew
+2018-09-01 18:10:10,987 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/build.gradle
+2018-09-01 18:10:10,989 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/settings.gradle
+2018-09-01 18:10:10,990 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 18:10:10,990 INFO  ProjectFixService - Fixing project...
+2018-09-01 18:10:10,995 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/local.properties
+2018-09-01 18:10:10,995 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 18:10:10,995 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 18:10:10,996 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-01 18:10:10,996 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/local.properties
+2018-09-01 18:10:10,996 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 18:10:10,997 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 18:10:10,997 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-09-01 18:10:10,997 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 18:10:10,997 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:10:10,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:10:18,536 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-01 18:10:18,536 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 18:10:18,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 18:10:28,628 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:android-mvvm:preBuild UP-TO-DATE
+:android-mvvm:preDebugBuild UP-TO-DATE
+:android-mvvm:checkDebugManifest
+:android-mvvm:preDebugAndroidTestBuild UP-TO-DATE
+:android-mvvm:preDebugUnitTestBuild UP-TO-DATE
+:android-mvvm:preReleaseBuild UP-TO-DATE
+:android-mvvm:preReleaseUnitTestBuild UP-TO-DATE
+:android-mvvm:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:android-mvvm:prepareComAndroidSupportAppcompatV72531Library
+:android-mvvm:prepareComAndroidSupportSupportCompat2531Library
+:android-mvvm:prepareComAndroidSupportSupportCoreUi2531Library
+:android-mvvm:prepareComAndroidSupportSupportCoreUtils2531Library
+:android-mvvm:prepareComAndroidSupportSupportFragment2531Library
+:android-mvvm:prepareComAndroidSupportSupportMediaCompat2531Library
+:android-mvvm:prepareComAndroidSupportSupportV42531Library
+:android-mvvm:prepareComAndroidSupportSupportVectorDrawable2531Library
+:android-mvvm:prepareDebugDependencies
+:android-mvvm:compileDebugAidl
+:android-mvvm:compileDebugNdk UP-TO-DATE
+:android-mvvm:compileLint
+:android-mvvm:copyDebugLint UP-TO-DATE
+:android-mvvm:compileDebugRenderscript
+:android-mvvm:generateDebugBuildConfig
+:android-mvvm:generateDebugResValues
+:android-mvvm:generateDebugResources
+:android-mvvm:mergeDebugResources
+:android-mvvm:processDebugManifest
+:android-mvvm:processDebugResources
+:android-mvvm:generateDebugSources
+:android-mvvm:incrementalDebugJavaCompilationSafeguard
+:android-mvvm:javaPreCompileDebug
+:android-mvvm:compileDebugJavaWithJavac
+:android-mvvm:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/src/main/java/com/github/aprofromindia/androidmvvm/FragmentUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:android-mvvm:extractDebugAnnotations
+:android-mvvm:mergeDebugShaders
+:android-mvvm:compileDebugShaders
+:android-mvvm:generateDebugAssets
+:android-mvvm:mergeDebugAssets
+:android-mvvm:mergeDebugProguardFiles
+:android-mvvm:packageDebugRenderscript UP-TO-DATE
+:android-mvvm:packageDebugResources
+:android-mvvm:processDebugJavaRes UP-TO-DATE
+:android-mvvm:transformResourcesWithMergeJavaResForDebug
+:android-mvvm:transformClassesAndResourcesWithSyncLibJarsForDebug
+:android-mvvm:mergeDebugJniLibFolders
+:android-mvvm:transformNativeLibsWithMergeJniLibsForDebug
+:android-mvvm:transformNativeLibsWithStripDebugSymbolForDebug
+:android-mvvm:transformNativeLibsWithSyncJniLibsForDebug
+:android-mvvm:bundleDebug
+:android-mvvm:compileDebugSources
+:android-mvvm:assembleDebug
+:android-mvvm:checkReleaseManifest
+:android-mvvm:prepareReleaseDependencies
+:android-mvvm:compileReleaseAidl
+:android-mvvm:compileReleaseNdk UP-TO-DATE
+:android-mvvm:copyReleaseLint UP-TO-DATE
+:android-mvvm:compileReleaseRenderscript
+:android-mvvm:generateReleaseBuildConfig
+:android-mvvm:generateReleaseResValues
+:android-mvvm:generateReleaseResources
+:android-mvvm:mergeReleaseResources
+:android-mvvm:processReleaseManifest
+:android-mvvm:processReleaseResources
+:android-mvvm:generateReleaseSources
+:android-mvvm:incrementalReleaseJavaCompilationSafeguard
+:android-mvvm:javaPreCompileRelease
+:android-mvvm:compileReleaseJavaWithJavac
+:android-mvvm:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/android-mvvm/src/main/java/com/github/aprofromindia/androidmvvm/FragmentUtils.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:android-mvvm:extractReleaseAnnotations
+:android-mvvm:mergeReleaseShaders
+:android-mvvm:compileReleaseShaders
+:android-mvvm:generateReleaseAssets
+:android-mvvm:mergeReleaseAssets
+:android-mvvm:mergeReleaseProguardFiles
+:android-mvvm:packageReleaseRenderscript UP-TO-DATE
+:android-mvvm:packageReleaseResources
+:android-mvvm:processReleaseJavaRes UP-TO-DATE
+:android-mvvm:transformResourcesWithMergeJavaResForRelease
+:android-mvvm:transformClassesAndResourcesWithSyncLibJarsForRelease
+:android-mvvm:mergeReleaseJniLibFolders
+:android-mvvm:transformNativeLibsWithMergeJniLibsForRelease
+:android-mvvm:transformNativeLibsWithStripDebugSymbolForRelease
+:android-mvvm:transformNativeLibsWithSyncJniLibsForRelease
+:android-mvvm:bundleRelease
+:android-mvvm:compileReleaseSources
+:android-mvvm:assembleRelease
+:android-mvvm:assemble
+:android-mvvm:build
+
+BUILD SUCCESSFUL
+
+Total time: 9.739 secs
+
+2018-09-01 18:10:28,672 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:10:28,672 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:10:34,222 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-09-01 18:10:34,222 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 18:10:34,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800210136-0/src/android-mvvm-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 18:10:40,441 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:assemble UP-TO-DATE
+:build
+:android-mvvm:preBuild UP-TO-DATE
+:android-mvvm:preDebugBuild UP-TO-DATE
+:android-mvvm:checkDebugManifest
+:android-mvvm:preDebugAndroidTestBuild UP-TO-DATE
+:android-mvvm:preDebugUnitTestBuild UP-TO-DATE
+:android-mvvm:preReleaseBuild UP-TO-DATE
+:android-mvvm:preReleaseUnitTestBuild UP-TO-DATE
+:android-mvvm:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:android-mvvm:prepareComAndroidSupportAppcompatV72531Library
+:android-mvvm:prepareComAndroidSupportSupportCompat2531Library
+:android-mvvm:prepareComAndroidSupportSupportCoreUi2531Library
+:android-mvvm:prepareComAndroidSupportSupportCoreUtils2531Library
+:android-mvvm:prepareComAndroidSupportSupportFragment2531Library
+:android-mvvm:prepareComAndroidSupportSupportMediaCompat2531Library
+:android-mvvm:prepareComAndroidSupportSupportV42531Library
+:android-mvvm:prepareComAndroidSupportSupportVectorDrawable2531Library
+:android-mvvm:prepareDebugDependencies
+:android-mvvm:compileDebugAidl UP-TO-DATE
+:android-mvvm:compileDebugNdk UP-TO-DATE
+:android-mvvm:compileLint UP-TO-DATE
+:android-mvvm:copyDebugLint UP-TO-DATE
+:android-mvvm:compileDebugRenderscript UP-TO-DATE
+:android-mvvm:generateDebugBuildConfig UP-TO-DATE
+:android-mvvm:generateDebugResValues UP-TO-DATE
+:android-mvvm:generateDebugResources UP-TO-DATE
+:android-mvvm:mergeDebugResources UP-TO-DATE
+:android-mvvm:processDebugManifest UP-TO-DATE
+:android-mvvm:processDebugResources UP-TO-DATE
+:android-mvvm:generateDebugSources UP-TO-DATE
+:android-mvvm:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:android-mvvm:javaPreCompileDebug
+:android-mvvm:compileDebugJavaWithJavac UP-TO-DATE
+:android-mvvm:extractDebugAnnotations UP-TO-DATE
+:android-mvvm:mergeDebugShaders UP-TO-DATE
+:android-mvvm:compileDebugShaders UP-TO-DATE
+:android-mvvm:generateDebugAssets UP-TO-DATE
+:android-mvvm:mergeDebugAssets UP-TO-DATE
+:android-mvvm:mergeDebugProguardFiles UP-TO-DATE
+:android-mvvm:packageDebugRenderscript UP-TO-DATE
+:android-mvvm:packageDebugResources UP-TO-DATE
+:android-mvvm:processDebugJavaRes UP-TO-DATE
+:android-mvvm:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:android-mvvm:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:android-mvvm:mergeDebugJniLibFolders UP-TO-DATE
+:android-mvvm:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:android-mvvm:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:android-mvvm:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:android-mvvm:bundleDebug UP-TO-DATE
+:android-mvvm:compileDebugSources UP-TO-DATE
+:android-mvvm:assembleDebug UP-TO-DATE
+:android-mvvm:checkReleaseManifest
+:android-mvvm:prepareReleaseDependencies
+:android-mvvm:compileReleaseAidl UP-TO-DATE
+:android-mvvm:compileReleaseNdk UP-TO-DATE
+:android-mvvm:copyReleaseLint UP-TO-DATE
+:android-mvvm:compileReleaseRenderscript UP-TO-DATE
+:android-mvvm:generateReleaseBuildConfig UP-TO-DATE
+:android-mvvm:generateReleaseResValues UP-TO-DATE
+:android-mvvm:generateReleaseResources UP-TO-DATE
+:android-mvvm:mergeReleaseResources UP-TO-DATE
+:android-mvvm:processReleaseManifest UP-TO-DATE
+:android-mvvm:processReleaseResources UP-TO-DATE
+:android-mvvm:generateReleaseSources UP-TO-DATE
+:android-mvvm:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:android-mvvm:javaPreCompileRelease
+:android-mvvm:compileReleaseJavaWithJavac UP-TO-DATE
+:android-mvvm:extractReleaseAnnotations UP-TO-DATE
+:android-mvvm:mergeReleaseShaders UP-TO-DATE
+:android-mvvm:compileReleaseShaders UP-TO-DATE
+:android-mvvm:generateReleaseAssets UP-TO-DATE
+:android-mvvm:mergeReleaseAssets UP-TO-DATE
+:android-mvvm:mergeReleaseProguardFiles UP-TO-DATE
+:android-mvvm:packageReleaseRenderscript UP-TO-DATE
+:android-mvvm:packageReleaseResources UP-TO-DATE
+:android-mvvm:processReleaseJavaRes UP-TO-DATE
+:android-mvvm:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:android-mvvm:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:android-mvvm:mergeReleaseJniLibFolders UP-TO-DATE
+:android-mvvm:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:android-mvvm:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:android-mvvm:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:android-mvvm:bundleRelease UP-TO-DATE
+:android-mvvm:compileReleaseSources UP-TO-DATE
+:android-mvvm:assembleRelease UP-TO-DATE
+:android-mvvm:assemble UP-TO-DATE
+:android-mvvm:build
+
+BUILD SUCCESSFUL
+
+Total time: 5.994 secs
+
+2018-09-01 18:10:40,489 ERROR FullProcessService - Project build has not produced APK file
+2018-09-01 18:10:40,532 ERROR FullProcessService - Could not find generated or existed APK file

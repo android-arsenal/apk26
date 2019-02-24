@@ -1,0 +1,169 @@
+2018-08-31 16:24:31,088 INFO  DownloadService - Downloading "https://github.com/ezhome/Android-RxPresenter/archive/master.zip", attempt 3
+2018-08-31 16:24:31,933 INFO  DownloadService - Downloaded https://github.com/ezhome/Android-RxPresenter/archive/master.zip, attempt 3
+2018-08-31 16:24:31,934 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/master.zip": 127 KB
+2018-08-31 16:24:31,934 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 16:24:31,939 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/master.zip: true
+2018-08-31 16:24:31,939 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src'.
+2018-08-31 16:24:31,963 INFO  FullProcessService - Size of directory with sources: 162 KB
+2018-08-31 16:24:31,964 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src]
+2018-08-31 16:24:31,979 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/.git/
+
+2018-08-31 16:24:31,983 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/gradlew
+2018-08-31 16:24:31,988 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/build.gradle
+2018-08-31 16:24:31,991 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter-kotlin/buildsystem/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter-kotlin/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter-kotlin/buildsystem/version.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter/buildsystem/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter/buildsystem/version.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/settings.gradle
+2018-08-31 16:24:31,992 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 16:24:31,992 INFO  ProjectFixService - Fixing project...
+2018-08-31 16:24:32,003 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/app/local.properties
+2018-08-31 16:24:32,004 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 16:24:32,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter-kotlin/local.properties
+2018-08-31 16:24:32,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter-kotlin/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 16:24:32,007 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter/local.properties
+2018-08-31 16:24:32,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/rxpresenter/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 16:24:32,009 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/local.properties
+2018-08-31 16:24:32,009 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 16:24:32,010 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 16:24:32,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 16:24:32,011 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 16:24:32,011 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 16:24:32,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 16:24:40,299 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 16:24:40,299 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 16:24:40,299 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 16:25:19,165 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+:app:preBuild UP-TO-DATE
+:rxpresenter:preBuild UP-TO-DATE
+:rxpresenter:preDebugBuild UP-TO-DATE
+:rxpresenter:checkDebugManifest
+:rxpresenter:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/trello/rxlifecycle-navi/1.0/rxlifecycle-navi-1.0.pom
+Download https://jcenter.bintray.com/com/trello/navi/1.0/navi-1.0.pom
+Download https://jcenter.bintray.com/com/trello/rxlifecycle-android/1.0/rxlifecycle-android-1.0.pom
+Download https://jcenter.bintray.com/com/trello/rxlifecycle/1.0/rxlifecycle-1.0.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.2.1/rxjava-1.2.1.pom
+Download https://jcenter.bintray.com/com/trello/rxlifecycle-navi/1.0/rxlifecycle-navi-1.0.aar
+Download https://jcenter.bintray.com/com/trello/navi/1.0/navi-1.0.aar
+Download https://jcenter.bintray.com/com/trello/rxlifecycle-android/1.0/rxlifecycle-android-1.0.aar
+:rxpresenter:compileDebugAidl
+:app:compileDebugAidl
+:rxpresenter:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:rxpresenter:compileDebugRenderscript
+:rxpresenter:generateDebugResValues
+:rxpresenter:generateDebugResources
+:rxpresenter:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:rxpresenter:platformAttrExtractor
+:rxpresenter:generateDebugBuildConfig
+:rxpresenter:prepareLintJar
+:rxpresenter:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/trello/rxlifecycle/1.0/rxlifecycle-1.0.jar
+:rxpresenter:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:rxpresenter:mergeDebugShaders
+:rxpresenter:compileDebugShaders
+:rxpresenter:generateDebugAssets
+:rxpresenter:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:rxpresenter:compileDebugNdk NO-SOURCE
+:rxpresenter:mergeDebugJniLibFolders
+:rxpresenter:transformNativeLibsWithMergeJniLibsForDebug
+:rxpresenter:transformNativeLibsWithStripDebugSymbolForDebug
+:rxpresenter:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:rxpresenter:preReleaseBuild UP-TO-DATE
+:rxpresenter:checkReleaseManifest
+:rxpresenter:processReleaseManifest
+:app:preReleaseBuild
+:rxpresenter:compileReleaseAidl
+:app:compileReleaseAidl
+:rxpresenter:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:rxpresenter:compileReleaseRenderscript
+:rxpresenter:generateReleaseResValues
+:rxpresenter:generateReleaseResources
+:rxpresenter:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:rxpresenter:generateReleaseBuildConfig
+:rxpresenter:javaPreCompileRelease
+:rxpresenter:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:rxpresenter:mergeReleaseShaders
+:rxpresenter:compileReleaseShaders
+:rxpresenter:generateReleaseAssets
+:rxpresenter:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:rxpresenter:compileReleaseNdk NO-SOURCE
+:rxpresenter:mergeReleaseJniLibFolders
+:rxpresenter:transformNativeLibsWithMergeJniLibsForRelease
+:rxpresenter:transformNativeLibsWithStripDebugSymbolForRelease
+:rxpresenter:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:rxpresenter:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:rxpresenter:generateDebugSources
+:rxpresenter:compileDebugJavaWithJavac
+:rxpresenter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.2.1/rxjava-1.2.1.jar
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:rxpresenter:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:rxpresenter:generateReleaseSources
+:rxpresenter:compileReleaseJavaWithJavac
+:rxpresenter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://jcenter.bintray.com/org/objenesis/objenesis/1.0/objenesis-1.0.pom
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 38s
+88 actionable tasks: 88 executed
+
+2018-08-31 16:25:19,234 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707471085-0/src/Android-RxPresenter-master/app/build/outputs/apk/debug/app-debug.apk

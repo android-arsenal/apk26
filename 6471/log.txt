@@ -1,0 +1,161 @@
+2019-01-25 22:36:32,406 INFO  DownloadService - Downloading "https://github.com/MindorksOpenSource/PRDownloader/archive/master.zip", attempt 3
+2019-01-25 22:36:33,165 INFO  DownloadService - Downloaded https://github.com/MindorksOpenSource/PRDownloader/archive/master.zip, attempt 3
+2019-01-25 22:36:33,165 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/master.zip": 294 KB
+2019-01-25 22:36:33,165 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-25 22:36:33,171 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/master.zip: true
+2019-01-25 22:36:33,171 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src'.
+2019-01-25 22:36:33,206 INFO  FullProcessService - Size of directory with sources: 472 KB
+2019-01-25 22:36:33,206 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src]
+2019-01-25 22:36:33,223 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/.git/
+
+2019-01-25 22:36:33,227 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/gradlew
+2019-01-25 22:36:33,232 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/prdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/build.gradle
+2019-01-25 22:36:33,236 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/prdownloader/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/prdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/settings.gradle
+2019-01-25 22:36:33,236 INFO  ProjectBuildService - Remote scripts: none
+2019-01-25 22:36:33,236 INFO  ProjectFixService - Fixing project...
+2019-01-25 22:36:33,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/app/local.properties
+2019-01-25 22:36:33,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-25 22:36:33,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/prdownloader/local.properties
+2019-01-25 22:36:33,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/prdownloader/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-25 22:36:33,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/local.properties
+2019-01-25 22:36:33,249 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-25 22:36:33,249 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-25 22:36:33,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-01-25 22:36:33,250 INFO  ProjectFixService - Project was maybe fixed
+2019-01-25 22:36:33,250 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-25 22:36:33,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-25 22:36:40,043 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-25 22:36:40,043 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-25 22:36:40,043 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-25 22:37:15,225 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:prdownloader:preBuild UP-TO-DATE
+:prdownloader:preDebugBuild UP-TO-DATE
+:prdownloader:checkDebugManifest
+:prdownloader:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/26.1.0/support-v4-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/26.1.0/support-media-compat-26.1.0.aar
+Download https://jcenter.bintray.com/com/amitshekhar/android/debug-db/1.0.1/debug-db-1.0.1.aar
+:prdownloader:compileDebugAidl
+:app:compileDebugAidl
+:prdownloader:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:prdownloader:compileDebugRenderscript
+:prdownloader:generateDebugResValues
+:prdownloader:generateDebugResources
+:prdownloader:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:prdownloader:platformAttrExtractor
+:prdownloader:generateDebugBuildConfig
+:prdownloader:prepareLintJar
+:prdownloader:javaPreCompileDebug
+:prdownloader:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:prdownloader:mergeDebugShaders
+:prdownloader:compileDebugShaders
+:prdownloader:generateDebugAssets
+:prdownloader:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:prdownloader:compileDebugNdk NO-SOURCE
+:prdownloader:mergeDebugJniLibFolders
+:prdownloader:transformNativeLibsWithMergeJniLibsForDebug
+:prdownloader:transformNativeLibsWithStripDebugSymbolForDebug
+:prdownloader:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:prdownloader:preReleaseBuild UP-TO-DATE
+:prdownloader:checkReleaseManifest
+:prdownloader:processReleaseManifest
+:app:preReleaseBuild
+:prdownloader:compileReleaseAidl
+:app:compileReleaseAidl
+:prdownloader:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:prdownloader:compileReleaseRenderscript
+:prdownloader:generateReleaseResValues
+:prdownloader:generateReleaseResources
+:prdownloader:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:prdownloader:generateReleaseBuildConfig
+:prdownloader:javaPreCompileRelease
+:prdownloader:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:prdownloader:mergeReleaseShaders
+:prdownloader:compileReleaseShaders
+:prdownloader:generateReleaseAssets
+:prdownloader:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:prdownloader:compileReleaseNdk NO-SOURCE
+:prdownloader:mergeReleaseJniLibFolders
+:prdownloader:transformNativeLibsWithMergeJniLibsForRelease
+:prdownloader:transformNativeLibsWithStripDebugSymbolForRelease
+:prdownloader:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:prdownloader:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:prdownloader:generateDebugSources
+:prdownloader:compileDebugJavaWithJavac
+:prdownloader:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:prdownloader:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:prdownloader:generateReleaseSources
+:prdownloader:compileReleaseJavaWithJavac
+:prdownloader:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 34s
+91 actionable tasks: 91 executed
+
+2019-01-25 22:37:15,312 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430592403-0/src/PRDownloader-master/app/build/outputs/apk/debug/app-debug.apk

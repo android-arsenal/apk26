@@ -1,0 +1,154 @@
+2018-08-31 15:39:09,439 INFO  DownloadService - Downloading "https://github.com/ankitdubey021/MyAlertDialog/archive/master.zip", attempt 3
+2018-08-31 15:39:10,142 INFO  DownloadService - Downloaded https://github.com/ankitdubey021/MyAlertDialog/archive/master.zip, attempt 3
+2018-08-31 15:39:10,142 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/master.zip": 148 KB
+2018-08-31 15:39:10,142 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 15:39:10,143 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/master.zip: true
+2018-08-31 15:39:10,143 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src'.
+2018-08-31 15:39:10,166 INFO  FullProcessService - Size of directory with sources: 166 KB
+2018-08-31 15:39:10,166 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src]
+2018-08-31 15:39:10,184 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/.git/
+
+2018-08-31 15:39:10,187 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/gradlew
+2018-08-31 15:39:10,190 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/perfectdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/build.gradle
+2018-08-31 15:39:10,193 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/perfectdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/settings.gradle
+2018-08-31 15:39:10,194 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 15:39:10,194 INFO  ProjectFixService - Fixing project...
+2018-08-31 15:39:10,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/app/local.properties
+2018-08-31 15:39:10,202 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:39:10,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/perfectdialog/local.properties
+2018-08-31 15:39:10,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/perfectdialog/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2018-08-31 15:39:10,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/local.properties
+2018-08-31 15:39:10,204 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2018-08-31 15:39:10,204 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2018-08-31 15:39:10,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:39:10,205 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 15:39:10,205 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 15:39:10,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 15:39:34,052 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-08-31 15:39:34,052 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 15:39:34,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 15:39:57,674 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:perfectdialog:preBuild UP-TO-DATE
+:perfectdialog:preReleaseBuild UP-TO-DATE
+:perfectdialog:checkReleaseManifest
+:perfectdialog:preDebugAndroidTestBuild UP-TO-DATE
+:perfectdialog:preDebugBuild UP-TO-DATE
+:perfectdialog:preDebugUnitTestBuild UP-TO-DATE
+:perfectdialog:preReleaseUnitTestBuild UP-TO-DATE
+:perfectdialog:prepareComAndroidSupportAppcompatV72301Library
+:perfectdialog:prepareComAndroidSupportCardviewV72301Library
+:perfectdialog:prepareComAndroidSupportDesign2301Library
+:perfectdialog:prepareComAndroidSupportSupportV42301Library
+:perfectdialog:prepareReleaseDependencies
+:perfectdialog:compileReleaseAidl
+:perfectdialog:compileReleaseNdk UP-TO-DATE
+:perfectdialog:compileLint
+:perfectdialog:copyReleaseLint UP-TO-DATE
+:perfectdialog:compileReleaseRenderscript
+:perfectdialog:generateReleaseBuildConfig
+:perfectdialog:generateReleaseResValues
+:perfectdialog:generateReleaseResources
+:perfectdialog:mergeReleaseResources
+:perfectdialog:processReleaseManifest
+:perfectdialog:processReleaseResources
+:perfectdialog:generateReleaseSources
+:perfectdialog:incrementalReleaseJavaCompilationSafeguard
+:perfectdialog:compileReleaseJavaWithJavac
+:perfectdialog:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:perfectdialog:extractReleaseAnnotations
+:perfectdialog:mergeReleaseShaders
+:perfectdialog:compileReleaseShaders
+:perfectdialog:generateReleaseAssets
+:perfectdialog:mergeReleaseAssets
+:perfectdialog:mergeReleaseProguardFiles
+:perfectdialog:packageReleaseRenderscript UP-TO-DATE
+:perfectdialog:packageReleaseResources
+:perfectdialog:processReleaseJavaRes UP-TO-DATE
+:perfectdialog:transformResourcesWithMergeJavaResForRelease
+:perfectdialog:transformClassesAndResourcesWithSyncLibJarsForRelease
+:perfectdialog:mergeReleaseJniLibFolders
+:perfectdialog:transformNative_libsWithMergeJniLibsForRelease
+:perfectdialog:transformNative_libsWithSyncJniLibsForRelease
+:perfectdialog:bundleRelease
+:app:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:app:prepareComAndroidSupportCardviewV72301Library
+:app:prepareComAndroidSupportDesign2301Library
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:app:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:app:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportV42600Alpha1Library
+:app:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:app:prepareMyAlertDialogMasterPerfectdialogUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:transformNative_libsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForRelease
+:app:transformNative_libsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.904 secs
+
+2018-08-31 15:39:57,825 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704749437-0/src/MyAlertDialog-master/app/build/outputs/apk/app-debug.apk

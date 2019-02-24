@@ -1,0 +1,161 @@
+2018-08-31 22:12:34,271 INFO  DownloadService - Downloading "https://github.com/damanpreetsb/GentleToast/archive/master.zip", attempt 3
+2018-08-31 22:12:37,276 INFO  DownloadService - Downloaded https://github.com/damanpreetsb/GentleToast/archive/master.zip, attempt 3
+2018-08-31 22:12:37,276 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/master.zip": 1 MB
+2018-08-31 22:12:37,276 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 22:12:37,277 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/master.zip: true
+2018-08-31 22:12:37,277 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src'.
+2018-08-31 22:12:37,313 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-08-31 22:12:37,313 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src]
+2018-08-31 22:12:37,329 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/.git/
+
+2018-08-31 22:12:37,333 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/gradlew
+2018-08-31 22:12:37,336 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/gentletoastlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/build.gradle
+2018-08-31 22:12:37,340 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/gentletoastlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/settings.gradle
+2018-08-31 22:12:37,340 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 22:12:37,340 INFO  ProjectFixService - Fixing project...
+2018-08-31 22:12:37,348 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/app/local.properties
+2018-08-31 22:12:37,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-31 22:12:37,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/gentletoastlib/local.properties
+2018-08-31 22:12:37,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/gentletoastlib/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-31 22:12:37,349 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/local.properties
+2018-08-31 22:12:37,350 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 22:12:37,350 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 22:12:37,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-31 22:12:37,350 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 22:12:37,350 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 22:12:37,351 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 22:12:44,484 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 22:12:44,485 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 22:12:44,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 22:13:01,533 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:app:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:app:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportV42600Alpha1Library
+:app:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:gentletoastlib:preBuild UP-TO-DATE
+:gentletoastlib:preReleaseBuild UP-TO-DATE
+:gentletoastlib:checkReleaseManifest
+:gentletoastlib:preDebugAndroidTestBuild UP-TO-DATE
+:gentletoastlib:preDebugBuild UP-TO-DATE
+:gentletoastlib:preDebugUnitTestBuild UP-TO-DATE
+:gentletoastlib:preReleaseUnitTestBuild UP-TO-DATE
+:gentletoastlib:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:gentletoastlib:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:gentletoastlib:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:gentletoastlib:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:gentletoastlib:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:gentletoastlib:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:gentletoastlib:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:gentletoastlib:prepareComAndroidSupportSupportV42600Alpha1Library
+:gentletoastlib:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:gentletoastlib:prepareReleaseDependencies
+:gentletoastlib:compileReleaseAidl
+:gentletoastlib:compileReleaseNdk UP-TO-DATE
+:gentletoastlib:compileLint
+:gentletoastlib:copyReleaseLint UP-TO-DATE
+:gentletoastlib:compileReleaseRenderscript
+:gentletoastlib:generateReleaseBuildConfig
+:gentletoastlib:generateReleaseResValues
+:gentletoastlib:generateReleaseResources
+:gentletoastlib:mergeReleaseResources
+:gentletoastlib:processReleaseManifest
+:gentletoastlib:processReleaseResources
+:gentletoastlib:generateReleaseSources
+:gentletoastlib:incrementalReleaseJavaCompilationSafeguard
+:gentletoastlib:javaPreCompileRelease
+:gentletoastlib:compileReleaseJavaWithJavac
+:gentletoastlib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:gentletoastlib:extractReleaseAnnotations
+:gentletoastlib:mergeReleaseShaders
+:gentletoastlib:compileReleaseShaders
+:gentletoastlib:generateReleaseAssets
+:gentletoastlib:mergeReleaseAssets
+:gentletoastlib:mergeReleaseProguardFiles
+:gentletoastlib:packageReleaseRenderscript UP-TO-DATE
+:gentletoastlib:packageReleaseResources
+:gentletoastlib:processReleaseJavaRes UP-TO-DATE
+:gentletoastlib:transformResourcesWithMergeJavaResForRelease
+:gentletoastlib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:gentletoastlib:mergeReleaseJniLibFolders
+:gentletoastlib:transformNativeLibsWithMergeJniLibsForRelease
+:gentletoastlib:transformNativeLibsWithStripDebugSymbolForRelease
+:gentletoastlib:transformNativeLibsWithSyncJniLibsForRelease
+:gentletoastlib:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.736 secs
+
+2018-08-31 22:13:01,612 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728354263-0/src/GentleToast-master/app/build/outputs/apk/app-debug.apk

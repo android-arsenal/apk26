@@ -1,0 +1,134 @@
+2018-08-31 15:51:45,716 INFO  DownloadService - Downloading "https://github.com/ravidsrk/android-testing-guide/archive/master.zip", attempt 3
+2018-08-31 15:51:46,664 INFO  DownloadService - Downloaded https://github.com/ravidsrk/android-testing-guide/archive/master.zip, attempt 3
+2018-08-31 15:51:46,665 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/master.zip": 121 KB
+2018-08-31 15:51:46,665 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 15:51:46,670 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/master.zip: true
+2018-08-31 15:51:46,671 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src'.
+2018-08-31 15:51:46,698 INFO  FullProcessService - Size of directory with sources: 162 KB
+2018-08-31 15:51:46,698 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src]
+2018-08-31 15:51:46,717 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/.git/
+
+2018-08-31 15:51:46,720 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/gradlew
+2018-08-31 15:51:46,723 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/build.gradle
+2018-08-31 15:51:46,726 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/settings.gradle
+2018-08-31 15:51:46,726 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 15:51:46,726 INFO  ProjectFixService - Fixing project...
+2018-08-31 15:51:46,732 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/app/local.properties
+2018-08-31 15:51:46,733 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-31 15:51:46,733 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-31 15:51:46,734 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/local.properties
+2018-08-31 15:51:46,734 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.3.1-all.zip
+2018-08-31 15:51:46,734 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.3.1-bin.zip)
+2018-08-31 15:51:46,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-31 15:51:46,735 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2018-08-31 15:51:46,736 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 15:51:46,736 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 15:51:46,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 15:52:28,614 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-08-31 15:52:28,614 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 15:52:28,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 15:53:30,524 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.0.1/design-27.0.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.0.1/transition-27.0.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/27.0.1/design-27.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/27.0.1/transition-27.0.1.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://jcenter.bintray.com/com/jayway/android/robotium/robotium-solo/5.6.3/robotium-solo-5.6.3.pom
+Download https://jcenter.bintray.com/com/jayway/android/robotium/robotium/5.6.3/robotium-5.6.3.pom
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.11.0/mockito-android-2.11.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-web/3.0.1/espresso-web-3.0.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/idling/idling-concurrent/3.0.1/idling-concurrent-3.0.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-accessibility/3.0.1/espresso-accessibility-3.0.1.pom
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.7.4/byte-buddy-android-1.7.4.pom
+Download https://jcenter.bintray.com/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/idling/idling-concurrent/3.0.1/idling-concurrent-3.0.1.aar
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.11.0/mockito-android-2.11.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-accessibility/3.0.1/espresso-accessibility-3.0.1.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/test/espresso/espresso-web/3.0.1/espresso-web-3.0.1.aar
+Download https://jcenter.bintray.com/com/jayway/android/robotium/robotium-solo/5.6.3/robotium-solo-5.6.3.jar
+Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.7.4/byte-buddy-android-1.7.4.jar
+Download https://jcenter.bintray.com/org/ccil/cowan/tagsoup/tagsoup/1.2/tagsoup-1.2.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 1s
+54 actionable tasks: 54 executed
+Exception in thread "Thread-25" java.lang.NoClassDefFoundError: com/android/utils/PathUtils$1
+	at com.android.utils.PathUtils.deleteIfExists(PathUtils.java:47)
+	at com.android.utils.PathUtils.lambda$addRemovePathHook$0(PathUtils.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.utils.PathUtils$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+
+2018-08-31 15:53:30,588 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535705505714-0/src/android-testing-guide-master/SampleApp/app/build/outputs/apk/debug/app-debug.apk

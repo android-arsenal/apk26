@@ -1,0 +1,175 @@
+2018-11-10 21:10:42,460 INFO  DownloadService - Downloading "https://github.com/Zuluft/AutoAdapter/archive/master.zip", attempt 3
+2018-11-10 21:10:44,476 INFO  DownloadService - Downloaded https://github.com/Zuluft/AutoAdapter/archive/master.zip, attempt 3
+2018-11-10 21:10:44,477 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/master.zip": 129 KB
+2018-11-10 21:10:44,477 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-10 21:10:44,482 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/master.zip: true
+2018-11-10 21:10:44,482 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src'.
+2018-11-10 21:10:44,509 INFO  FullProcessService - Size of directory with sources: 173 KB
+2018-11-10 21:10:44,509 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src]
+2018-11-10 21:10:44,527 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/.git/
+
+2018-11-10 21:10:44,531 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/gradlew
+2018-11-10 21:10:44,535 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/autoAdapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/autoAdapterAnnotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/processor/build.gradle
+2018-11-10 21:10:44,538 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/autoAdapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/autoAdapterAnnotations/build.gradle
+2018-11-10 21:10:44,539 INFO  ProjectBuildService - Remote scripts: none
+2018-11-10 21:10:44,539 INFO  ProjectFixService - Fixing project...
+2018-11-10 21:10:44,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/app/local.properties
+2018-11-10 21:10:44,549 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 21:10:44,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/autoAdapter/local.properties
+2018-11-10 21:10:44,550 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/autoAdapter/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 21:10:44,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/local.properties
+2018-11-10 21:10:44,551 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-10 21:10:44,551 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-10 21:10:44,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 21:10:44,552 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/autoAdapterAnnotations/local.properties
+2018-11-10 21:10:44,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/autoAdapterAnnotations/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 21:10:44,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/processor/local.properties
+2018-11-10 21:10:44,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/processor/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-10 21:10:44,560 INFO  ProjectFixService - Project was maybe fixed
+2018-11-10 21:10:44,560 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-10 21:10:44,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-10 21:10:51,251 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-10 21:10:51,251 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-10 21:10:51,252 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-10 21:11:35,912 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding/2.0.0/rxbinding-2.0.0.aar
+Download https://jcenter.bintray.com/com/annimon/stream/1.2.1/stream-1.2.1.jar
+:app:preBuild UP-TO-DATE
+:autoAdapter:preBuild UP-TO-DATE
+:autoAdapter:preDebugBuild UP-TO-DATE
+:autoAdapter:checkDebugManifest
+:autoAdapter:processDebugManifest
+:app:preDebugBuild
+:autoAdapter:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:autoAdapter:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:autoAdapter:compileDebugRenderscript
+:autoAdapter:generateDebugResValues
+:autoAdapter:generateDebugResources
+:autoAdapter:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:autoAdapter:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:autoAdapter:generateDebugBuildConfig
+:autoAdapter:prepareLintJar
+:autoAdapter:generateDebugSources
+:autoAdapter:javaPreCompileDebug
+:autoAdapter:compileDebugJavaWithJavac
+:autoAdapter:processDebugJavaRes NO-SOURCE
+:autoAdapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:autoAdapterAnnotations:compileJava
+:autoAdapterAnnotations:processResources NO-SOURCE
+:autoAdapterAnnotations:classes
+:autoAdapterAnnotations:jar
+:processor:compileJava
+:processor:processResources
+:processor:classes
+:processor:jar
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:autoAdapter:mergeDebugShaders
+:autoAdapter:compileDebugShaders
+:autoAdapter:generateDebugAssets
+:autoAdapter:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:autoAdapter:compileDebugNdk NO-SOURCE
+:autoAdapter:mergeDebugJniLibFolders
+:autoAdapter:transformNativeLibsWithMergeJniLibsForDebug
+:autoAdapter:transformNativeLibsWithStripDebugSymbolForDebug
+:autoAdapter:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:autoAdapter:preReleaseBuild UP-TO-DATE
+:autoAdapter:checkReleaseManifest
+:autoAdapter:processReleaseManifest
+:app:preReleaseBuild
+:autoAdapter:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:autoAdapter:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:autoAdapter:compileReleaseRenderscript
+:autoAdapter:generateReleaseResValues
+:autoAdapter:generateReleaseResources
+:autoAdapter:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:autoAdapter:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:autoAdapter:generateReleaseBuildConfig
+:autoAdapter:generateReleaseSources
+:autoAdapter:javaPreCompileRelease
+:autoAdapter:compileReleaseJavaWithJavac
+:autoAdapter:processReleaseJavaRes NO-SOURCE
+:autoAdapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:autoAdapter:mergeReleaseShaders
+:autoAdapter:compileReleaseShaders
+:autoAdapter:generateReleaseAssets
+:autoAdapter:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:autoAdapter:compileReleaseNdk NO-SOURCE
+:autoAdapter:mergeReleaseJniLibFolders
+:autoAdapter:transformNativeLibsWithMergeJniLibsForRelease
+:autoAdapter:transformNativeLibsWithStripDebugSymbolForRelease
+:autoAdapter:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 43s
+95 actionable tasks: 95 executed
+
+2018-11-10 21:11:36,017 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541859042451-0/src/AutoAdapter-master/app/build/outputs/apk/debug/app-debug.apk

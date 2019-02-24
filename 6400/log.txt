@@ -1,0 +1,211 @@
+2018-08-31 19:29:03,037 INFO  DownloadService - Downloading "https://github.com/MaximeJallu/RecyclerAdapter-Java/archive/master.zip", attempt 3
+2018-08-31 19:29:03,649 INFO  DownloadService - Downloaded https://github.com/MaximeJallu/RecyclerAdapter-Java/archive/master.zip, attempt 3
+2018-08-31 19:29:03,649 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/master.zip": 86 KB
+2018-08-31 19:29:03,649 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 19:29:03,655 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/master.zip: true
+2018-08-31 19:29:03,656 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src'.
+2018-08-31 19:29:03,673 INFO  FullProcessService - Size of directory with sources: 116 KB
+2018-08-31 19:29:03,673 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src]
+2018-08-31 19:29:03,690 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/.git/
+
+2018-08-31 19:29:03,693 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/gradlew
+2018-08-31 19:29:03,695 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/build.gradle
+2018-08-31 19:29:03,697 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/settings.gradle
+2018-08-31 19:29:03,697 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 19:29:03,697 INFO  ProjectFixService - Fixing project...
+2018-08-31 19:29:03,703 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/adapter/local.properties
+2018-08-31 19:29:03,703 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/adapter/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=23,targetSdkVersion=26]
+2018-08-31 19:29:03,704 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/local.properties
+2018-08-31 19:29:03,704 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 19:29:03,704 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 19:29:03,705 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=23,targetSdkVersion=26]
+2018-08-31 19:29:03,705 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 19:29:03,705 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 19:29:03,705 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 19:29:31,651 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-31 19:29:31,651 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 19:29:31,651 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 19:29:52,619 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':adapter' is deprecated. Use 'implementation' instead.
+adapter: 'androidProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.jakewharton:butterknife-compiler:8.8.1' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+:adapter:preBuild UP-TO-DATE
+:adapter:preDebugBuild UP-TO-DATE
+:adapter:compileDebugAidl
+:adapter:compileDebugNdk NO-SOURCE
+:adapter:compileDebugRenderscript
+:adapter:checkDebugManifest
+:adapter:generateDebugBuildConfig
+:adapter:generateDebugResValues
+:adapter:generateDebugResources
+:adapter:packageDebugResources
+:adapter:platformAttrExtractor
+:adapter:processDebugManifest
+:adapter:mergeDebugShaders
+:adapter:compileDebugShaders
+:adapter:generateDebugAssets
+:adapter:mergeDebugAssets
+:adapter:mergeDebugConsumerProguardFiles
+:adapter:packageDebugRenderscript NO-SOURCE
+:adapter:prepareLintJar
+:adapter:processDebugJavaRes NO-SOURCE
+:adapter:mergeDebugJniLibFolders
+:adapter:transformNativeLibsWithMergeJniLibsForDebug
+:adapter:transformNativeLibsWithStripDebugSymbolForDebug
+:adapter:transformNativeLibsWithSyncJniLibsForDebug
+:adapter:preReleaseBuild UP-TO-DATE
+:adapter:compileReleaseAidl
+:adapter:compileReleaseNdk NO-SOURCE
+:adapter:compileReleaseRenderscript
+:adapter:checkReleaseManifest
+:adapter:generateReleaseBuildConfig
+:adapter:generateReleaseResValues
+:adapter:generateReleaseResources
+:adapter:packageReleaseResources
+:adapter:processReleaseManifest
+:adapter:mergeReleaseShaders
+:adapter:compileReleaseShaders
+:adapter:generateReleaseAssets
+:adapter:mergeReleaseAssets
+:adapter:mergeReleaseConsumerProguardFiles
+:adapter:packageReleaseRenderscript NO-SOURCE
+:adapter:processReleaseJavaRes NO-SOURCE
+:adapter:mergeReleaseJniLibFolders
+:adapter:transformNativeLibsWithMergeJniLibsForRelease
+:adapter:transformNativeLibsWithStripDebugSymbolForRelease
+:adapter:transformNativeLibsWithSyncJniLibsForRelease
+:adapter:mergeReleaseResources
+:adapter:verifyReleaseResources
+:adapter:processDebugResources
+:adapter:compileDebugKotlin
+Using kotlin incremental compilation
+:adapter:generateDebugSources
+:adapter:javaPreCompileDebug
+:adapter:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:adapter:extractDebugAnnotations
+:adapter:transformClassesWithRetrolambdaForDebug
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.5.1/retrolambda-2.5.1.pom
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/parent/2.5.1/parent-2.5.1.pom
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.5.1/retrolambda-2.5.1.jar
+:adapter:transformResourcesWithMergeJavaResForDebug
+:adapter:transformClassesAndResourcesWithSyncLibJarsForDebug
+:adapter:bundleDebug
+:adapter:compileDebugSources
+:adapter:assembleDebug
+:adapter:processReleaseResources
+:adapter:compileReleaseKotlin
+Using kotlin incremental compilation
+:adapter:generateReleaseSources
+:adapter:javaPreCompileRelease
+:adapter:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:adapter:extractReleaseAnnotations
+:adapter:transformClassesWithRetrolambdaForRelease
+:adapter:transformResourcesWithMergeJavaResForRelease
+:adapter:transformClassesAndResourcesWithSyncLibJarsForRelease
+:adapter:bundleRelease
+:adapter:compileReleaseSources
+:adapter:assembleRelease
+:adapter:assemble
+:adapter:build
+
+BUILD SUCCESSFUL in 20s
+52 actionable tasks: 52 executed
+Exception in thread "Thread-24" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:251)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-08-31 19:29:52,677 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 19:29:52,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 19:29:58,622 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 19:29:58,622 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 19:29:58,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718543029-0/src/RecyclerAdapter-Java-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 19:30:05,450 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':adapter' is deprecated. Use 'implementation' instead.
+adapter: 'androidProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.jakewharton:butterknife-compiler:8.8.1' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+:adapter:preBuild UP-TO-DATE
+:adapter:preDebugBuild UP-TO-DATE
+:adapter:compileDebugAidl UP-TO-DATE
+:adapter:compileDebugNdk NO-SOURCE
+:adapter:compileDebugRenderscript UP-TO-DATE
+:adapter:checkDebugManifest UP-TO-DATE
+:adapter:generateDebugBuildConfig UP-TO-DATE
+:adapter:generateDebugResValues UP-TO-DATE
+:adapter:generateDebugResources UP-TO-DATE
+:adapter:packageDebugResources UP-TO-DATE
+:adapter:platformAttrExtractor UP-TO-DATE
+:adapter:processDebugManifest UP-TO-DATE
+:adapter:processDebugResources UP-TO-DATE
+:adapter:compileDebugKotlin UP-TO-DATE
+:adapter:generateDebugSources UP-TO-DATE
+:adapter:javaPreCompileDebug UP-TO-DATE
+:adapter:compileDebugJavaWithJavac UP-TO-DATE
+:adapter:extractDebugAnnotations UP-TO-DATE
+:adapter:mergeDebugShaders UP-TO-DATE
+:adapter:compileDebugShaders UP-TO-DATE
+:adapter:generateDebugAssets UP-TO-DATE
+:adapter:mergeDebugAssets UP-TO-DATE
+:adapter:mergeDebugConsumerProguardFiles UP-TO-DATE
+:adapter:packageDebugRenderscript NO-SOURCE
+:adapter:prepareLintJar UP-TO-DATE
+:adapter:transformClassesWithRetrolambdaForDebug UP-TO-DATE
+:adapter:processDebugJavaRes NO-SOURCE
+:adapter:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:adapter:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:adapter:mergeDebugJniLibFolders UP-TO-DATE
+:adapter:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:adapter:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:adapter:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:adapter:bundleDebug UP-TO-DATE
+:adapter:compileDebugSources UP-TO-DATE
+:adapter:assembleDebug UP-TO-DATE
+:adapter:preReleaseBuild UP-TO-DATE
+:adapter:compileReleaseAidl UP-TO-DATE
+:adapter:compileReleaseNdk NO-SOURCE
+:adapter:compileReleaseRenderscript UP-TO-DATE
+:adapter:checkReleaseManifest UP-TO-DATE
+:adapter:generateReleaseBuildConfig UP-TO-DATE
+:adapter:generateReleaseResValues UP-TO-DATE
+:adapter:generateReleaseResources UP-TO-DATE
+:adapter:packageReleaseResources UP-TO-DATE
+:adapter:processReleaseManifest UP-TO-DATE
+:adapter:processReleaseResources UP-TO-DATE
+:adapter:compileReleaseKotlin UP-TO-DATE
+:adapter:generateReleaseSources UP-TO-DATE
+:adapter:javaPreCompileRelease UP-TO-DATE
+:adapter:compileReleaseJavaWithJavac UP-TO-DATE
+:adapter:extractReleaseAnnotations UP-TO-DATE
+:adapter:mergeReleaseShaders UP-TO-DATE
+:adapter:compileReleaseShaders UP-TO-DATE
+:adapter:generateReleaseAssets UP-TO-DATE
+:adapter:mergeReleaseAssets UP-TO-DATE
+:adapter:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:adapter:packageReleaseRenderscript NO-SOURCE
+:adapter:transformClassesWithRetrolambdaForRelease UP-TO-DATE
+:adapter:processReleaseJavaRes NO-SOURCE
+:adapter:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:adapter:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:adapter:mergeReleaseJniLibFolders UP-TO-DATE
+:adapter:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:adapter:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:adapter:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:adapter:bundleRelease UP-TO-DATE
+:adapter:compileReleaseSources UP-TO-DATE
+:adapter:mergeReleaseResources UP-TO-DATE
+:adapter:verifyReleaseResources UP-TO-DATE
+:adapter:assembleRelease UP-TO-DATE
+:adapter:assemble UP-TO-DATE
+:adapter:build
+
+BUILD SUCCESSFUL in 6s
+52 actionable tasks: 52 up-to-date
+
+2018-08-31 19:30:05,505 ERROR FullProcessService - Project build has not produced APK file
+2018-08-31 19:30:05,554 ERROR FullProcessService - Could not find generated or existed APK file

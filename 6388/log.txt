@@ -1,0 +1,140 @@
+2018-08-31 20:25:45,076 INFO  DownloadService - Downloading "https://github.com/RowlandOti/Cheffaue/archive/master.zip", attempt 3
+2018-08-31 20:25:51,725 INFO  DownloadService - Downloaded https://github.com/RowlandOti/Cheffaue/archive/master.zip, attempt 3
+2018-08-31 20:25:51,726 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/master.zip": 4 MB
+2018-08-31 20:25:51,726 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 20:25:51,728 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/master.zip: true
+2018-08-31 20:25:51,728 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src'.
+2018-08-31 20:25:51,787 INFO  FullProcessService - Size of directory with sources: 4 MB
+2018-08-31 20:25:51,787 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src]
+2018-08-31 20:25:51,804 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/.git/
+
+2018-08-31 20:25:51,808 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/gradlew
+2018-08-31 20:25:51,812 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/build.gradle
+2018-08-31 20:25:51,816 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/settings.gradle
+2018-08-31 20:25:51,817 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 20:25:51,817 INFO  ProjectFixService - Fixing project...
+2018-08-31 20:25:51,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/app/local.properties
+2018-08-31 20:25:51,826 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 20:25:51,827 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/local.properties
+2018-08-31 20:25:51,827 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-milestone-1-all.zip
+2018-08-31 20:25:51,827 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 20:25:51,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 20:25:51,828 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 20:25:51,828 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 20:25:51,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 20:26:12,459 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-08-31 20:26:12,459 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 20:26:12,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 20:27:12,974 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'provided' in project ':app' is deprecated. Use 'compileOnly' instead.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://maven.google.com/com/android/support/palette-v7/26.1.0/palette-v7-26.1.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava/2.0.1/adapter-rxjava-2.0.1.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/okhttp/3.2.0/okhttp-3.2.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.0.1/retrofit-2.0.1.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.0.1/converter-gson-2.0.1.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.2.5/rxjava-1.2.5.pom
+Download https://jcenter.bintray.com/com/diogobernardino/williamchart/2.5.0/williamchart-2.5.0.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/parent/3.2.0/parent-3.2.0.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-adapters/2.0.1/retrofit-adapters-2.0.1.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/parent/2.0.1/parent-2.0.1.pom
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit-converters/2.0.1/retrofit-converters-2.0.1.pom
+Download https://jcenter.bintray.com/com/diogobernardino/williamchart/2.5.0/williamchart-2.5.0.aar
+Download https://maven.google.com/com/android/support/palette-v7/26.1.0/palette-v7-26.1.0.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:compileDebugKotlin
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-gson/2.0.1/converter-gson-2.0.1.jar
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-annotations/8.6.0/butterknife-annotations-8.6.0.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/retrofit/2.0.1/retrofit-2.0.1.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava/2.0.1/adapter-rxjava-2.0.1.jar
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.2.5/rxjava-1.2.5.jar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/8.6.0/butterknife-compiler-8.6.0.pom
+Download https://jcenter.bintray.com/com/jakewharton/butterknife-compiler/8.6.0/butterknife-compiler-8.6.0.jar
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/app/src/main/java/com/rowland/cheffaue/collectionfeature/view/fragments/RecipeCollectionFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/app/src/main/java/com/rowland/cheffaue/collectionfeature/view/fragments/RecipeCollectionFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 0s
+50 actionable tasks: 50 executed
+Exception in thread "Thread-23" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:252)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-08-31 20:27:13,057 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721945067-0/src/Cheffaue-master/app/build/outputs/apk/debug/app-debug.apk

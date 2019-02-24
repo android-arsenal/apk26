@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "me.rohanpeshkar.helpersample",
+    "label" : "HelperSample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "0.0.1",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACEFBMVEUAAAD////////////////////////////////+/v79/f39/f38/Pzw8PAAAADy8vL8/Pz8/Pz9/f38/Pzy8vLCwsLW1tb7+/vy8vKwsLDDw8P7+/umpqaioqLGxsakpKStra36+vru7u6Hh4e/v78AAADa2trMzMwAAAAAAAA7OzvLy8vr6+vv7+/u7u7s7OzHx8c5OTkAAABFRUVjY2NdXV1ERERVVVUAAAAAAADMzMz+/v79/f3T09OSkpJjY2NBQUEzMzOTk5PV1dXz8/MtLS0AAAAvLy+Wlpb09PT8/PyoqKgdHR0fHx+rq6vx8fFcXFwBAQEnJydlZWWNjY2goKCMjIxkZGQmJiZfX1/q6uo4ODgGBgZiYmLOzs7MzMwFBQU7Ozvs7Ow1NTXR0dFbW1tdXV329va1tbWOjo62trb19fVZWVmmpqZeXl76+voWFhYXFxeZmZny8vIcHBw2NjZsbGxxcXGRkZHS0tKjo6MKCgpCQkIJCQmnp6cqKiolJSUwMDDe3t7c3NwuLi4pKSn7+/vQ0NACAgKPj48rKyu9vb0eHh5oaGgNDQ0+Pj6EhIQYGBilpaV9fX2hoaFQUFA9PT2ioqJpaWksLCyHh4fPz88/Pz9mZmYHBwfU1NSbm5tXV1eenp4aGho5OTn39/dra2ukpKRhYWGysrJ+fn60tLTw8PDo6Oj////5+fkH8fIdAAAAO3RSTlMAAwQCEx4dCpbo7ZaYmwEU6vn9/esZJe/wKibuKywoLRzs7SIECKquCQMrse7x8O6yLSFDTU1EBgsOBS3Ps0cAAALvSURBVEjHvZZpQ9NAEIZTDhFvwPs+UEEFFVHQBmihDBCO0nKUcitnRagKaFEU1AItiCAqglxWUBSx/kVn0yZNzDb5xnya3X2f3Z3ZzWwYZqtMF6FhOpk8MlJ7SqkG3ajobaoWHcXLBH3M9tgdGha7M0YkIpldelbbdu8JAjpm7z42Lj5B1eLj9PsPMIHII5iDh9gEyVRZ2TkGo9GQk5sn6UzQHz6C0gBw9FgIMOXmg2gFhUUS4HgIEFfgiktAZqVlnAicUALmciKyWCsqq6qqbTUW0rCbwgO1daiob2gUttFkb8aOu/fCAWaib2mVprLRSAgTHeDacLC9g4+80+G4z8fb9QA77RwV6MahHieJvPAhCeXRYxKvEwlLGQ3o7QPoJ/NzT4QUPSVEF+6qtIgCuDDeAbKLZyh9Pmh4gTO/5OPAyAspwBCAjYw7hwFevWbZN26AkVHSY8cTVAJjOCGfIHQ8WbxjAQt/OZrwPPIUgBdgnM/khNU6GDj1twCdvFcDkKsAcN1J+XXueAcwwXs2gBwFMAXgkgPTAO97ea8awKAACgBmpPLRDx6wfAz4VQBGBeCWA12fMHYHqwLMAmRLgAaA5s9Co5K2pR6AOcml82BixFYFLWgHwHwI+AIw5BRbVlxdASzgwQ2IEtfi4nRoOTy4LAXAjQAs0esLxpNPuUt41Msrguarz/dN8FvrSTxKwLwKsPY9KFoC+CEceAtAiYn2Aa3jtf45+j/gbMfuYvon6iNEYI1fGxu/A/NjuqGc/omym7g4rK1I4x3ox646c7gy84cQy0tidltt9URfG76Qbfr4QjY/lz0z45ocJ4UM2swqlY/l1lflpbKvm1oqJcXY7B0JyYdcvdRifFJW7rkFR8+su2DK7h2Tl/tTQUDHnD6j135Q/GfPMYnBJ+v8Badf71c1vf/vxSTxjUu+dPlKSmqKiqWmXL12PTn0jCal3Ui/qWrpt9KSpA91RuZtDcvMkD/+iXc0LHHL/mL+ARavmj5/sG4oAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 2212,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"0.0.1\" package=\"me.rohanpeshkar.helpersample\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f090083\" android:label=\"HelperSample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-mdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"me.rohanpeshkar.helpersample.HomeActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"me.rohanpeshkar.helpersample.SecondActivity\" android:parentActivityName=\"me.rohanpeshkar.helpersample.HomeActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2013006,
+  "crc32" : 323646619,
+  "sha256" : "63a0d012fb7a742b86b6c753e036274b856d103b4519772dd9a2dde941c058d1",
+  "buildTime" : 1535802477000
+}

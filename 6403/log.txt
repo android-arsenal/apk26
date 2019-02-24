@@ -1,0 +1,158 @@
+2018-08-31 19:28:23,717 INFO  DownloadService - Downloading "https://github.com/ajithvgiri/canvas-library/archive/master.zip", attempt 3
+2018-08-31 19:28:24,204 INFO  DownloadService - Downloaded https://github.com/ajithvgiri/canvas-library/archive/master.zip, attempt 3
+2018-08-31 19:28:24,204 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/master.zip": 153 KB
+2018-08-31 19:28:24,204 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 19:28:24,205 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/master.zip: true
+2018-08-31 19:28:24,206 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src'.
+2018-08-31 19:28:24,227 INFO  FullProcessService - Size of directory with sources: 172 KB
+2018-08-31 19:28:24,228 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src]
+2018-08-31 19:28:24,243 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/.git/
+
+2018-08-31 19:28:24,247 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/gradlew
+2018-08-31 19:28:24,250 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/canvaslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/build.gradle
+2018-08-31 19:28:24,253 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/canvaslibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/settings.gradle
+2018-08-31 19:28:24,253 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 19:28:24,253 INFO  ProjectFixService - Fixing project...
+2018-08-31 19:28:24,260 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/app/local.properties
+2018-08-31 19:28:24,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 19:28:24,261 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 19:28:24,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/canvaslibrary/local.properties
+2018-08-31 19:28:24,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/canvaslibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-31 19:28:24,263 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/canvaslibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-31 19:28:24,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/local.properties
+2018-08-31 19:28:24,264 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 19:28:24,264 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 19:28:24,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 19:28:24,266 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 19:28:24,266 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 19:28:24,266 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 19:28:24,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 19:28:30,438 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 19:28:30,438 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 19:28:30,438 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 19:28:52,100 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:canvaslibrary:preBuild UP-TO-DATE
+:canvaslibrary:preDebugBuild UP-TO-DATE
+:canvaslibrary:checkDebugManifest
+:canvaslibrary:processDebugManifest
+:app:preDebugBuild
+:canvaslibrary:compileDebugAidl
+:app:compileDebugAidl
+:canvaslibrary:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:canvaslibrary:compileDebugRenderscript
+:canvaslibrary:generateDebugResValues
+:canvaslibrary:generateDebugResources
+:canvaslibrary:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:canvaslibrary:platformAttrExtractor
+:canvaslibrary:generateDebugBuildConfig
+:canvaslibrary:prepareLintJar
+:canvaslibrary:javaPreCompileDebug
+:canvaslibrary:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:canvaslibrary:mergeDebugShaders
+:canvaslibrary:compileDebugShaders
+:canvaslibrary:generateDebugAssets
+:canvaslibrary:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:canvaslibrary:compileDebugNdk NO-SOURCE
+:canvaslibrary:mergeDebugJniLibFolders
+:canvaslibrary:transformNativeLibsWithMergeJniLibsForDebug
+:canvaslibrary:transformNativeLibsWithStripDebugSymbolForDebug
+:canvaslibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:canvaslibrary:preReleaseBuild UP-TO-DATE
+:canvaslibrary:checkReleaseManifest
+:canvaslibrary:processReleaseManifest
+:app:preReleaseBuild
+:canvaslibrary:compileReleaseAidl
+:app:compileReleaseAidl
+:canvaslibrary:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:canvaslibrary:compileReleaseRenderscript
+:canvaslibrary:generateReleaseResValues
+:canvaslibrary:generateReleaseResources
+:canvaslibrary:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:canvaslibrary:generateReleaseBuildConfig
+:canvaslibrary:javaPreCompileRelease
+:canvaslibrary:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:canvaslibrary:mergeReleaseShaders
+:canvaslibrary:compileReleaseShaders
+:canvaslibrary:generateReleaseAssets
+:canvaslibrary:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:canvaslibrary:compileReleaseNdk NO-SOURCE
+:canvaslibrary:mergeReleaseJniLibFolders
+:canvaslibrary:transformNativeLibsWithMergeJniLibsForRelease
+:canvaslibrary:transformNativeLibsWithStripDebugSymbolForRelease
+:canvaslibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:canvaslibrary:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:canvaslibrary:generateDebugSources
+:canvaslibrary:compileDebugJavaWithJavac
+:canvaslibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:canvaslibrary:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:canvaslibrary:generateReleaseSources
+:canvaslibrary:compileReleaseJavaWithJavac
+:canvaslibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 21s
+88 actionable tasks: 88 executed
+
+2018-08-31 19:28:52,163 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718503712-0/src/Canvas-Library-master/app/build/outputs/apk/debug/app-debug.apk

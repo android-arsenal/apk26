@@ -1,0 +1,317 @@
+2018-08-31 22:19:48,036 INFO  DownloadService - Downloading "https://github.com/ognev-zair/Kotlin-AgendaCalendarView/archive/master.zip", attempt 3
+2018-08-31 22:19:53,427 INFO  DownloadService - Downloaded https://github.com/ognev-zair/Kotlin-AgendaCalendarView/archive/master.zip, attempt 3
+2018-08-31 22:19:53,427 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/master.zip": 6 MB
+2018-08-31 22:19:53,427 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 22:19:53,436 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/master.zip: true
+2018-08-31 22:19:53,436 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src'.
+2018-08-31 22:19:53,521 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-08-31 22:19:53,522 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src]
+2018-08-31 22:19:53,538 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/.git/
+
+2018-08-31 22:19:53,542 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/gradlew
+2018-08-31 22:19:53,547 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/build.gradle
+2018-08-31 22:19:53,551 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/settings.gradle
+2018-08-31 22:19:53,551 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2018-08-31 22:20:53,556 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-31 22:20:53,556 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 22:20:53,556 INFO  ProjectFixService - Fixing project...
+2018-08-31 22:20:53,571 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/local.properties
+2018-08-31 22:20:53,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-08-31 22:20:53,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/local.properties
+2018-08-31 22:20:53,572 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-31 22:20:53,573 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/local.properties
+2018-08-31 22:20:53,573 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-08-31 22:20:53,574 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-08-31 22:20:53,574 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2018-08-31 22:20:53,574 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 22:20:53,574 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 22:20:53,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 22:21:11,520 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-31 22:21:11,520 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 22:21:11,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 22:22:23,148 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation'.
+It will be removed at the end of 2018
+Download https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+:app:preBuild UP-TO-DATE
+:kotlin-agendacalendarview:preBuild UP-TO-DATE
+:kotlin-agendacalendarview:preDebugBuild UP-TO-DATE
+:kotlin-agendacalendarview:checkDebugManifest
+:kotlin-agendacalendarview:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/se/emilsjolander/stickylistheaders/2.7.0/stickylistheaders-2.7.0.pom
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.pom
+Download https://jcenter.bintray.com/se/emilsjolander/stickylistheaders/2.7.0/stickylistheaders-2.7.0.aar
+:kotlin-agendacalendarview:compileDebugAidl
+:app:compileDebugAidl
+:kotlin-agendacalendarview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:kotlin-agendacalendarview:compileDebugRenderscript
+:kotlin-agendacalendarview:generateDebugResValues
+:kotlin-agendacalendarview:generateDebugResources
+:kotlin-agendacalendarview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:kotlin-agendacalendarview:platformAttrExtractor
+:kotlin-agendacalendarview:generateDebugBuildConfig
+:kotlin-agendacalendarview:prepareLintJar
+:kotlin-agendacalendarview:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:kotlin-agendacalendarview:mergeDebugShaders
+:kotlin-agendacalendarview:compileDebugShaders
+:kotlin-agendacalendarview:generateDebugAssets
+:kotlin-agendacalendarview:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:kotlin-agendacalendarview:compileDebugNdk NO-SOURCE
+:kotlin-agendacalendarview:mergeDebugJniLibFolders
+:kotlin-agendacalendarview:transformNativeLibsWithMergeJniLibsForDebug
+:kotlin-agendacalendarview:transformNativeLibsWithStripDebugSymbolForDebug
+:kotlin-agendacalendarview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:kotlin-agendacalendarview:preReleaseBuild UP-TO-DATE
+:kotlin-agendacalendarview:checkReleaseManifest
+:kotlin-agendacalendarview:processReleaseManifest
+:app:preReleaseBuild
+:kotlin-agendacalendarview:compileReleaseAidl
+:app:compileReleaseAidl
+:kotlin-agendacalendarview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:kotlin-agendacalendarview:compileReleaseRenderscript
+:kotlin-agendacalendarview:generateReleaseResValues
+:kotlin-agendacalendarview:generateReleaseResources
+:kotlin-agendacalendarview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:kotlin-agendacalendarview:generateReleaseBuildConfig
+:kotlin-agendacalendarview:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:kotlin-agendacalendarview:mergeReleaseShaders
+:kotlin-agendacalendarview:compileReleaseShaders
+:kotlin-agendacalendarview:generateReleaseAssets
+:kotlin-agendacalendarview:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:kotlin-agendacalendarview:compileReleaseNdk NO-SOURCE
+:kotlin-agendacalendarview:mergeReleaseJniLibFolders
+:kotlin-agendacalendarview:transformNativeLibsWithMergeJniLibsForRelease
+:kotlin-agendacalendarview:transformNativeLibsWithStripDebugSymbolForRelease
+:kotlin-agendacalendarview:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:kotlin-agendacalendarview:generateDebugRFile
+:app:processDebugResources
+:kotlin-agendacalendarview:compileDebugKotlin
+Download https://jcenter.bintray.com/io/reactivex/rxjava/1.1.1/rxjava-1.1.1.jar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/AgendaCalendarView.kt: (119, 17): Condition 'event != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/AgendaCalendarView.kt: (155, 53): Unchecked cast: EventAdapter<*> to EventAdapter<CalendarEvent>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/CalendarManager.kt: (59, 20): Unnecessary non-null assertion (!!) on a non-null receiver of type Calendar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaAdapter.kt: (71, 13): Name shadowed: convertView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaAdapter.kt: (71, 27): Variable 'convertView' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaView.kt: (55, 45): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaView.kt: (55, 60): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaView.kt: (67, 62): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (87, 29): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (87, 49): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (89, 46): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (139, 31): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (143, 41): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (150, 74): Unnecessary non-null assertion (!!) on a non-null receiver of type Integer
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (229, 31): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (242, 41): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (252, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type Integer
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (253, 50): Unnecessary non-null assertion (!!) on a non-null receiver of type Integer
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (264, 55): Unnecessary non-null assertion (!!) on a non-null receiver of type Class<CalendarView>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (55, 26): Parameter 'weekItems' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (103, 47): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (105, 28): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (153, 21): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (157, 25): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (179, 21): Variable 'animatorBackgroundAlphaIn' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (210, 21): Variable 'animatorBackgroundAlphaOut' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/models/BaseCalendarEvent.kt: (49, 17): Parameter 'baseCalendarEvent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/models/DayItem.kt: (44, 27): Unnecessary non-null assertion (!!) on a non-null receiver of type Date
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/render/EventAdapter.kt: (29, 48): Unchecked cast: Type! to Class<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (32, 16): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (33, 20): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (34, 20): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (50, 16): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (51, 20): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (52, 20): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (83, 16): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (83, 70): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (94, 13): Name shadowed: millis
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (13, 41): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (14, 52): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (41, 96): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (47, 43): Unnecessary non-null assertion (!!) on a non-null receiver of type SparseArray<Integer>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (48, 57): Unnecessary non-null assertion (!!) on a non-null receiver of type SparseArray<Integer>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (49, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type SparseArray<Integer>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (52, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (80, 80): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (85, 73): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (93, 73): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/widgets/FloatingActionButton.kt: (78, 82): This cast can never succeed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/widgets/FloatingActionButton.kt: (94, 46): No cast needed
+:kotlin-agendacalendarview:generateDebugSources
+:kotlin-agendacalendarview:javaPreCompileDebug
+:kotlin-agendacalendarview:compileDebugJavaWithJavac
+:kotlin-agendacalendarview:transformClassesWithRetrolambdaForDebug
+:kotlin-agendacalendarview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/src/main/java/com/ognev/kotlin/agendacalendarview/sample/MainActivity.kt: (63, 81): Parameter 'parent' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/src/main/java/com/ognev/kotlin/agendacalendarview/sample/MainActivity.kt: (63, 132): Parameter 'id' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/src/main/java/com/ognev/kotlin/agendacalendarview/sample/SampleEventAgendaAdapter.kt: (53, 33): The corresponding parameter in the supertype 'DefaultEventAdapter' is named 'isEmptyEvent'. This may cause problems when calling this function with named arguments.
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:kotlin-agendacalendarview:generateReleaseRFile
+:app:processReleaseResources
+:kotlin-agendacalendarview:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/AgendaCalendarView.kt: (119, 17): Condition 'event != null' is always 'true'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/AgendaCalendarView.kt: (155, 53): Unchecked cast: EventAdapter<*> to EventAdapter<CalendarEvent>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/CalendarManager.kt: (59, 20): Unnecessary non-null assertion (!!) on a non-null receiver of type Calendar
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaAdapter.kt: (71, 13): Name shadowed: convertView
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaAdapter.kt: (71, 27): Variable 'convertView' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaView.kt: (55, 45): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaView.kt: (55, 60): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/agenda/AgendaView.kt: (67, 62): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (87, 29): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (87, 49): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (89, 46): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (139, 31): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (143, 41): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (150, 74): Unnecessary non-null assertion (!!) on a non-null receiver of type Integer
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (229, 31): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (242, 41): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (252, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type Integer
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (253, 50): Unnecessary non-null assertion (!!) on a non-null receiver of type Integer
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/CalendarView.kt: (264, 55): Unnecessary non-null assertion (!!) on a non-null receiver of type Class<CalendarView>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (55, 26): Parameter 'weekItems' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (103, 47): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (105, 28): 'setBackgroundDrawable(Drawable!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (153, 21): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (157, 25): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (179, 21): Variable 'animatorBackgroundAlphaIn' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/calendar/weekslist/WeeksAdapter.kt: (210, 21): Variable 'animatorBackgroundAlphaOut' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/models/BaseCalendarEvent.kt: (49, 17): Parameter 'baseCalendarEvent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/models/DayItem.kt: (44, 27): Unnecessary non-null assertion (!!) on a non-null receiver of type Date
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/render/EventAdapter.kt: (29, 48): Unchecked cast: Type! to Class<T>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (32, 16): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (33, 20): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (34, 20): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (50, 16): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (51, 20): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (52, 20): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (83, 16): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (83, 70): Identity equality for arguments of types Int and Int is deprecated
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/DateHelper.kt: (94, 13): Name shadowed: millis
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (13, 41): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (14, 52): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (41, 96): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (47, 43): Unnecessary non-null assertion (!!) on a non-null receiver of type SparseArray<Integer>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (48, 57): Unnecessary non-null assertion (!!) on a non-null receiver of type SparseArray<Integer>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (49, 52): Unnecessary non-null assertion (!!) on a non-null receiver of type SparseArray<Integer>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (52, 42): Unnecessary non-null assertion (!!) on a non-null receiver of type Int
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (80, 80): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (85, 73): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/utils/ListViewScrollTracker.kt: (93, 73): This class shouldn't be used in Kotlin. Use kotlin.Int instead.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/widgets/FloatingActionButton.kt: (78, 82): This cast can never succeed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/kotlin-agendacalendarview/src/main/java/com/ognev/kotlin/agendacalendarview/widgets/FloatingActionButton.kt: (94, 46): No cast needed
+:kotlin-agendacalendarview:generateReleaseSources
+:kotlin-agendacalendarview:javaPreCompileRelease
+:kotlin-agendacalendarview:compileReleaseJavaWithJavac
+:kotlin-agendacalendarview:transformClassesWithRetrolambdaForRelease
+:kotlin-agendacalendarview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/src/main/java/com/ognev/kotlin/agendacalendarview/sample/MainActivity.kt: (63, 81): Parameter 'parent' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/src/main/java/com/ognev/kotlin/agendacalendarview/sample/MainActivity.kt: (63, 132): Parameter 'id' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/src/main/java/com/ognev/kotlin/agendacalendarview/sample/SampleEventAgendaAdapter.kt: (53, 33): The corresponding parameter in the supertype 'DefaultEventAdapter' is named 'isEmptyEvent'. This may cause problems when calling this function with named arguments.
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 10s
+97 actionable tasks: 97 executed
+
+2018-08-31 22:22:23,238 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728788028-0/src/Kotlin-AgendaCalendarView-master/app/build/outputs/apk/debug/app-debug.apk

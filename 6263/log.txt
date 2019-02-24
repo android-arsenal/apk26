@@ -1,0 +1,162 @@
+2018-09-01 18:52:34,201 INFO  DownloadService - Downloading "https://github.com/shivam-ai/Android-CustomToast/archive/master.zip", attempt 3
+2018-09-01 18:52:35,169 INFO  DownloadService - Downloaded https://github.com/shivam-ai/Android-CustomToast/archive/master.zip, attempt 3
+2018-09-01 18:52:35,170 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/master.zip": 595 KB
+2018-09-01 18:52:35,170 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 18:52:35,170 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/master.zip: true
+2018-09-01 18:52:35,170 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src'.
+2018-09-01 18:52:35,201 INFO  FullProcessService - Size of directory with sources: 640 KB
+2018-09-01 18:52:35,201 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src]
+2018-09-01 18:52:35,217 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/.git/
+
+2018-09-01 18:52:35,221 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/gradlew
+2018-09-01 18:52:35,225 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/ctlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/build.gradle
+2018-09-01 18:52:35,228 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/ctlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/settings.gradle
+2018-09-01 18:52:35,229 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 18:52:35,229 INFO  ProjectFixService - Fixing project...
+2018-09-01 18:52:35,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/app/local.properties
+2018-09-01 18:52:35,237 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-01 18:52:35,238 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/ctlib/local.properties
+2018-09-01 18:52:35,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/ctlib/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-01 18:52:35,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/local.properties
+2018-09-01 18:52:35,239 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.5-all.zip
+2018-09-01 18:52:35,240 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.5-bin.zip)
+2018-09-01 18:52:35,241 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-01 18:52:35,241 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 18:52:35,241 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:52:35,241 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:52:43,527 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-01 18:52:43,527 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 18:52:43,527 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 18:53:03,443 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:app:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:app:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportV42600Alpha1Library
+:app:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:ctlib:preBuild UP-TO-DATE
+:ctlib:preReleaseBuild UP-TO-DATE
+:ctlib:checkReleaseManifest
+:ctlib:preDebugAndroidTestBuild UP-TO-DATE
+:ctlib:preDebugBuild UP-TO-DATE
+:ctlib:preDebugUnitTestBuild UP-TO-DATE
+:ctlib:preReleaseUnitTestBuild UP-TO-DATE
+:ctlib:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:ctlib:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:ctlib:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:ctlib:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:ctlib:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:ctlib:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:ctlib:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:ctlib:prepareComAndroidSupportSupportV42600Alpha1Library
+:ctlib:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:ctlib:prepareReleaseDependencies
+:ctlib:compileReleaseAidl
+:ctlib:compileReleaseNdk NO-SOURCE
+:ctlib:compileLint
+:ctlib:copyReleaseLint NO-SOURCE
+:ctlib:compileReleaseRenderscript
+:ctlib:generateReleaseBuildConfig
+:ctlib:generateReleaseResValues
+:ctlib:generateReleaseResources
+:ctlib:mergeReleaseResources
+:ctlib:processReleaseManifest
+:ctlib:processReleaseResources
+:ctlib:generateReleaseSources
+:ctlib:incrementalReleaseJavaCompilationSafeguard
+:ctlib:javaPreCompileRelease
+:ctlib:compileReleaseJavaWithJavac
+:ctlib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/ctlib/src/main/java/com/tree/rh/ctlib/CT.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:ctlib:extractReleaseAnnotations
+:ctlib:mergeReleaseShaders
+:ctlib:compileReleaseShaders
+:ctlib:generateReleaseAssets
+:ctlib:mergeReleaseAssets
+:ctlib:mergeReleaseProguardFiles
+:ctlib:packageReleaseRenderscript NO-SOURCE
+:ctlib:packageReleaseResources
+:ctlib:processReleaseJavaRes NO-SOURCE
+:ctlib:transformResourcesWithMergeJavaResForRelease
+:ctlib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ctlib:mergeReleaseJniLibFolders
+:ctlib:transformNativeLibsWithMergeJniLibsForRelease
+:ctlib:transformNativeLibsWithStripDebugSymbolForRelease
+:ctlib:transformNativeLibsWithSyncJniLibsForRelease
+:ctlib:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 19.579 secs
+
+2018-09-01 18:53:03,526 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802754197-0/src/Android-CustomToast-master/app/build/outputs/apk/app-debug.apk

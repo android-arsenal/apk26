@@ -1,0 +1,162 @@
+2018-08-31 16:27:32,099 INFO  DownloadService - Downloading "https://github.com/HKMOpen/SpinnerDatePicker/archive/master.zip", attempt 3
+2018-08-31 16:27:34,478 INFO  DownloadService - Downloaded https://github.com/HKMOpen/SpinnerDatePicker/archive/master.zip, attempt 3
+2018-08-31 16:27:34,478 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/master.zip": 242 KB
+2018-08-31 16:27:34,478 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 16:27:34,484 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/master.zip: true
+2018-08-31 16:27:34,484 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src'.
+2018-08-31 16:27:34,509 INFO  FullProcessService - Size of directory with sources: 292 KB
+2018-08-31 16:27:34,509 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src]
+2018-08-31 16:27:34,527 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/.git/
+
+2018-08-31 16:27:34,530 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/gradlew
+2018-08-31 16:27:34,533 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/build.gradle
+2018-08-31 16:27:34,537 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/bintrayrelease.gradle
+2018-08-31 16:27:34,537 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 16:27:34,537 INFO  ProjectFixService - Fixing project...
+2018-08-31 16:27:34,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/local.properties
+2018-08-31 16:27:34,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 16:27:34,548 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 16:27:34,549 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/local.properties
+2018-08-31 16:27:34,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 16:27:34,556 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 16:27:34,557 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/local.properties
+2018-08-31 16:27:34,557 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 16:27:34,558 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 16:27:34,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 16:27:34,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 16:27:34,561 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 16:27:34,562 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 16:27:34,562 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 16:27:48,801 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-31 16:27:48,801 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 16:27:48,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 16:28:17,799 INFO  SysUtils - Configuration on demand is an incubating feature.
+:SpinnerDatePickerExample:preBuild UP-TO-DATE
+:SpinnerDatePickerLib:preBuild UP-TO-DATE
+:SpinnerDatePickerLib:preDebugBuild UP-TO-DATE
+:SpinnerDatePickerLib:checkDebugManifest
+:SpinnerDatePickerLib:processDebugManifest
+:SpinnerDatePickerExample:preDebugBuild
+:SpinnerDatePickerLib:compileDebugAidl
+:SpinnerDatePickerExample:compileDebugAidl
+:SpinnerDatePickerLib:packageDebugRenderscript NO-SOURCE
+:SpinnerDatePickerExample:compileDebugRenderscript
+:SpinnerDatePickerExample:checkDebugManifest
+:SpinnerDatePickerExample:generateDebugBuildConfig
+:SpinnerDatePickerExample:prepareLintJar
+:SpinnerDatePickerExample:generateDebugResValues
+:SpinnerDatePickerExample:generateDebugResources
+:SpinnerDatePickerLib:compileDebugRenderscript
+:SpinnerDatePickerLib:generateDebugResValues
+:SpinnerDatePickerLib:generateDebugResources
+:SpinnerDatePickerLib:packageDebugResources
+:SpinnerDatePickerExample:mergeDebugResources
+:SpinnerDatePickerExample:createDebugCompatibleScreenManifests
+:SpinnerDatePickerExample:processDebugManifest
+:SpinnerDatePickerExample:splitsDiscoveryTaskDebug
+:SpinnerDatePickerLib:platformAttrExtractor
+:SpinnerDatePickerLib:generateDebugBuildConfig
+:SpinnerDatePickerLib:prepareLintJar
+:SpinnerDatePickerLib:javaPreCompileDebug
+:SpinnerDatePickerLib:processDebugJavaRes NO-SOURCE
+:SpinnerDatePickerExample:compileDebugNdk NO-SOURCE
+:SpinnerDatePickerExample:mergeDebugShaders
+:SpinnerDatePickerExample:compileDebugShaders
+:SpinnerDatePickerExample:generateDebugAssets
+:SpinnerDatePickerLib:mergeDebugShaders
+:SpinnerDatePickerLib:compileDebugShaders
+:SpinnerDatePickerLib:generateDebugAssets
+:SpinnerDatePickerLib:mergeDebugAssets
+:SpinnerDatePickerExample:mergeDebugAssets
+:SpinnerDatePickerExample:mergeDebugJniLibFolders
+:SpinnerDatePickerLib:compileDebugNdk NO-SOURCE
+:SpinnerDatePickerLib:mergeDebugJniLibFolders
+:SpinnerDatePickerLib:transformNativeLibsWithMergeJniLibsForDebug
+:SpinnerDatePickerLib:transformNativeLibsWithStripDebugSymbolForDebug
+:SpinnerDatePickerLib:transformNativeLibsWithIntermediateJniLibsForDebug
+:SpinnerDatePickerExample:processDebugJavaRes NO-SOURCE
+:SpinnerDatePickerExample:validateSigningDebug
+:SpinnerDatePickerLib:preReleaseBuild UP-TO-DATE
+:SpinnerDatePickerLib:checkReleaseManifest
+:SpinnerDatePickerLib:processReleaseManifest
+:SpinnerDatePickerExample:preReleaseBuild
+:SpinnerDatePickerLib:compileReleaseAidl
+:SpinnerDatePickerExample:compileReleaseAidl
+:SpinnerDatePickerLib:packageReleaseRenderscript NO-SOURCE
+:SpinnerDatePickerExample:compileReleaseRenderscript
+:SpinnerDatePickerExample:checkReleaseManifest
+:SpinnerDatePickerExample:generateReleaseBuildConfig
+:SpinnerDatePickerExample:generateReleaseResValues
+:SpinnerDatePickerExample:generateReleaseResources
+:SpinnerDatePickerLib:compileReleaseRenderscript
+:SpinnerDatePickerLib:generateReleaseResValues
+:SpinnerDatePickerLib:generateReleaseResources
+:SpinnerDatePickerLib:packageReleaseResources
+:SpinnerDatePickerExample:mergeReleaseResources
+:SpinnerDatePickerExample:createReleaseCompatibleScreenManifests
+:SpinnerDatePickerExample:processReleaseManifest
+:SpinnerDatePickerExample:splitsDiscoveryTaskRelease
+:SpinnerDatePickerLib:generateReleaseBuildConfig
+:SpinnerDatePickerLib:javaPreCompileRelease
+:SpinnerDatePickerLib:processReleaseJavaRes NO-SOURCE
+:SpinnerDatePickerExample:compileReleaseNdk NO-SOURCE
+:SpinnerDatePickerExample:mergeReleaseShaders
+:SpinnerDatePickerExample:compileReleaseShaders
+:SpinnerDatePickerExample:generateReleaseAssets
+:SpinnerDatePickerLib:mergeReleaseShaders
+:SpinnerDatePickerLib:compileReleaseShaders
+:SpinnerDatePickerLib:generateReleaseAssets
+:SpinnerDatePickerLib:mergeReleaseAssets
+:SpinnerDatePickerExample:mergeReleaseAssets
+:SpinnerDatePickerExample:mergeReleaseJniLibFolders
+:SpinnerDatePickerLib:compileReleaseNdk NO-SOURCE
+:SpinnerDatePickerLib:mergeReleaseJniLibFolders
+:SpinnerDatePickerLib:transformNativeLibsWithMergeJniLibsForRelease
+:SpinnerDatePickerLib:transformNativeLibsWithStripDebugSymbolForRelease
+:SpinnerDatePickerLib:transformNativeLibsWithIntermediateJniLibsForRelease
+:SpinnerDatePickerExample:processReleaseJavaRes NO-SOURCE
+:SpinnerDatePickerLib:processDebugResources
+:SpinnerDatePickerExample:processDebugResources
+:SpinnerDatePickerExample:generateDebugSources
+:SpinnerDatePickerLib:generateDebugSources
+:SpinnerDatePickerLib:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/src/main/java/com/tsongkha/spinnerdatepicker/DateUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:SpinnerDatePickerLib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:SpinnerDatePickerExample:javaPreCompileDebug
+:SpinnerDatePickerExample:compileDebugJavaWithJavac
+:SpinnerDatePickerExample:compileDebugSources
+:SpinnerDatePickerExample:transformClassesWithDexBuilderForDebug
+:SpinnerDatePickerExample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:SpinnerDatePickerExample:transformDexArchiveWithDexMergerForDebug
+:SpinnerDatePickerExample:transformNativeLibsWithMergeJniLibsForDebug
+:SpinnerDatePickerExample:transformNativeLibsWithStripDebugSymbolForDebug
+:SpinnerDatePickerExample:transformResourcesWithMergeJavaResForDebug
+:SpinnerDatePickerExample:packageDebug
+:SpinnerDatePickerExample:assembleDebug
+:SpinnerDatePickerLib:processReleaseResources
+:SpinnerDatePickerExample:processReleaseResources
+:SpinnerDatePickerExample:generateReleaseSources
+:SpinnerDatePickerLib:generateReleaseSources
+:SpinnerDatePickerLib:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/src/main/java/com/tsongkha/spinnerdatepicker/DateUtils.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:SpinnerDatePickerLib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:SpinnerDatePickerExample:javaPreCompileRelease
+:SpinnerDatePickerExample:compileReleaseJavaWithJavac
+:SpinnerDatePickerExample:compileReleaseSources
+:SpinnerDatePickerExample:transformClassesWithPreDexForRelease
+:SpinnerDatePickerExample:transformDexWithDexForRelease
+:SpinnerDatePickerExample:transformNativeLibsWithMergeJniLibsForRelease
+:SpinnerDatePickerExample:transformNativeLibsWithStripDebugSymbolForRelease
+:SpinnerDatePickerExample:transformResourcesWithMergeJavaResForRelease
+:SpinnerDatePickerExample:packageRelease
+:SpinnerDatePickerExample:lintVitalRelease
+:SpinnerDatePickerExample:assembleRelease
+:SpinnerDatePickerExample:assemble
+:SpinnerDatePickerExample:build
+
+BUILD SUCCESSFUL in 28s
+88 actionable tasks: 88 executed
+
+2018-08-31 16:28:17,867 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707652091-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build/outputs/apk/release/SpinnerDatePickerExample-release-unsigned.apk

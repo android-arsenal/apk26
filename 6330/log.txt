@@ -1,0 +1,305 @@
+2018-08-31 22:14:02,071 INFO  DownloadService - Downloading "https://github.com/jaychang0917/SimpleApiClient/archive/master.zip", attempt 3
+2018-08-31 22:14:02,600 INFO  DownloadService - Downloaded https://github.com/jaychang0917/SimpleApiClient/archive/master.zip, attempt 3
+2018-08-31 22:14:02,600 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/master.zip": 130 KB
+2018-08-31 22:14:02,601 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 22:14:02,606 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/master.zip: true
+2018-08-31 22:14:02,606 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src'.
+2018-08-31 22:14:02,631 INFO  FullProcessService - Size of directory with sources: 172 KB
+2018-08-31 22:14:02,631 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src]
+2018-08-31 22:14:02,652 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/.git/
+
+2018-08-31 22:14:02,655 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/gradlew
+2018-08-31 22:14:02,658 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-moshi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/build.gradle
+2018-08-31 22:14:02,661 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-moshi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/settings.gradle
+2018-08-31 22:14:02,661 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 22:14:02,661 INFO  ProjectFixService - Fixing project...
+2018-08-31 22:14:02,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/app/local.properties
+2018-08-31 22:14:02,672 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 22:14:02,672 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 22:14:02,673 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-gson/local.properties
+2018-08-31 22:14:02,676 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-gson/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 22:14:02,676 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-gson/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 22:14:02,677 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-moshi/local.properties
+2018-08-31 22:14:02,679 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-moshi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 22:14:02,679 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library-jsonparser-moshi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 22:14:02,680 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/local.properties
+2018-08-31 22:14:02,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 22:14:02,683 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 22:14:02,684 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/local.properties
+2018-08-31 22:14:02,684 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 22:14:02,684 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 22:14:02,687 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 22:14:02,687 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 22:14:02,687 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 22:14:02,687 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 22:14:02,688 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 22:14:11,291 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 22:14:11,291 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 22:14:11,292 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 22:15:09,271 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:library:preBuild UP-TO-DATE
+:library:preDebugBuild UP-TO-DATE
+:library:checkDebugManifest
+:library:processDebugManifest
+:library-jsonparser-gson:preBuild UP-TO-DATE
+:library-jsonparser-gson:preDebugBuild UP-TO-DATE
+:library-jsonparser-gson:checkDebugManifest
+:library-jsonparser-gson:processDebugManifest
+:library-jsonparser-moshi:preBuild UP-TO-DATE
+:library-jsonparser-moshi:preDebugBuild UP-TO-DATE
+:library-jsonparser-moshi:checkDebugManifest
+:library-jsonparser-moshi:processDebugManifest
+:app:preDebugBuild
+Download https://repo1.maven.org/maven2/com/squareup/retrofit2/converter-moshi/2.4.0/converter-moshi-2.4.0.pom
+Download https://repo1.maven.org/maven2/com/squareup/moshi/moshi/1.6.0/moshi-1.6.0.pom
+Download https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.6.0/moshi-kotlin-1.6.0.pom
+Download https://repo1.maven.org/maven2/com/squareup/moshi/moshi-parent/1.6.0/moshi-parent-1.6.0.pom
+Download https://repo1.maven.org/maven2/com/trello/rxlifecycle2/rxlifecycle-android-lifecycle-kotlin/2.2.1/rxlifecycle-android-lifecycle-kotlin-2.2.1.pom
+Download https://repo1.maven.org/maven2/com/trello/rxlifecycle2/rxlifecycle-android-lifecycle/2.2.1/rxlifecycle-android-lifecycle-2.2.1.pom
+Download https://repo1.maven.org/maven2/com/trello/rxlifecycle2/rxlifecycle-android-lifecycle/2.2.1/rxlifecycle-android-lifecycle-2.2.1.aar
+Download https://repo1.maven.org/maven2/com/trello/rxlifecycle2/rxlifecycle-android-lifecycle-kotlin/2.2.1/rxlifecycle-android-lifecycle-kotlin-2.2.1.aar
+:library:compileDebugAidl
+:library-jsonparser-gson:compileDebugAidl
+:library-jsonparser-moshi:compileDebugAidl
+:app:compileDebugAidl
+:library:packageDebugRenderscript NO-SOURCE
+:library-jsonparser-gson:packageDebugRenderscript NO-SOURCE
+:library-jsonparser-moshi:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:library:compileDebugRenderscript
+:library:generateDebugResValues
+:library:generateDebugResources
+:library:packageDebugResources
+:library-jsonparser-gson:compileDebugRenderscript
+:library-jsonparser-gson:generateDebugResValues
+:library-jsonparser-gson:generateDebugResources
+:library-jsonparser-gson:packageDebugResources
+:library-jsonparser-moshi:compileDebugRenderscript
+:library-jsonparser-moshi:generateDebugResValues
+:library-jsonparser-moshi:generateDebugResources
+:library-jsonparser-moshi:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:library:platformAttrExtractor
+:library-jsonparser-gson:platformAttrExtractor
+:library-jsonparser-moshi:platformAttrExtractor
+:library:generateDebugBuildConfig
+:library:prepareLintJar
+:library:processDebugJavaRes NO-SOURCE
+:library-jsonparser-gson:generateDebugBuildConfig
+:library-jsonparser-gson:prepareLintJar
+:library-jsonparser-gson:processDebugJavaRes NO-SOURCE
+:library-jsonparser-moshi:generateDebugBuildConfig
+:library-jsonparser-moshi:prepareLintJar
+:library-jsonparser-moshi:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:library:mergeDebugShaders
+:library:compileDebugShaders
+:library:generateDebugAssets
+:library:mergeDebugAssets
+:library-jsonparser-gson:mergeDebugShaders
+:library-jsonparser-gson:compileDebugShaders
+:library-jsonparser-gson:generateDebugAssets
+:library-jsonparser-gson:mergeDebugAssets
+:library-jsonparser-moshi:mergeDebugShaders
+:library-jsonparser-moshi:compileDebugShaders
+:library-jsonparser-moshi:generateDebugAssets
+:library-jsonparser-moshi:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:library:compileDebugNdk NO-SOURCE
+:library:mergeDebugJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForDebug
+:library:transformNativeLibsWithStripDebugSymbolForDebug
+:library:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-jsonparser-gson:compileDebugNdk NO-SOURCE
+:library-jsonparser-gson:mergeDebugJniLibFolders
+:library-jsonparser-gson:transformNativeLibsWithMergeJniLibsForDebug
+:library-jsonparser-gson:transformNativeLibsWithStripDebugSymbolForDebug
+:library-jsonparser-gson:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-jsonparser-moshi:compileDebugNdk NO-SOURCE
+:library-jsonparser-moshi:mergeDebugJniLibFolders
+:library-jsonparser-moshi:transformNativeLibsWithMergeJniLibsForDebug
+:library-jsonparser-moshi:transformNativeLibsWithStripDebugSymbolForDebug
+:library-jsonparser-moshi:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:processReleaseManifest
+:library-jsonparser-gson:preReleaseBuild UP-TO-DATE
+:library-jsonparser-gson:checkReleaseManifest
+:library-jsonparser-gson:processReleaseManifest
+:library-jsonparser-moshi:preReleaseBuild UP-TO-DATE
+:library-jsonparser-moshi:checkReleaseManifest
+:library-jsonparser-moshi:processReleaseManifest
+:app:preReleaseBuild
+:library:compileReleaseAidl
+:library-jsonparser-gson:compileReleaseAidl
+:library-jsonparser-moshi:compileReleaseAidl
+:app:compileReleaseAidl
+:library:packageReleaseRenderscript NO-SOURCE
+:library-jsonparser-gson:packageReleaseRenderscript NO-SOURCE
+:library-jsonparser-moshi:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:library:compileReleaseRenderscript
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library-jsonparser-gson:compileReleaseRenderscript
+:library-jsonparser-gson:generateReleaseResValues
+:library-jsonparser-gson:generateReleaseResources
+:library-jsonparser-gson:packageReleaseResources
+:library-jsonparser-moshi:compileReleaseRenderscript
+:library-jsonparser-moshi:generateReleaseResValues
+:library-jsonparser-moshi:generateReleaseResources
+:library-jsonparser-moshi:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:library:generateReleaseBuildConfig
+:library:processReleaseJavaRes NO-SOURCE
+:library-jsonparser-gson:generateReleaseBuildConfig
+:library-jsonparser-gson:processReleaseJavaRes NO-SOURCE
+:library-jsonparser-moshi:generateReleaseBuildConfig
+:library-jsonparser-moshi:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library-jsonparser-gson:mergeReleaseShaders
+:library-jsonparser-gson:compileReleaseShaders
+:library-jsonparser-gson:generateReleaseAssets
+:library-jsonparser-gson:mergeReleaseAssets
+:library-jsonparser-moshi:mergeReleaseShaders
+:library-jsonparser-moshi:compileReleaseShaders
+:library-jsonparser-moshi:generateReleaseAssets
+:library-jsonparser-moshi:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-jsonparser-gson:compileReleaseNdk NO-SOURCE
+:library-jsonparser-gson:mergeReleaseJniLibFolders
+:library-jsonparser-gson:transformNativeLibsWithMergeJniLibsForRelease
+:library-jsonparser-gson:transformNativeLibsWithStripDebugSymbolForRelease
+:library-jsonparser-gson:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-jsonparser-moshi:compileReleaseNdk NO-SOURCE
+:library-jsonparser-moshi:mergeReleaseJniLibFolders
+:library-jsonparser-moshi:transformNativeLibsWithMergeJniLibsForRelease
+:library-jsonparser-moshi:transformNativeLibsWithStripDebugSymbolForRelease
+:library-jsonparser-moshi:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:library-jsonparser-gson:processDebugResources
+:library-jsonparser-gson:generateDebugSources
+:library-jsonparser-gson:processReleaseResources
+:library-jsonparser-gson:generateReleaseSources
+:library:processDebugResources
+:library:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/converter/FileConverterFactory.kt: (35, 43): Unchecked cast: Any! to Iterable<File>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (4, 19): Parameter 'name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (7, 20): Parameter 'name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (10, 20): Parameter 'name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (13, 20): Parameter 'name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (16, 26): Parameter 'name' is never used
+:library:generateDebugSources
+:library:javaPreCompileDebug
+:library:compileDebugJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:library-jsonparser-gson:compileDebugKotlin
+:library-jsonparser-gson:javaPreCompileDebug
+:library-jsonparser-gson:compileDebugJavaWithJavac
+:library-jsonparser-gson:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:library:processReleaseResources
+:library:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/converter/FileConverterFactory.kt: (35, 43): Unchecked cast: Any! to Iterable<File>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (4, 19): Parameter 'name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (7, 20): Parameter 'name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (10, 20): Parameter 'name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (13, 20): Parameter 'name' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/library/src/main/java/com/jaychang/sac/util/Mime.kt: (16, 26): Parameter 'name' is never used
+:library:generateReleaseSources
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:library-jsonparser-gson:compileReleaseKotlin
+:library-jsonparser-gson:javaPreCompileRelease
+:library-jsonparser-gson:compileReleaseJavaWithJavac
+:library-jsonparser-gson:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:library-jsonparser-moshi:processDebugResources
+:app:processDebugResources
+:library-jsonparser-moshi:compileDebugKotlin
+Download https://repo1.maven.org/maven2/com/squareup/retrofit2/converter-moshi/2.4.0/converter-moshi-2.4.0.jar
+Download https://repo1.maven.org/maven2/com/squareup/moshi/moshi/1.6.0/moshi-1.6.0.jar
+Download https://repo1.maven.org/maven2/com/squareup/moshi/moshi-kotlin/1.6.0/moshi-kotlin-1.6.0.jar
+:library-jsonparser-moshi:generateDebugSources
+:library-jsonparser-moshi:javaPreCompileDebug
+:library-jsonparser-moshi:compileDebugJavaWithJavac
+:library-jsonparser-moshi:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:kaptGenerateStubsDebugKotlin
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:library-jsonparser-moshi:processReleaseResources
+:app:processReleaseResources
+:library-jsonparser-moshi:compileReleaseKotlin
+:library-jsonparser-moshi:generateReleaseSources
+:library-jsonparser-moshi:javaPreCompileRelease
+:library-jsonparser-moshi:compileReleaseJavaWithJavac
+:library-jsonparser-moshi:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 57s
+176 actionable tasks: 176 executed
+
+2018-08-31 22:15:09,373 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728442063-0/src/SimpleApiClient-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,1317 @@
+2018-09-01 17:50:51,996 INFO  DownloadService - Downloading "https://github.com/S64/android-sticky-recycler/archive/master.zip", attempt 3
+2018-09-01 17:50:53,780 INFO  DownloadService - Downloaded https://github.com/S64/android-sticky-recycler/archive/master.zip, attempt 3
+2018-09-01 17:50:53,781 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/master.zip": 1 MB
+2018-09-01 17:50:53,781 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 17:50:53,781 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/master.zip: true
+2018-09-01 17:50:53,781 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src'.
+2018-09-01 17:50:53,831 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-09-01 17:50:53,831 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src]
+2018-09-01 17:50:53,849 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/.git/
+
+2018-09-01 17:50:53,853 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/gradlew
+2018-09-01 17:50:53,860 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/build.gradle
+2018-09-01 17:50:53,864 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/build.gradle
+2018-09-01 17:50:53,865 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 17:50:53,865 INFO  ProjectFixService - Fixing project...
+2018-09-01 17:50:53,878 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/local.properties
+2018-09-01 17:50:53,883 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 17:50:53,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 17:50:53,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/local.properties
+2018-09-01 17:50:53,890 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 17:50:53,890 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 17:50:53,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/local.properties
+2018-09-01 17:50:53,896 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 17:50:53,896 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 17:50:53,898 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/local.properties
+2018-09-01 17:50:53,898 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 17:50:53,898 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 17:50:53,902 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 17:50:53,902 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 17:50:53,904 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 17:50:53,904 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 17:50:53,905 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 17:51:11,852 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-09-01 17:51:11,852 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 17:51:11,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 17:51:31,071 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:core:preBuild UP-TO-DATE
+:core:preDebugBuild UP-TO-DATE
+:core:checkDebugManifest
+:core:preDebugAndroidTestBuild UP-TO-DATE
+:core:preDebugUnitTestBuild UP-TO-DATE
+:core:preReleaseBuild UP-TO-DATE
+:core:preReleaseUnitTestBuild UP-TO-DATE
+:core:prepareComAndroidSupportRecyclerviewV72501Library
+:core:prepareComAndroidSupportSupportCompat2501Library
+:core:prepareComAndroidSupportSupportCoreUi2501Library
+:core:prepareJpS64AndroidRecyclercomponents001Library
+:core:prepareDebugDependencies
+:core:compileDebugAidl
+:core:compileDebugNdk UP-TO-DATE
+:core:compileLint
+:core:copyDebugLint UP-TO-DATE
+:core:compileDebugRenderscript
+:core:generateDebugBuildConfig
+:core:generateDebugResValues
+:core:generateDebugResources
+:core:mergeDebugResources
+:core:processDebugManifest
+:core:processDebugResources
+:core:generateDebugSources
+:core:incrementalDebugJavaCompilationSafeguard
+:core:javaPreCompileDebug
+:core:compileDebugJavaWithJavac
+:core:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:core:extractDebugAnnotations
+:core:mergeDebugShaders
+:core:compileDebugShaders
+:core:generateDebugAssets
+:core:mergeDebugAssets
+:core:mergeDebugProguardFiles
+:core:packageDebugRenderscript UP-TO-DATE
+:core:packageDebugResources
+:core:processDebugJavaRes UP-TO-DATE
+:core:transformResourcesWithMergeJavaResForDebug
+:core:transformClassesAndResourcesWithSyncLibJarsForDebug
+:core:mergeDebugJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForDebug
+:core:transformNativeLibsWithStripDebugSymbolForDebug
+:core:transformNativeLibsWithSyncJniLibsForDebug
+:core:bundleDebug
+:core:compileDebugSources
+:core:assembleDebug
+:core:checkReleaseManifest
+:core:prepareReleaseDependencies
+:core:compileReleaseAidl
+:core:compileReleaseNdk UP-TO-DATE
+:core:copyReleaseLint UP-TO-DATE
+:core:compileReleaseRenderscript
+:core:generateReleaseBuildConfig
+:core:generateReleaseResValues
+:core:generateReleaseResources
+:core:mergeReleaseResources
+:core:processReleaseManifest
+:core:processReleaseResources
+:core:generateReleaseSources
+:core:incrementalReleaseJavaCompilationSafeguard
+:core:javaPreCompileRelease
+:core:compileReleaseJavaWithJavac
+:core:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:core:extractReleaseAnnotations
+:core:mergeReleaseShaders
+:core:compileReleaseShaders
+:core:generateReleaseAssets
+:core:mergeReleaseAssets
+:core:mergeReleaseProguardFiles
+:core:packageReleaseRenderscript UP-TO-DATE
+:core:packageReleaseResources
+:core:processReleaseJavaRes UP-TO-DATE
+:core:transformResourcesWithMergeJavaResForRelease
+:core:transformClassesAndResourcesWithSyncLibJarsForRelease
+:core:mergeReleaseJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForRelease
+:core:transformNativeLibsWithStripDebugSymbolForRelease
+:core:transformNativeLibsWithSyncJniLibsForRelease
+:core:bundleRelease
+:core:compileReleaseSources
+:core:assembleRelease
+:core:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyCreator.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyCreator.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyCreator.java:23: error: package RecyclerView does not exist
+public interface IStickyCreator<ITEM, IDENTIFIER, VH extends RecyclerView.ViewHolder> {
+                                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:19: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:22: error: package RecyclerView does not exist
+public class StickyVerticalLayoutManager<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> extends RecyclerView.LayoutManager {
+                                                                                                                                                                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:22: error: package RecyclerView does not exist
+public class StickyVerticalLayoutManager<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> extends RecyclerView.LayoutManager {
+                                                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyRecyclerAdapter.java:19: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyRecyclerAdapter.java:21: error: package RecyclerView does not exist
+public interface IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH extends RecyclerView.ViewHolder> {
+                                                                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:22: error: package RecyclerView does not exist
+public class StickyVerticalLayoutManager<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> extends RecyclerView.LayoutManager {
+                                                                                                                                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:23: error: package com.google.common.base does not exist
+import com.google.common.base.Objects;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:28: error: package RecyclerView does not exist
+public class StickyVerticalLayoutManagerHelper<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> {
+                                                                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:28: error: package RecyclerView does not exist
+public class StickyVerticalLayoutManagerHelper<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> {
+                                                                                                                                                                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:42: error: package RecyclerView does not exist
+    public RecyclerView.LayoutParams generateDefaultLayoutParams() {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:47: error: package RecyclerView does not exist
+    public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:47: error: package RecyclerView does not exist
+    public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:52: error: package RecyclerView does not exist
+    public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:52: error: package RecyclerView does not exist
+    public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:62: error: cannot find symbol
+    public void smoothScrollToPosition(RecyclerView recyclerView, RecyclerView.State state, int position) {
+                                       ^
+  symbol:   class RecyclerView
+  location: class StickyVerticalLayoutManager<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManager
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManager
+    ADAPTER declared in class StickyVerticalLayoutManager
+    VH declared in class StickyVerticalLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:62: error: package RecyclerView does not exist
+    public void smoothScrollToPosition(RecyclerView recyclerView, RecyclerView.State state, int position) {
+                                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:67: error: package RecyclerView does not exist
+    public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:67: error: package RecyclerView does not exist
+    public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+                                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:72: error: cannot find symbol
+    public void onAttachedToWindow(RecyclerView view) {
+                                   ^
+  symbol:   class RecyclerView
+  location: class StickyVerticalLayoutManager<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManager
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManager
+    ADAPTER declared in class StickyVerticalLayoutManager
+    VH declared in class StickyVerticalLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:78: error: cannot find symbol
+    public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+                                     ^
+  symbol:   class RecyclerView
+  location: class StickyVerticalLayoutManager<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManager
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManager
+    ADAPTER declared in class StickyVerticalLayoutManager
+    VH declared in class StickyVerticalLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManager.java:78: error: package RecyclerView does not exist
+    public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyRecyclerAdapterListener.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:30: error: package RecyclerView does not exist
+    protected final RecyclerView.LayoutManager self;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:37: error: cannot find symbol
+    private RecyclerView mCurrentRecyclerView = null;
+            ^
+  symbol:   class RecyclerView
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:44: error: package RecyclerView does not exist
+    public StickyVerticalLayoutManagerHelper(RecyclerView.LayoutManager self, boolean autoDrawingOrder) {
+                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:58: error: package RecyclerView does not exist
+    public RecyclerView.LayoutParams generateDefaultLayoutParams() {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:81: error: package RecyclerView does not exist
+    public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:81: error: package RecyclerView does not exist
+    public void onLayoutChildren(RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:140: error: package RecyclerView does not exist
+    public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:140: error: package RecyclerView does not exist
+    public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:431: error: cannot find symbol
+    public void smoothScrollToPosition(RecyclerView recyclerView, RecyclerView.State state, int position) {
+                                       ^
+  symbol:   class RecyclerView
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:431: error: package RecyclerView does not exist
+    public void smoothScrollToPosition(RecyclerView recyclerView, RecyclerView.State state, int position) {
+                                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:435: error: package RecyclerView does not exist
+    public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:435: error: package RecyclerView does not exist
+    public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+                                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:439: error: cannot find symbol
+    public void onAttachedToWindow(RecyclerView view) {
+                                   ^
+  symbol:   class RecyclerView
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:493: error: cannot find symbol
+    public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+                                     ^
+  symbol:   class RecyclerView
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:493: error: package RecyclerView does not exist
+    public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapterHelper.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapterHelper.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapterHelper.java:29: error: package RecyclerView does not exist
+public class StickyRecyclerAdapterHelper<ITEM, IDENTIFIER, VH extends RecyclerView.ViewHolder> implements IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH> {
+                                                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.LinearLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:24: error: package com.google.common.base does not exist
+import com.google.common.base.Objects;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:29: error: package RecyclerView does not exist
+public class StaticLinearLayoutManagerHelper<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> {
+                                                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:29: error: package RecyclerView does not exist
+public class StaticLinearLayoutManagerHelper<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> {
+                                                                                                                                                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:31: error: cannot find symbol
+    private final LinearLayoutManager self;
+                  ^
+  symbol:   class LinearLayoutManager
+  location: class StaticLinearLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StaticLinearLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StaticLinearLayoutManagerHelper
+    ADAPTER declared in class StaticLinearLayoutManagerHelper
+    VH declared in class StaticLinearLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:38: error: cannot find symbol
+    private RecyclerView mCurrentRecyclerView = null;
+            ^
+  symbol:   class RecyclerView
+  location: class StaticLinearLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StaticLinearLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StaticLinearLayoutManagerHelper
+    ADAPTER declared in class StaticLinearLayoutManagerHelper
+    VH declared in class StaticLinearLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:40: error: cannot find symbol
+    public StaticLinearLayoutManagerHelper(LinearLayoutManager self) {
+                                           ^
+  symbol:   class LinearLayoutManager
+  location: class StaticLinearLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StaticLinearLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StaticLinearLayoutManagerHelper
+    ADAPTER declared in class StaticLinearLayoutManagerHelper
+    VH declared in class StaticLinearLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:76: error: package RecyclerView does not exist
+    public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:76: error: package RecyclerView does not exist
+    public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+                                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:80: error: cannot find symbol
+    public void onAttachedToWindow(RecyclerView view) {
+                                   ^
+  symbol:   class RecyclerView
+  location: class StaticLinearLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StaticLinearLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StaticLinearLayoutManagerHelper
+    ADAPTER declared in class StaticLinearLayoutManagerHelper
+    VH declared in class StaticLinearLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:84: error: cannot find symbol
+    public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+                                     ^
+  symbol:   class RecyclerView
+  location: class StaticLinearLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StaticLinearLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StaticLinearLayoutManagerHelper
+    ADAPTER declared in class StaticLinearLayoutManagerHelper
+    VH declared in class StaticLinearLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManagerHelper.java:84: error: package RecyclerView does not exist
+    public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapter.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.CallSuper;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapter.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapter.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapter.java:24: error: package RecyclerView does not exist
+public abstract class StickyRecyclerAdapter<ITEM, IDENTIFIER, VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> implements IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH> {
+                                                                                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapter.java:24: error: package RecyclerView does not exist
+public abstract class StickyRecyclerAdapter<ITEM, IDENTIFIER, VH extends RecyclerView.ViewHolder> extends RecyclerView.Adapter<VH> implements IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH> {
+                                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapter.java:55: error: package RecyclerView does not exist
+    public abstract void onBindNormalViewHolder(RecyclerView.ViewHolder holder, int position);
+                                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:25: error: package jp.s64.android.recyclercomponents does not exist
+import jp.s64.android.recyclercomponents.ScrollPositionSwitchableLinearLayoutManager;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:27: error: cannot find symbol
+public class StaticLinearLayoutManager<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> extends ScrollPositionSwitchableLinearLayoutManager {
+                                                                                                                                                                                              ^
+  symbol: class ScrollPositionSwitchableLinearLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:27: error: package RecyclerView does not exist
+public class StaticLinearLayoutManager<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> extends ScrollPositionSwitchableLinearLayoutManager {
+                                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:27: error: package RecyclerView does not exist
+public class StaticLinearLayoutManager<ITEM, IDENTIFIER, ADAPTER extends RecyclerView.Adapter<VH> & IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH>, VH extends RecyclerView.ViewHolder> extends ScrollPositionSwitchableLinearLayoutManager {
+                                                                                                                                                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:44: error: package RecyclerView does not exist
+    public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:44: error: package RecyclerView does not exist
+    public int scrollVerticallyBy(int dy, RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:53: error: package RecyclerView does not exist
+    public int scrollHorizontallyBy(int dx, RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:53: error: package RecyclerView does not exist
+    public int scrollHorizontallyBy(int dx, RecyclerView.Recycler recycler, RecyclerView.State state) {
+                                                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:62: error: package RecyclerView does not exist
+    public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:62: error: package RecyclerView does not exist
+    public void onAdapterChanged(RecyclerView.Adapter oldAdapter, RecyclerView.Adapter newAdapter) {
+                                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:68: error: cannot find symbol
+    public void onAttachedToWindow(RecyclerView view) {
+                                   ^
+  symbol:   class RecyclerView
+  location: class StaticLinearLayoutManager<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StaticLinearLayoutManager
+    IDENTIFIER extends Object declared in class StaticLinearLayoutManager
+    ADAPTER declared in class StaticLinearLayoutManager
+    VH declared in class StaticLinearLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:74: error: cannot find symbol
+    public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+                                     ^
+  symbol:   class RecyclerView
+  location: class StaticLinearLayoutManager<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StaticLinearLayoutManager
+    IDENTIFIER extends Object declared in class StaticLinearLayoutManager
+    ADAPTER declared in class StaticLinearLayoutManager
+    VH declared in class StaticLinearLayoutManager
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StaticLinearLayoutManager.java:74: error: package RecyclerView does not exist
+    public void onDetachedFromWindow(RecyclerView view, RecyclerView.Recycler recycler) {
+                                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyCreator.java:25: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: interface IStickyCreator<ITEM,IDENTIFIER,VH>
+  where ITEM,IDENTIFIER,VH are type-variables:
+    ITEM extends Object declared in interface IStickyCreator
+    IDENTIFIER extends Object declared in interface IStickyCreator
+    VH declared in interface IStickyCreator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyCreator.java:29: error: cannot find symbol
+    IDENTIFIER getIdentifier(@NonNull ITEM item);
+                              ^
+  symbol:   class NonNull
+  location: interface IStickyCreator<ITEM,IDENTIFIER,VH>
+  where ITEM,IDENTIFIER,VH are type-variables:
+    ITEM extends Object declared in interface IStickyCreator
+    IDENTIFIER extends Object declared in interface IStickyCreator
+    VH declared in interface IStickyCreator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyCreator.java:28: error: cannot find symbol
+    @NonNull
+     ^
+  symbol:   class NonNull
+  location: interface IStickyCreator<ITEM,IDENTIFIER,VH>
+  where ITEM,IDENTIFIER,VH are type-variables:
+    ITEM extends Object declared in interface IStickyCreator
+    IDENTIFIER extends Object declared in interface IStickyCreator
+    VH declared in interface IStickyCreator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyCreator.java:31: error: cannot find symbol
+    void bindStickyViewHolder(@NonNull VH viewHolder, @NonNull IDENTIFIER identifier);
+                               ^
+  symbol:   class NonNull
+  location: interface IStickyCreator<ITEM,IDENTIFIER,VH>
+  where ITEM,IDENTIFIER,VH are type-variables:
+    ITEM extends Object declared in interface IStickyCreator
+    IDENTIFIER extends Object declared in interface IStickyCreator
+    VH declared in interface IStickyCreator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyCreator.java:31: error: cannot find symbol
+    void bindStickyViewHolder(@NonNull VH viewHolder, @NonNull IDENTIFIER identifier);
+                                                       ^
+  symbol:   class NonNull
+  location: interface IStickyCreator<ITEM,IDENTIFIER,VH>
+  where ITEM,IDENTIFIER,VH are type-variables:
+    ITEM extends Object declared in interface IStickyCreator
+    IDENTIFIER extends Object declared in interface IStickyCreator
+    VH declared in interface IStickyCreator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:33: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:36: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:39: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:115: error: cannot find symbol
+    protected boolean setCurrentSticky(@Nullable View newView) {
+                                        ^
+  symbol:   class Nullable
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:123: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:530: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyVerticalLayoutManagerHelper.java:541: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class StickyVerticalLayoutManagerHelper<ITEM,IDENTIFIER,ADAPTER,VH>
+  where ITEM,IDENTIFIER,ADAPTER,VH are type-variables:
+    ITEM extends Object declared in class StickyVerticalLayoutManagerHelper
+    IDENTIFIER extends Object declared in class StickyVerticalLayoutManagerHelper
+    ADAPTER declared in class StickyVerticalLayoutManagerHelper
+    VH declared in class StickyVerticalLayoutManagerHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyRecyclerAdapterListener.java:23: error: cannot find symbol
+    void onStickyChanged(@Nullable IDENTIFIER oldIdentifier, @Nullable IDENTIFIER newIdentifier, @Nullable StickyState state, @Nullable ScrollDirection direction);
+                          ^
+  symbol:   class Nullable
+  location: interface IStickyRecyclerAdapterListener<ITEM,IDENTIFIER>
+  where ITEM,IDENTIFIER are type-variables:
+    ITEM extends Object declared in interface IStickyRecyclerAdapterListener
+    IDENTIFIER extends Object declared in interface IStickyRecyclerAdapterListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyRecyclerAdapterListener.java:23: error: cannot find symbol
+    void onStickyChanged(@Nullable IDENTIFIER oldIdentifier, @Nullable IDENTIFIER newIdentifier, @Nullable StickyState state, @Nullable ScrollDirection direction);
+                                                              ^
+  symbol:   class Nullable
+  location: interface IStickyRecyclerAdapterListener<ITEM,IDENTIFIER>
+  where ITEM,IDENTIFIER are type-variables:
+    ITEM extends Object declared in interface IStickyRecyclerAdapterListener
+    IDENTIFIER extends Object declared in interface IStickyRecyclerAdapterListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyRecyclerAdapterListener.java:23: error: cannot find symbol
+    void onStickyChanged(@Nullable IDENTIFIER oldIdentifier, @Nullable IDENTIFIER newIdentifier, @Nullable StickyState state, @Nullable ScrollDirection direction);
+                                                                                                  ^
+  symbol:   class Nullable
+  location: interface IStickyRecyclerAdapterListener<ITEM,IDENTIFIER>
+  where ITEM,IDENTIFIER are type-variables:
+    ITEM extends Object declared in interface IStickyRecyclerAdapterListener
+    IDENTIFIER extends Object declared in interface IStickyRecyclerAdapterListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/IStickyRecyclerAdapterListener.java:23: error: cannot find symbol
+    void onStickyChanged(@Nullable IDENTIFIER oldIdentifier, @Nullable IDENTIFIER newIdentifier, @Nullable StickyState state, @Nullable ScrollDirection direction);
+                                                                                                                               ^
+  symbol:   class Nullable
+  location: interface IStickyRecyclerAdapterListener<ITEM,IDENTIFIER>
+  where ITEM,IDENTIFIER are type-variables:
+    ITEM extends Object declared in interface IStickyRecyclerAdapterListener
+    IDENTIFIER extends Object declared in interface IStickyRecyclerAdapterListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapterHelper.java:47: error: cannot find symbol
+    public StickyRecyclerAdapterHelper(IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, @Nullable Integer stickyViewType, @Nullable Integer defaultItemType) {
+                                                                                            ^
+  symbol:   class Nullable
+  location: class StickyRecyclerAdapterHelper<ITEM,IDENTIFIER,VH>
+  where ITEM,IDENTIFIER,VH are type-variables:
+    ITEM extends Object declared in class StickyRecyclerAdapterHelper
+    IDENTIFIER extends Object declared in class StickyRecyclerAdapterHelper
+    VH declared in class StickyRecyclerAdapterHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapterHelper.java:47: error: cannot find symbol
+    public StickyRecyclerAdapterHelper(IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, @Nullable Integer stickyViewType, @Nullable Integer defaultItemType) {
+                                                                                                                              ^
+  symbol:   class Nullable
+  location: class StickyRecyclerAdapterHelper<ITEM,IDENTIFIER,VH>
+  where ITEM,IDENTIFIER,VH are type-variables:
+    ITEM extends Object declared in class StickyRecyclerAdapterHelper
+    IDENTIFIER extends Object declared in class StickyRecyclerAdapterHelper
+    VH declared in class StickyRecyclerAdapterHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapterHelper.java:54: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class StickyRecyclerAdapterHelper<ITEM,IDENTIFIER,VH>
+  where ITEM,IDENTIFIER,VH are type-variables:
+    ITEM extends Object declared in class StickyRecyclerAdapterHelper
+    IDENTIFIER extends Object declared in class StickyRecyclerAdapterHelper
+    VH declared in class StickyRecyclerAdapterHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/core/src/main/java/jp/s64/android/stickyrecycler/StickyRecyclerAdapterHelper.java:185: error: cannot find symbol
+        public Item(@Nullable ITEM item, @Nullable IDENTIFIER identifier) {
+                     ^
+  symbol:   class Nullable
+  location: class StickyRecyclerAdapterHelper<ITEM,IDENTIFIER,VH>.Item
+  where ITEM,IDENTIFIER,VH are type-variables:
+    ITEM extends Object declared in class StickyRecyclerAdapterHelper
+    IDENTIFIER extends Object declared in class StickyRecyclerAdapterHelper
+    VH declared in class StickyRecyclerAdapterHelper
+
+100 warnings
+:core:javadocJar
+:core:sourcesJar
+:core:assemble
+:core:build
+
+BUILD SUCCESSFUL
+
+Total time: 18.993 secs
+
+2018-09-01 17:51:31,141 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 17:51:31,141 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 17:51:38,960 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-09-01 17:51:38,960 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-09-01 17:51:38,960 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-09-01 17:51:38,960 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-01 17:51:45,353 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 17:51:45,353 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle' line: 47
+
+* What went wrong:
+A problem occurred evaluating project ':example'.
+> path may not be null or empty string. path='null'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating project ':example'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:181)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.IllegalArgumentException: path may not be null or empty string. path='null'
+	at org.gradle.api.internal.file.BaseDirFileResolver.doResolve(BaseDirFileResolver.java:72)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:79)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:61)
+	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:76)
+	at org.gradle.api.internal.project.DefaultProject.file(DefaultProject.java:767)
+	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:129)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:453)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:453)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at build_2aubof0ilat0mce0p70i3lher$_run_closure3$_closure9$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle:47)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:64)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:57)
+	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
+	at build_2aubof0ilat0mce0p70i3lher$_run_closure3$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle:46)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:148)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:74)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:29)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:104)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:393)
+	at com.android.build.gradle.AppExtension_Decorated.signingConfigs(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
+	at build_2aubof0ilat0mce0p70i3lher$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle:35)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:215)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
+	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
+	at build_2aubof0ilat0mce0p70i3lher.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle:16)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 67 more
+
+
+BUILD FAILED
+
+Total time: 6.062 secs
+
+2018-09-01 17:51:45,424 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 17:51:45,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 17:52:19,037 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-09-01 17:52:19,037 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 17:52:19,038 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 17:52:54,867 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:rbe:preBuild UP-TO-DATE
+:rbe:preDebugBuild UP-TO-DATE
+:rbe:checkDebugManifest
+:rbe:preDebugAndroidTestBuild UP-TO-DATE
+:rbe:preDebugUnitTestBuild UP-TO-DATE
+:rbe:preReleaseBuild UP-TO-DATE
+:rbe:preReleaseUnitTestBuild UP-TO-DATE
+:rbe:prepareComAndroidSupportRecyclerviewV72501Library
+:rbe:prepareComAndroidSupportSupportCompat2501Library
+:rbe:prepareComAndroidSupportSupportCoreUi2501Library
+:rbe:prepareJpS64AndroidRadiobuttonextendedCore040Library
+:rbe:prepareJpS64AndroidRadiobuttonextendedRecycler040Library
+:rbe:prepareJpS64AndroidRecyclercomponents001Library
+:rbe:prepareJpS64AndroidStickyrecyclerCore004Library
+:rbe:prepareDebugDependencies
+:rbe:compileDebugAidl
+:rbe:compileDebugNdk UP-TO-DATE
+:rbe:compileLint
+:rbe:copyDebugLint UP-TO-DATE
+:rbe:compileDebugRenderscript
+:rbe:generateDebugBuildConfig
+:rbe:generateDebugResValues
+:rbe:generateDebugResources
+:rbe:mergeDebugResources
+:rbe:processDebugManifest
+:rbe:processDebugResources
+:rbe:generateDebugSources
+:rbe:incrementalDebugJavaCompilationSafeguard
+:rbe:javaPreCompileDebug
+:rbe:compileDebugJavaWithJavac
+:rbe:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:rbe:extractDebugAnnotations
+:rbe:mergeDebugShaders
+:rbe:compileDebugShaders
+:rbe:generateDebugAssets
+:rbe:mergeDebugAssets
+:rbe:mergeDebugProguardFiles
+:rbe:packageDebugRenderscript UP-TO-DATE
+:rbe:packageDebugResources
+:rbe:processDebugJavaRes UP-TO-DATE
+:rbe:transformResourcesWithMergeJavaResForDebug
+:rbe:transformClassesAndResourcesWithSyncLibJarsForDebug
+:rbe:mergeDebugJniLibFolders
+:rbe:transformNativeLibsWithMergeJniLibsForDebug
+:rbe:transformNativeLibsWithStripDebugSymbolForDebug
+:rbe:transformNativeLibsWithSyncJniLibsForDebug
+:rbe:bundleDebug
+:rbe:compileDebugSources
+:rbe:assembleDebug
+:rbe:checkReleaseManifest
+:rbe:prepareReleaseDependencies
+:rbe:compileReleaseAidl
+:rbe:compileReleaseNdk UP-TO-DATE
+:rbe:copyReleaseLint UP-TO-DATE
+:rbe:compileReleaseRenderscript
+:rbe:generateReleaseBuildConfig
+:rbe:generateReleaseResValues
+:rbe:generateReleaseResources
+:rbe:mergeReleaseResources
+:rbe:processReleaseManifest
+:rbe:processReleaseResources
+:rbe:generateReleaseSources
+:rbe:incrementalReleaseJavaCompilationSafeguard
+:rbe:javaPreCompileRelease
+:rbe:compileReleaseJavaWithJavac
+:rbe:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:rbe:extractReleaseAnnotations
+:rbe:mergeReleaseShaders
+:rbe:compileReleaseShaders
+:rbe:generateReleaseAssets
+:rbe:mergeReleaseAssets
+:rbe:mergeReleaseProguardFiles
+:rbe:packageReleaseRenderscript UP-TO-DATE
+:rbe:packageReleaseResources
+:rbe:processReleaseJavaRes UP-TO-DATE
+:rbe:transformResourcesWithMergeJavaResForRelease
+:rbe:transformClassesAndResourcesWithSyncLibJarsForRelease
+:rbe:mergeReleaseJniLibFolders
+:rbe:transformNativeLibsWithMergeJniLibsForRelease
+:rbe:transformNativeLibsWithStripDebugSymbolForRelease
+:rbe:transformNativeLibsWithSyncJniLibsForRelease
+:rbe:bundleRelease
+:rbe:compileReleaseSources
+:rbe:assembleRelease
+:rbe:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.CallSuper;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:21: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:26: error: package com.google.common.collect does not exist
+import com.google.common.collect.ImmutableSet;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:28: error: package jp.s64.android.radiobuttonextended.recycler.adapter does not exist
+import jp.s64.android.radiobuttonextended.recycler.adapter.MultiCheckableAdapter;
+                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:29: error: cannot find symbol
+import jp.s64.android.stickyrecycler.IStickyCreator;
+                                    ^
+  symbol:   class IStickyCreator
+  location: package jp.s64.android.stickyrecycler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:30: error: cannot find symbol
+import jp.s64.android.stickyrecycler.IStickyRecyclerAdapter;
+                                    ^
+  symbol:   class IStickyRecyclerAdapter
+  location: package jp.s64.android.stickyrecycler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:31: error: cannot find symbol
+import jp.s64.android.stickyrecycler.StickyRecyclerAdapterHelper;
+                                    ^
+  symbol:   class StickyRecyclerAdapterHelper
+  location: package jp.s64.android.stickyrecycler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:33: error: package RecyclerView does not exist
+public abstract class MultiCheckableStickyAdapter<ITEM, IDENTIFIER, K, VH extends RecyclerView.ViewHolder & MultiCheckableAdapter.IMultiCheckableViewHolder<VH, K>> extends RecyclerView.Adapter<VH> implements IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH> {
+                                                                                                                                                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:33: error: cannot find symbol
+public abstract class MultiCheckableStickyAdapter<ITEM, IDENTIFIER, K, VH extends RecyclerView.ViewHolder & MultiCheckableAdapter.IMultiCheckableViewHolder<VH, K>> extends RecyclerView.Adapter<VH> implements IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH> {
+                                                                                                                                                                                                                ^
+  symbol: class IStickyRecyclerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:33: error: package RecyclerView does not exist
+public abstract class MultiCheckableStickyAdapter<ITEM, IDENTIFIER, K, VH extends RecyclerView.ViewHolder & MultiCheckableAdapter.IMultiCheckableViewHolder<VH, K>> extends RecyclerView.Adapter<VH> implements IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH> {
+                                                                                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:33: error: package MultiCheckableAdapter does not exist
+public abstract class MultiCheckableStickyAdapter<ITEM, IDENTIFIER, K, VH extends RecyclerView.ViewHolder & MultiCheckableAdapter.IMultiCheckableViewHolder<VH, K>> extends RecyclerView.Adapter<VH> implements IStickyRecyclerAdapter<ITEM, IDENTIFIER, VH> {
+                                                                                                                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:35: error: cannot find symbol
+    private final StickyRecyclerAdapterHelper<ITEM, IDENTIFIER, VH> mStickyHelper;
+                  ^
+  symbol:   class StickyRecyclerAdapterHelper
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:36: error: package MultiCheckableAdapter does not exist
+    private final MultiCheckableAdapter.Helper<VH, K> mCheckableHelper;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:38: error: cannot find symbol
+    public MultiCheckableStickyAdapter(Class<? extends VH> viewHolderClass, IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, MultiCheckableAdapter.IOnMultipleCheckedChangeListener<VH, K> listener, MultiCheckableAdapter.IPayloadGenerator<VH, K> generator) {
+                                                                            ^
+  symbol:   class IStickyCreator
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:38: error: package MultiCheckableAdapter does not exist
+    public MultiCheckableStickyAdapter(Class<? extends VH> viewHolderClass, IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, MultiCheckableAdapter.IOnMultipleCheckedChangeListener<VH, K> listener, MultiCheckableAdapter.IPayloadGenerator<VH, K> generator) {
+                                                                                                                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:38: error: package MultiCheckableAdapter does not exist
+    public MultiCheckableStickyAdapter(Class<? extends VH> viewHolderClass, IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, MultiCheckableAdapter.IOnMultipleCheckedChangeListener<VH, K> listener, MultiCheckableAdapter.IPayloadGenerator<VH, K> generator) {
+                                                                                                                                                                                                                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:42: error: cannot find symbol
+    public MultiCheckableStickyAdapter(Class<? extends VH> viewHolderClass, IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, @Nullable Integer stickyViewType, @Nullable Integer defaultItemType, MultiCheckableAdapter.IOnMultipleCheckedChangeListener<VH, K> listener, MultiCheckableAdapter.IPayloadGenerator<VH, K> generator) {
+                                                                            ^
+  symbol:   class IStickyCreator
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:42: error: package MultiCheckableAdapter does not exist
+    public MultiCheckableStickyAdapter(Class<? extends VH> viewHolderClass, IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, @Nullable Integer stickyViewType, @Nullable Integer defaultItemType, MultiCheckableAdapter.IOnMultipleCheckedChangeListener<VH, K> listener, MultiCheckableAdapter.IPayloadGenerator<VH, K> generator) {
+                                                                                                                                                                                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:42: error: package MultiCheckableAdapter does not exist
+    public MultiCheckableStickyAdapter(Class<? extends VH> viewHolderClass, IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, @Nullable Integer stickyViewType, @Nullable Integer defaultItemType, MultiCheckableAdapter.IOnMultipleCheckedChangeListener<VH, K> listener, MultiCheckableAdapter.IPayloadGenerator<VH, K> generator) {
+                                                                                                                                                                                                                                                                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:72: error: cannot find symbol
+    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
+                                         ^
+  symbol:   class RecyclerView
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:108: error: cannot find symbol
+    public IStickyCreator<ITEM, IDENTIFIER, VH> getStickyCreator() {
+           ^
+  symbol:   class IStickyCreator
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:131: error: cannot find symbol
+    public ImmutableSet<K> getCheckedIds() {
+           ^
+  symbol:   class ImmutableSet
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:135: error: package MultiCheckableAdapter does not exist
+    public MultiCheckableAdapter.IPayloadGenerator<VH, K> getPayloadGenerator() {
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:42: error: cannot find symbol
+    public MultiCheckableStickyAdapter(Class<? extends VH> viewHolderClass, IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, @Nullable Integer stickyViewType, @Nullable Integer defaultItemType, MultiCheckableAdapter.IOnMultipleCheckedChangeListener<VH, K> listener, MultiCheckableAdapter.IPayloadGenerator<VH, K> generator) {
+                                                                                                                                 ^
+  symbol:   class Nullable
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:42: error: cannot find symbol
+    public MultiCheckableStickyAdapter(Class<? extends VH> viewHolderClass, IStickyCreator<ITEM, IDENTIFIER, VH> stickyCreator, @Nullable Integer stickyViewType, @Nullable Integer defaultItemType, MultiCheckableAdapter.IOnMultipleCheckedChangeListener<VH, K> listener, MultiCheckableAdapter.IPayloadGenerator<VH, K> generator) {
+                                                                                                                                                                   ^
+  symbol:   class Nullable
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:47: error: cannot find symbol
+    @CallSuper
+     ^
+  symbol:   class CallSuper
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:48: error: cannot find symbol
+    @Nullable
+     ^
+  symbol:   class Nullable
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/rbe/src/main/java/jp/s64/android/stickyrecycler/rbe/MultiCheckableStickyAdapter.java:70: error: cannot find symbol
+    @CallSuper
+     ^
+  symbol:   class CallSuper
+  location: class MultiCheckableStickyAdapter<ITEM,IDENTIFIER,K,VH>
+  where ITEM,IDENTIFIER,K,VH are type-variables:
+    ITEM extends Object declared in class MultiCheckableStickyAdapter
+    IDENTIFIER extends Object declared in class MultiCheckableStickyAdapter
+    K extends Object declared in class MultiCheckableStickyAdapter
+    VH declared in class MultiCheckableStickyAdapter
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class CallSuper not found.
+javadoc: warning - Class Nullable not found.
+javadoc: warning - Class CallSuper not found.
+
+49 warnings
+:rbe:javadocJar
+:rbe:sourcesJar
+:rbe:assemble
+:rbe:build
+
+BUILD SUCCESSFUL
+
+Total time: 35.395 secs
+
+2018-09-01 17:52:54,993 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 17:52:54,994 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 17:53:08,623 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-09-01 17:53:08,624 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-09-01 17:53:08,624 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-09-01 17:53:08,624 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-01 17:53:23,558 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 17:53:23,558 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle' line: 47
+
+* What went wrong:
+A problem occurred evaluating project ':example'.
+> path may not be null or empty string. path='null'
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating project ':example'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:181)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$000(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:53)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$1.execute(LifecycleProjectEvaluator.java:50)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:628)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:129)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
+	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
+	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.IllegalArgumentException: path may not be null or empty string. path='null'
+	at org.gradle.api.internal.file.BaseDirFileResolver.doResolve(BaseDirFileResolver.java:72)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:79)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:61)
+	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:76)
+	at org.gradle.api.internal.project.DefaultProject.file(DefaultProject.java:767)
+	at org.gradle.groovy.scripts.DefaultScript.file(DefaultScript.java:129)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:453)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at org.gradle.internal.metaobject.BeanDynamicObject$GroovyObjectAdapter.invokeOpaqueMethod(BeanDynamicObject.java:453)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:405)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:80)
+	at build_2aubof0ilat0mce0p70i3lher$_run_closure3$_closure9$_closure13.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle:47)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:64)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.create(AbstractNamedDomainObjectContainer.java:57)
+	at org.gradle.api.internal.NamedDomainObjectContainerConfigureDelegate._configure(NamedDomainObjectContainerConfigureDelegate.java:40)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:68)
+	at build_2aubof0ilat0mce0p70i3lher$_run_closure3$_closure9.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle:46)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:148)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:74)
+	at org.gradle.api.internal.AbstractNamedDomainObjectContainer.configure(AbstractNamedDomainObjectContainer.java:29)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:104)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at com.android.build.gradle.BaseExtension.signingConfigs(BaseExtension.java:393)
+	at com.android.build.gradle.AppExtension_Decorated.signingConfigs(Unknown Source)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:382)
+	at org.gradle.internal.metaobject.BeanDynamicObject.invokeMethod(BeanDynamicObject.java:170)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
+	at build_2aubof0ilat0mce0p70i3lher$_run_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle:35)
+	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
+	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
+	at org.gradle.util.ConfigureUtil$1.execute(ConfigureUtil.java:123)
+	at org.gradle.api.internal.plugins.ExtensionsStorage$ExtensionHolder.configure(ExtensionsStorage.java:145)
+	at org.gradle.api.internal.plugins.ExtensionsStorage.configureExtension(ExtensionsStorage.java:69)
+	at org.gradle.api.internal.plugins.DefaultConvention$ExtensionsDynamicObject.invokeMethod(DefaultConvention.java:215)
+	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
+	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
+	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
+	at build_2aubof0ilat0mce0p70i3lher.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799051987-0/src/android-sticky-recycler-master/example/build.gradle:16)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 67 more
+
+
+BUILD FAILED
+
+Total time: 14.543 secs
+
+2018-09-01 17:53:23,644 ERROR FullProcessService - Project build has not produced APK file
+2018-09-01 17:53:23,728 ERROR FullProcessService - Could not find generated or existed APK file

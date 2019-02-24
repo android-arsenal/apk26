@@ -1,0 +1,160 @@
+2018-08-31 21:39:10,548 INFO  DownloadService - Downloading "https://github.com/AliAbozaid/slick/archive/master.zip", attempt 3
+2018-08-31 21:39:14,629 INFO  DownloadService - Downloaded https://github.com/AliAbozaid/slick/archive/master.zip, attempt 3
+2018-08-31 21:39:14,630 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/master.zip": 5 MB
+2018-08-31 21:39:14,630 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 21:39:14,630 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/master.zip: true
+2018-08-31 21:39:14,631 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src'.
+2018-08-31 21:39:14,743 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-08-31 21:39:14,744 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src]
+2018-08-31 21:39:14,800 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/.git/
+
+2018-08-31 21:39:14,805 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/gradlew
+2018-08-31 21:39:14,810 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/cityguide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/slick/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/build.gradle
+2018-08-31 21:39:14,816 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/slick/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/buildsystem/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/cityguide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/settings.gradle
+2018-08-31 21:39:14,816 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 21:39:14,816 INFO  ProjectFixService - Fixing project...
+2018-08-31 21:39:14,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/cityguide/local.properties
+2018-08-31 21:39:14,833 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/cityguide/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-31 21:39:14,834 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/slick/local.properties
+2018-08-31 21:39:14,835 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/slick/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-31 21:39:14,836 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/local.properties
+2018-08-31 21:39:14,837 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 21:39:14,838 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 21:39:14,839 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-31 21:39:14,840 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 21:39:14,840 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:39:14,840 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/cityguide/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:39:32,531 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-31 21:39:32,531 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 21:39:32,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/cityguide/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 21:40:47,292 INFO  SysUtils - Configuration on demand is an incubating feature.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+:cityguide:preBuild UP-TO-DATE
+:cityguide:preDebugBuild UP-TO-DATE
+:cityguide:checkDebugManifest
+:cityguide:preReleaseBuild UP-TO-DATE
+:cityguide:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:cityguide:prepareComAndroidSupportAppcompatV72531Library
+:cityguide:prepareComAndroidSupportCardviewV72531Library
+:cityguide:prepareComAndroidSupportDesign2531Library
+:cityguide:prepareComAndroidSupportMediarouterV72300Library
+:cityguide:preDebugAndroidTestBuild UP-TO-DATE
+:cityguide:prepareComAndroidSupportMultidex101Library
+:cityguide:prepareComAndroidSupportRecyclerviewV72531Library
+:cityguide:prepareComAndroidSupportSupportCompat2531Library
+:cityguide:prepareComAndroidSupportSupportCoreUi2531Library
+:cityguide:prepareComAndroidSupportSupportCoreUtils2531Library
+:cityguide:prepareComAndroidSupportSupportFragment2531Library
+:cityguide:prepareComAndroidSupportSupportMediaCompat2531Library
+:cityguide:prepareComAndroidSupportSupportV42531Library
+:cityguide:prepareComAndroidSupportSupportVectorDrawable2531Library
+:cityguide:prepareComAndroidSupportTransition2531Library
+:cityguide:prepareComGithubAliabozaidSlickSlick02Library
+:cityguide:prepareComGoogleAndroidGmsPlayServices840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesAds840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesAnalytics840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesAppindexing840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesAppinvite840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesAppstate840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesAuth840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesBase840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesBasement840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesCast840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesDrive840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesFitness840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesGames840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesGcm840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesIdentity840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesLocation840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesMaps840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesMeasurement840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesNearby840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesPanorama840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesPlus840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesSafetynet840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesVision840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesWallet840Library
+:cityguide:prepareComGoogleAndroidGmsPlayServicesWearable840Library
+:cityguide:prepareComJakewhartonButterknife851Library
+:cityguide:prepareComOgaclejapanSmarttablayoutLibrary161Library
+:cityguide:prepareComOgaclejapanSmarttablayoutUtilsV13161Library
+:cityguide:prepareIoReactivexRxjava2Rxandroid201Library
+:cityguide:prepareDebugDependencies
+:cityguide:compileDebugAidl
+:cityguide:compileDebugRenderscript
+:cityguide:generateDebugBuildConfig
+:cityguide:generateDebugResValues
+:cityguide:generateDebugResources
+:cityguide:mergeDebugResources
+:cityguide:processDebugManifest
+:cityguide:processDebugResources
+:cityguide:generateDebugSources
+:cityguide:incrementalDebugJavaCompilationSafeguard
+:cityguide:javaPreCompileDebug
+:cityguide:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:cityguide:compileRetrolambdaDebug
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.0.5/retrolambda-2.0.5.pom
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/parent/2.0.5/parent-2.0.5.pom
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.0.5/retrolambda-2.0.5.jar
+:cityguide:compileDebugNdk UP-TO-DATE
+:cityguide:compileDebugSources
+:cityguide:mergeDebugShaders
+:cityguide:compileDebugShaders
+:cityguide:generateDebugAssets
+:cityguide:mergeDebugAssets
+:cityguide:transformClassesWithJarMergingForDebug
+:cityguide:transformClassesWithMultidexlistForDebug
+:cityguide:transformClassesWithDexForDebug
+:cityguide:mergeDebugJniLibFolders
+:cityguide:transformNativeLibsWithMergeJniLibsForDebug
+:cityguide:transformNativeLibsWithStripDebugSymbolForDebug
+:cityguide:processDebugJavaRes UP-TO-DATE
+:cityguide:transformResourcesWithMergeJavaResForDebug
+:cityguide:validateSigningDebug
+:cityguide:packageDebug
+:cityguide:assembleDebug
+:cityguide:checkReleaseManifest
+:cityguide:prepareReleaseDependencies
+:cityguide:compileReleaseAidl
+:cityguide:compileReleaseRenderscript
+:cityguide:generateReleaseBuildConfig
+:cityguide:generateReleaseResValues
+:cityguide:generateReleaseResources
+:cityguide:mergeReleaseResources
+:cityguide:processReleaseManifest
+:cityguide:processReleaseResources
+:cityguide:generateReleaseSources
+:cityguide:incrementalReleaseJavaCompilationSafeguard
+:cityguide:javaPreCompileRelease
+:cityguide:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:cityguide:compileRetrolambdaRelease
+:cityguide:compileReleaseNdk UP-TO-DATE
+:cityguide:compileReleaseSources
+:cityguide:lintVitalRelease
+:cityguide:mergeReleaseShaders
+:cityguide:compileReleaseShaders
+:cityguide:generateReleaseAssets
+:cityguide:mergeReleaseAssets
+:cityguide:transformClassesWithJarMergingForRelease
+:cityguide:transformClassesWithMultidexlistForRelease
+:cityguide:transformClassesWithDexForRelease
+:cityguide:mergeReleaseJniLibFolders
+:cityguide:transformNativeLibsWithMergeJniLibsForRelease
+:cityguide:transformNativeLibsWithStripDebugSymbolForRelease
+:cityguide:processReleaseJavaRes UP-TO-DATE
+:cityguide:transformResourcesWithMergeJavaResForRelease
+:cityguide:packageRelease
+:cityguide:assembleRelease
+:cityguide:assemble
+:cityguide:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 14.263 secs
+
+2018-08-31 21:40:47,426 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726350543-0/src/slick-master/apk/cityguide-debug.apk

@@ -1,0 +1,135 @@
+2018-08-31 19:24:21,994 INFO  DownloadService - Downloading "https://github.com/vsay01/AndroidMVPKotlinDemo/archive/master.zip", attempt 3
+2018-08-31 19:24:34,771 INFO  DownloadService - Downloaded https://github.com/vsay01/AndroidMVPKotlinDemo/archive/master.zip, attempt 3
+2018-08-31 19:24:34,772 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/master.zip": 28 MB
+2018-08-31 19:24:34,772 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 19:24:34,778 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/master.zip: true
+2018-08-31 19:24:34,778 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src'.
+2018-08-31 19:24:34,970 INFO  FullProcessService - Size of directory with sources: 28 MB
+2018-08-31 19:24:34,970 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src]
+2018-08-31 19:24:34,988 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/.git/
+
+2018-08-31 19:24:34,991 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/gradlew
+2018-08-31 19:24:34,994 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/build.gradle
+2018-08-31 19:24:34,997 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/settings.gradle
+2018-08-31 19:24:34,997 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 19:24:34,997 INFO  ProjectFixService - Fixing project...
+2018-08-31 19:24:35,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/local.properties
+2018-08-31 19:24:35,006 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 19:24:35,006 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/local.properties
+2018-08-31 19:24:35,007 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-milestone-1-all.zip
+2018-08-31 19:24:35,007 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 19:24:35,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 19:24:35,008 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 19:24:35,008 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 19:24:35,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 19:25:00,344 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 19:25:00,345 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 19:25:00,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 19:26:02,235 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'provided' in project ':app' is deprecated. Use 'compileOnly' instead.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://maven.google.com/com/android/support/support-v13/26.0.0/support-v13-26.0.0.pom
+Download https://maven.google.com/com/android/support/support-v13/26.0.0/support-v13-26.0.0.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:kaptDebugKotlin
+w: warning: The following options were not recognized by any processor: '[kapt.kotlin.generated]'
+w: 
+
+:app:compileDebugKotlin
+Using kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/src/main/java/com/example/github/videoapp/home/HomeFragment.kt: (64, 34): Unnecessary non-null assertion (!!) on a non-null receiver of type LayoutInflater
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/src/main/java/com/example/github/videoapp/home/HomeFragment.kt: (73, 40): Unnecessary safe call on a non-null receiver of type AppCompatActivity
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:kaptReleaseKotlin
+w: warning: The following options were not recognized by any processor: '[kapt.kotlin.generated]'
+w: 
+
+:app:compileReleaseKotlin
+Using kotlin incremental compilation
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/src/main/java/com/example/github/videoapp/home/HomeFragment.kt: (64, 34): Unnecessary non-null assertion (!!) on a non-null receiver of type LayoutInflater
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/src/main/java/com/example/github/videoapp/home/HomeFragment.kt: (73, 40): Unnecessary safe call on a non-null receiver of type AppCompatActivity
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://maven.google.com/com/android/support/test/espresso/espresso-core/3.0.0/espresso-core-3.0.0.pom
+Download https://maven.google.com/com/android/support/test/runner/1.0.0/runner-1.0.0.pom
+Download https://maven.google.com/com/android/support/test/espresso/espresso-idling-resource/3.0.0/espresso-idling-resource-3.0.0.pom
+Download https://maven.google.com/com/android/support/test/rules/1.0.0/rules-1.0.0.pom
+Download https://maven.google.com/com/android/support/test/runner/1.0.0/runner-1.0.0.aar
+Download https://maven.google.com/com/android/support/test/rules/1.0.0/rules-1.0.0.aar
+Download https://maven.google.com/com/android/support/test/espresso/espresso-core/3.0.0/espresso-core-3.0.0.aar
+Download https://maven.google.com/com/android/support/test/espresso/espresso-idling-resource/3.0.0/espresso-idling-resource-3.0.0.aar
+Couldn't find or register Kotlin UAST plugin:org.jetbrains.uast.kotlin.KotlinUastLanguagePlugin
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 1s
+52 actionable tasks: 52 executed
+Exception in thread "Thread-23" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:252)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-08-31 19:26:02,314 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718261990-0/src/AndroidMVPKotlinDemo-master/app/build/outputs/apk/debug/app-debug.apk

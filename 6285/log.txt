@@ -1,0 +1,191 @@
+2018-09-01 18:14:31,580 INFO  DownloadService - Downloading "https://github.com/joielechong/MaterialFancyButtons/archive/master.zip", attempt 3
+2018-09-01 18:14:33,936 INFO  DownloadService - Downloaded https://github.com/joielechong/MaterialFancyButtons/archive/master.zip, attempt 3
+2018-09-01 18:14:33,937 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/master.zip": 6 MB
+2018-09-01 18:14:33,937 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 18:14:33,946 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/master.zip: true
+2018-09-01 18:14:33,946 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src'.
+2018-09-01 18:14:34,140 INFO  FullProcessService - Size of directory with sources: 13 MB
+2018-09-01 18:14:34,140 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src]
+2018-09-01 18:14:34,155 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/.git/
+
+2018-09-01 18:14:34,169 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/gradlew
+2018-09-01 18:14:34,184 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/community-material-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/devicon-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/dripicons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/entypo-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/fontawesome-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/foundation-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/glyphicons-halflings-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/google-material-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/ionicons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/material-design-iconic-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/materialfancybuttons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/meteocons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/mfglabs-iconset-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/mobirise-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/octicons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/open-iconic-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/picol-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/pixeden-7-stroke-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/themify-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/typicons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/vaadin-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/weather-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/icontext2string/build.gradle
+2018-09-01 18:14:34,197 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/devicon-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/fontawesome-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/vaadin-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/icontext2string/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/pixeden-7-stroke-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/entypo-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/meteocons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/open-iconic-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/material-design-iconic-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/glyphicons-halflings-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/themify-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/octicons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/weather-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/mobirise-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/mfglabs-iconset-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/foundation-icons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/materialfancybuttons/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/community-material-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/typicons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/google-material-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/picol-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/dripicons-typeface/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/ionicons-typeface/build.gradle
+2018-09-01 18:14:34,198 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 18:14:34,198 INFO  ProjectFixService - Fixing project...
+2018-09-01 18:14:34,231 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/community-material-typeface/local.properties
+2018-09-01 18:14:34,239 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/community-material-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,239 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/devicon-typeface/local.properties
+2018-09-01 18:14:34,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/devicon-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/dripicons-typeface/local.properties
+2018-09-01 18:14:34,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/dripicons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,257 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/entypo-typeface/local.properties
+2018-09-01 18:14:34,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/entypo-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/fontawesome-typeface/local.properties
+2018-09-01 18:14:34,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/fontawesome-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/foundation-icons-typeface/local.properties
+2018-09-01 18:14:34,282 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/foundation-icons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,283 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/glyphicons-halflings-typeface/local.properties
+2018-09-01 18:14:34,291 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/glyphicons-halflings-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,291 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/google-material-typeface/local.properties
+2018-09-01 18:14:34,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/google-material-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,300 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/ionicons-typeface/local.properties
+2018-09-01 18:14:34,309 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/ionicons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,310 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/material-design-iconic-typeface/local.properties
+2018-09-01 18:14:34,318 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/material-design-iconic-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,318 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/materialfancybuttons/local.properties
+2018-09-01 18:14:34,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/materialfancybuttons/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/meteocons-typeface/local.properties
+2018-09-01 18:14:34,335 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/meteocons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,335 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/mfglabs-iconset-typeface/local.properties
+2018-09-01 18:14:34,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/mfglabs-iconset-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/mobirise-icons-typeface/local.properties
+2018-09-01 18:14:34,354 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/mobirise-icons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/octicons-typeface/local.properties
+2018-09-01 18:14:34,363 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/octicons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,363 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/open-iconic-typeface/local.properties
+2018-09-01 18:14:34,371 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/open-iconic-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,371 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/picol-typeface/local.properties
+2018-09-01 18:14:34,380 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/picol-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,380 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/pixeden-7-stroke-typeface/local.properties
+2018-09-01 18:14:34,389 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/pixeden-7-stroke-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,389 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/samples/local.properties
+2018-09-01 18:14:34,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/samples/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,398 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/themify-icons-typeface/local.properties
+2018-09-01 18:14:34,406 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/themify-icons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/typicons-typeface/local.properties
+2018-09-01 18:14:34,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/typicons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/vaadin-icons-typeface/local.properties
+2018-09-01 18:14:34,425 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/vaadin-icons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,425 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/weather-icons-typeface/local.properties
+2018-09-01 18:14:34,433 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/weather-icons-typeface/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,433 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/local.properties
+2018-09-01 18:14:34,434 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 18:14:34,434 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 18:14:34,434 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,434 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/icontext2string/local.properties
+2018-09-01 18:14:34,442 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/icontext2string/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2018-09-01 18:14:34,442 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 18:14:34,443 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:14:34,443 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/community-material-typeface/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:14:41,512 INFO  ProjectTaskService - Detected possible tasks: 63
+2018-09-01 18:14:41,512 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 18:14:41,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/community-material-typeface/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 18:14:50,201 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:community-material-typeface:preBuild UP-TO-DATE
+:community-material-typeface:preDebugBuild UP-TO-DATE
+:community-material-typeface:checkDebugManifest
+:materialfancybuttons:preBuild UP-TO-DATE
+:materialfancybuttons:preReleaseBuild UP-TO-DATE
+:materialfancybuttons:checkReleaseManifest
+:materialfancybuttons:prepareReleaseDependencies
+:materialfancybuttons:compileReleaseAidl
+:materialfancybuttons:compileReleaseNdk UP-TO-DATE
+:materialfancybuttons:compileLint
+:materialfancybuttons:copyReleaseLint UP-TO-DATE
+:materialfancybuttons:mergeReleaseShaders
+:materialfancybuttons:compileReleaseShaders
+:materialfancybuttons:generateReleaseAssets
+:materialfancybuttons:mergeReleaseAssets
+:materialfancybuttons:mergeReleaseProguardFiles
+:materialfancybuttons:packageReleaseRenderscript UP-TO-DATE
+:materialfancybuttons:compileReleaseRenderscript
+:materialfancybuttons:generateReleaseResValues
+:materialfancybuttons:generateReleaseResources
+:materialfancybuttons:packageReleaseResources
+:materialfancybuttons:processReleaseManifest
+:materialfancybuttons:generateReleaseBuildConfig
+:materialfancybuttons:processReleaseResources
+:materialfancybuttons:generateReleaseSources
+:materialfancybuttons:incrementalReleaseJavaCompilationSafeguard
+:materialfancybuttons:javaPreCompileRelease
+:materialfancybuttons:compileReleaseJavaWithJavac
+:materialfancybuttons:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:materialfancybuttons:processReleaseJavaRes UP-TO-DATE
+:materialfancybuttons:transformResourcesWithMergeJavaResForRelease
+:materialfancybuttons:transformClassesAndResourcesWithSyncLibJarsForRelease
+:materialfancybuttons:mergeReleaseJniLibFolders
+:materialfancybuttons:transformNativeLibsWithMergeJniLibsForRelease
+:materialfancybuttons:transformNativeLibsWithStripDebugSymbolForRelease
+:materialfancybuttons:transformNativeLibsWithSyncJniLibsForRelease
+:materialfancybuttons:bundleRelease
+:community-material-typeface:prepareDebugDependencies
+:community-material-typeface:compileDebugAidl
+:community-material-typeface:compileDebugNdk UP-TO-DATE
+:community-material-typeface:compileLint
+:community-material-typeface:copyDebugLint UP-TO-DATE
+:community-material-typeface:mergeDebugShaders
+:community-material-typeface:compileDebugShaders
+:community-material-typeface:generateDebugAssets
+:community-material-typeface:mergeDebugAssets
+:community-material-typeface:mergeDebugProguardFiles
+:community-material-typeface:packageDebugRenderscript UP-TO-DATE
+:community-material-typeface:compileDebugRenderscript
+:community-material-typeface:generateDebugResValues
+:community-material-typeface:generateDebugResources
+:community-material-typeface:packageDebugResources
+:community-material-typeface:processDebugManifest
+:community-material-typeface:generateDebugBuildConfig
+:community-material-typeface:mergeDebugResources
+:community-material-typeface:processDebugResources
+:community-material-typeface:generateDebugSources
+:community-material-typeface:incrementalDebugJavaCompilationSafeguard
+:community-material-typeface:javaPreCompileDebug
+:community-material-typeface:compileDebugJavaWithJavac
+:community-material-typeface:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:community-material-typeface:processDebugJavaRes UP-TO-DATE
+:community-material-typeface:transformResourcesWithMergeJavaResForDebug
+:community-material-typeface:transformClassesAndResourcesWithSyncLibJarsForDebug
+:community-material-typeface:mergeDebugJniLibFolders
+:community-material-typeface:transformNativeLibsWithMergeJniLibsForDebug
+:community-material-typeface:transformNativeLibsWithStripDebugSymbolForDebug
+:community-material-typeface:transformNativeLibsWithSyncJniLibsForDebug
+:community-material-typeface:bundleDebug
+:community-material-typeface:compileDebugSources
+:community-material-typeface:assembleDebug
+:community-material-typeface:preReleaseBuild UP-TO-DATE
+:community-material-typeface:checkReleaseManifest
+:community-material-typeface:prepareReleaseDependencies
+:community-material-typeface:compileReleaseAidl
+:community-material-typeface:compileReleaseNdk UP-TO-DATE
+:community-material-typeface:copyReleaseLint UP-TO-DATE
+:community-material-typeface:mergeReleaseShaders
+:community-material-typeface:compileReleaseShaders
+:community-material-typeface:generateReleaseAssets
+:community-material-typeface:mergeReleaseAssets
+:community-material-typeface:mergeReleaseProguardFiles
+:community-material-typeface:packageReleaseRenderscript UP-TO-DATE
+:community-material-typeface:compileReleaseRenderscript
+:community-material-typeface:generateReleaseResValues
+:community-material-typeface:generateReleaseResources
+:community-material-typeface:packageReleaseResources
+:community-material-typeface:processReleaseManifest
+:community-material-typeface:generateReleaseBuildConfig
+:community-material-typeface:mergeReleaseResources
+:community-material-typeface:processReleaseResources
+:community-material-typeface:generateReleaseSources
+:community-material-typeface:incrementalReleaseJavaCompilationSafeguard
+:community-material-typeface:javaPreCompileRelease
+:community-material-typeface:compileReleaseJavaWithJavac
+:community-material-typeface:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:community-material-typeface:processReleaseJavaRes UP-TO-DATE
+:community-material-typeface:transformResourcesWithMergeJavaResForRelease
+:community-material-typeface:transformClassesAndResourcesWithSyncLibJarsForRelease
+:community-material-typeface:mergeReleaseJniLibFolders
+:community-material-typeface:transformNativeLibsWithMergeJniLibsForRelease
+:community-material-typeface:transformNativeLibsWithStripDebugSymbolForRelease
+:community-material-typeface:transformNativeLibsWithSyncJniLibsForRelease
+:community-material-typeface:bundleRelease
+:community-material-typeface:compileReleaseSources
+:community-material-typeface:assembleRelease
+:community-material-typeface:assemble
+:community-material-typeface:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.444 secs
+
+2018-09-01 18:14:50,228 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800471572-0/src/MaterialFancyButtons-master/resources/fancybuttons_samples.apk

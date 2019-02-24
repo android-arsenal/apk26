@@ -1,0 +1,540 @@
+2018-08-31 16:34:52,325 INFO  DownloadService - Downloading "https://github.com/ursimon/CounterTextView/archive/master.zip", attempt 3
+2018-08-31 16:34:53,796 INFO  DownloadService - Downloaded https://github.com/ursimon/CounterTextView/archive/master.zip, attempt 3
+2018-08-31 16:34:53,797 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/master.zip": 381 KB
+2018-08-31 16:34:53,797 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 16:34:53,803 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/master.zip: true
+2018-08-31 16:34:53,803 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src'.
+2018-08-31 16:34:53,832 INFO  FullProcessService - Size of directory with sources: 432 KB
+2018-08-31 16:34:53,832 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src]
+2018-08-31 16:34:53,847 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/.git/
+
+2018-08-31 16:34:53,851 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/gradlew
+2018-08-31 16:34:53,854 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/build.gradle
+2018-08-31 16:34:53,858 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/settings.gradle
+2018-08-31 16:34:53,858 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 16:34:53,858 INFO  ProjectFixService - Fixing project...
+2018-08-31 16:34:53,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-common/local.properties
+2018-08-31 16:34:53,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-common/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 16:34:53,867 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava1/local.properties
+2018-08-31 16:34:53,867 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava1/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 16:34:53,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava2/local.properties
+2018-08-31 16:34:53,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava2/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 16:34:53,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava1/local.properties
+2018-08-31 16:34:53,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava1/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 16:34:53,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava2/local.properties
+2018-08-31 16:34:53,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava2/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 16:34:53,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/local.properties
+2018-08-31 16:34:53,870 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 16:34:53,870 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 16:34:53,871 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/build.gradle": [buildToolsVersion=27.0.2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 16:34:53,871 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 16:34:53,871 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 16:34:53,871 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 16:34:59,789 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-08-31 16:34:59,789 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 16:34:59,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-common/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 16:35:11,091 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library-common:preBuild UP-TO-DATE
+:library-common:preDebugBuild UP-TO-DATE
+:library-common:compileDebugAidl
+:library-common:compileDebugNdk NO-SOURCE
+:library-common:compileDebugRenderscript
+:library-common:checkDebugManifest
+:library-common:generateDebugBuildConfig
+:library-common:prepareLintJar
+:library-common:generateDebugResValues
+:library-common:generateDebugResources
+:library-common:packageDebugResources
+:library-common:platformAttrExtractor
+:library-common:processDebugManifest
+:library-common:javaPreCompileDebug
+:library-common:mergeDebugShaders
+:library-common:compileDebugShaders
+:library-common:generateDebugAssets
+:library-common:mergeDebugAssets
+:library-common:mergeDebugConsumerProguardFiles
+:library-common:packageDebugRenderscript NO-SOURCE
+:library-common:processDebugJavaRes NO-SOURCE
+:library-common:mergeDebugJniLibFolders
+:library-common:transformNativeLibsWithMergeJniLibsForDebug
+:library-common:transformNativeLibsWithStripDebugSymbolForDebug
+:library-common:transformNativeLibsWithSyncJniLibsForDebug
+:library-common:preReleaseBuild UP-TO-DATE
+:library-common:compileReleaseAidl
+:library-common:compileReleaseNdk NO-SOURCE
+:library-common:compileReleaseRenderscript
+:library-common:checkReleaseManifest
+:library-common:generateReleaseBuildConfig
+:library-common:generateReleaseResValues
+:library-common:generateReleaseResources
+:library-common:packageReleaseResources
+:library-common:processReleaseManifest
+:library-common:javaPreCompileRelease
+:library-common:mergeReleaseShaders
+:library-common:compileReleaseShaders
+:library-common:generateReleaseAssets
+:library-common:mergeReleaseAssets
+:library-common:mergeReleaseConsumerProguardFiles
+:library-common:packageReleaseRenderscript NO-SOURCE
+:library-common:processReleaseJavaRes NO-SOURCE
+:library-common:mergeReleaseJniLibFolders
+:library-common:transformNativeLibsWithMergeJniLibsForRelease
+:library-common:transformNativeLibsWithStripDebugSymbolForRelease
+:library-common:transformNativeLibsWithSyncJniLibsForRelease
+:library-common:mergeReleaseResources
+:library-common:verifyReleaseResources
+:library-common:processDebugResources
+:library-common:generateDebugSources
+:library-common:compileDebugJavaWithJavac
+:library-common:extractDebugAnnotations
+:library-common:transformResourcesWithMergeJavaResForDebug
+:library-common:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library-common:bundleDebug
+:library-common:compileDebugSources
+:library-common:assembleDebug
+:library-common:processReleaseResources
+:library-common:generateReleaseSources
+:library-common:compileReleaseJavaWithJavac
+:library-common:extractReleaseAnnotations
+:library-common:transformResourcesWithMergeJavaResForRelease
+:library-common:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library-common:bundleRelease
+:library-common:compileReleaseSources
+:library-common:assembleRelease
+:library-common:assemble
+:library-common:build
+
+BUILD SUCCESSFUL in 10s
+48 actionable tasks: 48 executed
+
+2018-08-31 16:35:11,134 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 16:35:11,134 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 16:35:17,011 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-08-31 16:35:17,011 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 16:35:17,012 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 16:35:30,469 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library-common:preBuild UP-TO-DATE
+:library-common:preDebugBuild UP-TO-DATE
+:library-common:compileDebugAidl UP-TO-DATE
+:library-rxjava1:preBuild UP-TO-DATE
+:library-rxjava1:preDebugBuild UP-TO-DATE
+:library-rxjava1:compileDebugAidl
+Download https://jcenter.bintray.com/com/artemzin/rxjava/proguard-rules/1.3.3.0/proguard-rules-1.3.3.0.pom
+Download https://jcenter.bintray.com/com/artemzin/rxjava/proguard-rules/1.3.3.0/proguard-rules-1.3.3.0.aar
+:library-rxjava1:compileDebugNdk NO-SOURCE
+:library-common:compileDebugRenderscript UP-TO-DATE
+:library-common:checkDebugManifest UP-TO-DATE
+:library-common:generateDebugBuildConfig UP-TO-DATE
+:library-common:prepareLintJar UP-TO-DATE
+:library-common:generateDebugResValues UP-TO-DATE
+:library-common:generateDebugResources UP-TO-DATE
+:library-common:packageDebugResources UP-TO-DATE
+:library-common:platformAttrExtractor UP-TO-DATE
+:library-common:processDebugManifest UP-TO-DATE
+:library-common:processDebugResources UP-TO-DATE
+:library-common:generateDebugSources UP-TO-DATE
+:library-common:javaPreCompileDebug UP-TO-DATE
+:library-common:compileDebugJavaWithJavac UP-TO-DATE
+:library-common:processDebugJavaRes NO-SOURCE
+:library-common:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:library-common:packageDebugRenderscript NO-SOURCE
+:library-rxjava1:compileDebugRenderscript
+:library-rxjava1:checkDebugManifest
+:library-rxjava1:generateDebugBuildConfig
+:library-rxjava1:prepareLintJar
+:library-rxjava1:generateDebugResValues
+:library-rxjava1:generateDebugResources
+:library-rxjava1:packageDebugResources
+:library-rxjava1:platformAttrExtractor
+:library-rxjava1:processDebugManifest
+:library-rxjava1:javaPreCompileDebug
+:library-rxjava1:mergeDebugShaders
+:library-rxjava1:compileDebugShaders
+:library-rxjava1:generateDebugAssets
+:library-rxjava1:mergeDebugAssets
+:library-rxjava1:mergeDebugConsumerProguardFiles
+:library-rxjava1:packageDebugRenderscript NO-SOURCE
+:library-rxjava1:processDebugJavaRes NO-SOURCE
+:library-rxjava1:mergeDebugJniLibFolders
+:library-rxjava1:transformNativeLibsWithMergeJniLibsForDebug
+:library-rxjava1:transformNativeLibsWithStripDebugSymbolForDebug
+:library-rxjava1:transformNativeLibsWithSyncJniLibsForDebug
+:library-common:preReleaseBuild UP-TO-DATE
+:library-common:compileReleaseAidl UP-TO-DATE
+:library-rxjava1:preReleaseBuild UP-TO-DATE
+:library-rxjava1:compileReleaseAidl
+:library-rxjava1:compileReleaseNdk NO-SOURCE
+:library-common:compileReleaseRenderscript UP-TO-DATE
+:library-common:checkReleaseManifest UP-TO-DATE
+:library-common:generateReleaseBuildConfig UP-TO-DATE
+:library-common:generateReleaseResValues UP-TO-DATE
+:library-common:generateReleaseResources UP-TO-DATE
+:library-common:packageReleaseResources UP-TO-DATE
+:library-common:processReleaseManifest UP-TO-DATE
+:library-common:processReleaseResources UP-TO-DATE
+:library-common:generateReleaseSources UP-TO-DATE
+:library-common:javaPreCompileRelease UP-TO-DATE
+:library-common:compileReleaseJavaWithJavac UP-TO-DATE
+:library-common:processReleaseJavaRes NO-SOURCE
+:library-common:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:library-common:packageReleaseRenderscript NO-SOURCE
+:library-rxjava1:compileReleaseRenderscript
+:library-rxjava1:checkReleaseManifest
+:library-rxjava1:generateReleaseBuildConfig
+:library-rxjava1:generateReleaseResValues
+:library-rxjava1:generateReleaseResources
+:library-rxjava1:packageReleaseResources
+:library-rxjava1:processReleaseManifest
+:library-rxjava1:javaPreCompileRelease
+:library-rxjava1:mergeReleaseShaders
+:library-rxjava1:compileReleaseShaders
+:library-rxjava1:generateReleaseAssets
+:library-rxjava1:mergeReleaseAssets
+:library-rxjava1:mergeReleaseConsumerProguardFiles
+:library-rxjava1:packageReleaseRenderscript NO-SOURCE
+:library-rxjava1:processReleaseJavaRes NO-SOURCE
+:library-rxjava1:mergeReleaseJniLibFolders
+:library-rxjava1:transformNativeLibsWithMergeJniLibsForRelease
+:library-rxjava1:transformNativeLibsWithStripDebugSymbolForRelease
+:library-rxjava1:transformNativeLibsWithSyncJniLibsForRelease
+:library-rxjava1:mergeReleaseResources
+:library-rxjava1:verifyReleaseResources
+:library-rxjava1:processDebugResources
+:library-rxjava1:generateDebugSources
+:library-rxjava1:compileDebugJavaWithJavac
+:library-rxjava1:extractDebugAnnotations
+:library-rxjava1:transformResourcesWithMergeJavaResForDebug
+:library-rxjava1:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library-rxjava1:bundleDebug
+:library-rxjava1:compileDebugSources
+:library-rxjava1:assembleDebug
+:library-rxjava1:processReleaseResources
+:library-rxjava1:generateReleaseSources
+:library-rxjava1:compileReleaseJavaWithJavac
+:library-rxjava1:extractReleaseAnnotations
+:library-rxjava1:transformResourcesWithMergeJavaResForRelease
+:library-rxjava1:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library-rxjava1:bundleRelease
+:library-rxjava1:compileReleaseSources
+:library-rxjava1:assembleRelease
+:library-rxjava1:assemble
+:library-rxjava1:build
+
+BUILD SUCCESSFUL in 13s
+72 actionable tasks: 50 executed, 22 up-to-date
+
+2018-08-31 16:35:30,539 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 16:35:30,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 16:35:36,287 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-08-31 16:35:36,287 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 16:35:36,287 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/library-rxjava2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 16:35:47,324 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library-common:preBuild UP-TO-DATE
+:library-common:preDebugBuild UP-TO-DATE
+:library-common:compileDebugAidl UP-TO-DATE
+:library-rxjava2:preBuild UP-TO-DATE
+:library-rxjava2:preDebugBuild UP-TO-DATE
+:library-rxjava2:compileDebugAidl
+:library-rxjava2:compileDebugNdk NO-SOURCE
+:library-common:compileDebugRenderscript UP-TO-DATE
+:library-common:checkDebugManifest UP-TO-DATE
+:library-common:generateDebugBuildConfig UP-TO-DATE
+:library-common:prepareLintJar UP-TO-DATE
+:library-common:generateDebugResValues UP-TO-DATE
+:library-common:generateDebugResources UP-TO-DATE
+:library-common:packageDebugResources UP-TO-DATE
+:library-common:platformAttrExtractor UP-TO-DATE
+:library-common:processDebugManifest UP-TO-DATE
+:library-common:processDebugResources UP-TO-DATE
+:library-common:generateDebugSources UP-TO-DATE
+:library-common:javaPreCompileDebug UP-TO-DATE
+:library-common:compileDebugJavaWithJavac UP-TO-DATE
+:library-common:processDebugJavaRes NO-SOURCE
+:library-common:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:library-common:packageDebugRenderscript NO-SOURCE
+:library-rxjava2:compileDebugRenderscript
+:library-rxjava2:checkDebugManifest
+:library-rxjava2:generateDebugBuildConfig
+:library-rxjava2:prepareLintJar
+:library-rxjava2:generateDebugResValues
+:library-rxjava2:generateDebugResources
+:library-rxjava2:packageDebugResources
+:library-rxjava2:platformAttrExtractor
+:library-rxjava2:processDebugManifest
+:library-rxjava2:javaPreCompileDebug
+:library-rxjava2:mergeDebugShaders
+:library-rxjava2:compileDebugShaders
+:library-rxjava2:generateDebugAssets
+:library-rxjava2:mergeDebugAssets
+:library-rxjava2:mergeDebugConsumerProguardFiles
+:library-rxjava2:packageDebugRenderscript NO-SOURCE
+:library-rxjava2:processDebugJavaRes NO-SOURCE
+:library-rxjava2:mergeDebugJniLibFolders
+:library-rxjava2:transformNativeLibsWithMergeJniLibsForDebug
+:library-rxjava2:transformNativeLibsWithStripDebugSymbolForDebug
+:library-rxjava2:transformNativeLibsWithSyncJniLibsForDebug
+:library-common:preReleaseBuild UP-TO-DATE
+:library-common:compileReleaseAidl UP-TO-DATE
+:library-rxjava2:preReleaseBuild UP-TO-DATE
+:library-rxjava2:compileReleaseAidl
+:library-rxjava2:compileReleaseNdk NO-SOURCE
+:library-common:compileReleaseRenderscript UP-TO-DATE
+:library-common:checkReleaseManifest UP-TO-DATE
+:library-common:generateReleaseBuildConfig UP-TO-DATE
+:library-common:generateReleaseResValues UP-TO-DATE
+:library-common:generateReleaseResources UP-TO-DATE
+:library-common:packageReleaseResources UP-TO-DATE
+:library-common:processReleaseManifest UP-TO-DATE
+:library-common:processReleaseResources UP-TO-DATE
+:library-common:generateReleaseSources UP-TO-DATE
+:library-common:javaPreCompileRelease UP-TO-DATE
+:library-common:compileReleaseJavaWithJavac UP-TO-DATE
+:library-common:processReleaseJavaRes NO-SOURCE
+:library-common:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:library-common:packageReleaseRenderscript NO-SOURCE
+:library-rxjava2:compileReleaseRenderscript
+:library-rxjava2:checkReleaseManifest
+:library-rxjava2:generateReleaseBuildConfig
+:library-rxjava2:generateReleaseResValues
+:library-rxjava2:generateReleaseResources
+:library-rxjava2:packageReleaseResources
+:library-rxjava2:processReleaseManifest
+:library-rxjava2:javaPreCompileRelease
+:library-rxjava2:mergeReleaseShaders
+:library-rxjava2:compileReleaseShaders
+:library-rxjava2:generateReleaseAssets
+:library-rxjava2:mergeReleaseAssets
+:library-rxjava2:mergeReleaseConsumerProguardFiles
+:library-rxjava2:packageReleaseRenderscript NO-SOURCE
+:library-rxjava2:processReleaseJavaRes NO-SOURCE
+:library-rxjava2:mergeReleaseJniLibFolders
+:library-rxjava2:transformNativeLibsWithMergeJniLibsForRelease
+:library-rxjava2:transformNativeLibsWithStripDebugSymbolForRelease
+:library-rxjava2:transformNativeLibsWithSyncJniLibsForRelease
+:library-rxjava2:mergeReleaseResources
+:library-rxjava2:verifyReleaseResources
+:library-rxjava2:processDebugResources
+:library-rxjava2:generateDebugSources
+:library-rxjava2:compileDebugJavaWithJavac
+:library-rxjava2:extractDebugAnnotations
+:library-rxjava2:transformResourcesWithMergeJavaResForDebug
+:library-rxjava2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:library-rxjava2:bundleDebug
+:library-rxjava2:compileDebugSources
+:library-rxjava2:assembleDebug
+:library-rxjava2:processReleaseResources
+:library-rxjava2:generateReleaseSources
+:library-rxjava2:compileReleaseJavaWithJavac
+:library-rxjava2:extractReleaseAnnotations
+:library-rxjava2:transformResourcesWithMergeJavaResForRelease
+:library-rxjava2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library-rxjava2:bundleRelease
+:library-rxjava2:compileReleaseSources
+:library-rxjava2:assembleRelease
+:library-rxjava2:assemble
+:library-rxjava2:build
+
+BUILD SUCCESSFUL in 10s
+72 actionable tasks: 48 executed, 24 up-to-date
+
+2018-08-31 16:35:47,437 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 16:35:47,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 16:35:53,273 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 16:35:53,273 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 16:35:53,273 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava1/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 16:36:26,706 INFO  SysUtils - Configuration on demand is an incubating feature.
+:library-common:preBuild UP-TO-DATE
+:library-common:preDebugBuild UP-TO-DATE
+:library-common:compileDebugAidl UP-TO-DATE
+:library-common:compileDebugRenderscript UP-TO-DATE
+:library-common:checkDebugManifest UP-TO-DATE
+:library-common:generateDebugBuildConfig UP-TO-DATE
+:library-common:prepareLintJar UP-TO-DATE
+:library-common:generateDebugResValues UP-TO-DATE
+:library-common:generateDebugResources UP-TO-DATE
+:library-common:packageDebugResources UP-TO-DATE
+:library-common:platformAttrExtractor UP-TO-DATE
+:library-common:processDebugManifest UP-TO-DATE
+:library-common:processDebugResources UP-TO-DATE
+:library-common:generateDebugSources UP-TO-DATE
+:library-common:javaPreCompileDebug UP-TO-DATE
+:library-common:compileDebugJavaWithJavac UP-TO-DATE
+:library-common:processDebugJavaRes NO-SOURCE
+:library-common:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:library-rxjava1:preBuild UP-TO-DATE
+:library-rxjava1:preDebugBuild UP-TO-DATE
+:library-rxjava1:compileDebugAidl UP-TO-DATE
+:library-common:packageDebugRenderscript NO-SOURCE
+:library-rxjava1:compileDebugRenderscript UP-TO-DATE
+:library-rxjava1:checkDebugManifest UP-TO-DATE
+:library-rxjava1:generateDebugBuildConfig UP-TO-DATE
+:library-rxjava1:prepareLintJar UP-TO-DATE
+:library-rxjava1:generateDebugResValues UP-TO-DATE
+:library-rxjava1:generateDebugResources UP-TO-DATE
+:library-rxjava1:packageDebugResources UP-TO-DATE
+:library-rxjava1:platformAttrExtractor UP-TO-DATE
+:library-rxjava1:processDebugManifest UP-TO-DATE
+:library-rxjava1:processDebugResources UP-TO-DATE
+:library-rxjava1:generateDebugSources UP-TO-DATE
+:library-rxjava1:javaPreCompileDebug UP-TO-DATE
+:library-rxjava1:compileDebugJavaWithJavac UP-TO-DATE
+:library-rxjava1:processDebugJavaRes NO-SOURCE
+:library-rxjava1:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample-rxjava1:preBuild UP-TO-DATE
+:sample-rxjava1:preDebugBuild
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding/rxbinding/1.0.1/rxbinding-1.0.1.pom
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding/rxbinding/1.0.1/rxbinding-1.0.1.aar
+:sample-rxjava1:compileDebugAidl
+:library-rxjava1:packageDebugRenderscript NO-SOURCE
+:sample-rxjava1:compileDebugRenderscript
+:sample-rxjava1:checkDebugManifest
+:sample-rxjava1:generateDebugBuildConfig
+:sample-rxjava1:prepareLintJar
+:sample-rxjava1:generateDebugResValues
+:sample-rxjava1:generateDebugResources
+:sample-rxjava1:mergeDebugResources
+:sample-rxjava1:createDebugCompatibleScreenManifests
+:sample-rxjava1:processDebugManifest
+:sample-rxjava1:splitsDiscoveryTaskDebug
+:sample-rxjava1:processDebugResources
+:sample-rxjava1:generateDebugSources
+:sample-rxjava1:javaPreCompileDebug
+:sample-rxjava1:compileDebugJavaWithJavac
+:sample-rxjava1:compileDebugNdk NO-SOURCE
+:sample-rxjava1:compileDebugSources
+:library-common:mergeDebugShaders UP-TO-DATE
+:library-common:compileDebugShaders UP-TO-DATE
+:library-common:generateDebugAssets UP-TO-DATE
+:library-common:mergeDebugAssets UP-TO-DATE
+:library-rxjava1:mergeDebugShaders UP-TO-DATE
+:library-rxjava1:compileDebugShaders UP-TO-DATE
+:library-rxjava1:generateDebugAssets UP-TO-DATE
+:library-rxjava1:mergeDebugAssets UP-TO-DATE
+:sample-rxjava1:mergeDebugShaders
+:sample-rxjava1:compileDebugShaders
+:sample-rxjava1:generateDebugAssets
+:sample-rxjava1:mergeDebugAssets
+:sample-rxjava1:extractTryWithResourcesSupportJarDebug
+:sample-rxjava1:transformClassesWithStackFramesFixerForDebug
+:sample-rxjava1:transformClassesWithDesugarForDebug
+:sample-rxjava1:transformClassesWithDexBuilderForDebug
+:sample-rxjava1:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample-rxjava1:transformDexArchiveWithDexMergerForDebug
+:library-common:compileDebugNdk NO-SOURCE
+:library-common:mergeDebugJniLibFolders UP-TO-DATE
+:library-common:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library-common:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library-common:transformNativeLibsWithIntermediateJniLibsForDebug
+:library-rxjava1:compileDebugNdk NO-SOURCE
+:library-rxjava1:mergeDebugJniLibFolders UP-TO-DATE
+:library-rxjava1:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:library-rxjava1:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:library-rxjava1:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample-rxjava1:mergeDebugJniLibFolders
+:sample-rxjava1:transformNativeLibsWithMergeJniLibsForDebug
+:sample-rxjava1:transformNativeLibsWithStripDebugSymbolForDebug
+:sample-rxjava1:processDebugJavaRes NO-SOURCE
+:sample-rxjava1:transformResourcesWithMergeJavaResForDebug
+:sample-rxjava1:validateSigningDebug
+:sample-rxjava1:packageDebug
+:sample-rxjava1:assembleDebug
+:library-common:preReleaseBuild UP-TO-DATE
+:library-common:compileReleaseAidl UP-TO-DATE
+:library-common:compileReleaseRenderscript UP-TO-DATE
+:library-common:checkReleaseManifest UP-TO-DATE
+:library-common:generateReleaseBuildConfig UP-TO-DATE
+:library-common:generateReleaseResValues UP-TO-DATE
+:library-common:generateReleaseResources UP-TO-DATE
+:library-common:packageReleaseResources UP-TO-DATE
+:library-common:processReleaseManifest UP-TO-DATE
+:library-common:processReleaseResources UP-TO-DATE
+:library-common:generateReleaseSources UP-TO-DATE
+:library-common:javaPreCompileRelease UP-TO-DATE
+:library-common:compileReleaseJavaWithJavac UP-TO-DATE
+:library-common:processReleaseJavaRes NO-SOURCE
+:library-common:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:library-rxjava1:preReleaseBuild UP-TO-DATE
+:library-rxjava1:compileReleaseAidl UP-TO-DATE
+:library-common:packageReleaseRenderscript NO-SOURCE
+:library-rxjava1:compileReleaseRenderscript UP-TO-DATE
+:library-rxjava1:checkReleaseManifest UP-TO-DATE
+:library-rxjava1:generateReleaseBuildConfig UP-TO-DATE
+:library-rxjava1:generateReleaseResValues UP-TO-DATE
+:library-rxjava1:generateReleaseResources UP-TO-DATE
+:library-rxjava1:packageReleaseResources UP-TO-DATE
+:library-rxjava1:processReleaseManifest UP-TO-DATE
+:library-rxjava1:processReleaseResources UP-TO-DATE
+:library-rxjava1:generateReleaseSources UP-TO-DATE
+:library-rxjava1:javaPreCompileRelease UP-TO-DATE
+:library-rxjava1:compileReleaseJavaWithJavac UP-TO-DATE
+:library-rxjava1:processReleaseJavaRes NO-SOURCE
+:library-rxjava1:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample-rxjava1:preReleaseBuild
+:sample-rxjava1:compileReleaseAidl
+:library-rxjava1:packageReleaseRenderscript NO-SOURCE
+:sample-rxjava1:compileReleaseRenderscript
+:sample-rxjava1:checkReleaseManifest
+:sample-rxjava1:generateReleaseBuildConfig
+:sample-rxjava1:generateReleaseResValues
+:sample-rxjava1:generateReleaseResources
+:sample-rxjava1:mergeReleaseResources
+:sample-rxjava1:createReleaseCompatibleScreenManifests
+:sample-rxjava1:processReleaseManifest
+:sample-rxjava1:splitsDiscoveryTaskRelease
+:sample-rxjava1:processReleaseResources
+:sample-rxjava1:generateReleaseSources
+:sample-rxjava1:javaPreCompileRelease
+:sample-rxjava1:compileReleaseJavaWithJavac
+:sample-rxjava1:compileReleaseNdk NO-SOURCE
+:sample-rxjava1:compileReleaseSources
+:sample-rxjava1:lintVitalRelease
+:library-common:mergeReleaseShaders UP-TO-DATE
+:library-common:compileReleaseShaders UP-TO-DATE
+:library-common:generateReleaseAssets UP-TO-DATE
+:library-common:mergeReleaseAssets UP-TO-DATE
+:library-rxjava1:mergeReleaseShaders UP-TO-DATE
+:library-rxjava1:compileReleaseShaders UP-TO-DATE
+:library-rxjava1:generateReleaseAssets UP-TO-DATE
+:library-rxjava1:mergeReleaseAssets UP-TO-DATE
+:sample-rxjava1:mergeReleaseShaders
+:sample-rxjava1:compileReleaseShaders
+:sample-rxjava1:generateReleaseAssets
+:sample-rxjava1:mergeReleaseAssets
+:sample-rxjava1:extractTryWithResourcesSupportJarRelease
+:sample-rxjava1:transformClassesWithStackFramesFixerForRelease
+:sample-rxjava1:transformClassesWithDesugarForRelease
+:sample-rxjava1:transformClassesWithPreDexForRelease
+:sample-rxjava1:transformDexWithDexForRelease
+:library-common:compileReleaseNdk NO-SOURCE
+:library-common:mergeReleaseJniLibFolders UP-TO-DATE
+:library-common:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library-common:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library-common:transformNativeLibsWithIntermediateJniLibsForRelease
+:library-rxjava1:compileReleaseNdk NO-SOURCE
+:library-rxjava1:mergeReleaseJniLibFolders UP-TO-DATE
+:library-rxjava1:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:library-rxjava1:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:library-rxjava1:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample-rxjava1:mergeReleaseJniLibFolders
+:sample-rxjava1:transformNativeLibsWithMergeJniLibsForRelease
+:sample-rxjava1:transformNativeLibsWithStripDebugSymbolForRelease
+:sample-rxjava1:processReleaseJavaRes NO-SOURCE
+:sample-rxjava1:transformResourcesWithMergeJavaResForRelease
+:sample-rxjava1:packageRelease
+:sample-rxjava1:assembleRelease
+:sample-rxjava1:assemble
+:sample-rxjava1:build
+
+BUILD SUCCESSFUL in 32s
+132 actionable tasks: 62 executed, 70 up-to-date
+Exception in thread "Thread-30" java.lang.NoClassDefFoundError: com/android/utils/PathUtils$1
+	at com.android.utils.PathUtils.deleteIfExists(PathUtils.java:47)
+	at com.android.utils.PathUtils.lambda$addRemovePathHook$0(PathUtils.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.utils.PathUtils$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+
+2018-08-31 16:36:26,864 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708092318-0/src/CounterTextView-master/sample-rxjava1/build/outputs/apk/release/sample-rxjava1-release-unsigned.apk

@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.udioshi85.genericsettings",
+    "label" : "GenericSettings",
+    "icon" : "res/drawable/ic_launcher.xml",
+    "versionName" : "1.4.1",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 3307,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.4.1\" package=\"com.udioshi85.genericsettings\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"GenericSettings\" android:icon=\"res/drawable/ic_launcher.xml\" android:name=\"com.oshi.genericsettings.GenericSettingsApp\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/drawable/ic_launcher.xml\">\n\t\t<activity android:name=\"com.oshi.genericsettings.MainLauncherActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.oshi.genericsettings.java.main.MainActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.kotlin.main.MainActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.java.basic.BasicTypesActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.kotlin.basic.BasicTypeActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.java.checkable.CheckableTypesActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.kotlin.checkable.CheckableTypesActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.java.expandable.ExpandableTypesActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.kotlin.expandable.ExpandableTypesActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.java.switchable.SwitchableTypesActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.kotlin.switchable.SwitchableTypesActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.java.seekbar.SeekBarTypesActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:name=\"com.oshi.genericsettings.kotlin.seekbar.SeekBarTypesActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2696253,
+  "crc32" : 872833611,
+  "sha256" : "05823e54da0df7e34978b4d6388c61443fa8010a82c14ef7d4310f6a2d04e7a0",
+  "buildTime" : 1535707836000
+}

@@ -1,0 +1,944 @@
+2018-08-31 20:22:51,013 INFO  DownloadService - Downloading "https://github.com/Fenscode/twitter_digits_auth/archive/master.zip", attempt 3
+2018-08-31 20:22:51,679 INFO  DownloadService - Downloaded https://github.com/Fenscode/twitter_digits_auth/archive/master.zip, attempt 3
+2018-08-31 20:22:51,679 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/master.zip": 273 KB
+2018-08-31 20:22:51,679 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 20:22:51,685 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/master.zip: true
+2018-08-31 20:22:51,685 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src'.
+2018-08-31 20:22:51,704 INFO  FullProcessService - Size of directory with sources: 315 KB
+2018-08-31 20:22:51,704 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src]
+2018-08-31 20:22:51,720 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/.git/
+
+2018-08-31 20:22:51,723 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/gradlew
+2018-08-31 20:22:51,725 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/build.gradle
+2018-08-31 20:22:51,727 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/settings.gradle
+2018-08-31 20:22:51,727 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 20:22:51,727 INFO  ProjectFixService - Fixing project...
+2018-08-31 20:22:51,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/app/local.properties
+2018-08-31 20:22:51,733 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
+2018-08-31 20:22:51,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/local.properties
+2018-08-31 20:22:51,734 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 20:22:51,734 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 20:22:51,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=23,minSdkVersion=17,targetSdkVersion=23]
+2018-08-31 20:22:51,735 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 20:22:51,735 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 20:22:51,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 20:23:21,877 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-08-31 20:23:21,877 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-08-31 20:23:21,877 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-08-31 20:23:21,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-08-31 20:23:36,962 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-31 20:23:36,962 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'twitter_digits_auth-master'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find org.jetbrains.kotlin:kotlin-stdlib:1.1.3-2.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom
+         https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+         https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom
+         https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools:repository:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find org.ow2.asm:asm:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm/5.1/asm-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm/5.1/asm-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm/5.1/asm-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm/5.1/asm-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find org.ow2.asm:asm-analysis:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0
+   > Could not find org.ow2.asm:asm-commons:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find org.ow2.asm:asm-util:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm-util/5.1/asm-util-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm-util/5.1/asm-util-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find org.jacoco:org.jacoco.core:0.7.4.201502262128.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.pom
+         https://maven.fabric.io/public/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar
+         https://maven.google.com/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.pom
+         https://maven.google.com/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+   > Could not find org.jacoco:org.jacoco.report:0.7.4.201502262128.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.pom
+         https://maven.fabric.io/public/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar
+         https://maven.google.com/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.pom
+         https://maven.google.com/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+   > Could not find net.sf.jopt-simple:jopt-simple:4.9.
+     Searched in the following locations:
+         https://maven.fabric.io/public/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.pom
+         https://maven.fabric.io/public/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar
+         https://maven.google.com/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.pom
+         https://maven.google.com/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find net.sf.proguard:proguard-gradle:5.3.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.pom
+         https://maven.fabric.io/public/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar
+         https://maven.google.com/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.pom
+         https://maven.google.com/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+   > Could not find com.google.protobuf:protobuf-java:3.0.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.pom
+         https://maven.fabric.io/public/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar
+         https://maven.google.com/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.pom
+         https://maven.google.com/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:protos:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:tracker:26.0.0
+   > Could not find com.squareup:javawriter:2.5.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/squareup/javawriter/2.5.0/javawriter-2.5.0.pom
+         https://maven.fabric.io/public/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar
+         https://maven.google.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.pom
+         https://maven.google.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find org.bouncycastle:bcpkix-jdk15on:1.56.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.pom
+         https://maven.fabric.io/public/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar
+         https://maven.google.com/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.pom
+         https://maven.google.com/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+   > Could not find org.bouncycastle:bcprov-jdk15on:1.56.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.pom
+         https://maven.fabric.io/public/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar
+         https://maven.google.com/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.pom
+         https://maven.google.com/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+   > Could not find org.ow2.asm:asm-tree:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find it.unimi.dsi:fastutil:7.2.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.pom
+         https://maven.fabric.io/public/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar
+         https://maven.google.com/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.pom
+         https://maven.google.com/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find com.googlecode.json-simple:json-simple:1.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+         https://maven.fabric.io/public/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+         https://maven.google.com/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+         https://maven.google.com/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find org.eclipse.jdt.core.compiler:ecj:4.6.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.pom
+         https://maven.fabric.io/public/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar
+         https://maven.google.com/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.pom
+         https://maven.google.com/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0
+   > Could not find com.google.guava:guava:22.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/google/guava/guava/22.0/guava-22.0.pom
+         https://maven.fabric.io/public/com/google/guava/guava/22.0/guava-22.0.jar
+         https://maven.google.com/com/google/guava/guava/22.0/guava-22.0.pom
+         https://maven.google.com/com/google/guava/guava/22.0/guava-22.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:gradle-api:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.databinding:compilerCommon:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:common:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:shared:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:tracker:26.0.0
+   > Could not find org.antlr:antlr4:4.5.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/antlr/antlr4/4.5.3/antlr4-4.5.3.pom
+         https://maven.fabric.io/public/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar
+         https://maven.google.com/org/antlr/antlr4/4.5.3/antlr4-4.5.3.pom
+         https://maven.google.com/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.databinding:compilerCommon:3.0.0
+   > Could not find commons-io:commons-io:2.4.
+     Searched in the following locations:
+         https://maven.fabric.io/public/commons-io/commons-io/2.4/commons-io-2.4.pom
+         https://maven.fabric.io/public/commons-io/commons-io/2.4/commons-io-2.4.jar
+         https://maven.google.com/commons-io/commons-io/2.4/commons-io-2.4.pom
+         https://maven.google.com/commons-io/commons-io/2.4/commons-io-2.4.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.databinding:compilerCommon:3.0.0
+   > Could not find com.googlecode.juniversalchardet:juniversalchardet:1.0.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom
+         https://maven.fabric.io/public/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar
+         https://maven.google.com/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom
+         https://maven.google.com/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.databinding:compilerCommon:3.0.0
+   > Could not find com.google.code.gson:gson:2.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/google/code/gson/gson/2.3/gson-2.3.pom
+         https://maven.fabric.io/public/com/google/code/gson/gson/2.3/gson-2.3.jar
+         https://maven.google.com/com/google/code/gson/gson/2.3/gson-2.3.pom
+         https://maven.google.com/com/google/code/gson/gson/2.3/gson-2.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.build:manifest-merger:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:shared:26.0.0
+   > Could not find org.apache.commons:commons-compress:1.12.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/apache/commons/commons-compress/1.12/commons-compress-1.12.pom
+         https://maven.fabric.io/public/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+         https://maven.google.com/org/apache/commons/commons-compress/1.12/commons-compress-1.12.pom
+         https://maven.google.com/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools:repository:26.0.0
+   > Could not find org.apache.httpcomponents:httpclient:4.2.6.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.pom
+         https://maven.fabric.io/public/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar
+         https://maven.google.com/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.pom
+         https://maven.google.com/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0
+   > Could not find org.apache.httpcomponents:httpmime:4.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.pom
+         https://maven.fabric.io/public/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar
+         https://maven.google.com/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.pom
+         https://maven.google.com/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0
+   > Could not find net.sf.kxml:kxml2:2.3.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom
+         https://maven.fabric.io/public/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar
+         https://maven.google.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom
+         https://maven.google.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.build:manifest-merger:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.ddms:ddmlib:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools.layoutlib:layoutlib-api:26.0.0
+   > Could not find com.intellij:annotations:12.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/intellij/annotations/12.0/annotations-12.0.pom
+         https://maven.fabric.io/public/com/intellij/annotations/12.0/annotations-12.0.jar
+         https://maven.google.com/com/intellij/annotations/12.0/annotations-12.0.pom
+         https://maven.google.com/com/intellij/annotations/12.0/annotations-12.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools.layoutlib:layoutlib-api:26.0.0
+   > Could not find com.google.jimfs:jimfs:1.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/google/jimfs/jimfs/1.1/jimfs-1.1.pom
+         https://maven.fabric.io/public/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar
+         https://maven.google.com/com/google/jimfs/jimfs/1.1/jimfs-1.1.pom
+         https://maven.google.com/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools:repository:26.0.0
+   > Could not find com.android.tools.external.lombok:lombok-ast:0.2.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.pom
+         https://maven.fabric.io/public/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar
+         https://maven.google.com/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.pom
+         https://maven.google.com/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find org.jetbrains.kotlin:kotlin-reflect:1.1.3-2.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.pom
+         https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar
+         https://maven.google.com/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.pom
+         https://maven.google.com/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find org.jetbrains.trove4j:trove4j:20160824.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+         https://maven.fabric.io/public/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar
+         https://maven.google.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+         https://maven.google.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0 > com.android.tools.external.com-intellij:intellij-core:26.0.0
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'twitter_digits_auth-master'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:246)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:165)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:124)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:882)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1500(DefaultConfiguration.java:114)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:856)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:382)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:73)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:211)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:81)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:167)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:63)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find org.jetbrains.kotlin:kotlin-stdlib:1.1.3-2.
+Searched in the following locations:
+    https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom
+    https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+    https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom
+    https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+Required by:
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools:repository:26.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:105)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:60)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:45)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ComponentState.resolve(DependencyGraphBuilder.java:854)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ComponentState.getMetaData(DependencyGraphBuilder.java:865)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$EdgeState.calculateTargetConfigurations(DependencyGraphBuilder.java:446)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$EdgeState.attachToTargetConfigurations(DependencyGraphBuilder.java:417)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.attachToTargetRevisionsSerially(DependencyGraphBuilder.java:223)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolveEdges(DependencyGraphBuilder.java:213)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:148)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:86)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:138)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:73)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:66)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$4.run(DefaultConfiguration.java:469)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:461)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:437)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:114)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:865)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:853)
+	... 86 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 14s
+
+2018-08-31 20:23:36,967 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 20:23:36,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 20:23:52,387 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-08-31 20:23:52,387 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-08-31 20:23:52,387 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-08-31 20:23:52,387 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535721771011-0/src/twitter_digits_auth-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-08-31 20:24:07,908 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-31 20:24:07,908 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'twitter_digits_auth-master'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find org.jetbrains.kotlin:kotlin-stdlib:1.1.3-2.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom
+         https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+         https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom
+         https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools:repository:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find org.ow2.asm:asm:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm/5.1/asm-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm/5.1/asm-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm/5.1/asm-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm/5.1/asm-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find org.ow2.asm:asm-analysis:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0
+   > Could not find org.ow2.asm:asm-commons:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find org.ow2.asm:asm-util:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm-util/5.1/asm-util-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm-util/5.1/asm-util-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find org.jacoco:org.jacoco.core:0.7.4.201502262128.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.pom
+         https://maven.fabric.io/public/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar
+         https://maven.google.com/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.pom
+         https://maven.google.com/org/jacoco/org.jacoco.core/0.7.4.201502262128/org.jacoco.core-0.7.4.201502262128.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+   > Could not find org.jacoco:org.jacoco.report:0.7.4.201502262128.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.pom
+         https://maven.fabric.io/public/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar
+         https://maven.google.com/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.pom
+         https://maven.google.com/org/jacoco/org.jacoco.report/0.7.4.201502262128/org.jacoco.report-0.7.4.201502262128.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+   > Could not find net.sf.jopt-simple:jopt-simple:4.9.
+     Searched in the following locations:
+         https://maven.fabric.io/public/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.pom
+         https://maven.fabric.io/public/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar
+         https://maven.google.com/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.pom
+         https://maven.google.com/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find net.sf.proguard:proguard-gradle:5.3.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.pom
+         https://maven.fabric.io/public/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar
+         https://maven.google.com/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.pom
+         https://maven.google.com/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+   > Could not find com.google.protobuf:protobuf-java:3.0.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.pom
+         https://maven.fabric.io/public/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar
+         https://maven.google.com/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.pom
+         https://maven.google.com/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:protos:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:tracker:26.0.0
+   > Could not find com.squareup:javawriter:2.5.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/squareup/javawriter/2.5.0/javawriter-2.5.0.pom
+         https://maven.fabric.io/public/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar
+         https://maven.google.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.pom
+         https://maven.google.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find org.bouncycastle:bcpkix-jdk15on:1.56.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.pom
+         https://maven.fabric.io/public/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar
+         https://maven.google.com/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.pom
+         https://maven.google.com/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+   > Could not find org.bouncycastle:bcprov-jdk15on:1.56.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.pom
+         https://maven.fabric.io/public/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar
+         https://maven.google.com/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.pom
+         https://maven.google.com/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+   > Could not find org.ow2.asm:asm-tree:5.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
+         https://maven.fabric.io/public/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
+         https://maven.google.com/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
+         https://maven.google.com/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find it.unimi.dsi:fastutil:7.2.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.pom
+         https://maven.fabric.io/public/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar
+         https://maven.google.com/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.pom
+         https://maven.google.com/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find com.googlecode.json-simple:json-simple:1.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+         https://maven.fabric.io/public/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+         https://maven.google.com/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+         https://maven.google.com/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+   > Could not find org.eclipse.jdt.core.compiler:ecj:4.6.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.pom
+         https://maven.fabric.io/public/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar
+         https://maven.google.com/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.pom
+         https://maven.google.com/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0
+   > Could not find com.google.guava:guava:22.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/google/guava/guava/22.0/guava-22.0.pom
+         https://maven.fabric.io/public/com/google/guava/guava/22.0/guava-22.0.jar
+         https://maven.google.com/com/google/guava/guava/22.0/guava-22.0.pom
+         https://maven.google.com/com/google/guava/guava/22.0/guava-22.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:gradle-api:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.databinding:compilerCommon:3.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:common:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:shared:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:tracker:26.0.0
+   > Could not find org.antlr:antlr4:4.5.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/antlr/antlr4/4.5.3/antlr4-4.5.3.pom
+         https://maven.fabric.io/public/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar
+         https://maven.google.com/org/antlr/antlr4/4.5.3/antlr4-4.5.3.pom
+         https://maven.google.com/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.databinding:compilerCommon:3.0.0
+   > Could not find commons-io:commons-io:2.4.
+     Searched in the following locations:
+         https://maven.fabric.io/public/commons-io/commons-io/2.4/commons-io-2.4.pom
+         https://maven.fabric.io/public/commons-io/commons-io/2.4/commons-io-2.4.jar
+         https://maven.google.com/commons-io/commons-io/2.4/commons-io-2.4.pom
+         https://maven.google.com/commons-io/commons-io/2.4/commons-io-2.4.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.databinding:compilerCommon:3.0.0
+   > Could not find com.googlecode.juniversalchardet:juniversalchardet:1.0.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom
+         https://maven.fabric.io/public/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar
+         https://maven.google.com/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom
+         https://maven.google.com/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.databinding:compilerCommon:3.0.0
+   > Could not find com.google.code.gson:gson:2.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/google/code/gson/gson/2.3/gson-2.3.pom
+         https://maven.fabric.io/public/com/google/code/gson/gson/2.3/gson-2.3.jar
+         https://maven.google.com/com/google/code/gson/gson/2.3/gson-2.3.pom
+         https://maven.google.com/com/google/code/gson/gson/2.3/gson-2.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.build:manifest-merger:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.analytics-library:shared:26.0.0
+   > Could not find org.apache.commons:commons-compress:1.12.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/apache/commons/commons-compress/1.12/commons-compress-1.12.pom
+         https://maven.fabric.io/public/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+         https://maven.google.com/org/apache/commons/commons-compress/1.12/commons-compress-1.12.pom
+         https://maven.google.com/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools:repository:26.0.0
+   > Could not find org.apache.httpcomponents:httpclient:4.2.6.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.pom
+         https://maven.fabric.io/public/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar
+         https://maven.google.com/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.pom
+         https://maven.google.com/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0
+   > Could not find org.apache.httpcomponents:httpmime:4.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.pom
+         https://maven.fabric.io/public/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar
+         https://maven.google.com/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.pom
+         https://maven.google.com/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0
+   > Could not find net.sf.kxml:kxml2:2.3.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom
+         https://maven.fabric.io/public/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar
+         https://maven.google.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom
+         https://maven.google.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.build:manifest-merger:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools.ddms:ddmlib:26.0.0
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools.layoutlib:layoutlib-api:26.0.0
+   > Could not find com.intellij:annotations:12.0.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/intellij/annotations/12.0/annotations-12.0.pom
+         https://maven.fabric.io/public/com/intellij/annotations/12.0/annotations-12.0.jar
+         https://maven.google.com/com/intellij/annotations/12.0/annotations-12.0.pom
+         https://maven.google.com/com/intellij/annotations/12.0/annotations-12.0.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools.layoutlib:layoutlib-api:26.0.0
+   > Could not find com.google.jimfs:jimfs:1.1.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/google/jimfs/jimfs/1.1/jimfs-1.1.pom
+         https://maven.fabric.io/public/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar
+         https://maven.google.com/com/google/jimfs/jimfs/1.1/jimfs-1.1.pom
+         https://maven.google.com/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools:repository:26.0.0
+   > Could not find com.android.tools.external.lombok:lombok-ast:0.2.3.
+     Searched in the following locations:
+         https://maven.fabric.io/public/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.pom
+         https://maven.fabric.io/public/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar
+         https://maven.google.com/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.pom
+         https://maven.google.com/com/android/tools/external/lombok/lombok-ast/0.2.3/lombok-ast-0.2.3.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find org.jetbrains.kotlin:kotlin-reflect:1.1.3-2.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.pom
+         https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar
+         https://maven.google.com/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.pom
+         https://maven.google.com/org/jetbrains/kotlin/kotlin-reflect/1.1.3-2/kotlin-reflect-1.1.3-2.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+   > Could not find org.jetbrains.trove4j:trove4j:20160824.
+     Searched in the following locations:
+         https://maven.fabric.io/public/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+         https://maven.fabric.io/public/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar
+         https://maven.google.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+         https://maven.google.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar
+     Required by:
+         project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0 > com.android.tools.external.com-intellij:intellij-core:26.0.0
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'twitter_digits_auth-master'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:246)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:165)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:124)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:882)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1500(DefaultConfiguration.java:114)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:856)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:382)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:73)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:211)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:81)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:167)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:63)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find org.jetbrains.kotlin:kotlin-stdlib:1.1.3-2.
+Searched in the following locations:
+    https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom
+    https://maven.fabric.io/public/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+    https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.pom
+    https://maven.google.com/org/jetbrains/kotlin/kotlin-stdlib/1.1.3-2/kotlin-stdlib-1.1.3-2.jar
+Required by:
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdk-common:26.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.build:builder:3.0.0 > com.android.tools:sdklib:26.0.0 > com.android.tools:repository:26.0.0
+    project : > com.android.tools.build:gradle:3.0.0 > com.android.tools.build:gradle-core:3.0.0 > com.android.tools.lint:lint:26.0.0 > com.android.tools.lint:lint-checks:26.0.0 > com.android.tools.lint:lint-api:26.0.0
+	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:38)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:105)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:60)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:93)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:45)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ComponentState.resolve(DependencyGraphBuilder.java:854)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$ComponentState.getMetaData(DependencyGraphBuilder.java:865)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$EdgeState.calculateTargetConfigurations(DependencyGraphBuilder.java:446)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder$EdgeState.attachToTargetConfigurations(DependencyGraphBuilder.java:417)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.attachToTargetRevisionsSerially(DependencyGraphBuilder.java:223)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolveEdges(DependencyGraphBuilder.java:213)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:148)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:86)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:138)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:73)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:66)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$4.run(DefaultConfiguration.java:469)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:461)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:437)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:114)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:865)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:853)
+	... 86 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 15s
+
+2018-08-31 20:24:07,912 ERROR FullProcessService - Project build has not produced APK file
+2018-08-31 20:24:07,915 ERROR FullProcessService - Could not find generated or existed APK file

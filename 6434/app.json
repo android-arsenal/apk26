@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.warkiz.indicatorseekbar",
+    "label" : "IndicatorSeekBar",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher_round.png",
+    "versionName" : "2.0",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "24",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher_round.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABHNCSVQICAgIfAhkiAAABH9JREFUaIHtmm1sU2UUx3/3rmMv3Qub28rYGNlkFhnLhIlucWRihGzJ1EwhUcH49kFDIhiJfpGo0RhDiH5wYhYTY1AUBSMh0yBgjMLmjDCdE4Sq0G2Oja1dYB17BXf9cFra0Xb21rW3Jv6S5j73Oeee/c/uc+/znKdVNE3TCITDBV1OONENzTawDwR0ixiFOVBlhdICKMiC7LSAbopfAsNj8NKn0N4ZDZmhU14EW+shLXlatzeBv6agqQ0avjRCXuhsqoW65RCnAqBeNew/HvviAd48IFrdSAL9Q7DjoFGS9LPjIAxeAkBF0+CZ9w1WFAbPfwyahkqXE85fNFqOfn7vgy4nKmf6jZYSPj2DqJw6Z7SM8LH1odJuN1pG+LTaULE7jJYRPnaHzzzwH8VktICgZKXCw9WwdAF0dEPjYRib9HOL3TvgHIbXP4eN74KqwH23BnSL7h1ISYSViwFlZr+pKfjRLivisUl4+xCYEwK6RieBe26Gx1ZJAnoYHoNX98GxMwGHD0RjCOWkwcY1+sUDpCbBi2tndIl8Ak+sBlMcjE7Czm9h11GYuALtXbC9CWy94ndpHD44IsVT/xC02KQ/aQ6sKTMwAU8l9VEzpCXJw+hwwZ7vYH0VFFnEbusV3587YU+rVGEerLlBw0c+gTj3A9t/EY6chqd3wm+9cO6C3IHGw2IvWQDmRBk2mgaHOuRNBJCbETR85BNwjcsxLRnuWu7+zypQlAP1K2DyitgT46EkXx5cRRG/kz1i++GPoOEjn8DeVjk+cBvY+kRk1WKoXgLHz8Jan/f72QGoXQY1ZbKJUJIv/b90Bw2vaHe8HHhXYjZpeBSW5Id37cke2PReUHN0EgDYsBLuLJWhYk6A5MATE64xGL8MrlH45lfY3TJj2Ogl4Is5AXY9JW8lXzod8HijrlDGrIVGJmBDAwyNevvCEA9GLuZGJuCht+RVaR8ISzwYNYRmkdhdTofI/wkYjbEl5Q3zoW4ZxJtk9dl8WneI0O+AJR2ut+j+A0GpKIbsVHjjC9i2XxZw6yp0hwl+BxRFalGAe2+BJ1dLe98xeOcrd1Xotit4fVHkPCddklaU6TEVt72mDLZ+4rW12OC5u6H6RqaVnIpfY9qpN4Hdm6V6+ifqV8jn39LU5t83Mg4vzFyBXYs3gQM/Qf51062eL2/KiyDDLO3xy7JGQQNNDlfbvn1Ol3ymPHE8NnfMymJ/NZa58MpnvgL8m9fMWqFNZJZ02aNJSZSycDY2hOPj4JHbodsp59b5UqWdH9IVxviZOMMMc0xSB4eBSmH2LCvSyYURr/isVNhcC+WFoV1bmI2JSisxscG7rkKewaOnoC3EHfNKKyZKCyIrLFT2fq//mtICVPKCV/wxz8IsVPIyoTj4vkvMsmgeWNLdS4nX7jdYTRhsexDwrIUyUmBLnZFy9LGlDubKxOpdzNXcBHmZRkkKnUXzRKsb/x97OFzw7IfwpzPa0mZmQRZsX+/3qxX/BDyMTkLPIHR0wdcnZFctmlhzYdVSKFsI+ZlB95H+BmCDU2aj7uhlAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 2119,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"2.0\" package=\"com.warkiz.indicatorseekbar\">\n\t<uses-sdk android:minSdkVersion=\"24\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"IndicatorSeekBar\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:debuggable=\"true\" android:configChanges=\"0x480\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.warkiz.indicatorseekbar.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2383117,
+  "crc32" : 2612546648,
+  "sha256" : "70a30cfe1354ddabfeacb20e42b76ed8b2e140402711fa5819b2325f1f7aaec0",
+  "buildTime" : 1547319782000
+}

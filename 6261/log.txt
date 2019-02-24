@@ -1,0 +1,207 @@
+2019-01-16 13:26:51,526 INFO  DownloadService - Downloading "https://github.com/Zeyad-37/RxRedux/archive/master.zip", attempt 3
+2019-01-16 13:26:53,427 INFO  DownloadService - Downloaded https://github.com/Zeyad-37/RxRedux/archive/master.zip, attempt 3
+2019-01-16 13:26:53,428 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/master.zip": 239 KB
+2019-01-16 13:26:53,428 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-16 13:26:53,428 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/master.zip: true
+2019-01-16 13:26:53,428 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src'.
+2019-01-16 13:26:53,468 INFO  FullProcessService - Size of directory with sources: 417 KB
+2019-01-16 13:26:53,469 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src]
+2019-01-16 13:26:53,491 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/.git/
+
+2019-01-16 13:26:53,497 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/gradlew
+2019-01-16 13:26:53,503 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/build.gradle
+2019-01-16 13:26:53,509 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/settings.gradle
+2019-01-16 13:26:53,509 INFO  ProjectBuildService - Remote scripts: none
+2019-01-16 13:26:53,509 INFO  ProjectFixService - Fixing project...
+2019-01-16 13:26:53,522 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/local.properties
+2019-01-16 13:26:53,523 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-16 13:26:53,523 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-16 13:26:53,524 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/core/local.properties
+2019-01-16 13:26:53,526 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-16 13:26:53,526 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-16 13:26:53,527 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/local.properties
+2019-01-16 13:26:53,527 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-16 13:26:53,528 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-16 13:26:53,529 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-16 13:26:53,530 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-16 13:26:53,530 INFO  ProjectFixService - Project was maybe fixed
+2019-01-16 13:26:53,530 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-16 13:26:53,530 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-16 13:27:11,849 INFO  ProjectTaskService - Detected possible tasks: 85
+2019-01-16 13:27:11,849 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-16 13:27:11,849 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-16 13:28:33,201 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileKotlin UP-TO-DATE
+:buildSrc:compileJava NO-SOURCE
+:buildSrc:compileGroovy NO-SOURCE
+:buildSrc:processResources NO-SOURCE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestKotlin NO-SOURCE
+:buildSrc:compileTestJava NO-SOURCE
+:buildSrc:compileTestGroovy NO-SOURCE
+:buildSrc:processTestResources NO-SOURCE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test NO-SOURCE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:app:checkDebugClasspath
+WARNING: Conflict with dependency 'org.jetbrains:annotations' in project ':app'. Resolved versions for runtime classpath (16.0.1) and compile classpath (13.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build.gradle:
+dependencies {
+    implementation("org.jetbrains:annotations:16.0.1")
+}
+
+:app:preBuild UP-TO-DATE
+:core:preBuild UP-TO-DATE
+:core:preDebugBuild UP-TO-DATE
+:core:checkDebugManifest
+:core:processDebugManifest
+:app:preDebugBuild
+:core:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:core:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:core:compileDebugRenderscript
+:core:generateDebugResValues
+:core:generateDebugResources
+:core:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:core:generateDebugRFile
+:app:processDebugResources
+:core:generateDebugBuildConfig
+:core:compileDebugKotlin
+:core:prepareLintJar
+:core:generateDebugSources
+:core:javaPreCompileDebug
+:core:compileDebugJavaWithJavac
+Download https://jcenter.bintray.com/com/google/auto/auto-common/0.7/auto-common-0.7.jar
+Download https://jcenter.bintray.com/com/google/errorprone/javac/9-dev-r4023-3/javac-9-dev-r4023-3.jar
+Download https://jcenter.bintray.com/org/checkerframework/dataflow/2.1.14/dataflow-2.1.14.jar
+Download https://jcenter.bintray.com/org/checkerframework/javacutil/2.1.14/javacutil-2.1.14.jar
+:core:processDebugJavaRes NO-SOURCE
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/user/detail/UserDetailFragment2.kt: (114, 29): 'animateTo((Mutable)List<ItemInfo!>!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/user/detail/UserDetailVM.kt: (24, 73): Unchecked cast: Any to List<Repository>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/user/list/UserListVM.kt: (40, 68): Unchecked cast: Any to List<User>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/user/list/UserListVM.kt: (50, 68): Unchecked cast: Any to List<User>
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:core:mergeDebugShaders
+:core:compileDebugShaders
+:core:generateDebugAssets
+:core:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithRealmTransformerForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:core:compileDebugNdk NO-SOURCE
+:core:mergeDebugJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForDebug
+:core:transformNativeLibsWithStripDebugSymbolForDebug
+:core:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+WARNING: Conflict with dependency 'org.jetbrains:annotations' in project ':app'. Resolved versions for runtime classpath (16.0.1) and compile classpath (13.0) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build.gradle:
+dependencies {
+    implementation("org.jetbrains:annotations:16.0.1")
+}
+
+:core:preReleaseBuild UP-TO-DATE
+:core:checkReleaseManifest
+:core:processReleaseManifest
+:app:preReleaseBuild
+:core:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:core:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:core:compileReleaseRenderscript
+:core:generateReleaseResValues
+:core:generateReleaseResources
+:core:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:core:generateReleaseRFile
+:app:processReleaseResources
+:core:generateReleaseBuildConfig
+:core:compileReleaseKotlin
+:core:generateReleaseSources
+:core:javaPreCompileRelease
+:core:compileReleaseJavaWithJavac
+:core:processReleaseJavaRes NO-SOURCE
+:core:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/user/detail/UserDetailFragment2.kt: (114, 29): 'animateTo((Mutable)List<ItemInfo!>!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/user/detail/UserDetailVM.kt: (24, 73): Unchecked cast: Any to List<Repository>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/user/list/UserListVM.kt: (40, 68): Unchecked cast: Any to List<User>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/user/list/UserListVM.kt: (50, 68): Unchecked cast: Any to List<User>
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:core:mergeReleaseShaders
+:core:compileReleaseShaders
+:core:generateReleaseAssets
+:core:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithRealmTransformerForRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:core:compileReleaseNdk NO-SOURCE
+:core:mergeReleaseJniLibFolders
+:core:transformNativeLibsWithMergeJniLibsForRelease
+:core:transformNativeLibsWithStripDebugSymbolForRelease
+:core:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 20s
+94 actionable tasks: 94 executed
+
+2019-01-16 13:28:33,438 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547620011524-0/src/RxRedux-master/app/build/outputs/apk/debug/app-debug.apk

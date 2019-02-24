@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.ajithvgiri.stopwatch",
+    "label" : "Timer",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2243,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.ajithvgiri.stopwatch\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Timer\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-anydpi-v26/ic_launcher_round.xml\">\n\t\t<activity android:name=\"com.ajithvgiri.stopwatch.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.2\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2113989,
+  "crc32" : 3977323749,
+  "sha256" : "c91ea13280edb992e9803e92c5f7d48d7083169c458cb9d31cbf314027000859",
+  "buildTime" : 1535717740000
+}

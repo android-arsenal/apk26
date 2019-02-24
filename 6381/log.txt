@@ -1,0 +1,192 @@
+2018-08-31 20:31:43,289 INFO  DownloadService - Downloading "https://github.com/kobeumut/UpdateChecker/archive/master.zip", attempt 3
+2018-08-31 20:31:44,203 INFO  DownloadService - Downloaded https://github.com/kobeumut/UpdateChecker/archive/master.zip, attempt 3
+2018-08-31 20:31:44,203 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/master.zip": 1 MB
+2018-08-31 20:31:44,203 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 20:31:44,205 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/master.zip: true
+2018-08-31 20:31:44,205 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src'.
+2018-08-31 20:31:44,232 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-08-31 20:31:44,232 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src]
+2018-08-31 20:31:44,248 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/.git/
+
+2018-08-31 20:31:44,250 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/gradlew
+2018-08-31 20:31:44,253 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/googleplay/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/build.gradle
+2018-08-31 20:31:44,255 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/googleplay/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/settings.gradle
+2018-08-31 20:31:44,255 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 20:31:44,255 INFO  ProjectFixService - Fixing project...
+2018-08-31 20:31:44,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/googleplay/local.properties
+2018-08-31 20:31:44,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/googleplay/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:31:44,264 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/googleplay/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:31:44,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/local.properties
+2018-08-31 20:31:44,265 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 20:31:44,265 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 20:31:44,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:31:44,266 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:31:44,266 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 20:31:44,266 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 20:31:44,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/googleplay/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 20:31:50,147 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-08-31 20:31:50,148 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 20:31:50,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/googleplay/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 20:32:09,511 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':googleplay' is deprecated. Use 'implementation' instead.
+:googleplay:preBuild UP-TO-DATE
+:googleplay:preDebugBuild UP-TO-DATE
+:googleplay:compileDebugAidl
+Download https://jitpack.io/com/github/blennerSilva/AwesomeDialog/2.0.5/AwesomeDialog-2.0.5.pom
+Download https://jitpack.io/com/github/blennerSilva/AwesomeDialog/2.0.5/AwesomeDialog-2.0.5.aar
+:googleplay:compileDebugNdk NO-SOURCE
+:googleplay:compileDebugRenderscript
+:googleplay:checkDebugManifest
+:googleplay:generateDebugBuildConfig
+:googleplay:prepareLintJar
+:googleplay:generateDebugResValues
+:googleplay:generateDebugResources
+:googleplay:packageDebugResources
+:googleplay:platformAttrExtractor
+:googleplay:processDebugManifest
+:googleplay:javaPreCompileDebug
+:googleplay:mergeDebugShaders
+:googleplay:compileDebugShaders
+:googleplay:generateDebugAssets
+:googleplay:mergeDebugAssets
+:googleplay:mergeDebugConsumerProguardFiles
+:googleplay:packageDebugRenderscript NO-SOURCE
+:googleplay:processDebugJavaRes NO-SOURCE
+:googleplay:mergeDebugJniLibFolders
+:googleplay:transformNativeLibsWithMergeJniLibsForDebug
+:googleplay:transformNativeLibsWithStripDebugSymbolForDebug
+:googleplay:transformNativeLibsWithSyncJniLibsForDebug
+:googleplay:preReleaseBuild UP-TO-DATE
+:googleplay:compileReleaseAidl
+:googleplay:compileReleaseNdk NO-SOURCE
+:googleplay:compileReleaseRenderscript
+:googleplay:checkReleaseManifest
+:googleplay:generateReleaseBuildConfig
+:googleplay:generateReleaseResValues
+:googleplay:generateReleaseResources
+:googleplay:packageReleaseResources
+:googleplay:processReleaseManifest
+:googleplay:javaPreCompileRelease
+:googleplay:mergeReleaseShaders
+:googleplay:compileReleaseShaders
+:googleplay:generateReleaseAssets
+:googleplay:mergeReleaseAssets
+:googleplay:mergeReleaseConsumerProguardFiles
+:googleplay:packageReleaseRenderscript NO-SOURCE
+:googleplay:processReleaseJavaRes NO-SOURCE
+:googleplay:mergeReleaseJniLibFolders
+:googleplay:transformNativeLibsWithMergeJniLibsForRelease
+:googleplay:transformNativeLibsWithStripDebugSymbolForRelease
+:googleplay:transformNativeLibsWithSyncJniLibsForRelease
+:googleplay:mergeReleaseResources
+:googleplay:verifyReleaseResources
+:googleplay:processDebugResources
+:googleplay:generateDebugSources
+:googleplay:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/googleplay/src/main/java/com/grisoftware/updatechecker/GoogleChecker.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:googleplay:extractDebugAnnotations
+:googleplay:transformResourcesWithMergeJavaResForDebug
+:googleplay:transformClassesAndResourcesWithSyncLibJarsForDebug
+:googleplay:bundleDebug
+:googleplay:compileDebugSources
+:googleplay:assembleDebug
+:googleplay:processReleaseResources
+:googleplay:generateReleaseSources
+:googleplay:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/googleplay/src/main/java/com/grisoftware/updatechecker/GoogleChecker.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:googleplay:extractReleaseAnnotations
+:googleplay:transformResourcesWithMergeJavaResForRelease
+:googleplay:transformClassesAndResourcesWithSyncLibJarsForRelease
+:googleplay:bundleRelease
+:googleplay:compileReleaseSources
+:googleplay:assembleRelease
+:googleplay:assemble
+:googleplay:build
+
+BUILD SUCCESSFUL in 18s
+48 actionable tasks: 48 executed
+
+2018-08-31 20:32:09,561 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 20:32:09,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 20:32:15,312 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-08-31 20:32:15,313 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 20:32:15,313 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722303281-0/src/UpdateChecker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 20:32:21,748 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':googleplay' is deprecated. Use 'implementation' instead.
+:googleplay:preBuild UP-TO-DATE
+:googleplay:preDebugBuild UP-TO-DATE
+:googleplay:compileDebugAidl UP-TO-DATE
+:googleplay:compileDebugNdk NO-SOURCE
+:googleplay:compileDebugRenderscript UP-TO-DATE
+:googleplay:checkDebugManifest UP-TO-DATE
+:googleplay:generateDebugBuildConfig UP-TO-DATE
+:googleplay:prepareLintJar UP-TO-DATE
+:googleplay:generateDebugResValues UP-TO-DATE
+:googleplay:generateDebugResources UP-TO-DATE
+:googleplay:packageDebugResources UP-TO-DATE
+:googleplay:platformAttrExtractor UP-TO-DATE
+:googleplay:processDebugManifest UP-TO-DATE
+:googleplay:processDebugResources UP-TO-DATE
+:googleplay:generateDebugSources UP-TO-DATE
+:googleplay:javaPreCompileDebug UP-TO-DATE
+:googleplay:compileDebugJavaWithJavac UP-TO-DATE
+:googleplay:extractDebugAnnotations UP-TO-DATE
+:googleplay:mergeDebugShaders UP-TO-DATE
+:googleplay:compileDebugShaders UP-TO-DATE
+:googleplay:generateDebugAssets UP-TO-DATE
+:googleplay:mergeDebugAssets UP-TO-DATE
+:googleplay:mergeDebugConsumerProguardFiles UP-TO-DATE
+:googleplay:packageDebugRenderscript NO-SOURCE
+:googleplay:processDebugJavaRes NO-SOURCE
+:googleplay:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:googleplay:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:googleplay:mergeDebugJniLibFolders UP-TO-DATE
+:googleplay:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:googleplay:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:googleplay:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:googleplay:bundleDebug UP-TO-DATE
+:googleplay:compileDebugSources UP-TO-DATE
+:googleplay:assembleDebug UP-TO-DATE
+:googleplay:preReleaseBuild UP-TO-DATE
+:googleplay:compileReleaseAidl UP-TO-DATE
+:googleplay:compileReleaseNdk NO-SOURCE
+:googleplay:compileReleaseRenderscript UP-TO-DATE
+:googleplay:checkReleaseManifest UP-TO-DATE
+:googleplay:generateReleaseBuildConfig UP-TO-DATE
+:googleplay:generateReleaseResValues UP-TO-DATE
+:googleplay:generateReleaseResources UP-TO-DATE
+:googleplay:packageReleaseResources UP-TO-DATE
+:googleplay:processReleaseManifest UP-TO-DATE
+:googleplay:processReleaseResources UP-TO-DATE
+:googleplay:generateReleaseSources UP-TO-DATE
+:googleplay:javaPreCompileRelease UP-TO-DATE
+:googleplay:compileReleaseJavaWithJavac UP-TO-DATE
+:googleplay:extractReleaseAnnotations UP-TO-DATE
+:googleplay:mergeReleaseShaders UP-TO-DATE
+:googleplay:compileReleaseShaders UP-TO-DATE
+:googleplay:generateReleaseAssets UP-TO-DATE
+:googleplay:mergeReleaseAssets UP-TO-DATE
+:googleplay:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:googleplay:packageReleaseRenderscript NO-SOURCE
+:googleplay:processReleaseJavaRes NO-SOURCE
+:googleplay:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:googleplay:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:googleplay:mergeReleaseJniLibFolders UP-TO-DATE
+:googleplay:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:googleplay:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:googleplay:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:googleplay:bundleRelease UP-TO-DATE
+:googleplay:compileReleaseSources UP-TO-DATE
+:googleplay:mergeReleaseResources UP-TO-DATE
+:googleplay:verifyReleaseResources UP-TO-DATE
+:googleplay:assembleRelease UP-TO-DATE
+:googleplay:assemble UP-TO-DATE
+:googleplay:build
+
+BUILD SUCCESSFUL in 6s
+48 actionable tasks: 48 up-to-date
+
+2018-08-31 20:32:21,797 ERROR FullProcessService - Project build has not produced APK file
+2018-08-31 20:32:21,841 ERROR FullProcessService - Could not find generated or existed APK file

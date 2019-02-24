@@ -1,0 +1,259 @@
+2018-09-01 17:49:57,287 INFO  DownloadService - Downloading "https://github.com/OpenCraft/AnimatedExpandableEditText/archive/master.zip", attempt 3
+2018-09-01 17:49:57,962 INFO  DownloadService - Downloaded https://github.com/OpenCraft/AnimatedExpandableEditText/archive/master.zip, attempt 3
+2018-09-01 17:49:57,962 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/master.zip": 165 KB
+2018-09-01 17:49:57,962 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 17:49:57,967 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/master.zip: true
+2018-09-01 17:49:57,968 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src'.
+2018-09-01 17:49:57,990 INFO  FullProcessService - Size of directory with sources: 183 KB
+2018-09-01 17:49:57,990 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src]
+2018-09-01 17:49:58,010 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/.git/
+
+2018-09-01 17:49:58,013 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/gradlew
+2018-09-01 17:49:58,017 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/animatedexpandableedittext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/build.gradle
+2018-09-01 17:49:58,019 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/animatedexpandableedittext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/sampleapp/build.gradle
+2018-09-01 17:49:58,020 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 17:49:58,020 INFO  ProjectFixService - Fixing project...
+2018-09-01 17:49:58,028 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/animatedexpandableedittext/local.properties
+2018-09-01 17:49:58,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/animatedexpandableedittext/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-01 17:49:58,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/sampleapp/local.properties
+2018-09-01 17:49:58,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/sampleapp/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-01 17:49:58,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/local.properties
+2018-09-01 17:49:58,031 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 17:49:58,031 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 17:49:58,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-01 17:49:58,033 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 17:49:58,033 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 17:49:58,033 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/animatedexpandableedittext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 17:50:04,645 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-09-01 17:50:04,645 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 17:50:04,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/animatedexpandableedittext/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 17:50:17,930 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:animatedexpandableedittext:preBuild UP-TO-DATE
+:animatedexpandableedittext:preDebugBuild UP-TO-DATE
+:animatedexpandableedittext:checkDebugManifest
+:animatedexpandableedittext:preDebugAndroidTestBuild UP-TO-DATE
+:animatedexpandableedittext:preDebugUnitTestBuild UP-TO-DATE
+:animatedexpandableedittext:preReleaseBuild UP-TO-DATE
+:animatedexpandableedittext:preReleaseUnitTestBuild UP-TO-DATE
+:animatedexpandableedittext:prepareComAndroidSupportAnimatedVectorDrawable2602Library
+:animatedexpandableedittext:prepareComAndroidSupportAppcompatV72602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportCompat2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportCoreUi2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportCoreUtils2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportFragment2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportMediaCompat2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportV42602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportVectorDrawable2602Library
+:animatedexpandableedittext:prepareDebugDependencies
+:animatedexpandableedittext:compileDebugAidl
+:animatedexpandableedittext:compileDebugNdk UP-TO-DATE
+:animatedexpandableedittext:compileLint
+:animatedexpandableedittext:copyDebugLint UP-TO-DATE
+:animatedexpandableedittext:compileDebugRenderscript
+:animatedexpandableedittext:generateDebugBuildConfig
+:animatedexpandableedittext:generateDebugResValues
+:animatedexpandableedittext:generateDebugResources
+:animatedexpandableedittext:mergeDebugResources
+:animatedexpandableedittext:processDebugManifest
+:animatedexpandableedittext:processDebugResources
+:animatedexpandableedittext:generateDebugSources
+:animatedexpandableedittext:incrementalDebugJavaCompilationSafeguard
+:animatedexpandableedittext:javaPreCompileDebug
+:animatedexpandableedittext:compileDebugJavaWithJavac
+:animatedexpandableedittext:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:animatedexpandableedittext:extractDebugAnnotations
+:animatedexpandableedittext:mergeDebugShaders
+:animatedexpandableedittext:compileDebugShaders
+:animatedexpandableedittext:generateDebugAssets
+:animatedexpandableedittext:mergeDebugAssets
+:animatedexpandableedittext:mergeDebugProguardFiles
+:animatedexpandableedittext:packageDebugRenderscript UP-TO-DATE
+:animatedexpandableedittext:packageDebugResources
+:animatedexpandableedittext:processDebugJavaRes UP-TO-DATE
+:animatedexpandableedittext:transformResourcesWithMergeJavaResForDebug
+:animatedexpandableedittext:transformClassesAndResourcesWithSyncLibJarsForDebug
+:animatedexpandableedittext:mergeDebugJniLibFolders
+:animatedexpandableedittext:transformNativeLibsWithMergeJniLibsForDebug
+:animatedexpandableedittext:transformNativeLibsWithStripDebugSymbolForDebug
+:animatedexpandableedittext:transformNativeLibsWithSyncJniLibsForDebug
+:animatedexpandableedittext:bundleDebug
+:animatedexpandableedittext:compileDebugSources
+:animatedexpandableedittext:assembleDebug
+:animatedexpandableedittext:checkReleaseManifest
+:animatedexpandableedittext:prepareReleaseDependencies
+:animatedexpandableedittext:compileReleaseAidl
+:animatedexpandableedittext:compileReleaseNdk UP-TO-DATE
+:animatedexpandableedittext:copyReleaseLint UP-TO-DATE
+:animatedexpandableedittext:compileReleaseRenderscript
+:animatedexpandableedittext:generateReleaseBuildConfig
+:animatedexpandableedittext:generateReleaseResValues
+:animatedexpandableedittext:generateReleaseResources
+:animatedexpandableedittext:mergeReleaseResources
+:animatedexpandableedittext:processReleaseManifest
+:animatedexpandableedittext:processReleaseResources
+:animatedexpandableedittext:generateReleaseSources
+:animatedexpandableedittext:incrementalReleaseJavaCompilationSafeguard
+:animatedexpandableedittext:javaPreCompileRelease
+:animatedexpandableedittext:compileReleaseJavaWithJavac
+:animatedexpandableedittext:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:animatedexpandableedittext:extractReleaseAnnotations
+:animatedexpandableedittext:mergeReleaseShaders
+:animatedexpandableedittext:compileReleaseShaders
+:animatedexpandableedittext:generateReleaseAssets
+:animatedexpandableedittext:mergeReleaseAssets
+:animatedexpandableedittext:mergeReleaseProguardFiles
+:animatedexpandableedittext:packageReleaseRenderscript UP-TO-DATE
+:animatedexpandableedittext:packageReleaseResources
+:animatedexpandableedittext:processReleaseJavaRes UP-TO-DATE
+:animatedexpandableedittext:transformResourcesWithMergeJavaResForRelease
+:animatedexpandableedittext:transformClassesAndResourcesWithSyncLibJarsForRelease
+:animatedexpandableedittext:mergeReleaseJniLibFolders
+:animatedexpandableedittext:transformNativeLibsWithMergeJniLibsForRelease
+:animatedexpandableedittext:transformNativeLibsWithStripDebugSymbolForRelease
+:animatedexpandableedittext:transformNativeLibsWithSyncJniLibsForRelease
+:animatedexpandableedittext:bundleRelease
+:animatedexpandableedittext:compileReleaseSources
+:animatedexpandableedittext:assembleRelease
+:animatedexpandableedittext:assemble
+:animatedexpandableedittext:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.06 secs
+
+2018-09-01 17:50:18,018 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 17:50:18,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 17:50:24,777 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-01 17:50:24,778 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 17:50:24,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 17:50:43,003 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:animatedexpandableedittext:preBuild UP-TO-DATE
+:animatedexpandableedittext:preReleaseBuild UP-TO-DATE
+:animatedexpandableedittext:checkReleaseManifest
+:animatedexpandableedittext:preDebugAndroidTestBuild UP-TO-DATE
+:animatedexpandableedittext:preDebugBuild UP-TO-DATE
+:animatedexpandableedittext:preDebugUnitTestBuild UP-TO-DATE
+:animatedexpandableedittext:preReleaseUnitTestBuild UP-TO-DATE
+:animatedexpandableedittext:prepareComAndroidSupportAnimatedVectorDrawable2602Library
+:animatedexpandableedittext:prepareComAndroidSupportAppcompatV72602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportCompat2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportCoreUi2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportCoreUtils2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportFragment2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportMediaCompat2602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportV42602Library
+:animatedexpandableedittext:prepareComAndroidSupportSupportVectorDrawable2602Library
+:animatedexpandableedittext:prepareReleaseDependencies
+:animatedexpandableedittext:compileReleaseAidl UP-TO-DATE
+:animatedexpandableedittext:compileReleaseNdk UP-TO-DATE
+:animatedexpandableedittext:compileLint UP-TO-DATE
+:animatedexpandableedittext:copyReleaseLint UP-TO-DATE
+:animatedexpandableedittext:compileReleaseRenderscript UP-TO-DATE
+:animatedexpandableedittext:generateReleaseBuildConfig UP-TO-DATE
+:animatedexpandableedittext:generateReleaseResValues UP-TO-DATE
+:animatedexpandableedittext:generateReleaseResources UP-TO-DATE
+:animatedexpandableedittext:mergeReleaseResources UP-TO-DATE
+:animatedexpandableedittext:processReleaseManifest UP-TO-DATE
+:animatedexpandableedittext:processReleaseResources UP-TO-DATE
+:animatedexpandableedittext:generateReleaseSources UP-TO-DATE
+:animatedexpandableedittext:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:animatedexpandableedittext:javaPreCompileRelease
+:animatedexpandableedittext:compileReleaseJavaWithJavac UP-TO-DATE
+:animatedexpandableedittext:extractReleaseAnnotations UP-TO-DATE
+:animatedexpandableedittext:mergeReleaseShaders UP-TO-DATE
+:animatedexpandableedittext:compileReleaseShaders UP-TO-DATE
+:animatedexpandableedittext:generateReleaseAssets UP-TO-DATE
+:animatedexpandableedittext:mergeReleaseAssets UP-TO-DATE
+:animatedexpandableedittext:mergeReleaseProguardFiles UP-TO-DATE
+:animatedexpandableedittext:packageReleaseRenderscript UP-TO-DATE
+:animatedexpandableedittext:packageReleaseResources UP-TO-DATE
+:animatedexpandableedittext:processReleaseJavaRes UP-TO-DATE
+:animatedexpandableedittext:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:animatedexpandableedittext:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:animatedexpandableedittext:mergeReleaseJniLibFolders UP-TO-DATE
+:animatedexpandableedittext:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:animatedexpandableedittext:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:animatedexpandableedittext:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:animatedexpandableedittext:bundleRelease UP-TO-DATE
+:sampleapp:preBuild UP-TO-DATE
+:sampleapp:preDebugBuild UP-TO-DATE
+:sampleapp:checkDebugManifest
+:sampleapp:preReleaseBuild UP-TO-DATE
+:sampleapp:prepareComAndroidSupportAnimatedVectorDrawable2602Library
+:sampleapp:prepareComAndroidSupportAppcompatV72602Library
+:sampleapp:prepareComAndroidSupportSupportCompat2602Library
+:sampleapp:prepareComAndroidSupportSupportCoreUi2602Library
+:sampleapp:prepareComAndroidSupportSupportCoreUtils2602Library
+:sampleapp:prepareComAndroidSupportSupportFragment2602Library
+:sampleapp:prepareComAndroidSupportSupportMediaCompat2602Library
+:sampleapp:prepareComAndroidSupportSupportV42602Library
+:sampleapp:prepareComAndroidSupportSupportVectorDrawable2602Library
+:sampleapp:prepareDebugDependencies
+:sampleapp:compileDebugAidl
+:sampleapp:compileDebugRenderscript
+:sampleapp:generateDebugBuildConfig
+:sampleapp:generateDebugResValues
+:sampleapp:generateDebugResources
+:sampleapp:mergeDebugResources
+:sampleapp:processDebugManifest
+:sampleapp:processDebugResources
+:sampleapp:generateDebugSources
+:sampleapp:incrementalDebugJavaCompilationSafeguard
+:sampleapp:javaPreCompileDebug
+:sampleapp:compileDebugJavaWithJavac
+:sampleapp:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sampleapp:compileDebugNdk UP-TO-DATE
+:sampleapp:compileDebugSources
+:sampleapp:mergeDebugShaders
+:sampleapp:compileDebugShaders
+:sampleapp:generateDebugAssets
+:sampleapp:mergeDebugAssets
+:sampleapp:transformClassesWithDexForDebug
+:sampleapp:mergeDebugJniLibFolders
+:sampleapp:transformNativeLibsWithMergeJniLibsForDebug
+:sampleapp:transformNativeLibsWithStripDebugSymbolForDebug
+:sampleapp:processDebugJavaRes UP-TO-DATE
+:sampleapp:transformResourcesWithMergeJavaResForDebug
+:sampleapp:validateSigningDebug
+:sampleapp:packageDebug
+:sampleapp:assembleDebug
+:sampleapp:checkReleaseManifest
+:sampleapp:prepareReleaseDependencies
+:sampleapp:compileReleaseAidl
+:sampleapp:compileReleaseRenderscript
+:sampleapp:generateReleaseBuildConfig
+:sampleapp:generateReleaseResValues
+:sampleapp:generateReleaseResources
+:sampleapp:mergeReleaseResources
+:sampleapp:processReleaseManifest
+:sampleapp:processReleaseResources
+:sampleapp:generateReleaseSources
+:sampleapp:incrementalReleaseJavaCompilationSafeguard
+:sampleapp:javaPreCompileRelease
+:sampleapp:compileReleaseJavaWithJavac
+:sampleapp:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sampleapp:compileReleaseNdk UP-TO-DATE
+:sampleapp:compileReleaseSources
+:sampleapp:lintVitalRelease
+:sampleapp:mergeReleaseShaders
+:sampleapp:compileReleaseShaders
+:sampleapp:generateReleaseAssets
+:sampleapp:mergeReleaseAssets
+:sampleapp:transformClassesWithDexForRelease
+:sampleapp:mergeReleaseJniLibFolders
+:sampleapp:transformNativeLibsWithMergeJniLibsForRelease
+:sampleapp:transformNativeLibsWithStripDebugSymbolForRelease
+:sampleapp:processReleaseJavaRes UP-TO-DATE
+:sampleapp:transformResourcesWithMergeJavaResForRelease
+:sampleapp:packageRelease
+:sampleapp:assembleRelease
+:sampleapp:assemble
+:sampleapp:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.939 secs
+
+2018-09-01 17:50:43,136 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535798997284-0/src/AnimatedExpandableEditText-master/sampleapp/build/outputs/apk/sampleapp-debug.apk

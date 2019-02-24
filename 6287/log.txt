@@ -1,0 +1,161 @@
+2018-09-01 18:13:14,118 INFO  DownloadService - Downloading "https://github.com/patryk1007/ShootingSlider/archive/master.zip", attempt 3
+2018-09-01 18:13:14,824 INFO  DownloadService - Downloaded https://github.com/patryk1007/ShootingSlider/archive/master.zip, attempt 3
+2018-09-01 18:13:14,824 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/master.zip": 306 KB
+2018-09-01 18:13:14,824 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 18:13:14,830 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/master.zip: true
+2018-09-01 18:13:14,830 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src'.
+2018-09-01 18:13:14,854 INFO  FullProcessService - Size of directory with sources: 330 KB
+2018-09-01 18:13:14,854 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src]
+2018-09-01 18:13:14,869 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/.git/
+
+2018-09-01 18:13:14,872 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/gradlew
+2018-09-01 18:13:14,875 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/shootingslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/build.gradle
+2018-09-01 18:13:14,878 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/shootingslider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/settings.gradle
+2018-09-01 18:13:14,878 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 18:13:14,878 INFO  ProjectFixService - Fixing project...
+2018-09-01 18:13:14,885 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/app/local.properties
+2018-09-01 18:13:14,885 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-01 18:13:14,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/shootingslider/local.properties
+2018-09-01 18:13:14,886 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/shootingslider/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-01 18:13:14,886 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/local.properties
+2018-09-01 18:13:14,887 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 18:13:14,887 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 18:13:14,888 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-09-01 18:13:14,888 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 18:13:14,888 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:13:14,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:13:21,025 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-01 18:13:21,025 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 18:13:21,025 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 18:13:35,320 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:shootingslider:preBuild UP-TO-DATE
+:shootingslider:preReleaseBuild UP-TO-DATE
+:shootingslider:checkReleaseManifest
+:shootingslider:preDebugAndroidTestBuild UP-TO-DATE
+:shootingslider:preDebugBuild UP-TO-DATE
+:shootingslider:preDebugUnitTestBuild UP-TO-DATE
+:shootingslider:preReleaseUnitTestBuild UP-TO-DATE
+:shootingslider:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:shootingslider:prepareComAndroidSupportAppcompatV72531Library
+:shootingslider:prepareComAndroidSupportSupportCompat2531Library
+:shootingslider:prepareComAndroidSupportSupportCoreUi2531Library
+:shootingslider:prepareComAndroidSupportSupportCoreUtils2531Library
+:shootingslider:prepareComAndroidSupportSupportFragment2531Library
+:shootingslider:prepareComAndroidSupportSupportMediaCompat2531Library
+:shootingslider:prepareComAndroidSupportSupportV42531Library
+:shootingslider:prepareComAndroidSupportSupportVectorDrawable2531Library
+:shootingslider:prepareReleaseDependencies
+:shootingslider:compileReleaseAidl
+:shootingslider:compileReleaseNdk UP-TO-DATE
+:shootingslider:compileLint
+:shootingslider:copyReleaseLint UP-TO-DATE
+:shootingslider:compileReleaseRenderscript
+:shootingslider:generateReleaseBuildConfig
+:shootingslider:generateReleaseResValues
+:shootingslider:generateReleaseResources
+:shootingslider:mergeReleaseResources
+:shootingslider:processReleaseManifest
+:shootingslider:processReleaseResources
+:shootingslider:generateReleaseSources
+:shootingslider:incrementalReleaseJavaCompilationSafeguard
+:shootingslider:javaPreCompileRelease
+:shootingslider:compileReleaseJavaWithJavac
+:shootingslider:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:shootingslider:extractReleaseAnnotations
+:shootingslider:mergeReleaseShaders
+:shootingslider:compileReleaseShaders
+:shootingslider:generateReleaseAssets
+:shootingslider:mergeReleaseAssets
+:shootingslider:mergeReleaseProguardFiles
+:shootingslider:packageReleaseRenderscript UP-TO-DATE
+:shootingslider:packageReleaseResources
+:shootingslider:processReleaseJavaRes UP-TO-DATE
+:shootingslider:transformResourcesWithMergeJavaResForRelease
+:shootingslider:transformClassesAndResourcesWithSyncLibJarsForRelease
+:shootingslider:mergeReleaseJniLibFolders
+:shootingslider:transformNativeLibsWithMergeJniLibsForRelease
+:shootingslider:transformNativeLibsWithStripDebugSymbolForRelease
+:shootingslider:transformNativeLibsWithSyncJniLibsForRelease
+:shootingslider:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.042 secs
+
+2018-09-01 18:13:35,392 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800394110-0/src/ShootingSlider-master/app/build/outputs/apk/app-debug.apk

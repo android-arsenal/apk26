@@ -1,0 +1,164 @@
+2018-08-31 16:21:48,089 INFO  DownloadService - Downloading "https://github.com/SouthernBox/SpringScrollView/archive/master.zip", attempt 3
+2018-08-31 16:21:52,566 INFO  DownloadService - Downloaded https://github.com/SouthernBox/SpringScrollView/archive/master.zip, attempt 3
+2018-08-31 16:21:52,566 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/master.zip": 1 MB
+2018-08-31 16:21:52,566 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 16:21:52,567 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/master.zip: true
+2018-08-31 16:21:52,567 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src'.
+2018-08-31 16:21:52,594 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-08-31 16:21:52,594 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src]
+2018-08-31 16:21:52,610 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/.git/
+
+2018-08-31 16:21:52,613 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/gradlew
+2018-08-31 16:21:52,615 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/springscrollview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/build.gradle
+2018-08-31 16:21:52,617 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/springscrollview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/settings.gradle
+2018-08-31 16:21:52,618 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 16:21:52,618 INFO  ProjectFixService - Fixing project...
+2018-08-31 16:21:52,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/sample/local.properties
+2018-08-31 16:21:52,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/sample/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-31 16:21:52,625 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/springscrollview/local.properties
+2018-08-31 16:21:52,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/springscrollview/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-31 16:21:52,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/local.properties
+2018-08-31 16:21:52,627 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 16:21:52,627 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 16:21:52,628 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-31 16:21:52,628 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 16:21:52,628 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 16:21:52,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 16:22:01,107 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 16:22:01,107 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 16:22:01,108 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 16:22:34,889 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':springscrollview' is deprecated. Use 'implementation' instead.
+:sample:preBuild UP-TO-DATE
+:springscrollview:preBuild UP-TO-DATE
+:springscrollview:preDebugBuild UP-TO-DATE
+:springscrollview:checkDebugManifest
+:springscrollview:processDebugManifest
+:sample:preDebugBuild
+:springscrollview:compileDebugAidl
+:sample:compileDebugAidl
+:springscrollview:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:springscrollview:compileDebugRenderscript
+:springscrollview:generateDebugResValues
+:springscrollview:generateDebugResources
+:springscrollview:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:springscrollview:platformAttrExtractor
+:springscrollview:generateDebugBuildConfig
+:springscrollview:prepareLintJar
+:springscrollview:processDebugJavaRes NO-SOURCE
+:sample:prepareLintJar
+:sample:compileDebugNdk NO-SOURCE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:springscrollview:mergeDebugShaders
+:springscrollview:compileDebugShaders
+:springscrollview:generateDebugAssets
+:springscrollview:mergeDebugAssets
+:sample:mergeDebugAssets
+:sample:mergeDebugJniLibFolders
+:springscrollview:compileDebugNdk NO-SOURCE
+:springscrollview:mergeDebugJniLibFolders
+:springscrollview:transformNativeLibsWithMergeJniLibsForDebug
+:springscrollview:transformNativeLibsWithStripDebugSymbolForDebug
+:springscrollview:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:validateSigningDebug
+:springscrollview:preReleaseBuild UP-TO-DATE
+:springscrollview:checkReleaseManifest
+:springscrollview:processReleaseManifest
+:sample:preReleaseBuild
+:springscrollview:compileReleaseAidl
+:sample:compileReleaseAidl
+:springscrollview:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:springscrollview:compileReleaseRenderscript
+:springscrollview:generateReleaseResValues
+:springscrollview:generateReleaseResources
+:springscrollview:packageReleaseResources
+:sample:mergeReleaseResources
+:springscrollview:processDebugResources
+:sample:processDebugResources
+:springscrollview:compileDebugKotlin
+Using Kotlin incremental compilation
+:springscrollview:generateDebugSources
+:springscrollview:javaPreCompileDebug
+:springscrollview:compileDebugJavaWithJavac
+:springscrollview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:compileDebugKotlin
+Using Kotlin incremental compilation
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugSources
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:springscrollview:processReleaseResources
+:sample:processReleaseResources
+:springscrollview:generateReleaseBuildConfig
+:springscrollview:compileReleaseKotlin
+Using Kotlin incremental compilation
+:springscrollview:generateReleaseSources
+:springscrollview:javaPreCompileRelease
+:springscrollview:compileReleaseJavaWithJavac
+:springscrollview:processReleaseJavaRes NO-SOURCE
+:springscrollview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:compileReleaseKotlin
+Using Kotlin incremental compilation
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:springscrollview:mergeReleaseShaders
+:springscrollview:compileReleaseShaders
+:springscrollview:generateReleaseAssets
+:springscrollview:mergeReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithPreDexForRelease
+:sample:transformDexWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:springscrollview:compileReleaseNdk NO-SOURCE
+:springscrollview:mergeReleaseJniLibFolders
+:springscrollview:transformNativeLibsWithMergeJniLibsForRelease
+:springscrollview:transformNativeLibsWithStripDebugSymbolForRelease
+:springscrollview:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 32s
+92 actionable tasks: 92 executed
+
+2018-08-31 16:22:34,971 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707308081-0/src/SpringScrollView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

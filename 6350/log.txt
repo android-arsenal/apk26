@@ -1,0 +1,117 @@
+2018-08-31 21:49:44,319 INFO  DownloadService - Downloading "https://github.com/ITheBK/BarChart/archive/master.zip", attempt 3
+2018-08-31 21:49:47,571 INFO  DownloadService - Downloaded https://github.com/ITheBK/BarChart/archive/master.zip, attempt 3
+2018-08-31 21:49:47,572 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/master.zip": 5 MB
+2018-08-31 21:49:47,572 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 21:49:47,579 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/master.zip: true
+2018-08-31 21:49:47,579 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src'.
+2018-08-31 21:49:47,648 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-08-31 21:49:47,648 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src]
+2018-08-31 21:49:47,664 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/.git/
+
+2018-08-31 21:49:47,667 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/gradlew
+2018-08-31 21:49:47,671 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchartsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/build.gradle
+2018-08-31 21:49:47,674 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchartsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/settings.gradle
+2018-08-31 21:49:47,679 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2018-08-31 21:49:48,517 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2018-08-31 21:49:48,517 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2018-08-31 21:49:48,612 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2018-08-31 21:49:48,612 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2018-08-31 21:49:48,612 INFO  ProjectFixService - Fixing project...
+2018-08-31 21:49:48,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchart/local.properties
+2018-08-31 21:49:48,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchart/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=11,targetSdkVersion=26]
+2018-08-31 21:49:48,625 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchartsample/local.properties
+2018-08-31 21:49:48,625 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchartsample/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-08-31 21:49:48,626 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/local.properties
+2018-08-31 21:49:48,626 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 21:49:48,627 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 21:49:48,627 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=11,targetSdkVersion=26]
+2018-08-31 21:49:48,628 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 21:49:48,628 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:49:48,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchart/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:49:55,938 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-08-31 21:49:55,938 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 21:49:55,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchart/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 21:50:03,809 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:barchart:preBuild UP-TO-DATE
+:barchart:preDebugBuild UP-TO-DATE
+:barchart:checkDebugManifest
+:barchart:prepareDebugDependencies
+:barchart:compileDebugAidl
+:barchart:compileDebugNdk UP-TO-DATE
+:barchart:compileLint
+:barchart:copyDebugLint UP-TO-DATE
+:barchart:mergeDebugShaders
+:barchart:compileDebugShaders
+:barchart:generateDebugAssets
+:barchart:mergeDebugAssets
+:barchart:mergeDebugProguardFiles
+:barchart:packageDebugRenderscript UP-TO-DATE
+:barchart:compileDebugRenderscript
+:barchart:generateDebugResValues
+:barchart:generateDebugResources
+:barchart:packageDebugResources
+:barchart:processDebugManifest
+:barchart:generateDebugBuildConfig
+:barchart:processDebugResources
+:barchart:generateDebugSources
+:barchart:incrementalDebugJavaCompilationSafeguard
+:barchart:javaPreCompileDebug
+:barchart:compileDebugJavaWithJavac
+:barchart:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchart/src/main/java/me/ithebk/barchart/BarChart.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:barchart:processDebugJavaRes UP-TO-DATE
+:barchart:transformResourcesWithMergeJavaResForDebug
+:barchart:transformClassesAndResourcesWithSyncLibJarsForDebug
+:barchart:mergeDebugJniLibFolders
+:barchart:transformNativeLibsWithMergeJniLibsForDebug
+:barchart:transformNativeLibsWithStripDebugSymbolForDebug
+:barchart:transformNativeLibsWithSyncJniLibsForDebug
+:barchart:bundleDebug
+:barchart:compileDebugSources
+:barchart:assembleDebug
+:barchart:preReleaseBuild UP-TO-DATE
+:barchart:checkReleaseManifest
+:barchart:prepareReleaseDependencies
+:barchart:compileReleaseAidl
+:barchart:compileReleaseNdk UP-TO-DATE
+:barchart:copyReleaseLint UP-TO-DATE
+:barchart:mergeReleaseShaders
+:barchart:compileReleaseShaders
+:barchart:generateReleaseAssets
+:barchart:mergeReleaseAssets
+:barchart:mergeReleaseProguardFiles
+:barchart:packageReleaseRenderscript UP-TO-DATE
+:barchart:compileReleaseRenderscript
+:barchart:generateReleaseResValues
+:barchart:generateReleaseResources
+:barchart:packageReleaseResources
+:barchart:processReleaseManifest
+:barchart:generateReleaseBuildConfig
+:barchart:processReleaseResources
+:barchart:generateReleaseSources
+:barchart:incrementalReleaseJavaCompilationSafeguard
+:barchart:javaPreCompileRelease
+:barchart:compileReleaseJavaWithJavac
+:barchart:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/barchart/src/main/java/me/ithebk/barchart/BarChart.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:barchart:processReleaseJavaRes UP-TO-DATE
+:barchart:transformResourcesWithMergeJavaResForRelease
+:barchart:transformClassesAndResourcesWithSyncLibJarsForRelease
+:barchart:mergeReleaseJniLibFolders
+:barchart:transformNativeLibsWithMergeJniLibsForRelease
+:barchart:transformNativeLibsWithStripDebugSymbolForRelease
+:barchart:transformNativeLibsWithSyncJniLibsForRelease
+:barchart:bundleRelease
+:barchart:compileReleaseSources
+:barchart:assembleRelease
+:barchart:assemble
+:barchart:build
+
+BUILD SUCCESSFUL
+
+Total time: 7.662 secs
+
+2018-08-31 21:50:03,820 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726984315-0/src/BarChart-master/demo-apk/barchartsample.apk

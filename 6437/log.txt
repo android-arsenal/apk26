@@ -1,0 +1,259 @@
+2018-08-31 18:03:10,280 INFO  DownloadService - Downloading "https://github.com/Haegon/ParallaxViewPager/archive/master.zip", attempt 3
+2018-08-31 18:03:18,753 INFO  DownloadService - Downloaded https://github.com/Haegon/ParallaxViewPager/archive/master.zip, attempt 3
+2018-08-31 18:03:18,754 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/master.zip": 14 MB
+2018-08-31 18:03:18,754 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 18:03:18,762 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/master.zip: true
+2018-08-31 18:03:18,762 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src'.
+2018-08-31 18:03:18,882 INFO  FullProcessService - Size of directory with sources: 14 MB
+2018-08-31 18:03:18,882 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src]
+2018-08-31 18:03:18,898 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/.git/
+
+2018-08-31 18:03:18,901 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/gradlew
+2018-08-31 18:03:18,903 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/build.gradle
+2018-08-31 18:03:18,905 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/settings.gradle
+2018-08-31 18:03:18,905 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 18:03:18,905 INFO  ProjectFixService - Fixing project...
+2018-08-31 18:03:18,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/lib/local.properties
+2018-08-31 18:03:18,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/lib/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:03:18,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/sample/local.properties
+2018-08-31 18:03:18,912 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/sample/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:03:18,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/local.properties
+2018-08-31 18:03:18,912 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 18:03:18,912 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 18:03:18,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:03:18,913 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 18:03:18,913 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 18:03:18,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 18:03:39,799 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 18:03:39,800 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 18:03:39,800 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 18:03:52,689 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:lib:preBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:checkDebugManifest
+:lib:preDebugAndroidTestBuild UP-TO-DATE
+:lib:preDebugUnitTestBuild UP-TO-DATE
+:lib:preReleaseBuild UP-TO-DATE
+:lib:preReleaseUnitTestBuild UP-TO-DATE
+:lib:prepareComAndroidSupportAnimatedVectorDrawable2601Library
+:lib:prepareComAndroidSupportAppcompatV72601Library
+:lib:prepareComAndroidSupportSupportCompat2601Library
+:lib:prepareComAndroidSupportSupportCoreUi2601Library
+:lib:prepareComAndroidSupportSupportCoreUtils2601Library
+:lib:prepareComAndroidSupportSupportFragment2601Library
+:lib:prepareComAndroidSupportSupportMediaCompat2601Library
+:lib:prepareComAndroidSupportSupportV42601Library
+:lib:prepareComAndroidSupportSupportVectorDrawable2601Library
+:lib:prepareDebugDependencies
+:lib:compileDebugAidl
+:lib:compileDebugNdk UP-TO-DATE
+:lib:compileLint
+:lib:copyDebugLint UP-TO-DATE
+:lib:compileDebugRenderscript
+:lib:generateDebugBuildConfig
+:lib:generateDebugResValues
+:lib:generateDebugResources
+:lib:mergeDebugResources
+:lib:processDebugManifest
+:lib:processDebugResources
+:lib:generateDebugSources
+:lib:incrementalDebugJavaCompilationSafeguard
+:lib:javaPreCompileDebug
+:lib:compileDebugJavaWithJavac
+:lib:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:lib:extractDebugAnnotations
+:lib:mergeDebugShaders
+:lib:compileDebugShaders
+:lib:generateDebugAssets
+:lib:mergeDebugAssets
+:lib:mergeDebugProguardFiles
+:lib:packageDebugRenderscript UP-TO-DATE
+:lib:packageDebugResources
+:lib:processDebugJavaRes UP-TO-DATE
+:lib:transformResourcesWithMergeJavaResForDebug
+:lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:lib:mergeDebugJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForDebug
+:lib:transformNativeLibsWithStripDebugSymbolForDebug
+:lib:transformNativeLibsWithSyncJniLibsForDebug
+:lib:bundleDebug
+:lib:compileDebugSources
+:lib:assembleDebug
+:lib:checkReleaseManifest
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:copyReleaseLint UP-TO-DATE
+:lib:compileReleaseRenderscript
+:lib:generateReleaseBuildConfig
+:lib:generateReleaseResValues
+:lib:generateReleaseResources
+:lib:mergeReleaseResources
+:lib:processReleaseManifest
+:lib:processReleaseResources
+:lib:generateReleaseSources
+:lib:incrementalReleaseJavaCompilationSafeguard
+:lib:javaPreCompileRelease
+:lib:compileReleaseJavaWithJavac
+:lib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:lib:extractReleaseAnnotations
+:lib:mergeReleaseShaders
+:lib:compileReleaseShaders
+:lib:generateReleaseAssets
+:lib:mergeReleaseAssets
+:lib:mergeReleaseProguardFiles
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:transformResourcesWithMergeJavaResForRelease
+:lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:lib:mergeReleaseJniLibFolders
+:lib:transformNativeLibsWithMergeJniLibsForRelease
+:lib:transformNativeLibsWithStripDebugSymbolForRelease
+:lib:transformNativeLibsWithSyncJniLibsForRelease
+:lib:bundleRelease
+:lib:compileReleaseSources
+:lib:assembleRelease
+:lib:assemble
+:lib:build
+
+BUILD SUCCESSFUL
+
+Total time: 12.591 secs
+
+2018-08-31 18:03:52,770 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 18:03:52,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 18:03:59,047 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 18:03:59,047 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 18:03:59,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 18:04:15,694 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:lib:preBuild UP-TO-DATE
+:lib:preReleaseBuild UP-TO-DATE
+:lib:checkReleaseManifest
+:lib:preDebugAndroidTestBuild UP-TO-DATE
+:lib:preDebugBuild UP-TO-DATE
+:lib:preDebugUnitTestBuild UP-TO-DATE
+:lib:preReleaseUnitTestBuild UP-TO-DATE
+:lib:prepareComAndroidSupportAnimatedVectorDrawable2601Library
+:lib:prepareComAndroidSupportAppcompatV72601Library
+:lib:prepareComAndroidSupportSupportCompat2601Library
+:lib:prepareComAndroidSupportSupportCoreUi2601Library
+:lib:prepareComAndroidSupportSupportCoreUtils2601Library
+:lib:prepareComAndroidSupportSupportFragment2601Library
+:lib:prepareComAndroidSupportSupportMediaCompat2601Library
+:lib:prepareComAndroidSupportSupportV42601Library
+:lib:prepareComAndroidSupportSupportVectorDrawable2601Library
+:lib:prepareReleaseDependencies
+:lib:compileReleaseAidl UP-TO-DATE
+:lib:compileReleaseNdk UP-TO-DATE
+:lib:compileLint UP-TO-DATE
+:lib:copyReleaseLint UP-TO-DATE
+:lib:compileReleaseRenderscript UP-TO-DATE
+:lib:generateReleaseBuildConfig UP-TO-DATE
+:lib:generateReleaseResValues UP-TO-DATE
+:lib:generateReleaseResources UP-TO-DATE
+:lib:mergeReleaseResources UP-TO-DATE
+:lib:processReleaseManifest UP-TO-DATE
+:lib:processReleaseResources UP-TO-DATE
+:lib:generateReleaseSources UP-TO-DATE
+:lib:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:lib:javaPreCompileRelease
+:lib:compileReleaseJavaWithJavac UP-TO-DATE
+:lib:extractReleaseAnnotations UP-TO-DATE
+:lib:mergeReleaseShaders UP-TO-DATE
+:lib:compileReleaseShaders UP-TO-DATE
+:lib:generateReleaseAssets UP-TO-DATE
+:lib:mergeReleaseAssets UP-TO-DATE
+:lib:mergeReleaseProguardFiles UP-TO-DATE
+:lib:packageReleaseRenderscript UP-TO-DATE
+:lib:packageReleaseResources UP-TO-DATE
+:lib:processReleaseJavaRes UP-TO-DATE
+:lib:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:lib:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:lib:mergeReleaseJniLibFolders UP-TO-DATE
+:lib:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:lib:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:lib:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:lib:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2601Library
+:sample:prepareComAndroidSupportAppcompatV72601Library
+:sample:prepareComAndroidSupportSupportCompat2601Library
+:sample:prepareComAndroidSupportSupportCoreUi2601Library
+:sample:prepareComAndroidSupportSupportCoreUtils2601Library
+:sample:prepareComAndroidSupportSupportFragment2601Library
+:sample:prepareComAndroidSupportSupportMediaCompat2601Library
+:sample:prepareComAndroidSupportSupportV42601Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2601Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 16.351 secs
+
+2018-08-31 18:04:15,817 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713390273-0/src/ParallaxViewPager-master/sample/build/outputs/apk/sample-debug.apk

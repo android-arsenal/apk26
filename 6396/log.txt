@@ -1,0 +1,164 @@
+2018-08-31 19:33:42,518 INFO  DownloadService - Downloading "https://github.com/whalemare/rxvalidator2/archive/master.zip", attempt 3
+2018-08-31 19:33:45,395 INFO  DownloadService - Downloaded https://github.com/whalemare/rxvalidator2/archive/master.zip, attempt 3
+2018-08-31 19:33:45,395 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/master.zip": 801 KB
+2018-08-31 19:33:45,395 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 19:33:45,401 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/master.zip: true
+2018-08-31 19:33:45,402 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src'.
+2018-08-31 19:33:45,438 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-08-31 19:33:45,438 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src]
+2018-08-31 19:33:45,454 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/.git/
+
+2018-08-31 19:33:45,457 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/gradlew
+2018-08-31 19:33:45,461 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/rxvalidator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/build.gradle
+2018-08-31 19:33:45,463 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/rxvalidator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/settings.gradle
+2018-08-31 19:33:45,464 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 19:33:45,464 INFO  ProjectFixService - Fixing project...
+2018-08-31 19:33:45,471 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/local.properties
+2018-08-31 19:33:45,472 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2018-08-31 19:33:45,472 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2018-08-31 19:33:45,472 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/rxvalidator/local.properties
+2018-08-31 19:33:45,473 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/rxvalidator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2018-08-31 19:33:45,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/rxvalidator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2018-08-31 19:33:45,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/local.properties
+2018-08-31 19:33:45,475 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 19:33:45,475 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 19:33:45,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=27]
+2018-08-31 19:33:45,476 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2018-08-31 19:33:45,477 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 19:33:45,477 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 19:33:45,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 19:33:56,479 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-08-31 19:33:56,480 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 19:33:56,480 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 19:34:51,463 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:rxvalidator:preBuild UP-TO-DATE
+:rxvalidator:preDebugBuild UP-TO-DATE
+:rxvalidator:checkDebugManifest
+:rxvalidator:processDebugManifest
+:app:preDebugBuild
+:rxvalidator:compileDebugAidl
+:app:compileDebugAidl
+:rxvalidator:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:rxvalidator:compileDebugRenderscript
+:rxvalidator:generateDebugResValues
+:rxvalidator:generateDebugResources
+:rxvalidator:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:rxvalidator:platformAttrExtractor
+:rxvalidator:generateDebugBuildConfig
+:rxvalidator:prepareLintJar
+:rxvalidator:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:rxvalidator:mergeDebugShaders
+:rxvalidator:compileDebugShaders
+:rxvalidator:generateDebugAssets
+:rxvalidator:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:rxvalidator:compileDebugNdk NO-SOURCE
+:rxvalidator:mergeDebugJniLibFolders
+:rxvalidator:transformNativeLibsWithMergeJniLibsForDebug
+:rxvalidator:transformNativeLibsWithStripDebugSymbolForDebug
+:rxvalidator:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:rxvalidator:preReleaseBuild UP-TO-DATE
+:rxvalidator:checkReleaseManifest
+:rxvalidator:processReleaseManifest
+:app:preReleaseBuild
+:rxvalidator:compileReleaseAidl
+:app:compileReleaseAidl
+:rxvalidator:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:rxvalidator:compileReleaseRenderscript
+:rxvalidator:generateReleaseResValues
+:rxvalidator:generateReleaseResources
+:rxvalidator:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:rxvalidator:generateReleaseBuildConfig
+:rxvalidator:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:rxvalidator:mergeReleaseShaders
+:rxvalidator:compileReleaseShaders
+:rxvalidator:generateReleaseAssets
+:rxvalidator:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:rxvalidator:compileReleaseNdk NO-SOURCE
+:rxvalidator:mergeReleaseJniLibFolders
+:rxvalidator:transformNativeLibsWithMergeJniLibsForRelease
+:rxvalidator:transformNativeLibsWithStripDebugSymbolForRelease
+:rxvalidator:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:rxvalidator:processDebugResources
+:app:processDebugResources
+:rxvalidator:compileDebugKotlin
+:rxvalidator:generateDebugSources
+:rxvalidator:javaPreCompileDebug
+:rxvalidator:compileDebugJavaWithJavac
+:rxvalidator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/src/main/java/ru/whalemare/sample/rxvalidator/MainActivity.kt: (81, 24): Parameter 'errorMessage' is never used
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:rxvalidator:processReleaseResources
+:app:processReleaseResources
+:rxvalidator:compileReleaseKotlin
+:rxvalidator:generateReleaseSources
+:rxvalidator:javaPreCompileRelease
+:rxvalidator:compileReleaseJavaWithJavac
+:rxvalidator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/src/main/java/ru/whalemare/sample/rxvalidator/MainActivity.kt: (81, 24): Parameter 'errorMessage' is never used
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 54s
+92 actionable tasks: 92 executed
+
+2018-08-31 19:34:51,541 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718822514-0/src/RxValidator2-master/app/build/outputs/apk/debug/app-debug.apk

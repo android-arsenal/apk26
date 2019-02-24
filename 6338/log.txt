@@ -1,0 +1,212 @@
+2018-08-31 22:05:15,446 INFO  DownloadService - Downloading "https://github.com/shiburagi/Stylish-Widget-for-Android/archive/master.zip", attempt 3
+2018-08-31 22:05:19,585 INFO  DownloadService - Downloaded https://github.com/shiburagi/Stylish-Widget-for-Android/archive/master.zip, attempt 3
+2018-08-31 22:05:19,585 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/master.zip": 3 MB
+2018-08-31 22:05:19,585 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 22:05:19,588 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/master.zip: true
+2018-08-31 22:05:19,588 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src'.
+2018-08-31 22:05:19,740 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-08-31 22:05:19,740 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src]
+2018-08-31 22:05:19,775 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/.git/
+
+2018-08-31 22:05:19,785 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/gradlew
+2018-08-31 22:05:19,796 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/build.gradle
+2018-08-31 22:05:19,806 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/settings.gradle
+2018-08-31 22:05:19,807 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/", attempt 3
+2018-08-31 22:06:19,808 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/blundell/release-android-library/"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-31 22:06:19,808 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 22:06:19,808 INFO  ProjectFixService - Fixing project...
+2018-08-31 22:06:19,827 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/app/local.properties
+2018-08-31 22:06:19,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-08-31 22:06:19,828 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/stylishwidget/local.properties
+2018-08-31 22:06:19,828 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 22:06:19,829 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 22:06:19,829 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle": [buildToolsVersion=26.0.3,compileSdkVersion=25,minSdkVersion=9,targetSdkVersion=25]
+2018-08-31 22:06:19,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/local.properties
+2018-08-31 22:06:19,830 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 22:06:19,830 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 22:06:19,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2018-08-31 22:06:19,831 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 22:06:19,831 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 22:06:19,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 22:06:26,092 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 22:06:26,092 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 22:06:26,092 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 22:07:06,655 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':stylishwidget' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':stylishwidget' is deprecated. Use 'testImplementation' instead.
+:app:preBuild UP-TO-DATE
+:stylishwidget:preBuild UP-TO-DATE
+:stylishwidget:preDebugBuild UP-TO-DATE
+:stylishwidget:checkDebugManifest
+:stylishwidget:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/com/philliphsu/bottomsheetpickers/2.4.1/bottomsheetpickers-2.4.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/gridlayout-v7/25.4.0/gridlayout-v7-25.4.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/25.4.0/design-25.4.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/25.4.0/transition-25.4.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/gridlayout-v7/25.4.0/gridlayout-v7-25.4.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/25.4.0/transition-25.4.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/25.4.0/design-25.4.0.aar
+Download https://jcenter.bintray.com/com/philliphsu/bottomsheetpickers/2.4.1/bottomsheetpickers-2.4.1.aar
+:stylishwidget:compileDebugAidl
+:app:compileDebugAidl
+:stylishwidget:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:stylishwidget:compileDebugRenderscript
+:stylishwidget:generateDebugResValues
+:stylishwidget:generateDebugResources
+:stylishwidget:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:stylishwidget:platformAttrExtractor
+:stylishwidget:generateDebugBuildConfig
+:stylishwidget:prepareLintJar
+:stylishwidget:javaPreCompileDebug
+:stylishwidget:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:stylishwidget:mergeDebugShaders
+:stylishwidget:compileDebugShaders
+:stylishwidget:generateDebugAssets
+:stylishwidget:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:stylishwidget:compileDebugNdk NO-SOURCE
+:stylishwidget:mergeDebugJniLibFolders
+:stylishwidget:transformNativeLibsWithMergeJniLibsForDebug
+:stylishwidget:transformNativeLibsWithStripDebugSymbolForDebug
+:stylishwidget:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:stylishwidget:preReleaseBuild UP-TO-DATE
+:stylishwidget:checkReleaseManifest
+:stylishwidget:processReleaseManifest
+:app:preReleaseBuild
+:stylishwidget:compileReleaseAidl
+:app:compileReleaseAidl
+:stylishwidget:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:stylishwidget:compileReleaseRenderscript
+:stylishwidget:generateReleaseResValues
+:stylishwidget:generateReleaseResources
+:stylishwidget:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:stylishwidget:generateReleaseBuildConfig
+:stylishwidget:javaPreCompileRelease
+:stylishwidget:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:stylishwidget:mergeReleaseShaders
+:stylishwidget:compileReleaseShaders
+:stylishwidget:generateReleaseAssets
+:stylishwidget:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:stylishwidget:compileReleaseNdk NO-SOURCE
+:stylishwidget:mergeReleaseJniLibFolders
+:stylishwidget:transformNativeLibsWithMergeJniLibsForRelease
+:stylishwidget:transformNativeLibsWithStripDebugSymbolForRelease
+:stylishwidget:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:stylishwidget:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:stylishwidget:generateDebugSources
+:stylishwidget:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:stylishwidget:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/app/src/main/java/com/app/infideap/mystylishexample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:stylishwidget:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:stylishwidget:generateReleaseSources
+:stylishwidget:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:stylishwidget:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/app/src/main/java/com/app/infideap/mystylishexample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 39s
+88 actionable tasks: 88 executed
+
+2018-08-31 22:07:06,744 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727915443-0/src/Stylish-Widget-for-Android-master/app/build/outputs/apk/debug/app-debug.apk

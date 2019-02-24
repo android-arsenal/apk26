@@ -1,0 +1,162 @@
+2018-09-01 18:46:42,704 INFO  DownloadService - Downloading "https://github.com/msayan/otp-view/archive/master.zip", attempt 3
+2018-09-01 18:46:45,243 INFO  DownloadService - Downloaded https://github.com/msayan/otp-view/archive/master.zip, attempt 3
+2018-09-01 18:46:45,243 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/master.zip": 519 KB
+2018-09-01 18:46:45,243 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 18:46:45,249 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/master.zip: true
+2018-09-01 18:46:45,249 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src'.
+2018-09-01 18:46:45,274 INFO  FullProcessService - Size of directory with sources: 542 KB
+2018-09-01 18:46:45,274 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src]
+2018-09-01 18:46:45,304 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/.git/
+
+2018-09-01 18:46:45,308 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/gradlew
+2018-09-01 18:46:45,311 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/build.gradle
+2018-09-01 18:46:45,315 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/otpview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/settings.gradle
+2018-09-01 18:46:45,315 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 18:46:45,315 INFO  ProjectFixService - Fixing project...
+2018-09-01 18:46:45,324 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/app/local.properties
+2018-09-01 18:46:45,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-01 18:46:45,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/otpview/local.properties
+2018-09-01 18:46:45,325 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/otpview/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-01 18:46:45,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/local.properties
+2018-09-01 18:46:45,325 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 18:46:45,326 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 18:46:45,326 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-09-01 18:46:45,327 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 18:46:45,327 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:46:45,327 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:46:54,384 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-01 18:46:54,384 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 18:46:54,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 18:47:14,438 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareAndroidArchLifecycleRuntime100Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:app:prepareComAndroidSupportAppcompatV72610Library
+:app:prepareComAndroidSupportSupportCompat2610Library
+:app:prepareComAndroidSupportSupportCoreUi2610Library
+:app:prepareComAndroidSupportSupportCoreUtils2610Library
+:app:prepareComAndroidSupportSupportFragment2610Library
+:app:prepareComAndroidSupportSupportMediaCompat2610Library
+:app:prepareComAndroidSupportSupportV42610Library
+:app:prepareComAndroidSupportSupportVectorDrawable2610Library
+:otpview:preBuild UP-TO-DATE
+:otpview:preReleaseBuild UP-TO-DATE
+:otpview:checkReleaseManifest
+:otpview:preDebugAndroidTestBuild UP-TO-DATE
+:otpview:preDebugBuild UP-TO-DATE
+:otpview:preDebugUnitTestBuild UP-TO-DATE
+:otpview:preReleaseUnitTestBuild UP-TO-DATE
+:otpview:prepareAndroidArchLifecycleRuntime100Library
+:otpview:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:otpview:prepareComAndroidSupportAppcompatV72610Library
+:otpview:prepareComAndroidSupportSupportCompat2610Library
+:otpview:prepareComAndroidSupportSupportCoreUi2610Library
+:otpview:prepareComAndroidSupportSupportCoreUtils2610Library
+:otpview:prepareComAndroidSupportSupportFragment2610Library
+:otpview:prepareComAndroidSupportSupportMediaCompat2610Library
+:otpview:prepareComAndroidSupportSupportV42610Library
+:otpview:prepareComAndroidSupportSupportVectorDrawable2610Library
+:otpview:prepareReleaseDependencies
+:otpview:compileReleaseAidl
+:otpview:compileReleaseNdk UP-TO-DATE
+:otpview:compileLint
+:otpview:copyReleaseLint UP-TO-DATE
+:otpview:compileReleaseRenderscript
+:otpview:generateReleaseBuildConfig
+:otpview:generateReleaseResValues
+:otpview:generateReleaseResources
+:otpview:mergeReleaseResources
+:otpview:processReleaseManifest
+:otpview:processReleaseResources
+:otpview:generateReleaseSources
+:otpview:incrementalReleaseJavaCompilationSafeguard
+:otpview:javaPreCompileRelease
+:otpview:compileReleaseJavaWithJavac
+:otpview:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:otpview:extractReleaseAnnotations
+:otpview:mergeReleaseShaders
+:otpview:compileReleaseShaders
+:otpview:generateReleaseAssets
+:otpview:mergeReleaseAssets
+:otpview:mergeReleaseProguardFiles
+:otpview:packageReleaseRenderscript UP-TO-DATE
+:otpview:packageReleaseResources
+:otpview:processReleaseJavaRes UP-TO-DATE
+:otpview:transformResourcesWithMergeJavaResForRelease
+:otpview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:otpview:mergeReleaseJniLibFolders
+:otpview:transformNativeLibsWithMergeJniLibsForRelease
+:otpview:transformNativeLibsWithStripDebugSymbolForRelease
+:otpview:transformNativeLibsWithSyncJniLibsForRelease
+:otpview:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 19.78 secs
+
+2018-09-01 18:47:14,526 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535802402696-0/src/otp-view-master/app/build/outputs/apk/app-debug.apk

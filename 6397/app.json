@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "cat.helm.basearchitecture",
+    "label" : "BaseArchitecture",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher_transparent.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher_transparent.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADyUlEQVR42u2ZWUgVURjHb5qZprZYViRFWUYp9ZDJleolSGmxrFzSFG0zyy6RUUQJEQUttBhlZQ+BLU/1FkT7Q7Yg9WIZUkkLWWRlPYSWWdn/wP/AxzBzTa93UpgPfjj3zDdnvv+Zc76z6HI55phjjplYALgM/oDf4BLo05sEjAefQCgIAY0gujcJmAgaxO83YExPCnAgyAPjLO7HmQiIsfCNBbkg3K7gh4HH4Ab4ABJYHgwKwE3QDKrEM1Usu8Zgg1g+A3wGt8FDMNgOAWpAHuN1KkVsAq/BLZAJIiy+WhaDreczKvg0DvByUGmXgHKRVRaA5yDZ4Bcsrvsb7qWAFwzeZbeA4aAWlAkRAfzbD6wF9/lF5Bh4wHtaWKAIvszOLqQsCrwCW0VZCMdGO5GDuEGU1xi+iKqjDgyyMwtNAF+YQaQtAq1eBPwA80yykJozRtsp4DzYw2s1Qe0V3WkhRRgFfBfBK98DYCR/q7oq7Ap+KPjGbqTsAlv3uEHES/GMyjpzRfCn+MwZ0SW/2jUXqAnsKq9VC7aJ/i2zU5J4JlEM9grh38oGcbHOJf4IOAycA9VEdYdS3ssXwWhOWizcVPCnTfyzeb+UdT8ilUwMPpsK8g5b1E2iRP93mxBmUk+4hW+06Ea6LInvTO8OAevA2f+w3jrL7uqzJXMiOmIz6p2zuqs1Ujnh2Ml8Z1/YG62e1BrKV4l7JSyLF2VGrtBngCir9vLee+A6iPTio7anF1mXpenc3GwoLxH39BJimklO1zwRqVOXNXp5r14r1VlsPYdQpK6r2wW85yys2dFFAXoRGC/uqXniqaGBul1AlUV9XRHQzpXuTDCJ6bS9swLUec4zwccOBLzjNlOT4KMARQtosuiiHQrwxr+MgRwfBJgF3cRG9ZuAn9yUaJb6ICDR0Offcky0dUZAC3dImt02joERIuvIrNTmz0F8F/QVBJoIUHUeFZR5EaDzvpwX/CpAD3xNjYkAI786EGA0vwvoaCKzRUARWW0onyLuTRdHjEUWZNInyItPoag/V5SHWsRWKHwc6/EWyxOHCG5mVB6eyk1GDM82x9I3XaxdkugTyc26WxyE5bD7RXBsZHEfnMLxFMsMFk/fBPrG8be7MwLUsvUE8FDICvbB/TxlzgDL6HsQTOa1Kh/FxdxmvjSNjXAILGag+TxHLeCeu5j17ARbwC4GvY0NkdHZL7AczOZJ2hqwHqzkAJoDtpMknsrF8bli+qnW3ciBfpj7gn0U46GAPM7YHh4YZ9LfwyOWbP7/YIOY2R1zzDHHepj9BTGEw3lSCufIAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 4119,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"cat.helm.basearchitecture\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"BaseArchitecture\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher_transparent.png\" android:name=\"cat.helm.basearchitecture.BaseApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"false\">\n\t\t<activity android:name=\"cat.helm.basearchitecture.ui.discover.DiscoverActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"cat.helm.basearchitecture.ui.detail.DetailActivity\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3131782,
+  "crc32" : 3665175604,
+  "sha256" : "ad33bd35bace195de290baededafe162f4e3da417f80c56176a431940a3e9519",
+  "buildTime" : 1535718786000
+}

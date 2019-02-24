@@ -1,0 +1,265 @@
+2018-08-31 18:01:01,415 INFO  DownloadService - Downloading "https://github.com/SimonMarquis/Android-App-Linking/archive/master.zip", attempt 3
+2018-08-31 18:01:06,275 INFO  DownloadService - Downloaded https://github.com/SimonMarquis/Android-App-Linking/archive/master.zip, attempt 3
+2018-08-31 18:01:06,276 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/master.zip": 5 MB
+2018-08-31 18:01:06,276 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 18:01:06,283 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/master.zip: true
+2018-08-31 18:01:06,284 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src'.
+2018-08-31 18:01:06,356 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-08-31 18:01:06,357 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src]
+2018-08-31 18:01:06,373 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/.git/
+
+2018-08-31 18:01:06,375 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/gradlew
+2018-08-31 18:01:06,378 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/build.gradle
+2018-08-31 18:01:06,380 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/settings.gradle
+2018-08-31 18:01:06,380 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 18:01:06,380 INFO  ProjectFixService - Fixing project...
+2018-08-31 18:01:06,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/local.properties
+2018-08-31 18:01:06,386 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:01:06,386 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/local.properties
+2018-08-31 18:01:06,387 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 18:01:06,387 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 18:01:06,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 18:01:06,387 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 18:01:06,388 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 18:01:06,388 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 18:01:26,886 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-31 18:01:26,886 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 18:01:26,886 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 18:02:11,492 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+registerResGeneratingTask is deprecated, use registerGeneratedFolders(FileCollection)
+registerResGeneratingTask is deprecated, use registerGeneratedFolders(FileCollection)
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/26.0.2/transition-26.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-core/11.2.0/firebase-core-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-invites/11.2.0/firebase-invites-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/26.0.2/design-26.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics/11.2.0/firebase-analytics-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/26.0.2/recyclerview-v7-26.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-appinvite/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-appinvite/11.2.0/play-services-appinvite-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/11.2.0/play-services-basement-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-common/11.2.0/firebase-common-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-impl/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-impl/11.2.0/firebase-analytics-impl-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/11.2.0/play-services-base-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-dynamic-links/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-dynamic-links/11.2.0/firebase-dynamic-links-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/11.2.0/play-services-tasks-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid/11.2.0/firebase-iid-11.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-core/11.2.0/firebase-core-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-invites/11.2.0/firebase-invites-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/transition/26.0.2/transition-26.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/design/26.0.2/design-26.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics/11.2.0/firebase-analytics-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/26.0.2/recyclerview-v7-26.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-appinvite/11.2.0/play-services-appinvite-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-analytics-impl/11.2.0/firebase-analytics-impl-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-common/11.2.0/firebase-common-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-dynamic-links/11.2.0/firebase-dynamic-links-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-base/11.2.0/play-services-base-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-tasks/11.2.0/play-services-tasks-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/firebase/firebase-iid/11.2.0/firebase-iid-11.2.0.aar
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-basement/11.2.0/play-services-basement-11.2.0.aar
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:processDebugGoogleServices
+Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/google-services.json
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/src/main/java/fr/smarquis/applinks/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:extractProguardFiles
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:processReleaseGoogleServices
+Parsing json file: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/google-services.json
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/src/main/java/fr/smarquis/applinks/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-core-11.2.0.aar/c5bdc803a1e8f031d68b5bae67da78fb/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/eeffd3880ce34ef6b1be651420a418ba/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/686896d283ccfef7df157d5ae4686491/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/9cd7eeb93d49572cb327443069cdaa4c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-invites-11.2.0.aar/a9dcbc315993ce9a469fdc01031f24f4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknife-8.4.0.aar/ab98d3cdb71bbd348fae980c0660c779/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/319b2d054831a3ac6706305f2bf48543/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/e284a2bcb4f2875332eb3c1fa308b2e4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/9b4ea6051759a851b022b40777be90d0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/5abe0519f731c2ab428e85350a7b9676/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/3e94dd858b233ffbf47df9fabe9b7ce3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/4ac110bf3baf95c681bf6328096742b6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.2.0.aar/bff098e52813456b8a3ef42aab17c4ba/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/f502e8e6066bff5f8faa65d7fe82890b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/1624722f0c7e610ab29da4881170e017/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/421d1e7e1bff47861bdc3b2f940b48ec/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.2.0.aar/38cc6710a0a1c7df23310bad2e17675d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/9a09be75e174e9969e6486294cd441ee/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/637b1bc8c39d333b05cc8cfc74f47993/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/3907a35a938238b3f0ac67a9927539df/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/0461e86fd0e807a044c083d7a8dc62cd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/5598ef8af02c7515ee103efb9557b160/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/a4ab902c53faa1226c8c2d88c32aaa77/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/ba67eb9fd90864eaf55f3d3fb491e514/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.2/8b68a849722b44f584e2d68c451c5e3844c10380/support-annotations-26.0.2.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build/intermediates/classes/release] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build/intermediates/transforms/mergeJavaRes/release/0] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: com.google.android.gms.internal.zzcap: can't find dynamically referenced class android.os.SystemProperties
+Note: com.google.android.gms.internal.zzcdo: can't find dynamically referenced class com.google.android.gms.tagmanager.TagManagerService
+Note: com.google.android.gms.internal.zzedy: can't find dynamically referenced class com.google.protobuf.ExtensionRegistry
+Note: com.google.android.gms.internal.zzedz: can't find dynamically referenced class com.google.protobuf.Extension
+Note: com.google.android.gms.internal.zzefr: can't find dynamically referenced class libcore.io.Memory
+Note: com.google.android.gms.internal.zzefr: can't find dynamically referenced class org.robolectric.Robolectric
+Note: the configuration keeps the entry point 'com.google.android.gms.common.api.internal.LifecycleCallback { com.google.android.gms.common.api.internal.zzcg getChimeraLifecycleFragmentImpl(com.google.android.gms.common.api.internal.zzcf); }', but not the descriptor class 'com.google.android.gms.common.api.internal.zzcf'
+Note: the configuration keeps the entry point 'com.google.android.gms.flags.impl.FlagProviderImpl { void init(com.google.android.gms.dynamic.IObjectWrapper); }', but not the descriptor class 'com.google.android.gms.dynamic.IObjectWrapper'
+Note: the configuration keeps the entry point 'com.google.android.gms.measurement.AppMeasurement { AppMeasurement(com.google.android.gms.internal.zzcco); }', but not the descriptor class 'com.google.android.gms.internal.zzcco'
+Note: the configuration keeps the entry point 'com.google.android.gms.measurement.AppMeasurement { void setEventInterceptor(com.google.android.gms.measurement.AppMeasurement$EventInterceptor); }', but not the descriptor class 'com.google.android.gms.measurement.AppMeasurement$EventInterceptor'
+Note: the configuration keeps the entry point 'com.google.android.gms.measurement.AppMeasurement { void registerOnMeasurementEventListener(com.google.android.gms.measurement.AppMeasurement$OnEventListener); }', but not the descriptor class 'com.google.android.gms.measurement.AppMeasurement$OnEventListener'
+Note: the configuration keeps the entry point 'com.google.android.gms.measurement.AppMeasurement { void unregisterOnMeasurementEventListener(com.google.android.gms.measurement.AppMeasurement$OnEventListener); }', but not the descriptor class 'com.google.android.gms.measurement.AppMeasurement$OnEventListener'
+Note: the configuration keeps the entry point 'com.google.android.gms.measurement.AppMeasurement { void registerOnScreenChangeCallback(com.google.android.gms.measurement.AppMeasurement$zza); }', but not the descriptor class 'com.google.android.gms.measurement.AppMeasurement$zza'
+Note: the configuration keeps the entry point 'com.google.android.gms.measurement.AppMeasurement { void unregisterOnScreenChangeCallback(com.google.android.gms.measurement.AppMeasurement$zza); }', but not the descriptor class 'com.google.android.gms.measurement.AppMeasurement$zza'
+Note: the configuration keeps the entry point 'com.google.firebase.analytics.FirebaseAnalytics { FirebaseAnalytics(com.google.android.gms.internal.zzcco); }', but not the descriptor class 'com.google.android.gms.internal.zzcco'
+Note: the configuration keeps the entry point 'com.google.firebase.iid.FirebaseInstanceId { com.google.firebase.iid.FirebaseInstanceId getInstance(com.google.firebase.FirebaseApp); }', but not the descriptor class 'com.google.firebase.FirebaseApp'
+Note: there were 10 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 6 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4590
+  Final number of library classes:    1291
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 3205
+  Final number of program classes:    1626
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-core-11.2.0.aar/c5bdc803a1e8f031d68b5bae67da78fb/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-26.0.2.aar/eeffd3880ce34ef6b1be651420a418ba/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.2.aar/686896d283ccfef7df157d5ae4686491/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-26.0.2.aar/9cd7eeb93d49572cb327443069cdaa4c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-invites-11.2.0.aar/a9dcbc315993ce9a469fdc01031f24f4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/butterknife-8.4.0.aar/ab98d3cdb71bbd348fae980c0660c779/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/319b2d054831a3ac6706305f2bf48543/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.0.2.aar/e284a2bcb4f2875332eb3c1fa308b2e4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.0.2.aar/9b4ea6051759a851b022b40777be90d0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/5abe0519f731c2ab428e85350a7b9676/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/3e94dd858b233ffbf47df9fabe9b7ce3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/4ac110bf3baf95c681bf6328096742b6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.2.0.aar/bff098e52813456b8a3ef42aab17c4ba/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/f502e8e6066bff5f8faa65d7fe82890b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/1624722f0c7e610ab29da4881170e017/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/421d1e7e1bff47861bdc3b2f940b48ec/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.2.0.aar/38cc6710a0a1c7df23310bad2e17675d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/9a09be75e174e9969e6486294cd441ee/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/637b1bc8c39d333b05cc8cfc74f47993/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/3907a35a938238b3f0ac67a9927539df/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/0461e86fd0e807a044c083d7a8dc62cd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/5598ef8af02c7515ee103efb9557b160/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/a4ab902c53faa1226c8c2d88c32aaa77/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/ba67eb9fd90864eaf55f3d3fb491e514/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.2/8b68a849722b44f584e2d68c451c5e3844c10380/support-annotations-26.0.2.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build/intermediates/classes/release] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build/intermediates/transforms/mergeJavaRes/release/0] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build/outputs/mapping/release/dump.txt]...
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:packageRelease
+:app:lintVitalRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 43s
+52 actionable tasks: 52 executed
+Exception in thread "Thread-23" java.lang.NoClassDefFoundError: com/android/builder/internal/aapt/v2/AaptV2Jni$TempDirCache$RecursiveDelete
+	at com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache.lambda$getCachedDirectory$0(AaptV2Jni.java:251)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.builder.internal.aapt.v2.AaptV2Jni$TempDirCache$RecursiveDelete
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 2 more
+
+2018-08-31 18:02:11,563 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713261407-0/src/Android-App-Linking-master/app/build/outputs/apk/debug/app-debug.apk

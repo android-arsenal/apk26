@@ -1,0 +1,188 @@
+2018-08-31 21:27:45,770 INFO  DownloadService - Downloading "https://github.com/chuross/flinglayout/archive/master.zip", attempt 3
+2018-08-31 21:27:46,407 INFO  DownloadService - Downloaded https://github.com/chuross/flinglayout/archive/master.zip, attempt 3
+2018-08-31 21:27:46,407 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/master.zip": 141 KB
+2018-08-31 21:27:46,407 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 21:27:46,413 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/master.zip: true
+2018-08-31 21:27:46,413 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src'.
+2018-08-31 21:27:46,432 INFO  FullProcessService - Size of directory with sources: 153 KB
+2018-08-31 21:27:46,432 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src]
+2018-08-31 21:27:46,449 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/.git/
+
+2018-08-31 21:27:46,453 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/gradlew
+2018-08-31 21:27:46,455 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/flinglayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/build.gradle
+2018-08-31 21:27:46,458 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/flinglayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/settings.gradle
+2018-08-31 21:27:46,458 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 21:27:46,458 INFO  ProjectFixService - Fixing project...
+2018-08-31 21:27:46,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/app/local.properties
+2018-08-31 21:27:46,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 21:27:46,466 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/flinglayout/local.properties
+2018-08-31 21:27:46,467 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/flinglayout/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 21:27:46,467 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/local.properties
+2018-08-31 21:27:46,468 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 21:27:46,468 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 21:27:46,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 21:27:46,470 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 21:27:46,470 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:27:46,470 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:32:46,896 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 143 (Exit value: 143)
+2018-08-31 21:32:46,897 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-08-31 21:32:46,897 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-08-31 21:32:46,897 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-08-31 21:33:23,012 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+Download https://jitpack.io/com/github/chrisbanes/PhotoView/2.1.3/PhotoView-2.1.3.pom
+Download https://jitpack.io/com/github/chrisbanes/PhotoView/2.1.3/PhotoView-2.1.3.aar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareAndroidArchLifecycleRuntime100Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:app:prepareComAndroidSupportAppcompatV72610Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2610Library
+:app:prepareComAndroidSupportSupportCoreUi2610Library
+:app:prepareComAndroidSupportSupportCoreUtils2610Library
+:app:prepareComAndroidSupportSupportFragment2610Library
+:app:prepareComAndroidSupportSupportMediaCompat2610Library
+:app:prepareComAndroidSupportSupportV42610Library
+:app:prepareComAndroidSupportSupportVectorDrawable2610Library
+:app:prepareComGithubChrisbanesPhotoView213Library
+:flinglayout:preBuild UP-TO-DATE
+:flinglayout:preReleaseBuild UP-TO-DATE
+:flinglayout:checkReleaseManifest
+:flinglayout:preDebugAndroidTestBuild UP-TO-DATE
+:flinglayout:preDebugBuild UP-TO-DATE
+:flinglayout:preDebugUnitTestBuild UP-TO-DATE
+:flinglayout:preReleaseUnitTestBuild UP-TO-DATE
+:flinglayout:prepareComAndroidSupportSupportCompat2600Library
+:flinglayout:prepareComAndroidSupportSupportCoreUi2600Library
+:flinglayout:prepareReleaseDependencies
+:flinglayout:compileReleaseAidl
+:flinglayout:compileReleaseNdk UP-TO-DATE
+:flinglayout:compileLint
+:flinglayout:copyReleaseLint UP-TO-DATE
+:flinglayout:compileReleaseRenderscript
+:flinglayout:generateReleaseBuildConfig
+:flinglayout:generateReleaseResValues
+:flinglayout:generateReleaseResources
+:flinglayout:mergeReleaseResources
+:flinglayout:processReleaseManifest
+:flinglayout:processReleaseResources
+:flinglayout:generateReleaseSources
+:flinglayout:incrementalReleaseJavaCompilationSafeguard
+:flinglayout:javaPreCompileRelease
+:flinglayout:compileReleaseKotlin
+Using kotlin incremental compilation
+:flinglayout:compileReleaseJavaWithJavac
+:flinglayout:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:flinglayout:copyReleaseKotlinClasses
+:flinglayout:extractReleaseAnnotations
+:flinglayout:mergeReleaseShaders
+:flinglayout:compileReleaseShaders
+:flinglayout:generateReleaseAssets
+:flinglayout:mergeReleaseAssets
+:flinglayout:mergeReleaseProguardFiles
+:flinglayout:packageReleaseRenderscript UP-TO-DATE
+:flinglayout:packageReleaseResources
+:flinglayout:processReleaseJavaRes UP-TO-DATE
+:flinglayout:transformResourcesWithMergeJavaResForRelease
+:flinglayout:transformClassesAndResourcesWithSyncLibJarsForRelease
+:flinglayout:mergeReleaseJniLibFolders
+:flinglayout:transformNativeLibsWithMergeJniLibsForRelease
+:flinglayout:transformNativeLibsWithStripDebugSymbolForRelease
+:flinglayout:transformNativeLibsWithSyncJniLibsForRelease
+:flinglayout:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:lint
+Ran lint on variant debug: 5 issues found
+Ran lint on variant release: 5 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/app/build/reports/lint-results.xml
+:app:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:javaPreCompileDebugUnitTest
+:app:preDebugUnitTestBuild UP-TO-DATE
+:app:prepareDebugUnitTestDependencies
+:app:compileDebugUnitTestJavaWithJavac
+:app:processDebugUnitTestJavaRes UP-TO-DATE
+:app:compileDebugUnitTestSources
+:app:mockableAndroidJar
+:app:assembleDebugUnitTest
+:app:testDebugUnitTest
+:app:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:app:javaPreCompileReleaseUnitTest
+:app:preReleaseUnitTestBuild UP-TO-DATE
+:app:prepareReleaseUnitTestDependencies
+:app:compileReleaseUnitTestJavaWithJavac
+:app:processReleaseUnitTestJavaRes UP-TO-DATE
+:app:compileReleaseUnitTestSources
+:app:assembleReleaseUnitTest
+:app:testReleaseUnitTest
+:app:test
+:app:check
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 35.405 secs
+
+2018-08-31 21:33:23,124 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725665762-0/src/flinglayout-master/app/build/outputs/apk/app-debug.apk

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "in.arjsna.mapsalarm",
+    "label" : "LoctionAware",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_FINE_LOCATION", "android.permission.WAKE_LOCK", "android.permission.VIBRATE", "android.permission.RECEIVE_BOOT_COMPLETED", "android.permission.INTERNET", "android.permission.ACCESS_WIFI_STATE", "android.permission.ACCESS_NETWORK_STATE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 5781,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"in.arjsna.mapsalarm\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<uses-permission android:name=\"android.permission.VIBRATE\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"LoctionAware\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"in.arjsna.mapsalarm.global.LocationAware\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"in.arjsna.mapsalarm.MainActivity\" />\n\t\t<meta-data android:name=\"com.google.android.geo.API_KEY\" android:value=\"AIzaSyDyZD25gUTa_BaDXmUpuqQuWWHTUI7snjQ\" />\n\t\t<activity android:name=\"in.arjsna.mapsalarm.locationalarm.LocationAlarmActivity\" android:launchMode=\"singleTop\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<service android:name=\"in.arjsna.mapsalarm.bgservice.LocationAwareService\" android:exported=\"false\" />\n\t\t<activity android:label=\"AlarmActivity\" android:name=\"in.arjsna.mapsalarm.alarm.AlarmActivity\" />\n\t\t<receiver android:name=\"in.arjsna.mapsalarm.global.BootReceiver\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.BOOT_COMPLETED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t\t<provider android:name=\"com.amitshekhar.DebugDBInitProvider\" android:enabled=\"true\" android:exported=\"false\" android:authorities=\"in.arjsna.mapsalarm.DebugDBInitProvider\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"11400000\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3742681,
+  "crc32" : 139192570,
+  "sha256" : "69216048d7d48af1f5505ba7fcd512c0bda80ad3c01ad6fc5681099a60d05d05",
+  "buildTime" : 1535726700000
+}

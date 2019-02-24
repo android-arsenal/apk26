@@ -1,0 +1,877 @@
+2018-08-31 22:07:23,315 INFO  DownloadService - Downloading "https://github.com/RoRoche/AndroidModularReloaded/archive/master.zip", attempt 3
+2018-08-31 22:07:25,803 INFO  DownloadService - Downloaded https://github.com/RoRoche/AndroidModularReloaded/archive/master.zip, attempt 3
+2018-08-31 22:07:25,803 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/master.zip": 220 KB
+2018-08-31 22:07:25,804 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 22:07:25,810 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/master.zip: true
+2018-08-31 22:07:25,810 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src'.
+2018-08-31 22:07:25,856 INFO  FullProcessService - Size of directory with sources: 222 KB
+2018-08-31 22:07:25,856 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src]
+2018-08-31 22:07:25,882 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/.git/
+
+2018-08-31 22:07:25,887 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/gradlew
+2018-08-31 22:07:25,894 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/debugutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/first/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/second/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/build.gradle
+2018-08-31 22:07:25,899 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/first/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/second/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/common/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/debugutils/build.gradle
+2018-08-31 22:07:25,900 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 22:07:25,900 INFO  ProjectFixService - Fixing project...
+2018-08-31 22:07:25,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/app/local.properties
+2018-08-31 22:07:25,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 22:07:25,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/common/local.properties
+2018-08-31 22:07:25,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/common/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 22:07:25,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/debugutils/local.properties
+2018-08-31 22:07:25,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/debugutils/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 22:07:25,914 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/first/local.properties
+2018-08-31 22:07:25,915 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/first/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 22:07:25,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/second/local.properties
+2018-08-31 22:07:25,915 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/second/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 22:07:25,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/local.properties
+2018-08-31 22:07:25,916 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 22:07:25,916 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 22:07:25,917 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2018-08-31 22:07:25,917 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 22:07:25,917 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 22:07:25,917 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 22:08:01,138 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-08-31 22:08:01,138 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 22:08:01,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 22:08:42,445 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+Jack is disabled, but one of the plugins you are using supports Java 8 language features.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareAndroidArchCoreRuntime100Beta1Library
+:app:prepareAndroidArchLifecycleExtensions100Beta1Library
+:app:prepareAndroidArchLifecycleRuntime100Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:app:prepareComAndroidSupportAppcompatV72610Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportDesign2610Library
+:app:prepareComAndroidSupportMultidex101Library
+:app:prepareComAndroidSupportRecyclerviewV72610Library
+:app:prepareComAndroidSupportSupportCompat2610Library
+:app:prepareComAndroidSupportSupportCoreUi2610Library
+:app:prepareComAndroidSupportSupportCoreUtils2610Library
+:app:prepareComAndroidSupportSupportFragment2610Library
+:app:prepareComAndroidSupportSupportMediaCompat2610Library
+:app:prepareComAndroidSupportSupportV42610Library
+:app:prepareComAndroidSupportSupportVectorDrawable2610Library
+:app:prepareComAndroidSupportTransition2610Library
+:app:prepareComGoogleDaggerDaggerAndroid211Library
+:app:prepareComGoogleDaggerDaggerAndroidSupport211Library
+:common:preBuild UP-TO-DATE
+:common:preReleaseBuild UP-TO-DATE
+:common:checkReleaseManifest
+:common:preDebugAndroidTestBuild UP-TO-DATE
+:common:preDebugBuild UP-TO-DATE
+:common:preDebugUnitTestBuild UP-TO-DATE
+:common:preReleaseUnitTestBuild UP-TO-DATE
+:common:prepareAndroidArchCoreRuntime100Beta1Library
+:common:prepareAndroidArchLifecycleExtensions100Beta1Library
+:common:prepareAndroidArchLifecycleRuntime100Library
+:common:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:common:prepareComAndroidSupportAppcompatV72610Library
+:common:prepareComAndroidSupportConstraintConstraintLayout102Library
+:common:prepareComAndroidSupportDesign2610Library
+:common:prepareComAndroidSupportMultidex101Library
+:common:prepareComAndroidSupportRecyclerviewV72610Library
+:common:prepareComAndroidSupportSupportCompat2610Library
+:common:prepareComAndroidSupportSupportCoreUi2610Library
+:common:prepareComAndroidSupportSupportCoreUtils2610Library
+:common:prepareComAndroidSupportSupportFragment2610Library
+:common:prepareComAndroidSupportSupportMediaCompat2610Library
+:common:prepareComAndroidSupportSupportV42610Library
+:common:prepareComAndroidSupportSupportVectorDrawable2610Library
+:common:prepareComAndroidSupportTransition2610Library
+:common:prepareComGoogleDaggerDaggerAndroid211Library
+:common:prepareComGoogleDaggerDaggerAndroidSupport211Library
+:common:prepareReleaseDependencies
+:common:compileReleaseAidl
+:common:compileReleaseNdk UP-TO-DATE
+:common:compileLint
+:common:copyReleaseLint UP-TO-DATE
+:common:compileReleaseRenderscript
+:common:generateReleaseBuildConfig
+:common:generateReleaseResValues
+:common:generateReleaseResources
+:common:mergeReleaseResources
+:common:processReleaseManifest
+:common:processReleaseResources
+:common:generateReleaseSources
+:common:incrementalReleaseJavaCompilationSafeguard
+:common:javaPreCompileRelease
+:common:compileReleaseJavaWithJavac
+:common:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:common:extractReleaseAnnotations
+:common:mergeReleaseShaders
+:common:compileReleaseShaders
+:common:generateReleaseAssets
+:common:mergeReleaseAssets
+:common:mergeReleaseProguardFiles
+:common:packageReleaseRenderscript UP-TO-DATE
+:common:packageReleaseResources
+:common:processReleaseJavaRes UP-TO-DATE
+:common:transformResourcesWithMergeJavaResForRelease
+:common:transformClassesAndResourcesWithSyncLibJarsForRelease
+:common:mergeReleaseJniLibFolders
+:common:transformNativeLibsWithMergeJniLibsForRelease
+:common:transformNativeLibsWithStripDebugSymbolForRelease
+:common:transformNativeLibsWithSyncJniLibsForRelease
+:common:bundleRelease
+:first:preBuild UP-TO-DATE
+:first:preReleaseBuild UP-TO-DATE
+:first:checkReleaseManifest
+:first:preDebugAndroidTestBuild UP-TO-DATE
+:first:preDebugBuild UP-TO-DATE
+:first:preDebugUnitTestBuild UP-TO-DATE
+:first:preReleaseUnitTestBuild UP-TO-DATE
+:first:prepareAndroidArchCoreRuntime100Beta1Library
+:first:prepareAndroidArchLifecycleExtensions100Beta1Library
+:first:prepareAndroidArchLifecycleRuntime100Library
+:first:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:first:prepareComAndroidSupportAppcompatV72610Library
+:first:prepareComAndroidSupportConstraintConstraintLayout102Library
+:first:prepareComAndroidSupportDesign2610Library
+:first:prepareComAndroidSupportMultidex101Library
+:first:prepareComAndroidSupportRecyclerviewV72610Library
+:first:prepareComAndroidSupportSupportCompat2610Library
+:first:prepareComAndroidSupportSupportCoreUi2610Library
+:first:prepareComAndroidSupportSupportCoreUtils2610Library
+:first:prepareComAndroidSupportSupportFragment2610Library
+:first:prepareComAndroidSupportSupportMediaCompat2610Library
+:first:prepareComAndroidSupportSupportV42610Library
+:first:prepareComAndroidSupportSupportVectorDrawable2610Library
+:first:prepareComAndroidSupportTransition2610Library
+:first:prepareComGoogleDaggerDaggerAndroid211Library
+:first:prepareComGoogleDaggerDaggerAndroidSupport211Library
+:first:prepareReleaseDependencies
+:first:compileReleaseAidl
+:first:compileReleaseNdk UP-TO-DATE
+:first:compileLint
+:first:copyReleaseLint UP-TO-DATE
+:first:compileReleaseRenderscript
+:first:generateReleaseBuildConfig
+:first:generateReleaseResValues
+:first:generateReleaseResources
+:first:mergeReleaseResources
+:first:processReleaseManifest
+:first:processReleaseResources
+:first:generateReleaseSources
+:first:incrementalReleaseJavaCompilationSafeguard
+:first:javaPreCompileRelease
+:first:compileReleaseJavaWithJavac
+:first:compileRetrolambdaRelease
+:first:extractReleaseAnnotations
+:first:mergeReleaseShaders
+:first:compileReleaseShaders
+:first:generateReleaseAssets
+:first:mergeReleaseAssets
+:first:mergeReleaseProguardFiles
+:first:packageReleaseRenderscript UP-TO-DATE
+:first:packageReleaseResources
+:first:processReleaseJavaRes UP-TO-DATE
+:first:transformResourcesWithMergeJavaResForRelease
+:first:transformClassesAndResourcesWithSyncLibJarsForRelease
+:first:mergeReleaseJniLibFolders
+:first:transformNativeLibsWithMergeJniLibsForRelease
+:first:transformNativeLibsWithStripDebugSymbolForRelease
+:first:transformNativeLibsWithSyncJniLibsForRelease
+:first:bundleRelease
+:second:preBuild UP-TO-DATE
+:second:preReleaseBuild UP-TO-DATE
+:second:checkReleaseManifest
+:second:preDebugAndroidTestBuild UP-TO-DATE
+:second:preDebugBuild UP-TO-DATE
+:second:preDebugUnitTestBuild UP-TO-DATE
+:second:preReleaseUnitTestBuild UP-TO-DATE
+:second:prepareAndroidArchCoreRuntime100Beta1Library
+:second:prepareAndroidArchLifecycleExtensions100Beta1Library
+:second:prepareAndroidArchLifecycleRuntime100Library
+:second:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:second:prepareComAndroidSupportAppcompatV72610Library
+:second:prepareComAndroidSupportConstraintConstraintLayout102Library
+:second:prepareComAndroidSupportDesign2610Library
+:second:prepareComAndroidSupportMultidex101Library
+:second:prepareComAndroidSupportRecyclerviewV72610Library
+:second:prepareComAndroidSupportSupportCompat2610Library
+:second:prepareComAndroidSupportSupportCoreUi2610Library
+:second:prepareComAndroidSupportSupportCoreUtils2610Library
+:second:prepareComAndroidSupportSupportFragment2610Library
+:second:prepareComAndroidSupportSupportMediaCompat2610Library
+:second:prepareComAndroidSupportSupportV42610Library
+:second:prepareComAndroidSupportSupportVectorDrawable2610Library
+:second:prepareComAndroidSupportTransition2610Library
+:second:prepareComGoogleDaggerDaggerAndroid211Library
+:second:prepareComGoogleDaggerDaggerAndroidSupport211Library
+:second:prepareReleaseDependencies
+:second:compileReleaseAidl
+:second:compileReleaseNdk UP-TO-DATE
+:second:compileLint
+:second:copyReleaseLint UP-TO-DATE
+:second:compileReleaseRenderscript
+:second:generateReleaseBuildConfig
+:second:generateReleaseResValues
+:second:generateReleaseResources
+:second:mergeReleaseResources
+:second:processReleaseManifest
+:second:processReleaseResources
+:second:generateReleaseSources
+:second:incrementalReleaseJavaCompilationSafeguard
+:second:javaPreCompileRelease
+:second:compileReleaseJavaWithJavac
+:second:compileRetrolambdaRelease
+:second:extractReleaseAnnotations
+:second:mergeReleaseShaders
+:second:compileReleaseShaders
+:second:generateReleaseAssets
+:second:mergeReleaseAssets
+:second:mergeReleaseProguardFiles
+:second:packageReleaseRenderscript UP-TO-DATE
+:second:packageReleaseResources
+:second:processReleaseJavaRes UP-TO-DATE
+:second:transformResourcesWithMergeJavaResForRelease
+:second:transformClassesAndResourcesWithSyncLibJarsForRelease
+:second:mergeReleaseJniLibFolders
+:second:transformNativeLibsWithMergeJniLibsForRelease
+:second:transformNativeLibsWithStripDebugSymbolForRelease
+:second:transformNativeLibsWithSyncJniLibsForRelease
+:second:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileRetrolambdaDebug
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.chainsaw.ControlPanel$3) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.chainsaw.ControlPanel$5) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.chainsaw.ControlPanel$6) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.chainsaw.ControlPanel$7) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.chainsaw.ControlPanel$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.chainsaw.ControlPanel$2) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.chainsaw.ControlPanel$4) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.chainsaw.Main$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.chainsaw.MyTableModel$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.util.LogFileParser$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LF5SwingUtils$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$10) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$11) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$12) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$13) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$14) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$15) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$16) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$27) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$19) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$2) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$20) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$17) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$22) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$18) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$24) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$25) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$26) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$6) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$23) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$29) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$30) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$31) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$32) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$21) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogFactor5InputDialog$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$5) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$7) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$3) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$8) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$9) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogFactor5ErrorDialog$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$28) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogFactor5InputDialog$2) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogFactor5InputDialog$3) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.LogBrokerMonitor$4) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerModel$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryExplorerTree$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$2) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$3) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$4) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$5) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$6) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$7) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.lf5.viewer.categoryexplorer.CategoryNodeEditor$8) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.net.SMTPAppender$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.xml.DOMConfigurator$2) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.xml.DOMConfigurator$3) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.xml.DOMConfigurator$4) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.xml.DOMConfigurator$1) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+Dex: warning: Ignoring InnerClasses attribute for an anonymous inner class
+(org.apache.log4j.xml.DOMConfigurator$5) that doesn't come with an
+associated EnclosingMethod attribute. This class was probably produced by a
+compiler that did not target the modern .class file format. The recommended
+solution is to recompile the class from source, using an up-to-date compiler
+and without specifying any "-target" type options. The consequence of ignoring
+this warning is that reflective operations on this class will incorrectly
+indicate that it is *not* an inner class.
+
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileRetrolambdaRelease
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 40.943 secs
+
+2018-08-31 22:08:42,650 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728043308-0/src/AndroidModularReloaded-master/app/build/outputs/apk/app-debug.apk

@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.dvoiss.literallytoastdemo",
+    "label" : "LiterallyToast",
+    "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2304,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.dvoiss.literallytoastdemo\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0900ac\" android:label=\"LiterallyToast\" android:icon=\"res/mipmap-anydpi-v26/ic_launcher.xml\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-anydpi-v26/ic_launcher_round.xml\">\n\t\t<activity android:name=\"com.dvoiss.literallytoastdemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.1.0\" />\n\t\t<meta-data android:name=\"android.arch.lifecycle.VERSION\" android:value=\"27.0.0-SNAPSHOT\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3896371,
+  "crc32" : 2901768870,
+  "sha256" : "c9bd9cce936f2d1f4268dd8a2ed9c93ee5aa4711eeef8eb06dbd7becfefa1bb9",
+  "buildTime" : 1535728199000
+}

@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "uk.co.alt236.floatinginfo",
+    "label" : "Floating Info",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.1",
+    "versionCode" : 21,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.SYSTEM_ALERT_WINDOW", "android.permission.GET_TASKS", "android.permission.PACKAGE_USAGE_STATS", "android.permission.ACCESS_WIFI_STATE", "android.permission.ACCESS_NETWORK_STATE", "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACJVBMVEUAAACkyDekxjmkxjmjxzikxjmkxjmjxTqkxjmlxjmkxTqjxjmixTqkxzikxjmkxjmkxjmkxDukxTqkxjmkxjmqv0CjxjmkxjmfyjWkxjmkxjmkxjmkxjmlxzilxzijxzinxzifv0Ckxjmfv0ClxjmlxTqjxjmjxTmRsDOPrTGkxjmQrjGMqjGkxziKqDCHozCkxjmQrTOFoS2TsjNieiOMpzKTsjO/v0CSsDKmzDOTsjOmxjmTsjSmyDeTsTKTsTOkxjmlxzyvzVK502iuzE+qykXW5aX1+er////x9uDG24O71Gv5+/L///78/fr8/fng67u81W3+/v39/vvY56uty0z7/fb+//630mHb6bHg6sCxzlWoyUL7/PbQ4Zm0z17X5qju9NrD2X319+2duUajxDnE2oD7/Pf+/vzK3ozf6MWPrDKUszP7/ff+/v72+uz9/fvt8t+atEWPrTKVtDT9/vz9/fq00FvM34/N26WYs0KQrjKjxTm10V7q8tPA2Hb0+Ofb5b61yHelvVuTsDva6K7q8NmOrDGRrzL4++/6+/Wtw2qRrzPY4rj4+vKSsDOdt0yswmWTsTOnv1z6/Pb7/PiYtD+TsjPx9eW402TP3KXl78jj68zW5aamvlnP4Jv6+/bD04+mxUTD05Hx9OXs8dy9z4WTsDagwTimvV7I1pvm7dL8/Pnn7dLK2JuNqzGeuE6rwWW5y365zH6hu1KTsDWhwjg6NP4GAAAAQHRSTlMAHGuPp7/fw6uTcyQse8/bhzif+7MMi/cY1+dD71t/QCAI0xBjT2+ryOO748aDsJvz1Ij7Qaj4BNsU8Sj7POn4RkXghgAAAsRJREFUSMfFlvlDEkEUxwXE8gpCUNJEUbSyLDpN7VjM6iUpAhVWdh9UkFlAVlR2Q0aRWtFp931n8fe1O7uzuwyz+KPfn4bh8919M/Pem83Lmwap1Jp8bUHBjJmFRcVT0yWlsxiZdPrZuR9uKGNIGUsUcVN5BUNRmcFM54vnMAqqpMZVNZdRVEV1Nl9dxuSSheRrsnlHx4ZO6RfxjtpKEt+4aTMAbOkSo8pYh7WO5J1boRugxwW9Drxy+V6Vkrzbw+KcvLANzxkkvp7coO07fCDIA334PKQT1JAv2AmSunc5nc7d6MwxbyYPuH+PBzLl28vN43XbMNiBVwykvLCPndcLBqPA7YcDbjQ4mGU4BIePsLkr5JwQ0VHw+o8d50Z9WQbPiUCQdfD10cDznScHAPzAnVT/qUHCcPpMIBRmmCJkaOQNveifyNkhdnwuEx88fyEQCkXDFwuRQY/4S3gXLw+7ne4rEn312vUbAY6PRsPzkMGADDeBroFbsRjPx+Px+cigRYbbIwoOuCPyiQXI0MTxQ9CjwHvuinxioRTSsNLzwXVP5JOLkKGZM3SBsu5jPrkYGdT0bJA0ivmxJXz1ozTKYRjH/JiaLzc72qUHCvhDeIT5lIpPpnyUeT4Fw8hjkV+KOwxneKIY0VPMp5bhFokq9Fk3Fe+BccwvX4FLzoKSyUM1RJ5jPrVS6jKoK72gLjkygflVKqltoCJ1vHxFCeg15oPlsr7UgvKJefP2HddXMOwHeP/hI+ZXm+Str1WHHJ8Cn798dQmGb99/TIjxB9uI66vdzjtCP2OxX7//TE6O/v0n7j/Lr6ki2/da3pGOyupFxlMuiHad4KDw62poV1Arv/J0PIuvq6Vfci02dB7pRCbfVmpVvEetFi5L0kkZv15Tn/OmNlXn25n0GM8zFUabeeqPAWuVutnQpDXoGxtM0/Hp8h8lNO7uvv3YtQAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 2471,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"21\" android:versionName=\"2.1\" package=\"uk.co.alt236.floatinginfo\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.SYSTEM_ALERT_WINDOW\" />\n\t<uses-permission android:name=\"android.permission.GET_TASKS\" />\n\t<uses-permission android:name=\"android.permission.PACKAGE_USAGE_STATS\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0a00e6\" android:label=\"Floating Info\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Floating Info\" android:name=\"uk.co.alt236.floatinginfo.ui.activity.share.ShareActivity\" />\n\t\t<activity android:label=\"Floating Info\" android:name=\"uk.co.alt236.floatinginfo.ui.activity.main.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"uk.co.alt236.floatinginfo.ui.activity.onboarding.OnBoardingActivity\" />\n\t\t<service android:name=\"uk.co.alt236.floatinginfo.service.FloatingInfoService\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2159349,
+  "crc32" : 783894920,
+  "sha256" : "e164c9b15c61e24f662d589ddaa215d4e0a4a55f8a58b7a21d8e031edba05158",
+  "buildTime" : 1535707288000
+}

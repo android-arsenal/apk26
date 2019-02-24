@@ -1,0 +1,203 @@
+2018-08-31 23:33:59,808 INFO  DownloadService - Downloading "https://github.com/OpenCraft/AnimatedDismissableActivity/archive/master.zip", attempt 3
+2018-08-31 23:58:28,063 INFO  DownloadService - Downloaded https://github.com/OpenCraft/AnimatedDismissableActivity/archive/master.zip, attempt 3
+2018-08-31 23:58:28,063 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/master.zip": 143 KB
+2018-08-31 23:58:28,063 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 23:58:28,069 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/master.zip: true
+2018-08-31 23:58:28,069 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src'.
+2018-08-31 23:58:28,090 INFO  FullProcessService - Size of directory with sources: 149 KB
+2018-08-31 23:58:28,090 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src]
+2018-08-31 23:58:28,107 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/.git/
+
+2018-08-31 23:58:28,109 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/gradlew
+2018-08-31 23:58:28,112 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/animateddismissableactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/build.gradle
+2018-08-31 23:58:28,114 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/animateddismissableactivity/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/sampleapp/build.gradle
+2018-08-31 23:58:28,115 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle", attempt 3
+2018-08-31 23:59:28,118 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/numetriclabz/jcenter/master/bintrayv.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-08-31 23:59:28,118 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle", attempt 3
+2018-09-01 00:00:28,120 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/numetriclabz/jcenter/master/installv.gradle"
+org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:313)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:279)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:191)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.download(DownloadService.java:112)
+	at com.github.vbauer.apkmaster.service.network.DownloadService.downloadContent(DownloadService.java:91)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.fetchRemoteScript(RemoteScriptService.java:42)
+	at com.github.vbauer.apkmaster.service.assembly.RemoteScriptService.detect(RemoteScriptService.java:31)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectInfoService.getProjectInfo(ProjectInfoService.java:48)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:77)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 00:00:28,120 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 00:00:28,120 INFO  ProjectFixService - Fixing project...
+2018-09-01 00:00:28,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/animateddismissableactivity/local.properties
+2018-09-01 00:00:28,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/animateddismissableactivity/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-01 00:00:28,128 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/sampleapp/local.properties
+2018-09-01 00:00:28,128 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/sampleapp/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-01 00:00:28,129 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/local.properties
+2018-09-01 00:00:28,129 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 00:00:28,129 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 00:00:28,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2018-09-01 00:00:28,130 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 00:00:28,130 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 00:00:28,130 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/animateddismissableactivity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 00:00:49,274 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-09-01 00:00:49,274 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 00:00:49,274 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/animateddismissableactivity/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 00:01:03,675 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:animateddismissableactivity:preBuild UP-TO-DATE
+:animateddismissableactivity:preDebugBuild UP-TO-DATE
+:animateddismissableactivity:checkDebugManifest
+:animateddismissableactivity:preDebugAndroidTestBuild UP-TO-DATE
+:animateddismissableactivity:preDebugUnitTestBuild UP-TO-DATE
+:animateddismissableactivity:preReleaseBuild UP-TO-DATE
+:animateddismissableactivity:preReleaseUnitTestBuild UP-TO-DATE
+:animateddismissableactivity:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:animateddismissableactivity:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:animateddismissableactivity:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:animateddismissableactivity:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:animateddismissableactivity:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:animateddismissableactivity:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:animateddismissableactivity:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:animateddismissableactivity:prepareComAndroidSupportSupportV42600Alpha1Library
+:animateddismissableactivity:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:animateddismissableactivity:prepareDebugDependencies
+:animateddismissableactivity:compileDebugAidl
+:animateddismissableactivity:compileDebugNdk UP-TO-DATE
+:animateddismissableactivity:compileLint
+:animateddismissableactivity:copyDebugLint UP-TO-DATE
+:animateddismissableactivity:compileDebugRenderscript
+:animateddismissableactivity:generateDebugBuildConfig
+:animateddismissableactivity:generateDebugResValues
+:animateddismissableactivity:generateDebugResources
+:animateddismissableactivity:mergeDebugResources
+:animateddismissableactivity:processDebugManifest
+:animateddismissableactivity:processDebugResources
+:animateddismissableactivity:generateDebugSources
+:animateddismissableactivity:incrementalDebugJavaCompilationSafeguard
+:animateddismissableactivity:javaPreCompileDebug
+:animateddismissableactivity:compileDebugJavaWithJavac
+:animateddismissableactivity:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:animateddismissableactivity:extractDebugAnnotations
+:animateddismissableactivity:mergeDebugShaders
+:animateddismissableactivity:compileDebugShaders
+:animateddismissableactivity:generateDebugAssets
+:animateddismissableactivity:mergeDebugAssets
+:animateddismissableactivity:mergeDebugProguardFiles
+:animateddismissableactivity:packageDebugRenderscript UP-TO-DATE
+:animateddismissableactivity:packageDebugResources
+:animateddismissableactivity:processDebugJavaRes UP-TO-DATE
+:animateddismissableactivity:transformResourcesWithMergeJavaResForDebug
+:animateddismissableactivity:transformClassesAndResourcesWithSyncLibJarsForDebug
+:animateddismissableactivity:mergeDebugJniLibFolders
+:animateddismissableactivity:transformNativeLibsWithMergeJniLibsForDebug
+:animateddismissableactivity:transformNativeLibsWithStripDebugSymbolForDebug
+:animateddismissableactivity:transformNativeLibsWithSyncJniLibsForDebug
+:animateddismissableactivity:bundleDebug
+:animateddismissableactivity:compileDebugSources
+:animateddismissableactivity:assembleDebug
+:animateddismissableactivity:checkReleaseManifest
+:animateddismissableactivity:prepareReleaseDependencies
+:animateddismissableactivity:compileReleaseAidl
+:animateddismissableactivity:compileReleaseNdk UP-TO-DATE
+:animateddismissableactivity:copyReleaseLint UP-TO-DATE
+:animateddismissableactivity:compileReleaseRenderscript
+:animateddismissableactivity:generateReleaseBuildConfig
+:animateddismissableactivity:generateReleaseResValues
+:animateddismissableactivity:generateReleaseResources
+:animateddismissableactivity:mergeReleaseResources
+:animateddismissableactivity:processReleaseManifest
+:animateddismissableactivity:processReleaseResources
+:animateddismissableactivity:generateReleaseSources
+:animateddismissableactivity:incrementalReleaseJavaCompilationSafeguard
+:animateddismissableactivity:javaPreCompileRelease
+:animateddismissableactivity:compileReleaseJavaWithJavac
+:animateddismissableactivity:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:animateddismissableactivity:extractReleaseAnnotations
+:animateddismissableactivity:mergeReleaseShaders
+:animateddismissableactivity:compileReleaseShaders
+:animateddismissableactivity:generateReleaseAssets
+:animateddismissableactivity:mergeReleaseAssets
+:animateddismissableactivity:mergeReleaseProguardFiles
+:animateddismissableactivity:packageReleaseRenderscript UP-TO-DATE
+:animateddismissableactivity:packageReleaseResources
+:animateddismissableactivity:processReleaseJavaRes UP-TO-DATE
+:animateddismissableactivity:transformResourcesWithMergeJavaResForRelease
+:animateddismissableactivity:transformClassesAndResourcesWithSyncLibJarsForRelease
+:animateddismissableactivity:mergeReleaseJniLibFolders
+:animateddismissableactivity:transformNativeLibsWithMergeJniLibsForRelease
+:animateddismissableactivity:transformNativeLibsWithStripDebugSymbolForRelease
+:animateddismissableactivity:transformNativeLibsWithSyncJniLibsForRelease
+:animateddismissableactivity:bundleRelease
+:animateddismissableactivity:compileReleaseSources
+:animateddismissableactivity:assembleRelease
+:animateddismissableactivity:javadoc
+:animateddismissableactivity:javadocJar
+:animateddismissableactivity:sourcesJar
+:animateddismissableactivity:assemble
+:animateddismissableactivity:build
+
+BUILD SUCCESSFUL
+
+Total time: 14.175 secs
+
+2018-09-01 00:01:03,726 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 00:01:03,726 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 00:04:34,257 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-09-01 00:04:34,257 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-09-01 00:04:34,257 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-09-01 00:04:34,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535733239805-0/src/AnimatedDismissableActivity-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]

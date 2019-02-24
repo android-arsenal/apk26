@@ -1,0 +1,259 @@
+2018-09-01 18:15:56,452 INFO  DownloadService - Downloading "https://github.com/krokyze/uCrop-n-Edit/archive/master.zip", attempt 3
+2018-09-01 18:16:00,126 INFO  DownloadService - Downloaded https://github.com/krokyze/uCrop-n-Edit/archive/master.zip, attempt 3
+2018-09-01 18:16:00,126 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/master.zip": 8 MB
+2018-09-01 18:16:00,126 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 18:16:00,132 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/master.zip: true
+2018-09-01 18:16:00,132 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src'.
+2018-09-01 18:16:00,259 INFO  FullProcessService - Size of directory with sources: 13 MB
+2018-09-01 18:16:00,259 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src]
+2018-09-01 18:16:00,275 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/.git/
+
+2018-09-01 18:16:00,280 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/gradlew
+2018-09-01 18:16:00,285 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/build.gradle
+2018-09-01 18:16:00,289 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/build.gradle
+2018-09-01 18:16:00,289 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 18:16:00,290 INFO  ProjectFixService - Fixing project...
+2018-09-01 18:16:00,301 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/local.properties
+2018-09-01 18:16:00,301 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-01 18:16:00,301 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/local.properties
+2018-09-01 18:16:00,301 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-01 18:16:00,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/local.properties
+2018-09-01 18:16:00,302 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-01 18:16:00,302 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-01 18:16:00,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-09-01 18:16:00,303 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 18:16:00,303 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:16:00,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:16:08,479 INFO  ProjectTaskService - Detected possible tasks: 84
+2018-09-01 18:16:08,479 INFO  ProjectTaskService - Excluded tasks (9): mockableAndroidJar deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2018-09-01 18:16:08,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2018-09-01 18:17:07,145 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration(s) specified but the install task does not exist in project :ucrop.
+:sample:preBuild UP-TO-DATE
+:ucrop:preBuild UP-TO-DATE
+:ucrop:preDebugBuild UP-TO-DATE
+:ucrop:checkDebugManifest
+:ucrop:processDebugManifest
+:sample:preActivityDebugBuild
+:ucrop:compileDebugAidl
+:sample:compileActivityDebugAidl
+:ucrop:packageDebugRenderscript NO-SOURCE
+:sample:compileActivityDebugRenderscript
+:sample:checkActivityDebugManifest
+:sample:generateActivityDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceActivityDebug
+:sample:generateActivityDebugResValues
+:sample:generateActivityDebugResources
+:ucrop:compileDebugRenderscript
+:ucrop:generateDebugResValues
+:ucrop:generateDebugResources
+:ucrop:packageDebugResources
+:sample:mergeActivityDebugResources
+:sample:createActivityDebugCompatibleScreenManifests
+:sample:processActivityDebugManifest
+:sample:splitsDiscoveryTaskActivityDebug
+:ucrop:platformAttrExtractor
+:ucrop:generateDebugBuildConfig
+:ucrop:prepareLintJar
+:ucrop:processDebugJavaRes NO-SOURCE
+:sample:compileActivityDebugNdk NO-SOURCE
+:sample:mergeActivityDebugShaders
+:sample:compileActivityDebugShaders
+:sample:generateActivityDebugAssets
+:ucrop:mergeDebugShaders
+:ucrop:compileDebugShaders
+:ucrop:generateDebugAssets
+:ucrop:packageDebugAssets
+:sample:mergeActivityDebugAssets
+:sample:mergeActivityDebugJniLibFolders
+:ucrop:compileDebugNdk NO-SOURCE
+:ucrop:mergeDebugJniLibFolders
+:ucrop:transformNativeLibsWithMergeJniLibsForDebug
+:ucrop:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:ucrop:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:processActivityDebugJavaRes NO-SOURCE
+:sample:validateSigningActivityDebug
+:sample:preFragmentDebugBuild
+:sample:compileFragmentDebugAidl
+:sample:compileFragmentDebugRenderscript
+:sample:checkFragmentDebugManifest
+:sample:generateFragmentDebugBuildConfig
+:sample:mainApkListPersistenceFragmentDebug
+:sample:generateFragmentDebugResValues
+:sample:generateFragmentDebugResources
+:sample:mergeFragmentDebugResources
+:sample:createFragmentDebugCompatibleScreenManifests
+:sample:processFragmentDebugManifest
+:ucrop:generateDebugRFile
+:sample:processActivityDebugResources
+:sample:generateActivityDebugSources
+:ucrop:compileDebugKotlin
+:ucrop:generateDebugSources
+:ucrop:javaPreCompileDebug
+:ucrop:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:ucrop:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:javaPreCompileActivityDebug
+:sample:compileActivityDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileActivityDebugSources
+:sample:transformClassesWithDexBuilderForActivityDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForActivityDebug
+:sample:transformDexArchiveWithDexMergerForActivityDebug
+:sample:transformNativeLibsWithMergeJniLibsForActivityDebug
+:sample:transformNativeLibsWithStripDebugSymbolForActivityDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/activity/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/activity/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/activity/debug/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:sample:transformResourcesWithMergeJavaResForActivityDebug
+:sample:packageActivityDebug
+:sample:assembleActivityDebug
+:sample:splitsDiscoveryTaskFragmentDebug
+:sample:processFragmentDebugResources
+:sample:generateFragmentDebugSources
+:sample:javaPreCompileFragmentDebug
+:sample:compileFragmentDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileFragmentDebugNdk NO-SOURCE
+:sample:compileFragmentDebugSources
+:sample:mergeFragmentDebugShaders
+:sample:compileFragmentDebugShaders
+:sample:generateFragmentDebugAssets
+:sample:mergeFragmentDebugAssets
+:sample:transformClassesWithDexBuilderForFragmentDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForFragmentDebug
+:sample:transformDexArchiveWithDexMergerForFragmentDebug
+:sample:mergeFragmentDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForFragmentDebug
+:sample:transformNativeLibsWithStripDebugSymbolForFragmentDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/fragment/debug/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/fragment/debug/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/fragment/debug/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:sample:processFragmentDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForFragmentDebug
+:sample:validateSigningFragmentDebug
+:sample:packageFragmentDebug
+:sample:assembleFragmentDebug
+:sample:assembleDebug
+:ucrop:preReleaseBuild UP-TO-DATE
+:ucrop:checkReleaseManifest
+:ucrop:processReleaseManifest
+:sample:preActivityReleaseBuild
+:ucrop:compileReleaseAidl
+:sample:compileActivityReleaseAidl
+:ucrop:packageReleaseRenderscript NO-SOURCE
+:sample:compileActivityReleaseRenderscript
+:sample:checkActivityReleaseManifest
+:sample:generateActivityReleaseBuildConfig
+:sample:mainApkListPersistenceActivityRelease
+:sample:generateActivityReleaseResValues
+:sample:generateActivityReleaseResources
+:ucrop:compileReleaseRenderscript
+:ucrop:generateReleaseResValues
+:ucrop:generateReleaseResources
+:ucrop:packageReleaseResources
+:sample:mergeActivityReleaseResources
+:sample:createActivityReleaseCompatibleScreenManifests
+:sample:processActivityReleaseManifest
+:sample:splitsDiscoveryTaskActivityRelease
+:ucrop:generateReleaseRFile
+:sample:processActivityReleaseResources
+:sample:generateActivityReleaseSources
+:ucrop:generateReleaseBuildConfig
+:ucrop:compileReleaseKotlin
+:ucrop:generateReleaseSources
+:ucrop:javaPreCompileRelease
+:ucrop:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:ucrop:processReleaseJavaRes NO-SOURCE
+:ucrop:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:javaPreCompileActivityRelease
+:sample:compileActivityReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileActivityReleaseNdk NO-SOURCE
+:sample:compileActivityReleaseSources
+:sample:lintVitalActivityRelease
+:sample:mergeActivityReleaseShaders
+:sample:compileActivityReleaseShaders
+:sample:generateActivityReleaseAssets
+:ucrop:mergeReleaseShaders
+:ucrop:compileReleaseShaders
+:ucrop:generateReleaseAssets
+:ucrop:packageReleaseAssets
+:sample:mergeActivityReleaseAssets
+:sample:transformClassesWithDexBuilderForActivityRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForActivityRelease
+:sample:transformDexArchiveWithDexMergerForActivityRelease
+:sample:mergeActivityReleaseJniLibFolders
+:ucrop:compileReleaseNdk NO-SOURCE
+:ucrop:mergeReleaseJniLibFolders
+:ucrop:transformNativeLibsWithMergeJniLibsForRelease
+:ucrop:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:ucrop:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:transformNativeLibsWithMergeJniLibsForActivityRelease
+:sample:transformNativeLibsWithStripDebugSymbolForActivityRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/activity/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/activity/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/activity/release/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:sample:processActivityReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForActivityRelease
+:sample:packageActivityRelease
+:sample:assembleActivityRelease
+:sample:preFragmentReleaseBuild
+:sample:compileFragmentReleaseAidl
+:sample:compileFragmentReleaseRenderscript
+:sample:checkFragmentReleaseManifest
+:sample:generateFragmentReleaseBuildConfig
+:sample:mainApkListPersistenceFragmentRelease
+:sample:generateFragmentReleaseResValues
+:sample:generateFragmentReleaseResources
+:sample:mergeFragmentReleaseResources
+:sample:createFragmentReleaseCompatibleScreenManifests
+:sample:processFragmentReleaseManifest
+:sample:splitsDiscoveryTaskFragmentRelease
+:sample:processFragmentReleaseResources
+:sample:generateFragmentReleaseSources
+:sample:javaPreCompileFragmentRelease
+:sample:compileFragmentReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:sample:compileFragmentReleaseNdk NO-SOURCE
+:sample:compileFragmentReleaseSources
+:sample:lintVitalFragmentRelease
+:sample:mergeFragmentReleaseShaders
+:sample:compileFragmentReleaseShaders
+:sample:generateFragmentReleaseAssets
+:sample:mergeFragmentReleaseAssets
+:sample:transformClassesWithDexBuilderForFragmentRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForFragmentRelease
+:sample:transformDexArchiveWithDexMergerForFragmentRelease
+:sample:mergeFragmentReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForFragmentRelease
+:sample:transformNativeLibsWithStripDebugSymbolForFragmentRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/fragment/release/0/lib/mips/libRSSupport.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/fragment/release/0/lib/mips/librsjni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/fragment/release/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:sample:processFragmentReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForFragmentRelease
+:sample:packageFragmentRelease
+:sample:assembleFragmentRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 57s
+145 actionable tasks: 145 executed
+
+2018-09-01 18:17:07,290 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800556445-0/src/uCrop-n-Edit-master/sample/build/outputs/apk/activity/release/sample-activity-release-unsigned.apk

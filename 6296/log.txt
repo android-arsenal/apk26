@@ -1,0 +1,1043 @@
+2018-09-01 18:06:23,258 INFO  DownloadService - Downloading "https://github.com/Simdea/gmlrva/archive/master.zip", attempt 3
+2018-09-01 18:06:24,239 INFO  DownloadService - Downloaded https://github.com/Simdea/gmlrva/archive/master.zip, attempt 3
+2018-09-01 18:06:24,239 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/master.zip": 197 KB
+2018-09-01 18:06:24,239 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 18:06:24,245 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/master.zip: true
+2018-09-01 18:06:24,246 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src'.
+2018-09-01 18:06:24,280 INFO  FullProcessService - Size of directory with sources: 310 KB
+2018-09-01 18:06:24,280 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src]
+2018-09-01 18:06:24,299 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/.git/
+
+2018-09-01 18:06:24,303 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gradlew
+2018-09-01 18:06:24,307 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/build.gradle
+2018-09-01 18:06:24,310 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/tools/script-check.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/settings.gradle
+2018-09-01 18:06:24,310 INFO  ProjectBuildService - Remote scripts: none
+2018-09-01 18:06:24,310 INFO  ProjectFixService - Fixing project...
+2018-09-01 18:06:24,319 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/local.properties
+2018-09-01 18:06:24,321 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 18:06:24,321 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 18:06:24,322 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/local.properties
+2018-09-01 18:06:24,325 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 18:06:24,325 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 18:06:24,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/local.properties
+2018-09-01 18:06:24,326 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-09-01 18:06:24,327 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-09-01 18:06:24,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-09-01 18:06:24,330 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-09-01 18:06:24,330 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 18:06:24,331 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:06:24,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:06:37,074 INFO  ProjectTaskService - Detected possible tasks: 81
+2018-09-01 18:06:37,074 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-01 18:06:37,075 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-01 18:06:57,790 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':gmlrva-lib' is deprecated. Use 'implementation' instead.
+:gmlrva-lib:preBuild UP-TO-DATE
+:gmlrva-lib:extractProguardFiles
+:gmlrva-lib:preDebugBuild
+:gmlrva-lib:compileDebugAidl
+Download https://jcenter.bintray.com/org/projectlombok/lombok/1.16.18/lombok-1.16.18.pom
+Download https://jcenter.bintray.com/pt/simdea/verifier/annotations/verifier-annotations/0.0.2/verifier-annotations-0.0.2.pom
+Download https://jcenter.bintray.com/pt/simdea/verifier/annotations/verifier-annotations/0.0.2/verifier-annotations-0.0.2.aar
+:gmlrva-lib:compileDebugNdk NO-SOURCE
+:gmlrva-lib:compileDebugRenderscript
+:gmlrva-lib:checkDebugManifest
+:gmlrva-lib:generateDebugBuildConfig
+:gmlrva-lib:prepareLintJar
+:gmlrva-lib:generateDebugResValues
+:gmlrva-lib:generateDebugResources
+:gmlrva-lib:packageDebugResources
+:gmlrva-lib:platformAttrExtractor
+:gmlrva-lib:processDebugManifest
+:gmlrva-lib:javaPreCompileDebug
+Download https://jcenter.bintray.com/org/projectlombok/lombok/1.16.18/lombok-1.16.18.jar
+:gmlrva-lib:mergeDebugShaders
+:gmlrva-lib:compileDebugShaders
+:gmlrva-lib:generateDebugAssets
+:gmlrva-lib:mergeDebugAssets
+:gmlrva-lib:mergeDebugConsumerProguardFiles
+:gmlrva-lib:packageDebugRenderscript NO-SOURCE
+:gmlrva-lib:processDebugJavaRes NO-SOURCE
+:gmlrva-lib:mergeDebugJniLibFolders
+:gmlrva-lib:transformNativeLibsWithMergeJniLibsForDebug
+:gmlrva-lib:transformNativeLibsWithStripDebugSymbolForDebug
+:gmlrva-lib:transformNativeLibsWithSyncJniLibsForDebug
+:gmlrva-lib:preReleaseBuild
+:gmlrva-lib:compileReleaseAidl
+:gmlrva-lib:compileReleaseNdk NO-SOURCE
+:gmlrva-lib:compileReleaseRenderscript
+:gmlrva-lib:checkReleaseManifest
+:gmlrva-lib:generateReleaseBuildConfig
+:gmlrva-lib:generateReleaseResValues
+:gmlrva-lib:generateReleaseResources
+:gmlrva-lib:packageReleaseResources
+:gmlrva-lib:processReleaseManifest
+:gmlrva-lib:javaPreCompileRelease
+:gmlrva-lib:mergeReleaseShaders
+:gmlrva-lib:compileReleaseShaders
+:gmlrva-lib:generateReleaseAssets
+:gmlrva-lib:mergeReleaseAssets
+:gmlrva-lib:mergeReleaseConsumerProguardFiles
+:gmlrva-lib:packageReleaseRenderscript NO-SOURCE
+:gmlrva-lib:processReleaseJavaRes NO-SOURCE
+:gmlrva-lib:mergeReleaseJniLibFolders
+:gmlrva-lib:transformNativeLibsWithMergeJniLibsForRelease
+:gmlrva-lib:transformNativeLibsWithStripDebugSymbolForRelease
+:gmlrva-lib:transformNativeLibsWithSyncJniLibsForRelease
+:gmlrva-lib:mergeReleaseResources
+:gmlrva-lib:verifyReleaseResources
+:gmlrva-lib:processDebugResources
+:gmlrva-lib:generateDebugSources
+:gmlrva-lib:compileDebugJavaWithJavac
+:gmlrva-lib:extractDebugAnnotations
+:gmlrva-lib:transformResourcesWithMergeJavaResForDebug
+:gmlrva-lib:transformClassesAndResourcesWithProguardForDebug
+ProGuard, version 5.3.3
+Reading input...
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/classes/debug] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/60eff2eb8e1cc0e404e575fc4de4a5ac/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0d4491e21bd144178b7539bcf447d988/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/verifier-annotations-0.0.2.aar/cdb658eaaf5890c01547b6a5052d7e5e/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5b3c848714ae0315a8f66a06535d86b1/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01493ead3fc8961e8d6b1c96021fea2e/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/9848e4ff5d4c6c15d88f03d1b292bcc7/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6f244fbff0376d8e312a63f7014ffe75/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/54e21176f706623356a89c43eb06bbb3/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9d928968473c8ca8ea8dc58295bc6e44/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce099b76f5a05fcb802f9276102e5717/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/60eff2eb8e1cc0e404e575fc4de4a5ac/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0d4491e21bd144178b7539bcf447d988/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/verifier-annotations-0.0.2.aar/cdb658eaaf5890c01547b6a5052d7e5e/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5b3c848714ae0315a8f66a06535d86b1/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01493ead3fc8961e8d6b1c96021fea2e/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/9848e4ff5d4c6c15d88f03d1b292bcc7/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6f244fbff0376d8e312a63f7014ffe75/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/54e21176f706623356a89c43eb06bbb3/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9d928968473c8ca8ea8dc58295bc6e44/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce099b76f5a05fcb802f9276102e5717/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.18/557d13dcb647038dc687390711ccb5c9b3ffbd60/lombok-1.16.18.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: you're ignoring all warnings!
+Ignoring unused library classes...
+  Original number of library classes: 6014
+  Final number of library classes:    301
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/outputs/mapping/debug/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 144
+  Final number of program classes:    144
+Inlining subroutines...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/transforms/proguard/debug/0.jar]
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/classes/debug] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/outputs/mapping/debug/dump.txt]...
+:gmlrva-lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:gmlrva-lib:bundleDebug
+:gmlrva-lib:compileDebugSources
+:gmlrva-lib:assembleDebug
+:gmlrva-lib:processReleaseResources
+:gmlrva-lib:generateReleaseSources
+:gmlrva-lib:compileReleaseJavaWithJavac
+:gmlrva-lib:extractReleaseAnnotations
+:gmlrva-lib:transformResourcesWithMergeJavaResForRelease
+:gmlrva-lib:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/60eff2eb8e1cc0e404e575fc4de4a5ac/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0d4491e21bd144178b7539bcf447d988/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/verifier-annotations-0.0.2.aar/cdb658eaaf5890c01547b6a5052d7e5e/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5b3c848714ae0315a8f66a06535d86b1/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01493ead3fc8961e8d6b1c96021fea2e/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/9848e4ff5d4c6c15d88f03d1b292bcc7/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6f244fbff0376d8e312a63f7014ffe75/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/54e21176f706623356a89c43eb06bbb3/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9d928968473c8ca8ea8dc58295bc6e44/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce099b76f5a05fcb802f9276102e5717/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/60eff2eb8e1cc0e404e575fc4de4a5ac/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0d4491e21bd144178b7539bcf447d988/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/verifier-annotations-0.0.2.aar/cdb658eaaf5890c01547b6a5052d7e5e/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5b3c848714ae0315a8f66a06535d86b1/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01493ead3fc8961e8d6b1c96021fea2e/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/9848e4ff5d4c6c15d88f03d1b292bcc7/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6f244fbff0376d8e312a63f7014ffe75/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/54e21176f706623356a89c43eb06bbb3/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9d928968473c8ca8ea8dc58295bc6e44/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce099b76f5a05fcb802f9276102e5717/jars/classes.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.18/557d13dcb647038dc687390711ccb5c9b3ffbd60/lombok-1.16.18.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: you're ignoring all warnings!
+Ignoring unused library classes...
+  Original number of library classes: 6014
+  Final number of library classes:    300
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 144
+  Final number of program classes:    144
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/outputs/mapping/release/dump.txt]...
+:gmlrva-lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:gmlrva-lib:bundleRelease
+:gmlrva-lib:compileReleaseSources
+:gmlrva-lib:assembleRelease
+:gmlrva-lib:assemble
+:gmlrva-lib:build
+
+BUILD SUCCESSFUL in 20s
+51 actionable tasks: 51 executed
+
+2018-09-01 18:06:57,837 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:06:57,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:07:04,827 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-09-01 18:07:04,827 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 18:07:04,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 18:07:47,236 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':gmlrva-sample' is deprecated. Use 'implementation' instead.
+Configuration 'compile' in project ':gmlrva-lib' is deprecated. Use 'implementation' instead.
+:gmlrva-lib:preBuild UP-TO-DATE
+:gmlrva-lib:extractProguardFiles UP-TO-DATE
+:gmlrva-lib:preDebugBuild UP-TO-DATE
+:gmlrva-lib:compileDebugAidl UP-TO-DATE
+:gmlrva-lib:compileDebugRenderscript UP-TO-DATE
+:gmlrva-lib:checkDebugManifest UP-TO-DATE
+:gmlrva-lib:generateDebugBuildConfig UP-TO-DATE
+:gmlrva-lib:prepareLintJar UP-TO-DATE
+:gmlrva-lib:generateDebugResValues UP-TO-DATE
+:gmlrva-lib:generateDebugResources UP-TO-DATE
+:gmlrva-lib:packageDebugResources UP-TO-DATE
+:gmlrva-lib:platformAttrExtractor UP-TO-DATE
+:gmlrva-lib:processDebugManifest UP-TO-DATE
+:gmlrva-lib:processDebugResources UP-TO-DATE
+:gmlrva-lib:generateDebugSources UP-TO-DATE
+:gmlrva-lib:javaPreCompileDebug UP-TO-DATE
+:gmlrva-lib:compileDebugJavaWithJavac UP-TO-DATE
+:gmlrva-lib:processDebugJavaRes NO-SOURCE
+:gmlrva-lib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:gmlrva-sample:preBuild UP-TO-DATE
+:gmlrva-sample:extractProguardFiles
+:gmlrva-sample:preDebugBuild
+:gmlrva-sample:compileDebugAidl
+:gmlrva-lib:packageDebugRenderscript NO-SOURCE
+:gmlrva-sample:compileDebugRenderscript
+:gmlrva-sample:checkDebugManifest
+:gmlrva-sample:generateDebugBuildConfig
+:gmlrva-sample:prepareLintJar
+:gmlrva-sample:generateDebugResValues
+:gmlrva-sample:generateDebugResources
+:gmlrva-sample:mergeDebugResources
+:gmlrva-sample:createDebugCompatibleScreenManifests
+:gmlrva-sample:processDebugManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/src/main/AndroidManifest.xml:6:5-36:19 Warning:
+	application@android:label was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+:gmlrva-sample:splitsDiscoveryTaskDebug
+:gmlrva-sample:processDebugResources
+:gmlrva-sample:generateDebugSources
+:gmlrva-sample:javaPreCompileDebug
+:gmlrva-sample:compileDebugJavaWithJavac
+:gmlrva-sample:compileDebugNdk NO-SOURCE
+:gmlrva-sample:compileDebugSources
+:gmlrva-lib:mergeDebugShaders UP-TO-DATE
+:gmlrva-lib:compileDebugShaders UP-TO-DATE
+:gmlrva-lib:generateDebugAssets UP-TO-DATE
+:gmlrva-lib:mergeDebugAssets UP-TO-DATE
+:gmlrva-sample:mergeDebugShaders
+:gmlrva-sample:compileDebugShaders
+:gmlrva-sample:generateDebugAssets
+:gmlrva-sample:mergeDebugAssets
+:gmlrva-lib:mergeDebugConsumerProguardFiles UP-TO-DATE
+:gmlrva-sample:processDebugJavaRes NO-SOURCE
+:gmlrva-sample:transformResourcesWithMergeJavaResForDebug
+:gmlrva-sample:transformClassesAndResourcesWithProguardForDebug
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/verifier-annotations-0.0.2.aar/cdb658eaaf5890c01547b6a5052d7e5e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/eda3c570c6ed1e8b7efa7061c503e4c4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/f41b9cb2cded2836ea463a41db1f505a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/60eff2eb8e1cc0e404e575fc4de4a5ac/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0d4491e21bd144178b7539bcf447d988/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/fd4dde4b0f1b6ba6e3c66df3da8f3481/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6f9f40119483c34f8099dd1639317893/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5b3c848714ae0315a8f66a06535d86b1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01493ead3fc8961e8d6b1c96021fea2e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/9848e4ff5d4c6c15d88f03d1b292bcc7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/54e21176f706623356a89c43eb06bbb3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6f244fbff0376d8e312a63f7014ffe75/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9d928968473c8ca8ea8dc58295bc6e44/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce099b76f5a05fcb802f9276102e5717/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/classes/debug] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.18/557d13dcb647038dc687390711ccb5c9b3ffbd60/lombok-1.16.18.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Authenticator: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$2: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$Entry: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Challenge: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Connection: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.FormBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Interceptor$Chain: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$1: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$2: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$3: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody$1: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Route: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.WebSocket: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.DiskLruCache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.DiskLruCache$Snapshot: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.connection.RealConnection: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Warning: retrofit2.CallAdapter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$1: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$1: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$2: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Body: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Field: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$FieldMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$FieldMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Header: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$HeaderMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$HeaderMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Part: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$PartMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$PartMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Path: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Query: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$QueryMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$QueryMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$QueryName: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$RawPart: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$RawPart: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$RelativeUrl: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform$Android: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit$1: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit$Builder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit$Builder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ServiceMethod: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Utils: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.converter.gson.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Warning: retrofit2.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemLayout$CarouselCategoryViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemLayout$CarouselCategoryViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemWithOptionLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemWithOptionLayout$CarouselCategoryViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemWithOptionLayout$CarouselCategoryViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.CarouselItemLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.CarouselItemLayout$CarouselItemViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.CarouselItemLayout$CarouselItemViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.CarouselItemWithOptionLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.CarouselItemWithOptionLayout$CarouselItemWithOptionViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.CarouselItemWithOptionLayout$CarouselItemWithOptionViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.SingleImageItemLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.SingleImageItemLayout$SingleImageItemViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.SingleImageItemLayout$SingleImageItemViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.SingleTextItemLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.SingleTextItemLayout$SingleTextItemViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.SingleTextItemLayout$SingleTextItemViewHolder'
+Note: there were 6 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 5 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Warning: there were 221 unresolved references to classes or interfaces.
+         You may need to add missing library jars or update their versions.
+         If your code works fine without the missing classes, you can suppress
+         the warnings with '-dontwarn' options.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
+Note: you're ignoring all warnings!
+Ignoring unused library classes...
+  Original number of library classes: 4719
+  Final number of library classes:    1265
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/outputs/mapping/debug/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2614
+  Final number of program classes:    2558
+Inlining subroutines...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/transforms/proguard/debug/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/verifier-annotations-0.0.2.aar/cdb658eaaf5890c01547b6a5052d7e5e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/eda3c570c6ed1e8b7efa7061c503e4c4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/f41b9cb2cded2836ea463a41db1f505a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/60eff2eb8e1cc0e404e575fc4de4a5ac/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0d4491e21bd144178b7539bcf447d988/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/fd4dde4b0f1b6ba6e3c66df3da8f3481/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6f9f40119483c34f8099dd1639317893/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5b3c848714ae0315a8f66a06535d86b1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01493ead3fc8961e8d6b1c96021fea2e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/9848e4ff5d4c6c15d88f03d1b292bcc7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/54e21176f706623356a89c43eb06bbb3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6f244fbff0376d8e312a63f7014ffe75/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9d928968473c8ca8ea8dc58295bc6e44/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce099b76f5a05fcb802f9276102e5717/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/classes/debug] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/outputs/mapping/debug/dump.txt]...
+:gmlrva-sample:transformClassesWithDexBuilderForDebug
+:gmlrva-sample:transformDexArchiveWithDexMergerForDebug
+:gmlrva-lib:compileDebugNdk NO-SOURCE
+:gmlrva-lib:mergeDebugJniLibFolders UP-TO-DATE
+:gmlrva-lib:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:gmlrva-lib:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:gmlrva-lib:transformNativeLibsWithIntermediateJniLibsForDebug
+:gmlrva-sample:mergeDebugJniLibFolders
+:gmlrva-sample:transformNativeLibsWithMergeJniLibsForDebug
+:gmlrva-sample:transformNativeLibsWithStripDebugSymbolForDebug
+:gmlrva-sample:validateSigningDebug
+:gmlrva-sample:packageDebug
+:gmlrva-sample:assembleDebug
+:gmlrva-lib:preReleaseBuild UP-TO-DATE
+:gmlrva-lib:compileReleaseAidl UP-TO-DATE
+:gmlrva-lib:compileReleaseRenderscript UP-TO-DATE
+:gmlrva-lib:checkReleaseManifest UP-TO-DATE
+:gmlrva-lib:generateReleaseBuildConfig UP-TO-DATE
+:gmlrva-lib:generateReleaseResValues UP-TO-DATE
+:gmlrva-lib:generateReleaseResources UP-TO-DATE
+:gmlrva-lib:packageReleaseResources UP-TO-DATE
+:gmlrva-lib:processReleaseManifest UP-TO-DATE
+:gmlrva-lib:processReleaseResources UP-TO-DATE
+:gmlrva-lib:generateReleaseSources UP-TO-DATE
+:gmlrva-lib:javaPreCompileRelease UP-TO-DATE
+:gmlrva-lib:compileReleaseJavaWithJavac UP-TO-DATE
+:gmlrva-lib:processReleaseJavaRes NO-SOURCE
+:gmlrva-lib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:gmlrva-sample:preReleaseBuild
+:gmlrva-sample:compileReleaseAidl
+:gmlrva-lib:packageReleaseRenderscript NO-SOURCE
+:gmlrva-sample:compileReleaseRenderscript
+:gmlrva-sample:checkReleaseManifest
+:gmlrva-sample:generateReleaseBuildConfig
+:gmlrva-sample:generateReleaseResValues
+:gmlrva-sample:generateReleaseResources
+:gmlrva-sample:mergeReleaseResources
+:gmlrva-sample:createReleaseCompatibleScreenManifests
+:gmlrva-sample:processReleaseManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/src/main/AndroidManifest.xml:6:5-36:19 Warning:
+	application@android:label was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+:gmlrva-sample:splitsDiscoveryTaskRelease
+:gmlrva-sample:processReleaseResources
+:gmlrva-sample:generateReleaseSources
+:gmlrva-sample:javaPreCompileRelease
+:gmlrva-sample:compileReleaseJavaWithJavac
+:gmlrva-sample:compileReleaseNdk NO-SOURCE
+:gmlrva-sample:compileReleaseSources
+:gmlrva-lib:mergeReleaseShaders UP-TO-DATE
+:gmlrva-lib:compileReleaseShaders UP-TO-DATE
+:gmlrva-lib:generateReleaseAssets UP-TO-DATE
+:gmlrva-lib:mergeReleaseAssets UP-TO-DATE
+:gmlrva-sample:mergeReleaseShaders
+:gmlrva-sample:compileReleaseShaders
+:gmlrva-sample:generateReleaseAssets
+:gmlrva-sample:mergeReleaseAssets
+:gmlrva-lib:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:gmlrva-sample:processReleaseJavaRes NO-SOURCE
+:gmlrva-sample:transformResourcesWithMergeJavaResForRelease
+:gmlrva-sample:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/verifier-annotations-0.0.2.aar/cdb658eaaf5890c01547b6a5052d7e5e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/eda3c570c6ed1e8b7efa7061c503e4c4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/f41b9cb2cded2836ea463a41db1f505a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/60eff2eb8e1cc0e404e575fc4de4a5ac/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0d4491e21bd144178b7539bcf447d988/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/fd4dde4b0f1b6ba6e3c66df3da8f3481/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6f9f40119483c34f8099dd1639317893/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5b3c848714ae0315a8f66a06535d86b1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01493ead3fc8961e8d6b1c96021fea2e/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/9848e4ff5d4c6c15d88f03d1b292bcc7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/54e21176f706623356a89c43eb06bbb3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6f244fbff0376d8e312a63f7014ffe75/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9d928968473c8ca8ea8dc58295bc6e44/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce099b76f5a05fcb802f9276102e5717/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.16.18/557d13dcb647038dc687390711ccb5c9b3ffbd60/lombok-1.16.18.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-26/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Address: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Authenticator: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$2: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$CacheResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cache$Entry: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CacheControl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.CertificatePinner: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Challenge: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Connection: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionPool: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ConnectionSpec$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Cookie: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Dispatcher: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.FormBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Handshake: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Headers: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.HttpUrl$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Interceptor$Chain: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MediaType: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.MultipartBody$Part: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.OkHttpClient$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Request$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$1: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$2: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.RequestBody$3: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Response$Builder: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.ResponseBody$1: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.Route: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.WebSocket: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.CacheStrategy: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.DiskLruCache: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.cache.DiskLruCache$Snapshot: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.internal.connection.RealConnection: can't find referenced class javax.annotation.Nullable
+Warning: okhttp3.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Warning: retrofit2.CallAdapter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Converter$Factory: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.concurrent.GuardedBy
+Warning: retrofit2.OkHttpCall: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$1: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$1: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$2: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Body: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Field: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$FieldMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$FieldMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Header: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$HeaderMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$HeaderMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Part: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$PartMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$PartMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Path: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$Query: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$QueryMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$QueryMap: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$QueryName: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$RawPart: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$RawPart: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ParameterHandler$RelativeUrl: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Platform$Android: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.RequestBuilder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Response: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit$1: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit$Builder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Retrofit$Builder: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.ServiceMethod: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.Utils: can't find referenced class javax.annotation.Nullable
+Warning: retrofit2.converter.gson.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Warning: retrofit2.package-info: can't find referenced class javax.annotation.ParametersAreNonnullByDefault
+Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemLayout$CarouselCategoryViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemLayout$CarouselCategoryViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemWithOptionLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemWithOptionLayout$CarouselCategoryViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.CarouselCategoryItemWithOptionLayout$CarouselCategoryViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.CarouselItemLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.CarouselItemLayout$CarouselItemViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.CarouselItemLayout$CarouselItemViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.CarouselItemWithOptionLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.CarouselItemWithOptionLayout$CarouselItemWithOptionViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.CarouselItemWithOptionLayout$CarouselItemWithOptionViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.SingleImageItemLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.SingleImageItemLayout$SingleImageItemViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.SingleImageItemLayout$SingleImageItemViewHolder'
+Note: the configuration keeps the entry point 'pt.simdea.gmlrva.sample.layouts.holders.SingleTextItemLayout { void setElements(pt.simdea.gmlrva.sample.layouts.holders.SingleTextItemLayout$SingleTextItemViewHolder); }', but not the descriptor class 'pt.simdea.gmlrva.sample.layouts.holders.SingleTextItemLayout$SingleTextItemViewHolder'
+Note: there were 6 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 5 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Warning: there were 221 unresolved references to classes or interfaces.
+         You may need to add missing library jars or update their versions.
+         If your code works fine without the missing classes, you can suppress
+         the warnings with '-dontwarn' options.
+         (http://proguard.sourceforge.net/manual/troubleshooting.html#unresolvedclass)
+Note: you're ignoring all warnings!
+Ignoring unused library classes...
+  Original number of library classes: 4719
+  Final number of library classes:    1265
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2614
+  Final number of program classes:    2558
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/verifier-annotations-0.0.2.aar/cdb658eaaf5890c01547b6a5052d7e5e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/eda3c570c6ed1e8b7efa7061c503e4c4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.3.0/9e09011e9767bb76b5e27c9b8223476b93b14631/converter-gson-2.3.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/f41b9cb2cded2836ea463a41db1f505a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/60eff2eb8e1cc0e404e575fc4de4a5ac/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/0d4491e21bd144178b7539bcf447d988/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/fd4dde4b0f1b6ba6e3c66df3da8f3481/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6f9f40119483c34f8099dd1639317893/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/5b3c848714ae0315a8f66a06535d86b1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/01493ead3fc8961e8d6b1c96021fea2e/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/9848e4ff5d4c6c15d88f03d1b292bcc7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/54e21176f706623356a89c43eb06bbb3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/6f244fbff0376d8e312a63f7014ffe75/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9d928968473c8ca8ea8dc58295bc6e44/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.2/b9ef4342c934a1a8b107506273dc8061662a322/support-annotations-27.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ce099b76f5a05fcb802f9276102e5717/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.3/7d7f60c4783872861222166f6164215f8951c7b1/common-1.0.3.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-lib/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/outputs/mapping/release/dump.txt]...
+:gmlrva-sample:transformClassesWithDexForRelease
+:gmlrva-lib:compileReleaseNdk NO-SOURCE
+:gmlrva-lib:mergeReleaseJniLibFolders UP-TO-DATE
+:gmlrva-lib:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:gmlrva-lib:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:gmlrva-lib:transformNativeLibsWithIntermediateJniLibsForRelease
+:gmlrva-sample:mergeReleaseJniLibFolders
+:gmlrva-sample:transformNativeLibsWithMergeJniLibsForRelease
+:gmlrva-sample:transformNativeLibsWithStripDebugSymbolForRelease
+:gmlrva-sample:packageRelease
+:gmlrva-sample:lintVitalRelease
+:gmlrva-sample:assembleRelease
+:gmlrva-sample:assemble
+:gmlrva-sample:build
+
+BUILD SUCCESSFUL in 41s
+92 actionable tasks: 55 executed, 37 up-to-date
+
+2018-09-01 18:07:47,336 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799983250-0/src/gmlrva-master/gmlrva-sample/build/outputs/apk/release/gmlrva-sample-release-unsigned.apk

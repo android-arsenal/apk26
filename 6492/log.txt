@@ -1,0 +1,330 @@
+2018-08-31 15:18:50,196 INFO  DownloadService - Downloading "https://github.com/metes/Android-Slider/archive/master.zip", attempt 3
+2018-08-31 15:18:51,822 INFO  DownloadService - Downloaded https://github.com/metes/Android-Slider/archive/master.zip, attempt 3
+2018-08-31 15:18:51,823 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/master.zip": 553 KB
+2018-08-31 15:18:51,823 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 15:18:51,828 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/master.zip: true
+2018-08-31 15:18:51,829 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src'.
+2018-08-31 15:18:51,859 INFO  FullProcessService - Size of directory with sources: 603 KB
+2018-08-31 15:18:51,859 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src]
+2018-08-31 15:18:51,875 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/.git/
+
+2018-08-31 15:18:51,878 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/gradlew
+2018-08-31 15:18:51,881 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/build.gradle
+2018-08-31 15:18:51,884 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/settings.gradle
+2018-08-31 15:18:51,885 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 15:18:51,885 INFO  ProjectFixService - Fixing project...
+2018-08-31 15:18:51,891 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/local.properties
+2018-08-31 15:18:51,892 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 15:18:51,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/local.properties
+2018-08-31 15:18:51,892 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 15:18:51,893 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/local.properties
+2018-08-31 15:18:51,893 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 15:18:51,893 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 15:18:51,894 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/build.gradle": [buildToolsVersion=27.0.0,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 15:18:51,894 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 15:18:51,894 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 15:18:51,894 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 15:33:24,233 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 143 (Exit value: 143)
+2018-08-31 15:33:24,233 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-08-31 15:33:24,233 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-08-31 15:33:24,233 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-08-31 15:34:19,573 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
+Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+Configuration 'compile' in project ':slider' is deprecated. Use 'implementation' instead.
+Configuration 'androidTestCompile' in project ':slider' is deprecated. Use 'androidTestImplementation' instead.
+Configuration 'testCompile' in project ':slider' is deprecated. Use 'testImplementation' instead.
+:app:preBuild UP-TO-DATE
+:app:extractProguardFiles
+:slider:preBuild UP-TO-DATE
+:slider:preDebugBuild UP-TO-DATE
+:slider:checkDebugManifest
+:slider:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/27.0.1/support-v4-27.0.1.pom
+Download https://jcenter.bintray.com/com/android/support/support-media-compat/27.0.1/support-media-compat-27.0.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/27.0.1/support-v4-27.0.1.aar
+Download https://jcenter.bintray.com/com/android/support/support-media-compat/27.0.1/support-media-compat-27.0.1.aar
+:slider:compileDebugAidl
+:app:compileDebugAidl
+:slider:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:slider:compileDebugRenderscript
+:slider:generateDebugResValues
+:slider:generateDebugResources
+:slider:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:slider:platformAttrExtractor
+:slider:generateDebugBuildConfig
+:slider:prepareLintJar
+:slider:javaPreCompileDebug
+:slider:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:slider:mergeDebugShaders
+:slider:compileDebugShaders
+:slider:generateDebugAssets
+:slider:mergeDebugAssets
+:app:mergeDebugAssets
+:app:processDebugJavaRes NO-SOURCE
+:slider:mergeDebugConsumerProguardFiles
+:app:mergeDebugJniLibFolders
+:slider:compileDebugNdk NO-SOURCE
+:slider:mergeDebugJniLibFolders
+:slider:transformNativeLibsWithMergeJniLibsForDebug
+:slider:transformNativeLibsWithStripDebugSymbolForDebug
+:slider:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:validateSigningDebug
+:slider:preReleaseBuild UP-TO-DATE
+:slider:checkReleaseManifest
+:slider:processReleaseManifest
+:app:preReleaseBuild
+:slider:compileReleaseAidl
+:app:compileReleaseAidl
+:slider:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:slider:compileReleaseRenderscript
+:slider:generateReleaseResValues
+:slider:generateReleaseResources
+:slider:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:slider:generateReleaseBuildConfig
+:slider:javaPreCompileRelease
+:slider:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:slider:mergeReleaseShaders
+:slider:compileReleaseShaders
+:slider:generateReleaseAssets
+:slider:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:processReleaseJavaRes NO-SOURCE
+:slider:mergeReleaseConsumerProguardFiles
+:app:mergeReleaseJniLibFolders
+:slider:compileReleaseNdk NO-SOURCE
+:slider:mergeReleaseJniLibFolders
+:slider:transformNativeLibsWithMergeJniLibsForRelease
+:slider:transformNativeLibsWithStripDebugSymbolForRelease
+:slider:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:preDebugUnitTestBuild
+:app:mockableAndroidJar
+:app:processDebugUnitTestJavaRes NO-SOURCE
+:app:preReleaseUnitTestBuild
+:app:processReleaseUnitTestJavaRes NO-SOURCE
+:slider:processDebugResources
+:app:processDebugResources
+:app:generateDebugSources
+:slider:generateDebugSources
+:slider:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/src/main/java/mt/slider/helper/SliderHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:slider:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/src/main/java/com/example/ui/BlankFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformResourcesWithMergeJavaResForDebug
+:app:transformClassesAndResourcesWithProguardForDebug
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/127e208cbb1b808cec7784d54f2656d6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/f95e6f4b11bb4b1a6c4fd68c13482793/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/7229bd45cb48a6153d44236c863febb9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/714a437cc2c75abcadbcea6d5e74cbe6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/3e56263a02c6339370bb84b5635a032d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/c3dfa7dec594086075a539c7ede4b0e0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/e85bbf4f917aa5c131647f03dc8aa773/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/cdd9ad0a8284001a2e32d55053497021/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/d07c4dcf9053ae7cb5e8800144914a47/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.1/287742f1c6cea6d9126670e9f031890b0462362a/support-annotations-27.0.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/282ab74cf1850cf5d0caf6c732ca2d95/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/classes/debug] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1069
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/outputs/mapping/debug/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1500
+  Final number of program classes:    675
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/outputs/mapping/debug/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/transforms/proguard/debug/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/127e208cbb1b808cec7784d54f2656d6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/f95e6f4b11bb4b1a6c4fd68c13482793/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/7229bd45cb48a6153d44236c863febb9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/714a437cc2c75abcadbcea6d5e74cbe6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/3e56263a02c6339370bb84b5635a032d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/c3dfa7dec594086075a539c7ede4b0e0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/e85bbf4f917aa5c131647f03dc8aa773/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/cdd9ad0a8284001a2e32d55053497021/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/d07c4dcf9053ae7cb5e8800144914a47/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.1/287742f1c6cea6d9126670e9f031890b0462362a/support-annotations-27.0.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/282ab74cf1850cf5d0caf6c732ca2d95/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/classes/debug] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/outputs/mapping/debug/dump.txt]...
+:app:transformClassesWithShrinkResForDebug
+Removed unused resources: Binary resource data reduced from 969KB to 769KB: Removed 20%
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:packageDebug
+:app:assembleDebug
+:slider:processReleaseResources
+:app:processReleaseResources
+:app:generateReleaseSources
+:slider:generateReleaseSources
+:slider:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/src/main/java/mt/slider/helper/SliderHelper.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:slider:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/src/main/java/com/example/ui/BlankFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/127e208cbb1b808cec7784d54f2656d6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/f95e6f4b11bb4b1a6c4fd68c13482793/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/7229bd45cb48a6153d44236c863febb9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/714a437cc2c75abcadbcea6d5e74cbe6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/3e56263a02c6339370bb84b5635a032d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/c3dfa7dec594086075a539c7ede4b0e0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/e85bbf4f917aa5c131647f03dc8aa773/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/cdd9ad0a8284001a2e32d55053497021/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/d07c4dcf9053ae7cb5e8800144914a47/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.1/287742f1c6cea6d9126670e9f031890b0462362a/support-annotations-27.0.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/282ab74cf1850cf5d0caf6c732ca2d95/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1069
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1500
+  Final number of program classes:    674
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.1.aar/127e208cbb1b808cec7784d54f2656d6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.1.aar/f95e6f4b11bb4b1a6c4fd68c13482793/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.1.aar/7229bd45cb48a6153d44236c863febb9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.1.aar/714a437cc2c75abcadbcea6d5e74cbe6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.1.aar/3e56263a02c6339370bb84b5635a032d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.1.aar/c3dfa7dec594086075a539c7ede4b0e0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.1.aar/e85bbf4f917aa5c131647f03dc8aa773/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.1.aar/cdd9ad0a8284001a2e32d55053497021/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.1.aar/d07c4dcf9053ae7cb5e8800144914a47/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.0.1/287742f1c6cea6d9126670e9f031890b0462362a/support-annotations-27.0.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/282ab74cf1850cf5d0caf6c732ca2d95/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/slider/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/outputs/mapping/release/dump.txt]...
+:app:transformClassesWithDexForRelease
+:app:transformClassesWithShrinkResForRelease
+Removed unused resources: Binary resource data reduced from 954KB to 758KB: Removed 20%
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:packageRelease
+:app:lintVitalRelease SKIPPED
+:app:assembleRelease
+:app:assemble
+:app:lint
+Ran lint on variant release: 32 issues found
+Ran lint on variant debug: 32 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/reports/lint-results.xml
+:app:javaPreCompileDebugUnitTest
+:app:compileDebugUnitTestJavaWithJavac
+:app:testDebugUnitTest
+:app:javaPreCompileReleaseUnitTest
+:app:compileReleaseUnitTestJavaWithJavac
+:app:testReleaseUnitTest
+:app:test
+:app:check
+:app:build
+
+BUILD SUCCESSFUL in 54s
+100 actionable tasks: 100 executed
+
+2018-08-31 15:34:19,657 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703530193-0/src/Android-Slider-master/app/build/outputs/apk/debug/app-debug.apk

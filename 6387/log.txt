@@ -1,0 +1,190 @@
+2018-10-25 18:24:46,373 INFO  DownloadService - Downloading "https://github.com/ShockUtility/SmartAdForAndroid/archive/master.zip", attempt 3
+2018-10-25 18:24:49,627 INFO  DownloadService - Downloaded https://github.com/ShockUtility/SmartAdForAndroid/archive/master.zip, attempt 3
+2018-10-25 18:24:49,627 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/master.zip": 733 KB
+2018-10-25 18:24:49,627 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-25 18:24:49,633 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/master.zip: true
+2018-10-25 18:24:49,633 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src'.
+2018-10-25 18:24:49,650 INFO  FullProcessService - Size of directory with sources: 851 KB
+2018-10-25 18:24:49,650 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src]
+2018-10-25 18:24:49,672 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/.git/
+
+2018-10-25 18:24:49,674 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/gradlew
+2018-10-25 18:24:49,676 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/smartad/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/build.gradle
+2018-10-25 18:24:49,677 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/smartad/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/settings.gradle
+2018-10-25 18:24:49,678 INFO  ProjectBuildService - Remote scripts: none
+2018-10-25 18:24:49,678 INFO  ProjectFixService - Fixing project...
+2018-10-25 18:24:49,683 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/smartad/local.properties
+2018-10-25 18:24:49,683 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/smartad/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-25 18:24:49,684 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/local.properties
+2018-10-25 18:24:49,684 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-25 18:24:49,684 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-25 18:24:49,685 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-25 18:24:49,685 INFO  ProjectFixService - Project was maybe fixed
+2018-10-25 18:24:49,685 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-25 18:24:49,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/smartad/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-25 18:24:58,525 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-10-25 18:24:58,526 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-25 18:24:58,526 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/smartad/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-25 18:25:21,577 INFO  SysUtils - Configuration on demand is an incubating feature.
+:smartad:preBuild UP-TO-DATE
+:smartad:preDebugBuild UP-TO-DATE
+:smartad:compileDebugAidl
+Download https://jcenter.bintray.com/com/google/android/gms/play-services-basement/maven-metadata.xml
+Download https://jcenter.bintray.com/com/facebook/android/audience-network-sdk/4.99.0/audience-network-sdk-4.99.0.aar
+:smartad:compileDebugRenderscript
+:smartad:checkDebugManifest
+:smartad:generateDebugBuildConfig
+:smartad:generateDebugResValues
+:smartad:generateDebugResources
+:smartad:packageDebugResources
+:smartad:platformAttrExtractor
+:smartad:processDebugManifest
+:smartad:prepareLintJar
+:smartad:javaPreCompileDebug
+:smartad:mergeDebugConsumerProguardFiles
+:smartad:mergeDebugShaders
+:smartad:compileDebugShaders
+:smartad:generateDebugAssets
+:smartad:packageDebugAssets
+:smartad:packageDebugRenderscript NO-SOURCE
+:smartad:processDebugJavaRes NO-SOURCE
+:smartad:compileDebugNdk NO-SOURCE
+:smartad:mergeDebugJniLibFolders
+:smartad:transformNativeLibsWithMergeJniLibsForDebug
+:smartad:transformNativeLibsWithStripDebugSymbolForDebug
+:smartad:transformNativeLibsWithSyncJniLibsForDebug
+:smartad:preReleaseBuild UP-TO-DATE
+:smartad:compileReleaseAidl
+:smartad:compileReleaseRenderscript
+:smartad:checkReleaseManifest
+:smartad:generateReleaseBuildConfig
+:smartad:generateReleaseResValues
+:smartad:generateReleaseResources
+:smartad:packageReleaseResources
+:smartad:processReleaseManifest
+:smartad:javaPreCompileRelease
+:smartad:mergeReleaseConsumerProguardFiles
+:smartad:mergeReleaseShaders
+:smartad:compileReleaseShaders
+:smartad:generateReleaseAssets
+:smartad:packageReleaseAssets
+:smartad:packageReleaseRenderscript NO-SOURCE
+:smartad:processReleaseJavaRes NO-SOURCE
+:smartad:compileReleaseNdk NO-SOURCE
+:smartad:mergeReleaseJniLibFolders
+:smartad:transformNativeLibsWithMergeJniLibsForRelease
+:smartad:transformNativeLibsWithStripDebugSymbolForRelease
+:smartad:transformNativeLibsWithSyncJniLibsForRelease
+:smartad:mergeReleaseResources
+:smartad:verifyReleaseResources
+:smartad:generateDebugRFile
+:smartad:generateDebugSources
+:smartad:compileDebugJavaWithJavac
+:smartad:extractDebugAnnotations
+Warning: kr.docs.smartad.SmartAd.SmartAdType: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+Warning: kr.docs.smartad.SmartAd.SmartAdOrder: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+Warning: kr.docs.smartad.SmartAd.SmartAdResult: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+:smartad:transformResourcesWithMergeJavaResForDebug
+:smartad:transformClassesAndResourcesWithSyncLibJarsForDebug
+:smartad:bundleDebug
+:smartad:compileDebugSources
+:smartad:assembleDebug
+:smartad:generateReleaseRFile
+:smartad:generateReleaseSources
+:smartad:compileReleaseJavaWithJavac
+:smartad:extractReleaseAnnotations
+Warning: kr.docs.smartad.SmartAd.SmartAdType: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+Warning: kr.docs.smartad.SmartAd.SmartAdOrder: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+Warning: kr.docs.smartad.SmartAd.SmartAdResult: The typedef annotation should have @Retention(RetentionPolicy.SOURCE)
+:smartad:transformResourcesWithMergeJavaResForRelease
+:smartad:transformClassesAndResourcesWithSyncLibJarsForRelease
+:smartad:bundleRelease
+:smartad:compileReleaseSources
+:smartad:assembleRelease
+:smartad:assemble
+:smartad:build
+
+BUILD SUCCESSFUL in 22s
+48 actionable tasks: 48 executed
+
+2018-10-25 18:25:21,629 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-25 18:25:21,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-25 18:25:27,608 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-10-25 18:25:27,608 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-25 18:25:27,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466686364-0/src/SmartAdForAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-25 18:25:34,402 INFO  SysUtils - Configuration on demand is an incubating feature.
+:smartad:preBuild UP-TO-DATE
+:smartad:preDebugBuild UP-TO-DATE
+:smartad:compileDebugAidl UP-TO-DATE
+:smartad:compileDebugRenderscript UP-TO-DATE
+:smartad:checkDebugManifest UP-TO-DATE
+:smartad:generateDebugBuildConfig UP-TO-DATE
+:smartad:generateDebugResValues UP-TO-DATE
+:smartad:generateDebugResources UP-TO-DATE
+:smartad:packageDebugResources UP-TO-DATE
+:smartad:platformAttrExtractor UP-TO-DATE
+:smartad:processDebugManifest UP-TO-DATE
+:smartad:generateDebugRFile UP-TO-DATE
+:smartad:prepareLintJar UP-TO-DATE
+:smartad:generateDebugSources UP-TO-DATE
+:smartad:javaPreCompileDebug UP-TO-DATE
+:smartad:compileDebugJavaWithJavac UP-TO-DATE
+:smartad:extractDebugAnnotations UP-TO-DATE
+:smartad:mergeDebugConsumerProguardFiles UP-TO-DATE
+:smartad:mergeDebugShaders UP-TO-DATE
+:smartad:compileDebugShaders UP-TO-DATE
+:smartad:generateDebugAssets UP-TO-DATE
+:smartad:packageDebugAssets UP-TO-DATE
+:smartad:packageDebugRenderscript NO-SOURCE
+:smartad:processDebugJavaRes NO-SOURCE
+:smartad:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:smartad:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:smartad:compileDebugNdk NO-SOURCE
+:smartad:mergeDebugJniLibFolders UP-TO-DATE
+:smartad:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:smartad:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:smartad:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:smartad:bundleDebug UP-TO-DATE
+:smartad:compileDebugSources UP-TO-DATE
+:smartad:assembleDebug UP-TO-DATE
+:smartad:preReleaseBuild UP-TO-DATE
+:smartad:compileReleaseAidl UP-TO-DATE
+:smartad:compileReleaseRenderscript UP-TO-DATE
+:smartad:checkReleaseManifest UP-TO-DATE
+:smartad:generateReleaseBuildConfig UP-TO-DATE
+:smartad:generateReleaseResValues UP-TO-DATE
+:smartad:generateReleaseResources UP-TO-DATE
+:smartad:packageReleaseResources UP-TO-DATE
+:smartad:processReleaseManifest UP-TO-DATE
+:smartad:generateReleaseRFile UP-TO-DATE
+:smartad:generateReleaseSources UP-TO-DATE
+:smartad:javaPreCompileRelease UP-TO-DATE
+:smartad:compileReleaseJavaWithJavac UP-TO-DATE
+:smartad:extractReleaseAnnotations UP-TO-DATE
+:smartad:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:smartad:mergeReleaseShaders UP-TO-DATE
+:smartad:compileReleaseShaders UP-TO-DATE
+:smartad:generateReleaseAssets UP-TO-DATE
+:smartad:packageReleaseAssets UP-TO-DATE
+:smartad:packageReleaseRenderscript NO-SOURCE
+:smartad:processReleaseJavaRes NO-SOURCE
+:smartad:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:smartad:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:smartad:compileReleaseNdk NO-SOURCE
+:smartad:mergeReleaseJniLibFolders UP-TO-DATE
+:smartad:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:smartad:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:smartad:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:smartad:bundleRelease UP-TO-DATE
+:smartad:compileReleaseSources UP-TO-DATE
+:smartad:mergeReleaseResources UP-TO-DATE
+:smartad:verifyReleaseResources UP-TO-DATE
+:smartad:assembleRelease UP-TO-DATE
+:smartad:assemble UP-TO-DATE
+:smartad:build
+
+BUILD SUCCESSFUL in 6s
+48 actionable tasks: 48 up-to-date
+
+2018-10-25 18:25:34,451 ERROR FullProcessService - Project build has not produced APK file
+2018-10-25 18:25:34,499 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,121 @@
+2018-08-31 16:23:32,337 INFO  DownloadService - Downloading "https://github.com/agilie/VolumeControlView/archive/master.zip", attempt 3
+2018-08-31 16:23:33,352 INFO  DownloadService - Downloaded https://github.com/agilie/VolumeControlView/archive/master.zip, attempt 3
+2018-08-31 16:23:33,353 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/master.zip": 231 KB
+2018-08-31 16:23:33,353 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 16:23:33,359 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/master.zip: true
+2018-08-31 16:23:33,359 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src'.
+2018-08-31 16:23:33,403 INFO  FullProcessService - Size of directory with sources: 248 KB
+2018-08-31 16:23:33,404 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src]
+2018-08-31 16:23:33,423 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/.git/
+
+2018-08-31 16:23:33,429 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/gradlew
+2018-08-31 16:23:33,434 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/VolumeControlView-Sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/volume-control-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/build.gradle
+2018-08-31 16:23:33,438 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/volume-control-view/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/volume-control-view/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/volume-control-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/VolumeControlView-Sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/settings.gradle
+2018-08-31 16:23:33,439 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 16:23:33,439 INFO  ProjectFixService - Fixing project...
+2018-08-31 16:23:33,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/VolumeControlView-Sample/local.properties
+2018-08-31 16:23:33,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/VolumeControlView-Sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2018-08-31 16:23:33,451 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/volume-control-view/local.properties
+2018-08-31 16:23:33,452 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/volume-control-view/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2018-08-31 16:23:33,452 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/local.properties
+2018-08-31 16:23:33,453 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 16:23:33,454 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 16:23:33,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2018-08-31 16:23:33,456 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 16:23:33,456 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 16:23:33,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/VolumeControlView-Sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 16:23:55,878 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-08-31 16:23:55,878 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 16:23:55,879 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/VolumeControlView-Sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 16:24:20,996 INFO  SysUtils - /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/gradlew: line 67: [: -x0: unary operator expected
+/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/gradlew: line 73: [: -x0: unary operator expected
+Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:VolumeControlView-Sample:preBuild UP-TO-DATE
+:VolumeControlView-Sample:preDebugBuild UP-TO-DATE
+:VolumeControlView-Sample:checkDebugManifest
+:VolumeControlView-Sample:preReleaseBuild UP-TO-DATE
+:VolumeControlView-Sample:prepareComAgilieVolumeControlView10Library
+:VolumeControlView-Sample:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:VolumeControlView-Sample:prepareComAndroidSupportAppcompatV72531Library
+:VolumeControlView-Sample:prepareComAndroidSupportConstraintConstraintLayout102Library
+:VolumeControlView-Sample:prepareComAndroidSupportSupportCompat2531Library
+:VolumeControlView-Sample:prepareComAndroidSupportSupportCoreUi2531Library
+:VolumeControlView-Sample:prepareComAndroidSupportSupportCoreUtils2531Library
+:VolumeControlView-Sample:prepareComAndroidSupportSupportFragment2531Library
+:VolumeControlView-Sample:prepareComAndroidSupportSupportMediaCompat2531Library
+:VolumeControlView-Sample:prepareComAndroidSupportSupportV42531Library
+:VolumeControlView-Sample:prepareComAndroidSupportSupportVectorDrawable2531Library
+:VolumeControlView-Sample:prepareDebugDependencies
+:VolumeControlView-Sample:compileDebugAidl
+:VolumeControlView-Sample:compileDebugRenderscript
+:VolumeControlView-Sample:generateDebugBuildConfig
+:VolumeControlView-Sample:generateDebugResValues
+:VolumeControlView-Sample:generateDebugResources
+:VolumeControlView-Sample:mergeDebugResources
+:VolumeControlView-Sample:processDebugManifest
+:VolumeControlView-Sample:processDebugResources
+:VolumeControlView-Sample:generateDebugSources
+:VolumeControlView-Sample:incrementalDebugJavaCompilationSafeguard
+:VolumeControlView-Sample:javaPreCompileDebug
+:VolumeControlView-Sample:compileDebugKotlin
+Using kotlin incremental compilation
+:VolumeControlView-Sample:compileDebugJavaWithJavac
+:VolumeControlView-Sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:VolumeControlView-Sample:copyDebugKotlinClasses
+:VolumeControlView-Sample:compileDebugNdk UP-TO-DATE
+:VolumeControlView-Sample:compileDebugSources
+:VolumeControlView-Sample:mergeDebugShaders
+:VolumeControlView-Sample:compileDebugShaders
+:VolumeControlView-Sample:generateDebugAssets
+:VolumeControlView-Sample:mergeDebugAssets
+:VolumeControlView-Sample:transformClassesWithDexForDebug
+:VolumeControlView-Sample:mergeDebugJniLibFolders
+:VolumeControlView-Sample:transformNativeLibsWithMergeJniLibsForDebug
+:VolumeControlView-Sample:transformNativeLibsWithStripDebugSymbolForDebug
+:VolumeControlView-Sample:processDebugJavaRes UP-TO-DATE
+:VolumeControlView-Sample:transformResourcesWithMergeJavaResForDebug
+:VolumeControlView-Sample:validateSigningDebug
+:VolumeControlView-Sample:packageDebug
+:VolumeControlView-Sample:assembleDebug
+:VolumeControlView-Sample:checkReleaseManifest
+:VolumeControlView-Sample:prepareReleaseDependencies
+:VolumeControlView-Sample:compileReleaseAidl
+:VolumeControlView-Sample:compileReleaseRenderscript
+:VolumeControlView-Sample:generateReleaseBuildConfig
+:VolumeControlView-Sample:generateReleaseResValues
+:VolumeControlView-Sample:generateReleaseResources
+:VolumeControlView-Sample:mergeReleaseResources
+:VolumeControlView-Sample:processReleaseManifest
+:VolumeControlView-Sample:processReleaseResources
+:VolumeControlView-Sample:generateReleaseSources
+:VolumeControlView-Sample:incrementalReleaseJavaCompilationSafeguard
+:VolumeControlView-Sample:javaPreCompileRelease
+:VolumeControlView-Sample:compileReleaseKotlin
+Using kotlin incremental compilation
+:VolumeControlView-Sample:compileReleaseJavaWithJavac
+:VolumeControlView-Sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:VolumeControlView-Sample:copyReleaseKotlinClasses
+:VolumeControlView-Sample:compileReleaseNdk UP-TO-DATE
+:VolumeControlView-Sample:compileReleaseSources
+:VolumeControlView-Sample:lintVitalRelease
+:VolumeControlView-Sample:mergeReleaseShaders
+:VolumeControlView-Sample:compileReleaseShaders
+:VolumeControlView-Sample:generateReleaseAssets
+:VolumeControlView-Sample:mergeReleaseAssets
+:VolumeControlView-Sample:transformClassesWithDexForRelease
+:VolumeControlView-Sample:mergeReleaseJniLibFolders
+:VolumeControlView-Sample:transformNativeLibsWithMergeJniLibsForRelease
+:VolumeControlView-Sample:transformNativeLibsWithStripDebugSymbolForRelease
+:VolumeControlView-Sample:processReleaseJavaRes UP-TO-DATE
+:VolumeControlView-Sample:transformResourcesWithMergeJavaResForRelease
+:VolumeControlView-Sample:packageRelease
+:VolumeControlView-Sample:assembleRelease
+:VolumeControlView-Sample:assemble
+:VolumeControlView-Sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 24.473 secs
+
+2018-08-31 16:24:21,067 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535707412335-0/src/VolumeControlView-master/VolumeControlView-Sample/build/outputs/apk/VolumeControlView-Sample-release-unsigned.apk

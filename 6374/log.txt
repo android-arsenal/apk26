@@ -1,0 +1,169 @@
+2018-08-31 21:25:28,608 INFO  DownloadService - Downloading "https://github.com/ahmedrizwan/AndroidKotlinComponents/archive/master.zip", attempt 3
+2018-08-31 21:25:29,635 INFO  DownloadService - Downloaded https://github.com/ahmedrizwan/AndroidKotlinComponents/archive/master.zip, attempt 3
+2018-08-31 21:25:29,635 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/master.zip": 814 KB
+2018-08-31 21:25:29,635 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 21:25:29,636 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/master.zip: true
+2018-08-31 21:25:29,636 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src'.
+2018-08-31 21:25:29,755 INFO  FullProcessService - Size of directory with sources: 881 KB
+2018-08-31 21:25:29,755 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src]
+2018-08-31 21:25:29,777 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/.git/
+
+2018-08-31 21:25:29,790 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/gradlew
+2018-08-31 21:25:29,803 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/build.gradle
+2018-08-31 21:25:29,814 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/settings.gradle
+2018-08-31 21:25:29,816 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 21:25:29,816 INFO  ProjectFixService - Fixing project...
+2018-08-31 21:25:29,845 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/local.properties
+2018-08-31 21:25:29,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-31 21:25:29,846 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/app/local.properties
+2018-08-31 21:25:29,846 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-31 21:25:29,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/app/local.properties
+2018-08-31 21:25:29,848 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-31 21:25:29,848 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/app/local.properties
+2018-08-31 21:25:29,849 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-31 21:25:29,850 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/local.properties
+2018-08-31 21:25:29,851 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-31 21:25:29,851 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-31 21:25:29,852 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-31 21:25:29,853 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/local.properties
+2018-08-31 21:25:29,854 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-31 21:25:29,854 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-31 21:25:29,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/BasicRx/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-31 21:25:29,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/local.properties
+2018-08-31 21:25:29,856 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-31 21:25:29,857 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-31 21:25:29,858 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Dagger/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-31 21:25:29,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/local.properties
+2018-08-31 21:25:29,859 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-08-31 21:25:29,859 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-08-31 21:25:29,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Realm/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-08-31 21:25:29,860 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 21:25:29,860 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:25:29,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:25:37,700 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-31 21:25:37,701 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 21:25:37,701 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 21:26:43,706 INFO  SysUtils - Configuration on demand is an incubating feature.
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+'kapt.generateStubs' is not used by the 'kotlin-kapt' plugin
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:kaptGenerateStubsDebugKotlin
+:app:kaptDebugKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'org.jetbrains.kotlin.kapt3.ProcessorWrapper' less than -source '1.8'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/tmp/kapt3/stubs/debug/com/snappymob/kotlincomponents/model/Repo.java:94: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+    public static final class Owner {
+                        ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/tmp/kapt3/stubs/debug/com/snappymob/kotlincomponents/model/Repo.java:12: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Repo {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/tmp/kapt3/stubs/debug/com/snappymob/kotlincomponents/model/Repo.java:94: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+    public static final class Owner {
+                        ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/tmp/kapt3/stubs/debug/com/snappymob/kotlincomponents/model/Repo.java:12: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Repo {
+             ^
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/src/main/java/com/snappymob/kotlincomponents/viewmodel/ViewModelFactory.kt: (29, 28): Unchecked cast: ViewModel? to T
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/generated/source/kapt/debug/com/snappymob/kotlincomponents/db/RepoDao_Impl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+w: warning: Supported source version 'RELEASE_7' from annotation processor 'org.jetbrains.kotlin.kapt3.ProcessorWrapper' less than -source '1.8'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/tmp/kapt3/stubs/release/com/snappymob/kotlincomponents/model/Repo.java:94: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+    public static final class Owner {
+                        ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/tmp/kapt3/stubs/release/com/snappymob/kotlincomponents/model/Repo.java:12: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Repo {
+             ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/tmp/kapt3/stubs/release/com/snappymob/kotlincomponents/model/Repo.java:94: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+    public static final class Owner {
+                        ^
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/tmp/kapt3/stubs/release/com/snappymob/kotlincomponents/model/Repo.java:12: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+public final class Repo {
+             ^
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/src/main/java/com/snappymob/kotlincomponents/viewmodel/ViewModelFactory.kt: (29, 28): Unchecked cast: ViewModel? to T
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/generated/source/kapt/release/com/snappymob/kotlincomponents/db/RepoDao_Impl.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 5s
+59 actionable tasks: 59 executed
+
+2018-08-31 21:26:43,795 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725528603-0/src/AndroidKotlinComponents-master/Basic/app/build/outputs/apk/debug/app-debug.apk

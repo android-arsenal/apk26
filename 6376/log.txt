@@ -1,0 +1,271 @@
+2019-01-25 22:37:24,619 INFO  DownloadService - Downloading "https://github.com/avito-tech/krop/archive/master.zip", attempt 3
+2019-01-25 22:37:28,474 INFO  DownloadService - Downloaded https://github.com/avito-tech/krop/archive/master.zip, attempt 3
+2019-01-25 22:37:28,474 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/master.zip": 4 MB
+2019-01-25 22:37:28,474 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-25 22:37:28,475 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/master.zip: true
+2019-01-25 22:37:28,475 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src'.
+2019-01-25 22:37:28,532 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-01-25 22:37:28,532 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src]
+2019-01-25 22:37:28,552 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/.git/
+
+2019-01-25 22:37:28,554 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/gradlew
+2019-01-25 22:37:28,557 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/krop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/build.gradle
+2019-01-25 22:37:28,560 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/krop/build.gradle
+2019-01-25 22:37:28,560 INFO  ProjectBuildService - Remote scripts: none
+2019-01-25 22:37:28,560 INFO  ProjectFixService - Fixing project...
+2019-01-25 22:37:28,568 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/local.properties
+2019-01-25 22:37:28,569 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-01-25 22:37:28,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/krop/local.properties
+2019-01-25 22:37:28,569 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/krop/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=11,targetSdkVersion=27]
+2019-01-25 22:37:28,570 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/local.properties
+2019-01-25 22:37:28,570 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-01-25 22:37:28,570 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-01-25 22:37:28,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-01-25 22:37:28,572 INFO  ProjectFixService - Project was maybe fixed
+2019-01-25 22:37:28,572 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-25 22:37:28,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-25 22:37:38,137 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-25 22:37:38,137 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-25 22:37:38,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-25 22:38:34,165 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :krop:preBuild UP-TO-DATE
+> Task :krop:preDebugBuild UP-TO-DATE
+> Task :krop:checkDebugManifest
+> Task :krop:processDebugManifest
+> Task :app:preDebugBuild
+> Task :krop:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :krop:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :krop:compileDebugRenderscript
+> Task :krop:generateDebugResValues
+> Task :krop:generateDebugResources
+> Task :krop:packageDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :krop:generateDebugRFile
+> Task :app:processDebugResources
+> Task :krop:generateDebugBuildConfig
+> Task :krop:compileDebugKotlin
+> Task :krop:prepareLintJar
+> Task :krop:generateDebugSources
+> Task :krop:javaPreCompileDebug
+> Task :krop:compileDebugJavaWithJavac
+> Task :krop:processDebugJavaRes NO-SOURCE
+> Task :krop:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/src/main/java/com/avito/android/krop/demo/MainActivity.kt: (98, 44): 'getColor(Int): Int' is deprecated. Deprecated in Java
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugNdk NO-SOURCE
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :krop:mergeDebugShaders
+> Task :krop:compileDebugShaders
+> Task :krop:generateDebugAssets
+> Task :krop:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :krop:createFullJarDebug
+> Transform full.jar (project :krop) with IdentityTransform
+> Task :app:mergeExtDexDebug
+> Transform full.jar (project :krop) with DexingTransform
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :krop:compileDebugNdk NO-SOURCE
+> Task :krop:mergeDebugJniLibFolders
+> Task :krop:transformNativeLibsWithMergeJniLibsForDebug
+> Task :krop:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :krop:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:extractProguardFiles
+> Task :krop:preReleaseBuild UP-TO-DATE
+> Task :krop:checkReleaseManifest
+> Task :krop:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :krop:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :krop:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :krop:compileReleaseRenderscript
+> Task :krop:generateReleaseResValues
+> Task :krop:generateReleaseResources
+> Task :krop:packageReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :krop:generateReleaseRFile
+> Task :app:processReleaseResources
+> Task :krop:generateReleaseBuildConfig
+> Task :krop:compileReleaseKotlin
+> Task :krop:generateReleaseSources
+> Task :krop:javaPreCompileRelease
+> Task :krop:compileReleaseJavaWithJavac
+> Task :krop:processReleaseJavaRes NO-SOURCE
+> Task :krop:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/src/main/java/com/avito/android/krop/demo/MainActivity.kt: (98, 44): 'getColor(Int): Int' is deprecated. Deprecated in Java
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseNdk NO-SOURCE
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4f8682109b0925c2e3013397c7996946/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :krop:mergeReleaseShaders
+> Task :krop:compileReleaseShaders
+> Task :krop:generateReleaseAssets
+> Task :krop:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :krop:mergeReleaseConsumerProguardFiles
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/31e7cab3d7ff235bc53902f076e89f3c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/chroma-1.0.2.aar/741316315d28a1e26891a87257d398b6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/f7f6b356a042a32ac192c2219705a5c6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/bc8b99b95b6eca5ea74b68fc8dc73048/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3c77f59bfd7feb12e25c40bc6f84ea31/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/0b41c4d1d9bbe55179146ac69cdccef1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/b561be0672cb43d77b6dc20efeac05b0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ca672da7b30c5fa4149b7cd424ccbc8c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bfb264a5ca234877f2fc9cc80168c321/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b8f6bb6515dad5a7e3a6e995b8630eca/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3fe5d0aadce8674098a43176234e66fa/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e6a6c96abe38fdea7cbdaae745d7d584/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c35a3c71711a5394e5e193550d725470/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0b54cad67f2f33b2a37758654c60ffba/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/ead57528676ff3c8a710aa15174a7190/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/01c66a253b2e6e7d56414dc1bcbf7d6d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9021ce40698cd895680f9f0611b7e759/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/krop/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Initializing...
+Note: com.squareup.picasso.Utils: can't find dynamically referenced class com.squareup.okhttp.OkHttpClient
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
+Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
+Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
+Note: the configuration keeps the entry point 'com.avito.android.krop.KropView { void setCropListener(com.avito.android.krop.KropView$CropListener); }', but not the descriptor class 'com.avito.android.krop.KropView$CropListener'
+Note: the configuration keeps the entry point 'com.avito.android.krop.ZoomableImageView { void setImageMoveListener(com.avito.android.krop.ZoomableImageView$ImageMoveListener); }', but not the descriptor class 'com.avito.android.krop.ZoomableImageView$ImageMoveListener'
+Note: the configuration keeps the entry point 'com.avito.android.krop.ZoomableImageView { void setZoom(com.avito.android.krop.ZoomableImageView); }', but not the descriptor class 'com.avito.android.krop.ZoomableImageView'
+Note: the configuration keeps the entry point 'me.priyesh.chroma.internal.ChannelView { void setListener$chroma_compileReleaseKotlin(kotlin.jvm.functions.Function0); }', but not the descriptor class 'kotlin.jvm.functions.Function0'
+Note: there were 4 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 5 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4612
+  Final number of library classes:    1165
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/outputs/mapping/release/usage.txt]...
+
+> Task :app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+
+Removing unused program classes and class elements...
+  Original number of program classes: 3057
+  Final number of program classes:    1257
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/31e7cab3d7ff235bc53902f076e89f3c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/chroma-1.0.2.aar/741316315d28a1e26891a87257d398b6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/f7f6b356a042a32ac192c2219705a5c6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/bc8b99b95b6eca5ea74b68fc8dc73048/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/3c77f59bfd7feb12e25c40bc6f84ea31/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/0b41c4d1d9bbe55179146ac69cdccef1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/b561be0672cb43d77b6dc20efeac05b0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ca672da7b30c5fa4149b7cd424ccbc8c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bfb264a5ca234877f2fc9cc80168c321/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/b8f6bb6515dad5a7e3a6e995b8630eca/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3fe5d0aadce8674098a43176234e66fa/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/e6a6c96abe38fdea7cbdaae745d7d584/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/c35a3c71711a5394e5e193550d725470/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0b54cad67f2f33b2a37758654c60ffba/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/ead57528676ff3c8a710aa15174a7190/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/01c66a253b2e6e7d56414dc1bcbf7d6d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/9021ce40698cd895680f9f0611b7e759/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/krop/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:transformDexArchiveWithDexMergerForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :krop:compileReleaseNdk NO-SOURCE
+> Task :krop:mergeReleaseJniLibFolders
+> Task :krop:transformNativeLibsWithMergeJniLibsForRelease
+> Task :krop:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :krop:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 55s
+93 actionable tasks: 93 executed
+
+2019-01-25 22:38:34,283 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548430644614-0/src/krop-master/app/build/outputs/apk/debug/app-debug.apk

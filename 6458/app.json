@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "com.agilie.controller",
+    "label" : "VolumeControlView Example",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher_ex.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher_ex.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACMVBMVEX////1/Pqw4NR0ybRcwKdTvKJpxK6P08PL6+P9//655Nl8zLhWvaRAtZhJuJxgwamc2Mnq9/TV7+hOup84sZNkw6vN7OS85dtVvaNDtZnD6N7h9O9Dtpk5spSK0sA8s5Z3yrWQ1MOCzrvv+fe14ter3tLn9vK75dpHt5z1+/rx+vhEtpqz4tb3/PvH6eFxyLK04tav4NRlw6zp9/Pl9fF/zbo9s5ZzyLNwx7Jsxq/Y8OrU7uhKuJ1IuJw+tJbz+/lLuZ7s+PWn3dDr+PSd2crm9fJhwarw+ffx+vf8/v38/v46spRRu6FMuZ51ybVnxKx7y7d9zLm249j4/fyV1saX18dSvKGp3tCg2syj282449mg2suDz7z2/PpoxK2Fz72H0L54y7b5/fyM0sFAtJf+///c8uyR1MNjwquG0L1nxK3C595Ht5t5y7eW1saY18hewKhGt5ul3M7O7OTJ6uLj9PBKt55PuaGt39Po9vPK6uK95dvA5t36/f3u+fac2cpEt5pNuZ/D6N/y+vjc8ezd8u2L0sByyLNZvqU7spWb2MmZ18hBtZhFtpqy4dbu+PZ4yrZdwKd+zbnG6eDZ8etjwqptxrB1ybTM6+RUvKJYvqWa2Mih2szV7+lmw6zI6uHK6+OR1MS/5tzQ7ebE6N9vx7HT7ufP7eVfwKjf8+6m3M+V1sWI0b++5tzi9O+Ez72j286Azrpbv6aS1cT0+/luxrBrxa/e8u3O7OVPuqBqxa7lK2K2AAACnElEQVRIx3WW+UMSQRTHv2ZiRprioJbikdqBIWVCRlaYEUloliRWkmZpRmFl0amd5hXdh112l933/dclsAu7M8/3234+b1h29r03C8iRMC1xepImeQaUkTJTOys1bXZ6BoTQZbJo6LPiMDtHgnPm8vm5eUwOQ7r88/kxxgp03IJCpoiiKJunZBp1frFBKVlJmJWqEJuvWrBALRcuAoxlarZYkW4qN6slWwIs5VBFyTIpvdJiZXwsB6oEyFbYwvkr80TDqoFVBF5dDqyxMypMCSQuq8FaUrDaDJqvg4YWlQ6arwf9j5hzA82rkUpyQ51rIylS4SZ5PZBJihw0kFwPbCJFI18xUmwGLKTYgqZqinuArRRvdgFeSrQA2yi+PVwbZkLsoBe0RorPt1M0bUC7SHfVRcu1Y7ew50kQ93tPS2esIbr2Stpg79bua/Nb2f5sdiDQczC58NDhaHZFb626SY22I0d1wQ7pwnPs+Anp/vCd7Mqt6RTGjOPU6ZK+rGB/5OLM2XPnL8jmomMg6OSyLw3KNWio15uHhkdYqYcltY5ezh8aDkX4FfNVXyzd5REeOmS6NiIUaraUX3dd3EA/cEOk0oQbJN7QTSBAYG84/xZVAlqgkcAFtycX3KEW3KUrho0B98gqvg88IMUAHpLciil69xESpxgzTppr4afFuI3mj+lnY+zJU5pX4RktnvfRvB0vaFH+kuaTJfmKFK8nSDw8WfPGN+SoJIdx2ttwbfS/ayYGHMTxM2KJnXPB95zrAT5wKPDRqOigT9yLdgDj3AKbuufc/BwDPqsPVq6rvyjl14g0dROHfSyavsXd95Qo+/FT0Z/8GEDxL7la4t8znb3yUer+LX7O4E+R2d8wOqFiJu/Y35D9nzc+Mf4D2frj79p6/3gAAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 2381,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.agilie.controller\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f08010f\" android:label=\"VolumeControlView Example\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher_ex.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-mdpi-v4/ic_launcher_ex.png\">\n\t\t<activity android:name=\"com.agilie.controller.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1850408,
+  "crc32" : 1760590947,
+  "sha256" : "4429263e0fcc4b4db4778b14a0884688a802926960909e625c934b0badf61cf4",
+  "buildTime" : 1535707460000
+}

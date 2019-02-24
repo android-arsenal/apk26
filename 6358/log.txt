@@ -1,0 +1,270 @@
+2018-08-31 21:45:42,157 INFO  DownloadService - Downloading "https://github.com/rafaelcrz/android_scroll_endless/archive/master.zip", attempt 3
+2018-08-31 21:45:45,631 INFO  DownloadService - Downloaded https://github.com/rafaelcrz/android_scroll_endless/archive/master.zip, attempt 3
+2018-08-31 21:45:45,632 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/master.zip": 1 MB
+2018-08-31 21:45:45,632 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 21:45:45,632 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/master.zip: true
+2018-08-31 21:45:45,633 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src'.
+2018-08-31 21:45:45,691 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-08-31 21:45:45,691 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src]
+2018-08-31 21:45:45,715 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/.git/
+
+2018-08-31 21:45:45,720 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/gradlew
+2018-08-31 21:45:45,724 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/android_endless_scroll_lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/build.gradle
+2018-08-31 21:45:45,729 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/android_endless_scroll_lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/settings.gradle
+2018-08-31 21:45:45,730 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 21:45:45,730 INFO  ProjectFixService - Fixing project...
+2018-08-31 21:45:45,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/android_endless_scroll_lib/local.properties
+2018-08-31 21:45:45,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/android_endless_scroll_lib/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-31 21:45:45,746 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/app/local.properties
+2018-08-31 21:45:45,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/app/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-31 21:45:45,749 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/local.properties
+2018-08-31 21:45:45,750 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 21:45:45,751 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 21:45:45,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-08-31 21:45:45,752 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 21:45:45,753 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:45:45,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/android_endless_scroll_lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:45:58,394 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-08-31 21:45:58,395 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 21:45:58,395 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/android_endless_scroll_lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 21:46:10,681 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:android_endless_scroll_lib:preBuild UP-TO-DATE
+:android_endless_scroll_lib:preDebugBuild UP-TO-DATE
+:android_endless_scroll_lib:checkDebugManifest
+:android_endless_scroll_lib:preDebugAndroidTestBuild UP-TO-DATE
+:android_endless_scroll_lib:preDebugUnitTestBuild UP-TO-DATE
+:android_endless_scroll_lib:preReleaseBuild UP-TO-DATE
+:android_endless_scroll_lib:preReleaseUnitTestBuild UP-TO-DATE
+:android_endless_scroll_lib:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportAppcompatV72531Library
+:android_endless_scroll_lib:prepareComAndroidSupportRecyclerviewV72531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportCompat2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportCoreUi2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportCoreUtils2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportFragment2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportMediaCompat2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportV42531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportVectorDrawable2531Library
+:android_endless_scroll_lib:prepareDebugDependencies
+:android_endless_scroll_lib:compileDebugAidl
+:android_endless_scroll_lib:compileDebugNdk UP-TO-DATE
+:android_endless_scroll_lib:compileLint
+:android_endless_scroll_lib:copyDebugLint UP-TO-DATE
+:android_endless_scroll_lib:compileDebugRenderscript
+:android_endless_scroll_lib:generateDebugBuildConfig
+:android_endless_scroll_lib:generateDebugResValues
+:android_endless_scroll_lib:generateDebugResources
+:android_endless_scroll_lib:mergeDebugResources
+:android_endless_scroll_lib:processDebugManifest
+:android_endless_scroll_lib:processDebugResources
+:android_endless_scroll_lib:generateDebugSources
+:android_endless_scroll_lib:incrementalDebugJavaCompilationSafeguard
+:android_endless_scroll_lib:javaPreCompileDebug
+:android_endless_scroll_lib:compileDebugJavaWithJavac
+:android_endless_scroll_lib:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android_endless_scroll_lib:extractDebugAnnotations
+:android_endless_scroll_lib:mergeDebugShaders
+:android_endless_scroll_lib:compileDebugShaders
+:android_endless_scroll_lib:generateDebugAssets
+:android_endless_scroll_lib:mergeDebugAssets
+:android_endless_scroll_lib:mergeDebugProguardFiles
+:android_endless_scroll_lib:packageDebugRenderscript UP-TO-DATE
+:android_endless_scroll_lib:packageDebugResources
+:android_endless_scroll_lib:processDebugJavaRes UP-TO-DATE
+:android_endless_scroll_lib:transformResourcesWithMergeJavaResForDebug
+:android_endless_scroll_lib:transformClassesAndResourcesWithSyncLibJarsForDebug
+:android_endless_scroll_lib:mergeDebugJniLibFolders
+:android_endless_scroll_lib:transformNativeLibsWithMergeJniLibsForDebug
+:android_endless_scroll_lib:transformNativeLibsWithStripDebugSymbolForDebug
+:android_endless_scroll_lib:transformNativeLibsWithSyncJniLibsForDebug
+:android_endless_scroll_lib:bundleDebug
+:android_endless_scroll_lib:compileDebugSources
+:android_endless_scroll_lib:assembleDebug
+:android_endless_scroll_lib:checkReleaseManifest
+:android_endless_scroll_lib:prepareReleaseDependencies
+:android_endless_scroll_lib:compileReleaseAidl
+:android_endless_scroll_lib:compileReleaseNdk UP-TO-DATE
+:android_endless_scroll_lib:copyReleaseLint UP-TO-DATE
+:android_endless_scroll_lib:compileReleaseRenderscript
+:android_endless_scroll_lib:generateReleaseBuildConfig
+:android_endless_scroll_lib:generateReleaseResValues
+:android_endless_scroll_lib:generateReleaseResources
+:android_endless_scroll_lib:mergeReleaseResources
+:android_endless_scroll_lib:processReleaseManifest
+:android_endless_scroll_lib:processReleaseResources
+:android_endless_scroll_lib:generateReleaseSources
+:android_endless_scroll_lib:incrementalReleaseJavaCompilationSafeguard
+:android_endless_scroll_lib:javaPreCompileRelease
+:android_endless_scroll_lib:compileReleaseJavaWithJavac
+:android_endless_scroll_lib:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:android_endless_scroll_lib:extractReleaseAnnotations
+:android_endless_scroll_lib:mergeReleaseShaders
+:android_endless_scroll_lib:compileReleaseShaders
+:android_endless_scroll_lib:generateReleaseAssets
+:android_endless_scroll_lib:mergeReleaseAssets
+:android_endless_scroll_lib:mergeReleaseProguardFiles
+:android_endless_scroll_lib:packageReleaseRenderscript UP-TO-DATE
+:android_endless_scroll_lib:packageReleaseResources
+:android_endless_scroll_lib:processReleaseJavaRes UP-TO-DATE
+:android_endless_scroll_lib:transformResourcesWithMergeJavaResForRelease
+:android_endless_scroll_lib:transformClassesAndResourcesWithSyncLibJarsForRelease
+:android_endless_scroll_lib:mergeReleaseJniLibFolders
+:android_endless_scroll_lib:transformNativeLibsWithMergeJniLibsForRelease
+:android_endless_scroll_lib:transformNativeLibsWithStripDebugSymbolForRelease
+:android_endless_scroll_lib:transformNativeLibsWithSyncJniLibsForRelease
+:android_endless_scroll_lib:bundleRelease
+:android_endless_scroll_lib:compileReleaseSources
+:android_endless_scroll_lib:assembleRelease
+:android_endless_scroll_lib:assemble
+:android_endless_scroll_lib:build
+
+BUILD SUCCESSFUL
+
+Total time: 11.943 secs
+
+2018-08-31 21:46:10,736 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:46:10,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:46:17,126 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 21:46:17,126 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 21:46:17,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 21:46:32,703 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:android_endless_scroll_lib:preBuild UP-TO-DATE
+:android_endless_scroll_lib:preReleaseBuild UP-TO-DATE
+:android_endless_scroll_lib:checkReleaseManifest
+:android_endless_scroll_lib:preDebugAndroidTestBuild UP-TO-DATE
+:android_endless_scroll_lib:preDebugBuild UP-TO-DATE
+:android_endless_scroll_lib:preDebugUnitTestBuild UP-TO-DATE
+:android_endless_scroll_lib:preReleaseUnitTestBuild UP-TO-DATE
+:android_endless_scroll_lib:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportAppcompatV72531Library
+:android_endless_scroll_lib:prepareComAndroidSupportRecyclerviewV72531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportCompat2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportCoreUi2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportCoreUtils2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportFragment2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportMediaCompat2531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportV42531Library
+:android_endless_scroll_lib:prepareComAndroidSupportSupportVectorDrawable2531Library
+:android_endless_scroll_lib:prepareReleaseDependencies
+:android_endless_scroll_lib:compileReleaseAidl UP-TO-DATE
+:android_endless_scroll_lib:compileReleaseNdk UP-TO-DATE
+:android_endless_scroll_lib:compileLint UP-TO-DATE
+:android_endless_scroll_lib:copyReleaseLint UP-TO-DATE
+:android_endless_scroll_lib:compileReleaseRenderscript UP-TO-DATE
+:android_endless_scroll_lib:generateReleaseBuildConfig UP-TO-DATE
+:android_endless_scroll_lib:generateReleaseResValues UP-TO-DATE
+:android_endless_scroll_lib:generateReleaseResources UP-TO-DATE
+:android_endless_scroll_lib:mergeReleaseResources UP-TO-DATE
+:android_endless_scroll_lib:processReleaseManifest UP-TO-DATE
+:android_endless_scroll_lib:processReleaseResources UP-TO-DATE
+:android_endless_scroll_lib:generateReleaseSources UP-TO-DATE
+:android_endless_scroll_lib:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:android_endless_scroll_lib:javaPreCompileRelease
+:android_endless_scroll_lib:compileReleaseJavaWithJavac UP-TO-DATE
+:android_endless_scroll_lib:extractReleaseAnnotations UP-TO-DATE
+:android_endless_scroll_lib:mergeReleaseShaders UP-TO-DATE
+:android_endless_scroll_lib:compileReleaseShaders UP-TO-DATE
+:android_endless_scroll_lib:generateReleaseAssets UP-TO-DATE
+:android_endless_scroll_lib:mergeReleaseAssets UP-TO-DATE
+:android_endless_scroll_lib:mergeReleaseProguardFiles UP-TO-DATE
+:android_endless_scroll_lib:packageReleaseRenderscript UP-TO-DATE
+:android_endless_scroll_lib:packageReleaseResources UP-TO-DATE
+:android_endless_scroll_lib:processReleaseJavaRes UP-TO-DATE
+:android_endless_scroll_lib:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:android_endless_scroll_lib:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:android_endless_scroll_lib:mergeReleaseJniLibFolders UP-TO-DATE
+:android_endless_scroll_lib:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:android_endless_scroll_lib:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:android_endless_scroll_lib:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:android_endless_scroll_lib:bundleRelease UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:app:prepareComAndroidSupportAppcompatV72531Library
+:app:prepareComAndroidSupportCardviewV72531Library
+:app:prepareComAndroidSupportConstraintConstraintLayout100Alpha7Library
+:app:prepareComAndroidSupportDesign2531Library
+:app:prepareComAndroidSupportRecyclerviewV72531Library
+:app:prepareComAndroidSupportSupportCompat2531Library
+:app:prepareComAndroidSupportSupportCoreUi2531Library
+:app:prepareComAndroidSupportSupportCoreUtils2531Library
+:app:prepareComAndroidSupportSupportFragment2531Library
+:app:prepareComAndroidSupportSupportMediaCompat2531Library
+:app:prepareComAndroidSupportSupportV42531Library
+:app:prepareComAndroidSupportSupportVectorDrawable2531Library
+:app:prepareComAndroidSupportTransition2531Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/app/src/main/java/com/github/rafaelcrz/android_endless_scroll_app/adapter/ListItensAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/app/src/main/java/com/github/rafaelcrz/android_endless_scroll_app/adapter/ListItensAdapter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 15.305 secs
+
+2018-08-31 21:46:32,804 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726742150-0/src/android_scroll_endless-master/app/build/outputs/apk/app-debug.apk

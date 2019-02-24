@@ -1,0 +1,173 @@
+2018-10-08 16:56:14,997 INFO  DownloadService - Downloading "https://github.com/skydoves/Multi-ColorPicker/archive/master.zip", attempt 3
+2018-10-08 16:56:17,452 INFO  DownloadService - Downloaded https://github.com/skydoves/Multi-ColorPicker/archive/master.zip, attempt 3
+2018-10-08 16:56:17,453 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/master.zip": 759 KB
+2018-10-08 16:56:17,453 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-08 16:56:17,458 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/master.zip: true
+2018-10-08 16:56:17,459 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src'.
+2018-10-08 16:56:17,488 INFO  FullProcessService - Size of directory with sources: 813 KB
+2018-10-08 16:56:17,488 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src]
+2018-10-08 16:56:17,535 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/.git/
+
+2018-10-08 16:56:17,539 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/gradlew
+2018-10-08 16:56:17,543 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/build.gradle
+2018-10-08 16:56:17,548 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/build.gradle
+2018-10-08 16:56:17,548 INFO  ProjectBuildService - Remote scripts: none
+2018-10-08 16:56:17,548 INFO  ProjectFixService - Fixing project...
+2018-10-08 16:56:17,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/app/local.properties
+2018-10-08 16:56:17,560 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-08 16:56:17,560 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-08 16:56:17,561 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/local.properties
+2018-10-08 16:56:17,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-08 16:56:17,563 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-08 16:56:17,565 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/local.properties
+2018-10-08 16:56:17,565 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-08 16:56:17,566 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-08 16:56:17,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-08 16:56:17,568 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-10-08 16:56:17,569 INFO  ProjectFixService - Project was maybe fixed
+2018-10-08 16:56:17,569 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-08 16:56:17,569 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-08 16:56:27,730 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-08 16:56:27,730 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-08 16:56:27,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-08 16:57:40,047 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:multicolorpicker:preBuild UP-TO-DATE
+:multicolorpicker:preDebugBuild UP-TO-DATE
+:multicolorpicker:checkDebugManifest
+:multicolorpicker:processDebugManifest
+:app:preDebugBuild
+:multicolorpicker:compileDebugAidl
+:app:compileDebugAidl
+:multicolorpicker:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:multicolorpicker:compileDebugRenderscript
+:multicolorpicker:generateDebugResValues
+:multicolorpicker:generateDebugResources
+:multicolorpicker:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:multicolorpicker:platformAttrExtractor
+:multicolorpicker:generateDebugBuildConfig
+:multicolorpicker:prepareLintJar
+:multicolorpicker:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:multicolorpicker:mergeDebugShaders
+:multicolorpicker:compileDebugShaders
+:multicolorpicker:generateDebugAssets
+:multicolorpicker:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:multicolorpicker:compileDebugNdk NO-SOURCE
+:multicolorpicker:mergeDebugJniLibFolders
+:multicolorpicker:transformNativeLibsWithMergeJniLibsForDebug
+:multicolorpicker:transformNativeLibsWithStripDebugSymbolForDebug
+:multicolorpicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:multicolorpicker:preReleaseBuild UP-TO-DATE
+:multicolorpicker:checkReleaseManifest
+:multicolorpicker:processReleaseManifest
+:app:preReleaseBuild
+:multicolorpicker:compileReleaseAidl
+:app:compileReleaseAidl
+:multicolorpicker:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:multicolorpicker:compileReleaseRenderscript
+:multicolorpicker:generateReleaseResValues
+:multicolorpicker:generateReleaseResources
+:multicolorpicker:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:multicolorpicker:generateReleaseBuildConfig
+:multicolorpicker:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:multicolorpicker:mergeReleaseShaders
+:multicolorpicker:compileReleaseShaders
+:multicolorpicker:generateReleaseAssets
+:multicolorpicker:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:multicolorpicker:generateDebugRFile
+:app:processDebugResources
+:multicolorpicker:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/src/main/java/com/skydoves/multicolorpicker/MultiColorPickerView.kt: (130, 38): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/src/main/java/com/skydoves/multicolorpicker/MultiColorPickerView.kt: (168, 30): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/src/main/java/com/skydoves/multicolorpicker/MultiColorPickerView.kt: (274, 44): Parameter 'view' is never used, could be renamed to _
+:multicolorpicker:generateDebugSources
+:multicolorpicker:javaPreCompileDebug
+:multicolorpicker:compileDebugJavaWithJavac
+:multicolorpicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:multicolorpicker:generateReleaseRFile
+:app:processReleaseResources
+:multicolorpicker:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/src/main/java/com/skydoves/multicolorpicker/MultiColorPickerView.kt: (130, 38): 'removeGlobalOnLayoutListener(ViewTreeObserver.OnGlobalLayoutListener!): Unit' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/src/main/java/com/skydoves/multicolorpicker/MultiColorPickerView.kt: (168, 30): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/multicolorpicker/src/main/java/com/skydoves/multicolorpicker/MultiColorPickerView.kt: (274, 44): Parameter 'view' is never used, could be renamed to _
+:multicolorpicker:generateReleaseSources
+:multicolorpicker:javaPreCompileRelease
+:multicolorpicker:compileReleaseJavaWithJavac
+:multicolorpicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:multicolorpicker:compileReleaseNdk NO-SOURCE
+:multicolorpicker:mergeReleaseJniLibFolders
+:multicolorpicker:transformNativeLibsWithMergeJniLibsForRelease
+:multicolorpicker:transformNativeLibsWithStripDebugSymbolForRelease
+:multicolorpicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 1m 11s
+95 actionable tasks: 95 executed
+
+2018-10-08 16:57:40,152 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992574988-0/src/Multi-ColorPicker-master/app/build/outputs/apk/debug/app-debug.apk

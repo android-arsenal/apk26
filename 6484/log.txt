@@ -1,0 +1,198 @@
+2018-08-31 15:41:21,131 INFO  DownloadService - Downloading "https://github.com/saantiaguilera/android-api-loquacious/archive/master.zip", attempt 3
+2018-08-31 15:41:23,309 INFO  DownloadService - Downloaded https://github.com/saantiaguilera/android-api-loquacious/archive/master.zip, attempt 3
+2018-08-31 15:41:23,309 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/master.zip": 172 KB
+2018-08-31 15:41:23,309 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 15:41:23,315 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/master.zip: true
+2018-08-31 15:41:23,315 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src'.
+2018-08-31 15:41:23,345 INFO  FullProcessService - Size of directory with sources: 191 KB
+2018-08-31 15:41:23,345 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src]
+2018-08-31 15:41:23,362 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/.git/
+
+2018-08-31 15:41:23,365 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/gradlew
+2018-08-31 15:41:23,370 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/demo-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/locales/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/loquacious/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/server/build.gradle
+2018-08-31 15:41:23,374 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/locales/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/locales/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/locales/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/server/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/loquacious/jacoco.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/loquacious/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/loquacious/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/demo-app/build.gradle
+2018-08-31 15:41:23,375 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 15:41:23,375 INFO  ProjectFixService - Fixing project...
+2018-08-31 15:41:23,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/demo-app/local.properties
+2018-08-31 15:41:23,384 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/demo-app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:41:23,385 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/locales/local.properties
+2018-08-31 15:41:23,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/locales/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:41:23,391 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/loquacious/local.properties
+2018-08-31 15:41:23,395 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/loquacious/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:41:23,395 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/local.properties
+2018-08-31 15:41:23,396 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.5.1-all.zip
+2018-08-31 15:41:23,396 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.5.1-bin.zip)
+2018-08-31 15:41:23,402 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:41:23,403 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/server/local.properties
+2018-08-31 15:41:23,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/server/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:41:23,408 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 15:41:23,408 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 15:41:23,408 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/demo-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 15:42:47,544 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-08-31 15:42:47,544 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 15:42:47,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/demo-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 15:43:39,114 INFO  SysUtils - Configuration on demand is an incubating feature.
+:demo-app:preBuild UP-TO-DATE
+:demo-app:preDebugBuild UP-TO-DATE
+:demo-app:checkDebugManifest
+:demo-app:preReleaseBuild UP-TO-DATE
+:demo-app:prepareAndroidArchLifecycleRuntime100Library
+:demo-app:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:demo-app:prepareComAndroidSupportAppcompatV72610Library
+:demo-app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:demo-app:prepareComAndroidSupportDesign2610Library
+:demo-app:prepareComAndroidSupportRecyclerviewV72610Library
+:demo-app:prepareComAndroidSupportSupportCompat2610Library
+:demo-app:prepareComAndroidSupportSupportCoreUi2610Library
+:demo-app:prepareComAndroidSupportSupportCoreUtils2610Library
+:demo-app:prepareComAndroidSupportSupportFragment2610Library
+:demo-app:prepareComAndroidSupportSupportMediaCompat2610Library
+:demo-app:prepareComAndroidSupportSupportV42610Library
+:demo-app:prepareComAndroidSupportSupportVectorDrawable2610Library
+:demo-app:prepareComAndroidSupportTransition2610Library
+:locales:preBuild UP-TO-DATE
+:locales:preReleaseBuild UP-TO-DATE
+:locales:checkReleaseManifest
+:loquacious:preBuild UP-TO-DATE
+:loquacious:preReleaseBuild UP-TO-DATE
+:loquacious:checkReleaseManifest
+:loquacious:prepareReleaseDependencies
+:loquacious:compileReleaseAidl
+:loquacious:compileReleaseNdk NO-SOURCE
+:loquacious:compileLint
+:loquacious:copyReleaseLint NO-SOURCE
+:loquacious:compileReleaseRenderscript
+:loquacious:generateReleaseBuildConfig
+:loquacious:generateReleaseResValues
+:loquacious:generateReleaseResources
+:loquacious:packageReleaseResources
+:loquacious:processReleaseManifest
+:loquacious:processReleaseResources
+:loquacious:generateReleaseSources
+:loquacious:incrementalReleaseJavaCompilationSafeguard
+:loquacious:javaPreCompileRelease
+:loquacious:compileReleaseKotlin
+:loquacious:compileReleaseJavaWithJavac
+:loquacious:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:loquacious:copyReleaseKotlinClasses
+:loquacious:extractReleaseAnnotations
+:loquacious:mergeReleaseShaders
+:loquacious:compileReleaseShaders
+:loquacious:generateReleaseAssets
+:loquacious:mergeReleaseAssets
+:loquacious:mergeReleaseProguardFiles
+:loquacious:packageReleaseRenderscript NO-SOURCE
+:loquacious:processReleaseJavaRes NO-SOURCE
+:loquacious:transformResourcesWithMergeJavaResForRelease
+:loquacious:transformClassesAndResourcesWithSyncLibJarsForRelease
+:loquacious:mergeReleaseJniLibFolders
+:loquacious:transformNativeLibsWithMergeJniLibsForRelease
+:loquacious:transformNativeLibsWithStripDebugSymbolForRelease
+:loquacious:transformNativeLibsWithSyncJniLibsForRelease
+:loquacious:bundleRelease
+:locales:prepareReleaseDependencies
+:locales:compileReleaseAidl
+:locales:compileReleaseNdk NO-SOURCE
+:locales:compileLint
+:locales:copyReleaseLint NO-SOURCE
+:locales:compileReleaseRenderscript
+:locales:generateReleaseBuildConfig
+:locales:generateReleaseResValues
+:locales:generateReleaseResources
+:locales:mergeReleaseResources
+:locales:processReleaseManifest
+:locales:processReleaseResources
+:locales:generateReleaseSources
+:locales:incrementalReleaseJavaCompilationSafeguard
+:locales:javaPreCompileRelease
+:locales:compileReleaseKotlin
+:locales:compileReleaseJavaWithJavac
+:locales:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:locales:copyReleaseKotlinClasses
+:locales:extractReleaseAnnotations
+:locales:mergeReleaseShaders
+:locales:compileReleaseShaders
+:locales:generateReleaseAssets
+:locales:mergeReleaseAssets
+:locales:mergeReleaseProguardFiles
+:locales:packageReleaseRenderscript NO-SOURCE
+:locales:packageReleaseResources
+:locales:processReleaseJavaRes NO-SOURCE
+:locales:transformResourcesWithMergeJavaResForRelease
+:locales:transformClassesAndResourcesWithSyncLibJarsForRelease
+:locales:mergeReleaseJniLibFolders
+:locales:transformNativeLibsWithMergeJniLibsForRelease
+:locales:transformNativeLibsWithStripDebugSymbolForRelease
+:locales:transformNativeLibsWithSyncJniLibsForRelease
+:locales:bundleRelease
+:demo-app:prepareDebugDependencies
+:demo-app:compileDebugAidl
+:demo-app:compileDebugRenderscript
+:demo-app:generateDebugBuildConfig
+:demo-app:generateDebugResValues
+:demo-app:generateDebugResources
+:demo-app:mergeDebugResources
+:demo-app:processDebugManifest
+:demo-app:processDebugResources
+:demo-app:generateDebugSources
+:demo-app:incrementalDebugJavaCompilationSafeguard
+:demo-app:javaPreCompileDebug
+:demo-app:compileDebugKotlin
+:demo-app:compileDebugJavaWithJavac
+:demo-app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:demo-app:copyDebugKotlinClasses
+:demo-app:compileDebugNdk NO-SOURCE
+:demo-app:compileDebugSources
+:demo-app:mergeDebugShaders
+:demo-app:compileDebugShaders
+:demo-app:generateDebugAssets
+:demo-app:mergeDebugAssets
+:demo-app:transformClassesWithDexForDebug
+:demo-app:mergeDebugJniLibFolders
+:demo-app:transformNativeLibsWithMergeJniLibsForDebug
+:demo-app:transformNativeLibsWithStripDebugSymbolForDebug
+:demo-app:processDebugJavaRes NO-SOURCE
+:demo-app:transformResourcesWithMergeJavaResForDebug
+:demo-app:validateSigningDebug
+:demo-app:packageDebug
+:demo-app:assembleDebug
+:demo-app:checkReleaseManifest
+:demo-app:prepareReleaseDependencies
+:demo-app:compileReleaseAidl
+:demo-app:compileReleaseRenderscript
+:demo-app:generateReleaseBuildConfig
+:demo-app:generateReleaseResValues
+:demo-app:generateReleaseResources
+:demo-app:mergeReleaseResources
+:demo-app:processReleaseManifest
+:demo-app:processReleaseResources
+:demo-app:generateReleaseSources
+:demo-app:incrementalReleaseJavaCompilationSafeguard
+:demo-app:javaPreCompileRelease
+:demo-app:compileReleaseKotlin
+:demo-app:compileReleaseJavaWithJavac
+:demo-app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:demo-app:copyReleaseKotlinClasses
+:demo-app:compileReleaseNdk NO-SOURCE
+:demo-app:compileReleaseSources
+:demo-app:lintVitalRelease
+:demo-app:mergeReleaseShaders
+:demo-app:compileReleaseShaders
+:demo-app:generateReleaseAssets
+:demo-app:mergeReleaseAssets
+:demo-app:transformClassesWithDexForRelease
+:demo-app:mergeReleaseJniLibFolders
+:demo-app:transformNativeLibsWithMergeJniLibsForRelease
+:demo-app:transformNativeLibsWithStripDebugSymbolForRelease
+:demo-app:processReleaseJavaRes NO-SOURCE
+:demo-app:transformResourcesWithMergeJavaResForRelease
+:demo-app:packageRelease
+:demo-app:assembleRelease
+:demo-app:assemble
+:demo-app:build
+
+BUILD SUCCESSFUL
+
+Total time: 50.648 secs
+
+2018-08-31 15:43:39,196 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535704881127-0/src/android-api-loquacious-master/demo-app/build/outputs/apk/demo-app-release-unsigned.apk

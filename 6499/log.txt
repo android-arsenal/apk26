@@ -1,0 +1,140 @@
+2018-08-31 15:15:34,010 INFO  DownloadService - Downloading "https://github.com/emmanuelkehinde/Shutdown/archive/master.zip", attempt 3
+2018-08-31 15:15:35,612 INFO  DownloadService - Downloaded https://github.com/emmanuelkehinde/Shutdown/archive/master.zip, attempt 3
+2018-08-31 15:15:35,613 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/master.zip": 1 MB
+2018-08-31 15:15:35,613 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 15:15:35,619 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/master.zip: true
+2018-08-31 15:15:35,619 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src'.
+2018-08-31 15:15:35,645 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-08-31 15:15:35,645 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src]
+2018-08-31 15:15:35,661 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/.git/
+
+2018-08-31 15:15:35,664 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/gradlew
+2018-08-31 15:15:35,667 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/shutdown/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/build.gradle
+2018-08-31 15:15:35,669 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/shutdown/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/sampleapp/build.gradle
+2018-08-31 15:15:35,670 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 15:15:35,670 INFO  ProjectFixService - Fixing project...
+2018-08-31 15:15:35,677 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/sampleapp/local.properties
+2018-08-31 15:15:35,677 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/sampleapp/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:15:35,677 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/shutdown/local.properties
+2018-08-31 15:15:35,678 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/shutdown/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:15:35,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/local.properties
+2018-08-31 15:15:35,679 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 15:15:35,679 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 15:15:35,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 15:15:35,680 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 15:15:35,680 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 15:15:35,680 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 15:15:58,055 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-31 15:15:58,055 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 15:15:58,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 15:16:40,577 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sampleapp:preBuild UP-TO-DATE
+:sampleapp:preDebugBuild
+Download https://jcenter.bintray.com/com/emmanuelkehinde/shutdown/1.0.1/shutdown-1.0.1.pom
+Download https://jcenter.bintray.com/com/emmanuelkehinde/shutdown/1.0.1/shutdown-1.0.1.aar
+:sampleapp:compileDebugAidl
+:sampleapp:compileDebugRenderscript
+:sampleapp:checkDebugManifest
+:sampleapp:generateDebugBuildConfig
+:sampleapp:prepareLintJar
+:sampleapp:generateDebugResValues
+:sampleapp:generateDebugResources
+:sampleapp:mergeDebugResources
+:sampleapp:createDebugCompatibleScreenManifests
+:sampleapp:processDebugManifest
+:sampleapp:splitsDiscoveryTaskDebug
+:sampleapp:processDebugResources
+:sampleapp:generateDebugSources
+:sampleapp:javaPreCompileDebug
+:sampleapp:compileDebugJavaWithJavac
+:sampleapp:compileDebugNdk NO-SOURCE
+:sampleapp:compileDebugSources
+:sampleapp:mergeDebugShaders
+:sampleapp:compileDebugShaders
+:sampleapp:generateDebugAssets
+:sampleapp:mergeDebugAssets
+:sampleapp:extractTryWithResourcesSupportJarDebug
+:sampleapp:transformClassesWithStackFramesFixerForDebug
+:sampleapp:transformClassesWithDesugarForDebug
+:sampleapp:transformClassesWithDexBuilderForDebug
+D8 is used to build dex.
+:sampleapp:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sampleapp:transformDexArchiveWithDexMergerForDebug
+D8 is used to merge dex.
+:sampleapp:mergeDebugJniLibFolders
+:sampleapp:transformNativeLibsWithMergeJniLibsForDebug
+:sampleapp:transformNativeLibsWithStripDebugSymbolForDebug
+:sampleapp:processDebugJavaRes NO-SOURCE
+:sampleapp:transformResourcesWithMergeJavaResForDebug
+:sampleapp:validateSigningDebug
+:sampleapp:packageDebug
+:sampleapp:assembleDebug
+:sampleapp:preReleaseBuild
+:sampleapp:compileReleaseAidl
+:sampleapp:compileReleaseRenderscript
+:sampleapp:checkReleaseManifest
+:sampleapp:generateReleaseBuildConfig
+:sampleapp:generateReleaseResValues
+:sampleapp:generateReleaseResources
+:sampleapp:mergeReleaseResources
+:sampleapp:createReleaseCompatibleScreenManifests
+:sampleapp:processReleaseManifest
+:sampleapp:splitsDiscoveryTaskRelease
+:sampleapp:processReleaseResources
+:sampleapp:generateReleaseSources
+:sampleapp:javaPreCompileRelease
+:sampleapp:compileReleaseJavaWithJavac
+:sampleapp:compileReleaseNdk NO-SOURCE
+:sampleapp:compileReleaseSources
+:sampleapp:lintVitalRelease
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0-alpha03/lint-gradle-26.1.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0-alpha03/lint-26.1.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0-alpha03/uast-26.1.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0-alpha03/intellij-core-26.1.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0-alpha03/kotlin-compiler-26.1.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0-alpha03/lint-kotlin-26.1.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0-alpha03/lint-checks-26.1.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0-alpha03/lint-api-26.1.0-alpha03.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.0-alpha03/lint-api-26.1.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.0-alpha03/uast-26.1.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.0-alpha03/intellij-core-26.1.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0-alpha03/lint-kotlin-26.1.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0-alpha03/lint-26.1.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.0-alpha03/lint-checks-26.1.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0-alpha03/lint-gradle-26.1.0-alpha03.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.0-alpha03/kotlin-compiler-26.1.0-alpha03.jar
+:sampleapp:mergeReleaseShaders
+:sampleapp:compileReleaseShaders
+:sampleapp:generateReleaseAssets
+:sampleapp:mergeReleaseAssets
+:sampleapp:extractTryWithResourcesSupportJarRelease
+:sampleapp:transformClassesWithStackFramesFixerForRelease
+:sampleapp:transformClassesWithDesugarForRelease
+:sampleapp:transformClassesWithDexBuilderForRelease
+D8 is used to build dex.
+:sampleapp:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sampleapp:transformDexArchiveWithDexMergerForRelease
+D8 is used to merge dex.
+:sampleapp:mergeReleaseJniLibFolders
+:sampleapp:transformNativeLibsWithMergeJniLibsForRelease
+:sampleapp:transformNativeLibsWithStripDebugSymbolForRelease
+:sampleapp:processReleaseJavaRes NO-SOURCE
+:sampleapp:transformResourcesWithMergeJavaResForRelease
+:sampleapp:packageRelease
+:sampleapp:assembleRelease
+:sampleapp:assemble
+:sampleapp:build
+
+BUILD SUCCESSFUL in 41s
+57 actionable tasks: 57 executed
+Exception in thread "Thread-30" java.lang.NoClassDefFoundError: com/android/utils/PathUtils$1
+	at com.android.utils.PathUtils.deleteIfExists(PathUtils.java:47)
+	at com.android.utils.PathUtils.lambda$addRemovePathHook$0(PathUtils.java:125)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.ClassNotFoundException: com.android.utils.PathUtils$1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 3 more
+
+2018-08-31 15:16:40,640 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535703334003-0/src/Shutdown-master/sampleapp/build/outputs/apk/release/sampleapp-release-unsigned.apk

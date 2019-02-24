@@ -1,0 +1,266 @@
+2018-09-01 18:09:19,655 INFO  DownloadService - Downloading "https://github.com/jibbo/SweetPrefs/archive/master.zip", attempt 3
+2018-09-01 18:09:21,541 INFO  DownloadService - Downloaded https://github.com/jibbo/SweetPrefs/archive/master.zip, attempt 3
+2018-09-01 18:09:21,541 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/master.zip": 136 KB
+2018-09-01 18:09:21,541 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-01 18:09:21,543 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/master.zip: true
+2018-09-01 18:09:21,543 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src'.
+2018-09-01 18:09:21,558 INFO  FullProcessService - Size of directory with sources: 144 KB
+2018-09-01 18:09:21,558 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src]
+2018-09-01 18:09:21,577 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/.git/
+
+2018-09-01 18:09:21,580 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/gradlew
+2018-09-01 18:09:21,582 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sweetprefs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/build.gradle
+2018-09-01 18:09:21,584 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sweetprefs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/build.gradle
+2018-09-01 18:09:21,584 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/jibbo/JCenter/master/bintrayv1.gradle", attempt 3
+2018-09-01 18:09:21,679 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/jibbo/JCenter/master/bintrayv1.gradle, attempt 3
+2018-09-01 18:09:21,679 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/jibbo/JCenter/master/installv1.gradle", attempt 3
+2018-09-01 18:09:21,771 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/jibbo/JCenter/master/installv1.gradle, attempt 3
+2018-09-01 18:09:21,772 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/jibbo/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/jibbo/JCenter/master/installv1.gradle
+2018-09-01 18:09:21,772 INFO  ProjectFixService - Fixing project...
+2018-09-01 18:09:21,780 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/local.properties
+2018-09-01 18:09:21,780 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/build.gradle": [buildToolsVersion=26.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-09-01 18:09:21,780 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sweetprefs/local.properties
+2018-09-01 18:09:21,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sweetprefs/build.gradle": [buildToolsVersion=26.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2018-09-01 18:09:21,781 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/local.properties
+2018-09-01 18:09:21,782 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-09-01 18:09:21,782 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-09-01 18:09:21,783 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/build.gradle": [buildToolsVersion=26.0.3,compileSdkVersion=26,minSdkVersion=9,targetSdkVersion=26]
+2018-09-01 18:09:21,783 INFO  ProjectFixService - Project was maybe fixed
+2018-09-01 18:09:21,783 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-01 18:09:21,783 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-01 18:09:30,620 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-09-01 18:09:30,621 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-01 18:09:30,621 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-01 18:09:37,653 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-09-01 18:09:37,653 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Task 'javadocJar' not found in project ':sampleapp'.
+
+* Try:
+Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':sampleapp'.
+	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
+	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
+	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:185)
+	at org.gradle.initialization.DefaultGradleLauncher$2.execute(DefaultGradleLauncher.java:182)
+	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:244)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:217)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+
+
+BUILD FAILED
+
+Total time: 6.743 secs
+
+2018-09-01 18:09:37,653 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2018-09-01 18:09:37,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-09-01 18:10:01,403 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:sampleapp:preBuild UP-TO-DATE
+:sampleapp:preDebugBuild UP-TO-DATE
+:sampleapp:checkDebugManifest
+:sampleapp:preReleaseBuild UP-TO-DATE
+:sampleapp:prepareComAndroidSupportAnimatedVectorDrawable2600Library
+:sampleapp:prepareComAndroidSupportAppcompatV72600Library
+:sampleapp:prepareComAndroidSupportSupportCompat2600Library
+:sampleapp:prepareComAndroidSupportSupportCoreUi2600Library
+:sampleapp:prepareComAndroidSupportSupportCoreUtils2600Library
+:sampleapp:prepareComAndroidSupportSupportFragment2600Library
+:sampleapp:prepareComAndroidSupportSupportMediaCompat2600Library
+:sampleapp:prepareComAndroidSupportSupportV42600Library
+:sampleapp:prepareComAndroidSupportSupportVectorDrawable2600Library
+:sweetprefs:preBuild UP-TO-DATE
+:sweetprefs:preReleaseBuild UP-TO-DATE
+:sweetprefs:checkReleaseManifest
+:sweetprefs:prepareReleaseDependencies
+:sweetprefs:compileReleaseAidl
+:sweetprefs:compileReleaseNdk UP-TO-DATE
+:sweetprefs:compileLint
+:sweetprefs:copyReleaseLint UP-TO-DATE
+:sweetprefs:compileReleaseRenderscript
+:sweetprefs:generateReleaseBuildConfig
+:sweetprefs:generateReleaseResValues
+:sweetprefs:generateReleaseResources
+:sweetprefs:packageReleaseResources
+:sweetprefs:processReleaseManifest
+:sweetprefs:processReleaseResources
+:sweetprefs:generateReleaseSources
+:sweetprefs:incrementalReleaseJavaCompilationSafeguard
+:sweetprefs:javaPreCompileRelease
+:sweetprefs:compileReleaseJavaWithJavac
+:sweetprefs:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sweetprefs/src/main/java/eu/giovannidefrancesco/easysharedprefslib/SharedPreferenceStorage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:sweetprefs:extractReleaseAnnotations
+:sweetprefs:mergeReleaseShaders
+:sweetprefs:compileReleaseShaders
+:sweetprefs:generateReleaseAssets
+:sweetprefs:mergeReleaseAssets
+:sweetprefs:mergeReleaseProguardFiles
+:sweetprefs:packageReleaseRenderscript UP-TO-DATE
+:sweetprefs:processReleaseJavaRes UP-TO-DATE
+:sweetprefs:transformResourcesWithMergeJavaResForRelease
+:sweetprefs:transformClassesAndResourcesWithSyncLibJarsForRelease
+:sweetprefs:mergeReleaseJniLibFolders
+:sweetprefs:transformNativeLibsWithMergeJniLibsForRelease
+:sweetprefs:transformNativeLibsWithStripDebugSymbolForRelease
+:sweetprefs:transformNativeLibsWithSyncJniLibsForRelease
+:sweetprefs:bundleRelease
+:sampleapp:prepareDebugDependencies
+:sampleapp:compileDebugAidl
+:sampleapp:compileDebugRenderscript
+:sampleapp:generateDebugBuildConfig
+:sampleapp:generateDebugResValues
+:sampleapp:generateDebugResources
+:sampleapp:mergeDebugResources
+:sampleapp:processDebugManifest
+:sampleapp:processDebugResources
+:sampleapp:generateDebugSources
+:sampleapp:incrementalDebugJavaCompilationSafeguard
+:sampleapp:javaPreCompileDebug
+:sampleapp:compileDebugJavaWithJavac
+:sampleapp:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sampleapp:compileDebugNdk UP-TO-DATE
+:sampleapp:compileDebugSources
+:sampleapp:mergeDebugShaders
+:sampleapp:compileDebugShaders
+:sampleapp:generateDebugAssets
+:sampleapp:mergeDebugAssets
+:sampleapp:transformClassesWithDexForDebug
+:sampleapp:mergeDebugJniLibFolders
+:sampleapp:transformNativeLibsWithMergeJniLibsForDebug
+:sampleapp:transformNativeLibsWithStripDebugSymbolForDebug
+:sampleapp:processDebugJavaRes UP-TO-DATE
+:sampleapp:transformResourcesWithMergeJavaResForDebug
+:sampleapp:validateSigningDebug
+:sampleapp:packageDebug
+:sampleapp:assembleDebug
+:sampleapp:checkReleaseManifest
+:sampleapp:prepareReleaseDependencies
+:sampleapp:compileReleaseAidl
+:sampleapp:compileReleaseRenderscript
+:sampleapp:generateReleaseBuildConfig
+:sampleapp:generateReleaseResValues
+:sampleapp:generateReleaseResources
+:sampleapp:mergeReleaseResources
+:sampleapp:processReleaseManifest
+:sampleapp:processReleaseResources
+:sampleapp:generateReleaseSources
+:sampleapp:incrementalReleaseJavaCompilationSafeguard
+:sampleapp:javaPreCompileRelease
+:sampleapp:compileReleaseJavaWithJavac
+:sampleapp:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sampleapp:compileReleaseNdk UP-TO-DATE
+:sampleapp:compileReleaseSources
+:sampleapp:lintVitalRelease
+:sampleapp:mergeReleaseShaders
+:sampleapp:compileReleaseShaders
+:sampleapp:generateReleaseAssets
+:sampleapp:mergeReleaseAssets
+:sampleapp:transformClassesWithDexForRelease
+:sampleapp:mergeReleaseJniLibFolders
+:sampleapp:transformNativeLibsWithMergeJniLibsForRelease
+:sampleapp:transformNativeLibsWithStripDebugSymbolForRelease
+:sampleapp:processReleaseJavaRes UP-TO-DATE
+:sampleapp:transformResourcesWithMergeJavaResForRelease
+:sampleapp:packageRelease
+:sampleapp:assembleRelease
+:sampleapp:assemble
+:sampleapp:lint
+Ran lint on variant debug: 4 issues found
+Ran lint on variant release: 4 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/build/reports/lint-results.xml
+:sampleapp:incrementalDebugUnitTestJavaCompilationSafeguard UP-TO-DATE
+:sampleapp:javaPreCompileDebugUnitTest
+:sampleapp:preDebugUnitTestBuild UP-TO-DATE
+:sampleapp:prepareDebugUnitTestDependencies
+:sampleapp:compileDebugUnitTestJavaWithJavac UP-TO-DATE
+:sampleapp:processDebugUnitTestJavaRes UP-TO-DATE
+:sampleapp:compileDebugUnitTestSources UP-TO-DATE
+:sampleapp:mockableAndroidJar
+:sampleapp:assembleDebugUnitTest
+:sampleapp:testDebugUnitTest UP-TO-DATE
+:sampleapp:incrementalReleaseUnitTestJavaCompilationSafeguard UP-TO-DATE
+:sampleapp:javaPreCompileReleaseUnitTest
+:sampleapp:preReleaseUnitTestBuild UP-TO-DATE
+:sampleapp:prepareReleaseUnitTestDependencies
+:sampleapp:compileReleaseUnitTestJavaWithJavac UP-TO-DATE
+:sampleapp:processReleaseUnitTestJavaRes UP-TO-DATE
+:sampleapp:compileReleaseUnitTestSources UP-TO-DATE
+:sampleapp:assembleReleaseUnitTest
+:sampleapp:testReleaseUnitTest UP-TO-DATE
+:sampleapp:test UP-TO-DATE
+:sampleapp:check
+:sampleapp:build
+
+BUILD SUCCESSFUL
+
+Total time: 23.033 secs
+
+2018-09-01 18:10:01,463 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535800159646-0/src/SweetPrefs-master/sampleapp/build/outputs/apk/sampleapp-debug.apk

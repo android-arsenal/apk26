@@ -1,0 +1,191 @@
+2018-08-31 22:09:29,008 INFO  DownloadService - Downloading "https://github.com/dvoiss/literallytoast/archive/master.zip", attempt 3
+2018-08-31 22:09:30,655 INFO  DownloadService - Downloaded https://github.com/dvoiss/literallytoast/archive/master.zip, attempt 3
+2018-08-31 22:09:30,655 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/master.zip": 1 MB
+2018-08-31 22:09:30,655 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 22:09:30,658 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/master.zip: true
+2018-08-31 22:09:30,658 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src'.
+2018-08-31 22:09:30,693 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-08-31 22:09:30,693 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src]
+2018-08-31 22:09:30,710 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/.git/
+
+2018-08-31 22:09:30,714 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/gradlew
+2018-08-31 22:09:30,717 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/literallytoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/build.gradle
+2018-08-31 22:09:30,719 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/literallytoast/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/settings.gradle
+2018-08-31 22:09:30,720 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 22:09:30,720 INFO  ProjectFixService - Fixing project...
+2018-08-31 22:09:30,726 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/app/local.properties
+2018-08-31 22:09:30,727 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 22:09:30,727 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 22:09:30,728 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/literallytoast/local.properties
+2018-08-31 22:09:30,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/literallytoast/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 22:09:30,730 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/literallytoast/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 22:09:30,730 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/local.properties
+2018-08-31 22:09:30,731 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 22:09:30,731 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 22:09:30,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-08-31 22:09:30,733 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-08-31 22:09:30,733 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 22:09:30,733 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 22:09:30,733 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 22:09:38,920 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-08-31 22:09:38,920 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 22:09:38,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 22:10:05,318 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareAndroidArchLifecycleRuntime100Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:app:prepareComAndroidSupportAppcompatV72610Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportSupportCompat2610Library
+:app:prepareComAndroidSupportSupportCoreUi2610Library
+:app:prepareComAndroidSupportSupportCoreUtils2610Library
+:app:prepareComAndroidSupportSupportFragment2610Library
+:app:prepareComAndroidSupportSupportMediaCompat2610Library
+:app:prepareComAndroidSupportSupportV42610Library
+:app:prepareComAndroidSupportSupportVectorDrawable2610Library
+:literallytoast:preBuild UP-TO-DATE
+:literallytoast:preReleaseBuild UP-TO-DATE
+:literallytoast:checkReleaseManifest
+:literallytoast:preDebugAndroidTestBuild UP-TO-DATE
+:literallytoast:preDebugBuild UP-TO-DATE
+:literallytoast:preDebugUnitTestBuild UP-TO-DATE
+:literallytoast:preReleaseUnitTestBuild UP-TO-DATE
+:literallytoast:prepareAndroidArchLifecycleRuntime100Library
+:literallytoast:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:literallytoast:prepareComAndroidSupportAppcompatV72610Library
+:literallytoast:prepareComAndroidSupportConstraintConstraintLayout102Library
+:literallytoast:prepareComAndroidSupportSupportCompat2610Library
+:literallytoast:prepareComAndroidSupportSupportCoreUi2610Library
+:literallytoast:prepareComAndroidSupportSupportCoreUtils2610Library
+:literallytoast:prepareComAndroidSupportSupportFragment2610Library
+:literallytoast:prepareComAndroidSupportSupportMediaCompat2610Library
+:literallytoast:prepareComAndroidSupportSupportV42610Library
+:literallytoast:prepareComAndroidSupportSupportVectorDrawable2610Library
+:literallytoast:prepareReleaseDependencies
+:literallytoast:compileReleaseAidl
+:literallytoast:compileReleaseNdk UP-TO-DATE
+:literallytoast:compileLint
+:literallytoast:copyReleaseLint UP-TO-DATE
+:literallytoast:compileReleaseRenderscript
+:literallytoast:generateReleaseBuildConfig
+:literallytoast:generateReleaseResValues
+:literallytoast:generateReleaseResources
+:literallytoast:mergeReleaseResources
+:literallytoast:processReleaseManifest
+:literallytoast:processReleaseResources
+:literallytoast:generateReleaseSources
+:literallytoast:incrementalReleaseJavaCompilationSafeguard
+:literallytoast:javaPreCompileRelease
+:literallytoast:kaptGenerateStubsReleaseKotlin
+Using Kotlin incremental compilation
+w: [kapt] Sources output directory is not specified for literallytoast_release, skipping annotation processing
+:literallytoast:kaptReleaseKotlin
+w: [kapt] Sources output directory is not specified for literallytoast_release, skipping annotation processing
+:literallytoast:compileReleaseKotlin
+Using Kotlin incremental compilation
+:literallytoast:compileReleaseJavaWithJavac
+:literallytoast:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:literallytoast:copyReleaseKotlinClasses
+:literallytoast:extractReleaseAnnotations
+:literallytoast:mergeReleaseShaders
+:literallytoast:compileReleaseShaders
+:literallytoast:generateReleaseAssets
+:literallytoast:mergeReleaseAssets
+:literallytoast:mergeReleaseProguardFiles
+:literallytoast:packageReleaseRenderscript UP-TO-DATE
+:literallytoast:packageReleaseResources
+:literallytoast:processReleaseJavaRes UP-TO-DATE
+:literallytoast:transformResourcesWithMergeJavaResForRelease
+:literallytoast:transformClassesAndResourcesWithSyncLibJarsForRelease
+:literallytoast:mergeReleaseJniLibFolders
+:literallytoast:transformNativeLibsWithMergeJniLibsForRelease
+:literallytoast:transformNativeLibsWithStripDebugSymbolForRelease
+:literallytoast:transformNativeLibsWithSyncJniLibsForRelease
+:literallytoast:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:kaptGenerateStubsDebugKotlin
+Using Kotlin incremental compilation
+w: [kapt] Sources output directory is not specified for app_debug, skipping annotation processing
+:app:kaptDebugKotlin
+w: [kapt] Sources output directory is not specified for app_debug, skipping annotation processing
+:app:compileDebugKotlin
+Using Kotlin incremental compilation
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:copyDebugKotlinClasses
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:kaptGenerateStubsReleaseKotlin
+Using Kotlin incremental compilation
+w: [kapt] Sources output directory is not specified for app_release, skipping annotation processing
+:app:kaptReleaseKotlin
+w: [kapt] Sources output directory is not specified for app_release, skipping annotation processing
+:app:compileReleaseKotlin
+Using Kotlin incremental compilation
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:copyReleaseKotlinClasses
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 25.696 secs
+
+2018-08-31 22:10:05,406 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535728169004-0/src/literallytoast-master/app/build/outputs/apk/app-debug.apk

@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "pl.hypeapp.materialtimelinesample",
+    "label" : "MaterialTimelineView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2210,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"pl.hypeapp.materialtimelinesample\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"26\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"MaterialTimelineView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-mdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"pl.hypeapp.materialtimelinesample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1830344,
+  "crc32" : 2148640649,
+  "sha256" : "091983b77401afdb635287e82a7e4ef2f6c2ce05d7eb77e8f2c049b70a2a5e85",
+  "buildTime" : 1535727188000
+}

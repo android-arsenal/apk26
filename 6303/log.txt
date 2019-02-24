@@ -1,0 +1,258 @@
+2019-01-13 02:05:54,964 INFO  DownloadService - Downloading "https://github.com/taehwandev/LifecycleExtensions/archive/master.zip", attempt 3
+2019-01-13 02:05:57,011 INFO  DownloadService - Downloaded https://github.com/taehwandev/LifecycleExtensions/archive/master.zip, attempt 3
+2019-01-13 02:05:57,011 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/master.zip": 267 KB
+2019-01-13 02:05:57,011 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-13 02:05:57,017 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/master.zip: true
+2019-01-13 02:05:57,017 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src'.
+2019-01-13 02:05:57,045 INFO  FullProcessService - Size of directory with sources: 307 KB
+2019-01-13 02:05:57,045 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src]
+2019-01-13 02:05:57,066 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/.git/
+
+2019-01-13 02:05:57,071 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/gradlew
+2019-01-13 02:05:57,075 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/lifecycle-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/sampleapp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/build.gradle
+2019-01-13 02:05:57,079 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/lifecycle-extensions/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/sampleapp/build.gradle
+2019-01-13 02:05:57,080 INFO  ProjectBuildService - Remote scripts: none
+2019-01-13 02:05:57,080 INFO  ProjectFixService - Fixing project...
+2019-01-13 02:05:57,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/lifecycle-extensions/local.properties
+2019-01-13 02:05:57,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/lifecycle-extensions/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-13 02:05:57,093 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/lifecycle-extensions/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-13 02:05:57,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/sampleapp/local.properties
+2019-01-13 02:05:57,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/sampleapp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 02:05:57,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/sampleapp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=19,targetSdkVersion=28]
+2019-01-13 02:05:57,096 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/local.properties
+2019-01-13 02:05:57,097 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-01-13 02:05:57,097 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-01-13 02:05:57,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-13 02:05:57,100 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-13 02:05:57,100 INFO  ProjectFixService - Project was maybe fixed
+2019-01-13 02:05:57,100 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 02:05:57,100 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/lifecycle-extensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 02:06:04,729 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-01-13 02:06:04,729 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-13 02:06:04,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/lifecycle-extensions/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-13 02:06:28,270 INFO  SysUtils - Configuration on demand is an incubating feature.
+lifecycle-extensions
+LifecycleExtensionsRelease
+bintrary user null
+:lifecycle-extensions:preBuild UP-TO-DATE
+:lifecycle-extensions:preDebugBuild UP-TO-DATE
+:lifecycle-extensions:compileDebugAidl NO-SOURCE
+:lifecycle-extensions:compileDebugRenderscript
+:lifecycle-extensions:checkDebugManifest
+:lifecycle-extensions:generateDebugBuildConfig
+:lifecycle-extensions:generateDebugResValues
+:lifecycle-extensions:generateDebugResources
+:lifecycle-extensions:packageDebugResources
+:lifecycle-extensions:processDebugManifest
+:lifecycle-extensions:generateDebugRFile
+:lifecycle-extensions:compileDebugKotlin
+:lifecycle-extensions:prepareLintJar
+:lifecycle-extensions:generateDebugSources
+:lifecycle-extensions:javaPreCompileDebug
+:lifecycle-extensions:compileDebugJavaWithJavac
+:lifecycle-extensions:extractDebugAnnotations
+:lifecycle-extensions:mergeDebugConsumerProguardFiles
+:lifecycle-extensions:mergeDebugShaders
+:lifecycle-extensions:compileDebugShaders
+:lifecycle-extensions:generateDebugAssets
+:lifecycle-extensions:packageDebugAssets
+:lifecycle-extensions:packageDebugRenderscript NO-SOURCE
+:lifecycle-extensions:processDebugJavaRes NO-SOURCE
+:lifecycle-extensions:transformResourcesWithMergeJavaResForDebug
+:lifecycle-extensions:transformClassesAndResourcesWithSyncLibJarsForDebug
+:lifecycle-extensions:compileDebugNdk NO-SOURCE
+:lifecycle-extensions:mergeDebugJniLibFolders
+:lifecycle-extensions:transformNativeLibsWithMergeJniLibsForDebug
+:lifecycle-extensions:transformNativeLibsWithStripDebugSymbolForDebug
+:lifecycle-extensions:transformNativeLibsWithSyncJniLibsForDebug
+:lifecycle-extensions:bundleDebugAar
+:lifecycle-extensions:compileDebugSources
+:lifecycle-extensions:assembleDebug
+:lifecycle-extensions:preReleaseBuild UP-TO-DATE
+:lifecycle-extensions:compileReleaseAidl NO-SOURCE
+:lifecycle-extensions:compileReleaseRenderscript
+:lifecycle-extensions:checkReleaseManifest
+:lifecycle-extensions:generateReleaseBuildConfig
+:lifecycle-extensions:generateReleaseResValues
+:lifecycle-extensions:generateReleaseResources
+:lifecycle-extensions:packageReleaseResources
+:lifecycle-extensions:processReleaseManifest
+:lifecycle-extensions:generateReleaseRFile
+:lifecycle-extensions:compileReleaseKotlin
+:lifecycle-extensions:generateReleaseSources
+:lifecycle-extensions:javaPreCompileRelease
+:lifecycle-extensions:compileReleaseJavaWithJavac
+:lifecycle-extensions:extractReleaseAnnotations
+:lifecycle-extensions:mergeReleaseConsumerProguardFiles
+:lifecycle-extensions:mergeReleaseShaders
+:lifecycle-extensions:compileReleaseShaders
+:lifecycle-extensions:generateReleaseAssets
+:lifecycle-extensions:packageReleaseAssets
+:lifecycle-extensions:packageReleaseRenderscript NO-SOURCE
+:lifecycle-extensions:processReleaseJavaRes NO-SOURCE
+:lifecycle-extensions:transformResourcesWithMergeJavaResForRelease
+:lifecycle-extensions:transformClassesAndResourcesWithSyncLibJarsForRelease
+:lifecycle-extensions:compileReleaseNdk NO-SOURCE
+:lifecycle-extensions:mergeReleaseJniLibFolders
+:lifecycle-extensions:transformNativeLibsWithMergeJniLibsForRelease
+:lifecycle-extensions:transformNativeLibsWithStripDebugSymbolForRelease
+:lifecycle-extensions:transformNativeLibsWithSyncJniLibsForRelease
+:lifecycle-extensions:bundleReleaseAar
+:lifecycle-extensions:compileReleaseSources
+:lifecycle-extensions:mergeReleaseResources
+:lifecycle-extensions:verifyReleaseResources
+:lifecycle-extensions:assembleRelease
+:lifecycle-extensions:assemble
+:lifecycle-extensions:build
+
+BUILD SUCCESSFUL in 23s
+47 actionable tasks: 47 executed
+
+2019-01-13 02:06:28,334 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-13 02:06:28,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-13 02:06:35,069 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-01-13 02:06:35,069 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-13 02:06:35,069 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/sampleapp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-13 02:07:27,924 INFO  SysUtils - Configuration on demand is an incubating feature.
+lifecycle-extensions
+LifecycleExtensionsRelease
+bintrary user null
+:lifecycle-extensions:preBuild UP-TO-DATE
+:lifecycle-extensions:preDebugBuild UP-TO-DATE
+:lifecycle-extensions:compileDebugAidl NO-SOURCE
+:lifecycle-extensions:compileDebugRenderscript UP-TO-DATE
+:lifecycle-extensions:checkDebugManifest UP-TO-DATE
+:lifecycle-extensions:generateDebugBuildConfig UP-TO-DATE
+:lifecycle-extensions:generateDebugResValues UP-TO-DATE
+:lifecycle-extensions:generateDebugResources UP-TO-DATE
+:lifecycle-extensions:packageDebugResources UP-TO-DATE
+:lifecycle-extensions:processDebugManifest UP-TO-DATE
+:lifecycle-extensions:generateDebugRFile UP-TO-DATE
+:lifecycle-extensions:compileDebugKotlin UP-TO-DATE
+:lifecycle-extensions:prepareLintJar UP-TO-DATE
+:lifecycle-extensions:generateDebugSources UP-TO-DATE
+:lifecycle-extensions:javaPreCompileDebug UP-TO-DATE
+:lifecycle-extensions:compileDebugJavaWithJavac UP-TO-DATE
+:lifecycle-extensions:processDebugJavaRes NO-SOURCE
+:lifecycle-extensions:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sampleapp:checkDebugClasspath
+Download https://jcenter.bintray.com/tech/thdev/coroutines/coroutines-extensions/2.1.1/coroutines-extensions-2.1.1.aar
+:sampleapp:preBuild UP-TO-DATE
+:sampleapp:preDebugBuild
+:sampleapp:compileDebugAidl NO-SOURCE
+:lifecycle-extensions:packageDebugRenderscript NO-SOURCE
+:sampleapp:compileDebugRenderscript
+:sampleapp:checkDebugManifest
+:sampleapp:generateDebugBuildConfig
+:sampleapp:mainApkListPersistenceDebug
+:sampleapp:generateDebugResValues
+:sampleapp:generateDebugResources
+:sampleapp:mergeDebugResources
+:sampleapp:createDebugCompatibleScreenManifests
+:sampleapp:processDebugManifest
+:sampleapp:splitsDiscoveryTaskDebug
+:sampleapp:processDebugResources
+:sampleapp:compileDebugKotlin
+w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
+:sampleapp:prepareLintJar
+:sampleapp:generateDebugSources
+:sampleapp:javaPreCompileDebug
+:sampleapp:compileDebugJavaWithJavac
+:sampleapp:compileDebugNdk NO-SOURCE
+:sampleapp:compileDebugSources
+:lifecycle-extensions:mergeDebugShaders UP-TO-DATE
+:lifecycle-extensions:compileDebugShaders UP-TO-DATE
+:lifecycle-extensions:generateDebugAssets UP-TO-DATE
+:lifecycle-extensions:packageDebugAssets UP-TO-DATE
+:sampleapp:mergeDebugShaders
+:sampleapp:compileDebugShaders
+:sampleapp:generateDebugAssets
+:sampleapp:mergeDebugAssets
+:sampleapp:transformClassesWithDexBuilderForDebug
+:sampleapp:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sampleapp:transformDexArchiveWithDexMergerForDebug
+:lifecycle-extensions:compileDebugNdk NO-SOURCE
+:lifecycle-extensions:mergeDebugJniLibFolders UP-TO-DATE
+:lifecycle-extensions:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:lifecycle-extensions:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:lifecycle-extensions:transformNativeLibsWithIntermediateJniLibsForDebug
+:sampleapp:mergeDebugJniLibFolders
+:sampleapp:transformNativeLibsWithMergeJniLibsForDebug
+:sampleapp:transformNativeLibsWithStripDebugSymbolForDebug
+:sampleapp:checkDebugLibraries
+:sampleapp:processDebugJavaRes NO-SOURCE
+:sampleapp:transformResourcesWithMergeJavaResForDebug
+:sampleapp:validateSigningDebug
+:sampleapp:packageDebug
+:sampleapp:assembleDebug
+:lifecycle-extensions:preReleaseBuild UP-TO-DATE
+:lifecycle-extensions:compileReleaseAidl NO-SOURCE
+:lifecycle-extensions:compileReleaseRenderscript UP-TO-DATE
+:lifecycle-extensions:checkReleaseManifest UP-TO-DATE
+:lifecycle-extensions:generateReleaseBuildConfig UP-TO-DATE
+:lifecycle-extensions:generateReleaseResValues UP-TO-DATE
+:lifecycle-extensions:generateReleaseResources UP-TO-DATE
+:lifecycle-extensions:packageReleaseResources UP-TO-DATE
+:lifecycle-extensions:processReleaseManifest UP-TO-DATE
+:lifecycle-extensions:generateReleaseRFile UP-TO-DATE
+:lifecycle-extensions:compileReleaseKotlin UP-TO-DATE
+:lifecycle-extensions:generateReleaseSources UP-TO-DATE
+:lifecycle-extensions:javaPreCompileRelease UP-TO-DATE
+:lifecycle-extensions:compileReleaseJavaWithJavac UP-TO-DATE
+:lifecycle-extensions:processReleaseJavaRes NO-SOURCE
+:lifecycle-extensions:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sampleapp:checkReleaseClasspath
+:sampleapp:preReleaseBuild
+:sampleapp:compileReleaseAidl NO-SOURCE
+:lifecycle-extensions:packageReleaseRenderscript NO-SOURCE
+:sampleapp:compileReleaseRenderscript
+:sampleapp:checkReleaseManifest
+:sampleapp:generateReleaseBuildConfig
+:sampleapp:mainApkListPersistenceRelease
+:sampleapp:generateReleaseResValues
+:sampleapp:generateReleaseResources
+:sampleapp:mergeReleaseResources
+:sampleapp:createReleaseCompatibleScreenManifests
+:sampleapp:processReleaseManifest
+:sampleapp:splitsDiscoveryTaskRelease
+:sampleapp:processReleaseResources
+:sampleapp:compileReleaseKotlin
+w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
+:sampleapp:generateReleaseSources
+:sampleapp:javaPreCompileRelease
+:sampleapp:compileReleaseJavaWithJavac
+:sampleapp:compileReleaseNdk NO-SOURCE
+:sampleapp:compileReleaseSources
+:sampleapp:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/c9fbde7d27931beab1cf2af3dec090c6/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:lifecycle-extensions:mergeReleaseShaders UP-TO-DATE
+:lifecycle-extensions:compileReleaseShaders UP-TO-DATE
+:lifecycle-extensions:generateReleaseAssets UP-TO-DATE
+:lifecycle-extensions:packageReleaseAssets UP-TO-DATE
+:sampleapp:mergeReleaseShaders
+:sampleapp:compileReleaseShaders
+:sampleapp:generateReleaseAssets
+:sampleapp:mergeReleaseAssets
+:sampleapp:transformClassesWithDexBuilderForRelease
+:sampleapp:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sampleapp:transformDexArchiveWithDexMergerForRelease
+:lifecycle-extensions:compileReleaseNdk NO-SOURCE
+:lifecycle-extensions:mergeReleaseJniLibFolders UP-TO-DATE
+:lifecycle-extensions:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:lifecycle-extensions:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:lifecycle-extensions:transformNativeLibsWithIntermediateJniLibsForRelease
+:sampleapp:mergeReleaseJniLibFolders
+:sampleapp:transformNativeLibsWithMergeJniLibsForRelease
+:sampleapp:transformNativeLibsWithStripDebugSymbolForRelease
+:sampleapp:checkReleaseLibraries
+:sampleapp:processReleaseJavaRes NO-SOURCE
+:sampleapp:transformResourcesWithMergeJavaResForRelease
+:sampleapp:packageRelease
+:sampleapp:assembleRelease
+:sampleapp:assemble
+:sampleapp:build
+
+BUILD SUCCESSFUL in 52s
+94 actionable tasks: 61 executed, 33 up-to-date
+
+2019-01-13 02:07:28,074 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547319954959-0/src/LifecycleExtensions-master/sampleapp/build/outputs/apk/release/sampleapp-release-unsigned.apk

@@ -1,0 +1,236 @@
+2018-08-31 21:26:59,606 INFO  DownloadService - Downloading "https://github.com/bosphere/Android-RatioFillLayout/archive/master.zip", attempt 3
+2018-08-31 21:27:00,285 INFO  DownloadService - Downloaded https://github.com/bosphere/Android-RatioFillLayout/archive/master.zip, attempt 3
+2018-08-31 21:27:00,285 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/master.zip": 278 KB
+2018-08-31 21:27:00,285 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 21:27:00,290 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/master.zip: true
+2018-08-31 21:27:00,291 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src'.
+2018-08-31 21:27:00,310 INFO  FullProcessService - Size of directory with sources: 294 KB
+2018-08-31 21:27:00,310 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src]
+2018-08-31 21:27:00,357 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/.git/
+
+2018-08-31 21:27:00,360 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/gradlew
+2018-08-31 21:27:00,363 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/ratiofilllayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/build.gradle
+2018-08-31 21:27:00,365 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/ratiofilllayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/settings.gradle
+2018-08-31 21:27:00,366 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 21:27:00,366 INFO  ProjectFixService - Fixing project...
+2018-08-31 21:27:00,374 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/ratiofilllayout/local.properties
+2018-08-31 21:27:00,375 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/ratiofilllayout/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=11,targetSdkVersion=26]
+2018-08-31 21:27:00,376 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/sample/local.properties
+2018-08-31 21:27:00,376 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/sample/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2018-08-31 21:27:00,377 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/local.properties
+2018-08-31 21:27:00,378 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 21:27:00,378 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 21:27:00,379 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=11,targetSdkVersion=26]
+2018-08-31 21:27:00,379 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 21:27:00,380 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:27:00,380 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/ratiofilllayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:27:08,243 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 21:27:08,244 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-08-31 21:27:08,244 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/ratiofilllayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-08-31 21:27:16,797 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ratiofilllayout:preBuild UP-TO-DATE
+:ratiofilllayout:preDebugBuild UP-TO-DATE
+:ratiofilllayout:checkDebugManifest
+:ratiofilllayout:prepareDebugDependencies
+:ratiofilllayout:compileDebugAidl
+:ratiofilllayout:compileDebugNdk UP-TO-DATE
+:ratiofilllayout:compileLint
+:ratiofilllayout:copyDebugLint UP-TO-DATE
+:ratiofilllayout:mergeDebugShaders
+:ratiofilllayout:compileDebugShaders
+:ratiofilllayout:generateDebugAssets
+:ratiofilllayout:mergeDebugAssets
+:ratiofilllayout:mergeDebugProguardFiles
+:ratiofilllayout:packageDebugRenderscript UP-TO-DATE
+:ratiofilllayout:compileDebugRenderscript
+:ratiofilllayout:generateDebugResValues
+:ratiofilllayout:generateDebugResources
+:ratiofilllayout:packageDebugResources
+:ratiofilllayout:processDebugManifest
+:ratiofilllayout:generateDebugBuildConfig
+:ratiofilllayout:processDebugResources
+:ratiofilllayout:generateDebugSources
+:ratiofilllayout:incrementalDebugJavaCompilationSafeguard
+:ratiofilllayout:javaPreCompileDebug
+:ratiofilllayout:compileDebugJavaWithJavac
+:ratiofilllayout:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ratiofilllayout:processDebugJavaRes UP-TO-DATE
+:ratiofilllayout:transformResourcesWithMergeJavaResForDebug
+:ratiofilllayout:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ratiofilllayout:mergeDebugJniLibFolders
+:ratiofilllayout:transformNativeLibsWithMergeJniLibsForDebug
+:ratiofilllayout:transformNativeLibsWithStripDebugSymbolForDebug
+:ratiofilllayout:transformNativeLibsWithSyncJniLibsForDebug
+:ratiofilllayout:bundleDebug
+:ratiofilllayout:compileDebugSources
+:ratiofilllayout:assembleDebug
+:ratiofilllayout:preReleaseBuild UP-TO-DATE
+:ratiofilllayout:checkReleaseManifest
+:ratiofilllayout:prepareReleaseDependencies
+:ratiofilllayout:compileReleaseAidl
+:ratiofilllayout:compileReleaseNdk UP-TO-DATE
+:ratiofilllayout:copyReleaseLint UP-TO-DATE
+:ratiofilllayout:mergeReleaseShaders
+:ratiofilllayout:compileReleaseShaders
+:ratiofilllayout:generateReleaseAssets
+:ratiofilllayout:mergeReleaseAssets
+:ratiofilllayout:mergeReleaseProguardFiles
+:ratiofilllayout:packageReleaseRenderscript UP-TO-DATE
+:ratiofilllayout:compileReleaseRenderscript
+:ratiofilllayout:generateReleaseResValues
+:ratiofilllayout:generateReleaseResources
+:ratiofilllayout:packageReleaseResources
+:ratiofilllayout:processReleaseManifest
+:ratiofilllayout:generateReleaseBuildConfig
+:ratiofilllayout:processReleaseResources
+:ratiofilllayout:generateReleaseSources
+:ratiofilllayout:incrementalReleaseJavaCompilationSafeguard
+:ratiofilllayout:javaPreCompileRelease
+:ratiofilllayout:compileReleaseJavaWithJavac
+:ratiofilllayout:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:ratiofilllayout:processReleaseJavaRes UP-TO-DATE
+:ratiofilllayout:transformResourcesWithMergeJavaResForRelease
+:ratiofilllayout:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ratiofilllayout:mergeReleaseJniLibFolders
+:ratiofilllayout:transformNativeLibsWithMergeJniLibsForRelease
+:ratiofilllayout:transformNativeLibsWithStripDebugSymbolForRelease
+:ratiofilllayout:transformNativeLibsWithSyncJniLibsForRelease
+:ratiofilllayout:bundleRelease
+:ratiofilllayout:compileReleaseSources
+:ratiofilllayout:assembleRelease
+:ratiofilllayout:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/ratiofilllayout/src/main/java/com/bosphere/ratiofilllayout/RatioFillLayout.java:60: warning: no description for @param
+     * @param gravity
+       ^
+
+1 warning
+:ratiofilllayout:javadocJar
+:ratiofilllayout:sourcesJar
+:ratiofilllayout:assemble
+:ratiofilllayout:build
+
+BUILD SUCCESSFUL
+
+Total time: 8.342 secs
+
+2018-08-31 21:27:16,806 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 21:27:16,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 21:27:23,237 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 21:27:23,237 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 21:27:23,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 21:27:37,339 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:ratiofilllayout:preBuild UP-TO-DATE
+:ratiofilllayout:preReleaseBuild UP-TO-DATE
+:ratiofilllayout:checkReleaseManifest
+:ratiofilllayout:prepareReleaseDependencies
+:ratiofilllayout:compileReleaseAidl UP-TO-DATE
+:ratiofilllayout:compileReleaseNdk UP-TO-DATE
+:ratiofilllayout:compileLint UP-TO-DATE
+:ratiofilllayout:copyReleaseLint UP-TO-DATE
+:ratiofilllayout:mergeReleaseShaders UP-TO-DATE
+:ratiofilllayout:compileReleaseShaders UP-TO-DATE
+:ratiofilllayout:generateReleaseAssets UP-TO-DATE
+:ratiofilllayout:mergeReleaseAssets UP-TO-DATE
+:ratiofilllayout:mergeReleaseProguardFiles UP-TO-DATE
+:ratiofilllayout:packageReleaseRenderscript UP-TO-DATE
+:ratiofilllayout:compileReleaseRenderscript UP-TO-DATE
+:ratiofilllayout:generateReleaseResValues UP-TO-DATE
+:ratiofilllayout:generateReleaseResources UP-TO-DATE
+:ratiofilllayout:packageReleaseResources UP-TO-DATE
+:ratiofilllayout:processReleaseManifest UP-TO-DATE
+:ratiofilllayout:generateReleaseBuildConfig UP-TO-DATE
+:ratiofilllayout:processReleaseResources UP-TO-DATE
+:ratiofilllayout:generateReleaseSources UP-TO-DATE
+:ratiofilllayout:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:ratiofilllayout:javaPreCompileRelease
+:ratiofilllayout:compileReleaseJavaWithJavac UP-TO-DATE
+:ratiofilllayout:processReleaseJavaRes UP-TO-DATE
+:ratiofilllayout:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:ratiofilllayout:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:ratiofilllayout:mergeReleaseJniLibFolders UP-TO-DATE
+:ratiofilllayout:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:ratiofilllayout:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:ratiofilllayout:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:ratiofilllayout:bundleRelease UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:checkDebugManifest
+:sample:preReleaseBuild UP-TO-DATE
+:sample:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:sample:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:sample:prepareComAndroidSupportConstraintConstraintLayout102Library
+:sample:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:sample:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:sample:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:sample:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:sample:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:sample:prepareComAndroidSupportSupportV42600Alpha1Library
+:sample:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:sample:prepareDebugDependencies
+:sample:compileDebugAidl
+:sample:compileDebugRenderscript
+:sample:generateDebugBuildConfig
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:processDebugManifest
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:incrementalDebugJavaCompilationSafeguard
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileDebugNdk UP-TO-DATE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseManifest
+:sample:prepareReleaseDependencies
+:sample:compileReleaseAidl
+:sample:compileReleaseRenderscript
+:sample:generateReleaseBuildConfig
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:processReleaseManifest
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:incrementalReleaseJavaCompilationSafeguard
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sample:compileReleaseNdk UP-TO-DATE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes UP-TO-DATE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL
+
+Total time: 13.839 secs
+
+2018-08-31 21:27:37,399 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725619602-0/src/Android-RatioFillLayout-master/sample/build/outputs/apk/sample-debug.apk

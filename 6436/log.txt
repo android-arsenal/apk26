@@ -1,0 +1,149 @@
+2017-11-11 17:38:40,166 INFO  DownloadService - Downloading "https://github.com/alt236/webviewdebug/archive/master.zip", attempt 3
+2017-11-11 17:38:41,646 INFO  DownloadService - Downloaded https://github.com/alt236/webviewdebug/archive/master.zip, attempt 3
+2017-11-11 17:38:41,647 INFO  DownloadService - Size of file "/tmp/rdisk/6436/master.zip": 161 KB
+2017-11-11 17:38:41,647 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2017-11-11 17:38:41,648 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /tmp/rdisk/6436/master.zip: true
+2017-11-11 17:38:41,648 DEBUG ZipUtil - Extracting '/tmp/rdisk/6436/master.zip' into '/tmp/rdisk/6436/src'.
+2017-11-11 17:38:41,663 INFO  FullProcessService - Size of directory with sources: 230 KB
+2017-11-11 17:38:41,664 INFO  SysUtils - Execute command: [git, init, /tmp/rdisk/6436/src]
+2017-11-11 17:38:41,673 INFO  SysUtils - Initialized empty Git repository in /tmp/rdisk/6436/src/.git/
+
+2017-11-11 17:38:41,677 INFO  ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/6436/src/webviewdebug-master/gradlew
+2017-11-11 17:38:41,681 INFO  ProjectBuildService - Build script(s): /tmp/rdisk/6436/src/webviewdebug-master/app/build.gradle /tmp/rdisk/6436/src/webviewdebug-master/library/build.gradle /tmp/rdisk/6436/src/webviewdebug-master/build.gradle
+2017-11-11 17:38:41,684 INFO  ProjectBuildService - All script(s): /tmp/rdisk/6436/src/webviewdebug-master/settings.gradle /tmp/rdisk/6436/src/webviewdebug-master/library/build.gradle /tmp/rdisk/6436/src/webviewdebug-master/build.gradle /tmp/rdisk/6436/src/webviewdebug-master/app/build.gradle
+2017-11-11 17:38:41,685 INFO  ProjectBuildService - Remote scripts: none
+2017-11-11 17:38:41,685 INFO  ProjectFixService - Fixing project...
+2017-11-11 17:38:41,698 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/6436/src/webviewdebug-master/app/local.properties
+2017-11-11 17:38:41,699 INFO  ProjectFixService - Build info for "/tmp/rdisk/6436/src/webviewdebug-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2017-11-11 17:38:41,700 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/6436/src/webviewdebug-master/library/local.properties
+2017-11-11 17:38:41,701 INFO  ProjectFixService - Build info for "/tmp/rdisk/6436/src/webviewdebug-master/library/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2017-11-11 17:38:41,701 INFO  LocalPropertiesFixService - Created fake /tmp/rdisk/6436/src/webviewdebug-master/local.properties
+2017-11-11 17:38:41,702 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2017-11-11 17:38:41,703 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2017-11-11 17:38:41,706 INFO  ProjectFixService - Build info for "/tmp/rdisk/6436/src/webviewdebug-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2017-11-11 17:38:41,706 INFO  ProjectFixService - Project was maybe fixed
+2017-11-11 17:38:41,706 INFO  ProjectTaskService - Detecting possible tasks...
+2017-11-11 17:38:41,706 INFO  SysUtils - Execute command: [/tmp/rdisk/6436/src/webviewdebug-master/gradlew, -b, /tmp/rdisk/6436/src/webviewdebug-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2017-11-11 17:38:49,636 INFO  ProjectTaskService - Detected possible tasks: 66
+2017-11-11 17:38:49,637 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2017-11-11 17:38:49,639 INFO  SysUtils - Execute command: [/tmp/rdisk/6436/src/webviewdebug-master/gradlew, -b, /tmp/rdisk/6436/src/webviewdebug-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2017-11-11 17:39:07,714 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareAndroidArchLifecycleRuntime100Library
+:app:prepareComAndroidSupportAnimatedVectorDrawable2610Library
+:app:prepareComAndroidSupportAppcompatV72610Library
+:app:prepareComAndroidSupportSupportCompat2610Library
+:app:prepareComAndroidSupportSupportCoreUi2610Library
+:app:prepareComAndroidSupportSupportCoreUtils2610Library
+:app:prepareComAndroidSupportSupportFragment2610Library
+:app:prepareComAndroidSupportSupportMediaCompat2610Library
+:app:prepareComAndroidSupportSupportV42610Library
+:app:prepareComAndroidSupportSupportVectorDrawable2610Library
+:library:preBuild UP-TO-DATE
+:library:preReleaseBuild UP-TO-DATE
+:library:checkReleaseManifest
+:library:prepareReleaseDependencies
+:library:compileReleaseAidl
+:library:compileReleaseNdk UP-TO-DATE
+:library:compileLint
+:library:copyReleaseLint UP-TO-DATE
+:library:compileReleaseRenderscript
+:library:generateReleaseBuildConfig
+:library:generateReleaseResValues
+:library:generateReleaseResources
+:library:packageReleaseResources
+:library:processReleaseManifest
+:library:processReleaseResources
+:library:generateReleaseSources
+:library:incrementalReleaseJavaCompilationSafeguard
+:library:javaPreCompileRelease
+:library:compileReleaseJavaWithJavac
+:library:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /tmp/rdisk/6436/src/webviewdebug-master/library/src/main/java/uk/co/alt236/webviewdebug/DebugWebViewClient.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+:library:extractReleaseAnnotations
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:mergeReleaseAssets
+:library:mergeReleaseProguardFiles
+:library:packageReleaseRenderscript UP-TO-DATE
+:library:processReleaseJavaRes UP-TO-DATE
+:library:transformResourcesWithMergeJavaResForRelease
+:library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithSyncJniLibsForRelease
+:library:bundleRelease
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 17.842 secs
+
+2017-11-11 17:39:07,740 INFO  FullProcessService - Found APK file: /tmp/rdisk/6436/src/webviewdebug-master/app/build/outputs/apk/app-debug.apk

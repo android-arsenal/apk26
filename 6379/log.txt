@@ -1,0 +1,166 @@
+2018-08-31 20:33:23,218 INFO  DownloadService - Downloading "https://github.com/oakkub/pin-edittext/archive/master.zip", attempt 3
+2018-08-31 20:33:25,448 INFO  DownloadService - Downloaded https://github.com/oakkub/pin-edittext/archive/master.zip, attempt 3
+2018-08-31 20:33:25,448 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/master.zip": 153 KB
+2018-08-31 20:33:25,448 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 20:33:25,450 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/master.zip: true
+2018-08-31 20:33:25,450 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src'.
+2018-08-31 20:33:25,472 INFO  FullProcessService - Size of directory with sources: 179 KB
+2018-08-31 20:33:25,472 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src]
+2018-08-31 20:33:25,490 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/.git/
+
+2018-08-31 20:33:25,493 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/gradlew
+2018-08-31 20:33:25,497 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/pin-edittext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/build.gradle
+2018-08-31 20:33:25,500 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/pin-edittext/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/settings.gradle
+2018-08-31 20:33:25,500 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 20:33:25,500 INFO  ProjectFixService - Fixing project...
+2018-08-31 20:33:25,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/app/local.properties
+2018-08-31 20:33:25,508 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:33:25,508 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:33:25,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/pin-edittext/local.properties
+2018-08-31 20:33:25,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/pin-edittext/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:33:25,511 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/pin-edittext/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:33:25,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/local.properties
+2018-08-31 20:33:25,513 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2018-08-31 20:33:25,513 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2018-08-31 20:33:25,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:33:25,514 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-08-31 20:33:25,515 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 20:33:25,515 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 20:33:25,515 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 20:33:32,016 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 20:33:32,016 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 20:33:32,016 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 20:41:33,104 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:pin-edittext:preBuild UP-TO-DATE
+:pin-edittext:preDebugBuild UP-TO-DATE
+:pin-edittext:checkDebugManifest
+:pin-edittext:processDebugManifest
+:app:preDebugBuild
+:pin-edittext:compileDebugAidl
+:app:compileDebugAidl
+:pin-edittext:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:pin-edittext:compileDebugRenderscript
+:pin-edittext:generateDebugResValues
+:pin-edittext:generateDebugResources
+:pin-edittext:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:pin-edittext:platformAttrExtractor
+:pin-edittext:generateDebugBuildConfig
+:pin-edittext:prepareLintJar
+:pin-edittext:processDebugJavaRes NO-SOURCE
+:app:prepareLintJar
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:pin-edittext:mergeDebugShaders
+:pin-edittext:compileDebugShaders
+:pin-edittext:generateDebugAssets
+:pin-edittext:mergeDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:pin-edittext:compileDebugNdk NO-SOURCE
+:pin-edittext:mergeDebugJniLibFolders
+:pin-edittext:transformNativeLibsWithMergeJniLibsForDebug
+:pin-edittext:transformNativeLibsWithStripDebugSymbolForDebug
+:pin-edittext:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:pin-edittext:processDebugResources
+:app:processDebugResources
+:pin-edittext:compileDebugKotlin
+Using Kotlin incremental compilation
+:pin-edittext:generateDebugSources
+:pin-edittext:javaPreCompileDebug
+:pin-edittext:compileDebugJavaWithJavac
+:pin-edittext:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:compileDebugKotlin
+Using Kotlin incremental compilation
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:pin-edittext:preReleaseBuild UP-TO-DATE
+:pin-edittext:checkReleaseManifest
+:pin-edittext:processReleaseManifest
+:app:preReleaseBuild
+:pin-edittext:compileReleaseAidl
+:app:compileReleaseAidl
+:pin-edittext:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:pin-edittext:compileReleaseRenderscript
+:pin-edittext:generateReleaseResValues
+:pin-edittext:generateReleaseResources
+:pin-edittext:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:pin-edittext:processReleaseResources
+:app:processReleaseResources
+:pin-edittext:generateReleaseBuildConfig
+:pin-edittext:compileReleaseKotlin
+Using Kotlin incremental compilation
+:pin-edittext:generateReleaseSources
+:pin-edittext:javaPreCompileRelease
+:pin-edittext:compileReleaseJavaWithJavac
+:pin-edittext:processReleaseJavaRes NO-SOURCE
+:pin-edittext:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:compileReleaseKotlin
+Using Kotlin incremental compilation
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:pin-edittext:mergeReleaseShaders
+:pin-edittext:compileReleaseShaders
+:pin-edittext:generateReleaseAssets
+:pin-edittext:mergeReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithPreDexForRelease
+:app:transformDexWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:pin-edittext:compileReleaseNdk NO-SOURCE
+:pin-edittext:mergeReleaseJniLibFolders
+:pin-edittext:transformNativeLibsWithMergeJniLibsForRelease
+:pin-edittext:transformNativeLibsWithStripDebugSymbolForRelease
+:pin-edittext:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:lintVitalRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 38s
+92 actionable tasks: 92 executed
+
+2018-08-31 20:41:33,172 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535722403216-0/src/pin-edittext-master/app/build/outputs/apk/debug/app-debug.apk

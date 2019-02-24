@@ -1,0 +1,120 @@
+2018-08-31 18:02:25,362 INFO  DownloadService - Downloading "https://github.com/ashishguptasanu/RecyclerView-Kotlin/archive/master.zip", attempt 3
+2018-08-31 18:02:27,185 INFO  DownloadService - Downloaded https://github.com/ashishguptasanu/RecyclerView-Kotlin/archive/master.zip, attempt 3
+2018-08-31 18:02:27,185 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/master.zip": 139 KB
+2018-08-31 18:02:27,185 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-08-31 18:02:27,191 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/master.zip: true
+2018-08-31 18:02:27,191 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src'.
+2018-08-31 18:02:27,209 INFO  FullProcessService - Size of directory with sources: 143 KB
+2018-08-31 18:02:27,210 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src]
+2018-08-31 18:02:27,235 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/.git/
+
+2018-08-31 18:02:27,237 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/gradlew
+2018-08-31 18:02:27,240 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/build.gradle
+2018-08-31 18:02:27,242 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/settings.gradle
+2018-08-31 18:02:27,242 INFO  ProjectBuildService - Remote scripts: none
+2018-08-31 18:02:27,242 INFO  ProjectFixService - Fixing project...
+2018-08-31 18:02:27,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/app/local.properties
+2018-08-31 18:02:27,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/app/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 18:02:27,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/local.properties
+2018-08-31 18:02:27,248 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2018-08-31 18:02:27,248 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2018-08-31 18:02:27,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/build.gradle": [buildToolsVersion=26.0.1,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2018-08-31 18:02:27,249 INFO  ProjectFixService - Project was maybe fixed
+2018-08-31 18:02:27,249 INFO  ProjectTaskService - Detecting possible tasks...
+2018-08-31 18:02:27,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-08-31 18:02:34,531 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-08-31 18:02:34,531 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-08-31 18:02:34,531 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-08-31 18:02:57,971 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAnimatedVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportAppcompatV72600Alpha1Library
+:app:prepareComAndroidSupportCardviewV72600Alpha1Library
+:app:prepareComAndroidSupportConstraintConstraintLayout102Library
+:app:prepareComAndroidSupportDesign2600Alpha1Library
+:app:prepareComAndroidSupportRecyclerviewV72600Alpha1Library
+:app:prepareComAndroidSupportSupportCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUi2600Alpha1Library
+:app:prepareComAndroidSupportSupportCoreUtils2600Alpha1Library
+:app:prepareComAndroidSupportSupportFragment2600Alpha1Library
+:app:prepareComAndroidSupportSupportMediaCompat2600Alpha1Library
+:app:prepareComAndroidSupportSupportV42600Alpha1Library
+:app:prepareComAndroidSupportSupportVectorDrawable2600Alpha1Library
+:app:prepareComAndroidSupportTransition2600Alpha1Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:javaPreCompileDebug
+:app:compileDebugKotlin
+Using Kotlin incremental compilation
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:copyDebugKotlinClasses
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:javaPreCompileRelease
+:app:compileReleaseKotlin
+Using Kotlin incremental compilation
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:copyReleaseKotlinClasses
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 22.789 secs
+
+2018-08-31 18:02:58,032 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535713345354-0/src/RecyclerView-Kotlin-master/app/build/outputs/apk/app-debug.apk
