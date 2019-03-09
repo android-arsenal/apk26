@@ -1,31 +1,31 @@
-2018-10-22 22:41:13,221 INFO  DownloadService - Downloading "https://github.com/agusibrahim/LoginPageConcept/archive/master.zip", attempt 3
-2018-10-22 22:41:16,363 INFO  DownloadService - Downloaded https://github.com/agusibrahim/LoginPageConcept/archive/master.zip, attempt 3
-2018-10-22 22:41:16,364 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/master.zip": 2 MB
-2018-10-22 22:41:16,364 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-22 22:41:16,370 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/master.zip: true
-2018-10-22 22:41:16,370 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src'.
-2018-10-22 22:41:16,396 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-22 22:41:16,396 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src]
-2018-10-22 22:41:16,432 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/.git/
+2019-03-10 03:22:09,883 INFO  DownloadService - Downloading "https://github.com/agusibrahim/LoginPageConcept/archive/master.zip", attempt 3
+2019-03-10 03:22:12,688 INFO  DownloadService - Downloaded https://github.com/agusibrahim/LoginPageConcept/archive/master.zip, attempt 3
+2019-03-10 03:22:12,688 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/master.zip": 2 MB
+2019-03-10 03:22:12,688 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 03:22:12,694 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/master.zip: true
+2019-03-10 03:22:12,695 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src'.
+2019-03-10 03:22:12,722 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-03-10 03:22:12,722 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src]
+2019-03-10 03:22:12,740 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/.git/
 
-2018-10-22 22:41:16,434 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-10-22 22:41:16,434 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-10-22 22:41:16,436 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/build.gradle
-2018-10-22 22:41:16,438 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/settings.gradle
-2018-10-22 22:41:16,438 INFO  ProjectBuildService - Remote scripts: none
-2018-10-22 22:41:16,438 INFO  ProjectFixService - Fixing project...
-2018-10-22 22:41:16,443 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/app/local.properties
-2018-10-22 22:41:16,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=25]
-2018-10-22 22:41:16,443 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/local.properties
-2018-10-22 22:41:16,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=25]
-2018-10-22 22:41:16,444 INFO  ProjectFixService - Project was maybe fixed
-2018-10-22 22:41:16,444 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 22:41:16,444 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 22:41:16,449 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-22 22:41:16,449 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 22:41:16,449 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 22:41:16,449 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 22:41:16,454 ERROR SysUtils - Could not process external command
+2019-03-10 03:22:12,742 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-03-10 03:22:12,742 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-03-10 03:22:12,745 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/build.gradle
+2019-03-10 03:22:12,747 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/settings.gradle
+2019-03-10 03:22:12,747 INFO  ProjectBuildService - Remote scripts: none
+2019-03-10 03:22:12,747 INFO  ProjectFixService - Fixing project...
+2019-03-10 03:22:12,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/app/local.properties
+2019-03-10 03:22:12,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=25]
+2019-03-10 03:22:12,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/local.properties
+2019-03-10 03:22:12,753 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=25]
+2019-03-10 03:22:12,753 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 03:22:12,753 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 03:22:12,753 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 03:22:12,758 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-03-10 03:22:12,758 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-10 03:22:12,758 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-10 03:22:12,758 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 03:22:12,762 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -42,8 +42,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,15 +61,15 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 29 common frames omitted
-2018-10-22 22:41:16,454 INFO  SysUtils - 
-2018-10-22 22:41:16,456 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-22 22:41:16,456 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-22 22:41:16,461 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-10-22 22:41:16,461 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-22 22:41:16,461 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-22 22:41:16,461 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540222873212-0/src/LoginPageConcept-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-22 22:41:16,465 ERROR SysUtils - Could not process external command
+	... 28 common frames omitted
+2019-03-10 03:22:12,762 INFO  SysUtils - 
+2019-03-10 03:22:12,765 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 03:22:12,765 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 03:22:12,769 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-03-10 03:22:12,769 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-10 03:22:12,769 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-10 03:22:12,769 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162929880-0/src/LoginPageConcept-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 03:22:12,774 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -87,8 +86,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -107,7 +105,7 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 29 common frames omitted
-2018-10-22 22:41:16,465 INFO  SysUtils - 
-2018-10-22 22:41:16,467 ERROR FullProcessService - Project build has not produced APK file
-2018-10-22 22:41:16,469 ERROR FullProcessService - Could not find generated or existed APK file
+	... 28 common frames omitted
+2019-03-10 03:22:12,774 INFO  SysUtils - 
+2019-03-10 03:22:12,777 ERROR FullProcessService - Project build has not produced APK file
+2019-03-10 03:22:12,779 ERROR FullProcessService - Could not find generated or existed APK file
