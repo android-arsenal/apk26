@@ -1,37 +1,38 @@
-2018-08-31 16:36:37,211 INFO  DownloadService - Downloading "https://github.com/fabian7593/InfiniteScroll/archive/master.zip", attempt 3
-2018-08-31 16:36:41,890 INFO  DownloadService - Downloaded https://github.com/fabian7593/InfiniteScroll/archive/master.zip, attempt 3
-2018-08-31 16:36:41,891 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/master.zip": 4 MB
-2018-08-31 16:36:41,891 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-31 16:36:41,898 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/master.zip: true
-2018-08-31 16:36:41,899 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src'.
-2018-08-31 16:36:41,989 INFO  FullProcessService - Size of directory with sources: 6 MB
-2018-08-31 16:36:41,989 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src]
-2018-08-31 16:36:42,004 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/.git/
+2019-03-10 20:13:32,612 INFO  DownloadService - Downloading "https://github.com/fabian7593/InfiniteScroll/archive/master.zip", attempt 3
+2019-03-10 20:13:38,467 INFO  DownloadService - Downloaded https://github.com/fabian7593/InfiniteScroll/archive/master.zip, attempt 3
+2019-03-10 20:13:38,467 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/master.zip": 4 MB
+2019-03-10 20:13:38,467 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 20:13:38,469 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/master.zip: true
+2019-03-10 20:13:38,469 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src'.
+2019-03-10 20:13:38,553 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-03-10 20:13:38,553 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src]
+2019-03-10 20:13:38,571 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/.git/
 
-2018-08-31 16:36:42,009 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew
-2018-08-31 16:36:42,014 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle
-2018-08-31 16:36:42,018 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/settings.gradle
-2018-08-31 16:36:42,019 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-08-31 16:36:42,119 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-08-31 16:36:42,119 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-08-31 16:36:42,219 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-08-31 16:36:42,219 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-08-31 16:36:42,219 INFO  ProjectFixService - Fixing project...
-2018-08-31 16:36:42,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/local.properties
-2018-08-31 16:36:42,237 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2018-08-31 16:36:42,237 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/local.properties
-2018-08-31 16:36:42,238 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-08-31 16:36:42,238 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/local.properties
-2018-08-31 16:36:42,239 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-08-31 16:36:42,239 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-08-31 16:36:42,240 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-08-31 16:36:42,240 INFO  ProjectFixService - Project was maybe fixed
-2018-08-31 16:36:42,240 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 16:36:42,240 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 16:39:08,979 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-08-31 16:39:08,979 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-08-31 16:39:08,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-08-31 16:39:15,102 ERROR SysUtils - Could not process external command
+2019-03-10 20:13:38,576 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew
+2019-03-10 20:13:38,581 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle
+2019-03-10 20:13:38,586 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/maven_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/settings.gradle
+2019-03-10 20:13:38,587 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-10 20:13:38,779 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-10 20:13:38,780 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-10 20:13:38,957 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-10 20:13:38,957 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-10 20:13:38,957 INFO  ProjectFixService - Fixing project...
+2019-03-10 20:13:38,977 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/app/local.properties
+2019-03-10 20:13:38,977 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
+2019-03-10 20:13:38,978 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/local.properties
+2019-03-10 20:13:38,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-10 20:13:38,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/local.properties
+2019-03-10 20:13:38,979 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-03-10 20:13:38,979 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-03-10 20:13:38,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-03-10 20:13:38,981 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 20:13:38,981 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 20:13:38,981 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 20:13:51,968 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 20:13:51,968 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-10 20:13:51,968 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-10 20:13:51,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-10 20:13:54,352 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,48 +45,62 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-08-31 16:39:15,102 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
-Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
-Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
-Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
+2019-03-10 20:13:54,352 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Task 'javadocJar' not found in project ':app'.
+A problem occurred configuring root project 'InfiniteScrollApp'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find support-media-compat.aar (com.android.support:support-media-compat:25.2.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-media-compat/25.2.0/support-media-compat-25.2.0.aar
+   > Could not find support-core-utils.aar (com.android.support:support-core-utils:25.2.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-core-utils/25.2.0/support-core-utils-25.2.0.aar
+   > Could not find support-compat.aar (com.android.support:support-compat:25.2.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-compat/25.2.0/support-compat-25.2.0.aar
 
 * Try:
-Run gradlew tasks to get a list of available tasks. Run with --info or --debug option to get more log output.
+Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in project ':app'.
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
-	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:265)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'InfiniteScrollApp'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:173)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:128)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:246)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:165)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:124)
 	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
 	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
 	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
@@ -138,313 +153,70 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 5s
-
-2018-08-31 16:39:15,103 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-08-31 16:39:15,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-08-31 17:30:02,845 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:69)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-08-31 17:30:02,846 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
-Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
-Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
-Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild
-Download https://jcenter.bintray.com/com/android/support/appcompat-v7/maven-metadata.xml
-Download https://maven.google.com/com/android/support/design/maven-metadata.xml
-Download https://maven.google.com/com/android/support/cardview-v7/maven-metadata.xml
-Download https://jitpack.io/com/github/jrvansuita/MaterialAbout/maven-metadata.xml
-Download https://jitpack.io/com/github/jrvansuita/MaterialAbout/0.2.3/MaterialAbout-0.2.3.pom
-Download https://jcenter.bintray.com/com/irozon/sneaker/sneaker/1.0.1/sneaker-1.0.1.pom
-Download https://jcenter.bintray.com/konifar/fab-transformation/1.0.0/fab-transformation-1.0.0.pom
-Download https://jcenter.bintray.com/com/sdsmdg/harjot/rotatingtext/1.0.2/rotatingtext-1.0.2.pom
-Download https://jcenter.bintray.com/jp/wasabeef/glide-transformations/2.0.2/glide-transformations-2.0.2.pom
-Download https://jcenter.bintray.com/com/skyfishjy/ripplebackground/library/1.0.1/library-1.0.1.pom
-Download https://jcenter.bintray.com/com/ramotion/paperonboarding/paper-onboarding/1.1.1/paper-onboarding-1.1.1.pom
-Download https://jcenter.bintray.com/me/bendik/simplerangeview/simplerangeview/0.1.1/simplerangeview-0.1.1.pom
-Download https://jcenter.bintray.com/com/github/travijuu/numberpicker/1.0.7/numberpicker-1.0.7.pom
-Download https://jcenter.bintray.com/com/afollestad/material-dialogs/core/0.9.4.5/core-0.9.4.5.pom
-Download https://jcenter.bintray.com/github/frosquivel/infinitescroll/1.0.0/infinitescroll-1.0.0.pom
-Download https://maven.google.com/com/crashlytics/sdk/android/crashlytics/2.7.1/crashlytics-2.7.1.pom
-Download https://jitpack.io/com/github/elevenetc/textsurface/0.9.1/textsurface-0.9.1.pom
-Download https://maven.google.com/com/crashlytics/sdk/android/beta/1.2.7/beta-1.2.7.pom
-Download https://maven.google.com/io/fabric/sdk/android/fabric/1.4.1/fabric-1.4.1.pom
-Download https://maven.google.com/com/crashlytics/sdk/android/answers/1.4.1/answers-1.4.1.pom
-Download https://maven.google.com/com/crashlytics/sdk/android/crashlytics-core/2.4.1/crashlytics-core-2.4.1.pom
-Download https://jcenter.bintray.com/com/nineoldandroids/library/maven-metadata.xml
-Download https://repo1.maven.org/maven2/com/nineoldandroids/library/maven-metadata.xml
-Download https://jitpack.io/com/github/jrvansuita/IconHandler/v2.0.0/IconHandler-v2.0.0.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.0.5-3/kotlin-stdlib-1.0.5-3.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-project/1.0.5-3/kotlin-project-1.0.5-3.pom
-Download https://jcenter.bintray.com/me/zhanghai/android/materialprogressbar/library/1.4.1/library-1.4.1.pom
-Download https://maven.google.com/com/android/support/support-v4/maven-metadata.xml
-Download https://maven.google.com/com/android/support/support-v4/20.0.0/support-v4-20.0.0.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-runtime/1.0.5-3/kotlin-runtime-1.0.5-3.pom
-Download https://jcenter.bintray.com/com/github/rey5137/material/1.2.4/material-1.2.4.pom
-Download https://jcenter.bintray.com/com/irozon/sneaker/sneaker/1.0.1/sneaker-1.0.1.aar
-Download https://jitpack.io/com/github/jrvansuita/MaterialAbout/0.2.3/MaterialAbout-0.2.3.aar
-Download https://jitpack.io/com/github/elevenetc/textsurface/0.9.1/textsurface-0.9.1.aar
-Download https://jcenter.bintray.com/me/zhanghai/android/materialprogressbar/library/1.4.1/library-1.4.1.aar
-Download https://jcenter.bintray.com/com/ramotion/paperonboarding/paper-onboarding/1.1.1/paper-onboarding-1.1.1.aar
-Download https://jcenter.bintray.com/com/afollestad/material-dialogs/core/0.9.4.5/core-0.9.4.5.aar
-Download https://jcenter.bintray.com/github/frosquivel/infinitescroll/1.0.0/infinitescroll-1.0.0.aar
-Download https://jcenter.bintray.com/com/sdsmdg/harjot/rotatingtext/1.0.2/rotatingtext-1.0.2.aar
-Download https://jitpack.io/com/github/jrvansuita/IconHandler/v2.0.0/IconHandler-v2.0.0.aar
-Download https://jcenter.bintray.com/com/github/rey5137/material/1.2.4/material-1.2.4.aar
-Download https://jcenter.bintray.com/jp/wasabeef/glide-transformations/2.0.2/glide-transformations-2.0.2.aar
-Download https://jcenter.bintray.com/konifar/fab-transformation/1.0.0/fab-transformation-1.0.0.aar
-Download https://jcenter.bintray.com/com/skyfishjy/ripplebackground/library/1.0.1/library-1.0.1.aar
-Download https://jcenter.bintray.com/me/bendik/simplerangeview/simplerangeview/0.1.1/simplerangeview-0.1.1.aar
-Download http://dl.bintray.com/glomadrian/maven/com/github/glomadrian/loadingballs/1.1/loadingballs-1.1.aar
-Download https://maven.google.com/com/crashlytics/sdk/android/crashlytics/2.7.1/crashlytics-2.7.1.aar
-Download https://jcenter.bintray.com/com/github/travijuu/numberpicker/1.0.7/numberpicker-1.0.7.aar
-Download https://maven.google.com/com/crashlytics/sdk/android/beta/1.2.7/beta-1.2.7.aar
-Download https://maven.google.com/com/crashlytics/sdk/android/crashlytics-core/2.4.1/crashlytics-core-2.4.1.aar
-Download https://maven.google.com/io/fabric/sdk/android/fabric/1.4.1/fabric-1.4.1.aar
-Download https://maven.google.com/com/crashlytics/sdk/android/answers/1.4.1/answers-1.4.1.aar
-:app:compileDebugAidl
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:app:mergeDebugAssets
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/src/main/AndroidManifest.xml:14:5-79 Warning:
-	Element uses-permission#android.permission.ACCESS_FINE_LOCATION at AndroidManifest.xml:14:5-79 duplicated with element declared at AndroidManifest.xml:7:5-79
-:app:fabricGenerateResourcesDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:app:mergeDebugResources
-:app:splitsDiscoveryTaskDebug
-:app:processDebugResources
-:app:generateDebugSources
-:app:javaPreCompileDebug
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-runtime/1.0.5-3/kotlin-runtime-1.0.5-3.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.0.5-3/kotlin-stdlib-1.0.5-3.jar
-:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-:app:transformClassesWithMultidexlistForDebug FAILED
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':app:transformClassesWithMultidexlistForDebug'.
-> java.io.IOException: Can't write [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build/intermediates/multi-dex/debug/componentClasses.jar] (Can't read [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/945cdd557d9a6212bf93e44ec4e6b415/jars/classes.jar(;;;;;;**.class)] (Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class]))
-
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformClassesWithMultidexlistForDebug'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:882)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1500(DefaultConfiguration.java:114)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:856)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:382)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:73)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:211)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:81)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:167)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:63)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-media-compat.aar (com.android.support:support-media-compat:25.2.0).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-media-compat/25.2.0/support-media-compat-25.2.0.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:136)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:168)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:155)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:183)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:132)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.run(DefaultBuildOperationQueue.java:164)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:164)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:159)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:137)
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: java.lang.RuntimeException: java.io.IOException: Can't write [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build/intermediates/multi-dex/debug/componentClasses.jar] (Can't read [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/945cdd557d9a6212bf93e44ec4e6b415/jars/classes.jar(;;;;;;**.class)] (Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class]))
-	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:55)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:104)
-	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:213)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:173)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
-	... 27 more
-Caused by: java.io.IOException: Can't write [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build/intermediates/multi-dex/debug/componentClasses.jar] (Can't read [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/945cdd557d9a6212bf93e44ec4e6b415/jars/classes.jar(;;;;;;**.class)] (Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class]))
-	at proguard.OutputWriter.writeOutput(OutputWriter.java:187)
-	at proguard.OutputWriter.execute(OutputWriter.java:79)
-	at proguard.ProGuard.writeOutput(ProGuard.java:427)
-	at proguard.ProGuard.execute(ProGuard.java:175)
-	at com.android.build.gradle.internal.transforms.BaseProguardAction.runProguard(BaseProguardAction.java:61)
-	at com.android.build.gradle.internal.transforms.MainDexListTransform.shrinkWithProguard(MainDexListTransform.java:232)
-	at com.android.build.gradle.internal.transforms.MainDexListTransform.transform(MainDexListTransform.java:184)
-	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:222)
-	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:218)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
-	... 39 more
-Caused by: java.io.IOException: Can't read [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/945cdd557d9a6212bf93e44ec4e6b415/jars/classes.jar(;;;;;;**.class)] (Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class])
-	at proguard.InputReader.readInput(InputReader.java:188)
-	at proguard.InputReader.readInput(InputReader.java:158)
-	at proguard.OutputWriter.writeOutput(OutputWriter.java:176)
-	... 48 more
-Caused by: java.io.IOException: Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class]
-	at proguard.io.JarWriter.getOutputStream(JarWriter.java:138)
-	at proguard.io.FilteredDataEntryWriter.getOutputStream(FilteredDataEntryWriter.java:106)
-	at proguard.io.FilteredDataEntryWriter.getOutputStream(FilteredDataEntryWriter.java:106)
-	at proguard.io.FilteredDataEntryWriter.getOutputStream(FilteredDataEntryWriter.java:92)
-	at proguard.io.ClassRewriter.read(ClassRewriter.java:68)
-	at proguard.io.FilteredDataEntryReader.read(FilteredDataEntryReader.java:87)
-	at proguard.io.FilteredDataEntryReader.read(FilteredDataEntryReader.java:87)
-	at proguard.io.FilteredDataEntryReader.read(FilteredDataEntryReader.java:87)
-	at proguard.io.JarReader.read(JarReader.java:65)
-	at proguard.io.DirectoryPump.readFiles(DirectoryPump.java:65)
-	at proguard.io.DirectoryPump.pumpDataEntries(DirectoryPump.java:53)
-	at proguard.InputReader.readInput(InputReader.java:184)
-	... 50 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 57s
-20 actionable tasks: 20 executed
+BUILD FAILED in 2s
 
-2018-08-31 17:30:03,201 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 17:30:03,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 17:55:30,903 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-08-31 17:55:30,903 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-08-31 17:55:30,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-08-31 17:55:52,880 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
-Configuration 'compile' in project ':infinitescroll' is deprecated. Use 'implementation' instead.
-:infinitescroll:preBuild UP-TO-DATE
-:infinitescroll:preDebugBuild UP-TO-DATE
-:infinitescroll:compileDebugAidl
-:infinitescroll:compileDebugNdk NO-SOURCE
-:infinitescroll:compileDebugRenderscript
-:infinitescroll:checkDebugManifest
-:infinitescroll:generateDebugBuildConfig
-:infinitescroll:prepareLintJar
-:infinitescroll:generateDebugResValues
-:infinitescroll:generateDebugResources
-:infinitescroll:packageDebugResources
-:infinitescroll:platformAttrExtractor
-:infinitescroll:processDebugManifest
-:infinitescroll:javaPreCompileDebug
-:infinitescroll:mergeDebugShaders
-:infinitescroll:compileDebugShaders
-:infinitescroll:generateDebugAssets
-:infinitescroll:mergeDebugAssets
-:infinitescroll:mergeDebugConsumerProguardFiles
-:infinitescroll:packageDebugRenderscript NO-SOURCE
-:infinitescroll:processDebugJavaRes NO-SOURCE
-:infinitescroll:mergeDebugJniLibFolders
-:infinitescroll:transformNativeLibsWithMergeJniLibsForDebug
-:infinitescroll:transformNativeLibsWithStripDebugSymbolForDebug
-:infinitescroll:transformNativeLibsWithSyncJniLibsForDebug
-:infinitescroll:preReleaseBuild UP-TO-DATE
-:infinitescroll:compileReleaseAidl
-:infinitescroll:compileReleaseNdk NO-SOURCE
-:infinitescroll:compileReleaseRenderscript
-:infinitescroll:checkReleaseManifest
-:infinitescroll:generateReleaseBuildConfig
-:infinitescroll:generateReleaseResValues
-:infinitescroll:generateReleaseResources
-:infinitescroll:packageReleaseResources
-:infinitescroll:processReleaseManifest
-:infinitescroll:javaPreCompileRelease
-:infinitescroll:mergeReleaseShaders
-:infinitescroll:compileReleaseShaders
-:infinitescroll:generateReleaseAssets
-:infinitescroll:mergeReleaseAssets
-:infinitescroll:mergeReleaseConsumerProguardFiles
-:infinitescroll:packageReleaseRenderscript NO-SOURCE
-:infinitescroll:processReleaseJavaRes NO-SOURCE
-:infinitescroll:mergeReleaseJniLibFolders
-:infinitescroll:transformNativeLibsWithMergeJniLibsForRelease
-:infinitescroll:transformNativeLibsWithStripDebugSymbolForRelease
-:infinitescroll:transformNativeLibsWithSyncJniLibsForRelease
-:infinitescroll:mergeReleaseResources
-:infinitescroll:verifyReleaseResources
-:infinitescroll:processDebugResources
-:infinitescroll:generateDebugSources
-:infinitescroll:compileDebugJavaWithJavac
-:infinitescroll:extractDebugAnnotations
-:infinitescroll:transformResourcesWithMergeJavaResForDebug
-:infinitescroll:transformClassesAndResourcesWithSyncLibJarsForDebug
-:infinitescroll:bundleDebug
-:infinitescroll:compileDebugSources
-:infinitescroll:assembleDebug
-:infinitescroll:processReleaseResources
-:infinitescroll:generateReleaseSources
-:infinitescroll:compileReleaseJavaWithJavac
-:infinitescroll:extractReleaseAnnotations
-:infinitescroll:transformResourcesWithMergeJavaResForRelease
-:infinitescroll:transformClassesAndResourcesWithSyncLibJarsForRelease
-:infinitescroll:bundleRelease
-:infinitescroll:compileReleaseSources
-:infinitescroll:assembleRelease
-:infinitescroll:assemble
-:infinitescroll:build
-
-BUILD SUCCESSFUL in 19s
-48 actionable tasks: 48 executed
-
-2018-08-31 17:55:53,018 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 17:55:53,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 17:56:02,862 INFO  ProjectTaskService - Detected possible tasks: 75
-2018-08-31 17:56:02,862 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-08-31 17:56:02,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-08-31 17:56:19,397 ERROR SysUtils - Could not process external command
+2019-03-10 20:13:54,359 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 20:13:54,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 20:13:56,710 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 20:13:56,710 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-10 20:13:56,710 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-10 20:13:56,710 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/infinitescroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-10 20:13:59,197 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -457,146 +229,354 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-08-31 17:56:19,397 INFO  SysUtils - Configuration on demand is an incubating feature.
-WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
-Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
-Configuration 'androidTestCompile' in project ':app' is deprecated. Use 'androidTestImplementation' instead.
-Configuration 'testCompile' in project ':app' is deprecated. Use 'testImplementation' instead.
-WARNING: The `android.dexOptions.incremental` property is deprecated and it has no effect on the build process.
-Configuration 'compile' in project ':infinitescroll' is deprecated. Use 'implementation' instead.
-:app:preBuild UP-TO-DATE
-:app:preDebugBuild UP-TO-DATE
-:app:compileDebugAidl UP-TO-DATE
-:app:compileDebugRenderscript UP-TO-DATE
-:app:checkDebugManifest UP-TO-DATE
-:app:generateDebugBuildConfig UP-TO-DATE
-:app:prepareLintJar UP-TO-DATE
-:app:mergeDebugShaders UP-TO-DATE
-:app:compileDebugShaders UP-TO-DATE
-:app:generateDebugAssets UP-TO-DATE
-:app:mergeDebugAssets UP-TO-DATE
-:app:createDebugCompatibleScreenManifests UP-TO-DATE
-:app:processDebugManifest UP-TO-DATE
-:app:fabricGenerateResourcesDebug
-:app:generateDebugResValues UP-TO-DATE
-:app:generateDebugResources UP-TO-DATE
-:app:mergeDebugResources
-:app:splitsDiscoveryTaskDebug UP-TO-DATE
-:app:processDebugResources
-:app:generateDebugSources
-:app:javaPreCompileDebug UP-TO-DATE
-:app:compileDebugJavaWithJavac UP-TO-DATE
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources UP-TO-DATE
-:app:transformClassesWithDexBuilderForDebug UP-TO-DATE
-:app:transformClassesWithMultidexlistForDebug FAILED
+2019-03-10 20:13:59,197 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
-Execution failed for task ':app:transformClassesWithMultidexlistForDebug'.
-> java.io.IOException: Can't write [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build/intermediates/multi-dex/debug/componentClasses.jar] (Can't read [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/945cdd557d9a6212bf93e44ec4e6b415/jars/classes.jar(;;;;;;**.class)] (Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class]))
+A problem occurred configuring root project 'InfiniteScrollApp'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find support-media-compat.aar (com.android.support:support-media-compat:25.2.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-media-compat/25.2.0/support-media-compat-25.2.0.aar
+   > Could not find support-core-utils.aar (com.android.support:support-core-utils:25.2.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-core-utils/25.2.0/support-core-utils-25.2.0.aar
+   > Could not find support-compat.aar (com.android.support:support-compat:25.2.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-compat/25.2.0/support-compat-25.2.0.aar
 
 * Try:
 Run with --info or --debug option to get more log output.
 
 * Exception is:
-org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:transformClassesWithMultidexlistForDebug'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:100)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:70)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:63)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'InfiniteScrollApp'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:124)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:80)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:105)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:99)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:625)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:580)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:99)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:246)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:165)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:124)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:882)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1500(DefaultConfiguration.java:114)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:856)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:382)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:73)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:211)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:81)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:167)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:63)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-media-compat.aar (com.android.support:support-media-compat:25.2.0).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-media-compat/25.2.0/support-media-compat-25.2.0.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:136)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:168)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:155)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:183)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:132)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.run(DefaultBuildOperationQueue.java:164)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:164)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:159)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:137)
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: java.lang.RuntimeException: java.io.IOException: Can't write [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build/intermediates/multi-dex/debug/componentClasses.jar] (Can't read [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/945cdd557d9a6212bf93e44ec4e6b415/jars/classes.jar(;;;;;;**.class)] (Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class]))
-	at com.android.builder.profile.Recorder$Block.handleException(Recorder.java:55)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:104)
-	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:213)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:173)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
-	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:121)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:122)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:111)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:92)
-	... 27 more
-Caused by: java.io.IOException: Can't write [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535708197207-0/src/InfiniteScroll-master/InfiniteScrollApp/app/build/intermediates/multi-dex/debug/componentClasses.jar] (Can't read [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/945cdd557d9a6212bf93e44ec4e6b415/jars/classes.jar(;;;;;;**.class)] (Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class]))
-	at proguard.OutputWriter.writeOutput(OutputWriter.java:187)
-	at proguard.OutputWriter.execute(OutputWriter.java:79)
-	at proguard.ProGuard.writeOutput(ProGuard.java:427)
-	at proguard.ProGuard.execute(ProGuard.java:175)
-	at com.android.build.gradle.internal.transforms.BaseProguardAction.runProguard(BaseProguardAction.java:61)
-	at com.android.build.gradle.internal.transforms.MainDexListTransform.shrinkWithProguard(MainDexListTransform.java:232)
-	at com.android.build.gradle.internal.transforms.MainDexListTransform.transform(MainDexListTransform.java:184)
-	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:222)
-	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:218)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
-	... 39 more
-Caused by: java.io.IOException: Can't read [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/945cdd557d9a6212bf93e44ec4e6b415/jars/classes.jar(;;;;;;**.class)] (Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class])
-	at proguard.InputReader.readInput(InputReader.java:188)
-	at proguard.InputReader.readInput(InputReader.java:158)
-	at proguard.OutputWriter.writeOutput(OutputWriter.java:176)
-	... 48 more
-Caused by: java.io.IOException: Duplicate zip entry [classes.jar:android/support/design/widget/CoordinatorLayout$Behavior.class]
-	at proguard.io.JarWriter.getOutputStream(JarWriter.java:138)
-	at proguard.io.FilteredDataEntryWriter.getOutputStream(FilteredDataEntryWriter.java:106)
-	at proguard.io.FilteredDataEntryWriter.getOutputStream(FilteredDataEntryWriter.java:106)
-	at proguard.io.FilteredDataEntryWriter.getOutputStream(FilteredDataEntryWriter.java:92)
-	at proguard.io.ClassRewriter.read(ClassRewriter.java:68)
-	at proguard.io.FilteredDataEntryReader.read(FilteredDataEntryReader.java:87)
-	at proguard.io.FilteredDataEntryReader.read(FilteredDataEntryReader.java:87)
-	at proguard.io.FilteredDataEntryReader.read(FilteredDataEntryReader.java:87)
-	at proguard.io.JarReader.read(JarReader.java:65)
-	at proguard.io.DirectoryPump.readFiles(DirectoryPump.java:65)
-	at proguard.io.DirectoryPump.pumpDataEntries(DirectoryPump.java:53)
-	at proguard.InputReader.readInput(InputReader.java:184)
-	... 50 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 16s
-20 actionable tasks: 4 executed, 16 up-to-date
+BUILD FAILED in 2s
 
-2018-08-31 17:56:19,515 ERROR FullProcessService - Project build has not produced APK file
-2018-08-31 17:56:19,623 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-10 20:13:59,203 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 20:13:59,204 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 20:14:01,585 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 20:14:01,585 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-10 20:14:01,586 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-10 20:14:01,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552223612609-0/src/InfiniteScroll-master/InfiniteScrollApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-10 20:14:03,958 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-10 20:14:03,958 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'InfiniteScrollApp'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find support-media-compat.aar (com.android.support:support-media-compat:25.2.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-media-compat/25.2.0/support-media-compat-25.2.0.aar
+   > Could not find support-core-utils.aar (com.android.support:support-core-utils:25.2.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-core-utils/25.2.0/support-core-utils-25.2.0.aar
+   > Could not find support-compat.aar (com.android.support:support-compat:25.2.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/support/support-compat/25.2.0/support-compat-25.2.0.aar
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'InfiniteScrollApp'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:87)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:65)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:33)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:103)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:49)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:651)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:133)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:246)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:165)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:124)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:107)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:29)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:71)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:51)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:42)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:58)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:33)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:287)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:260)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:882)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1500(DefaultConfiguration.java:114)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:856)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:382)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:73)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:211)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:81)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:167)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:107)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:39)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:63)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-media-compat.aar (com.android.support:support-media-compat:25.2.0).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-media-compat/25.2.0/support-media-compat-25.2.0.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:136)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:168)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:155)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:197)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:183)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:132)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.run(DefaultBuildOperationQueue.java:164)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:164)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:159)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:137)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2019-03-10 20:14:03,965 ERROR FullProcessService - Project build has not produced APK file
+2019-03-10 20:14:03,970 ERROR FullProcessService - Could not find generated or existed APK file
