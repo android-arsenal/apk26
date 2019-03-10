@@ -1,31 +1,31 @@
-2018-08-31 21:46:43,161 INFO  DownloadService - Downloading "https://github.com/Euzee/serviceManager/archive/master.zip", attempt 3
-2018-08-31 21:46:44,004 INFO  DownloadService - Downloaded https://github.com/Euzee/serviceManager/archive/master.zip, attempt 3
-2018-08-31 21:46:44,004 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/master.zip": 63 KB
-2018-08-31 21:46:44,004 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-31 21:46:44,004 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/master.zip: true
-2018-08-31 21:46:44,004 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src'.
-2018-08-31 21:46:44,013 INFO  FullProcessService - Size of directory with sources: 75 KB
-2018-08-31 21:46:44,013 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src]
-2018-08-31 21:46:44,033 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/.git/
+2019-03-10 23:44:32,560 INFO  DownloadService - Downloading "https://github.com/Euzee/serviceManager/archive/master.zip", attempt 3
+2019-03-10 23:44:34,632 INFO  DownloadService - Downloaded https://github.com/Euzee/serviceManager/archive/master.zip, attempt 3
+2019-03-10 23:44:34,632 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/master.zip": 63 KB
+2019-03-10 23:44:34,632 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 23:44:34,632 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/master.zip: true
+2019-03-10 23:44:34,633 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src'.
+2019-03-10 23:44:34,648 INFO  FullProcessService - Size of directory with sources: 75 KB
+2019-03-10 23:44:34,649 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src]
+2019-03-10 23:44:34,687 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/.git/
 
-2018-08-31 21:46:44,035 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/gradlew
-2018-08-31 21:46:44,038 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/build.gradle
-2018-08-31 21:46:44,040 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/settings.gradle
-2018-08-31 21:46:44,041 INFO  ProjectBuildService - Remote scripts: none
-2018-08-31 21:46:44,041 INFO  ProjectFixService - Fixing project...
-2018-08-31 21:46:44,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/local.properties
-2018-08-31 21:46:44,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-08-31 21:46:44,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/local.properties
-2018-08-31 21:46:44,049 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-08-31 21:46:44,049 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-08-31 21:46:44,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-08-31 21:46:44,051 INFO  ProjectFixService - Project was maybe fixed
-2018-08-31 21:46:44,052 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 21:46:44,052 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 21:46:52,243 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-08-31 21:46:52,243 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-08-31 21:46:52,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-08-31 21:47:04,286 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 23:44:34,690 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/gradlew
+2019-03-10 23:44:34,694 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/build.gradle
+2019-03-10 23:44:34,697 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/settings.gradle
+2019-03-10 23:44:34,702 INFO  ProjectBuildService - Remote scripts: none
+2019-03-10 23:44:34,703 INFO  ProjectFixService - Fixing project...
+2019-03-10 23:44:34,716 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/local.properties
+2019-03-10 23:44:34,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-10 23:44:34,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/local.properties
+2019-03-10 23:44:34,720 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-10 23:44:34,721 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-10 23:44:34,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-03-10 23:44:34,726 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 23:44:34,726 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 23:44:34,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 23:44:48,858 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-10 23:44:48,859 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-10 23:44:48,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-10 23:45:09,310 INFO  SysUtils - Configuration on demand is an incubating feature.
 :serviceManager:prepareApplicationProperties UP-TO-DATE
 :serviceManager:preBuild UP-TO-DATE
 :serviceManager:preDebugBuild UP-TO-DATE
@@ -76,35 +76,35 @@
 :serviceManager:transformNativeLibsWithSyncJniLibsForRelease
 :serviceManager:mergeReleaseResources
 :serviceManager:verifyReleaseResources
-:serviceManager:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/ServiceManager.java:10: error: package android.support.v4.app does not exist
+:serviceManager:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/ServiceManager.java:10: error: package android.support.v4.app does not exist
 import android.support.v4.app.JobIntentService;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LongTermService.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LongTermService.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/CompatService.java:6: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/CompatService.java:6: error: package android.support.v4.app does not exist
 import android.support.v4.app.JobIntentService;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/CompatService.java:9: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/CompatService.java:9: error: cannot find symbol
 public abstract class CompatService extends JobIntentService {
                                             ^
   symbol: class JobIntentService
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LocalService.java:4: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LocalService.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LocalService.java:5: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LocalService.java:5: error: package android.support.v4.app does not exist
 import android.support.v4.app.JobIntentService;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LocalService.java:7: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LocalService.java:7: error: cannot find symbol
 public class LocalService extends JobIntentService {
                                   ^
   symbol: class JobIntentService
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LongTermService.java:8: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LongTermService.java:8: error: cannot find symbol
     protected void onHandleWork(@NonNull Intent intent) {
                                  ^
   symbol:   class NonNull
   location: class LongTermService
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LocalService.java:9: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/serviceManager/src/main/java/sm/euzee/github/com/servicemanager/LocalService.java:9: error: cannot find symbol
     protected void onHandleWork(@NonNull Intent intent) {
                                  ^
   symbol:   class NonNull
@@ -136,15 +136,15 @@ javadoc: warning - Class NonNull not found.
 :serviceManager:assemble
 :serviceManager:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 19s
 51 actionable tasks: 51 executed
 
-2018-08-31 21:47:04,316 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 21:47:04,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 21:47:11,186 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-08-31 21:47:11,186 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-08-31 21:47:11,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726803152-0/src/serviceManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-08-31 21:47:18,399 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 23:45:09,362 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 23:45:09,362 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 23:45:19,163 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-10 23:45:19,163 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-10 23:45:19,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236272554-0/src/serviceManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-10 23:45:31,873 INFO  SysUtils - Configuration on demand is an incubating feature.
 :serviceManager:prepareApplicationProperties UP-TO-DATE
 :serviceManager:preBuild UP-TO-DATE
 :serviceManager:preDebugBuild UP-TO-DATE
@@ -219,8 +219,8 @@ BUILD SUCCESSFUL in 11s
 :serviceManager:assemble UP-TO-DATE
 :serviceManager:build
 
-BUILD SUCCESSFUL in 6s
+BUILD SUCCESSFUL in 12s
 51 actionable tasks: 51 up-to-date
 
-2018-08-31 21:47:18,428 ERROR FullProcessService - Project build has not produced APK file
-2018-08-31 21:47:18,453 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-10 23:45:31,916 ERROR FullProcessService - Project build has not produced APK file
+2019-03-10 23:45:31,961 ERROR FullProcessService - Could not find generated or existed APK file
