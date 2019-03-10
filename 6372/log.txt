@@ -1,10 +1,10 @@
-2018-08-31 21:26:57,331 INFO  DownloadService - Downloading "https://github.com/sucong0826/iSortBox/archive/master.zip", attempt 3
-2018-08-31 21:26:59,585 INFO  DownloadService - Downloaded https://github.com/sucong0826/iSortBox/archive/master.zip, attempt 3
-2018-08-31 21:26:59,586 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725617322-0/master.zip": 243 KB
-2018-08-31 21:26:59,586 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-31 21:26:59,591 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535725617322-0/master.zip: false
-2018-08-31 21:26:59,591 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-08-31 21:26:59,591 ERROR FullProcessService - Could not find directory with sources
-2018-08-31 21:26:59,592 ERROR FullProcessService - Project will not be processed
-2018-08-31 21:26:59,592 ERROR FullProcessService - Project build has not produced APK file
-2018-08-31 21:26:59,592 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-10 21:29:35,553 INFO  DownloadService - Downloading "https://github.com/sucong0826/iSortBox/archive/master.zip", attempt 3
+2019-03-10 21:29:38,189 INFO  DownloadService - Downloaded https://github.com/sucong0826/iSortBox/archive/master.zip, attempt 3
+2019-03-10 21:29:38,189 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228175545-0/master.zip": 243 KB
+2019-03-10 21:29:38,189 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 21:29:38,195 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228175545-0/master.zip: false
+2019-03-10 21:29:38,195 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-03-10 21:29:38,195 ERROR FullProcessService - Could not find directory with sources
+2019-03-10 21:29:38,195 ERROR FullProcessService - Project will not be processed
+2019-03-10 21:29:38,195 ERROR FullProcessService - Project build has not produced APK file
+2019-03-10 21:29:38,196 ERROR FullProcessService - Could not find generated or existed APK file

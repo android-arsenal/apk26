@@ -1,32 +1,32 @@
-2018-08-31 19:24:01,910 INFO  DownloadService - Downloading "https://github.com/ajithvgiri/PDF-Downloader/archive/master.zip", attempt 3
-2018-08-31 19:24:02,603 INFO  DownloadService - Downloaded https://github.com/ajithvgiri/PDF-Downloader/archive/master.zip, attempt 3
-2018-08-31 19:24:02,603 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/master.zip": 140 KB
-2018-08-31 19:24:02,603 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-31 19:24:02,609 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/master.zip: true
-2018-08-31 19:24:02,609 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src'.
-2018-08-31 19:24:02,622 INFO  FullProcessService - Size of directory with sources: 147 KB
-2018-08-31 19:24:02,622 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src]
-2018-08-31 19:24:02,638 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/.git/
+2019-03-10 21:13:24,638 INFO  DownloadService - Downloading "https://github.com/ajithvgiri/PDF-Downloader/archive/master.zip", attempt 3
+2019-03-10 21:13:25,416 INFO  DownloadService - Downloaded https://github.com/ajithvgiri/PDF-Downloader/archive/master.zip, attempt 3
+2019-03-10 21:13:25,416 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/master.zip": 140 KB
+2019-03-10 21:13:25,416 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 21:13:25,421 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/master.zip: true
+2019-03-10 21:13:25,421 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src'.
+2019-03-10 21:13:25,459 INFO  FullProcessService - Size of directory with sources: 147 KB
+2019-03-10 21:13:25,459 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src]
+2019-03-10 21:13:25,493 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/.git/
 
-2018-08-31 19:24:02,641 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/gradlew
-2018-08-31 19:24:02,643 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/build.gradle
-2018-08-31 19:24:02,645 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/settings.gradle
-2018-08-31 19:24:02,645 INFO  ProjectBuildService - Remote scripts: none
-2018-08-31 19:24:02,645 INFO  ProjectFixService - Fixing project...
-2018-08-31 19:24:02,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/app/local.properties
-2018-08-31 19:24:02,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-08-31 19:24:02,652 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/local.properties
-2018-08-31 19:24:02,652 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-08-31 19:24:02,652 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-08-31 19:24:02,653 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
-2018-08-31 19:24:02,653 INFO  ProjectFixService - Project was maybe fixed
-2018-08-31 19:24:02,653 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 19:24:02,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 19:24:08,293 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-08-31 19:24:08,293 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-08-31 19:24:08,293 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-08-31 19:24:08,294 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-08-31 19:24:12,873 ERROR SysUtils - Could not process external command
+2019-03-10 21:13:25,508 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/gradlew
+2019-03-10 21:13:25,525 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/build.gradle
+2019-03-10 21:13:25,530 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/settings.gradle
+2019-03-10 21:13:25,531 INFO  ProjectBuildService - Remote scripts: none
+2019-03-10 21:13:25,531 INFO  ProjectFixService - Fixing project...
+2019-03-10 21:13:25,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/app/local.properties
+2019-03-10 21:13:25,551 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/app/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-10 21:13:25,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/local.properties
+2019-03-10 21:13:25,554 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-03-10 21:13:25,555 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-03-10 21:13:25,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/build.gradle": [buildToolsVersion=26.0.2,compileSdkVersion=26,minSdkVersion=19,targetSdkVersion=26]
+2019-03-10 21:13:25,563 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 21:13:25,563 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 21:13:25,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 21:13:31,050 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 21:13:31,050 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-10 21:13:31,050 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-10 21:13:31,051 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 21:13:35,370 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,14 +47,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-08-31 19:24:12,873 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 21:13:35,370 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -206,13 +206,13 @@ Required by:
 
 BUILD FAILED in 4s
 
-2018-08-31 19:24:12,876 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 19:24:12,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 19:24:17,306 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-08-31 19:24:17,306 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-08-31 19:24:17,306 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-08-31 19:24:17,307 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535718241907-0/src/PDF-Downloader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-08-31 19:24:21,958 ERROR SysUtils - Could not process external command
+2019-03-10 21:13:35,374 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 21:13:35,374 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 21:13:39,845 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-10 21:13:39,845 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-10 21:13:39,845 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-10 21:13:39,845 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227204635-0/src/PDF-Downloader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 21:13:44,738 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -233,14 +233,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-08-31 19:24:21,958 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 21:13:44,738 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -392,5 +392,5 @@ Required by:
 
 BUILD FAILED in 4s
 
-2018-08-31 19:24:21,961 ERROR FullProcessService - Project build has not produced APK file
-2018-08-31 19:24:21,965 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-10 21:13:44,742 ERROR FullProcessService - Project build has not produced APK file
+2019-03-10 21:13:44,745 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,42 +1,41 @@
-2019-01-02 19:09:39,157 INFO  DownloadService - Downloading "https://github.com/dibakarece/DMAudioStreamer/archive/master.zip", attempt 3
-2019-01-02 19:09:41,242 INFO  DownloadService - Downloaded https://github.com/dibakarece/DMAudioStreamer/archive/master.zip, attempt 3
-2019-01-02 19:09:41,242 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/master.zip": 343 KB
-2019-01-02 19:09:41,242 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-02 19:09:41,248 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/master.zip: true
-2019-01-02 19:09:41,248 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src'.
-2019-01-02 19:09:41,298 INFO  FullProcessService - Size of directory with sources: 590 KB
-2019-01-02 19:09:41,298 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src]
-2019-01-02 19:09:41,320 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/.git/
+2019-03-10 21:23:11,732 INFO  DownloadService - Downloading "https://github.com/dibakarece/DMAudioStreamer/archive/master.zip", attempt 3
+2019-03-10 21:23:13,400 INFO  DownloadService - Downloaded https://github.com/dibakarece/DMAudioStreamer/archive/master.zip, attempt 3
+2019-03-10 21:23:13,401 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/master.zip": 343 KB
+2019-03-10 21:23:13,401 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 21:23:13,402 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/master.zip: true
+2019-03-10 21:23:13,403 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src'.
+2019-03-10 21:23:13,448 INFO  FullProcessService - Size of directory with sources: 590 KB
+2019-03-10 21:23:13,448 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src]
+2019-03-10 21:23:13,465 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/.git/
 
-2019-01-02 19:09:41,326 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/gradlew
-2019-01-02 19:09:41,332 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/dmaudiostreamer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/build.gradle
-2019-01-02 19:09:41,337 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/dmaudiostreamer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/settings.gradle
-2019-01-02 19:09:41,337 INFO  ProjectBuildService - Remote scripts: none
-2019-01-02 19:09:41,337 INFO  ProjectFixService - Fixing project...
-2019-01-02 19:09:41,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/app/local.properties
-2019-01-02 19:09:41,350 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:09:41,351 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:09:41,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/dmaudiostreamer/local.properties
-2019-01-02 19:09:41,353 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/dmaudiostreamer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:09:41,353 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/dmaudiostreamer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:09:41,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/local.properties
-2019-01-02 19:09:41,354 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-02 19:09:41,355 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-02 19:09:41,356 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:09:41,356 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-02 19:09:41,357 INFO  ProjectFixService - Project was maybe fixed
-2019-01-02 19:09:41,357 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-02 19:09:41,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-02 19:09:48,805 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-02 19:09:48,805 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-02 19:09:48,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-02 19:10:39,336 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://dl.google.com/dl/android/maven2/androidx/mediarouter/mediarouter/1.0.0/mediarouter-1.0.0.pom
-Download https://jitpack.io/com/github/dibakarece/DMAudioStreamer/v1.0.5/DMAudioStreamer-v1.0.5.pom
-Download https://jitpack.io/com/github/hannesa2/AndroidSlidingUpPanel/3.5.0/AndroidSlidingUpPanel-3.5.0.pom
+2019-03-10 21:23:13,470 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/gradlew
+2019-03-10 21:23:13,474 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/dmaudiostreamer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/build.gradle
+2019-03-10 21:23:13,479 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/dmaudiostreamer/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/settings.gradle
+2019-03-10 21:23:13,479 INFO  ProjectBuildService - Remote scripts: none
+2019-03-10 21:23:13,479 INFO  ProjectFixService - Fixing project...
+2019-03-10 21:23:13,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/app/local.properties
+2019-03-10 21:23:13,490 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-10 21:23:13,490 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-10 21:23:13,491 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/dmaudiostreamer/local.properties
+2019-03-10 21:23:13,492 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/dmaudiostreamer/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-10 21:23:13,492 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/dmaudiostreamer/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-10 21:23:13,492 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/local.properties
+2019-03-10 21:23:13,493 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-10 21:23:13,493 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-10 21:23:13,494 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-10 21:23:13,494 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-10 21:23:13,494 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 21:23:13,495 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 21:23:13,495 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 21:23:23,852 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-10 21:23:23,853 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-10 21:23:23,853 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-10 21:24:08,575 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jitpack.io/com/github/dibakarece/DMAudioStreamer/v1.0.5/DMAudioStreamer-v1.0.5.aar
+Download https://jcenter.bintray.com/com/nostra13/universalimageloader/universal-image-loader/1.9.5/universal-image-loader-1.9.5.jar
+Download https://dl.google.com/dl/android/maven2/androidx/mediarouter/mediarouter/1.0.0/mediarouter-1.0.0.aar
 Download https://jitpack.io/com/github/hannesa2/AndroidSlidingUpPanel/3.5.0/AndroidSlidingUpPanel-3.5.0.aar
+Download https://jitpack.io/com/github/dibakarece/DMAudioStreamer/v1.0.5/DMAudioStreamer-v1.0.5.aar
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
 :app:compileDebugAidl NO-SOURCE
@@ -115,7 +114,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 50s
+BUILD SUCCESSFUL in 44s
 55 actionable tasks: 55 executed
 
-2019-01-02 19:10:39,437 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546430979153-0/src/DMAudioStreamer-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-10 21:24:08,670 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227791730-0/src/DMAudioStreamer-master/app/build/outputs/apk/debug/app-debug.apk

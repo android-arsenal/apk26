@@ -1,40 +1,40 @@
-2018-12-14 12:47:24,703 INFO  DownloadService - Downloading "https://github.com/humazed/RoomAsset/archive/master.zip", attempt 3
-2018-12-14 12:47:25,836 INFO  DownloadService - Downloaded https://github.com/humazed/RoomAsset/archive/master.zip, attempt 3
-2018-12-14 12:47:25,836 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/master.zip": 538 KB
-2018-12-14 12:47:25,836 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-14 12:47:25,842 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/master.zip: true
-2018-12-14 12:47:25,843 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src'.
-2018-12-14 12:47:25,873 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-12-14 12:47:25,873 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src]
-2018-12-14 12:47:25,890 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/.git/
+2019-03-10 21:06:57,303 INFO  DownloadService - Downloading "https://github.com/humazed/RoomAsset/archive/master.zip", attempt 3
+2019-03-10 21:06:58,295 INFO  DownloadService - Downloaded https://github.com/humazed/RoomAsset/archive/master.zip, attempt 3
+2019-03-10 21:06:58,296 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/master.zip": 538 KB
+2019-03-10 21:06:58,296 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 21:06:58,296 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/master.zip: true
+2019-03-10 21:06:58,296 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src'.
+2019-03-10 21:06:58,326 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-10 21:06:58,326 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src]
+2019-03-10 21:06:58,343 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/.git/
 
-2018-12-14 12:47:25,893 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew
-2018-12-14 12:47:25,897 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/build.gradle
-2018-12-14 12:47:25,901 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/settings.gradle
-2018-12-14 12:47:25,902 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-14 12:47:26,677 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-14 12:47:26,677 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-12-14 12:47:26,773 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-12-14 12:47:26,774 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-12-14 12:47:26,774 INFO  ProjectFixService - Fixing project...
-2018-12-14 12:47:26,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/local.properties
-2018-12-14 12:47:26,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-14 12:47:26,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-14 12:47:26,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/local.properties
-2018-12-14 12:47:26,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-14 12:47:26,788 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-14 12:47:26,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/local.properties
-2018-12-14 12:47:26,789 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-12-14 12:47:26,789 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-12-14 12:47:26,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-14 12:47:26,791 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-14 12:47:26,791 INFO  ProjectFixService - Project was maybe fixed
-2018-12-14 12:47:26,791 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-14 12:47:26,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-14 12:47:32,749 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-12-14 12:47:32,749 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-14 12:47:32,750 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-14 12:47:38,334 ERROR SysUtils - Could not process external command
+2019-03-10 21:06:58,347 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/gradlew
+2019-03-10 21:06:58,351 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/build.gradle
+2019-03-10 21:06:58,355 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/settings.gradle
+2019-03-10 21:06:58,356 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-10 21:06:58,456 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-10 21:06:58,456 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-03-10 21:06:58,554 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-03-10 21:06:58,555 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-03-10 21:06:58,555 INFO  ProjectFixService - Fixing project...
+2019-03-10 21:06:58,566 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/local.properties
+2019-03-10 21:06:58,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-10 21:06:58,568 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-10 21:06:58,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/local.properties
+2019-03-10 21:06:58,571 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-10 21:06:58,571 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-10 21:06:58,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/local.properties
+2019-03-10 21:06:58,573 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-10 21:06:58,573 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-10 21:06:58,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-10 21:06:58,575 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-10 21:06:58,576 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 21:06:58,576 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 21:06:58,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 21:07:06,542 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-03-10 21:07:06,542 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-10 21:07:06,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-10 21:07:15,714 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,21 +47,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-14 12:47:38,334 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 21:07:15,714 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -141,11 +142,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 8s
 
-2018-12-14 12:47:38,334 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-14 12:47:38,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-14 12:48:03,231 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 21:07:15,714 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-10 21:07:15,715 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 21:07:52,829 INFO  SysUtils - Configuration on demand is an incubating feature.
 :room-asset:preBuild UP-TO-DATE
 :room-asset:preDebugBuild UP-TO-DATE
 :room-asset:compileDebugAidl
@@ -200,6 +201,7 @@ BUILD FAILED in 5s
 :room-asset:processReleaseUnitTestJavaRes NO-SOURCE
 :room-asset:generateDebugRFile
 :room-asset:compileDebugKotlin
+Download https://jcenter.bintray.com/com/readystatesoftware/sqliteasset/sqliteassethelper/2.0.1/sqliteassethelper-2.0.1.jar
 :room-asset:generateDebugSources
 :room-asset:javaPreCompileDebug
 :room-asset:compileDebugJavaWithJavac
@@ -224,8 +226,8 @@ BUILD FAILED in 5s
 :room-asset:lint
 Ran lint on variant release: 2 issues found
 Ran lint on variant debug: 2 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/room-asset/build/reports/lint-results.xml
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/room-asset/build/reports/lint-results.xml
 :room-asset:compileDebugUnitTestKotlin
 :room-asset:javaPreCompileDebugUnitTest
 :room-asset:compileDebugUnitTestJavaWithJavac
@@ -240,15 +242,15 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :room-asset:check
 :room-asset:build
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 36s
 62 actionable tasks: 62 executed
 
-2018-12-14 12:48:03,263 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-14 12:48:03,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-14 12:48:08,899 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-14 12:48:08,899 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-14 12:48:08,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-14 12:48:14,306 ERROR SysUtils - Could not process external command
+2019-03-10 21:07:52,868 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 21:07:52,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 21:07:58,842 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-10 21:07:58,842 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-10 21:07:58,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-10 21:08:04,690 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -261,21 +263,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-14 12:48:14,307 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 21:08:04,690 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -357,9 +360,9 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2018-12-14 12:48:14,307 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-14 12:48:14,307 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-14 12:49:03,711 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-10 21:08:04,690 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-10 21:08:04,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-10 21:09:12,363 INFO  SysUtils - Configuration on demand is an incubating feature.
 :room-asset:preBuild UP-TO-DATE
 :room-asset:preDebugBuild UP-TO-DATE
 :room-asset:compileDebugAidl UP-TO-DATE
@@ -395,39 +398,27 @@ BUILD FAILED in 5s
 :sample:splitsDiscoveryTaskDebug
 :sample:processDebugResources
 :sample:kaptGenerateStubsDebugKotlin
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-commons/0.10.4/anko-appcompat-v7-commons-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko/0.10.4/anko-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4-commons/0.10.4/anko-support-v4-commons-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sqlite/0.10.4/anko-sqlite-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7-coroutines/0.10.4/anko-appcompat-v7-coroutines-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-support-v4/0.10.4/anko-support-v4-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-commons/0.10.4/anko-commons-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-coroutines/0.10.4/anko-coroutines-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-android/0.15/kotlinx-coroutines-android-0.15.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-appcompat-v7/0.10.4/anko-appcompat-v7-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk25-coroutines/0.10.4/anko-sdk25-coroutines-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/anko/anko-sdk25/0.10.4/anko-sdk25-0.10.4.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-core/0.15/kotlinx-coroutines-core-0.15.jar
+Download https://jcenter.bintray.com/com/jakewharton/fliptables/fliptables/1.0.2/fliptables-1.0.2.jar
 :sample:kaptDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
 public final class Customers {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Customers.java:7: warning: SupportRepId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Customers.java:7: warning: SupportRepId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
 public final class Customers {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
 public final class Employees {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Employees.java:7: warning: ReportsTo column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Employees.java:7: warning: ReportsTo column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
 public final class Employees {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
 public final class Customers {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
 public final class Employees {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/debug/com/huma/roomforasset/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
                 ^
 :sample:compileDebugKotlin
@@ -446,17 +437,19 @@ public abstract class AppDatabase extends android.arch.persistence.room.RoomData
 :sample:generateDebugAssets
 :sample:mergeDebugAssets
 :sample:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 13 methods.
 D8: Stripped invalid locals information from 16 methods.
-D8: Stripped invalid locals information from 14 methods.
-D8: Stripped invalid locals information from 11 methods.
-D8: Stripped invalid locals information from 1 method.
 D8: Stripped invalid locals information from 13 methods.
+D8: Stripped invalid locals information from 11 methods.
+D8: Stripped invalid locals information from 14 methods.
+D8: Stripped invalid locals information from 13 methods.
+D8: Stripped invalid locals information from 1 method.
 D8: Stripped invalid locals information from 4 methods.
 D8: Stripped invalid locals information from 1 method.
 D8: Stripped invalid locals information from 2 methods.
 D8: Stripped invalid locals information from 2 methods.
 D8: Stripped invalid locals information from 2 methods.
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
 D8: Stripped invalid locals information from 1 method.
 D8: Stripped invalid locals information from 1 method.
 D8: Stripped invalid locals information from 1 method.
@@ -507,25 +500,25 @@ D8: Stripped invalid locals information from 1 method.
 :sample:processReleaseResources
 :sample:kaptGenerateStubsReleaseKotlin
 :sample:kaptReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
 public final class Customers {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Customers.java:7: warning: SupportRepId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Customers.java:7: warning: SupportRepId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
 public final class Customers {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
 public final class Employees {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Employees.java:7: warning: ReportsTo column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Employees.java:7: warning: ReportsTo column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
 public final class Employees {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Customers.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
 public final class Customers {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/Employees.java:7: warning: There are multiple good constructors and Room will pick the no-arg constructor. You can use the @Ignore annotation to eliminate unwanted constructors.
 public final class Employees {
              ^
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/tmp/kapt3/stubs/release/com/huma/roomforasset/AppDatabase.java:7: warning: Schema export directory is not provided to the annotation processor so we cannot export the schema. You can either provide `room.schemaLocation` annotation processor argument OR set exportSchema to false.
 public abstract class AppDatabase extends android.arch.persistence.room.RoomDatabase {
                 ^
 :sample:compileReleaseKotlin
@@ -560,10 +553,10 @@ public abstract class AppDatabase extends android.arch.persistence.room.RoomData
 :sample:assembleRelease
 :sample:assemble
 :sample:lint
-Ran lint on variant release: 11 issues found
 Ran lint on variant debug: 11 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/reports/lint-results.xml
+Ran lint on variant release: 11 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/reports/lint-results.xml
 :sample:kaptGenerateStubsDebugUnitTestKotlin
 :sample:kaptDebugUnitTestKotlin
 :sample:compileDebugUnitTestKotlin
@@ -585,7 +578,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :sample:check
 :sample:build
 
-BUILD SUCCESSFUL in 48s
+BUILD SUCCESSFUL in 1m 6s
 110 actionable tasks: 72 executed, 38 up-to-date
 
-2018-12-14 12:49:03,812 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544766444695-0/src/RoomAsset-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-03-10 21:09:12,479 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226817300-0/src/RoomAsset-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

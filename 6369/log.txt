@@ -1,33 +1,33 @@
-2018-12-30 20:35:27,047 INFO  DownloadService - Downloading "https://github.com/lytefast/flex-input/archive/master.zip", attempt 3
-2018-12-30 20:35:28,585 INFO  DownloadService - Downloaded https://github.com/lytefast/flex-input/archive/master.zip, attempt 3
-2018-12-30 20:35:28,585 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/master.zip": 1 MB
-2018-12-30 20:35:28,585 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-30 20:35:28,587 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/master.zip: true
-2018-12-30 20:35:28,588 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src'.
-2018-12-30 20:35:28,637 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-12-30 20:35:28,637 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src]
-2018-12-30 20:35:28,656 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/.git/
+2019-03-10 21:31:14,274 INFO  DownloadService - Downloading "https://github.com/lytefast/flex-input/archive/master.zip", attempt 3
+2019-03-10 21:31:16,588 INFO  DownloadService - Downloaded https://github.com/lytefast/flex-input/archive/master.zip, attempt 3
+2019-03-10 21:31:16,589 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/master.zip": 1 MB
+2019-03-10 21:31:16,589 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-10 21:31:16,595 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/master.zip: true
+2019-03-10 21:31:16,595 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src'.
+2019-03-10 21:31:16,648 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-10 21:31:16,648 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src]
+2019-03-10 21:31:16,666 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/.git/
 
-2018-12-30 20:35:28,661 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/gradlew
-2018-12-30 20:35:28,669 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/build.gradle
-2018-12-30 20:35:28,676 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/settings.gradle
-2018-12-30 20:35:28,677 INFO  ProjectBuildService - Remote scripts: none
-2018-12-30 20:35:28,677 INFO  ProjectFixService - Fixing project...
-2018-12-30 20:35:28,690 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/app/local.properties
-2018-12-30 20:35:28,692 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-30 20:35:28,692 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/local.properties
-2018-12-30 20:35:28,694 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-30 20:35:28,694 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/local.properties
-2018-12-30 20:35:28,695 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-30 20:35:28,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-30 20:35:28,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-12-30 20:35:28,696 INFO  ProjectFixService - Project was maybe fixed
-2018-12-30 20:35:28,696 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-30 20:35:28,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-30 20:35:36,925 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-30 20:35:36,926 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-30 20:35:36,926 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-30 20:36:55,106 ERROR SysUtils - Could not process external command
+2019-03-10 21:31:16,671 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/gradlew
+2019-03-10 21:31:16,677 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/build.gradle
+2019-03-10 21:31:16,682 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/settings.gradle
+2019-03-10 21:31:16,682 INFO  ProjectBuildService - Remote scripts: none
+2019-03-10 21:31:16,682 INFO  ProjectFixService - Fixing project...
+2019-03-10 21:31:16,693 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/local.properties
+2019-03-10 21:31:16,694 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-10 21:31:16,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/local.properties
+2019-03-10 21:31:16,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-10 21:31:16,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/local.properties
+2019-03-10 21:31:16,697 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-10 21:31:16,697 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-10 21:31:16,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-10 21:31:16,698 INFO  ProjectFixService - Project was maybe fixed
+2019-03-10 21:31:16,698 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-10 21:31:16,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-10 21:31:24,241 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-10 21:31:24,241 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-10 21:31:24,241 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-10 21:32:31,311 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,27 +40,35 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-30 20:36:55,107 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://jcenter.bintray.com/com/camerakit/camerakit/1.0.0-beta3.10/camerakit-1.0.0-beta3.10.pom
-Download https://jcenter.bintray.com/com/camerakit/jpegkit/0.2.0/jpegkit-0.2.0.pom
+2019-03-10 21:32:31,317 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/androidx/legacy/legacy-support-v13/1.0.0/legacy-support-v13-1.0.0.aar
+Download https://jcenter.bintray.com/com/facebook/fresco/fresco/1.11.0/fresco-1.11.0.aar
+Download https://jcenter.bintray.com/com/facebook/fresco/animated-base/1.11.0/animated-base-1.11.0.aar
+Download https://jcenter.bintray.com/com/facebook/fresco/drawee/1.11.0/drawee-1.11.0.aar
+Download https://jcenter.bintray.com/com/facebook/fresco/animated-drawable/1.11.0/animated-drawable-1.11.0.aar
+Download https://jcenter.bintray.com/com/facebook/fresco/nativeimagefilters/1.11.0/nativeimagefilters-1.11.0.aar
+Download https://jcenter.bintray.com/com/facebook/fresco/imagepipeline-base/1.11.0/imagepipeline-base-1.11.0.aar
+Download https://jcenter.bintray.com/com/facebook/fresco/fbcore/1.11.0/fbcore-1.11.0.aar
+Download https://jcenter.bintray.com/com/facebook/soloader/soloader/0.5.1/soloader-0.5.1.aar
 Download https://jcenter.bintray.com/com/camerakit/camerakit/1.0.0-beta3.10/camerakit-1.0.0-beta3.10.aar
 Download https://jcenter.bintray.com/com/camerakit/jpegkit/0.2.0/jpegkit-0.2.0.aar
+Download https://jcenter.bintray.com/com/facebook/fresco/animated-gif/1.11.0/animated-gif-1.11.0.aar
+Download https://jcenter.bintray.com/com/facebook/fresco/imagepipeline/1.11.0/imagepipeline-1.11.0.aar
 :app:preBuild UP-TO-DATE
 :flexinput:preBuild UP-TO-DATE
 :flexinput:preDebugBuild UP-TO-DATE
@@ -88,24 +96,24 @@ Download https://jcenter.bintray.com/com/camerakit/jpegkit/0.2.0/jpegkit-0.2.0.a
 :app:processDebugResources
 :flexinput:generateDebugBuildConfig
 :flexinput:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AttachmentPreviewAdapter.kt: (68, 32): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (112, 15): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (118, 19): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (125, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (144, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/AddContentDialogFragment.kt: (140, 29): Unnecessary non-null assertion (!!) on a non-null receiver of type CharSequence
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (41, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (26, 16): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (27, 15): Type mismatch: inferred type is Array<String!>? but Array<String> was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (67, 14): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (38, 21): Unsafe use of a nullable receiver of type Cursor?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (34, 55): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (38, 16): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (40, 22): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AttachmentPreviewAdapter.kt: (68, 32): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (112, 15): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (118, 19): Unnecessary non-null assertion (!!) on a non-null receiver of type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (125, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (144, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/AddContentDialogFragment.kt: (140, 29): Unnecessary non-null assertion (!!) on a non-null receiver of type CharSequence
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (41, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (26, 16): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (27, 15): Type mismatch: inferred type is Array<String!>? but Array<String> was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (67, 14): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (38, 21): Unsafe use of a nullable receiver of type Cursor?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (34, 55): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (38, 16): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (40, 22): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
 :flexinput:prepareLintJar
 :flexinput:generateDebugSources
 :flexinput:javaPreCompileDebug
@@ -174,24 +182,24 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:processReleaseResources
 :flexinput:generateReleaseBuildConfig
 :flexinput:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AttachmentPreviewAdapter.kt: (68, 32): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (112, 15): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (118, 19): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (125, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (144, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/AddContentDialogFragment.kt: (140, 29): Unnecessary non-null assertion (!!) on a non-null receiver of type CharSequence
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (41, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (26, 16): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (27, 15): Type mismatch: inferred type is Array<String!>? but Array<String> was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (67, 14): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (38, 21): Unsafe use of a nullable receiver of type Cursor?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (34, 55): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (38, 16): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (40, 22): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AttachmentPreviewAdapter.kt: (68, 32): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (112, 15): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (118, 19): Unnecessary non-null assertion (!!) on a non-null receiver of type String
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (125, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (144, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/AddContentDialogFragment.kt: (140, 29): Unnecessary non-null assertion (!!) on a non-null receiver of type CharSequence
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (41, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (26, 16): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (27, 15): Type mismatch: inferred type is Array<String!>? but Array<String> was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (67, 14): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (38, 21): Unsafe use of a nullable receiver of type Cursor?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (34, 55): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (38, 16): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (40, 22): Type mismatch: inferred type is String? but String was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
 :flexinput:generateReleaseSources
 :flexinput:javaPreCompileRelease
 :flexinput:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
@@ -207,7 +215,7 @@ Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
-:app:lintVitalRelease/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/app/src/main/res/values-night/colors.xml:17: Error: The color "highlight_alpha_50" in values-night has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
+:app:lintVitalRelease/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/src/main/res/values-night/colors.xml:17: Error: The color "highlight_alpha_50" in values-night has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
     <color name="highlight_alpha_50">#80222222</color>
            ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -331,7 +339,7 @@ android {
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 17s
+BUILD FAILED in 1m 6s
 75 actionable tasks: 75 executed
 
-2018-12-30 20:36:55,250 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546176927043-0/src/flex-input-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-10 21:32:31,497 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build/outputs/apk/debug/app-debug.apk
