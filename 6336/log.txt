@@ -1,34 +1,34 @@
-2019-01-08 18:17:24,635 INFO  DownloadService - Downloading "https://github.com/NaturalizerINA/AndroidNumberSeparator/archive/master.zip", attempt 3
-2019-01-08 18:17:25,283 INFO  DownloadService - Downloaded https://github.com/NaturalizerINA/AndroidNumberSeparator/archive/master.zip, attempt 3
-2019-01-08 18:17:25,283 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/master.zip": 156 KB
-2019-01-08 18:17:25,283 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-08 18:17:25,288 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/master.zip: true
-2019-01-08 18:17:25,289 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src'.
-2019-01-08 18:17:25,308 INFO  FullProcessService - Size of directory with sources: 159 KB
-2019-01-08 18:17:25,309 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src]
-2019-01-08 18:17:25,327 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/.git/
+2019-03-11 12:02:13,065 INFO  DownloadService - Downloading "https://github.com/NaturalizerINA/AndroidNumberSeparator/archive/master.zip", attempt 3
+2019-03-11 12:02:15,423 INFO  DownloadService - Downloaded https://github.com/NaturalizerINA/AndroidNumberSeparator/archive/master.zip, attempt 3
+2019-03-11 12:02:15,424 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/master.zip": 156 KB
+2019-03-11 12:02:15,424 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-11 12:02:15,425 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/master.zip: true
+2019-03-11 12:02:15,425 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src'.
+2019-03-11 12:02:15,443 INFO  FullProcessService - Size of directory with sources: 159 KB
+2019-03-11 12:02:15,443 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src]
+2019-03-11 12:02:15,460 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/.git/
 
-2019-01-08 18:17:25,330 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/gradlew
-2019-01-08 18:17:25,333 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/separator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/build.gradle
-2019-01-08 18:17:25,337 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/separator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/settings.gradle
-2019-01-08 18:17:25,337 INFO  ProjectBuildService - Remote scripts: none
-2019-01-08 18:17:25,337 INFO  ProjectFixService - Fixing project...
-2019-01-08 18:17:25,345 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/app/local.properties
-2019-01-08 18:17:25,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-08 18:17:25,346 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/separator/local.properties
-2019-01-08 18:17:25,347 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/separator/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-08 18:17:25,347 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/local.properties
-2019-01-08 18:17:25,348 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-01-08 18:17:25,348 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-01-08 18:17:25,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-01-08 18:17:25,349 INFO  ProjectFixService - Project was maybe fixed
-2019-01-08 18:17:25,349 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 18:17:25,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 18:17:28,080 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-08 18:17:28,080 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-08 18:17:28,080 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-08 18:17:28,080 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 18:17:29,639 ERROR SysUtils - Could not process external command
+2019-03-11 12:02:15,464 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/gradlew
+2019-03-11 12:02:15,467 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/separator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/build.gradle
+2019-03-11 12:02:15,470 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/separator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/settings.gradle
+2019-03-11 12:02:15,471 INFO  ProjectBuildService - Remote scripts: none
+2019-03-11 12:02:15,471 INFO  ProjectFixService - Fixing project...
+2019-03-11 12:02:15,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/app/local.properties
+2019-03-11 12:02:15,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/app/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-11 12:02:15,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/separator/local.properties
+2019-03-11 12:02:15,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/separator/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-11 12:02:15,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/local.properties
+2019-03-11 12:02:15,480 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-03-11 12:02:15,481 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-03-11 12:02:15,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/build.gradle": [buildToolsVersion=26.0.0,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-03-11 12:02:15,482 INFO  ProjectFixService - Project was maybe fixed
+2019-03-11 12:02:15,482 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-11 12:02:15,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-11 12:02:17,917 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-11 12:02:17,917 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-11 12:02:17,917 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-11 12:02:17,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-11 12:02:19,856 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,19 +49,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 18:17:29,639 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-11 12:02:19,856 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating root project 'app'.
@@ -135,22 +135,22 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.an
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:44)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_2uss5y6rypddsrbjf1latx1ke.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/app/build.gradle:1)
+	at build_4ra22cpmx1rvwzjsk4bqpw2eb.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 53 more
 
 
 BUILD FAILED
 
-Total time: 1.455 secs
+Total time: 1.798 secs
 
-2019-01-08 18:17:29,643 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 18:17:29,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/separator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 18:17:35,034 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-08 18:17:35,034 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-08 18:17:35,035 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-08 18:17:35,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/separator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 18:17:40,415 ERROR SysUtils - Could not process external command
+2019-03-11 12:02:19,861 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-11 12:02:19,861 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/separator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-11 12:02:25,433 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-11 12:02:25,434 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-11 12:02:25,434 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-11 12:02:25,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/separator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-11 12:02:30,345 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -171,14 +171,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 18:17:40,415 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-11 12:02:30,346 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -286,15 +286,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.088 secs
+Total time: 4.629 secs
 
-2019-01-08 18:17:40,419 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-08 18:17:40,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-08 18:17:45,433 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-08 18:17:45,434 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-08 18:17:45,434 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-08 18:17:45,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546946244631-0/src/AndroidNumberSeparator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-08 18:17:50,354 ERROR SysUtils - Could not process external command
+2019-03-11 12:02:30,349 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-11 12:02:30,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-11 12:02:35,714 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-11 12:02:35,714 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-11 12:02:35,714 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-11 12:02:35,714 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280533060-0/src/AndroidNumberSeparator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-11 12:02:41,257 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -315,14 +315,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-08 18:17:50,355 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-11 12:02:41,257 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -430,7 +430,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 4.643 secs
+Total time: 5.242 secs
 
-2019-01-08 18:17:50,358 ERROR FullProcessService - Project build has not produced APK file
-2019-01-08 18:17:50,361 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-11 12:02:41,261 ERROR FullProcessService - Project build has not produced APK file
+2019-03-11 12:02:41,264 ERROR FullProcessService - Could not find generated or existed APK file

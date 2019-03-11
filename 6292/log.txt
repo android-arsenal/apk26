@@ -1,36 +1,36 @@
-2018-12-16 19:36:05,592 INFO  DownloadService - Downloading "https://github.com/TakuSemba/CropMe/archive/master.zip", attempt 3
-2018-12-16 19:36:20,208 INFO  DownloadService - Downloaded https://github.com/TakuSemba/CropMe/archive/master.zip, attempt 3
-2018-12-16 19:36:20,208 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/master.zip": 30 MB
-2018-12-16 19:36:20,208 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-16 19:36:20,215 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/master.zip: true
-2018-12-16 19:36:20,215 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src'.
-2018-12-16 19:36:20,373 INFO  FullProcessService - Size of directory with sources: 30 MB
-2018-12-16 19:36:20,373 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src]
-2018-12-16 19:36:20,393 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/.git/
+2019-03-11 12:51:22,835 INFO  DownloadService - Downloading "https://github.com/TakuSemba/CropMe/archive/master.zip", attempt 3
+2019-03-11 12:51:43,219 INFO  DownloadService - Downloaded https://github.com/TakuSemba/CropMe/archive/master.zip, attempt 3
+2019-03-11 12:51:43,219 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/master.zip": 30 MB
+2019-03-11 12:51:43,219 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-11 12:51:43,221 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/master.zip: true
+2019-03-11 12:51:43,222 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src'.
+2019-03-11 12:51:43,395 INFO  FullProcessService - Size of directory with sources: 30 MB
+2019-03-11 12:51:43,395 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src]
+2019-03-11 12:51:43,417 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/.git/
 
-2018-12-16 19:36:20,396 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/gradlew
-2018-12-16 19:36:20,400 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/cropme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/build.gradle
-2018-12-16 19:36:20,404 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/cropme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/settings.gradle
-2018-12-16 19:36:20,404 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 19:36:20,404 INFO  ProjectFixService - Fixing project...
-2018-12-16 19:36:20,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/app/local.properties
-2018-12-16 19:36:20,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-16 19:36:20,415 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-16 19:36:20,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/cropme/local.properties
-2018-12-16 19:36:20,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/cropme/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-16 19:36:20,418 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/cropme/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-16 19:36:20,420 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/local.properties
-2018-12-16 19:36:20,420 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
-2018-12-16 19:36:20,421 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
-2018-12-16 19:36:20,423 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-16 19:36:20,423 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-16 19:36:20,424 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 19:36:20,424 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 19:36:20,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 19:36:44,254 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-16 19:36:44,254 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-16 19:36:44,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-16 19:37:11,695 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-11 12:51:43,420 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/gradlew
+2019-03-11 12:51:43,424 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/cropme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/build.gradle
+2019-03-11 12:51:43,427 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/cropme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/settings.gradle
+2019-03-11 12:51:43,427 INFO  ProjectBuildService - Remote scripts: none
+2019-03-11 12:51:43,427 INFO  ProjectFixService - Fixing project...
+2019-03-11 12:51:43,435 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/app/local.properties
+2019-03-11 12:51:43,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-11 12:51:43,437 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-11 12:51:43,437 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/cropme/local.properties
+2019-03-11 12:51:43,439 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/cropme/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-11 12:51:43,439 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/cropme/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-11 12:51:43,440 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/local.properties
+2019-03-11 12:51:43,441 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
+2019-03-11 12:51:43,441 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
+2019-03-11 12:51:43,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-11 12:51:43,443 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-11 12:51:43,443 INFO  ProjectFixService - Project was maybe fixed
+2019-03-11 12:51:43,444 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-11 12:51:43,444 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-11 12:51:52,049 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-11 12:51:52,049 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-11 12:51:52,049 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-11 12:52:28,943 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:checkDebugClasspath
 > Task :app:preBuild UP-TO-DATE
 > Task :cropme:preBuild UP-TO-DATE
@@ -38,41 +38,41 @@
 > Task :cropme:checkDebugManifest
 > Task :cropme:processDebugManifest
 > Task :app:preDebugBuild
-> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with IdentityTransform
-> Transform support-compat.aar (com.android.support:support-compat:26.0.0) with IdentityTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with IdentityTransform
-> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with IdentityTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with IdentityTransform
 > Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with IdentityTransform
-> Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with IdentityTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with IdentityTransform
+> Transform support-compat.aar (com.android.support:support-compat:26.0.0) with IdentityTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with IdentityTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with IdentityTransform
+> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with IdentityTransform
+> Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with IdentityTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with IdentityTransform
+> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with ExtractAarTransform
+> Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with ExtractAarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with ExtractAarTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with ExtractAarTransform
 > Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with ExtractAarTransform
 > Transform support-compat.aar (com.android.support:support-compat:26.0.0) with ExtractAarTransform
 > Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with ExtractAarTransform
-> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with ExtractAarTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with ExtractAarTransform
 > Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with ExtractAarTransform
-> Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with ExtractAarTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with ExtractAarTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with AarTransform
-> Transform support-compat.aar (com.android.support:support-compat:26.0.0) with AarTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with AarTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with AarTransform
 > Transform support-dynamic-animation.aar (com.android.support:support-dynamic-animation:26.0.0) with IdentityTransform
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with IdentityTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with AarTransform
-> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with AarTransform
-> Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with AarTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with AarTransform
-> Task :cropme:packageDebugRenderscript NO-SOURCE
 > Transform support-dynamic-animation.aar (com.android.support:support-dynamic-animation:26.0.0) with ExtractAarTransform
+> Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with AarTransform
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with IdentityTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with ExtractAarTransform
-> Task :app:compileDebugRenderscript
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with AarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with AarTransform
+> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with AarTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with AarTransform
+> Transform support-compat.aar (com.android.support:support-compat:26.0.0) with AarTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with AarTransform
+> Task :cropme:packageDebugRenderscript NO-SOURCE
+> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with AarTransform
 > Transform support-dynamic-animation.aar (com.android.support:support-dynamic-animation:26.0.0) with AarTransform
-> Task :app:checkDebugManifest
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with AarTransform
+> Task :app:compileDebugRenderscript
 > Task :cropme:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
 > Task :app:mainApkListPersistenceDebug
@@ -83,8 +83,8 @@
 > Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with AarTransform
 > Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with AarTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with AarTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with AarTransform
 > Transform support-v4.aar (com.android.support:support-v4:26.0.0) with AarTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with AarTransform
 > Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with AarTransform
 > Transform support-dynamic-animation.aar (com.android.support:support-dynamic-animation:26.0.0) with AarTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with AarTransform
@@ -99,9 +99,9 @@
 > Task :cropme:generateDebugRFile
 > Task :app:processDebugResources
 > Task :app:generateDebugSources
-> Transform support-annotations.jar (com.android.support:support-annotations:26.0.0) with IdentityTransform
 > Transform support-compat.aar (com.android.support:support-compat:26.0.0) with AarTransform
 > Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with AarTransform
+> Transform support-annotations.jar (com.android.support:support-annotations:26.0.0) with IdentityTransform
 > Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with AarTransform
 > Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with AarTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with AarTransform
@@ -213,7 +213,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 27s
+BUILD SUCCESSFUL in 36s
 90 actionable tasks: 90 executed
 
-2018-12-16 19:37:11,783 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544963765588-0/src/CropMe-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-11 12:52:29,029 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552283482832-0/src/CropMe-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,34 +1,34 @@
-2018-09-01 17:59:06,708 INFO  DownloadService - Downloading "https://github.com/rohitpuriji/Universal-Async-Handler/archive/master.zip", attempt 3
-2018-09-01 17:59:07,386 INFO  DownloadService - Downloaded https://github.com/rohitpuriji/Universal-Async-Handler/archive/master.zip, attempt 3
-2018-09-01 17:59:07,387 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/master.zip": 146 KB
-2018-09-01 17:59:07,387 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-01 17:59:07,389 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/master.zip: true
-2018-09-01 17:59:07,389 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src'.
-2018-09-01 17:59:07,409 INFO  FullProcessService - Size of directory with sources: 148 KB
-2018-09-01 17:59:07,410 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src]
-2018-09-01 17:59:07,425 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/.git/
+2019-03-11 12:29:49,468 INFO  DownloadService - Downloading "https://github.com/rohitpuriji/Universal-Async-Handler/archive/master.zip", attempt 3
+2019-03-11 12:29:51,984 INFO  DownloadService - Downloaded https://github.com/rohitpuriji/Universal-Async-Handler/archive/master.zip, attempt 3
+2019-03-11 12:29:51,985 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/master.zip": 146 KB
+2019-03-11 12:29:51,985 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-11 12:29:51,990 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/master.zip: true
+2019-03-11 12:29:51,991 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src'.
+2019-03-11 12:29:52,011 INFO  FullProcessService - Size of directory with sources: 148 KB
+2019-03-11 12:29:52,011 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src]
+2019-03-11 12:29:52,029 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/.git/
 
-2018-09-01 17:59:07,428 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/gradlew
-2018-09-01 17:59:07,431 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/build.gradle
-2018-09-01 17:59:07,434 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/settings.gradle
-2018-09-01 17:59:07,434 INFO  ProjectBuildService - Remote scripts: none
-2018-09-01 17:59:07,434 INFO  ProjectFixService - Fixing project...
-2018-09-01 17:59:07,441 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/app/local.properties
-2018-09-01 17:59:07,441 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-09-01 17:59:07,442 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/universalasynchandler/local.properties
-2018-09-01 17:59:07,442 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-01 17:59:07,443 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/local.properties
-2018-09-01 17:59:07,443 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-09-01 17:59:07,443 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-09-01 17:59:07,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
-2018-09-01 17:59:07,444 INFO  ProjectFixService - Project was maybe fixed
-2018-09-01 17:59:07,445 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-01 17:59:07,445 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-01 17:59:09,964 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-01 17:59:09,964 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-01 17:59:09,964 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-01 17:59:09,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-01 17:59:11,496 ERROR SysUtils - Could not process external command
+2019-03-11 12:29:52,032 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/gradlew
+2019-03-11 12:29:52,036 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/build.gradle
+2019-03-11 12:29:52,039 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/settings.gradle
+2019-03-11 12:29:52,039 INFO  ProjectBuildService - Remote scripts: none
+2019-03-11 12:29:52,039 INFO  ProjectFixService - Fixing project...
+2019-03-11 12:29:52,046 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/app/local.properties
+2019-03-11 12:29:52,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/app/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-03-11 12:29:52,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/universalasynchandler/local.properties
+2019-03-11 12:29:52,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-03-11 12:29:52,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/local.properties
+2019-03-11 12:29:52,048 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-03-11 12:29:52,048 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-03-11 12:29:52,049 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=16,targetSdkVersion=25]
+2019-03-11 12:29:52,050 INFO  ProjectFixService - Project was maybe fixed
+2019-03-11 12:29:52,050 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-11 12:29:52,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-11 12:29:54,311 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-11 12:29:54,311 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-11 12:29:54,311 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-11 12:29:54,311 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-11 12:29:55,820 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,27 +41,26 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-09-01 17:59:11,496 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-11 12:29:55,820 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/app/build.gradle' line: 1
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/app/build.gradle' line: 1
 
 * What went wrong:
 A problem occurred evaluating root project 'app'.
@@ -132,21 +131,21 @@ Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.an
 	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
 	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_hm6x1xeox07dg6th2visrezh.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/app/build.gradle:1)
+	at build_cgdw2w3934h70h3mz6w0q6c5l.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/app/build.gradle:1)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	... 50 more
 
 
 BUILD FAILED
 
-Total time: 1.394 secs
+Total time: 1.328 secs
 
-2018-09-01 17:59:11,500 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-01 17:59:11,500 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-01 17:59:25,238 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-09-01 17:59:25,238 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-01 17:59:25,238 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-01 17:59:38,210 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-11 12:29:55,824 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-11 12:29:55,824 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-11 12:30:04,771 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-11 12:30:04,771 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-11 12:30:04,771 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/universalasynchandler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-11 12:30:15,958 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :universalasynchandler:preBuild UP-TO-DATE
 :universalasynchandler:preDebugBuild UP-TO-DATE
@@ -180,7 +179,7 @@ Incremental java compilation is an incubating feature.
 :universalasynchandler:incrementalDebugJavaCompilationSafeguard
 :universalasynchandler:compileDebugJavaWithJavac
 :universalasynchandler:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/universalasynchandler/src/main/java/com/tech/universalasynchandler/AsyncTaskHandler.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/universalasynchandler/src/main/java/com/tech/universalasynchandler/AsyncTaskHandler.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :universalasynchandler:extractDebugAnnotations
 :universalasynchandler:mergeDebugShaders
@@ -215,7 +214,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :universalasynchandler:incrementalReleaseJavaCompilationSafeguard
 :universalasynchandler:compileReleaseJavaWithJavac
 :universalasynchandler:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/universalasynchandler/src/main/java/com/tech/universalasynchandler/AsyncTaskHandler.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/universalasynchandler/src/main/java/com/tech/universalasynchandler/AsyncTaskHandler.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :universalasynchandler:extractReleaseAnnotations
 :universalasynchandler:mergeReleaseShaders
@@ -239,14 +238,14 @@ Note: Recompile with -Xlint:deprecation for details.
 
 BUILD SUCCESSFUL
 
-Total time: 12.386 secs
+Total time: 10.603 secs
 
-2018-09-01 17:59:38,307 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-01 17:59:38,307 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-01 17:59:44,791 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-09-01 17:59:44,791 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-09-01 17:59:44,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535799546705-0/src/Universal-Async-Handler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-09-01 17:59:51,528 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-11 12:30:16,029 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-11 12:30:16,029 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-11 12:30:22,482 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-11 12:30:22,482 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-11 12:30:22,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552282189466-0/src/Universal-Async-Handler-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-11 12:30:29,164 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :universalasynchandler:preBuild UP-TO-DATE
 :universalasynchandler:preDebugBuild UP-TO-DATE
@@ -333,7 +332,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 6.141 secs
+Total time: 6.093 secs
 
-2018-09-01 17:59:51,627 ERROR FullProcessService - Project build has not produced APK file
-2018-09-01 17:59:51,715 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-11 12:30:29,234 ERROR FullProcessService - Project build has not produced APK file
+2019-03-11 12:30:29,299 ERROR FullProcessService - Could not find generated or existed APK file
