@@ -28,11 +28,11 @@
     "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACwklEQVRo3u2asW4TQRCGv9k9X4xDlACKIgoiKoTooKKg4RFo6BC8A89AQU+BKGjgEWh5AApEBQWiSpCiKASS2BfHPt/+FBebOLog5S4SONqVTrJk3cx8szO3M7sLMz5s/GNpoZV6o1NbkgShOBOjQtpGzp1ocFGQ7e1k+QRgaaGVvn12++HN5blHDnWkU1sPB5nYXjNO//KUE5Sk7N59EPorqyZzdtz6UND7+nnn1dMnL97t7WR5AuCNzs3l9PH1y617hhJq2E+/D8N9CKGB70VIcrautuldu1g5C5INbWS73vEeyCfGOtQxlBj4+oEoIDSM6YCZSplWqSpx3ubH/7qjqmdn/LHWzfpXKAJEgAgQASJABIgA/3IkUwWZNegFOHysgTXjEseEnVCd6ZiOZPKCXP2KTiAcgUugZk1NsDYaOdQD2QmMuZtAlADDFPtwR3TqNWSyFt3WLTb8PQJpMwDB+us2P3c9QdXe6g7WyXvPgWwcQkIBq13KmwAPugLMNS+WC1AonypdKpJDnUdyoJyuBjF0Bh3FOA3N/pKTRtnwxM9oBIgAESACRIAIEAEiwDkCsBkF+NNSeomkphQDfMDcCKtxvHC8MjcPzp3kVWGumAaQh8GNAf3LvqzFT60zp7BN0vzTlE/qdmSLXcN188rTKkm0sk25Q4gSYK6ge/+7/VxNa8WSCdzBBhd+fcQa9jUKsLLluNTtUdVTCtjeGZpP9o91ZK2A0lAzGQyKAvOh1NAgoSwI5x3OD8CpcgPEfD5Rkky1tWc11CCXJvSGKk88La4D/ynAjC4EkxwIgQxZXieCJVA4mr41vSGVssodRKuSI8iD6I3tTABCQfbty8FLN7JdM+ZrTeUIub6zxttDQQx/oDwbVl5bCNje17WDN0VQf8pVi0tpy7kGlz2wMzktt8O14G93Loqg/b1ennMexm+lmx3iEToxIQAAAABJRU5ErkJggg==",
     "file" : true
   },
-  "dexClasses" : 2187,
+  "dexClasses" : 2188,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.otaliastudios.zoom.demo\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0b0005\" android:label=\"ZoomLayout Preview\" android:icon=\"res/drawable-xxxhdpi-v4/icon.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.otaliastudios.zoom.demo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 1808902,
-  "crc32" : 3873867660,
-  "sha256" : "1bf104995b3cc207b6cadc188c7830d4401600d37876347da17143d63e591a3a",
-  "buildTime" : 1547899713000
+  "fileSize" : 1810362,
+  "crc32" : 545477069,
+  "sha256" : "610bcc2a910056487474699e6c5d3b5a8ee7eda67c032d3d065927362a401a78",
+  "buildTime" : 1552365974000
 }
