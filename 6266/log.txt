@@ -1,37 +1,33 @@
-2018-10-30 16:24:03,746 INFO  DownloadService - Downloading "https://github.com/ThanosFisherman/WifiUtils/archive/master.zip", attempt 3
-2018-10-30 16:25:04,704 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-30 16:25:06,120 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-30 16:25:06,120 INFO  DownloadService - Downloading "https://github.com/ThanosFisherman/WifiUtils/archive/master.zip", attempt 3
-2018-10-30 16:26:07,692 DEBUG FullProcessService - Repository https://github.com/ThanosFisherman/WifiUtils available: true
-2018-10-30 16:26:07,692 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-30 16:26:07,692 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/ThanosFisherman/WifiUtils, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src]
-2018-10-30 16:26:09,794 INFO  SysUtils - 
-2018-10-30 16:26:09,802 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/.git": true
-2018-10-30 16:26:09,806 INFO  FullProcessService - Size of directory with sources: 230 KB
-2018-10-30 16:26:09,806 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src]
-2018-10-30 16:26:09,823 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/.git/
+2019-03-16 18:33:56,043 INFO  DownloadService - Downloading "https://github.com/ThanosFisherman/WifiUtils/archive/master.zip", attempt 3
+2019-03-16 18:33:58,014 INFO  DownloadService - Downloaded https://github.com/ThanosFisherman/WifiUtils/archive/master.zip, attempt 3
+2019-03-16 18:33:58,014 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/master.zip": 168 KB
+2019-03-16 18:33:58,014 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-16 18:33:58,020 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/master.zip: true
+2019-03-16 18:33:58,020 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src'.
+2019-03-16 18:33:58,043 INFO  FullProcessService - Size of directory with sources: 230 KB
+2019-03-16 18:33:58,044 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src]
+2019-03-16 18:33:58,066 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/.git/
 
-2018-10-30 16:26:09,826 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/gradlew
-2018-10-30 16:26:09,830 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/build.gradle
-2018-10-30 16:26:09,833 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/settings.gradle
-2018-10-30 16:26:09,834 INFO  ProjectBuildService - Remote scripts: none
-2018-10-30 16:26:09,834 INFO  ProjectFixService - Fixing project...
-2018-10-30 16:26:09,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/local.properties
-2018-10-30 16:26:09,844 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-30 16:26:09,845 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/local.properties
-2018-10-30 16:26:09,846 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/wifiutils/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-30 16:26:09,846 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/local.properties
-2018-10-30 16:26:09,846 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-30 16:26:09,847 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-30 16:26:09,847 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-30 16:26:09,847 INFO  ProjectFixService - Project was maybe fixed
-2018-10-30 16:26:09,847 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-30 16:26:09,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-30 16:26:18,122 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-10-30 16:26:18,122 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-30 16:26:18,123 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-30 16:26:59,651 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://jcenter.bintray.com/com/thanosfisherman/elvis/elvis/2.0/elvis-2.0.pom
+2019-03-16 18:33:58,071 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/gradlew
+2019-03-16 18:33:58,075 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/wifiutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/build.gradle
+2019-03-16 18:33:58,079 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/wifiutils/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/wifiutils/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/wifiutils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/settings.gradle
+2019-03-16 18:33:58,080 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 18:33:58,080 INFO  ProjectFixService - Fixing project...
+2019-03-16 18:33:58,090 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/sample/local.properties
+2019-03-16 18:33:58,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-16 18:33:58,092 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/wifiutils/local.properties
+2019-03-16 18:33:58,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/wifiutils/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-16 18:33:58,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/local.properties
+2019-03-16 18:33:58,094 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-16 18:33:58,094 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-16 18:33:58,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-16 18:33:58,095 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 18:33:58,095 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 18:33:58,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 18:34:04,903 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-16 18:34:04,903 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-16 18:34:04,903 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-16 18:34:40,647 INFO  SysUtils - Configuration on demand is an incubating feature.
 :sample:checkDebugClasspath
 Download https://jcenter.bintray.com/com/thanosfisherman/elvis/elvis/2.0/elvis-2.0.jar
 :sample:preBuild UP-TO-DATE
@@ -137,8 +133,11 @@ Note: Recompile with -Xlint:deprecation for details.
 :sample:compileReleaseNdk NO-SOURCE
 :sample:compileReleaseSources
 :sample:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/androidx/test/ext/junit/1.0.0-beta02/junit-1.0.0-beta02.pom
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-idling-resource/3.1.0-beta02/espresso-idling-resource-3.1.0-beta02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/monitor/1.1.0-beta02/monitor-1.1.0-beta02.aar
 Download https://dl.google.com/dl/android/maven2/androidx/test/ext/junit/1.0.0-beta02/junit-1.0.0-beta02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/runner/1.1.0-beta02/runner-1.1.0-beta02.aar
+Download https://dl.google.com/dl/android/maven2/androidx/test/espresso/espresso-core/3.1.0-beta02/espresso-core-3.1.0-beta02.aar
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e5fa80827357510712b928a080229917/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :sample:mergeReleaseShaders
 :sample:compileReleaseShaders
@@ -167,7 +166,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 41s
+BUILD SUCCESSFUL in 35s
 90 actionable tasks: 90 executed
 
-2018-10-30 16:26:59,725 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540891443737-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-03-16 18:34:40,735 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552736036038-0/src/WifiUtils-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
