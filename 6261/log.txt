@@ -1,36 +1,36 @@
-2019-03-12 11:50:49,956 INFO  DownloadService - Downloading "https://github.com/Zeyad-37/RxRedux/archive/master.zip", attempt 3
-2019-03-12 11:50:51,234 INFO  DownloadService - Downloaded https://github.com/Zeyad-37/RxRedux/archive/master.zip, attempt 3
-2019-03-12 11:50:51,234 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/master.zip": 243 KB
-2019-03-12 11:50:51,234 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-12 11:50:51,240 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/master.zip: true
-2019-03-12 11:50:51,240 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src'.
-2019-03-12 11:50:51,289 INFO  FullProcessService - Size of directory with sources: 424 KB
-2019-03-12 11:50:51,289 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src]
-2019-03-12 11:50:51,309 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/.git/
+2019-03-23 22:49:55,208 INFO  DownloadService - Downloading "https://github.com/Zeyad-37/RxRedux/archive/master.zip", attempt 3
+2019-03-23 22:49:57,424 INFO  DownloadService - Downloaded https://github.com/Zeyad-37/RxRedux/archive/master.zip, attempt 3
+2019-03-23 22:49:57,425 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/master.zip": 245 KB
+2019-03-23 22:49:57,425 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-23 22:49:57,430 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/master.zip: true
+2019-03-23 22:49:57,431 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src'.
+2019-03-23 22:49:57,495 INFO  FullProcessService - Size of directory with sources: 428 KB
+2019-03-23 22:49:57,495 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src]
+2019-03-23 22:49:57,517 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/.git/
 
-2019-03-12 11:50:51,315 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/gradlew
-2019-03-12 11:50:51,321 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/build.gradle
-2019-03-12 11:50:51,326 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/settings.gradle
-2019-03-12 11:50:51,326 INFO  ProjectBuildService - Remote scripts: none
-2019-03-12 11:50:51,326 INFO  ProjectFixService - Fixing project...
-2019-03-12 11:50:51,338 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/local.properties
-2019-03-12 11:50:51,340 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-12 11:50:51,340 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-12 11:50:51,341 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/core/local.properties
-2019-03-12 11:50:51,343 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-12 11:50:51,343 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-12 11:50:51,344 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/local.properties
-2019-03-12 11:50:51,344 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-12 11:50:51,344 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-12 11:50:51,346 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-12 11:50:51,346 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-12 11:50:51,347 INFO  ProjectFixService - Project was maybe fixed
-2019-03-12 11:50:51,347 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-12 11:50:51,347 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-12 11:51:12,341 INFO  ProjectTaskService - Detected possible tasks: 85
-2019-03-12 11:51:12,341 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-12 11:51:12,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-12 11:53:08,750 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-23 22:49:57,524 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/gradlew
+2019-03-23 22:49:57,531 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/build.gradle
+2019-03-23 22:49:57,537 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/settings.gradle
+2019-03-23 22:49:57,537 INFO  ProjectBuildService - Remote scripts: none
+2019-03-23 22:49:57,537 INFO  ProjectFixService - Fixing project...
+2019-03-23 22:49:57,552 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/local.properties
+2019-03-23 22:49:57,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:49:57,555 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:49:57,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/local.properties
+2019-03-23 22:49:57,558 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:49:57,558 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:49:57,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/local.properties
+2019-03-23 22:49:57,560 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-23 22:49:57,561 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-23 22:49:57,564 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-03-23 22:49:57,564 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-03-23 22:49:57,565 INFO  ProjectFixService - Project was maybe fixed
+2019-03-23 22:49:57,565 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-23 22:49:57,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-23 22:50:14,548 INFO  ProjectTaskService - Detected possible tasks: 84
+2019-03-23 22:50:14,548 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-23 22:50:14,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-23 22:51:42,054 INFO  SysUtils - Configuration on demand is an incubating feature.
 :buildSrc:compileKotlin UP-TO-DATE
 :buildSrc:compileJava NO-SOURCE
 :buildSrc:compileGroovy NO-SOURCE
@@ -46,26 +46,9 @@
 :buildSrc:test NO-SOURCE
 :buildSrc:check UP-TO-DATE
 :buildSrc:build UP-TO-DATE
-Download https://jitpack.io/com/github/Zeyad-37/GenericRecyclerViewAdapter/2.0.1/GenericRecyclerViewAdapter-2.0.1.pom
-Download https://jitpack.io/com/github/Zeyad-37/GenericRecyclerViewAdapter/2.0.1/GenericRecyclerViewAdapter-2.0.1.aar
-Download https://jcenter.bintray.com/org/koin/koin-android-viewmodel/1.0.2/koin-android-viewmodel-1.0.2.aar
-Download https://jcenter.bintray.com/org/koin/koin-android-scope/1.0.2/koin-android-scope-1.0.2.aar
-Download https://jcenter.bintray.com/org/koin/koin-android/1.0.2/koin-android-1.0.2.aar
-Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-recyclerview-v7-kotlin/2.1.1/rxbinding-recyclerview-v7-kotlin-2.1.1.aar
-Download https://dl.google.com/dl/android/maven2/android/arch/persistence/room/rxjava2/1.1.1/rxjava2-1.1.1.aar
-Download https://jcenter.bintray.com/com/firebase/firebase-jobdispatcher/0.7.0/firebase-jobdispatcher-0.7.0.aar
-Download https://jcenter.bintray.com/nl/littlerobots/rxlint/rxlint/1.6/rxlint-1.6.aar
-Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-recyclerview-v7/2.1.1/rxbinding-recyclerview-v7-2.1.1.aar
-Download https://jcenter.bintray.com/io/realm/realm-android-library/4.2.0/realm-android-library-4.2.0.aar
-Download https://jitpack.io/com/github/Zeyad-37/Usecases/2.0.1/Usecases-2.0.1.aar
-Download https://jitpack.io/com/github/Zeyad-37/Storo/2.1.0/Storo-2.1.0.aar
+Download https://jcenter.bintray.com/com/jakewharton/rxbinding2/rxbinding-kotlin/2.1.1/rxbinding-kotlin-2.1.1.aar
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/com/jakewharton/rx2/replaying-share-kotlin/2.0.1/replaying-share-kotlin-2.0.1.jar
-Download https://jcenter.bintray.com/org/koin/koin-core/1.0.2/koin-core-1.0.2.jar
-Download https://jcenter.bintray.com/org/koin/koin-core-ext/1.0.2/koin-core-ext-1.0.2.jar
-Download https://jcenter.bintray.com/com/rollbar/rollbar-android/0.2.1/rollbar-android-0.2.1.jar
-Download https://jcenter.bintray.com/com/jakewharton/rx2/replaying-share/2.0.1/replaying-share-2.0.1.jar
-WARNING: Conflict with dependency 'org.jetbrains.kotlin:kotlin-stdlib-jdk7' in project ':app'. Resolved versions for runtime classpath (1.3.20) and compile classpath (1.2.61) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build.gradle:
+WARNING: Conflict with dependency 'org.jetbrains.kotlin:kotlin-stdlib-jdk7' in project ':app'. Resolved versions for runtime classpath (1.3.20) and compile classpath (1.2.61) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build.gradle:
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20")
 }
@@ -97,20 +80,18 @@ dependencies {
 :app:processDebugResources
 :core:generateDebugBuildConfig
 :core:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (40, 84): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<E>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (61, 55): Unchecked cast: Any to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PStateObserver.kt: (14, 61): Unchecked cast: Any? to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PStateObserver.kt: (16, 53): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (37, 44): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<E>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (87, 91): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (95, 81): Unchecked cast: PModel<*> to PEffect<E>
 :core:prepareLintJar
 :core:generateDebugSources
 :core:javaPreCompileDebug
 :core:compileDebugJavaWithJavac
-Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotation/2.1.3/error_prone_annotation-2.1.3.jar
-Download https://jcenter.bintray.com/com/google/errorprone/error_prone_core/2.1.3/error_prone_core-2.1.3.jar
-Download https://jcenter.bintray.com/com/google/errorprone/error_prone_check_api/2.1.3/error_prone_check_api-2.1.3.jar
 :core:processDebugJavaRes NO-SOURCE
 :core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:kaptGenerateStubsDebugKotlin
-Download https://jcenter.bintray.com/io/realm/realm-annotations-processor/4.2.0/realm-annotations-processor-4.2.0.pom
-Download https://jcenter.bintray.com/io/realm/realm-annotations-processor/4.2.0/realm-annotations-processor-4.2.0.jar
 w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.61/bc77c34ff80df88b4d9b0418ea4ae758544573f3/kotlin-stdlib-jdk7-1.2.61.jar (version 1.2)
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar (version 1.3)
@@ -128,10 +109,10 @@ w: Runtime JAR files in the classpath should have the same version. These files 
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar (version 1.3)
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar (version 1.3)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/RepositoryViewHolder.kt: (9, 27): The corresponding parameter in the supertype 'GenericViewHolder' is named 'data'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/UserDetailVM.kt: (30, 59): Unchecked cast: Any to List<Repository>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/list/UserListVM.kt: (43, 64): Unchecked cast: Any to List<User>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/list/UserListVM.kt: (53, 64): Unchecked cast: Any to List<User>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/RepositoryViewHolder.kt: (9, 27): The corresponding parameter in the supertype 'GenericViewHolder' is named 'data'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/UserDetailVM.kt: (30, 59): Unchecked cast: Any to List<Repository>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/list/UserListVM.kt: (43, 64): Unchecked cast: Any to List<User>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/list/UserListVM.kt: (53, 64): Unchecked cast: Any to List<User>
 :app:prepareLintJar
 :app:generateDebugSources
 :app:javaPreCompileDebug
@@ -148,8 +129,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/
 :app:mergeDebugAssets
 :app:transformClassesWithRealmTransformerForDebug
 :app:transformClassesWithDexBuilderForDebug
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/92b5c56e22cd7c2240858f4c8678b491/jars/classes.jar: D8: Type `android.arch.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean android.arch.persistence.room.paging.LimitOffsetDataSource.isInvalid()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
 :app:transformDexArchiveWithDexMergerForDebug
 :app:mergeDebugJniLibFolders
 :core:compileDebugNdk NO-SOURCE
@@ -159,7 +138,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/
 :core:transformNativeLibsWithIntermediateJniLibsForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
 :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :app:checkDebugLibraries
 :app:processDebugJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForDebug
@@ -167,7 +146,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :app:packageDebug
 :app:assembleDebug
 :app:checkReleaseClasspath
-WARNING: Conflict with dependency 'org.jetbrains.kotlin:kotlin-stdlib-jdk7' in project ':app'. Resolved versions for runtime classpath (1.3.20) and compile classpath (1.2.61) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build.gradle:
+WARNING: Conflict with dependency 'org.jetbrains.kotlin:kotlin-stdlib-jdk7' in project ':app'. Resolved versions for runtime classpath (1.3.20) and compile classpath (1.2.61) differ. This can lead to runtime crashes. To resolve this issue follow advice at https://developer.android.com/studio/build/gradle-tips#configure-project-wide-properties. Alternatively, you can try to fix the problem by adding this snippet to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build.gradle:
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20")
 }
@@ -197,8 +176,11 @@ dependencies {
 :app:processReleaseResources
 :core:generateReleaseBuildConfig
 :core:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (40, 84): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<E>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (61, 55): Unchecked cast: Any to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PStateObserver.kt: (14, 61): Unchecked cast: Any? to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PStateObserver.kt: (16, 53): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (37, 44): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<E>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (87, 91): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (95, 81): Unchecked cast: PModel<*> to PEffect<E>
 :core:generateReleaseSources
 :core:javaPreCompileRelease
 :core:compileReleaseJavaWithJavac
@@ -222,10 +204,10 @@ w: Runtime JAR files in the classpath should have the same version. These files 
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar (version 1.3)
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar (version 1.3)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/RepositoryViewHolder.kt: (9, 27): The corresponding parameter in the supertype 'GenericViewHolder' is named 'data'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/UserDetailVM.kt: (30, 59): Unchecked cast: Any to List<Repository>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/list/UserListVM.kt: (43, 64): Unchecked cast: Any to List<User>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/list/UserListVM.kt: (53, 64): Unchecked cast: Any to List<User>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/RepositoryViewHolder.kt: (9, 27): The corresponding parameter in the supertype 'GenericViewHolder' is named 'data'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/UserDetailVM.kt: (30, 59): Unchecked cast: Any to List<Repository>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/list/UserListVM.kt: (43, 64): Unchecked cast: Any to List<User>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/list/UserListVM.kt: (53, 64): Unchecked cast: Any to List<User>
 :app:generateReleaseSources
 :app:javaPreCompileRelease
 :app:compileReleaseJavaWithJavac
@@ -233,11 +215,6 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/
 :app:compileReleaseSources
 :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/1368df36c1179b53cf5c5c3ed9c4dc38/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-allopen/1.3.20/kotlin-allopen-1.3.20.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.3.20/kotlin-gradle-plugin-model-1.3.20.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.3.20/kotlin-gradle-plugin-api-1.3.20.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-native-utils/1.3.20/kotlin-native-utils-1.3.20.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-allopen/1.3.20/kotlin-allopen-1.3.20.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -248,8 +225,6 @@ Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-allopen/1.3.20/
 :app:mergeReleaseAssets
 :app:transformClassesWithRealmTransformerForRelease
 :app:transformClassesWithDexBuilderForRelease
-/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/92b5c56e22cd7c2240858f4c8678b491/jars/classes.jar: D8: Type `android.arch.paging.PositionalDataSource` was not found, it is required for default or static interface methods desugaring of `boolean android.arch.persistence.room.paging.LimitOffsetDataSource.isInvalid()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
 :app:transformDexArchiveWithDexMergerForRelease
 :app:mergeReleaseJniLibFolders
 :core:compileReleaseNdk NO-SOURCE
@@ -259,7 +234,7 @@ Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-allopen/1.3.20/
 :core:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
 :app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 :app:checkReleaseLibraries
 :app:processReleaseJavaRes NO-SOURCE
 :app:transformResourcesWithMergeJavaResForRelease
@@ -268,7 +243,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 1m 55s
+BUILD SUCCESSFUL in 1m 26s
 98 actionable tasks: 98 executed
 
-2019-03-12 11:53:08,955 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552366249953-0/src/RxRedux-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-23 22:51:42,270 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356195201-0/src/RxRedux-master/app/build/outputs/apk/debug/app-debug.apk
