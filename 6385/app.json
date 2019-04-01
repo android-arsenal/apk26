@@ -31,8 +31,8 @@
   "dexClasses" : 2166,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"15\" android:versionName=\"2.0.8\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.skydoves.powermenu.powermenudemo\" platformBuildVersionCode=\"15\" platformBuildVersionName=\"2.0.8\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0007\" android:label=\"PowerMenuDemo\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.skydoves.powermenudemo.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2623394,
-  "crc32" : 2190897691,
-  "sha256" : "3703253d6d938c35352c626237d6eb71e5c5bfbf75b3927976a325116085892a",
-  "buildTime" : 1552227667000
+  "fileSize" : 2623565,
+  "crc32" : 2397240135,
+  "sha256" : "9eb31b5dd25371a5d816cfe33ec070f075b5e39127b8da96ad5e80b509a7f246",
+  "buildTime" : 1554096995000
 }
