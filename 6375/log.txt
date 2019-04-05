@@ -1,33 +1,33 @@
-2019-04-05 12:20:47,185 INFO  DownloadService - Downloading "https://github.com/djuelg/Neuronizer/archive/master.zip", attempt 3
-2019-04-05 12:20:50,836 INFO  DownloadService - Downloaded https://github.com/djuelg/Neuronizer/archive/master.zip, attempt 3
-2019-04-05 12:20:50,836 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/master.zip": 683 KB
-2019-04-05 12:20:50,836 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 12:20:50,838 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/master.zip: true
-2019-04-05 12:20:50,838 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src'.
-2019-04-05 12:20:51,373 INFO  FullProcessService - Size of directory with sources: 1014 KB
-2019-04-05 12:20:51,373 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src]
-2019-04-05 12:20:51,440 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/.git/
+2019-04-05 15:58:33,902 INFO  DownloadService - Downloading "https://github.com/djuelg/Neuronizer/archive/master.zip", attempt 3
+2019-04-05 15:58:36,492 INFO  DownloadService - Downloaded https://github.com/djuelg/Neuronizer/archive/master.zip, attempt 3
+2019-04-05 15:58:36,492 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/master.zip": 683 KB
+2019-04-05 15:58:36,492 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-05 15:58:36,498 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/master.zip: true
+2019-04-05 15:58:36,498 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src'.
+2019-04-05 15:58:36,604 INFO  FullProcessService - Size of directory with sources: 1014 KB
+2019-04-05 15:58:36,605 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src]
+2019-04-05 15:58:36,633 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/.git/
 
-2019-04-05 12:20:51,489 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/gradlew
-2019-04-05 12:20:51,573 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/build.gradle
-2019-04-05 12:20:51,627 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/QA/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/settings.gradle
-2019-04-05 12:20:51,628 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 12:20:51,628 INFO  ProjectFixService - Fixing project...
-2019-04-05 12:20:51,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/local.properties
-2019-04-05 12:20:51,770 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-04-05 12:20:51,771 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-04-05 12:20:51,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/local.properties
-2019-04-05 12:20:51,774 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-04-05 12:20:51,774 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-04-05 12:20:51,814 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-04-05 12:20:51,814 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
-2019-04-05 12:20:51,815 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 12:20:51,815 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 12:20:51,815 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 12:21:30,699 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-05 12:21:30,700 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 12:21:30,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-05 12:22:39,940 ERROR SysUtils - Could not process external command
+2019-04-05 15:58:36,644 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/gradlew
+2019-04-05 15:58:36,655 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/build.gradle
+2019-04-05 15:58:36,665 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/QA/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/settings.gradle
+2019-04-05 15:58:36,665 INFO  ProjectBuildService - Remote scripts: none
+2019-04-05 15:58:36,665 INFO  ProjectFixService - Fixing project...
+2019-04-05 15:58:36,693 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/local.properties
+2019-04-05 15:58:36,694 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-04-05 15:58:36,694 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-04-05 15:58:36,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/local.properties
+2019-04-05 15:58:36,695 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-04-05 15:58:36,695 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-04-05 15:58:36,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-04-05 15:58:36,696 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=19,targetSdkVersion=27]
+2019-04-05 15:58:36,697 INFO  ProjectFixService - Project was maybe fixed
+2019-04-05 15:58:36,697 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 15:58:36,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 15:58:44,807 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-05 15:58:44,807 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-05 15:58:44,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-05 15:58:57,530 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -54,7 +54,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 12:22:39,942 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 15:58:57,532 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
@@ -81,12 +81,12 @@ Note: Processing class NoteDAO
 Note: Processing class TodoListItemDAO
 Note: Processing class TodoListDAO
 Note: Creating DefaultRealmModule
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/src/main/java/de/djuelg/neuronizer/storage/RepositoryManager.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/src/main/java/de/djuelg/neuronizer/storage/RepositoryManager.java:13: error: cannot find symbol
 import static de.djuelg.neuronizer.storage.SillySavedRepositoryPassword.letMeReadImLegit;
                                           ^
   symbol:   class SillySavedRepositoryPassword
   location: package de.djuelg.neuronizer.storage
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/src/main/java/de/djuelg/neuronizer/storage/RepositoryManager.java:13: error: static import only from classes and interfaces
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/src/main/java/de/djuelg/neuronizer/storage/RepositoryManager.java:13: error: static import only from classes and interfaces
 import static de.djuelg.neuronizer.storage.SillySavedRepositoryPassword.letMeReadImLegit;
 ^
 2 errors
@@ -171,15 +171,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 8s
+BUILD FAILED in 12s
 13 actionable tasks: 13 executed
 
-2019-04-05 12:22:40,022 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 12:22:40,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 12:23:18,267 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-05 12:23:18,267 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 12:23:18,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-05 12:23:54,811 ERROR SysUtils - Could not process external command
+2019-04-05 15:58:57,571 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-05 15:58:57,571 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-05 15:59:03,601 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-05 15:59:03,601 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-05 15:59:03,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-05 15:59:12,447 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -206,7 +206,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-05 12:23:54,811 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-05 15:59:12,449 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :app:compileDebugAidl NO-SOURCE
@@ -233,12 +233,12 @@ Note: Processing class NoteDAO
 Note: Processing class TodoListItemDAO
 Note: Processing class TodoListDAO
 Note: Creating DefaultRealmModule
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/src/main/java/de/djuelg/neuronizer/storage/RepositoryManager.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/src/main/java/de/djuelg/neuronizer/storage/RepositoryManager.java:13: error: cannot find symbol
 import static de.djuelg.neuronizer.storage.SillySavedRepositoryPassword.letMeReadImLegit;
                                           ^
   symbol:   class SillySavedRepositoryPassword
   location: package de.djuelg.neuronizer.storage
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554441647178-0/src/Neuronizer-master/app/src/main/java/de/djuelg/neuronizer/storage/RepositoryManager.java:13: error: static import only from classes and interfaces
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554454713900-0/src/Neuronizer-master/app/src/main/java/de/djuelg/neuronizer/storage/RepositoryManager.java:13: error: static import only from classes and interfaces
 import static de.djuelg.neuronizer.storage.SillySavedRepositoryPassword.letMeReadImLegit;
 ^
 2 errors
@@ -323,8 +323,8 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 36s
+BUILD FAILED in 8s
 13 actionable tasks: 1 executed, 12 up-to-date
 
-2019-04-05 12:23:54,872 ERROR FullProcessService - Project build has not produced APK file
-2019-04-05 12:23:54,935 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-05 15:59:12,486 ERROR FullProcessService - Project build has not produced APK file
+2019-04-05 15:59:12,518 ERROR FullProcessService - Could not find generated or existed APK file
