@@ -1,36 +1,36 @@
-2019-03-23 22:48:18,355 INFO  DownloadService - Downloading "https://github.com/SouthernBox/RippleLayout/archive/master.zip", attempt 3
-2019-03-23 22:48:47,723 INFO  DownloadService - Downloaded https://github.com/SouthernBox/RippleLayout/archive/master.zip, attempt 3
-2019-03-23 22:48:47,723 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/master.zip": 9 MB
-2019-03-23 22:48:47,723 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-23 22:48:47,729 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/master.zip: true
-2019-03-23 22:48:47,729 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src'.
-2019-03-23 22:48:47,830 INFO  FullProcessService - Size of directory with sources: 9 MB
-2019-03-23 22:48:47,830 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src]
-2019-03-23 22:48:47,848 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/.git/
+2019-04-06 14:55:48,066 INFO  DownloadService - Downloading "https://github.com/SouthernBox/RippleLayout/archive/master.zip", attempt 3
+2019-04-06 14:55:54,064 INFO  DownloadService - Downloaded https://github.com/SouthernBox/RippleLayout/archive/master.zip, attempt 3
+2019-04-06 14:55:54,065 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/master.zip": 9 MB
+2019-04-06 14:55:54,065 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 14:55:54,070 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/master.zip: true
+2019-04-06 14:55:54,071 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src'.
+2019-04-06 14:55:54,164 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-04-06 14:55:54,164 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src]
+2019-04-06 14:55:54,184 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/.git/
 
-2019-03-23 22:48:47,850 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/gradlew
-2019-03-23 22:48:47,854 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/ripplelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/build.gradle
-2019-03-23 22:48:47,856 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/ripplelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/settings.gradle
-2019-03-23 22:48:47,857 INFO  ProjectBuildService - Remote scripts: none
-2019-03-23 22:48:47,857 INFO  ProjectFixService - Fixing project...
-2019-03-23 22:48:47,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/ripplelayout/local.properties
-2019-03-23 22:48:47,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/ripplelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-23 22:48:47,864 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/ripplelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-23 22:48:47,865 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/sample/local.properties
-2019-03-23 22:48:47,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-23 22:48:47,866 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-23 22:48:47,866 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/local.properties
-2019-03-23 22:48:47,867 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-23 22:48:47,867 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-23 22:48:47,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-23 22:48:47,869 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-03-23 22:48:47,869 INFO  ProjectFixService - Project was maybe fixed
-2019-03-23 22:48:47,869 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 22:48:47,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/ripplelayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 22:48:56,467 INFO  ProjectTaskService - Detected possible tasks: 83
-2019-03-23 22:48:56,467 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-23 22:48:56,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/ripplelayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-23 22:49:07,339 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 14:55:54,187 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/gradlew
+2019-04-06 14:55:54,189 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/ripplelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/build.gradle
+2019-04-06 14:55:54,192 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/ripplelayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/settings.gradle
+2019-04-06 14:55:54,193 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 14:55:54,193 INFO  ProjectFixService - Fixing project...
+2019-04-06 14:55:54,200 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/ripplelayout/local.properties
+2019-04-06 14:55:54,201 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/ripplelayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:55:54,201 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/ripplelayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:55:54,202 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/sample/local.properties
+2019-04-06 14:55:54,203 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:55:54,203 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:55:54,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/local.properties
+2019-04-06 14:55:54,205 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-04-06 14:55:54,205 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-04-06 14:55:54,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:55:54,206 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-04-06 14:55:54,206 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 14:55:54,207 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:55:54,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/ripplelayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:56:05,101 INFO  ProjectTaskService - Detected possible tasks: 83
+2019-04-06 14:56:05,101 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-04-06 14:56:05,101 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/ripplelayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-04-06 14:56:14,340 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :ripplelayout
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -46,8 +46,8 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :ripplelayout:generateDebugBuildConfig
 > Task :ripplelayout:generateDebugResValues
 > Task :ripplelayout:generateDebugResources
-> Task :ripplelayout:packageDebugResources
 > Task :ripplelayout:processDebugManifest
+> Task :ripplelayout:packageDebugResources
 > Task :ripplelayout:generateDebugRFile
 > Task :ripplelayout:prepareLintJar
 > Task :ripplelayout:generateDebugSources
@@ -107,19 +107,19 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :ripplelayout:assemble
 > Task :ripplelayout:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 9s
 45 actionable tasks: 45 executed
 
-2019-03-23 22:49:07,354 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 22:49:07,354 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 22:49:14,610 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-23 22:49:14,610 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-23 22:49:14,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-23 22:49:44,771 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-06 14:56:14,352 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:56:14,352 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:56:20,668 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-06 14:56:20,668 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-06 14:56:20,668 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-06 14:56:45,888 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :ripplelayout
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -135,8 +135,8 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :ripplelayout:generateDebugBuildConfig UP-TO-DATE
 > Task :ripplelayout:generateDebugResValues UP-TO-DATE
 > Task :ripplelayout:generateDebugResources UP-TO-DATE
-> Task :ripplelayout:packageDebugResources UP-TO-DATE
 > Task :ripplelayout:processDebugManifest UP-TO-DATE
+> Task :ripplelayout:packageDebugResources UP-TO-DATE
 > Task :ripplelayout:generateDebugRFile UP-TO-DATE
 > Task :ripplelayout:prepareLintJar UP-TO-DATE
 > Task :ripplelayout:generateDebugSources UP-TO-DATE
@@ -145,13 +145,18 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :ripplelayout:processDebugJavaRes NO-SOURCE
 > Task :ripplelayout:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :sample:preBuild UP-TO-DATE
+> Task :ripplelayout:packageDebugRenderscript NO-SOURCE
+> Task :sample:prepareLintJar
+> Task :ripplelayout:mergeDebugShaders UP-TO-DATE
+> Task :ripplelayout:compileDebugShaders UP-TO-DATE
+> Task :ripplelayout:generateDebugAssets UP-TO-DATE
+> Task :ripplelayout:packageDebugAssets UP-TO-DATE
+> Task :ripplelayout:createFullJarDebug
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :ripplelayout:packageDebugRenderscript NO-SOURCE
 > Task :sample:compileDebugRenderscript
 > Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
-> Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
 > Task :sample:mainApkListPersistenceDebug
@@ -164,21 +169,12 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugNdk NO-SOURCE
 > Task :sample:compileDebugSources
-> Task :ripplelayout:mergeDebugShaders UP-TO-DATE
-> Task :ripplelayout:compileDebugShaders UP-TO-DATE
-> Task :ripplelayout:generateDebugAssets UP-TO-DATE
-> Task :ripplelayout:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
-> Task :ripplelayout:createFullJarDebug
-> Transform full.jar (project :ripplelayout) with IdentityTransform
-> Task :sample:mergeExtDexDebug
-> Transform full.jar (project :ripplelayout) with DexingTransform
-> Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:mergeDexDebug
 > Task :sample:validateSigningDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:signingConfigWriterDebug
 > Task :ripplelayout:compileDebugNdk NO-SOURCE
 > Task :ripplelayout:mergeDebugJniLibFolders UP-TO-DATE
@@ -190,8 +186,6 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :ripplelayout:preReleaseBuild UP-TO-DATE
 > Task :ripplelayout:compileReleaseAidl NO-SOURCE
 > Task :ripplelayout:compileReleaseRenderscript UP-TO-DATE
@@ -222,19 +216,19 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
 > Task :sample:processReleaseResources
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseNdk NO-SOURCE
 > Task :sample:compileReleaseSources
+> Task :ripplelayout:createFullJarRelease
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a5f58727f8ddd4bba9f403af7231359c/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9ae65d329feda24cf06567fd014e1fc9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :ripplelayout:createFullJarRelease
-> Transform full.jar (project :ripplelayout) with IdentityTransform
-> Task :sample:mergeExtDexRelease
-> Transform full.jar (project :ripplelayout) with DexingTransform
 > Task :sample:transformClassesWithDexBuilderForRelease
-> Task :sample:mergeDexRelease
 > Task :ripplelayout:mergeReleaseShaders UP-TO-DATE
 > Task :ripplelayout:compileReleaseShaders UP-TO-DATE
 > Task :ripplelayout:generateReleaseAssets UP-TO-DATE
@@ -254,16 +248,18 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 24s
 88 actionable tasks: 57 executed, 31 up-to-date
 
-2019-03-23 22:49:44,848 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356098347-0/src/RippleLayout-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-04-06 14:56:45,964 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554537348062-0/src/RippleLayout-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
