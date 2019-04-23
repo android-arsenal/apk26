@@ -1,36 +1,36 @@
-2019-04-05 23:40:19,490 INFO  DownloadService - Downloading "https://github.com/Zeyad-37/RxRedux/archive/master.zip", attempt 3
-2019-04-05 23:40:20,017 INFO  DownloadService - Downloaded https://github.com/Zeyad-37/RxRedux/archive/master.zip, attempt 3
-2019-04-05 23:40:20,017 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/master.zip": 245 KB
-2019-04-05 23:40:20,017 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-05 23:40:20,023 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/master.zip: true
-2019-04-05 23:40:20,024 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src'.
-2019-04-05 23:40:20,069 INFO  FullProcessService - Size of directory with sources: 430 KB
-2019-04-05 23:40:20,069 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src]
-2019-04-05 23:40:20,087 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/.git/
+2019-04-23 12:28:46,491 INFO  DownloadService - Downloading "https://github.com/Zeyad-37/RxRedux/archive/master.zip", attempt 3
+2019-04-23 12:28:48,656 INFO  DownloadService - Downloaded https://github.com/Zeyad-37/RxRedux/archive/master.zip, attempt 3
+2019-04-23 12:28:48,656 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/master.zip": 237 KB
+2019-04-23 12:28:48,656 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-23 12:28:48,659 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/master.zip: true
+2019-04-23 12:28:48,659 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src'.
+2019-04-23 12:28:48,699 INFO  FullProcessService - Size of directory with sources: 416 KB
+2019-04-23 12:28:48,700 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src]
+2019-04-23 12:28:48,721 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/.git/
 
-2019-04-05 23:40:20,092 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/gradlew
-2019-04-05 23:40:20,098 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/build.gradle
-2019-04-05 23:40:20,103 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/settings.gradle
-2019-04-05 23:40:20,103 INFO  ProjectBuildService - Remote scripts: none
-2019-04-05 23:40:20,103 INFO  ProjectFixService - Fixing project...
-2019-04-05 23:40:20,116 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/local.properties
-2019-04-05 23:40:20,117 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:40:20,117 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:40:20,118 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/local.properties
-2019-04-05 23:40:20,120 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:40:20,120 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:40:20,121 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/local.properties
-2019-04-05 23:40:20,122 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-04-05 23:40:20,122 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-04-05 23:40:20,124 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-04-05 23:40:20,124 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-04-05 23:40:20,124 INFO  ProjectFixService - Project was maybe fixed
-2019-04-05 23:40:20,124 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-05 23:40:20,124 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-05 23:47:10,682 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-04-05 23:47:10,682 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-05 23:47:10,682 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-06 14:05:57,896 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+2019-04-23 12:28:48,726 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/gradlew
+2019-04-23 12:28:48,731 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/build.gradle
+2019-04-23 12:28:48,736 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/settings.gradle
+2019-04-23 12:28:48,736 INFO  ProjectBuildService - Remote scripts: none
+2019-04-23 12:28:48,736 INFO  ProjectFixService - Fixing project...
+2019-04-23 12:28:48,748 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/local.properties
+2019-04-23 12:28:48,750 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-23 12:28:48,750 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-23 12:28:48,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/local.properties
+2019-04-23 12:28:48,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-23 12:28:48,752 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-23 12:28:48,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/local.properties
+2019-04-23 12:28:48,754 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-04-23 12:28:48,754 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-04-23 12:28:48,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-23 12:28:48,756 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-23 12:28:48,756 INFO  ProjectFixService - Project was maybe fixed
+2019-04-23 12:28:48,756 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-23 12:28:48,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-23 12:29:02,834 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-04-23 12:29:02,835 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-23 12:29:02,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-23 12:30:31,739 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy NO-SOURCE
 > Task :buildSrc:processResources NO-SOURCE
@@ -49,165 +49,165 @@
 Configuration on demand is an incubating feature.
 > Transform rxjava2.aar (android.arch.persistence.room:rxjava2:1.1.1) with IdentityTransform
 > Transform runtime.aar (android.arch.core:runtime:1.1.1) with IdentityTransform
-> Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with IdentityTransform
-> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with IdentityTransform
-> Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with IdentityTransform
-> Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with IdentityTransform
 > Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with IdentityTransform
+> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with IdentityTransform
+> Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with IdentityTransform
+> Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with IdentityTransform
 > Transform db.aar (android.arch.persistence:db:1.1.1) with IdentityTransform
+> Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with IdentityTransform
+> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with ExtractAarTransform
 > Transform rxjava2.aar (android.arch.persistence.room:rxjava2:1.1.1) with ExtractAarTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.1) with ExtractAarTransform
+> Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with ExtractAarTransform
 > Transform db.aar (android.arch.persistence:db:1.1.1) with ExtractAarTransform
 > Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with ExtractAarTransform
-> Transform runtime.aar (android.arch.core:runtime:1.1.1) with ExtractAarTransform
-> Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with ExtractAarTransform
 > Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with ExtractAarTransform
-> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with ExtractAarTransform
-> Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with ExtractAarTransform
-> Transform db.aar (android.arch.persistence:db:1.1.1) with AarTransform
-> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with AarTransform
-> Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with AarTransform
-> Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with AarTransform
-> Transform print.aar (com.android.support:print:28.0.0) with IdentityTransform
-> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with IdentityTransform
+> Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with ExtractAarTransform
 > Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with AarTransform
-> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with IdentityTransform
-> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with IdentityTransform
+> Transform print.aar (com.android.support:print:28.0.0) with IdentityTransform
 > Transform print.aar (com.android.support:print:28.0.0) with ExtractAarTransform
-> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with ExtractAarTransform
-> Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with AarTransform
+> Transform db.aar (android.arch.persistence:db:1.1.1) with AarTransform
+> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with IdentityTransform
 > Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with ExtractAarTransform
+> Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with AarTransform
+> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with IdentityTransform
+> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with ExtractAarTransform
+> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with AarTransform
+> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with IdentityTransform
 > Transform interpolator.aar (com.android.support:interpolator:28.0.0) with ExtractAarTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarTransform
 > Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with IdentityTransform
+> Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with AarTransform
 > Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with ExtractAarTransform
 > Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with IdentityTransform
-> Transform rxjava2.aar (android.arch.persistence.room:rxjava2:1.1.1) with AarTransform
-> Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarTransform
+> Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with AarTransform
 > Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with ExtractAarTransform
-> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with IdentityTransform
+> Transform rxjava2.aar (android.arch.persistence.room:rxjava2:1.1.1) with AarTransform
 > Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with IdentityTransform
-> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with ExtractAarTransform
-> Transform print.aar (com.android.support:print:28.0.0) with AarTransform
 > Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with ExtractAarTransform
-> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with AarTransform
-> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with AarTransform
-> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with AarTransform
+> Transform print.aar (com.android.support:print:28.0.0) with AarTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with IdentityTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with ExtractAarTransform
 > Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with IdentityTransform
+> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with ExtractAarTransform
+> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with AarTransform
+> Transform documentfile.aar (com.android.support:documentfile:28.0.0) with AarTransform
 > Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with IdentityTransform
 > Transform cardview-v7.aar (com.android.support:cardview-v7:28.0.0) with IdentityTransform
 > Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with ExtractAarTransform
-> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with IdentityTransform
+> Transform interpolator.aar (com.android.support:interpolator:28.0.0) with AarTransform
 > Transform cardview-v7.aar (com.android.support:cardview-v7:28.0.0) with ExtractAarTransform
-> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with AarTransform
-> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with ExtractAarTransform
-> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with AarTransform
+> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with IdentityTransform
 > Transform support-compat.aar (com.android.support:support-compat:28.0.0) with ExtractAarTransform
-> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with AarTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with AarTransform
 > Transform loader.aar (com.android.support:loader:28.0.0) with IdentityTransform
-> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with AarTransform
-> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with AarTransform
 > Transform loader.aar (com.android.support:loader:28.0.0) with ExtractAarTransform
+> Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with AarTransform
 > Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with IdentityTransform
-> Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with IdentityTransform
-> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with AarTransform
-> Transform customview.aar (com.android.support:customview:28.0.0) with IdentityTransform
-> Transform cardview-v7.aar (com.android.support:cardview-v7:28.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with ExtractAarTransform
-> Transform loader.aar (com.android.support:loader:28.0.0) with AarTransform
-> Transform customview.aar (com.android.support:customview:28.0.0) with ExtractAarTransform
-> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with IdentityTransform
-> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with IdentityTransform
+> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with AarTransform
 > Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with ExtractAarTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with IdentityTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with AarTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with ExtractAarTransform
+> Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with AarTransform
+> Transform customview.aar (com.android.support:customview:28.0.0) with IdentityTransform
+> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with IdentityTransform
+> Transform customview.aar (com.android.support:customview:28.0.0) with ExtractAarTransform
 > Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with ExtractAarTransform
-> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with IdentityTransform
-> Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with AarTransform
-> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with AarTransform
-> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with IdentityTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with IdentityTransform
-> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with ExtractAarTransform
-> Transform customview.aar (com.android.support:customview:28.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with AarTransform
-> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with ExtractAarTransform
+> Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with AarTransform
+> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with IdentityTransform
 > Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with ExtractAarTransform
+> Transform cardview-v7.aar (com.android.support:cardview-v7:28.0.0) with AarTransform
+> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with AarTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with IdentityTransform
+> Transform loader.aar (com.android.support:loader:28.0.0) with AarTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with IdentityTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with ExtractAarTransform
+> Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with AarTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with ExtractAarTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with IdentityTransform
 > Transform transition.aar (com.android.support:transition:28.0.0) with IdentityTransform
 > Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with ExtractAarTransform
 > Transform transition.aar (com.android.support:transition:28.0.0) with ExtractAarTransform
-> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with AarTransform
-> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with AarTransform
+> Transform customview.aar (com.android.support:customview:28.0.0) with AarTransform
+> Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with AarTransform
 > Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with IdentityTransform
 > Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with IdentityTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with ExtractAarTransform
 > Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with IdentityTransform
-> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with AarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with ExtractAarTransform
 > Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with ExtractAarTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with AarTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with ExtractAarTransform
+> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with AarTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with IdentityTransform
 > Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with ExtractAarTransform
-> Transform transition.aar (com.android.support:transition:28.0.0) with AarTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with AarTransform
 > Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with IdentityTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with ExtractAarTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with AarTransform
 > Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with ExtractAarTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with AarTransform
+> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with AarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with IdentityTransform
 > Transform rxbinding.aar (com.jakewharton.rxbinding2:rxbinding:2.1.1) with IdentityTransform
-> Transform koin-android.aar (org.koin:koin-android:1.0.2) with IdentityTransform
+> Transform transition.aar (com.android.support:transition:28.0.0) with AarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with ExtractAarTransform
 > Transform rxbinding.aar (com.jakewharton.rxbinding2:rxbinding:2.1.1) with ExtractAarTransform
+> Transform koin-android.aar (org.koin:koin-android:1.0.2) with IdentityTransform
 > Transform koin-android.aar (org.koin:koin-android:1.0.2) with ExtractAarTransform
+> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with AarTransform
 > Transform koin-android-scope.aar (org.koin:koin-android-scope:1.0.2) with IdentityTransform
-> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with AarTransform
 > Transform koin-android-scope.aar (org.koin:koin-android-scope:1.0.2) with ExtractAarTransform
+> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with AarTransform
 > Transform relinker.aar (com.getkeepsafe.relinker:relinker:1.2.2) with IdentityTransform
 > Transform relinker.aar (com.getkeepsafe.relinker:relinker:1.2.2) with ExtractAarTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with AarTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with AarTransform
 > Transform rxbinding-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1) with IdentityTransform
 > Transform rxbinding-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1) with ExtractAarTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with AarTransform
+> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with AarTransform
 > Transform GenericRecyclerViewAdapter.aar (com.github.Zeyad-37:GenericRecyclerViewAdapter:2.0.1) with IdentityTransform
-> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with AarTransform
 > Transform GenericRecyclerViewAdapter.aar (com.github.Zeyad-37:GenericRecyclerViewAdapter:2.0.1) with ExtractAarTransform
-> Transform constraint-layout.aar (com.android.support.constraint:constraint-layout:1.1.3) with IdentityTransform
-> Transform koin-android.aar (org.koin:koin-android:1.0.2) with AarTransform
-> Transform rxbinding.aar (com.jakewharton.rxbinding2:rxbinding:2.1.1) with AarTransform
-> Transform constraint-layout.aar (com.android.support.constraint:constraint-layout:1.1.3) with ExtractAarTransform
+> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with AarTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
+> Transform constraint-layout.aar (com.android.support.constraint:constraint-layout:1.1.3) with IdentityTransform
+> Transform rxbinding.aar (com.jakewharton.rxbinding2:rxbinding:2.1.1) with AarTransform
 > Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with IdentityTransform
-> Transform koin-android-scope.aar (org.koin:koin-android-scope:1.0.2) with AarTransform
-> Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with ExtractAarTransform
+> Transform constraint-layout.aar (com.android.support.constraint:constraint-layout:1.1.3) with ExtractAarTransform
 > Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with IdentityTransform
-> Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with IdentityTransform
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with IdentityTransform
-> Transform relinker.aar (com.getkeepsafe.relinker:relinker:1.2.2) with AarTransform
+> Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with ExtractAarTransform
+> Transform koin-android-scope.aar (org.koin:koin-android-scope:1.0.2) with AarTransform
+> Transform koin-android.aar (org.koin:koin-android:1.0.2) with AarTransform
 > Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with ExtractAarTransform
+> Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with IdentityTransform
 > Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with ExtractAarTransform
-> Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with IdentityTransform
-> Transform rxbinding-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1) with AarTransform
-> Transform GenericRecyclerViewAdapter.aar (com.github.Zeyad-37:GenericRecyclerViewAdapter:2.0.1) with AarTransform
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with IdentityTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with ExtractAarTransform
+> Transform relinker.aar (com.getkeepsafe.relinker:relinker:1.2.2) with AarTransform
+> Transform rxbinding-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1) with AarTransform
+> Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with IdentityTransform
+> Transform GenericRecyclerViewAdapter.aar (com.github.Zeyad-37:GenericRecyclerViewAdapter:2.0.1) with AarTransform
 > Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with IdentityTransform
-> Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with ExtractAarTransform
-> Transform constraint-layout.aar (com.android.support.constraint:constraint-layout:1.1.3) with AarTransform
-> Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with ExtractAarTransform
 > Transform design.aar (com.android.support:design:28.0.0) with IdentityTransform
-> Transform koin-android-viewmodel.aar (org.koin:koin-android-viewmodel:1.0.2) with IdentityTransform
-> Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with AarTransform
+> Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with ExtractAarTransform
 > Transform design.aar (com.android.support:design:28.0.0) with ExtractAarTransform
+> Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with AarTransform
+> Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with ExtractAarTransform
+> Transform koin-android-viewmodel.aar (org.koin:koin-android-viewmodel:1.0.2) with IdentityTransform
 > Transform koin-android-viewmodel.aar (org.koin:koin-android-viewmodel:1.0.2) with ExtractAarTransform
-> Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with AarTransform
+> Transform constraint-layout.aar (com.android.support.constraint:constraint-layout:1.1.3) with AarTransform
 > Transform realm-android-library.aar (io.realm:realm-android-library:4.2.0) with IdentityTransform
-> Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with AarTransform
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with AarTransform
-> Transform Usecases.aar (com.github.Zeyad-37:Usecases:2.0.1) with IdentityTransform
 > Transform realm-android-library.aar (io.realm:realm-android-library:4.2.0) with ExtractAarTransform
-> Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with AarTransform
+> Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with AarTransform
+> Transform Usecases.aar (com.github.Zeyad-37:Usecases:2.0.1) with IdentityTransform
 > Transform Usecases.aar (com.github.Zeyad-37:Usecases:2.0.1) with ExtractAarTransform
+> Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with AarTransform
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with AarTransform
 > Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with AarTransform
-> Transform koin-android-viewmodel.aar (org.koin:koin-android-viewmodel:1.0.2) with AarTransform
-> Transform db.aar (android.arch.persistence:db:1.1.1) with AarTransform
 > Transform design.aar (com.android.support:design:28.0.0) with AarTransform
-> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with AarTransform
+> Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with AarTransform
+> Transform koin-android-viewmodel.aar (org.koin:koin-android-viewmodel:1.0.2) with AarTransform
 > Transform realm-android-library.aar (io.realm:realm-android-library:4.2.0) with AarTransform
+> Transform db.aar (android.arch.persistence:db:1.1.1) with AarTransform
 > Transform Usecases.aar (com.github.Zeyad-37:Usecases:2.0.1) with AarTransform
+> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with AarTransform
 > Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with AarTransform
 > Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with AarTransform
 > Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with AarTransform
@@ -271,59 +271,59 @@ Configuration on demand is an incubating feature.
 > Task :app:compileDebugRenderscript
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Transform db.aar (android.arch.persistence:db:1.1.1) with LibrarySymbolTableTransform
-> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with LibrarySymbolTableTransform
 > Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with LibrarySymbolTableTransform
 > Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with LibrarySymbolTableTransform
-> Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with LibrarySymbolTableTransform
-> Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with LibrarySymbolTableTransform
 > Transform rxjava2.aar (android.arch.persistence.room:rxjava2:1.1.1) with LibrarySymbolTableTransform
+> Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with LibrarySymbolTableTransform
+> Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with LibrarySymbolTableTransform
 > Transform runtime.aar (android.arch.core:runtime:1.1.1) with LibrarySymbolTableTransform
+> Transform db.aar (android.arch.persistence:db:1.1.1) with LibrarySymbolTableTransform
+> Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with LibrarySymbolTableTransform
+> Transform print.aar (com.android.support:print:28.0.0) with LibrarySymbolTableTransform
 > Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with LibrarySymbolTableTransform
 > Transform documentfile.aar (com.android.support:documentfile:28.0.0) with LibrarySymbolTableTransform
 > Transform interpolator.aar (com.android.support:interpolator:28.0.0) with LibrarySymbolTableTransform
-> Transform print.aar (com.android.support:print:28.0.0) with LibrarySymbolTableTransform
-> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with LibrarySymbolTableTransform
 > Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with LibrarySymbolTableTransform
-> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with LibrarySymbolTableTransform
-> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with LibrarySymbolTableTransform
 > Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with LibrarySymbolTableTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with LibrarySymbolTableTransform
+> Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with LibrarySymbolTableTransform
+> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with LibrarySymbolTableTransform
 > Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with LibrarySymbolTableTransform
+> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with LibrarySymbolTableTransform
+> Transform cardview-v7.aar (com.android.support:cardview-v7:28.0.0) with LibrarySymbolTableTransform
 > Transform loader.aar (com.android.support:loader:28.0.0) with LibrarySymbolTableTransform
 > Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with LibrarySymbolTableTransform
-> Transform cardview-v7.aar (com.android.support:cardview-v7:28.0.0) with LibrarySymbolTableTransform
 > Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with LibrarySymbolTableTransform
-> Transform support-compat.aar (com.android.support:support-compat:28.0.0) with LibrarySymbolTableTransform
 > Transform customview.aar (com.android.support:customview:28.0.0) with LibrarySymbolTableTransform
 > Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with LibrarySymbolTableTransform
-> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with LibrarySymbolTableTransform
-> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with LibrarySymbolTableTransform
-> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with LibrarySymbolTableTransform
-> Transform transition.aar (com.android.support:transition:28.0.0) with LibrarySymbolTableTransform
 > Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with LibrarySymbolTableTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with LibrarySymbolTableTransform
+> Transform viewpager.aar (com.android.support:viewpager:28.0.0) with LibrarySymbolTableTransform
+> Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with LibrarySymbolTableTransform
+> Transform transition.aar (com.android.support:transition:28.0.0) with LibrarySymbolTableTransform
 > Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with LibrarySymbolTableTransform
+> Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with LibrarySymbolTableTransform
+> Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with LibrarySymbolTableTransform
 > Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with LibrarySymbolTableTransform
-> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with LibrarySymbolTableTransform
 > Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with LibrarySymbolTableTransform
+> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with LibrarySymbolTableTransform
 > Transform rxbinding.aar (com.jakewharton.rxbinding2:rxbinding:2.1.1) with LibrarySymbolTableTransform
+> Transform koin-android-scope.aar (org.koin:koin-android-scope:1.0.2) with LibrarySymbolTableTransform
 > Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with LibrarySymbolTableTransform
 > Transform koin-android.aar (org.koin:koin-android:1.0.2) with LibrarySymbolTableTransform
-> Transform koin-android-scope.aar (org.koin:koin-android-scope:1.0.2) with LibrarySymbolTableTransform
-> Transform relinker.aar (com.getkeepsafe.relinker:relinker:1.2.2) with LibrarySymbolTableTransform
 > Transform rxbinding-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1) with LibrarySymbolTableTransform
-> Transform GenericRecyclerViewAdapter.aar (com.github.Zeyad-37:GenericRecyclerViewAdapter:2.0.1) with LibrarySymbolTableTransform
+> Transform relinker.aar (com.getkeepsafe.relinker:relinker:1.2.2) with LibrarySymbolTableTransform
 > Transform constraint-layout.aar (com.android.support.constraint:constraint-layout:1.1.3) with LibrarySymbolTableTransform
 > Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with LibrarySymbolTableTransform
-> Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with LibrarySymbolTableTransform
+> Transform GenericRecyclerViewAdapter.aar (com.github.Zeyad-37:GenericRecyclerViewAdapter:2.0.1) with LibrarySymbolTableTransform
 > Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with LibrarySymbolTableTransform
+> Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with LibrarySymbolTableTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with LibrarySymbolTableTransform
-> Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with LibrarySymbolTableTransform
-> Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with LibrarySymbolTableTransform
-> Transform design.aar (com.android.support:design:28.0.0) with LibrarySymbolTableTransform
 > Transform koin-android-viewmodel.aar (org.koin:koin-android-viewmodel:1.0.2) with LibrarySymbolTableTransform
-> Transform realm-android-library.aar (io.realm:realm-android-library:4.2.0) with LibrarySymbolTableTransform
+> Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with LibrarySymbolTableTransform
 > Transform Usecases.aar (com.github.Zeyad-37:Usecases:2.0.1) with LibrarySymbolTableTransform
+> Transform realm-android-library.aar (io.realm:realm-android-library:4.2.0) with LibrarySymbolTableTransform
+> Transform design.aar (com.android.support:design:28.0.0) with LibrarySymbolTableTransform
+> Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with LibrarySymbolTableTransform
 > Task :app:mainApkListPersistenceDebug
 > Transform db.aar (android.arch.persistence:db:1.1.1) with AarTransform
 > Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with AarTransform
@@ -347,8 +347,8 @@ Configuration on demand is an incubating feature.
 > Transform support-compat.aar (com.android.support:support-compat:28.0.0) with AarTransform
 > Transform loader.aar (com.android.support:loader:28.0.0) with AarTransform
 > Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with AarTransform
 > Transform customview.aar (com.android.support:customview:28.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with AarTransform
 > Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with AarTransform
 > Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with AarTransform
 > Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with AarTransform
@@ -392,14 +392,12 @@ Configuration on demand is an incubating feature.
 > Task :core:generateDebugBuildConfig
 
 > Task :core:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PModelObserver.kt: (15, 61): Unchecked cast: Any? to E
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PModelObserver.kt: (17, 53): Unchecked cast: Any? to S
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (38, 42): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<R>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (39, 44): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<E>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (87, 66): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (87, 105): Unchecked cast: Any? to S
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (96, 81): Unchecked cast: PModel<*> to PEffect<E>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (110, 89): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PModelObserver.kt: (15, 61): Unchecked cast: Any? to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PModelObserver.kt: (17, 53): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (39, 42): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<R>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (40, 44): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<E>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (97, 85): Unchecked cast: PModel<*> to PEffect<E>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (98, 81): Unchecked cast: PModel<*> to PEffect<E>
 
 > Task :core:prepareLintJar
 > Task :core:generateDebugSources
@@ -409,8 +407,9 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Task :core:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 > Task :app:kaptGenerateStubsDebugKotlin
 > Task :app:kaptDebugKotlin
+
 > Task :app:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/RepositoryViewHolder.kt: (9, 27): The corresponding parameter in the supertype 'GenericViewHolder' is named 'data'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/RepositoryViewHolder.kt: (9, 27): The corresponding parameter in the supertype 'GenericViewHolder' is named 'data'. This may cause problems when calling this function with named arguments.
 
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
@@ -418,10 +417,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
-> Transform db.aar (android.arch.persistence:db:1.1.1) with AarTransform
 > Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with AarTransform
-> Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with AarTransform
+> Transform db.aar (android.arch.persistence:db:1.1.1) with AarTransform
 > Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with AarTransform
+> Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with AarTransform
 > Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with AarTransform
 > Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarTransform
 > Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with AarTransform
@@ -458,13 +457,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Transform koin-android.aar (org.koin:koin-android:1.0.2) with AarTransform
 > Transform koin-android-scope.aar (org.koin:koin-android-scope:1.0.2) with AarTransform
 > Transform relinker.aar (com.getkeepsafe.relinker:relinker:1.2.2) with AarTransform
-> Transform GenericRecyclerViewAdapter.aar (com.github.Zeyad-37:GenericRecyclerViewAdapter:2.0.1) with AarTransform
 > Transform rxbinding-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1) with AarTransform
+> Transform GenericRecyclerViewAdapter.aar (com.github.Zeyad-37:GenericRecyclerViewAdapter:2.0.1) with AarTransform
 > Transform constraint-layout.aar (com.android.support.constraint:constraint-layout:1.1.3) with AarTransform
-> Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with AarTransform
-> Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with AarTransform
 > Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with AarTransform
+> Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with AarTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with AarTransform
+> Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with AarTransform
 > Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with AarTransform
 > Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with AarTransform
 > Transform design.aar (com.android.support:design:28.0.0) with AarTransform
@@ -481,55 +480,55 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Task :app:mergeDebugAssets
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Transform disklrucache.jar (com.jakewharton:disklrucache:2.0.2) with IdentityTransform
 > Transform commons-io.jar (commons-io:commons-io:2.5) with IdentityTransform
 > Transform disklrucache.jar (com.jakewharton:disklrucache:2.0.2) with IdentityTransform
+> Transform disklrucache.jar (com.jakewharton:disklrucache:2.0.2) with IdentityTransform
+> Transform commons-io.jar (commons-io:commons-io:2.5) with IdentityTransform
+> Transform common.jar (android.arch.persistence.room:common:1.1.1) with IdentityTransform
 > Transform common.jar (android.arch.persistence.room:common:1.1.1) with IdentityTransform
 > Transform okio.jar (com.squareup.okio:okio:1.14.0) with IdentityTransform
 > Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
+> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with IdentityTransform
 > Transform okio.jar (com.squareup.okio:okio:1.14.0) with IdentityTransform
+> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
 > Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with IdentityTransform
 > Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform common.jar (android.arch.persistence.room:common:1.1.1) with IdentityTransform
-> Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with IdentityTransform
 > Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
-> Transform commons-io.jar (commons-io:commons-io:2.5) with IdentityTransform
+> Transform rollbar-android.jar (com.rollbar:rollbar-android:0.2.1) with IdentityTransform
+> Transform rollbar-android.jar (com.rollbar:rollbar-android:0.2.1) with IdentityTransform
+> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
 > Transform db.aar (android.arch.persistence:db:1.1.1) with AarTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
-> Transform rollbar-android.jar (com.rollbar:rollbar-android:0.2.1) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
 > Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.11.0) with IdentityTransform
+> Transform logging-interceptor.jar (com.squareup.okhttp3:logging-interceptor:3.11.0) with IdentityTransform
+> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.11.0) with IdentityTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.4.0) with IdentityTransform
+> Transform logging-interceptor.jar (com.squareup.okhttp3:logging-interceptor:3.11.0) with IdentityTransform
+> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.4.0) with IdentityTransform
 > Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with AarTransform
-> Transform logging-interceptor.jar (com.squareup.okhttp3:logging-interceptor:3.11.0) with IdentityTransform
-> Transform rollbar-android.jar (com.rollbar:rollbar-android:0.2.1) with IdentityTransform
-> Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.11.0) with IdentityTransform
-> Transform logging-interceptor.jar (com.squareup.okhttp3:logging-interceptor:3.11.0) with IdentityTransform
 > Transform adapter-rxjava2.jar (com.squareup.retrofit2:adapter-rxjava2:2.4.0) with IdentityTransform
-> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.4.0) with IdentityTransform
-> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.4.0) with IdentityTransform
-> Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.4.0) with IdentityTransform
-> Transform constraint-layout-solver.jar (com.android.support.constraint:constraint-layout-solver:1.1.3) with IdentityTransform
-> Transform support-annotations.jar (com.android.support:support-annotations:28.0.0) with IdentityTransform
 > Transform adapter-rxjava2.jar (com.squareup.retrofit2:adapter-rxjava2:2.4.0) with IdentityTransform
-> Transform constraint-layout-solver.jar (com.android.support.constraint:constraint-layout-solver:1.1.3) with IdentityTransform
-> Transform support-annotations.jar (com.android.support:support-annotations:28.0.0) with IdentityTransform
-> Transform common.jar (android.arch.core:common:1.1.1) with IdentityTransform
-> Transform common.jar (android.arch.core:common:1.1.1) with IdentityTransform
+> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
 > Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.4.0) with IdentityTransform
 > Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with AarTransform
+> Transform constraint-layout-solver.jar (com.android.support.constraint:constraint-layout-solver:1.1.3) with IdentityTransform
+> Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.4.0) with IdentityTransform
+> Transform constraint-layout-solver.jar (com.android.support.constraint:constraint-layout-solver:1.1.3) with IdentityTransform
+> Transform support-annotations.jar (com.android.support:support-annotations:28.0.0) with IdentityTransform
+> Transform support-annotations.jar (com.android.support:support-annotations:28.0.0) with IdentityTransform
+> Transform common.jar (android.arch.core:common:1.1.1) with IdentityTransform
 > Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with AarTransform
+> Transform common.jar (android.arch.core:common:1.1.1) with IdentityTransform
 > Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with AarTransform
 > Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarTransform
 > Transform common.jar (android.arch.lifecycle:common:1.1.1) with IdentityTransform
 > Transform common.jar (android.arch.lifecycle:common:1.1.1) with IdentityTransform
-> Transform rxjava2.aar (android.arch.persistence.room:rxjava2:1.1.1) with AarTransform
 > Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with AarTransform
+> Transform rxjava2.aar (android.arch.persistence.room:rxjava2:1.1.1) with AarTransform
 > Transform print.aar (com.android.support:print:28.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with AarTransform
 > Transform documentfile.aar (com.android.support:documentfile:28.0.0) with AarTransform
 > Transform collections.jar (com.android.support:collections:28.0.0) with IdentityTransform
 > Transform collections.jar (com.android.support:collections:28.0.0) with IdentityTransform
+> Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with AarTransform
 > Transform interpolator.aar (com.android.support:interpolator:28.0.0) with AarTransform
 > Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with AarTransform
 > Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with AarTransform
@@ -540,17 +539,17 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Transform cardview-v7.aar (com.android.support:cardview-v7:28.0.0) with AarTransform
 > Transform support-compat.aar (com.android.support:support-compat:28.0.0) with AarTransform
 > Transform loader.aar (com.android.support:loader:28.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with AarTransform
 > Transform asynclayoutinflater.aar (com.android.support:asynclayoutinflater:28.0.0) with AarTransform
+> Transform swiperefreshlayout.aar (com.android.support:swiperefreshlayout:28.0.0) with AarTransform
 > Transform customview.aar (com.android.support:customview:28.0.0) with AarTransform
 > Transform slidingpanelayout.aar (com.android.support:slidingpanelayout:28.0.0) with AarTransform
 > Transform drawerlayout.aar (com.android.support:drawerlayout:28.0.0) with AarTransform
 > Transform coordinatorlayout.aar (com.android.support:coordinatorlayout:28.0.0) with AarTransform
 > Transform viewpager.aar (com.android.support:viewpager:28.0.0) with AarTransform
-> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.6) with IdentityTransform
-> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.6) with IdentityTransform
-> Transform replaying-share.jar (com.jakewharton.rx2:replaying-share:2.0.1) with IdentityTransform
 > Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:28.0.0) with AarTransform
+> Transform replaying-share.jar (com.jakewharton.rx2:replaying-share:2.0.1) with IdentityTransform
+> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.6) with IdentityTransform
+> Transform rxjava.jar (io.reactivex.rxjava2:rxjava:2.2.6) with IdentityTransform
 > Transform replaying-share.jar (com.jakewharton.rx2:replaying-share:2.0.1) with IdentityTransform
 > Transform transition.aar (com.android.support:transition:28.0.0) with AarTransform
 > Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.21) with IdentityTransform
@@ -559,22 +558,22 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Transform koin-core.jar (org.koin:koin-core:1.0.2) with IdentityTransform
 > Transform support-core-utils.aar (com.android.support:support-core-utils:28.0.0) with AarTransform
 > Transform support-core-ui.aar (com.android.support:support-core-ui:28.0.0) with AarTransform
-> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
-> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with AarTransform
-> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with AarTransform
 > Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:28.0.0) with AarTransform
+> Transform replaying-share-kotlin.jar (com.jakewharton.rx2:replaying-share-kotlin:2.0.1) with IdentityTransform
 > Transform koin-core-ext.jar (org.koin:koin-core-ext:1.0.2) with IdentityTransform
+> Transform koin-core-ext.jar (org.koin:koin-core-ext:1.0.2) with IdentityTransform
+> Transform replaying-share-kotlin.jar (com.jakewharton.rx2:replaying-share-kotlin:2.0.1) with IdentityTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20) with IdentityTransform
+> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20) with IdentityTransform
+> Transform support-fragment.aar (com.android.support:support-fragment:28.0.0) with AarTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:3.0.2) with IdentityTransform
+> Transform jsr305.jar (com.google.code.findbugs:jsr305:3.0.2) with IdentityTransform
+> Transform glide.jar (com.github.bumptech.glide:glide:3.8.0) with IdentityTransform
+> Transform glide.jar (com.github.bumptech.glide:glide:3.8.0) with IdentityTransform
+> Transform extensions.aar (android.arch.lifecycle:extensions:1.1.1) with AarTransform
+> Transform rxandroid.aar (io.reactivex.rxjava2:rxandroid:2.1.0) with AarTransform
 > Transform rxbinding.aar (com.jakewharton.rxbinding2:rxbinding:2.1.1) with AarTransform
-> Transform koin-core-ext.jar (org.koin:koin-core-ext:1.0.2) with IdentityTransform
-> Transform replaying-share-kotlin.jar (com.jakewharton.rx2:replaying-share-kotlin:2.0.1) with IdentityTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20) with IdentityTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:3.0.2) with IdentityTransform
-> Transform replaying-share-kotlin.jar (com.jakewharton.rx2:replaying-share-kotlin:2.0.1) with IdentityTransform
-> Transform kotlin-stdlib-jdk7.jar (org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.20) with IdentityTransform
-> Transform jsr305.jar (com.google.code.findbugs:jsr305:3.0.2) with IdentityTransform
 > Transform koin-android.aar (org.koin:koin-android:1.0.2) with AarTransform
-> Transform glide.jar (com.github.bumptech.glide:glide:3.8.0) with IdentityTransform
-> Transform glide.jar (com.github.bumptech.glide:glide:3.8.0) with IdentityTransform
 > Transform koin-android-scope.aar (org.koin:koin-android-scope:1.0.2) with AarTransform
 > Transform relinker.aar (com.getkeepsafe.relinker:relinker:1.2.2) with AarTransform
 > Transform rxbinding-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1) with AarTransform
@@ -583,8 +582,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with AarTransform
 > Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.21) with IdentityTransform
 > Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.21) with IdentityTransform
-> Transform realm-annotations.jar (io.realm:realm-annotations:4.2.0) with IdentityTransform
 > Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with AarTransform
+> Transform realm-annotations.jar (io.realm:realm-annotations:4.2.0) with IdentityTransform
 > Transform realm-annotations.jar (io.realm:realm-annotations:4.2.0) with IdentityTransform
 > Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with AarTransform
 > Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with AarTransform
@@ -599,19 +598,19 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with AarTransform
 > Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with AarTransform
 > Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with AarTransform
-> Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarTransform
 > Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with AarTransform
+> Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarTransform
 > Task :app:transformClassesWithRealmTransformerForDebug
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
-> Transform rxjava2.aar (android.arch.persistence.room:rxjava2:1.1.1) with AarTransform
 > Transform localbroadcastmanager.aar (com.android.support:localbroadcastmanager:28.0.0) with AarTransform
-> Transform print.aar (com.android.support:print:28.0.0) with AarTransform
 > Transform documentfile.aar (com.android.support:documentfile:28.0.0) with AarTransform
-> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with AarTransform
 > Transform interpolator.aar (com.android.support:interpolator:28.0.0) with AarTransform
-> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with AarTransform
+> Transform rxjava2.aar (android.arch.persistence.room:rxjava2:1.1.1) with AarTransform
+> Transform print.aar (com.android.support:print:28.0.0) with AarTransform
 > Transform livedata-core.aar (android.arch.lifecycle:livedata-core:1.1.1) with AarTransform
+> Transform viewmodel.aar (android.arch.lifecycle:viewmodel:1.1.1) with AarTransform
+> Transform livedata.aar (android.arch.lifecycle:livedata:1.1.1) with AarTransform
 > Transform runtime.aar (android.arch.lifecycle:runtime:1.1.1) with AarTransform
 > Transform cursoradapter.aar (com.android.support:cursoradapter:28.0.0) with AarTransform
 > Transform versionedparcelable.aar (com.android.support:versionedparcelable:28.0.0) with AarTransform
@@ -649,19 +648,19 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with AarTransform
 > Transform common.jar (android.arch.persistence.room:common:1.1.1) with IdentityTransform
 > Transform okio.jar (com.squareup.okio:okio:1.14.0) with IdentityTransform
-> Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with AarTransform
 > Transform gson.jar (com.google.code.gson:gson:2.8.2) with IdentityTransform
 > Transform reactive-streams.jar (org.reactivestreams:reactive-streams:1.0.2) with IdentityTransform
 > Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
+> Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with AarTransform
 > Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.21) with IdentityTransform
 > Transform rollbar-android.jar (com.rollbar:rollbar-android:0.2.1) with IdentityTransform
 > Transform design.aar (com.android.support:design:28.0.0) with AarTransform
+> Transform koin-android-viewmodel.aar (org.koin:koin-android-viewmodel:1.0.2) with AarTransform
 > Transform okhttp.jar (com.squareup.okhttp3:okhttp:3.11.0) with IdentityTransform
 > Transform logging-interceptor.jar (com.squareup.okhttp3:logging-interceptor:3.11.0) with IdentityTransform
 > Transform retrofit.jar (com.squareup.retrofit2:retrofit:2.4.0) with IdentityTransform
 > Transform adapter-rxjava2.jar (com.squareup.retrofit2:adapter-rxjava2:2.4.0) with IdentityTransform
 > Transform converter-gson.jar (com.squareup.retrofit2:converter-gson:2.4.0) with IdentityTransform
-> Transform koin-android-viewmodel.aar (org.koin:koin-android-viewmodel:1.0.2) with AarTransform
 > Transform constraint-layout-solver.jar (com.android.support.constraint:constraint-layout-solver:1.1.3) with IdentityTransform
 > Transform support-annotations.jar (com.android.support:support-annotations:28.0.0) with IdentityTransform
 > Transform common.jar (android.arch.core:common:1.1.1) with IdentityTransform
@@ -721,13 +720,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Transform rxbinding-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-kotlin:2.1.1) with AarTransform
 > Transform GenericRecyclerViewAdapter.aar (com.github.Zeyad-37:GenericRecyclerViewAdapter:2.0.1) with AarTransform
 > Transform constraint-layout.aar (com.android.support.constraint:constraint-layout:1.1.3) with AarTransform
+> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with AarTransform
+> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.21) with IdentityTransform
+> Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with AarTransform
+> Transform realm-annotations.jar (io.realm:realm-annotations:4.2.0) with IdentityTransform
+> Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with AarTransform
 > Transform recyclerview-v7.aar (com.android.support:recyclerview-v7:28.0.0) with AarTransform
 > Transform rxbinding-recyclerview-v7.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7:2.1.1) with AarTransform
-> Transform kotlin-android-extensions-runtime.jar (org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.21) with IdentityTransform
-> Transform realm-annotations.jar (io.realm:realm-annotations:4.2.0) with IdentityTransform
-> Transform rxbinding-recyclerview-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-recyclerview-v7-kotlin:2.1.1) with AarTransform
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:28.0.0) with AarTransform
-> Transform rxbinding-appcompat-v7.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.1.1) with AarTransform
 > Transform rxbinding-appcompat-v7-kotlin.aar (com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.1.1) with AarTransform
 > Transform design.aar (com.android.support:design:28.0.0) with AarTransform
 > Transform koin-android-viewmodel.aar (org.koin:koin-android-viewmodel:1.0.2) with AarTransform
@@ -742,7 +741,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
@@ -773,14 +772,12 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :core:generateReleaseBuildConfig
 
 > Task :core:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PModelObserver.kt: (15, 61): Unchecked cast: Any? to E
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PModelObserver.kt: (17, 53): Unchecked cast: Any? to S
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (38, 42): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<R>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (39, 44): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<E>>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (87, 66): No cast needed
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (87, 105): Unchecked cast: Any? to S
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (96, 81): Unchecked cast: PModel<*> to PEffect<E>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (110, 89): No cast needed
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PModelObserver.kt: (15, 61): Unchecked cast: Any? to E
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/view/PModelObserver.kt: (17, 53): Unchecked cast: Any? to S
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (39, 42): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<R>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (40, 44): Unchecked cast: Flowable<Result<*>!> to Flowable<Result<E>>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (97, 85): Unchecked cast: PModel<*> to PEffect<E>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/core/src/main/java/com/zeyad/rxredux/core/viewmodel/IBaseViewModel.kt: (98, 81): Unchecked cast: PModel<*> to PEffect<E>
 
 > Task :core:generateReleaseSources
 > Task :core:javaPreCompileRelease
@@ -791,7 +788,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Task :app:kaptReleaseKotlin
 
 > Task :app:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/RepositoryViewHolder.kt: (9, 27): The corresponding parameter in the supertype 'GenericViewHolder' is named 'data'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/src/main/java/com/zeyad/rxredux/screens/detail/RepositoryViewHolder.kt: (9, 27): The corresponding parameter in the supertype 'GenericViewHolder' is named 'data'. This may cause problems when calling this function with named arguments.
 
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
@@ -800,8 +797,8 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Task :app:compileReleaseSources
 > Transform db.aar (android.arch.persistence:db:1.1.1) with AarTransform
 > Transform db-framework.aar (android.arch.persistence:db-framework:1.1.1) with AarTransform
-> Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with AarTransform
 > Transform Storo.aar (com.github.Zeyad-37:Storo:2.1.0) with AarTransform
+> Transform rxlint.aar (nl.littlerobots.rxlint:rxlint:1.6) with AarTransform
 > Transform firebase-jobdispatcher.aar (com.firebase:firebase-jobdispatcher:0.7.0) with AarTransform
 > Transform runtime.aar (android.arch.core:runtime:1.1.1) with AarTransform
 > Transform runtime.aar (android.arch.persistence.room:runtime:1.1.1) with AarTransform
@@ -852,7 +849,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Transform realm-android-library.aar (io.realm:realm-android-library:4.2.0) with AarTransform
 > Transform Usecases.aar (com.github.Zeyad-37:Usecases:2.0.1) with AarTransform
 > Task :app:mergeReleaseShaders
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/cda5e64629233a322bb7cac45cfc2642/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :core:mergeReleaseShaders
@@ -873,7 +873,7 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/
 > Task :app:transformNativeLibsWithMergeJniLibsForRelease
 
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/librealm-jni.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
 
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
@@ -882,7 +882,7 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 14h 18m 46s
+BUILD SUCCESSFUL in 1m 27s
 94 actionable tasks: 94 executed
 
-2019-04-06 14:05:58,304 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554482419486-0/src/RxRedux-master/app/build/outputs/apk/debug/app-debug.apk
+2019-04-23 12:30:31,968 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997326488-0/src/RxRedux-master/app/build/outputs/apk/debug/app-debug.apk
