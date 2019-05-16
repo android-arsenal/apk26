@@ -1,170 +1,188 @@
-2018-11-06 19:40:04,823 INFO  DownloadService - Downloading "https://github.com/shuhart/StepView/archive/master.zip", attempt 3
-2018-11-06 19:40:06,330 INFO  DownloadService - Downloaded https://github.com/shuhart/StepView/archive/master.zip, attempt 3
-2018-11-06 19:40:06,331 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/master.zip": 708 KB
-2018-11-06 19:40:06,331 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-06 19:40:06,332 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/master.zip: true
-2018-11-06 19:40:06,333 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src'.
-2018-11-06 19:40:06,366 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-06 19:40:06,366 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src]
-2018-11-06 19:40:06,384 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/.git/
+2019-05-16 18:51:53,020 INFO  DownloadService - Downloading "https://github.com/shuhart/StepView/archive/master.zip", attempt 3
+2019-05-16 18:51:53,926 INFO  DownloadService - Downloaded https://github.com/shuhart/StepView/archive/master.zip, attempt 3
+2019-05-16 18:51:53,927 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/master.zip": 711 KB
+2019-05-16 18:51:53,927 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-16 18:51:53,932 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/master.zip: true
+2019-05-16 18:51:53,933 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src'.
+2019-05-16 18:51:53,967 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-05-16 18:51:53,967 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src]
+2019-05-16 18:51:53,996 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/.git/
 
-2018-11-06 19:40:06,388 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/gradlew
-2018-11-06 19:40:06,392 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/stepview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/build.gradle
-2018-11-06 19:40:06,396 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/stepview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/settings.gradle
-2018-11-06 19:40:06,396 INFO  ProjectBuildService - Remote scripts: none
-2018-11-06 19:40:06,396 INFO  ProjectFixService - Fixing project...
-2018-11-06 19:40:06,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/local.properties
-2018-11-06 19:40:06,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-11-06 19:40:06,408 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-11-06 19:40:06,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/stepview/local.properties
-2018-11-06 19:40:06,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/stepview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-06 19:40:06,410 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/stepview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-06 19:40:06,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/local.properties
-2018-11-06 19:40:06,412 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-11-06 19:40:06,412 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-11-06 19:40:06,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-11-06 19:40:06,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-11-06 19:40:06,415 INFO  ProjectFixService - Project was maybe fixed
-2018-11-06 19:40:06,415 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:40:06,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:40:13,728 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-11-06 19:40:13,729 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-06 19:40:13,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-06 19:40:50,206 INFO  SysUtils - Configuration on demand is an incubating feature.
-:sample:preBuild UP-TO-DATE
-:stepview:preBuild UP-TO-DATE
-:stepview:preDebugBuild UP-TO-DATE
-:stepview:checkDebugManifest
-:stepview:processDebugManifest
-:sample:preDebugBuild
-Download https://jcenter.bintray.com/com/github/skydoves/colorpickerview/2.0.0/colorpickerview-2.0.0.aar
-:stepview:compileDebugAidl
-:sample:compileDebugAidl
-:stepview:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:prepareLintJar
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:stepview:compileDebugRenderscript
-:stepview:generateDebugResValues
-:stepview:generateDebugResources
-:stepview:packageDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:stepview:platformAttrExtractor
-:stepview:generateDebugBuildConfig
-:stepview:prepareLintJar
-:stepview:javaPreCompileDebug
-:stepview:processDebugJavaRes NO-SOURCE
-:sample:compileDebugNdk NO-SOURCE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:stepview:mergeDebugShaders
-:stepview:compileDebugShaders
-:stepview:generateDebugAssets
-:stepview:packageDebugAssets
-:sample:mergeDebugAssets
-:sample:mergeDebugJniLibFolders
-:stepview:compileDebugNdk NO-SOURCE
-:stepview:mergeDebugJniLibFolders
-:stepview:transformNativeLibsWithMergeJniLibsForDebug
-:stepview:transformNativeLibsWithStripDebugSymbolForDebug
-:stepview:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:processDebugJavaRes NO-SOURCE
-:sample:validateSigningDebug
-:stepview:preReleaseBuild UP-TO-DATE
-:stepview:checkReleaseManifest
-:stepview:processReleaseManifest
-:sample:preReleaseBuild
-:stepview:compileReleaseAidl
-:sample:compileReleaseAidl
-:stepview:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:stepview:generateDebugRFile
-:sample:processDebugResources
-:sample:generateDebugSources
-:stepview:generateDebugSources
-:stepview:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/stepview/src/main/java/com/shuhart/stepview/StepView.java uses or overrides a deprecated API.
+2019-05-16 18:51:53,999 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/gradlew
+2019-05-16 18:51:54,003 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/stepview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/build.gradle
+2019-05-16 18:51:54,007 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/stepview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/settings.gradle
+2019-05-16 18:51:54,007 INFO  ProjectBuildService - Remote scripts: none
+2019-05-16 18:51:54,007 INFO  ProjectFixService - Fixing project...
+2019-05-16 18:51:54,016 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/local.properties
+2019-05-16 18:51:54,017 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-05-16 18:51:54,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-05-16 18:51:54,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/stepview/local.properties
+2019-05-16 18:51:54,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/stepview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-05-16 18:51:54,019 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/stepview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-05-16 18:51:54,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/local.properties
+2019-05-16 18:51:54,020 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-16 18:51:54,021 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-16 18:51:54,022 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-05-16 18:51:54,022 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-05-16 18:51:54,022 INFO  ProjectFixService - Project was maybe fixed
+2019-05-16 18:51:54,022 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 18:51:54,022 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 18:52:00,969 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-16 18:52:00,969 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-16 18:52:00,969 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-16 18:52:42,987 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:preBuild UP-TO-DATE
+> Task :stepview:preBuild UP-TO-DATE
+> Task :stepview:preDebugBuild UP-TO-DATE
+> Task :stepview:checkDebugManifest
+> Task :stepview:processDebugManifest
+> Task :sample:preDebugBuild
+> Task :stepview:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :stepview:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :stepview:compileDebugRenderscript NO-SOURCE
+> Task :stepview:generateDebugBuildConfig
+> Task :stepview:generateDebugResValues
+> Task :stepview:generateDebugResources
+> Task :stepview:packageDebugResources
+> Task :stepview:generateDebugRFile
+> Task :stepview:prepareLintJar
+> Task :stepview:generateDebugSources
+> Task :stepview:javaPreCompileDebug
+
+> Task :stepview:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/stepview/src/main/java/com/shuhart/stepview/StepView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:stepview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/src/main/java/com/shuhart/stepview/sample/examples/customise/CustomiseActivity.java uses or overrides a deprecated API.
+> Task :stepview:bundleLibCompileDebug
+> Task :sample:javaPreCompileDebug
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+
+> Task :sample:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/src/main/java/com/shuhart/stepview/sample/examples/customise/CustomiseActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:sample:compileDebugSources
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:packageDebug
-:sample:assembleDebug
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:stepview:compileReleaseRenderscript
-:stepview:generateReleaseResValues
-:stepview:generateReleaseResources
-:stepview:packageReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:stepview:generateReleaseRFile
-:sample:processReleaseResources
-:sample:generateReleaseSources
-:stepview:generateReleaseBuildConfig
-:stepview:generateReleaseSources
-:stepview:javaPreCompileRelease
-:stepview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/stepview/src/main/java/com/shuhart/stepview/StepView.java uses or overrides a deprecated API.
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :stepview:mergeDebugShaders
+> Task :stepview:compileDebugShaders
+> Task :stepview:generateDebugAssets
+> Task :stepview:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :stepview:processDebugJavaRes NO-SOURCE
+> Task :stepview:bundleLibResDebug
+> Task :stepview:bundleLibRuntimeDebug
+> Task :stepview:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeExtDexDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :stepview:mergeDebugJniLibFolders
+> Task :stepview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :stepview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :stepview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :stepview:preReleaseBuild UP-TO-DATE
+> Task :stepview:checkReleaseManifest
+> Task :stepview:processReleaseManifest
+> Task :sample:preReleaseBuild
+> Task :stepview:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :stepview:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseSources
+> Task :stepview:compileReleaseRenderscript NO-SOURCE
+> Task :stepview:generateReleaseBuildConfig
+> Task :stepview:generateReleaseResValues
+> Task :stepview:generateReleaseResources
+> Task :stepview:packageReleaseResources
+> Task :stepview:generateReleaseRFile
+> Task :stepview:generateReleaseSources
+> Task :stepview:javaPreCompileRelease
+
+> Task :stepview:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/stepview/src/main/java/com/shuhart/stepview/StepView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:stepview:processReleaseJavaRes NO-SOURCE
-:stepview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/src/main/java/com/shuhart/stepview/sample/examples/customise/CustomiseActivity.java uses or overrides a deprecated API.
+> Task :stepview:bundleLibCompileRelease
+> Task :sample:javaPreCompileRelease
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+
+> Task :sample:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/src/main/java/com/shuhart/stepview/sample/examples/customise/CustomiseActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:stepview:mergeReleaseShaders
-:stepview:compileReleaseShaders
-:stepview:generateReleaseAssets
-:stepview:packageReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:sample:mergeReleaseJniLibFolders
-:stepview:compileReleaseNdk NO-SOURCE
-:stepview:mergeReleaseJniLibFolders
-:stepview:transformNativeLibsWithMergeJniLibsForRelease
-:stepview:transformNativeLibsWithStripDebugSymbolForRelease
-:stepview:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+> Task :sample:compileReleaseSources
+> Task :stepview:prepareLintJarForPublish
 
-BUILD SUCCESSFUL in 35s
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/2872c84ffe0079c10200b59a3a68d359/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :stepview:processReleaseJavaRes NO-SOURCE
+> Task :stepview:bundleLibResRelease
+> Task :stepview:bundleLibRuntimeRelease
+> Task :stepview:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:mergeExtDexRelease
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:mergeDexRelease
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :stepview:mergeReleaseShaders
+> Task :stepview:compileReleaseShaders
+> Task :stepview:generateReleaseAssets
+> Task :stepview:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :stepview:mergeReleaseJniLibFolders
+> Task :stepview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :stepview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :stepview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 41s
 91 actionable tasks: 91 executed
 
-2018-11-06 19:40:50,295 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508004819-0/src/StepView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-05-16 18:52:43,065 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007513017-0/src/StepView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

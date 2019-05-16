@@ -1,222 +1,222 @@
-2019-03-10 21:26:23,916 INFO  DownloadService - Downloading "https://github.com/kizitonwose/Time/archive/master.zip", attempt 3
-2019-03-10 21:26:24,395 INFO  DownloadService - Downloaded https://github.com/kizitonwose/Time/archive/master.zip, attempt 3
-2019-03-10 21:26:24,395 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/master.zip": 66 KB
-2019-03-10 21:26:24,395 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-10 21:26:24,395 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/master.zip: true
-2019-03-10 21:26:24,395 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src'.
-2019-03-10 21:26:24,406 INFO  FullProcessService - Size of directory with sources: 81 KB
-2019-03-10 21:26:24,406 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src]
-2019-03-10 21:26:24,428 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/.git/
+2019-05-16 19:04:27,010 INFO  DownloadService - Downloading "https://github.com/kizitonwose/Time/archive/master.zip", attempt 3
+2019-05-16 19:04:29,086 INFO  DownloadService - Downloaded https://github.com/kizitonwose/Time/archive/master.zip, attempt 3
+2019-05-16 19:04:29,086 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/master.zip": 66 KB
+2019-05-16 19:04:29,086 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-16 19:04:29,091 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/master.zip: true
+2019-05-16 19:04:29,092 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src'.
+2019-05-16 19:04:29,102 INFO  FullProcessService - Size of directory with sources: 81 KB
+2019-05-16 19:04:29,102 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src]
+2019-05-16 19:04:29,130 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/.git/
 
-2019-03-10 21:26:24,431 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/gradlew
-2019-03-10 21:26:24,433 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time/build.gradle
-2019-03-10 21:26:24,435 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/settings.gradle
-2019-03-10 21:26:24,435 INFO  ProjectBuildService - Remote scripts: none
-2019-03-10 21:26:24,435 INFO  ProjectFixService - Fixing project...
-2019-03-10 21:26:24,440 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time-android/local.properties
-2019-03-10 21:26:24,440 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-10 21:26:24,441 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/local.properties
-2019-03-10 21:26:24,441 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-10 21:26:24,441 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-10 21:26:24,442 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-10 21:26:24,442 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time/local.properties
-2019-03-10 21:26:24,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-10 21:26:24,443 INFO  ProjectFixService - Project was maybe fixed
-2019-03-10 21:26:24,443 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 21:26:24,443 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 21:26:34,619 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-10 21:26:34,619 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-10 21:26:34,619 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-10 21:26:54,879 INFO  SysUtils - Configuration on demand is an incubating feature.
-:time-android:preBuild UP-TO-DATE
-:time-android:preDebugBuild UP-TO-DATE
-:time-android:compileDebugAidl NO-SOURCE
-:time:compileKotlin
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre8/1.2.71/kotlin-stdlib-jre8-1.2.71.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.71/kotlin-stdlib-jre7-1.2.71.jar
-w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
-w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.71/ef662c1fea4d5060a45d6beb0f063be7fc14d92/kotlin-stdlib-jre8-1.2.71.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
-:time:compileJava NO-SOURCE
-:time:processResources NO-SOURCE
-:time:classes UP-TO-DATE
-:time:inspectClassesForKotlinIC
-:time:jar
-:time-android:compileDebugRenderscript
-:time-android:checkDebugManifest
-:time-android:generateDebugBuildConfig
-:time-android:generateDebugResValues
-:time-android:generateDebugResources
-:time-android:packageDebugResources
-:time-android:processDebugManifest
-:time-android:generateDebugRFile
-:time-android:compileDebugKotlin
-:time-android:prepareLintJar
-:time-android:generateDebugSources
-:time-android:javaPreCompileDebug
-:time-android:compileDebugJavaWithJavac
-:time-android:extractDebugAnnotations
-:time-android:mergeDebugConsumerProguardFiles
-:time-android:mergeDebugShaders
-:time-android:compileDebugShaders
-:time-android:generateDebugAssets
-:time-android:packageDebugAssets
-:time-android:packageDebugRenderscript NO-SOURCE
-:time-android:processDebugJavaRes NO-SOURCE
-:time-android:transformResourcesWithMergeJavaResForDebug
-:time-android:transformClassesAndResourcesWithSyncLibJarsForDebug
-:time-android:compileDebugNdk NO-SOURCE
-:time-android:mergeDebugJniLibFolders
-:time-android:transformNativeLibsWithMergeJniLibsForDebug
-:time-android:transformNativeLibsWithStripDebugSymbolForDebug
-:time-android:transformNativeLibsWithSyncJniLibsForDebug
-:time-android:bundleDebugAar
-:time-android:compileDebugSources
-:time-android:assembleDebug
-:time-android:preReleaseBuild UP-TO-DATE
-:time-android:compileReleaseAidl NO-SOURCE
-:time-android:compileReleaseRenderscript
-:time-android:checkReleaseManifest
-:time-android:generateReleaseBuildConfig
-:time-android:generateReleaseResValues
-:time-android:generateReleaseResources
-:time-android:packageReleaseResources
-:time-android:processReleaseManifest
-:time-android:generateReleaseRFile
-:time-android:compileReleaseKotlin
-:time-android:generateReleaseSources
-:time-android:javaPreCompileRelease
-:time-android:compileReleaseJavaWithJavac
-:time-android:extractReleaseAnnotations
-:time-android:mergeReleaseConsumerProguardFiles
-:time-android:mergeReleaseShaders
-:time-android:compileReleaseShaders
-:time-android:generateReleaseAssets
-:time-android:packageReleaseAssets
-:time-android:packageReleaseRenderscript NO-SOURCE
-:time-android:processReleaseJavaRes NO-SOURCE
-:time-android:transformResourcesWithMergeJavaResForRelease
-:time-android:transformClassesAndResourcesWithSyncLibJarsForRelease
-:time-android:compileReleaseNdk NO-SOURCE
-:time-android:mergeReleaseJniLibFolders
-:time-android:transformNativeLibsWithMergeJniLibsForRelease
-:time-android:transformNativeLibsWithStripDebugSymbolForRelease
-:time-android:transformNativeLibsWithSyncJniLibsForRelease
-:time-android:bundleReleaseAar
-:time-android:compileReleaseSources
-:time-android:mergeReleaseResources
-:time-android:verifyReleaseResources
-:time-android:assembleRelease
-:time-android:assemble
-:time-android:build
+2019-05-16 19:04:29,132 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/gradlew
+2019-05-16 19:04:29,135 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time/build.gradle
+2019-05-16 19:04:29,137 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/settings.gradle
+2019-05-16 19:04:29,137 INFO  ProjectBuildService - Remote scripts: none
+2019-05-16 19:04:29,137 INFO  ProjectFixService - Fixing project...
+2019-05-16 19:04:29,143 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time-android/local.properties
+2019-05-16 19:04:29,143 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-16 19:04:29,144 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/local.properties
+2019-05-16 19:04:29,144 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-05-16 19:04:29,144 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-05-16 19:04:29,145 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-16 19:04:29,145 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time/local.properties
+2019-05-16 19:04:29,146 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-16 19:04:29,146 INFO  ProjectFixService - Project was maybe fixed
+2019-05-16 19:04:29,146 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 19:04:29,146 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 19:04:39,285 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-05-16 19:04:39,285 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-16 19:04:39,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-16 19:04:56,378 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :time-android:preBuild UP-TO-DATE
+> Task :time-android:preDebugBuild UP-TO-DATE
+> Task :time-android:compileDebugAidl NO-SOURCE
+> Task :time:compileKotlin
+> Task :time:compileJava NO-SOURCE
+> Task :time:processResources NO-SOURCE
+> Task :time:classes UP-TO-DATE
+> Task :time:inspectClassesForKotlinIC
+> Task :time:jar
+> Transform time.jar (project :time) with IdentityTransform
+> Task :time-android:compileDebugRenderscript
+> Transform time.jar (project :time) with IdentityTransform
+> Task :time-android:checkDebugManifest
+> Task :time-android:generateDebugBuildConfig
+> Task :time-android:generateDebugResValues
+> Task :time-android:generateDebugResources
+> Task :time-android:packageDebugResources
+> Task :time-android:processDebugManifest
+> Task :time-android:generateDebugRFile
+> Task :time-android:compileDebugKotlin
+> Task :time-android:prepareLintJar
+> Task :time-android:generateDebugSources
+> Task :time-android:javaPreCompileDebug
+> Task :time-android:compileDebugJavaWithJavac
+> Task :time-android:extractDebugAnnotations
+> Task :time-android:mergeDebugConsumerProguardFiles
+> Task :time-android:mergeDebugShaders
+> Task :time-android:compileDebugShaders
+> Task :time-android:generateDebugAssets
+> Task :time-android:packageDebugAssets
+> Task :time-android:packageDebugRenderscript NO-SOURCE
+> Task :time-android:processDebugJavaRes NO-SOURCE
+> Task :time-android:transformResourcesWithMergeJavaResForDebug
+> Task :time-android:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :time-android:compileDebugNdk NO-SOURCE
+> Task :time-android:mergeDebugJniLibFolders
+> Task :time-android:transformNativeLibsWithMergeJniLibsForDebug
+> Task :time-android:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :time-android:transformNativeLibsWithSyncJniLibsForDebug
+> Task :time-android:bundleDebugAar
+> Task :time-android:compileDebugSources
+> Task :time-android:assembleDebug
+> Task :time-android:preReleaseBuild UP-TO-DATE
+> Task :time-android:compileReleaseAidl NO-SOURCE
+> Task :time-android:compileReleaseRenderscript
+> Task :time-android:checkReleaseManifest
+> Task :time-android:generateReleaseBuildConfig
+> Task :time-android:generateReleaseResValues
+> Task :time-android:generateReleaseResources
+> Task :time-android:packageReleaseResources
+> Task :time-android:processReleaseManifest
+> Task :time-android:generateReleaseRFile
+> Task :time-android:compileReleaseKotlin
+> Task :time-android:generateReleaseSources
+> Task :time-android:javaPreCompileRelease
+> Task :time-android:compileReleaseJavaWithJavac
+> Task :time-android:extractReleaseAnnotations
+> Task :time-android:mergeReleaseConsumerProguardFiles
+> Task :time-android:mergeReleaseShaders
+> Task :time-android:compileReleaseShaders
+> Task :time-android:generateReleaseAssets
+> Task :time-android:packageReleaseAssets
+> Task :time-android:packageReleaseRenderscript NO-SOURCE
+> Task :time-android:processReleaseJavaRes NO-SOURCE
+> Task :time-android:transformResourcesWithMergeJavaResForRelease
+> Task :time-android:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :time-android:compileReleaseNdk NO-SOURCE
+> Task :time-android:mergeReleaseJniLibFolders
+> Task :time-android:transformNativeLibsWithMergeJniLibsForRelease
+> Task :time-android:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :time-android:transformNativeLibsWithSyncJniLibsForRelease
+> Task :time-android:bundleReleaseAar
+> Task :time-android:compileReleaseSources
+> Task :time-android:mergeReleaseResources
+> Task :time-android:verifyReleaseResources
+> Task :time-android:assembleRelease
+> Task :time-android:assemble
+> Task :time-android:build
 
-BUILD SUCCESSFUL in 19s
+BUILD SUCCESSFUL in 16s
 50 actionable tasks: 50 executed
 
-2019-03-10 21:26:54,900 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 21:26:54,900 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 21:27:01,610 INFO  ProjectTaskService - Detected possible tasks: 73
-2019-03-10 21:27:01,610 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-10 21:27:01,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-10 21:27:10,785 INFO  SysUtils - Configuration on demand is an incubating feature.
-:time:compileKotlin UP-TO-DATE
-:time:compileJava NO-SOURCE
-:time:processResources NO-SOURCE
-:time:classes UP-TO-DATE
-:time:inspectClassesForKotlinIC UP-TO-DATE
-:time:jar UP-TO-DATE
-:time:assemble UP-TO-DATE
-:time:build
-:time-android:preBuild UP-TO-DATE
-:time-android:preDebugBuild UP-TO-DATE
-:time-android:compileDebugAidl NO-SOURCE
-:time-android:compileDebugRenderscript UP-TO-DATE
-:time-android:checkDebugManifest UP-TO-DATE
-:time-android:generateDebugBuildConfig UP-TO-DATE
-:time-android:generateDebugResValues UP-TO-DATE
-:time-android:generateDebugResources UP-TO-DATE
-:time-android:packageDebugResources UP-TO-DATE
-:time-android:processDebugManifest UP-TO-DATE
-:time-android:generateDebugRFile UP-TO-DATE
-:time-android:compileDebugKotlin UP-TO-DATE
-:time-android:prepareLintJar UP-TO-DATE
-:time-android:generateDebugSources UP-TO-DATE
-:time-android:javaPreCompileDebug UP-TO-DATE
-:time-android:compileDebugJavaWithJavac UP-TO-DATE
-:time-android:extractDebugAnnotations UP-TO-DATE
-:time-android:mergeDebugConsumerProguardFiles UP-TO-DATE
-:time-android:mergeDebugShaders UP-TO-DATE
-:time-android:compileDebugShaders UP-TO-DATE
-:time-android:generateDebugAssets UP-TO-DATE
-:time-android:packageDebugAssets UP-TO-DATE
-:time-android:packageDebugRenderscript NO-SOURCE
-:time-android:processDebugJavaRes NO-SOURCE
-:time-android:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
-:time-android:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-:time-android:compileDebugNdk NO-SOURCE
-:time-android:mergeDebugJniLibFolders UP-TO-DATE
-:time-android:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:time-android:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:time-android:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-:time-android:bundleDebugAar UP-TO-DATE
-:time-android:compileDebugSources UP-TO-DATE
-:time-android:assembleDebug UP-TO-DATE
-:time-android:preReleaseBuild UP-TO-DATE
-:time-android:compileReleaseAidl NO-SOURCE
-:time-android:compileReleaseRenderscript UP-TO-DATE
-:time-android:checkReleaseManifest UP-TO-DATE
-:time-android:generateReleaseBuildConfig UP-TO-DATE
-:time-android:generateReleaseResValues UP-TO-DATE
-:time-android:generateReleaseResources UP-TO-DATE
-:time-android:packageReleaseResources UP-TO-DATE
-:time-android:processReleaseManifest UP-TO-DATE
-:time-android:generateReleaseRFile UP-TO-DATE
-:time-android:compileReleaseKotlin UP-TO-DATE
-:time-android:generateReleaseSources UP-TO-DATE
-:time-android:javaPreCompileRelease UP-TO-DATE
-:time-android:compileReleaseJavaWithJavac UP-TO-DATE
-:time-android:extractReleaseAnnotations UP-TO-DATE
-:time-android:mergeReleaseConsumerProguardFiles UP-TO-DATE
-:time-android:mergeReleaseShaders UP-TO-DATE
-:time-android:compileReleaseShaders UP-TO-DATE
-:time-android:generateReleaseAssets UP-TO-DATE
-:time-android:packageReleaseAssets UP-TO-DATE
-:time-android:packageReleaseRenderscript NO-SOURCE
-:time-android:processReleaseJavaRes NO-SOURCE
-:time-android:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-:time-android:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-:time-android:compileReleaseNdk NO-SOURCE
-:time-android:mergeReleaseJniLibFolders UP-TO-DATE
-:time-android:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:time-android:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:time-android:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-:time-android:bundleReleaseAar UP-TO-DATE
-:time-android:compileReleaseSources UP-TO-DATE
-:time-android:mergeReleaseResources UP-TO-DATE
-:time-android:verifyReleaseResources
-:time-android:assembleRelease
-:time-android:assemble
-:time-android:build
+2019-05-16 19:04:56,400 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 19:04:56,400 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 19:05:03,029 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-05-16 19:05:03,030 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-16 19:05:03,030 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-16 19:05:10,883 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :time:compileKotlin UP-TO-DATE
+> Task :time:compileJava NO-SOURCE
+> Task :time:processResources NO-SOURCE
+> Task :time:classes UP-TO-DATE
+> Task :time:inspectClassesForKotlinIC UP-TO-DATE
+> Task :time:jar UP-TO-DATE
+> Task :time:assemble UP-TO-DATE
+> Task :time:build
+> Task :time-android:preBuild UP-TO-DATE
+> Task :time-android:preDebugBuild UP-TO-DATE
+> Task :time-android:compileDebugAidl NO-SOURCE
+> Transform time.jar (project :time) with IdentityTransform
+> Task :time-android:compileDebugRenderscript UP-TO-DATE
+> Transform time.jar (project :time) with IdentityTransform
+> Task :time-android:checkDebugManifest UP-TO-DATE
+> Task :time-android:generateDebugBuildConfig UP-TO-DATE
+> Task :time-android:generateDebugResValues UP-TO-DATE
+> Task :time-android:generateDebugResources UP-TO-DATE
+> Task :time-android:packageDebugResources UP-TO-DATE
+> Task :time-android:processDebugManifest UP-TO-DATE
+> Task :time-android:generateDebugRFile UP-TO-DATE
+> Task :time-android:compileDebugKotlin UP-TO-DATE
+> Task :time-android:prepareLintJar UP-TO-DATE
+> Task :time-android:generateDebugSources UP-TO-DATE
+> Task :time-android:javaPreCompileDebug UP-TO-DATE
+> Task :time-android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :time-android:extractDebugAnnotations UP-TO-DATE
+> Task :time-android:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :time-android:mergeDebugShaders UP-TO-DATE
+> Task :time-android:compileDebugShaders UP-TO-DATE
+> Task :time-android:generateDebugAssets UP-TO-DATE
+> Task :time-android:packageDebugAssets UP-TO-DATE
+> Task :time-android:packageDebugRenderscript NO-SOURCE
+> Task :time-android:processDebugJavaRes NO-SOURCE
+> Task :time-android:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :time-android:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :time-android:compileDebugNdk NO-SOURCE
+> Task :time-android:mergeDebugJniLibFolders UP-TO-DATE
+> Task :time-android:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :time-android:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :time-android:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :time-android:bundleDebugAar UP-TO-DATE
+> Task :time-android:compileDebugSources UP-TO-DATE
+> Task :time-android:assembleDebug UP-TO-DATE
+> Task :time-android:preReleaseBuild UP-TO-DATE
+> Task :time-android:compileReleaseAidl NO-SOURCE
+> Task :time-android:compileReleaseRenderscript UP-TO-DATE
+> Task :time-android:checkReleaseManifest UP-TO-DATE
+> Task :time-android:generateReleaseBuildConfig UP-TO-DATE
+> Task :time-android:generateReleaseResValues UP-TO-DATE
+> Task :time-android:generateReleaseResources UP-TO-DATE
+> Task :time-android:packageReleaseResources UP-TO-DATE
+> Task :time-android:processReleaseManifest UP-TO-DATE
+> Task :time-android:generateReleaseRFile UP-TO-DATE
+> Task :time-android:compileReleaseKotlin UP-TO-DATE
+> Task :time-android:generateReleaseSources UP-TO-DATE
+> Task :time-android:javaPreCompileRelease UP-TO-DATE
+> Task :time-android:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :time-android:extractReleaseAnnotations UP-TO-DATE
+> Task :time-android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :time-android:mergeReleaseShaders UP-TO-DATE
+> Task :time-android:compileReleaseShaders UP-TO-DATE
+> Task :time-android:generateReleaseAssets UP-TO-DATE
+> Task :time-android:packageReleaseAssets UP-TO-DATE
+> Task :time-android:packageReleaseRenderscript NO-SOURCE
+> Task :time-android:processReleaseJavaRes NO-SOURCE
+> Task :time-android:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :time-android:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :time-android:compileReleaseNdk NO-SOURCE
+> Task :time-android:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :time-android:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :time-android:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :time-android:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :time-android:bundleReleaseAar UP-TO-DATE
+> Task :time-android:compileReleaseSources UP-TO-DATE
+> Task :time-android:mergeReleaseResources UP-TO-DATE
+> Task :time-android:verifyReleaseResources
+> Task :time-android:assembleRelease
+> Task :time-android:assemble
+> Task :time-android:build
 
-BUILD SUCCESSFUL in 8s
+BUILD SUCCESSFUL in 7s
 50 actionable tasks: 1 executed, 49 up-to-date
 
-2019-03-10 21:27:10,805 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 21:27:10,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 21:27:14,724 INFO  ProjectTaskService - Detected possible tasks: 41
-2019-03-10 21:27:14,724 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-10 21:27:14,724 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552227983912-0/src/Time-master/time/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-10 21:27:18,849 INFO  SysUtils - Configuration on demand is an incubating feature.
-:time:compileKotlin UP-TO-DATE
-:time:compileJava NO-SOURCE
-:time:processResources NO-SOURCE
-:time:classes UP-TO-DATE
-:time:inspectClassesForKotlinIC UP-TO-DATE
-:time:jar UP-TO-DATE
-:time:assemble UP-TO-DATE
-:time:build
+2019-05-16 19:05:10,904 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-16 19:05:10,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-16 19:05:14,667 INFO  ProjectTaskService - Detected possible tasks: 41
+2019-05-16 19:05:14,667 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-05-16 19:05:14,667 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008267006-0/src/Time-master/time/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-05-16 19:05:19,229 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :time:compileKotlin UP-TO-DATE
+> Task :time:compileJava NO-SOURCE
+> Task :time:processResources NO-SOURCE
+> Task :time:classes UP-TO-DATE
+> Task :time:inspectClassesForKotlinIC UP-TO-DATE
+> Task :time:jar UP-TO-DATE
+> Task :time:assemble UP-TO-DATE
+> Task :time:build
 
-BUILD SUCCESSFUL in 3s
+BUILD SUCCESSFUL in 4s
 3 actionable tasks: 3 up-to-date
 
-2019-03-10 21:27:18,869 ERROR FullProcessService - Project build has not produced APK file
-2019-03-10 21:27:18,885 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-16 19:05:19,251 ERROR FullProcessService - Project build has not produced APK file
+2019-05-16 19:05:19,271 ERROR FullProcessService - Could not find generated or existed APK file
