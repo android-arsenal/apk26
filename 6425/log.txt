@@ -1,141 +1,259 @@
-2018-10-08 16:51:07,730 INFO  DownloadService - Downloading "https://github.com/qhutch/BottomSheetLayout/archive/master.zip", attempt 3
-2018-10-08 16:51:11,725 INFO  DownloadService - Downloaded https://github.com/qhutch/BottomSheetLayout/archive/master.zip, attempt 3
-2018-10-08 16:51:11,725 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/master.zip": 1 MB
-2018-10-08 16:51:11,725 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-08 16:51:11,731 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/master.zip: true
-2018-10-08 16:51:11,732 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src'.
-2018-10-08 16:51:11,770 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-08 16:51:11,770 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src]
-2018-10-08 16:51:11,788 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/.git/
+2019-05-20 12:59:12,527 INFO  DownloadService - Downloading "https://github.com/qhutch/BottomSheetLayout/archive/master.zip", attempt 3
+2019-05-20 12:59:16,056 INFO  DownloadService - Downloaded https://github.com/qhutch/BottomSheetLayout/archive/master.zip, attempt 3
+2019-05-20 12:59:16,057 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/master.zip": 1 MB
+2019-05-20 12:59:16,057 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-20 12:59:16,058 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/master.zip: true
+2019-05-20 12:59:16,058 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src'.
+2019-05-20 12:59:16,092 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-05-20 12:59:16,092 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src]
+2019-05-20 12:59:16,115 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/.git/
 
-2018-10-08 16:51:11,791 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradlew
-2018-10-08 16:51:11,794 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/build.gradle
-2018-10-08 16:51:11,796 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/settings.gradle
-2018-10-08 16:51:11,797 INFO  ProjectBuildService - Remote scripts: none
-2018-10-08 16:51:11,797 INFO  ProjectFixService - Fixing project...
-2018-10-08 16:51:11,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/bottomsheetlayout/local.properties
-2018-10-08 16:51:11,810 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-10-08 16:51:11,811 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-10-08 16:51:11,812 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/sample/local.properties
-2018-10-08 16:51:11,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2018-10-08 16:51:11,814 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=16,targetSdkVersion=26]
-2018-10-08 16:51:11,815 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/local.properties
-2018-10-08 16:51:11,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-10-08 16:51:11,817 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2018-10-08 16:51:11,818 INFO  ProjectFixService - Project was maybe fixed
-2018-10-08 16:51:11,818 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 16:51:11,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 16:51:11,983 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 16:51:11,983 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-08 16:51:11,983 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-08 16:51:11,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 16:51:12,158 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 16:51:12,158 INFO  SysUtils - Exception in thread "main" java.lang.RuntimeException: Wrapper properties file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradle/wrapper/gradle-wrapper.properties' does not exist.
-	at org.gradle.wrapper.WrapperExecutor.forWrapperPropertiesFile(WrapperExecutor.java:45)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:60)
+2019-05-20 12:59:16,118 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/gradlew
+2019-05-20 12:59:16,121 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/build.gradle
+2019-05-20 12:59:16,123 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/settings.gradle
+2019-05-20 12:59:16,124 INFO  ProjectBuildService - Remote scripts: none
+2019-05-20 12:59:16,124 INFO  ProjectFixService - Fixing project...
+2019-05-20 12:59:16,130 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/bottomsheetlayout/local.properties
+2019-05-20 12:59:16,132 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-20 12:59:16,132 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-20 12:59:16,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/sample/local.properties
+2019-05-20 12:59:16,134 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-20 12:59:16,134 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-20 12:59:16,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/local.properties
+2019-05-20 12:59:16,135 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-20 12:59:16,136 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-20 12:59:16,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-20 12:59:16,138 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-05-20 12:59:16,138 INFO  ProjectFixService - Project was maybe fixed
+2019-05-20 12:59:16,138 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-20 12:59:16,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-20 12:59:23,418 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-20 12:59:23,418 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-05-20 12:59:23,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/bottomsheetlayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-05-20 12:59:41,661 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :bottomsheetlayout:preBuild UP-TO-DATE
+> Task :bottomsheetlayout:preDebugBuild UP-TO-DATE
+> Task :bottomsheetlayout:checkDebugManifest
+> Task :bottomsheetlayout:generateDebugBuildConfig
+> Task :bottomsheetlayout:compileDebugAidl NO-SOURCE
+> Task :bottomsheetlayout:compileDebugRenderscript NO-SOURCE
+> Task :bottomsheetlayout:generateDebugResValues
+> Task :bottomsheetlayout:generateDebugResources
+> Task :bottomsheetlayout:packageDebugResources
+> Task :bottomsheetlayout:processDebugManifest
+> Task :bottomsheetlayout:generateDebugRFile
+> Task :bottomsheetlayout:compileDebugKotlin
+> Task :bottomsheetlayout:prepareLintJar
+> Task :bottomsheetlayout:generateDebugSources
+> Task :bottomsheetlayout:javaPreCompileDebug
+> Task :bottomsheetlayout:compileDebugJavaWithJavac
+> Task :bottomsheetlayout:extractDebugAnnotations
+> Task :bottomsheetlayout:mergeDebugConsumerProguardFiles
+> Task :bottomsheetlayout:mergeDebugShaders
+> Task :bottomsheetlayout:compileDebugShaders
+> Task :bottomsheetlayout:generateDebugAssets
+> Task :bottomsheetlayout:packageDebugAssets
+> Task :bottomsheetlayout:packageDebugRenderscript NO-SOURCE
+> Task :bottomsheetlayout:prepareLintJarForPublish
+> Task :bottomsheetlayout:processDebugJavaRes NO-SOURCE
+> Task :bottomsheetlayout:transformResourcesWithMergeJavaResForDebug
+> Task :bottomsheetlayout:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :bottomsheetlayout:mergeDebugJniLibFolders
+> Task :bottomsheetlayout:transformNativeLibsWithMergeJniLibsForDebug
+> Task :bottomsheetlayout:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :bottomsheetlayout:transformNativeLibsWithSyncJniLibsForDebug
+> Task :bottomsheetlayout:bundleDebugAar
+> Task :bottomsheetlayout:compileDebugSources
+> Task :bottomsheetlayout:assembleDebug
+> Task :bottomsheetlayout:preReleaseBuild UP-TO-DATE
+> Task :bottomsheetlayout:compileReleaseAidl NO-SOURCE
+> Task :bottomsheetlayout:compileReleaseRenderscript NO-SOURCE
+> Task :bottomsheetlayout:checkReleaseManifest
+> Task :bottomsheetlayout:generateReleaseBuildConfig
+> Task :bottomsheetlayout:generateReleaseResValues
+> Task :bottomsheetlayout:generateReleaseResources
+> Task :bottomsheetlayout:packageReleaseResources
+> Task :bottomsheetlayout:processReleaseManifest
+> Task :bottomsheetlayout:generateReleaseRFile
+> Task :bottomsheetlayout:compileReleaseKotlin
+> Task :bottomsheetlayout:generateReleaseSources
+> Task :bottomsheetlayout:javaPreCompileRelease
+> Task :bottomsheetlayout:compileReleaseJavaWithJavac
+> Task :bottomsheetlayout:extractReleaseAnnotations
+> Task :bottomsheetlayout:mergeReleaseConsumerProguardFiles
+> Task :bottomsheetlayout:mergeReleaseShaders
+> Task :bottomsheetlayout:compileReleaseShaders
+> Task :bottomsheetlayout:generateReleaseAssets
+> Task :bottomsheetlayout:packageReleaseAssets
+> Task :bottomsheetlayout:packageReleaseRenderscript NO-SOURCE
+> Task :bottomsheetlayout:processReleaseJavaRes NO-SOURCE
+> Task :bottomsheetlayout:transformResourcesWithMergeJavaResForRelease
+> Task :bottomsheetlayout:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :bottomsheetlayout:mergeReleaseJniLibFolders
+> Task :bottomsheetlayout:transformNativeLibsWithMergeJniLibsForRelease
+> Task :bottomsheetlayout:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :bottomsheetlayout:transformNativeLibsWithSyncJniLibsForRelease
+> Task :bottomsheetlayout:bundleReleaseAar
+> Task :bottomsheetlayout:compileReleaseSources
+> Task :bottomsheetlayout:javadoc SKIPPED
+> Task :bottomsheetlayout:javadocJar
+> Task :bottomsheetlayout:mergeReleaseResources
+> Task :bottomsheetlayout:verifyReleaseResources
+> Task :bottomsheetlayout:assembleRelease
+> Task :bottomsheetlayout:sourcesJar
+> Task :bottomsheetlayout:assemble
+> Task :bottomsheetlayout:build
 
-2018-10-08 16:51:12,161 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 16:51:12,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 16:51:12,338 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 16:51:12,338 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-08 16:51:12,338 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-08 16:51:12,338 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 16:51:12,505 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 16:51:12,505 INFO  SysUtils - Exception in thread "main" java.lang.RuntimeException: Wrapper properties file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradle/wrapper/gradle-wrapper.properties' does not exist.
-	at org.gradle.wrapper.WrapperExecutor.forWrapperPropertiesFile(WrapperExecutor.java:45)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:60)
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2018-10-08 16:51:12,508 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-08 16:51:12,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-08 16:51:12,677 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-08 16:51:12,677 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-08 16:51:12,677 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-08 16:51:12,677 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-08 16:51:12,851 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-10-08 16:51:12,851 INFO  SysUtils - Exception in thread "main" java.lang.RuntimeException: Wrapper properties file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1538992267722-0/src/BottomSheetLayout-master/gradle/wrapper/gradle-wrapper.properties' does not exist.
-	at org.gradle.wrapper.WrapperExecutor.forWrapperPropertiesFile(WrapperExecutor.java:45)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:60)
+BUILD SUCCESSFUL in 17s
+48 actionable tasks: 48 executed
 
-2018-10-08 16:51:12,854 ERROR FullProcessService - Project build has not produced APK file
-2018-10-08 16:51:12,857 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-20 12:59:41,705 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-20 12:59:41,705 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-20 12:59:48,166 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-20 12:59:48,166 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-20 12:59:48,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-20 13:00:23,357 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :bottomsheetlayout:preBuild UP-TO-DATE
+> Task :bottomsheetlayout:preDebugBuild UP-TO-DATE
+> Task :bottomsheetlayout:checkDebugManifest UP-TO-DATE
+> Task :bottomsheetlayout:generateDebugBuildConfig UP-TO-DATE
+> Task :bottomsheetlayout:compileDebugAidl NO-SOURCE
+> Task :bottomsheetlayout:compileDebugRenderscript NO-SOURCE
+> Task :bottomsheetlayout:generateDebugResValues UP-TO-DATE
+> Task :bottomsheetlayout:generateDebugResources UP-TO-DATE
+> Task :bottomsheetlayout:packageDebugResources UP-TO-DATE
+> Task :bottomsheetlayout:processDebugManifest UP-TO-DATE
+> Task :bottomsheetlayout:generateDebugRFile UP-TO-DATE
+> Task :bottomsheetlayout:compileDebugKotlin UP-TO-DATE
+> Task :bottomsheetlayout:prepareLintJar UP-TO-DATE
+> Task :bottomsheetlayout:generateDebugSources UP-TO-DATE
+> Task :bottomsheetlayout:javaPreCompileDebug UP-TO-DATE
+> Task :bottomsheetlayout:compileDebugJavaWithJavac UP-TO-DATE
+> Task :bottomsheetlayout:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :bottomsheetlayout:packageDebugRenderscript NO-SOURCE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugKotlin
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :bottomsheetlayout:mergeDebugShaders UP-TO-DATE
+> Task :bottomsheetlayout:compileDebugShaders UP-TO-DATE
+> Task :bottomsheetlayout:generateDebugAssets UP-TO-DATE
+> Task :bottomsheetlayout:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :bottomsheetlayout:processDebugJavaRes NO-SOURCE
+> Task :bottomsheetlayout:bundleLibResDebug
+> Task :bottomsheetlayout:bundleLibRuntimeDebug
+> Task :bottomsheetlayout:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :bottomsheetlayout:mergeDebugJniLibFolders UP-TO-DATE
+> Task :bottomsheetlayout:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :bottomsheetlayout:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :bottomsheetlayout:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :bottomsheetlayout:preReleaseBuild UP-TO-DATE
+> Task :bottomsheetlayout:compileReleaseAidl NO-SOURCE
+> Task :bottomsheetlayout:compileReleaseRenderscript NO-SOURCE
+> Task :bottomsheetlayout:checkReleaseManifest UP-TO-DATE
+> Task :bottomsheetlayout:generateReleaseBuildConfig UP-TO-DATE
+> Task :bottomsheetlayout:generateReleaseResValues UP-TO-DATE
+> Task :bottomsheetlayout:generateReleaseResources UP-TO-DATE
+> Task :bottomsheetlayout:packageReleaseResources UP-TO-DATE
+> Task :bottomsheetlayout:processReleaseManifest UP-TO-DATE
+> Task :bottomsheetlayout:generateReleaseRFile UP-TO-DATE
+> Task :bottomsheetlayout:compileReleaseKotlin UP-TO-DATE
+> Task :bottomsheetlayout:generateReleaseSources UP-TO-DATE
+> Task :bottomsheetlayout:javaPreCompileRelease UP-TO-DATE
+> Task :bottomsheetlayout:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :bottomsheetlayout:bundleLibCompileRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :bottomsheetlayout:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:compileReleaseKotlin
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:compileReleaseSources
+> Task :bottomsheetlayout:prepareLintJarForPublish UP-TO-DATE
+> Task :bottomsheetlayout:processReleaseJavaRes NO-SOURCE
+> Task :bottomsheetlayout:bundleLibResRelease
+> Task :sample:lintVitalRelease
+> Task :bottomsheetlayout:bundleLibRuntimeRelease
+> Task :bottomsheetlayout:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :bottomsheetlayout:mergeReleaseShaders UP-TO-DATE
+> Task :bottomsheetlayout:compileReleaseShaders UP-TO-DATE
+> Task :bottomsheetlayout:generateReleaseAssets UP-TO-DATE
+> Task :bottomsheetlayout:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :bottomsheetlayout:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :bottomsheetlayout:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :bottomsheetlayout:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :bottomsheetlayout:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 34s
+95 actionable tasks: 63 executed, 32 up-to-date
+
+2019-05-20 13:00:23,466 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558331952518-0/src/BottomSheetLayout-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
