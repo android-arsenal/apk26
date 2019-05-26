@@ -1,33 +1,33 @@
-2019-05-16 19:05:19,373 INFO  DownloadService - Downloading "https://github.com/avito-tech/krop/archive/master.zip", attempt 3
-2019-05-16 19:05:38,672 INFO  DownloadService - Downloaded https://github.com/avito-tech/krop/archive/master.zip, attempt 3
-2019-05-16 19:05:38,672 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/master.zip": 4 MB
-2019-05-16 19:05:38,672 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-16 19:05:38,675 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/master.zip: true
-2019-05-16 19:05:38,676 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src'.
-2019-05-16 19:05:38,718 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-05-16 19:05:38,718 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src]
-2019-05-16 19:05:38,736 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/.git/
+2019-05-26 18:43:11,580 INFO  DownloadService - Downloading "https://github.com/avito-tech/krop/archive/master.zip", attempt 3
+2019-05-26 18:43:16,721 INFO  DownloadService - Downloaded https://github.com/avito-tech/krop/archive/master.zip, attempt 3
+2019-05-26 18:43:16,721 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/master.zip": 4 MB
+2019-05-26 18:43:16,722 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-26 18:43:16,723 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/master.zip: true
+2019-05-26 18:43:16,723 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src'.
+2019-05-26 18:43:16,763 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-05-26 18:43:16,763 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src]
+2019-05-26 18:43:16,786 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/.git/
 
-2019-05-16 19:05:38,739 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/gradlew
-2019-05-16 19:05:38,741 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/build.gradle
-2019-05-16 19:05:38,744 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/build.gradle
-2019-05-16 19:05:38,744 INFO  ProjectBuildService - Remote scripts: none
-2019-05-16 19:05:38,744 INFO  ProjectFixService - Fixing project...
-2019-05-16 19:05:38,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/app/local.properties
-2019-05-16 19:05:38,751 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-05-16 19:05:38,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/local.properties
-2019-05-16 19:05:38,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=11,targetSdkVersion=28]
-2019-05-16 19:05:38,752 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/local.properties
-2019-05-16 19:05:38,753 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-16 19:05:38,753 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-16 19:05:38,754 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-05-16 19:05:38,754 INFO  ProjectFixService - Project was maybe fixed
-2019-05-16 19:05:38,754 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-16 19:05:38,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-16 19:05:45,947 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-16 19:05:45,947 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-16 19:05:45,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-16 19:07:05,569 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-26 18:43:16,788 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/gradlew
+2019-05-26 18:43:16,791 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/build.gradle
+2019-05-26 18:43:16,793 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/build.gradle
+2019-05-26 18:43:16,793 INFO  ProjectBuildService - Remote scripts: none
+2019-05-26 18:43:16,793 INFO  ProjectFixService - Fixing project...
+2019-05-26 18:43:16,799 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/app/local.properties
+2019-05-26 18:43:16,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-05-26 18:43:16,799 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/local.properties
+2019-05-26 18:43:16,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=11,targetSdkVersion=28]
+2019-05-26 18:43:16,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/local.properties
+2019-05-26 18:43:16,800 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-26 18:43:16,800 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-26 18:43:16,801 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-05-26 18:43:16,801 INFO  ProjectFixService - Project was maybe fixed
+2019-05-26 18:43:16,801 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-26 18:43:16,801 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-26 18:43:24,914 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-05-26 18:43:24,914 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-26 18:43:24,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-26 18:44:43,408 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :krop:preBuild UP-TO-DATE
 > Task :krop:preDebugBuild UP-TO-DATE
@@ -53,22 +53,22 @@
 > Task :krop:generateDebugRFile
 > Task :app:processDebugResources
 > Task :krop:generateDebugBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (101, 17): Type mismatch: inferred type is Bitmap? but Bitmap was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (156, 30): Type mismatch: inferred type is Parcelable? but Parcelable was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (262, 30): Type mismatch: inferred type is Parcelable? but Parcelable was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/Transformation.kt: (24, 20): Type mismatch: inferred type is SizeF? but SizeF was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/Transformation.kt: (25, 20): Type mismatch: inferred type is RectF? but RectF was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (215, 17): Type mismatch: inferred type is Parcelable? but Parcelable was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (945, 22): Type mismatch: inferred type is FloatArray? but FloatArray was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (946, 33): Type mismatch: inferred type is SizeF? but SizeF was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (947, 28): Type mismatch: inferred type is SizeF? but SizeF was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (101, 17): Type mismatch: inferred type is Bitmap? but Bitmap was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (156, 30): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (262, 30): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/Transformation.kt: (24, 20): Type mismatch: inferred type is SizeF? but SizeF was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/Transformation.kt: (25, 20): Type mismatch: inferred type is RectF? but RectF was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (215, 17): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (945, 22): Type mismatch: inferred type is FloatArray? but FloatArray was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (946, 33): Type mismatch: inferred type is SizeF? but SizeF was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (947, 28): Type mismatch: inferred type is SizeF? but SizeF was expected
 > Task :krop:compileDebugKotlin
 > Task :krop:prepareLintJar
 > Task :krop:generateDebugSources
 > Task :krop:javaPreCompileDebug
 > Task :krop:compileDebugJavaWithJavac
 > Task :krop:bundleLibCompileDebug
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/app/src/main/java/com/avito/android/krop/demo/MainActivity.kt: (98, 44): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/app/src/main/java/com/avito/android/krop/demo/MainActivity.kt: (98, 44): 'getColor(Int): Int' is deprecated. Deprecated in Java
 > Task :app:compileDebugKotlin
 > Task :app:prepareLintJar
 > Task :app:generateDebugSources
@@ -128,21 +128,21 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/
 > Task :krop:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :krop:generateReleaseBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (101, 17): Type mismatch: inferred type is Bitmap? but Bitmap was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (156, 30): Type mismatch: inferred type is Parcelable? but Parcelable was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (262, 30): Type mismatch: inferred type is Parcelable? but Parcelable was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/Transformation.kt: (24, 20): Type mismatch: inferred type is SizeF? but SizeF was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/Transformation.kt: (25, 20): Type mismatch: inferred type is RectF? but RectF was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (215, 17): Type mismatch: inferred type is Parcelable? but Parcelable was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (945, 22): Type mismatch: inferred type is FloatArray? but FloatArray was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (946, 33): Type mismatch: inferred type is SizeF? but SizeF was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (947, 28): Type mismatch: inferred type is SizeF? but SizeF was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (101, 17): Type mismatch: inferred type is Bitmap? but Bitmap was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (156, 30): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/KropView.kt: (262, 30): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/Transformation.kt: (24, 20): Type mismatch: inferred type is SizeF? but SizeF was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/Transformation.kt: (25, 20): Type mismatch: inferred type is RectF? but RectF was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (215, 17): Type mismatch: inferred type is Parcelable? but Parcelable was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (945, 22): Type mismatch: inferred type is FloatArray? but FloatArray was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (946, 33): Type mismatch: inferred type is SizeF? but SizeF was expected
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/krop/src/main/java/com/avito/android/krop/ZoomableImageView.kt: (947, 28): Type mismatch: inferred type is SizeF? but SizeF was expected
 > Task :krop:compileReleaseKotlin
 > Task :krop:generateReleaseSources
 > Task :krop:javaPreCompileRelease
 > Task :krop:compileReleaseJavaWithJavac
 > Task :krop:bundleLibCompileRelease
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/app/src/main/java/com/avito/android/krop/demo/MainActivity.kt: (98, 44): 'getColor(Int): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/app/src/main/java/com/avito/android/krop/demo/MainActivity.kt: (98, 44): 'getColor(Int): Int' is deprecated. Deprecated in Java
 > Task :app:compileReleaseKotlin
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
@@ -193,7 +193,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 18s
+BUILD SUCCESSFUL in 1m 17s
 93 actionable tasks: 93 executed
 
-2019-05-16 19:07:05,653 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558008319369-0/src/krop-master/app/build/outputs/apk/debug/app-debug.apk
+2019-05-26 18:44:43,488 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558870991577-0/src/krop-master/app/build/outputs/apk/debug/app-debug.apk
