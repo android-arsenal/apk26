@@ -31,8 +31,8 @@
   "dexClasses" : 1634,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.shuhart.stepview\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0e0005\" android:label=\"StepView\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"com.shuhart.stepview.sample.main.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<action android:name=\"android.intent.action.VIEW\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.shuhart.stepview.sample.examples.recyclerview.RecyclerViewExampleActivity\" />\n\t\t<activity android:name=\"com.shuhart.stepview.sample.examples.scrollview.ScrollViewExampleActivity\" />\n\t\t<activity android:name=\"com.shuhart.stepview.sample.examples.simple.SimpleActivity\" />\n\t\t<activity android:name=\"com.shuhart.stepview.sample.examples.customise.CustomiseActivity\" />\n\t\t<activity android:name=\"com.shuhart.stepview.sample.examples.rtl.RTLActivity\" />\n\t\t<activity android:name=\"com.shuhart.stepview.sample.examples.delayed.DelayedInitActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 1988807,
-  "crc32" : 329291172,
-  "sha256" : "d8bcb3d7168ee7b2f117c2f987d73334aaa00319d54d49a61ae92772be009c06",
-  "buildTime" : 1558007562000
+  "fileSize" : 1988792,
+  "crc32" : 383422051,
+  "sha256" : "312ac15386838c9883b6d9855ad23e3fdcbcb4c54fdc1b28e6b6a8a8e3943224",
+  "buildTime" : 1559113074000
 }
