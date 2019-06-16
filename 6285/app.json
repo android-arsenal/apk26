@@ -9,6 +9,10 @@
     "minSdkVersion" : "9",
     "targetSdkVersion" : "25",
     "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "25",
+    "platformBuildVersionName" : "7.1.1",
     "glEsVersion" : null,
     "anyDensity" : false,
     "smallScreens" : false,
@@ -30,5 +34,5 @@
   "fileSize" : 7819958,
   "crc32" : 2799226346,
   "sha256" : "24e5a99a928de9a6d5de0061bc89bfba8058eafac0745f52160ac72842041295",
-  "buildTime" : 1535800474000
+  "buildTime" : 1560674549000
 }
