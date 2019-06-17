@@ -1,33 +1,33 @@
-2019-05-16 18:50:20,060 INFO  DownloadService - Downloading "https://github.com/MindorksOpenSource/PRDownloader/archive/master.zip", attempt 3
-2019-05-16 18:50:22,290 INFO  DownloadService - Downloaded https://github.com/MindorksOpenSource/PRDownloader/archive/master.zip, attempt 3
-2019-05-16 18:50:22,291 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/master.zip": 294 KB
-2019-05-16 18:50:22,291 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-16 18:50:22,291 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/master.zip: true
-2019-05-16 18:50:22,291 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src'.
-2019-05-16 18:50:22,323 INFO  FullProcessService - Size of directory with sources: 472 KB
-2019-05-16 18:50:22,323 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src]
-2019-05-16 18:50:22,343 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/.git/
+2019-06-17 21:29:23,032 INFO  DownloadService - Downloading "https://github.com/MindorksOpenSource/PRDownloader/archive/master.zip", attempt 3
+2019-06-17 21:29:25,174 INFO  DownloadService - Downloaded https://github.com/MindorksOpenSource/PRDownloader/archive/master.zip, attempt 3
+2019-06-17 21:29:25,174 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/master.zip": 295 KB
+2019-06-17 21:29:25,174 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-06-17 21:29:25,176 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/master.zip: true
+2019-06-17 21:29:25,176 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src'.
+2019-06-17 21:29:25,206 INFO  FullProcessService - Size of directory with sources: 475 KB
+2019-06-17 21:29:25,207 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src]
+2019-06-17 21:29:25,224 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/.git/
 
-2019-05-16 18:50:22,347 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/gradlew
-2019-05-16 18:50:22,351 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/prdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/build.gradle
-2019-05-16 18:50:22,355 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/prdownloader/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/prdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/settings.gradle
-2019-05-16 18:50:22,355 INFO  ProjectBuildService - Remote scripts: none
-2019-05-16 18:50:22,355 INFO  ProjectFixService - Fixing project...
-2019-05-16 18:50:22,365 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/app/local.properties
-2019-05-16 18:50:22,366 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-05-16 18:50:22,366 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/prdownloader/local.properties
-2019-05-16 18:50:22,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/prdownloader/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-05-16 18:50:22,373 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/local.properties
-2019-05-16 18:50:22,373 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-05-16 18:50:22,373 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-05-16 18:50:22,374 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-05-16 18:50:22,374 INFO  ProjectFixService - Project was maybe fixed
-2019-05-16 18:50:22,374 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-16 18:50:22,375 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-16 18:50:30,316 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-05-16 18:50:30,316 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-16 18:50:30,316 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-16 18:51:03,903 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-17 21:29:25,229 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/gradlew
+2019-06-17 21:29:25,233 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/prdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/build.gradle
+2019-06-17 21:29:25,236 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/prdownloader/upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/prdownloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/settings.gradle
+2019-06-17 21:29:25,237 INFO  ProjectBuildService - Remote scripts: none
+2019-06-17 21:29:25,237 INFO  ProjectFixService - Fixing project...
+2019-06-17 21:29:25,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/app/local.properties
+2019-06-17 21:29:25,247 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-06-17 21:29:25,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/prdownloader/local.properties
+2019-06-17 21:29:25,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/prdownloader/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-06-17 21:29:25,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/local.properties
+2019-06-17 21:29:25,249 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-06-17 21:29:25,249 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-06-17 21:29:25,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
+2019-06-17 21:29:25,250 INFO  ProjectFixService - Project was maybe fixed
+2019-06-17 21:29:25,250 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-17 21:29:25,250 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-17 21:29:32,179 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-17 21:29:32,180 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-17 21:29:32,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-17 21:30:04,239 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :prdownloader:preBuild UP-TO-DATE
 :prdownloader:preDebugBuild UP-TO-DATE
@@ -142,9 +142,6 @@ Download https://jcenter.bintray.com/com/amitshekhar/android/debug-db/1.0.1/debu
 :app:compileReleaseJavaWithJavac
 :app:compileReleaseSources
 :app:lintVitalRelease
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.0/lint-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.0/lint-kotlin-26.1.0.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.0/lint-gradle-26.1.0.jar
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithExternalLibsDexMergerForRelease
 :app:transformDexArchiveWithDexMergerForRelease
@@ -156,7 +153,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gra
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 32s
+BUILD SUCCESSFUL in 31s
 91 actionable tasks: 91 executed
 
-2019-05-16 18:51:03,986 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558007420056-0/src/PRDownloader-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-17 21:30:04,290 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560781763023-0/src/PRDownloader-master/app/build/outputs/apk/debug/app-debug.apk
