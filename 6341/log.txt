@@ -1,33 +1,35 @@
-2019-03-10 23:51:56,121 INFO  DownloadService - Downloading "https://github.com/minibugdev/DrawableBadge/archive/master.zip", attempt 3
-2019-03-10 23:51:58,532 INFO  DownloadService - Downloaded https://github.com/minibugdev/DrawableBadge/archive/master.zip, attempt 3
-2019-03-10 23:51:58,533 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/master.zip": 239 KB
-2019-03-10 23:51:58,533 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-10 23:51:58,538 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/master.zip: true
-2019-03-10 23:51:58,539 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src'.
-2019-03-10 23:51:58,568 INFO  FullProcessService - Size of directory with sources: 250 KB
-2019-03-10 23:51:58,568 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src]
-2019-03-10 23:51:58,594 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/.git/
+2019-07-05 02:18:43,449 INFO  DownloadService - Downloading "https://github.com/minibugdev/DrawableBadge/archive/master.zip", attempt 3
+2019-07-05 02:18:45,555 INFO  DownloadService - Downloaded https://github.com/minibugdev/DrawableBadge/archive/master.zip, attempt 3
+2019-07-05 02:18:45,556 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/master.zip": 239 KB
+2019-07-05 02:18:45,556 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-05 02:18:45,556 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/master.zip: true
+2019-07-05 02:18:45,557 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src'.
+2019-07-05 02:18:45,577 INFO  FullProcessService - Size of directory with sources: 250 KB
+2019-07-05 02:18:45,577 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src]
+2019-07-05 02:18:45,593 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/.git/
 
-2019-03-10 23:51:58,597 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/gradlew
-2019-03-10 23:51:58,600 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/build.gradle
-2019-03-10 23:51:58,603 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/settings.gradle
-2019-03-10 23:51:58,603 INFO  ProjectBuildService - Remote scripts: none
-2019-03-10 23:51:58,603 INFO  ProjectFixService - Fixing project...
-2019-03-10 23:51:58,611 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/demo/local.properties
-2019-03-10 23:51:58,611 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/demo/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-03-10 23:51:58,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/library/local.properties
-2019-03-10 23:51:58,613 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/library/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-10 23:51:58,614 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/local.properties
-2019-03-10 23:51:58,614 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
-2019-03-10 23:51:58,615 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
-2019-03-10 23:51:58,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2019-03-10 23:51:58,616 INFO  ProjectFixService - Project was maybe fixed
-2019-03-10 23:51:58,616 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 23:51:58,616 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 23:52:17,274 INFO  ProjectTaskService - Detected possible tasks: 67
-2019-03-10 23:52:17,274 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-10 23:52:17,274 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-10 23:53:06,378 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 02:18:45,596 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/gradlew
+2019-07-05 02:18:45,598 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/build.gradle
+2019-07-05 02:18:45,601 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/settings.gradle
+2019-07-05 02:18:45,601 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 02:18:45,601 INFO  ProjectFixService - Fixing project...
+2019-07-05 02:18:45,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/demo/local.properties
+2019-07-05 02:18:45,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/demo/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-07-05 02:18:45,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/library/local.properties
+2019-07-05 02:18:45,610 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/library/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-05 02:18:45,610 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/local.properties
+2019-07-05 02:18:45,610 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.5-all.zip
+2019-07-05 02:18:45,611 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.5-bin.zip)
+2019-07-05 02:18:45,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-07-05 02:18:45,612 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 02:18:45,612 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 02:18:45,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 02:18:50,720 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-05 02:18:50,721 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-05 02:18:50,721 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-05 02:18:50,721 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-05 02:19:41,770 INFO  SysUtils - Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.2.50/kotlin-compiler-embeddable-1.2.50.jar
 :demo:preBuild UP-TO-DATE
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -99,6 +101,24 @@
 :demo:compileReleaseNdk NO-SOURCE
 :demo:mergeReleaseShaders
 :demo:compileReleaseShaders
+:demo:generateReleaseAssets
+:library:mergeReleaseShaders
+:library:compileReleaseShaders
+:library:generateReleaseAssets
+:library:packageReleaseAssets
+:demo:mergeReleaseAssets
+:demo:mergeReleaseJniLibFolders
+:library:compileReleaseNdk NO-SOURCE
+:library:mergeReleaseJniLibFolders
+:library:transformNativeLibsWithMergeJniLibsForRelease
+:library:transformNativeLibsWithStripDebugSymbolForRelease
+:library:transformNativeLibsWithIntermediateJniLibsForRelease
+:demo:processReleaseJavaRes NO-SOURCE
+:demo:preDebugUnitTestBuild UP-TO-DATE
+:demo:mockableAndroidJar
+:demo:processDebugUnitTestJavaRes NO-SOURCE
+:demo:preReleaseUnitTestBuild UP-TO-DATE
+:demo:processReleaseUnitTestJavaRes NO-SOURCE
 :library:generateDebugRFile
 :demo:processDebugResources
 :library:compileDebugKotlin
@@ -133,52 +153,42 @@ D8: Stripped invalid locals information from 1 method.
 :demo:javaPreCompileRelease
 :demo:compileReleaseJavaWithJavac
 :demo:compileReleaseSources
-:demo:lintVitalRelease
-Download https://jcenter.bintray.com/com/nhaarman/mockito-kotlin-kt1.1/1.5.0/mockito-kotlin-kt1.1-1.5.0.pom
-Download https://jcenter.bintray.com/org/mockito/mockito-android/2.13.0/mockito-android-2.13.0.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-junit/1.2.50/kotlin-test-junit-1.2.50.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test/1.2.50/kotlin-test-1.2.50.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-annotations-common/1.2.50/kotlin-test-annotations-common-1.2.50.pom
-Download https://jcenter.bintray.com/com/nhaarman/mockito-kotlin/1.5.0/mockito-kotlin-1.5.0.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.1.2-4/kotlin-reflect-1.1.2-4.pom
-Download https://jcenter.bintray.com/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.pom
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.7.9/byte-buddy-android-1.7.9.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-common/1.2.50/kotlin-test-common-1.2.50.pom
-Download https://jcenter.bintray.com/com/jakewharton/android/repackaged/dalvik-dx/1/dalvik-dx-1.pom
-Download https://jcenter.bintray.com/com/jakewharton/android/repackaged/libcore-dex/2/libcore-dex-2.pom
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-agent/1.7.9/byte-buddy-agent-1.7.9.pom
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test/1.2.50/kotlin-test-1.2.50.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-common/1.2.50/kotlin-test-common-1.2.50.jar
-Download https://jcenter.bintray.com/org/mockito/mockito-android/2.13.0/mockito-android-2.13.0.jar
-Download https://jcenter.bintray.com/net/bytebuddy/byte-buddy-android/1.7.9/byte-buddy-android-1.7.9.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-junit/1.2.50/kotlin-test-junit-1.2.50.jar
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-annotations-common/1.2.50/kotlin-test-annotations-common-1.2.50.jar
-Download https://jcenter.bintray.com/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar
-:demo:generateReleaseAssets
-:library:mergeReleaseShaders
-:library:compileReleaseShaders
-:library:generateReleaseAssets
-:library:packageReleaseAssets
-:demo:mergeReleaseAssets
+:demo:lintVitalRelease SKIPPED
 :demo:transformClassesWithDexBuilderForRelease
 :demo:transformDexArchiveWithExternalLibsDexMergerForRelease
 :demo:transformDexArchiveWithDexMergerForRelease
-:demo:mergeReleaseJniLibFolders
-:library:compileReleaseNdk NO-SOURCE
-:library:mergeReleaseJniLibFolders
-:library:transformNativeLibsWithMergeJniLibsForRelease
-:library:transformNativeLibsWithStripDebugSymbolForRelease
-:library:transformNativeLibsWithIntermediateJniLibsForRelease
 :demo:transformNativeLibsWithMergeJniLibsForRelease
 :demo:transformNativeLibsWithStripDebugSymbolForRelease
-:demo:processReleaseJavaRes NO-SOURCE
 :demo:transformResourcesWithMergeJavaResForRelease
 :demo:packageRelease
 :demo:assembleRelease
 :demo:assemble
+:demo:lint
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test/1.2.50/kotlin-test-1.2.50.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-android/2.13.0/mockito-android-2.13.0.jar
+Download https://jcenter.bintray.com/com/nhaarman/mockito-kotlin-kt1.1/1.5.0/mockito-kotlin-kt1.1-1.5.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-junit/1.2.50/kotlin-test-junit-1.2.50.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-common/1.2.50/kotlin-test-common-1.2.50.jar
+Download https://jcenter.bintray.com/org/mockito/mockito-core/2.13.0/mockito-core-2.13.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-test-annotations-common/1.2.50/kotlin-test-annotations-common-1.2.50.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.1.2-4/kotlin-reflect-1.1.2-4.jar
+Ran lint on variant debug: 27 issues found
+Ran lint on variant release: 27 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/demo/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/demo/build/reports/lint-results.xml
+:demo:compileDebugUnitTestKotlin
+:demo:javaPreCompileDebugUnitTest
+:demo:compileDebugUnitTestJavaWithJavac NO-SOURCE
+:demo:testDebugUnitTest NO-SOURCE
+:demo:compileReleaseUnitTestKotlin
+:demo:javaPreCompileReleaseUnitTest
+:demo:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+:demo:testReleaseUnitTest NO-SOURCE
+:demo:test UP-TO-DATE
+:demo:check
 :demo:build
 
-BUILD SUCCESSFUL in 48s
-95 actionable tasks: 95 executed
+BUILD SUCCESSFUL in 50s
+100 actionable tasks: 100 executed
 
-2019-03-10 23:53:06,469 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552236716118-0/src/DrawableBadge-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
+2019-07-05 02:19:41,829 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562267923446-0/src/DrawableBadge-master/demo/build/outputs/apk/release/demo-release-unsigned.apk
