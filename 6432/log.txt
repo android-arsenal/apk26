@@ -1,117 +1,270 @@
-2019-03-10 20:30:47,650 INFO  DownloadService - Downloading "https://github.com/ha-yi/MultiColorTextView/archive/master.zip", attempt 3
-2019-03-10 20:30:50,156 INFO  DownloadService - Downloaded https://github.com/ha-yi/MultiColorTextView/archive/master.zip, attempt 3
-2019-03-10 20:30:50,157 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/master.zip": 133 KB
-2019-03-10 20:30:50,157 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-10 20:30:50,162 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/master.zip: true
-2019-03-10 20:30:50,163 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src'.
-2019-03-10 20:30:50,183 INFO  FullProcessService - Size of directory with sources: 161 KB
-2019-03-10 20:30:50,183 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src]
-2019-03-10 20:30:50,201 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/.git/
+2019-08-11 20:43:18,902 INFO  DownloadService - Downloading "https://github.com/ha-yi/MultiColorTextView/archive/master.zip", attempt 3
+2019-08-11 20:43:20,545 INFO  DownloadService - Downloaded https://github.com/ha-yi/MultiColorTextView/archive/master.zip, attempt 3
+2019-08-11 20:43:20,546 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/master.zip": 187 KB
+2019-08-11 20:43:20,546 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 20:43:20,546 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/master.zip: true
+2019-08-11 20:43:20,546 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src'.
+2019-08-11 20:43:20,567 INFO  FullProcessService - Size of directory with sources: 214 KB
+2019-08-11 20:43:20,567 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src]
+2019-08-11 20:43:20,586 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/.git/
 
-2019-03-10 20:30:50,204 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-03-10 20:30:50,204 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-03-10 20:30:50,208 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/sample/build.gradle
-2019-03-10 20:30:50,211 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/sample/build.gradle
-2019-03-10 20:30:50,212 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-03-10 20:30:50,305 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-03-10 20:30:50,305 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-03-10 20:30:50,397 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-03-10 20:30:50,397 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-03-10 20:30:50,397 INFO  ProjectFixService - Fixing project...
-2019-03-10 20:30:50,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/local.properties
-2019-03-10 20:30:50,408 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 20:30:50,408 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 20:30:50,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/sample/local.properties
-2019-03-10 20:30:50,413 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 20:30:50,413 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
-2019-03-10 20:30:50,414 INFO  ProjectFixService - Project was maybe fixed
-2019-03-10 20:30:50,414 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 20:30:50,414 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 20:30:50,419 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-10 20:30:50,419 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-10 20:30:50,419 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-10 20:30:50,420 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-10 20:30:50,425 ERROR SysUtils - Could not process external command
-java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
-	at java.lang.Runtime.exec(Runtime.java:620)
-	at org.apache.commons.exec.launcher.Java13CommandLauncher.exec(Java13CommandLauncher.java:61)
-	at org.apache.commons.exec.DefaultExecutor.launch(DefaultExecutor.java:279)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:336)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.io.IOException: error=2, No such file or directory
-	at java.lang.UNIXProcess.forkAndExec(Native Method)
-	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
-	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 28 common frames omitted
-2019-03-10 20:30:50,425 INFO  SysUtils - 
-2019-03-10 20:30:50,429 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 20:30:50,429 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 20:30:50,434 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-10 20:30:50,434 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-10 20:30:50,434 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-10 20:30:50,434 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552224647648-0/src/MultiColorTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-10 20:30:50,439 ERROR SysUtils - Could not process external command
-java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
-	at java.lang.Runtime.exec(Runtime.java:620)
-	at org.apache.commons.exec.launcher.Java13CommandLauncher.exec(Java13CommandLauncher.java:61)
-	at org.apache.commons.exec.DefaultExecutor.launch(DefaultExecutor.java:279)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:336)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.io.IOException: error=2, No such file or directory
-	at java.lang.UNIXProcess.forkAndExec(Native Method)
-	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
-	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
-	... 28 common frames omitted
-2019-03-10 20:30:50,439 INFO  SysUtils - 
-2019-03-10 20:30:50,443 ERROR FullProcessService - Project build has not produced APK file
-2019-03-10 20:30:50,446 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-11 20:43:20,589 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/gradlew
+2019-08-11 20:43:20,592 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/multicolortextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/build.gradle
+2019-08-11 20:43:20,595 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/multicolortextview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/settings.gradle
+2019-08-11 20:43:20,595 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 20:43:20,595 INFO  ProjectFixService - Fixing project...
+2019-08-11 20:43:20,602 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/multicolortextview/local.properties
+2019-08-11 20:43:20,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/multicolortextview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 20:43:20,603 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/multicolortextview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 20:43:20,604 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/sample/local.properties
+2019-08-11 20:43:20,605 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 20:43:20,605 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 20:43:20,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/local.properties
+2019-08-11 20:43:20,606 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-08-11 20:43:20,607 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-08-11 20:43:20,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 20:43:20,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=26]
+2019-08-11 20:43:20,608 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 20:43:20,608 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 20:43:20,608 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/multicolortextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 20:43:30,082 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-08-11 20:43:30,082 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-11 20:43:30,083 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/multicolortextview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-11 20:43:54,133 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Publication release not found in project :multicolortextview.
+:multicolortextview:preBuild UP-TO-DATE
+:multicolortextview:preDebugBuild UP-TO-DATE
+:multicolortextview:compileDebugAidl NO-SOURCE
+:multicolortextview:compileDebugRenderscript
+:multicolortextview:checkDebugManifest
+:multicolortextview:generateDebugBuildConfig
+:multicolortextview:generateDebugResValues
+:multicolortextview:generateDebugResources
+:multicolortextview:packageDebugResources
+:multicolortextview:processDebugManifest
+:multicolortextview:generateDebugRFile
+:multicolortextview:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.71/kotlin-stdlib-jre7-1.2.71.jar
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/multicolortextview/src/main/java/com/lombokcyberlab/android/multicolortextview/MultiColorTextView.kt: (87, 42): Parameter 'index' is never used, could be renamed to _
+:multicolortextview:prepareLintJar
+:multicolortextview:generateDebugSources
+:multicolortextview:javaPreCompileDebug
+:multicolortextview:compileDebugJavaWithJavac
+:multicolortextview:extractDebugAnnotations
+:multicolortextview:mergeDebugConsumerProguardFiles
+:multicolortextview:mergeDebugShaders
+:multicolortextview:compileDebugShaders
+:multicolortextview:generateDebugAssets
+:multicolortextview:packageDebugAssets
+:multicolortextview:packageDebugRenderscript NO-SOURCE
+:multicolortextview:processDebugJavaRes NO-SOURCE
+:multicolortextview:transformResourcesWithMergeJavaResForDebug
+:multicolortextview:transformClassesAndResourcesWithSyncLibJarsForDebug
+:multicolortextview:compileDebugNdk NO-SOURCE
+:multicolortextview:mergeDebugJniLibFolders
+:multicolortextview:transformNativeLibsWithMergeJniLibsForDebug
+:multicolortextview:transformNativeLibsWithStripDebugSymbolForDebug
+:multicolortextview:transformNativeLibsWithSyncJniLibsForDebug
+:multicolortextview:bundleDebugAar
+:multicolortextview:compileDebugSources
+:multicolortextview:assembleDebug
+:multicolortextview:preReleaseBuild UP-TO-DATE
+:multicolortextview:compileReleaseAidl NO-SOURCE
+:multicolortextview:compileReleaseRenderscript
+:multicolortextview:checkReleaseManifest
+:multicolortextview:generateReleaseBuildConfig
+:multicolortextview:generateReleaseResValues
+:multicolortextview:generateReleaseResources
+:multicolortextview:packageReleaseResources
+:multicolortextview:processReleaseManifest
+:multicolortextview:generateReleaseRFile
+:multicolortextview:compileReleaseKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/multicolortextview/src/main/java/com/lombokcyberlab/android/multicolortextview/MultiColorTextView.kt: (87, 42): Parameter 'index' is never used, could be renamed to _
+:multicolortextview:generateReleaseSources
+:multicolortextview:javaPreCompileRelease
+:multicolortextview:compileReleaseJavaWithJavac
+:multicolortextview:extractReleaseAnnotations
+:multicolortextview:mergeReleaseConsumerProguardFiles
+:multicolortextview:mergeReleaseShaders
+:multicolortextview:compileReleaseShaders
+:multicolortextview:generateReleaseAssets
+:multicolortextview:packageReleaseAssets
+:multicolortextview:packageReleaseRenderscript NO-SOURCE
+:multicolortextview:processReleaseJavaRes NO-SOURCE
+:multicolortextview:transformResourcesWithMergeJavaResForRelease
+:multicolortextview:transformClassesAndResourcesWithSyncLibJarsForRelease
+:multicolortextview:compileReleaseNdk NO-SOURCE
+:multicolortextview:mergeReleaseJniLibFolders
+:multicolortextview:transformNativeLibsWithMergeJniLibsForRelease
+:multicolortextview:transformNativeLibsWithStripDebugSymbolForRelease
+:multicolortextview:transformNativeLibsWithSyncJniLibsForRelease
+:multicolortextview:bundleReleaseAar
+:multicolortextview:compileReleaseSources
+:multicolortextview:mergeReleaseResources
+:multicolortextview:verifyReleaseResources
+:multicolortextview:assembleRelease
+:multicolortextview:assemble
+:multicolortextview:build
+
+BUILD SUCCESSFUL in 23s
+47 actionable tasks: 47 executed
+
+2019-08-11 20:43:54,180 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 20:43:54,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 20:44:01,188 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-11 20:44:01,188 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 20:44:01,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 20:44:38,512 INFO  SysUtils - Configuration on demand is an incubating feature.
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Publication release not found in project :multicolortextview.
+:multicolortextview:preBuild UP-TO-DATE
+:multicolortextview:preDebugBuild UP-TO-DATE
+:multicolortextview:compileDebugAidl NO-SOURCE
+:multicolortextview:compileDebugRenderscript UP-TO-DATE
+:multicolortextview:checkDebugManifest UP-TO-DATE
+:multicolortextview:generateDebugBuildConfig UP-TO-DATE
+:multicolortextview:generateDebugResValues UP-TO-DATE
+:multicolortextview:generateDebugResources UP-TO-DATE
+:multicolortextview:packageDebugResources UP-TO-DATE
+:multicolortextview:processDebugManifest UP-TO-DATE
+:multicolortextview:generateDebugRFile UP-TO-DATE
+:multicolortextview:compileDebugKotlin UP-TO-DATE
+:multicolortextview:prepareLintJar UP-TO-DATE
+:multicolortextview:generateDebugSources UP-TO-DATE
+:multicolortextview:javaPreCompileDebug UP-TO-DATE
+:multicolortextview:compileDebugJavaWithJavac UP-TO-DATE
+:multicolortextview:processDebugJavaRes NO-SOURCE
+:multicolortextview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:multicolortextview:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:compileDebugKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+:sample:prepareLintJar
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:multicolortextview:mergeDebugShaders UP-TO-DATE
+:multicolortextview:compileDebugShaders UP-TO-DATE
+:multicolortextview:generateDebugAssets UP-TO-DATE
+:multicolortextview:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:multicolortextview:compileDebugNdk NO-SOURCE
+:multicolortextview:mergeDebugJniLibFolders UP-TO-DATE
+:multicolortextview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:multicolortextview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:multicolortextview:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:multicolortextview:preReleaseBuild UP-TO-DATE
+:multicolortextview:compileReleaseAidl NO-SOURCE
+:multicolortextview:compileReleaseRenderscript UP-TO-DATE
+:multicolortextview:checkReleaseManifest UP-TO-DATE
+:multicolortextview:generateReleaseBuildConfig UP-TO-DATE
+:multicolortextview:generateReleaseResValues UP-TO-DATE
+:multicolortextview:generateReleaseResources UP-TO-DATE
+:multicolortextview:packageReleaseResources UP-TO-DATE
+:multicolortextview:processReleaseManifest UP-TO-DATE
+:multicolortextview:generateReleaseRFile UP-TO-DATE
+:multicolortextview:compileReleaseKotlin UP-TO-DATE
+:multicolortextview:generateReleaseSources UP-TO-DATE
+:multicolortextview:javaPreCompileRelease UP-TO-DATE
+:multicolortextview:compileReleaseJavaWithJavac UP-TO-DATE
+:multicolortextview:processReleaseJavaRes NO-SOURCE
+:multicolortextview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:checkReleaseClasspath
+:sample:preReleaseBuild
+:sample:compileReleaseAidl NO-SOURCE
+:multicolortextview:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:compileReleaseKotlin
+w: /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.71/3dadc3b79b7ef40318e8b41d6ea99bedd95a8b5f/kotlin-stdlib-jre7-1.2.71.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a1d602f85fbafea1295afcf00129c794/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
+:multicolortextview:mergeReleaseShaders UP-TO-DATE
+:multicolortextview:compileReleaseShaders UP-TO-DATE
+:multicolortextview:generateReleaseAssets UP-TO-DATE
+:multicolortextview:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:multicolortextview:compileReleaseNdk NO-SOURCE
+:multicolortextview:mergeReleaseJniLibFolders UP-TO-DATE
+:multicolortextview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:multicolortextview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:multicolortextview:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 36s
+94 actionable tasks: 61 executed, 33 up-to-date
+
+2019-08-11 20:44:38,602 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565530998897-0/src/MultiColorTextView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
