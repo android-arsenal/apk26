@@ -1,29 +1,29 @@
-2019-03-16 18:31:41,442 INFO  DownloadService - Downloading "https://github.com/yuriy-budiyev/image-loader/archive/master.zip", attempt 3
-2019-03-16 18:31:41,947 INFO  DownloadService - Downloaded https://github.com/yuriy-budiyev/image-loader/archive/master.zip, attempt 3
-2019-03-16 18:31:41,947 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/master.zip": 147 KB
-2019-03-16 18:31:41,947 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-16 18:31:41,953 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/master.zip: true
-2019-03-16 18:31:41,953 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src'.
-2019-03-16 18:31:41,973 INFO  FullProcessService - Size of directory with sources: 272 KB
-2019-03-16 18:31:41,973 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src]
-2019-03-16 18:31:41,992 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/.git/
+2019-08-11 17:26:20,729 INFO  DownloadService - Downloading "https://github.com/yuriy-budiyev/image-loader/archive/master.zip", attempt 3
+2019-08-11 17:26:22,822 INFO  DownloadService - Downloaded https://github.com/yuriy-budiyev/image-loader/archive/master.zip, attempt 3
+2019-08-11 17:26:22,823 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/master.zip": 147 KB
+2019-08-11 17:26:22,823 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 17:26:22,823 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/master.zip: true
+2019-08-11 17:26:22,824 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src'.
+2019-08-11 17:26:22,856 INFO  FullProcessService - Size of directory with sources: 272 KB
+2019-08-11 17:26:22,856 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src]
+2019-08-11 17:26:22,900 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/.git/
 
-2019-03-16 18:31:41,994 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/gradlew
-2019-03-16 18:31:41,997 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/build.gradle
-2019-03-16 18:31:41,999 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/build.gradle
-2019-03-16 18:31:41,999 INFO  ProjectBuildService - Remote scripts: none
-2019-03-16 18:31:41,999 INFO  ProjectFixService - Fixing project...
-2019-03-16 18:31:42,005 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/local.properties
-2019-03-16 18:31:42,006 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-16 18:31:42,006 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-16 18:31:42,007 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-16 18:31:42,007 INFO  ProjectFixService - Project was maybe fixed
-2019-03-16 18:31:42,007 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-16 18:31:42,007 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-16 18:31:49,076 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-03-16 18:31:49,076 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-16 18:31:49,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-16 18:32:01,372 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-11 17:26:22,903 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/gradlew
+2019-08-11 17:26:22,907 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/build.gradle
+2019-08-11 17:26:22,909 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/build.gradle
+2019-08-11 17:26:22,910 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 17:26:22,910 INFO  ProjectFixService - Fixing project...
+2019-08-11 17:26:22,918 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/local.properties
+2019-08-11 17:26:22,919 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-08-11 17:26:22,920 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-08-11 17:26:22,921 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-11 17:26:22,921 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 17:26:22,921 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 17:26:22,922 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 17:26:34,783 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-08-11 17:26:34,783 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-11 17:26:34,783 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-11 17:26:47,582 INFO  SysUtils - Configuration on demand is an incubating feature.
 :preBuild UP-TO-DATE
 :preDebugBuild UP-TO-DATE
 :compileDebugAidl NO-SOURCE
@@ -94,507 +94,507 @@ Note: Recompile with -Xlint:deprecation for details.
 :mergeReleaseResources
 :verifyReleaseResources
 :assembleRelease
-:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataDescriptor.java:26: error: cannot find symbol
+:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataDescriptor.java:26: error: cannot find symbol
 import androidx.annotation.AnyThread;
                           ^
   symbol:   class AnyThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataDescriptor.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataDescriptor.java:27: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataDescriptor.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataDescriptor.java:28: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadImageAction.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadImageAction.java:30: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadImageAction.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadImageAction.java:31: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadImageAction.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadImageAction.java:32: error: cannot find symbol
 import androidx.annotation.WorkerThread;
                           ^
   symbol:   class WorkerThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BaseAction.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BaseAction.java:31: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequestDelegate.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequestDelegate.java:26: error: cannot find symbol
 import androidx.annotation.AnyThread;
                           ^
   symbol:   class AnyThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapLoader.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapLoader.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapLoader.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapLoader.java:29: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapLoader.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapLoader.java:30: error: cannot find symbol
 import androidx.annotation.WorkerThread;
                           ^
   symbol:   class WorkerThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapTransformation.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapTransformation.java:28: error: cannot find symbol
 import androidx.annotation.AnyThread;
                           ^
   symbol:   class AnyThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapTransformation.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapTransformation.java:29: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapTransformation.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BitmapTransformation.java:30: error: cannot find symbol
 import androidx.annotation.WorkerThread;
                           ^
   symbol:   class WorkerThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCache.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCache.java:28: error: cannot find symbol
 import androidx.annotation.AnyThread;
                           ^
   symbol:   class AnyThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCache.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCache.java:29: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCache.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCache.java:30: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCache.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCache.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCache.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCache.java:29: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCache.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCache.java:30: error: cannot find symbol
 import androidx.annotation.WorkerThread;
                           ^
   symbol:   class WorkerThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadCallback.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadCallback.java:28: error: cannot find symbol
 import androidx.annotation.AnyThread;
                           ^
   symbol:   class AnyThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadCallback.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/LoadCallback.java:29: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ErrorCallback.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ErrorCallback.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ErrorCallback.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ErrorCallback.java:29: error: cannot find symbol
 import androidx.annotation.WorkerThread;
                           ^
   symbol:   class WorkerThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderHolder.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderHolder.java:34: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoader.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoader.java:38: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoader.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoader.java:39: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataDescriptorFactory.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataDescriptorFactory.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:40: error: cannot find symbol
 import androidx.annotation.AnyThread;
                           ^
   symbol:   class AnyThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:41: error: cannot find symbol
 import androidx.annotation.DrawableRes;
                           ^
   symbol:   class DrawableRes
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:42: error: cannot find symbol
 import androidx.annotation.FloatRange;
                           ^
   symbol:   class FloatRange
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:43: error: cannot find symbol
 import androidx.annotation.IntRange;
                           ^
   symbol:   class IntRange
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:44: error: cannot find symbol
 import androidx.annotation.MainThread;
                           ^
   symbol:   class MainThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:45: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:46: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:46: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:47: error: cannot find symbol
 import androidx.annotation.Px;
                           ^
   symbol:   class Px
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:48: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageRequest.java:48: error: cannot find symbol
 import androidx.annotation.WorkerThread;
                           ^
   symbol:   class WorkerThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderBuilder.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderBuilder.java:33: error: cannot find symbol
 import androidx.annotation.IntRange;
                           ^
   symbol:   class IntRange
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderBuilder.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderBuilder.java:34: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderBuilder.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderBuilder.java:35: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayCallback.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayCallback.java:29: error: cannot find symbol
 import androidx.annotation.MainThread;
                           ^
   symbol:   class MainThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayCallback.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayCallback.java:30: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/CompressMode.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/CompressMode.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderThreadFactory.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderThreadFactory.java:29: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDataDescriptorFactory.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDataDescriptorFactory.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UriBitmapLoader.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UriBitmapLoader.java:33: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UriBitmapLoader.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UriBitmapLoader.java:34: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayImageAction.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayImageAction.java:37: error: cannot find symbol
 import androidx.annotation.MainThread;
                           ^
   symbol:   class MainThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayImageAction.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayImageAction.java:38: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayImageAction.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DisplayImageAction.java:39: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StringUriDataDescriptorFactory.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StringUriDataDescriptorFactory.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/RoundedDrawable.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/RoundedDrawable.java:39: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/RoundedDrawable.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/RoundedDrawable.java:40: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StringUriBitmapLoader.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StringUriBitmapLoader.java:33: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StringUriBitmapLoader.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StringUriBitmapLoader.java:34: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDescriptorBitmapLoader.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDescriptorBitmapLoader.java:33: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDescriptorBitmapLoader.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDescriptorBitmapLoader.java:34: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataUtils.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataUtils.java:40: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataUtils.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataUtils.java:41: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataUtils.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/DataUtils.java:42: error: cannot find symbol
 import androidx.annotation.WorkerThread;
                           ^
   symbol:   class WorkerThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BaseDataDescriptor.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/BaseDataDescriptor.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileBitmapLoader.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileBitmapLoader.java:33: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileBitmapLoader.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileBitmapLoader.java:34: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ResourceBitmapLoader.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ResourceBitmapLoader.java:31: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ResourceBitmapLoader.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ResourceBitmapLoader.java:32: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StringUriDataDescriptor.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StringUriDataDescriptor.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/IdentifiableDataDescriptor.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/IdentifiableDataDescriptor.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ResourceDataDescriptorFactory.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ResourceDataDescriptorFactory.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDescriptorDataDescriptor.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDescriptorDataDescriptor.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UnidentifiableDataDescriptor.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UnidentifiableDataDescriptor.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UnidentifiableDataDescriptor.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UnidentifiableDataDescriptor.java:27: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/CacheImageOnStorageAction.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/CacheImageOnStorageAction.java:30: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UriDataDescriptorFactory.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UriDataDescriptorFactory.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteArrayBitmapLoader.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteArrayBitmapLoader.java:29: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteArrayBitmapLoader.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteArrayBitmapLoader.java:30: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageUtils.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageUtils.java:39: error: cannot find symbol
 import androidx.annotation.ColorInt;
                           ^
   symbol:   class ColorInt
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageUtils.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageUtils.java:40: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteBuffer.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteBuffer.java:29: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/SyncLoadImageAction.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/SyncLoadImageAction.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/SyncLoadImageAction.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/SyncLoadImageAction.java:29: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/SyncLoadImageAction.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/SyncLoadImageAction.java:30: error: cannot find symbol
 import androidx.annotation.WorkerThread;
                           ^
   symbol:   class WorkerThread
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDescriptorDataDescriptorFactory.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDescriptorDataDescriptorFactory.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/InvalidateImageAction.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/InvalidateImageAction.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/InvalidateImageAction.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/InvalidateImageAction.java:27: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCacheImpl.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCacheImpl.java:43: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCacheImpl.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/StorageImageCacheImpl.java:44: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/AsyncLoadImageAction.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/AsyncLoadImageAction.java:30: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/AsyncLoadImageAction.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/AsyncLoadImageAction.java:31: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/PlaceholderDrawable.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/PlaceholderDrawable.java:31: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/PlaceholderDrawable.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/PlaceholderDrawable.java:32: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteArrayDataDescriptor.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteArrayDataDescriptor.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UriDataDescriptor.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/UriDataDescriptor.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteArrayDataDescriptorFactory.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ByteArrayDataDescriptorFactory.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderExecutor.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderExecutor.java:33: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderExecutor.java:34: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderExecutor.java:34: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDataDescriptor.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/FileDataDescriptor.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCacheImpl.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCacheImpl.java:35: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCacheImpl.java:36: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/MemoryImageCacheImpl.java:36: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderThread.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoaderThread.java:28: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ResourceDataDescriptor.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ResourceDataDescriptor.java:26: error: cannot find symbol
 import androidx.annotation.NonNull;
                           ^
   symbol:   class NonNull
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552735901439-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoader.java:167: error: unterminated signature
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565519180725-0/src/image-loader-master/src/main/java/com/budiyev/android/imageloader/ImageLoader.java:167: error: unterminated signature
      * this method should be called in {@link Application#onTrimMemory)} or {@link ComponentCallbacks2#onTrimMemory},
                                        ^
 
@@ -605,8 +605,8 @@ import androidx.annotation.NonNull;
 :assemble
 :build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 12s
 48 actionable tasks: 48 executed
 
-2019-03-16 18:32:01,391 ERROR FullProcessService - Project build has not produced APK file
-2019-03-16 18:32:01,407 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-11 17:26:47,598 ERROR FullProcessService - Project build has not produced APK file
+2019-08-11 17:26:47,611 ERROR FullProcessService - Could not find generated or existed APK file
