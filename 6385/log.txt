@@ -1,36 +1,39 @@
-2019-08-10 22:22:44,685 INFO  DownloadService - Downloading "https://github.com/skydoves/PowerMenu/archive/master.zip", attempt 3
-2019-08-10 22:22:47,172 INFO  DownloadService - Downloaded https://github.com/skydoves/PowerMenu/archive/master.zip, attempt 3
-2019-08-10 22:22:47,172 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/master.zip": 419 KB
-2019-08-10 22:22:47,172 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-10 22:22:47,178 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/master.zip: true
-2019-08-10 22:22:47,178 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src'.
-2019-08-10 22:22:47,210 INFO  FullProcessService - Size of directory with sources: 529 KB
-2019-08-10 22:22:47,210 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src]
-2019-08-10 22:22:47,236 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/.git/
+2019-08-29 14:05:36,619 INFO  DownloadService - Downloading "https://github.com/skydoves/PowerMenu/archive/master.zip", attempt 3
+2019-08-29 14:06:37,235 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-08-29 14:06:38,245 INFO  GithubDownloadService - Default branch of this repository: master
+2019-08-29 14:06:38,245 INFO  DownloadService - Downloading "https://github.com/skydoves/PowerMenu/archive/master.zip", attempt 3
+2019-08-29 14:07:39,771 DEBUG FullProcessService - Repository https://github.com/skydoves/PowerMenu available: true
+2019-08-29 14:07:39,771 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-08-29 14:07:39,771 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/skydoves/PowerMenu, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src]
+2019-08-29 14:07:42,111 INFO  SysUtils - 
+2019-08-29 14:07:42,118 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/.git": true
+2019-08-29 14:07:42,124 INFO  FullProcessService - Size of directory with sources: 558 KB
+2019-08-29 14:07:42,124 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src]
+2019-08-29 14:07:42,147 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/.git/
 
-2019-08-10 22:22:47,239 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/gradlew
-2019-08-10 22:22:47,242 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/powermenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/build.gradle
-2019-08-10 22:22:47,245 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/powermenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/spotless.gradle
-2019-08-10 22:22:47,246 INFO  ProjectBuildService - Remote scripts: none
-2019-08-10 22:22:47,246 INFO  ProjectFixService - Fixing project...
-2019-08-10 22:22:47,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/app/local.properties
-2019-08-10 22:22:47,257 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-10 22:22:47,257 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-10 22:22:47,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/powermenu/local.properties
-2019-08-10 22:22:47,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/powermenu/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-10 22:22:47,261 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/powermenu/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-10 22:22:47,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/local.properties
-2019-08-10 22:22:47,262 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-08-10 22:22:47,263 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-08-10 22:22:47,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-08-10 22:22:47,265 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-08-10 22:22:47,266 INFO  ProjectFixService - Project was maybe fixed
-2019-08-10 22:22:47,266 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-10 22:22:47,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-10 22:22:56,604 INFO  ProjectTaskService - Detected possible tasks: 68
-2019-08-10 22:22:56,604 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-10 22:22:56,604 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-10 22:23:45,467 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-29 14:07:42,151 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/gradlew
+2019-08-29 14:07:42,156 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/powermenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/build.gradle
+2019-08-29 14:07:42,159 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/powermenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/spotless.gradle
+2019-08-29 14:07:42,160 INFO  ProjectBuildService - Remote scripts: none
+2019-08-29 14:07:42,160 INFO  ProjectFixService - Fixing project...
+2019-08-29 14:07:42,169 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/app/local.properties
+2019-08-29 14:07:42,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:07:42,180 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:07:42,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/powermenu/local.properties
+2019-08-29 14:07:42,184 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/powermenu/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:07:42,184 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/powermenu/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:07:42,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/local.properties
+2019-08-29 14:07:42,186 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-29 14:07:42,186 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-29 14:07:42,190 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-08-29 14:07:42,190 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-08-29 14:07:42,191 INFO  ProjectFixService - Project was maybe fixed
+2019-08-29 14:07:42,191 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-29 14:07:42,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-29 14:07:52,336 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-08-29 14:07:52,337 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-29 14:07:52,337 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-29 14:08:47,059 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :powermenu
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -47,43 +50,37 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :powermenu:preDebugBuild UP-TO-DATE
 > Task :powermenu:checkDebugManifest
 > Task :powermenu:processDebugManifest
-> Task :app:preDebugBuild
 > Task :powermenu:packageDebugRenderscript NO-SOURCE
+> Task :app:preDebugBuild
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
-> Task :powermenu:generateDebugBuildConfig
-> Task :powermenu:generateDebugResValues
-> Task :powermenu:prepareLintJar
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
+> Task :powermenu:generateDebugResValues
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
-> Task :powermenu:javaPreCompileDebug
+> Task :powermenu:generateDebugBuildConfig
+> Task :powermenu:compileDebugRenderscript NO-SOURCE
 > Task :powermenu:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
-> Task :app:generateDebugSources
-> Task :powermenu:compileDebugRenderscript NO-SOURCE
 > Task :powermenu:generateDebugResources
 > Task :powermenu:packageDebugResources
-> Task :powermenu:generateDebugRFile
-> Task :powermenu:generateDebugSources
-
-> Task :powermenu:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :powermenu:bundleLibCompileDebug
-> Task :app:javaPreCompileDebug
 > Task :app:mergeDebugResources
+> Task :powermenu:generateDebugRFile
 > Task :app:processDebugResources
-
+> Task :powermenu:compileDebugKotlin
+> Task :powermenu:prepareLintJar
+> Task :powermenu:generateDebugSources
+> Task :powermenu:javaPreCompileDebug
+> Task :powermenu:compileDebugJavaWithJavac
+> Task :powermenu:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -123,39 +120,33 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
-> Task :powermenu:compileReleaseRenderscript NO-SOURCE
-> Task :powermenu:generateReleaseBuildConfig
-> Task :powermenu:generateReleaseResValues
-> Task :powermenu:generateReleaseResources
-> Task :powermenu:packageReleaseResources
-> Task :powermenu:generateReleaseRFile
-> Task :powermenu:generateReleaseSources
-> Task :powermenu:javaPreCompileRelease
-
-> Task :powermenu:compileReleaseJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :powermenu:bundleLibCompileRelease
-> Task :app:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
+> Task :powermenu:compileReleaseRenderscript NO-SOURCE
+> Task :powermenu:generateReleaseResValues
+> Task :powermenu:generateReleaseResources
+> Task :powermenu:packageReleaseResources
 > Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
+> Task :powermenu:generateReleaseRFile
 > Task :app:processReleaseResources
-
+> Task :powermenu:generateReleaseBuildConfig
+> Task :powermenu:compileReleaseKotlin
+> Task :powermenu:generateReleaseSources
+> Task :powermenu:javaPreCompileRelease
+> Task :powermenu:compileReleaseJavaWithJavac
+> Task :powermenu:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
 > Task :app:compileReleaseSources
 > Task :powermenu:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/31bce88ebb0326c4be360bcd06880bdd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1328a9b8ab03e9a9a3081298bf98fc15/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -191,7 +182,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 48s
-89 actionable tasks: 89 executed
+BUILD SUCCESSFUL in 54s
+93 actionable tasks: 93 executed
 
-2019-08-10 22:23:45,568 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450564677-0/src/PowerMenu-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-29 14:08:47,140 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567062336611-0/src/app/build/outputs/apk/debug/app-debug.apk
