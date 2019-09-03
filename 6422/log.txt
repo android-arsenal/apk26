@@ -1,36 +1,36 @@
-2019-03-10 21:06:55,123 INFO  DownloadService - Downloading "https://github.com/Pulimet/MyLogLibrary/archive/master.zip", attempt 3
-2019-03-10 21:06:57,159 INFO  DownloadService - Downloaded https://github.com/Pulimet/MyLogLibrary/archive/master.zip, attempt 3
-2019-03-10 21:06:57,160 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/master.zip": 166 KB
-2019-03-10 21:06:57,160 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-10 21:06:57,160 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/master.zip: true
-2019-03-10 21:06:57,160 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src'.
-2019-03-10 21:06:57,181 INFO  FullProcessService - Size of directory with sources: 175 KB
-2019-03-10 21:06:57,182 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src]
-2019-03-10 21:06:57,200 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/.git/
+2019-09-03 16:01:00,957 INFO  DownloadService - Downloading "https://github.com/Pulimet/MyLogLibrary/archive/master.zip", attempt 3
+2019-09-03 16:01:01,543 INFO  DownloadService - Downloaded https://github.com/Pulimet/MyLogLibrary/archive/master.zip, attempt 3
+2019-09-03 16:01:01,543 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/master.zip": 187 KB
+2019-09-03 16:01:01,543 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-03 16:01:01,548 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/master.zip: true
+2019-09-03 16:01:01,548 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src'.
+2019-09-03 16:01:01,565 INFO  FullProcessService - Size of directory with sources: 341 KB
+2019-09-03 16:01:01,565 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src]
+2019-09-03 16:01:01,581 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/.git/
 
-2019-03-10 21:06:57,204 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-03-10 21:06:57,204 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-03-10 21:06:57,208 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/mylog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/build.gradle
-2019-03-10 21:06:57,211 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/mylog/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/mylog/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/mylog/build.gradle
-2019-03-10 21:06:57,212 INFO  ProjectBuildService - Remote scripts: none
-2019-03-10 21:06:57,212 INFO  ProjectFixService - Fixing project...
-2019-03-10 21:06:57,222 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/app/local.properties
-2019-03-10 21:06:57,223 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-03-10 21:06:57,223 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-03-10 21:06:57,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/mylog/local.properties
-2019-03-10 21:06:57,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/mylog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-10 21:06:57,226 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/mylog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-03-10 21:06:57,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/local.properties
-2019-03-10 21:06:57,229 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-03-10 21:06:57,229 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=26,minSdkVersion=14,targetSdkVersion=26]
-2019-03-10 21:06:57,229 INFO  ProjectFixService - Project was maybe fixed
-2019-03-10 21:06:57,230 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 21:06:57,230 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 21:06:57,236 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-10 21:06:57,236 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-10 21:06:57,236 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-10 21:06:57,236 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-10 21:06:57,241 ERROR SysUtils - Could not process external command
+2019-09-03 16:01:01,583 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-09-03 16:01:01,583 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-09-03 16:01:01,586 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/mylog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/build.gradle
+2019-09-03 16:01:01,588 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/mylog/bintrayv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/mylog/installv1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/mylog/build.gradle
+2019-09-03 16:01:01,588 INFO  ProjectBuildService - Remote scripts: none
+2019-09-03 16:01:01,588 INFO  ProjectFixService - Fixing project...
+2019-09-03 16:01:01,595 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/app/local.properties
+2019-09-03 16:01:01,596 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-03 16:01:01,596 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-03 16:01:01,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/mylog/local.properties
+2019-09-03 16:01:01,598 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/mylog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-03 16:01:01,598 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/mylog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-03 16:01:01,599 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/local.properties
+2019-09-03 16:01:01,600 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-03 16:01:01,600 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=29]
+2019-09-03 16:01:01,601 INFO  ProjectFixService - Project was maybe fixed
+2019-09-03 16:01:01,601 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 16:01:01,601 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 16:01:01,621 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-03 16:01:01,621 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 16:01:01,621 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 16:01:01,621 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 16:01:01,626 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -68,14 +68,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-03-10 21:06:57,241 INFO  SysUtils - 
-2019-03-10 21:06:57,244 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 21:06:57,245 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/mylog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 21:06:57,249 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-10 21:06:57,249 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-10 21:06:57,249 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-10 21:06:57,250 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/mylog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-10 21:06:57,254 ERROR SysUtils - Could not process external command
+2019-09-03 16:01:01,630 INFO  SysUtils - 
+2019-09-03 16:01:01,632 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 16:01:01,633 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/mylog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 16:01:01,637 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-03 16:01:01,637 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 16:01:01,637 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 16:01:01,637 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/mylog/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 16:01:01,641 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -113,14 +113,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-03-10 21:06:57,255 INFO  SysUtils - 
-2019-03-10 21:06:57,258 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 21:06:57,258 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 21:06:57,263 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-10 21:06:57,263 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-10 21:06:57,263 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-10 21:06:57,263 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552226815114-0/src/MyLogLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-10 21:06:57,268 ERROR SysUtils - Could not process external command
+2019-09-03 16:01:01,641 INFO  SysUtils - 
+2019-09-03 16:01:01,644 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-03 16:01:01,644 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-03 16:01:01,648 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-09-03 16:01:01,648 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-03 16:01:01,648 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-03 16:01:01,648 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567501260954-0/src/MyLogLibrary-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-03 16:01:01,652 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -158,6 +158,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 29 common frames omitted
-2019-03-10 21:06:57,268 INFO  SysUtils - 
-2019-03-10 21:06:57,272 ERROR FullProcessService - Project build has not produced APK file
-2019-03-10 21:06:57,275 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-03 16:01:01,653 INFO  SysUtils - 
+2019-09-03 16:01:01,655 ERROR FullProcessService - Project build has not produced APK file
+2019-09-03 16:01:01,657 ERROR FullProcessService - Could not find generated or existed APK file
