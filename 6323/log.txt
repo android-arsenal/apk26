@@ -1,37 +1,34 @@
-2019-09-03 13:05:32,915 INFO  DownloadService - Downloading "https://github.com/wuseal/JsonToKotlinClass/archive/master.zip", attempt 3
-2019-09-03 13:06:33,651 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-09-03 13:06:34,584 INFO  GithubDownloadService - Default branch of this repository: master
-2019-09-03 13:06:34,584 INFO  DownloadService - Downloading "https://github.com/wuseal/JsonToKotlinClass/archive/master.zip", attempt 3
-2019-09-03 13:07:36,257 DEBUG FullProcessService - Repository https://github.com/wuseal/JsonToKotlinClass available: true
-2019-09-03 13:07:36,257 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-09-03 13:07:36,257 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/wuseal/JsonToKotlinClass, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src]
-2019-09-03 13:07:38,573 INFO  SysUtils - 
-2019-09-03 13:07:38,583 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/.git": true
-2019-09-03 13:07:38,590 INFO  FullProcessService - Size of directory with sources: 540 KB
-2019-09-03 13:07:38,590 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src]
-2019-09-03 13:07:38,608 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/.git/
+2019-09-26 17:54:42,990 INFO  DownloadService - Downloading "https://github.com/wuseal/JsonToKotlinClass/archive/master.zip", attempt 3
+2019-09-26 17:54:46,492 INFO  DownloadService - Downloaded https://github.com/wuseal/JsonToKotlinClass/archive/master.zip, attempt 3
+2019-09-26 17:54:46,493 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/master.zip": 313 KB
+2019-09-26 17:54:46,493 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 17:54:46,493 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/master.zip: true
+2019-09-26 17:54:46,494 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src'.
+2019-09-26 17:54:46,545 INFO  FullProcessService - Size of directory with sources: 540 KB
+2019-09-26 17:54:46,545 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src]
+2019-09-26 17:54:46,563 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/.git/
 
-2019-09-03 13:07:38,614 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/gradlew
-2019-09-03 13:07:38,619 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/build.gradle
-2019-09-03 13:07:38,624 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/build.gradle
-2019-09-03 13:07:38,624 INFO  ProjectBuildService - Remote scripts: none
-2019-09-03 13:07:38,624 INFO  ProjectFixService - Fixing project...
-2019-09-03 13:07:38,633 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/local.properties
-2019-09-03 13:07:38,633 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
-2019-09-03 13:07:38,633 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
-2019-09-03 13:07:38,634 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-03 13:07:38,634 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-03 13:07:38,635 INFO  ProjectFixService - Project was maybe fixed
-2019-09-03 13:07:38,635 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-03 13:07:38,635 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-03 13:07:45,206 INFO  ProjectTaskService - Detected possible tasks: 58
-2019-09-03 13:07:45,206 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-03 13:07:45,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-03 13:08:08,818 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 17:54:46,570 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/gradlew
+2019-09-26 17:54:46,575 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/build.gradle
+2019-09-26 17:54:46,580 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/build.gradle
+2019-09-26 17:54:46,580 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 17:54:46,580 INFO  ProjectFixService - Fixing project...
+2019-09-26 17:54:46,590 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/local.properties
+2019-09-26 17:54:46,590 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.5.1-all.zip
+2019-09-26 17:54:46,591 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.5.1-bin.zip)
+2019-09-26 17:54:46,591 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-09-26 17:54:46,591 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-09-26 17:54:46,592 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 17:54:46,592 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 17:54:46,592 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 17:54:53,301 INFO  ProjectTaskService - Detected possible tasks: 58
+2019-09-26 17:54:53,301 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-09-26 17:54:53,301 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-09-26 17:55:21,316 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :compileKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/src/main/kotlin/wu/seal/jsontokotlin/DataClassGeneratorByJSONObject.kt: (94, 72): Variable 'refKotlinDataClass' initializer is redundant
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567490732912-0/src/src/main/kotlin/wu/seal/jsontokotlin/bean/jsonschema/JsonSchema.kt: (4, 3): Parameter 'title' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/src/main/kotlin/wu/seal/jsontokotlin/DataClassGeneratorByJSONObject.kt: (94, 72): Variable 'refKotlinDataClass' initializer is redundant
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495282986-0/src/JsonToKotlinClass-master/src/main/kotlin/wu/seal/jsontokotlin/bean/jsonschema/JsonSchema.kt: (4, 3): Parameter 'title' is never used
 
 > Task :compileJava NO-SOURCE
 
@@ -51,8 +48,8 @@ Patching plugin.xml: attribute `since-build=[145.0]` of `idea-version` tag will 
 > Task :assemble
 > Task :build
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 27s
 9 actionable tasks: 9 executed
 
-2019-09-03 13:08:08,831 ERROR FullProcessService - Project build has not produced APK file
-2019-09-03 13:08:08,844 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-26 17:55:21,341 ERROR FullProcessService - Project build has not produced APK file
+2019-09-26 17:55:21,365 ERROR FullProcessService - Could not find generated or existed APK file

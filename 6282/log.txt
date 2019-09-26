@@ -1,36 +1,36 @@
-2019-08-28 11:57:33,647 INFO  DownloadService - Downloading "https://github.com/natario1/ZoomLayout/archive/master.zip", attempt 3
-2019-08-28 11:57:49,473 INFO  DownloadService - Downloaded https://github.com/natario1/ZoomLayout/archive/master.zip, attempt 3
-2019-08-28 11:57:49,474 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/master.zip": 28 MB
-2019-08-28 11:57:49,474 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-28 11:57:49,481 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/master.zip: true
-2019-08-28 11:57:49,481 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src'.
-2019-08-28 11:57:49,697 INFO  FullProcessService - Size of directory with sources: 33 MB
-2019-08-28 11:57:49,697 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src]
-2019-08-28 11:57:49,716 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/.git/
+2019-09-26 17:56:59,648 INFO  DownloadService - Downloading "https://github.com/natario1/ZoomLayout/archive/master.zip", attempt 3
+2019-09-26 17:57:20,788 INFO  DownloadService - Downloaded https://github.com/natario1/ZoomLayout/archive/master.zip, attempt 3
+2019-09-26 17:57:20,789 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/master.zip": 28 MB
+2019-09-26 17:57:20,789 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-26 17:57:20,790 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/master.zip: true
+2019-09-26 17:57:20,790 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src'.
+2019-09-26 17:57:21,021 INFO  FullProcessService - Size of directory with sources: 33 MB
+2019-09-26 17:57:21,021 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src]
+2019-09-26 17:57:21,042 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/.git/
 
-2019-08-28 11:57:49,718 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/gradlew
-2019-08-28 11:57:49,720 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/build.gradle
-2019-08-28 11:57:49,723 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/settings.gradle
-2019-08-28 11:57:49,723 INFO  ProjectBuildService - Remote scripts: none
-2019-08-28 11:57:49,723 INFO  ProjectFixService - Fixing project...
-2019-08-28 11:57:49,728 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/local.properties
-2019-08-28 11:57:49,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-28 11:57:49,730 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-28 11:57:49,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/library/local.properties
-2019-08-28 11:57:49,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-28 11:57:49,732 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-28 11:57:49,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/local.properties
-2019-08-28 11:57:49,733 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-08-28 11:57:49,734 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-08-28 11:57:49,735 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-28 11:57:49,735 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-28 11:57:49,735 INFO  ProjectFixService - Project was maybe fixed
-2019-08-28 11:57:49,735 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-28 11:57:49,735 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-28 11:58:02,472 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-28 11:58:02,473 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-28 11:58:02,473 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-28 11:59:08,757 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-26 17:57:21,044 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/gradlew
+2019-09-26 17:57:21,047 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/build.gradle
+2019-09-26 17:57:21,050 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/settings.gradle
+2019-09-26 17:57:21,050 INFO  ProjectBuildService - Remote scripts: none
+2019-09-26 17:57:21,050 INFO  ProjectFixService - Fixing project...
+2019-09-26 17:57:21,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/local.properties
+2019-09-26 17:57:21,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:57:21,059 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:57:21,060 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/library/local.properties
+2019-09-26 17:57:21,061 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:57:21,061 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:57:21,062 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/local.properties
+2019-09-26 17:57:21,063 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-09-26 17:57:21,063 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-09-26 17:57:21,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:57:21,064 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-26 17:57:21,064 INFO  ProjectFixService - Project was maybe fixed
+2019-09-26 17:57:21,064 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-26 17:57:21,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-26 17:57:29,254 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-26 17:57:29,254 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-26 17:57:29,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-26 17:58:40,231 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :library:preBuild UP-TO-DATE
@@ -38,8 +38,8 @@
 > Task :library:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :library:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
 > Task :library:checkDebugManifest
 > Task :library:compileDebugRenderscript NO-SOURCE
@@ -72,7 +72,7 @@
 > Task :app:javaPreCompileDebug
 
 > Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/src/main/java/com/otaliastudios/zoom/demo/ColorGridView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/src/main/java/com/otaliastudios/zoom/demo/ColorGridView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileDebugSources
@@ -122,24 +122,24 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeReleaseResources
 > Task :app:processReleaseResources
 > Task :library:bundleLibCompileRelease
-> Task :app:prepareLintJar
 > Task :app:javaPreCompileRelease
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/src/main/java/com/otaliastudios/zoom/demo/ColorGridView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/src/main/java/com/otaliastudios/zoom/demo/ColorGridView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :app:compileReleaseSources
+> Task :app:prepareLintJar
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/bbc5de7b454aaf2cc987d5e724a46184/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :app:checkReleaseDuplicateClasses
-> Task :library:bundleLibRuntimeRelease
-> Task :app:mergeExtDexDebug
 > Task :library:bundleLibResRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexDebug
+> Task :library:bundleLibRuntimeRelease
 > Task :library:createFullJarRelease
 > Task :app:mergeDexDebug
 > Task :app:packageDebug
@@ -175,7 +175,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 5s
+BUILD SUCCESSFUL in 1m 10s
 94 actionable tasks: 94 executed
 
-2019-08-28 11:59:08,828 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968253638-0/src/ZoomLayout-master/app/build/outputs/apk/release/ZoomLayout_v1.0_(1)-release-unsigned.apk
+2019-09-26 17:58:40,288 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1569495419644-0/src/ZoomLayout-master/app/build/outputs/apk/release/ZoomLayout_v1.0_(1)-release-unsigned.apk
