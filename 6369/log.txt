@@ -1,33 +1,33 @@
-2019-03-10 21:31:14,274 INFO  DownloadService - Downloading "https://github.com/lytefast/flex-input/archive/master.zip", attempt 3
-2019-03-10 21:31:16,588 INFO  DownloadService - Downloaded https://github.com/lytefast/flex-input/archive/master.zip, attempt 3
-2019-03-10 21:31:16,589 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/master.zip": 1 MB
-2019-03-10 21:31:16,589 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-10 21:31:16,595 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/master.zip: true
-2019-03-10 21:31:16,595 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src'.
-2019-03-10 21:31:16,648 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-10 21:31:16,648 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src]
-2019-03-10 21:31:16,666 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/.git/
+2019-10-05 21:31:57,531 INFO  DownloadService - Downloading "https://github.com/lytefast/flex-input/archive/master.zip", attempt 3
+2019-10-05 21:32:01,152 INFO  DownloadService - Downloaded https://github.com/lytefast/flex-input/archive/master.zip, attempt 3
+2019-10-05 21:32:01,152 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/master.zip": 1 MB
+2019-10-05 21:32:01,152 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-05 21:32:01,154 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/master.zip: true
+2019-10-05 21:32:01,155 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src'.
+2019-10-05 21:32:01,217 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-10-05 21:32:01,217 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src]
+2019-10-05 21:32:01,241 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/.git/
 
-2019-03-10 21:31:16,671 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/gradlew
-2019-03-10 21:31:16,677 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/build.gradle
-2019-03-10 21:31:16,682 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/settings.gradle
-2019-03-10 21:31:16,682 INFO  ProjectBuildService - Remote scripts: none
-2019-03-10 21:31:16,682 INFO  ProjectFixService - Fixing project...
-2019-03-10 21:31:16,693 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/local.properties
-2019-03-10 21:31:16,694 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-10 21:31:16,695 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/local.properties
-2019-03-10 21:31:16,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-10 21:31:16,696 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/local.properties
-2019-03-10 21:31:16,697 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-10 21:31:16,697 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-10 21:31:16,697 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-10 21:31:16,698 INFO  ProjectFixService - Project was maybe fixed
-2019-03-10 21:31:16,698 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 21:31:16,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 21:31:24,241 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-10 21:31:24,241 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-10 21:31:24,241 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-10 21:32:31,311 ERROR SysUtils - Could not process external command
+2019-10-05 21:32:01,247 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/gradlew
+2019-10-05 21:32:01,252 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/build.gradle
+2019-10-05 21:32:01,256 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/settings.gradle
+2019-10-05 21:32:01,256 INFO  ProjectBuildService - Remote scripts: none
+2019-10-05 21:32:01,256 INFO  ProjectFixService - Fixing project...
+2019-10-05 21:32:01,266 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/app/local.properties
+2019-10-05 21:32:01,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-05 21:32:01,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/local.properties
+2019-10-05 21:32:01,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-05 21:32:01,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/local.properties
+2019-10-05 21:32:01,269 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-10-05 21:32:01,269 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-10-05 21:32:01,270 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-05 21:32:01,270 INFO  ProjectFixService - Project was maybe fixed
+2019-10-05 21:32:01,270 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-05 21:32:01,270 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-05 21:32:08,229 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-10-05 21:32:08,230 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-05 21:32:08,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-05 21:33:12,729 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -40,7 +40,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -54,168 +55,221 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-10 21:32:31,317 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-Download https://dl.google.com/dl/android/maven2/androidx/legacy/legacy-support-v13/1.0.0/legacy-support-v13-1.0.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/fresco/1.11.0/fresco-1.11.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/animated-base/1.11.0/animated-base-1.11.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/drawee/1.11.0/drawee-1.11.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/animated-drawable/1.11.0/animated-drawable-1.11.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/nativeimagefilters/1.11.0/nativeimagefilters-1.11.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/imagepipeline-base/1.11.0/imagepipeline-base-1.11.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/fbcore/1.11.0/fbcore-1.11.0.aar
-Download https://jcenter.bintray.com/com/facebook/soloader/soloader/0.5.1/soloader-0.5.1.aar
-Download https://jcenter.bintray.com/com/camerakit/camerakit/1.0.0-beta3.10/camerakit-1.0.0-beta3.10.aar
-Download https://jcenter.bintray.com/com/camerakit/jpegkit/0.2.0/jpegkit-0.2.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/animated-gif/1.11.0/animated-gif-1.11.0.aar
-Download https://jcenter.bintray.com/com/facebook/fresco/imagepipeline/1.11.0/imagepipeline-1.11.0.aar
-:app:preBuild UP-TO-DATE
-:flexinput:preBuild UP-TO-DATE
-:flexinput:preDebugBuild UP-TO-DATE
-:flexinput:checkDebugManifest
-:flexinput:processDebugManifest
-:app:preDebugBuild
-:flexinput:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:flexinput:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:flexinput:compileDebugRenderscript
-:flexinput:generateDebugResValues
-:flexinput:generateDebugResources
-:flexinput:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:flexinput:generateDebugRFile
-:app:processDebugResources
-:flexinput:generateDebugBuildConfig
-:flexinput:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AttachmentPreviewAdapter.kt: (68, 32): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (112, 15): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (118, 19): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (125, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (144, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/AddContentDialogFragment.kt: (140, 29): Unnecessary non-null assertion (!!) on a non-null receiver of type CharSequence
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (41, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (26, 16): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (27, 15): Type mismatch: inferred type is Array<String!>? but Array<String> was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (67, 14): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (38, 21): Unsafe use of a nullable receiver of type Cursor?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (34, 55): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (38, 16): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (40, 22): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
-:flexinput:prepareLintJar
-:flexinput:generateDebugSources
-:flexinput:javaPreCompileDebug
-:flexinput:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+2019-10-05 21:33:12,729 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :flexinput:preBuild UP-TO-DATE
+> Task :flexinput:preDebugBuild UP-TO-DATE
+> Task :flexinput:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :flexinput:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :flexinput:generateDebugResValues
+> Task :flexinput:compileDebugRenderscript NO-SOURCE
+> Task :flexinput:generateDebugResources
+> Task :flexinput:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :flexinput:checkDebugManifest
+> Task :app:mergeDebugResources
+> Task :flexinput:processDebugManifest
+> Task :app:processDebugManifest
+> Task :flexinput:parseDebugLibraryResources
+> Task :flexinput:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :flexinput:mergeDebugShaders
+> Task :flexinput:compileDebugShaders
+> Task :flexinput:generateDebugAssets
+> Task :flexinput:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :flexinput:processDebugJavaRes NO-SOURCE
+> Task :flexinput:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :flexinput:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AddContentPagerAdapter.kt: (29, 5): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (141, 72): 'MINI_THUMB_MAGIC: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (142, 38): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 48): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 59): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 63): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 74): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 35): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 46): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (158, 43): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 38): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 49): 'IMAGE_ID: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 70): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 81): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (109, 72): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (120, 37): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (210, 49): Unnecessary safe call on a non-null receiver of type AnimatorSet
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (213, 47): Unnecessary safe call on a non-null receiver of type AnimatorSet
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 18): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 36): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 23): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 41): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 56): 'getNumberOfCameras(): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (390, 43): 'ACTION_MEDIA_SCANNER_SCAN_FILE: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (95, 38): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (42, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/managers/SimpleFileManager.kt: (27, 23): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 27): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 38): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (28, 35): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 30): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 41): 'IMAGE_ID: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 67): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 78): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 29): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 40): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 27): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 38): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 52): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 63): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
+
+> Task :flexinput:javaPreCompileDebug
+
+> Task :flexinput:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/EmojiCategoryPagerFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:flexinput:processDebugJavaRes NO-SOURCE
-:flexinput:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-:app:prepareLintJar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+> Task :flexinput:bundleLibResDebug
+> Task :flexinput:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+
+> Task :app:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:flexinput:mergeDebugShaders
-:flexinput:compileDebugShaders
-:flexinput:generateDebugAssets
-:flexinput:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformClassesWithMultidexlistForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:flexinput:compileDebugNdk NO-SOURCE
-:flexinput:mergeDebugJniLibFolders
-:flexinput:transformNativeLibsWithMergeJniLibsForDebug
-:flexinput:transformNativeLibsWithStripDebugSymbolForDebug
-:flexinput:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:flexinput:preReleaseBuild UP-TO-DATE
-:flexinput:checkReleaseManifest
-:flexinput:processReleaseManifest
-:app:preReleaseBuild
-:flexinput:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:flexinput:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:flexinput:compileReleaseRenderscript
-:flexinput:generateReleaseResValues
-:flexinput:generateReleaseResources
-:flexinput:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:flexinput:generateReleaseRFile
-:app:processReleaseResources
-:flexinput:generateReleaseBuildConfig
-:flexinput:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AttachmentPreviewAdapter.kt: (68, 32): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (112, 15): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (118, 19): Unnecessary non-null assertion (!!) on a non-null receiver of type String
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (125, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (144, 17): 'setImageURI(Uri!): Unit' is deprecated. Overrides deprecated member in 'com.facebook.drawee.view.GenericDraweeView'. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/AddContentDialogFragment.kt: (140, 29): Unnecessary non-null assertion (!!) on a non-null receiver of type CharSequence
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (41, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (26, 16): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (27, 15): Type mismatch: inferred type is Array<String!>? but Array<String> was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Emoji.kt: (67, 14): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (38, 21): Unsafe use of a nullable receiver of type Cursor?
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (34, 55): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (38, 16): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/FileUtils.kt: (40, 22): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
-:flexinput:generateReleaseSources
-:flexinput:javaPreCompileRelease
-:flexinput:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+> Task :app:compileDebugSources
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :flexinput:bundleLibRuntimeDebug
+> Task :flexinput:createFullJarDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :flexinput:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :flexinput:preReleaseBuild UP-TO-DATE
+> Task :flexinput:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :flexinput:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :flexinput:compileReleaseRenderscript NO-SOURCE
+> Task :flexinput:generateReleaseResValues
+> Task :flexinput:generateReleaseResources
+> Task :flexinput:packageReleaseResources
+> Task :flexinput:mergeDebugNativeLibs
+> Task :flexinput:stripDebugDebugSymbols
+> Task :flexinput:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :flexinput:checkReleaseManifest
+> Task :flexinput:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeDebugJavaResource
+> Task :flexinput:generateReleaseBuildConfig
+> Task :app:mergeReleaseResources
+> Task :flexinput:parseReleaseLibraryResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:multiDexListDebug
+> Task :flexinput:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :flexinput:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AddContentPagerAdapter.kt: (29, 5): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (141, 72): 'MINI_THUMB_MAGIC: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (142, 38): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 48): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 59): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 63): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 74): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 35): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 46): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (158, 43): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 38): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 49): 'IMAGE_ID: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 70): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 81): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (109, 72): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (120, 37): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (210, 49): Unnecessary safe call on a non-null receiver of type AnimatorSet
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (213, 47): Unnecessary safe call on a non-null receiver of type AnimatorSet
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 18): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 36): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 23): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 41): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 56): 'getNumberOfCameras(): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (390, 43): 'ACTION_MEDIA_SCANNER_SCAN_FILE: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (95, 38): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (42, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/managers/SimpleFileManager.kt: (27, 23): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 27): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 38): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (28, 35): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 30): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 41): 'IMAGE_ID: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 67): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 78): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 29): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 40): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 27): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 38): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 52): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 63): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
+
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :flexinput:javaPreCompileRelease
+
+> Task :flexinput:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/EmojiCategoryPagerFragment.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:flexinput:processReleaseJavaRes NO-SOURCE
-:flexinput:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+> Task :app:prepareLintJar
+> Task :flexinput:prepareLintJarForPublish
+> Task :flexinput:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+
+> Task :app:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/src/main/res/values-night/colors.xml:17: Error: The color "highlight_alpha_50" in values-night has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
+> Task :app:compileReleaseSources
+
+> Task :app:lintVitalRelease
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/app/src/main/res/values-night/colors.xml:17: Error: The color "highlight_alpha_50" in values-night has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
     <color name="highlight_alpha_50">#80222222</color>
            ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -245,7 +299,8 @@ Note: Recompile with -Xlint:unchecked for details.
    ExtraTranslation.)
 
 1 errors, 0 warnings
- FAILED
+
+> Task :app:lintVitalRelease FAILED
 
 FAILURE: Build failed with an exception.
 
@@ -270,34 +325,42 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 
 * Exception is:
 org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lintVitalRelease'.
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
-	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
-	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
-	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
-	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
-	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
-	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:151)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:148)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:141)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
@@ -315,31 +378,74 @@ android {
 }
 ...
 	at com.android.tools.lint.gradle.LintGradleExecution.abort(LintGradleExecution.java:206)
-	at com.android.tools.lint.gradle.LintGradleExecution.runLint(LintGradleExecution.java:297)
-	at com.android.tools.lint.gradle.LintGradleExecution.lintSingleVariant(LintGradleExecution.java:368)
+	at com.android.tools.lint.gradle.LintGradleExecution.runLint(LintGradleExecution.java:307)
+	at com.android.tools.lint.gradle.LintGradleExecution.lintSingleVariant(LintGradleExecution.java:385)
 	at com.android.tools.lint.gradle.LintGradleExecution.analyze(LintGradleExecution.java:91)
 	at com.android.tools.lint.gradle.api.ReflectiveLintRunner.runLint(ReflectiveLintRunner.kt:38)
-	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:88)
-	at com.android.build.gradle.tasks.LintPerVariantTask.lint(LintPerVariantTask.java:41)
-	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:46)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
-	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:788)
-	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:755)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
-	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
-	... 30 more
+	at com.android.build.gradle.tasks.LintBaseTask.runLint(LintBaseTask.java:100)
+	at com.android.build.gradle.tasks.LintPerVariantTask.lint(LintPerVariantTask.java:60)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:702)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:669)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
+	... 35 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 6s
-75 actionable tasks: 75 executed
+BUILD FAILED in 1m 3s
 
-2019-03-10 21:32:31,497 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552228274271-0/src/flex-input-master/app/build/outputs/apk/debug/app-debug.apk
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+71 actionable tasks: 71 executed
+
+2019-10-05 21:33:12,818 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570285917528-0/src/flex-input-master/app/build/outputs/apk/debug/app-debug.apk
