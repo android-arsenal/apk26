@@ -1,207 +1,172 @@
-2019-10-08 13:30:10,622 INFO  DownloadService - Downloading "https://github.com/TakuSemba/CropMe/archive/master.zip", attempt 3
-2019-10-08 13:31:35,038 INFO  DownloadService - Downloaded https://github.com/TakuSemba/CropMe/archive/master.zip, attempt 3
-2019-10-08 13:31:35,038 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/master.zip": 30 MB
-2019-10-08 13:31:35,038 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-08 13:31:35,039 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/master.zip: true
-2019-10-08 13:31:35,040 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src'.
-2019-10-08 13:31:35,207 INFO  FullProcessService - Size of directory with sources: 30 MB
-2019-10-08 13:31:35,207 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src]
-2019-10-08 13:31:35,244 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/.git/
+2019-11-07 13:48:31,032 INFO  DownloadService - Downloading "https://github.com/TakuSemba/CropMe/archive/master.zip", attempt 3
+2019-11-07 13:49:15,113 INFO  DownloadService - Downloaded https://github.com/TakuSemba/CropMe/archive/master.zip, attempt 3
+2019-11-07 13:49:15,114 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/master.zip": 30 MB
+2019-11-07 13:49:15,114 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-07 13:49:15,115 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/master.zip: true
+2019-11-07 13:49:15,116 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src'.
+2019-11-07 13:49:15,253 INFO  FullProcessService - Size of directory with sources: 30 MB
+2019-11-07 13:49:15,253 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src]
+2019-11-07 13:49:15,270 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/.git/
 
-2019-10-08 13:31:35,246 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/gradlew
-2019-10-08 13:31:35,249 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/cropme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/build.gradle
-2019-10-08 13:31:35,252 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/cropme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/settings.gradle
-2019-10-08 13:31:35,252 INFO  ProjectBuildService - Remote scripts: none
-2019-10-08 13:31:35,252 INFO  ProjectFixService - Fixing project...
-2019-10-08 13:31:35,259 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/app/local.properties
-2019-10-08 13:31:35,261 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-08 13:31:35,261 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-08 13:31:35,262 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/cropme/local.properties
-2019-10-08 13:31:35,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/cropme/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-08 13:31:35,264 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/cropme/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-08 13:31:35,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/local.properties
-2019-10-08 13:31:35,265 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
-2019-10-08 13:31:35,266 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
-2019-10-08 13:31:35,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-10-08 13:31:35,268 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-10-08 13:31:35,269 INFO  ProjectFixService - Project was maybe fixed
-2019-10-08 13:31:35,269 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-08 13:31:35,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-08 13:32:35,699 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-10-08 13:32:35,700 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-08 13:32:35,700 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-08 13:33:09,444 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
-> Task :buildSrc:compileJava NO-SOURCE
-> Task :buildSrc:compileGroovy NO-SOURCE
-> Task :buildSrc:processResources NO-SOURCE
-> Task :buildSrc:classes UP-TO-DATE
-> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
-> Task :buildSrc:jar UP-TO-DATE
-> Task :buildSrc:assemble UP-TO-DATE
-> Task :buildSrc:compileTestKotlin NO-SOURCE
-> Task :buildSrc:compileTestJava NO-SOURCE
-> Task :buildSrc:compileTestGroovy NO-SOURCE
-> Task :buildSrc:processTestResources NO-SOURCE
-> Task :buildSrc:testClasses UP-TO-DATE
-> Task :buildSrc:test NO-SOURCE
-> Task :buildSrc:check UP-TO-DATE
-> Task :buildSrc:build UP-TO-DATE
-Configuration on demand is an incubating feature.
-> Task :app:checkDebugClasspath
+2019-11-07 13:49:15,273 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/gradlew
+2019-11-07 13:49:15,275 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/build.gradle
+2019-11-07 13:49:15,277 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/settings.gradle
+2019-11-07 13:49:15,278 INFO  ProjectBuildService - Remote scripts: none
+2019-11-07 13:49:15,278 INFO  ProjectFixService - Fixing project...
+2019-11-07 13:49:15,284 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/app/local.properties
+2019-11-07 13:49:15,286 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-07 13:49:15,286 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-07 13:49:15,287 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/local.properties
+2019-11-07 13:49:15,289 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-07 13:49:15,289 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-07 13:49:15,290 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/local.properties
+2019-11-07 13:49:15,290 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
+2019-11-07 13:49:15,290 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
+2019-11-07 13:49:15,292 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-11-07 13:49:15,292 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-11-07 13:49:15,293 INFO  ProjectFixService - Project was maybe fixed
+2019-11-07 13:49:15,293 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-07 13:49:15,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-07 13:49:23,602 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-11-07 13:49:23,602 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-11-07 13:49:23,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-11-07 13:50:25,266 INFO  SysUtils - Configuration on demand is an incubating feature.
+Configuration(s) specified but the install task does not exist in project :cropme.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :cropme:preBuild UP-TO-DATE
 > Task :cropme:preDebugBuild UP-TO-DATE
-> Task :cropme:checkDebugManifest
-> Task :cropme:processDebugManifest
-> Task :app:preDebugBuild
-> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with IdentityTransform
-> Transform support-compat.aar (com.android.support:support-compat:26.0.0) with IdentityTransform
-> Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with IdentityTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with IdentityTransform
-> Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with IdentityTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with IdentityTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with IdentityTransform
-> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with IdentityTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with ExtractAarTransform
-> Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with ExtractAarTransform
-> Transform support-compat.aar (com.android.support:support-compat:26.0.0) with ExtractAarTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with ExtractAarTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with ExtractAarTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with ExtractAarTransform
-> Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with ExtractAarTransform
-> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with ExtractAarTransform
-> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with AarTransform
-> Transform support-dynamic-animation.aar (com.android.support:support-dynamic-animation:26.0.0) with IdentityTransform
-> Transform support-dynamic-animation.aar (com.android.support:support-dynamic-animation:26.0.0) with ExtractAarTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with AarTransform
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with IdentityTransform
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with ExtractAarTransform
-> Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with AarTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with AarTransform
-> Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with AarTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with AarTransform
-> Transform support-compat.aar (com.android.support:support-compat:26.0.0) with AarTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with AarTransform
-> Transform support-dynamic-animation.aar (com.android.support:support-dynamic-animation:26.0.0) with AarTransform
 > Task :cropme:packageDebugRenderscript NO-SOURCE
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with AarTransform
-> Task :app:compileDebugRenderscript
-> Task :cropme:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Transform support-compat.aar (com.android.support:support-compat:26.0.0) with AarTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with AarTransform
-> Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with AarTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with AarTransform
-> Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with AarTransform
-> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with AarTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with AarTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with AarTransform
-> Transform support-dynamic-animation.aar (com.android.support:support-dynamic-animation:26.0.0) with AarTransform
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with AarTransform
 > Task :cropme:generateDebugResValues
-> Task :cropme:compileDebugRenderscript
-> Task :cropme:generateDebugResources
-> Task :cropme:packageDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:splitsDiscoveryTaskDebug
-> Task :cropme:generateDebugRFile
-> Task :app:processDebugResources
-> Task :app:generateDebugSources
-> Transform support-compat.aar (com.android.support:support-compat:26.0.0) with AarTransform
-> Transform support-annotations.jar (com.android.support:support-annotations:26.0.0) with IdentityTransform
-> Transform support-core-ui.aar (com.android.support:support-core-ui:26.0.0) with AarTransform
-> Transform support-media-compat.aar (com.android.support:support-media-compat:26.0.0) with AarTransform
-> Transform support-core-utils.aar (com.android.support:support-core-utils:26.0.0) with AarTransform
-> Transform support-fragment.aar (com.android.support:support-fragment:26.0.0) with AarTransform
-> Transform support-v4.aar (com.android.support:support-v4:26.0.0) with AarTransform
-> Transform support-vector-drawable.aar (com.android.support:support-vector-drawable:26.0.0) with AarTransform
-> Transform animated-vector-drawable.aar (com.android.support:animated-vector-drawable:26.0.0) with AarTransform
-> Transform support-dynamic-animation.aar (com.android.support:support-dynamic-animation:26.0.0) with AarTransform
-> Transform appcompat-v7.aar (com.android.support:appcompat-v7:26.0.0) with AarTransform
+> Task :cropme:checkDebugManifest
 > Task :cropme:generateDebugBuildConfig
-> Transform support-annotations.jar (com.android.support:support-annotations:26.0.0) with IdentityTransform
-> Task :cropme:prepareLintJar
-> Task :cropme:generateDebugSources
-> Task :cropme:javaPreCompileDebug
-> Task :cropme:compileDebugJavaWithJavac
-> Task :cropme:processDebugJavaRes NO-SOURCE
-> Task :cropme:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
 > Task :cropme:mergeDebugShaders
 > Task :cropme:compileDebugShaders
 > Task :cropme:generateDebugAssets
+> Task :cropme:compileDebugRenderscript NO-SOURCE
+> Task :cropme:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :cropme:generateDebugResources
+> Task :cropme:packageDebugResources
 > Task :cropme:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
-> Task :app:mergeDebugJniLibFolders
-> Task :cropme:compileDebugNdk NO-SOURCE
-> Task :cropme:mergeDebugJniLibFolders
-> Task :cropme:transformNativeLibsWithMergeJniLibsForDebug
-> Task :cropme:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :cropme:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:checkDebugLibraries
+> Task :cropme:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :cropme:parseDebugLibraryResources
 > Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :cropme:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :cropme:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :cropme:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (27, 77): Parameter 'dynamicAnimation' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (27, 95): Parameter 'value' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (30, 71): Parameter 'dynamicAnimation' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (30, 89): Parameter 'b' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (30, 92): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (30, 95): Parameter 'v1' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (27, 77): Parameter 'dynamicAnimation' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (27, 95): Parameter 'value' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (30, 71): Parameter 'dynamicAnimation' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (30, 89): Parameter 'b' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (30, 92): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (30, 95): Parameter 'v1' is never used, could be renamed to _
+
+> Task :cropme:javaPreCompileDebug
+> Task :cropme:compileDebugJavaWithJavac
+> Task :cropme:bundleLibResDebug
+> Task :cropme:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :cropme:bundleLibRuntimeDebug
+> Task :cropme:createFullJarDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
+> Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :app:checkReleaseClasspath
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :cropme:mergeDebugJniLibFolders
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :cropme:preReleaseBuild UP-TO-DATE
-> Task :cropme:checkReleaseManifest
-> Task :cropme:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :cropme:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :cropme:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :cropme:compileReleaseRenderscript
+> Task :cropme:compileReleaseRenderscript NO-SOURCE
 > Task :cropme:generateReleaseResValues
 > Task :cropme:generateReleaseResources
 > Task :cropme:packageReleaseResources
-> Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
+> Task :cropme:checkReleaseManifest
+> Task :cropme:mergeDebugNativeLibs
+> Task :cropme:stripDebugDebugSymbols
+> Task :cropme:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :cropme:parseReleaseLibraryResources
+> Task :cropme:generateReleaseBuildConfig
+> Task :cropme:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :app:splitsDiscoveryTaskRelease
+> Task :app:mergeReleaseResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
 > Task :cropme:generateReleaseRFile
 > Task :app:processReleaseResources
-> Task :app:generateReleaseSources
-> Task :cropme:generateReleaseBuildConfig
-> Task :cropme:generateReleaseSources
+
+> Task :cropme:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (27, 77): Parameter 'dynamicAnimation' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (27, 95): Parameter 'value' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (30, 71): Parameter 'dynamicAnimation' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (30, 89): Parameter 'b' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (30, 92): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/HorizontalAnimatorImpl.kt: (30, 95): Parameter 'v1' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (27, 77): Parameter 'dynamicAnimation' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (27, 95): Parameter 'value' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (30, 71): Parameter 'dynamicAnimation' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (30, 89): Parameter 'b' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (30, 92): Parameter 'v' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/cropme/src/main/java/com/takusemba/cropme/internal/VerticalAnimatorImpl.kt: (30, 95): Parameter 'v1' is never used, could be renamed to _
+
 > Task :cropme:javaPreCompileRelease
 > Task :cropme:compileReleaseJavaWithJavac
+> Task :app:prepareLintJar
 > Task :cropme:processReleaseJavaRes NO-SOURCE
-> Task :cropme:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :cropme:prepareLintJarForPublish
+> Task :cropme:bundleLibRuntimeRelease
+> Task :cropme:bundleLibResRelease
+> Task :cropme:createFullJarRelease
+> Task :cropme:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:mergeExtDexDebug
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/e5886761a15d509827ed219520b93bf7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-26/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/0f120cbb2be4eac0e312fc73fc3b3b8e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -210,26 +175,28 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :cropme:generateReleaseAssets
 > Task :cropme:packageReleaseAssets
 > Task :app:mergeReleaseAssets
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
-> Task :app:mergeReleaseJniLibFolders
-> Task :cropme:compileReleaseNdk NO-SOURCE
-> Task :cropme:mergeReleaseJniLibFolders
-> Task :cropme:transformNativeLibsWithMergeJniLibsForRelease
-> Task :cropme:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :cropme:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:checkReleaseLibraries
 > Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :cropme:mergeReleaseJniLibFolders
+> Task :cropme:mergeReleaseNativeLibs
+> Task :cropme:stripReleaseDebugSymbols
+> Task :cropme:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 33s
-90 actionable tasks: 90 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-10-08 13:33:09,510 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570516210619-0/src/CropMe-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 1m 0s
+94 actionable tasks: 94 executed
+
+2019-11-07 13:50:25,341 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109311027-0/src/CropMe-master/app/build/outputs/apk/debug/app-debug.apk

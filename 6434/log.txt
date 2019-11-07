@@ -1,38 +1,38 @@
-2019-07-05 19:33:17,105 INFO  DownloadService - Downloading "https://github.com/warkiz/IndicatorSeekBar/archive/master.zip", attempt 3
-2019-07-05 19:33:22,902 INFO  DownloadService - Downloaded https://github.com/warkiz/IndicatorSeekBar/archive/master.zip, attempt 3
-2019-07-05 19:33:22,903 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/master.zip": 6 MB
-2019-07-05 19:33:22,903 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-05 19:33:22,909 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/master.zip: true
-2019-07-05 19:33:22,910 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src'.
-2019-07-05 19:33:22,979 INFO  FullProcessService - Size of directory with sources: 7 MB
-2019-07-05 19:33:22,980 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src]
-2019-07-05 19:33:22,996 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/.git/
+2019-11-07 13:44:42,102 INFO  DownloadService - Downloading "https://github.com/warkiz/IndicatorSeekBar/archive/master.zip", attempt 3
+2019-11-07 13:44:46,101 INFO  DownloadService - Downloaded https://github.com/warkiz/IndicatorSeekBar/archive/master.zip, attempt 3
+2019-11-07 13:44:46,101 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/master.zip": 6 MB
+2019-11-07 13:44:46,101 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-11-07 13:44:46,104 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/master.zip: true
+2019-11-07 13:44:46,104 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src'.
+2019-11-07 13:44:46,173 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-11-07 13:44:46,174 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src]
+2019-11-07 13:44:46,190 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/.git/
 
-2019-07-05 19:33:22,999 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/gradlew
-2019-07-05 19:33:23,003 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/indicatorseekbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/build.gradle
-2019-07-05 19:33:23,006 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/indicatorseekbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/settings.gradle
-2019-07-05 19:33:23,013 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-07-05 19:33:23,453 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-07-05 19:33:23,454 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-07-05 19:33:23,539 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-07-05 19:33:23,540 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-07-05 19:33:23,540 INFO  ProjectFixService - Fixing project...
-2019-07-05 19:33:23,550 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/app/local.properties
-2019-07-05 19:33:23,550 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=24,targetSdkVersion=27]
-2019-07-05 19:33:23,551 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/indicatorseekbar/local.properties
-2019-07-05 19:33:23,552 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/indicatorseekbar/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2019-07-05 19:33:23,552 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/local.properties
-2019-07-05 19:33:23,553 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-07-05 19:33:23,553 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-07-05 19:33:23,554 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=24,targetSdkVersion=27]
-2019-07-05 19:33:23,554 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 19:33:23,554 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 19:33:23,555 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 19:33:26,120 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-07-05 19:33:26,121 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-07-05 19:33:26,122 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-07-05 19:33:26,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-07-05 19:33:28,296 ERROR SysUtils - Could not process external command
+2019-11-07 13:44:46,194 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/gradlew
+2019-11-07 13:44:46,198 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/indicatorseekbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/build.gradle
+2019-11-07 13:44:46,201 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/indicatorseekbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/settings.gradle
+2019-11-07 13:44:46,202 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-11-07 13:44:46,385 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-11-07 13:44:46,385 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-11-07 13:44:46,569 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-11-07 13:44:46,569 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-11-07 13:44:46,569 INFO  ProjectFixService - Fixing project...
+2019-11-07 13:44:46,578 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/app/local.properties
+2019-11-07 13:44:46,579 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=24,targetSdkVersion=27]
+2019-11-07 13:44:46,579 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/indicatorseekbar/local.properties
+2019-11-07 13:44:46,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/indicatorseekbar/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-11-07 13:44:46,580 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/local.properties
+2019-11-07 13:44:46,581 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-11-07 13:44:46,581 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-11-07 13:44:46,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=24,targetSdkVersion=27]
+2019-11-07 13:44:46,582 INFO  ProjectFixService - Project was maybe fixed
+2019-11-07 13:44:46,582 INFO  ProjectTaskService - Detecting possible tasks...
+2019-11-07 13:44:46,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-11-07 13:44:58,661 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-11-07 13:44:58,661 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-11-07 13:44:58,661 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-11-07 13:44:58,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-11-07 13:45:01,135 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,14 +53,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 19:33:28,296 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-11-07 13:45:01,135 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -216,4 +216,4 @@ Searched in the following locations:
 
 BUILD FAILED in 2s
 
-2019-07-05 19:33:28,299 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562329997101-0/src/IndicatorSeekBar-master/apk/demo.apk
+2019-11-07 13:45:01,138 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109082097-0/src/IndicatorSeekBar-master/apk/demo.apk
