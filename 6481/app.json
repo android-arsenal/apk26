@@ -23,11 +23,11 @@
     "permissions" : [ ]
   },
   "icon" : null,
-  "dexClasses" : 4136,
+  "dexClasses" : 4137,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.pspdfkit.labs.quickdemo\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"23\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.DUMP\" />\n\t<uses-permission android:name=\"android.permission.EXPAND_STATUS_BAR\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"QuickDemo\" android:icon=\"res/drawable/ic_launcher.xml\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<service android:label=\"Demo mode\" android:icon=\"res/drawable/ic_demo_mode.xml\" android:name=\"com.pspdfkit.labs.quickdemo.service.DemoModeTileService\" android:permission=\"android.permission.BIND_QUICK_SETTINGS_TILE\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.service.quicksettings.action.QS_TILE\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<activity android:label=\"QuickDemo Settings\" android:name=\"com.pspdfkit.labs.quickdemo.activity.ConfigurationActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.pspdfkit.labs.quickdemo.activity.SetupGuideActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2980229,
-  "crc32" : 3754518145,
-  "sha256" : "64fa17fb178b9614dabf2f788340db35baa5440d63cc286d37626ffd9515f3e6",
-  "buildTime" : 1562266700000
+  "fileSize" : 2980255,
+  "crc32" : 738535784,
+  "sha256" : "11f20f3eedc4227d86d1a9756e4649b5f6de8b043d017d0cd2bc877e4733874f",
+  "buildTime" : 1577684190000
 }

@@ -1,37 +1,37 @@
-2019-03-10 03:23:18,469 INFO  DownloadService - Downloading "https://github.com/alt236/Resource-Mirror---Android/archive/master.zip", attempt 3
-2019-03-10 03:23:21,321 INFO  DownloadService - Downloaded https://github.com/alt236/Resource-Mirror---Android/archive/master.zip, attempt 3
-2019-03-10 03:23:21,321 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/master.zip": 682 KB
-2019-03-10 03:23:21,321 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-10 03:23:21,327 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/master.zip: true
-2019-03-10 03:23:21,328 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src'.
-2019-03-10 03:23:21,421 INFO  FullProcessService - Size of directory with sources: 781 KB
-2019-03-10 03:23:21,421 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src]
-2019-03-10 03:23:21,439 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/.git/
+2019-12-30 12:38:33,159 INFO  DownloadService - Downloading "https://github.com/alt236/Resource-Mirror---Android/archive/master.zip", attempt 3
+2019-12-30 12:38:35,713 INFO  DownloadService - Downloaded https://github.com/alt236/Resource-Mirror---Android/archive/master.zip, attempt 3
+2019-12-30 12:38:35,713 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/master.zip": 682 KB
+2019-12-30 12:38:35,713 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-12-30 12:38:35,719 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/master.zip: true
+2019-12-30 12:38:35,720 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src'.
+2019-12-30 12:38:35,801 INFO  FullProcessService - Size of directory with sources: 781 KB
+2019-12-30 12:38:35,802 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src]
+2019-12-30 12:38:35,821 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/.git/
 
-2019-03-10 03:23:21,447 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/gradlew
-2019-03-10 03:23:21,455 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/build.gradle
-2019-03-10 03:23:21,463 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle
-2019-03-10 03:23:21,464 INFO  ProjectBuildService - Remote scripts: none
-2019-03-10 03:23:21,464 INFO  ProjectFixService - Fixing project...
-2019-03-10 03:23:21,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/app/local.properties
-2019-03-10 03:23:21,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-10 03:23:21,484 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-10 03:23:21,485 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/resourcemirror/local.properties
-2019-03-10 03:23:21,488 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-10 03:23:21,488 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-10 03:23:21,490 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/local.properties
-2019-03-10 03:23:21,490 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-03-10 03:23:21,491 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-03-10 03:23:21,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-10 03:23:21,493 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-10 03:23:21,494 INFO  ProjectFixService - Project was maybe fixed
-2019-03-10 03:23:21,494 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 03:23:21,494 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 03:23:28,938 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-10 03:23:28,938 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-10 03:23:28,938 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-10 03:23:28,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-10 03:23:34,616 ERROR SysUtils - Could not process external command
+2019-12-30 12:38:35,830 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/gradlew
+2019-12-30 12:38:35,836 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/build.gradle
+2019-12-30 12:38:35,842 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle
+2019-12-30 12:38:35,842 INFO  ProjectBuildService - Remote scripts: none
+2019-12-30 12:38:35,842 INFO  ProjectFixService - Fixing project...
+2019-12-30 12:38:35,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/app/local.properties
+2019-12-30 12:38:35,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-30 12:38:35,858 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-30 12:38:35,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/resourcemirror/local.properties
+2019-12-30 12:38:35,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-30 12:38:35,861 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-30 12:38:35,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/local.properties
+2019-12-30 12:38:35,863 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-12-30 12:38:35,864 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-12-30 12:38:35,866 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-12-30 12:38:35,866 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-12-30 12:38:35,867 INFO  ProjectFixService - Project was maybe fixed
+2019-12-30 12:38:35,867 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-30 12:38:35,867 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-30 12:38:43,333 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-30 12:38:43,333 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-30 12:38:43,333 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-30 12:38:43,334 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-30 12:38:48,319 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-10 03:23:34,616 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-30 12:38:48,319 INFO  SysUtils - Configuration on demand is an incubating feature.
 resourcemirrorIncremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -244,15 +245,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.393 secs
+Total time: 4.715 secs
 
-2019-03-10 03:23:34,627 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 03:23:34,627 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 03:23:40,624 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-10 03:23:40,624 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-10 03:23:40,624 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-10 03:23:40,624 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-10 03:23:47,571 ERROR SysUtils - Could not process external command
+2019-12-30 12:38:48,327 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-30 12:38:48,328 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-30 12:38:53,423 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-30 12:38:53,423 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-30 12:38:53,423 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-30 12:38:53,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/resourcemirror/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-30 12:38:58,580 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -265,7 +266,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -279,7 +281,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-10 03:23:47,571 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-30 12:38:58,580 INFO  SysUtils - Configuration on demand is an incubating feature.
 resourcemirrorIncremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -387,15 +389,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.586 secs
+Total time: 4.85 secs
 
-2019-03-10 03:23:47,581 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-10 03:23:47,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-10 03:23:53,291 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-10 03:23:53,291 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-10 03:23:53,291 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-10 03:23:53,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552162998467-0/src/Resource-Mirror---Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-10 03:23:59,600 ERROR SysUtils - Could not process external command
+2019-12-30 12:38:58,588 INFO  ProjectTaskService - Detecting possible tasks...
+2019-12-30 12:38:58,588 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-12-30 12:39:03,850 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-12-30 12:39:03,850 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-12-30 12:39:03,850 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-12-30 12:39:03,851 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577684313156-0/src/Resource-Mirror---Android-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-12-30 12:39:09,071 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -408,7 +410,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -422,7 +425,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-10 03:23:59,600 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-12-30 12:39:09,071 INFO  SysUtils - Configuration on demand is an incubating feature.
 resourcemirrorIncremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -608,7 +611,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.968 secs
+Total time: 4.926 secs
 
-2019-03-10 03:23:59,611 ERROR FullProcessService - Project build has not produced APK file
-2019-03-10 03:23:59,620 ERROR FullProcessService - Could not find generated or existed APK file
+2019-12-30 12:39:09,079 ERROR FullProcessService - Project build has not produced APK file
+2019-12-30 12:39:09,086 ERROR FullProcessService - Could not find generated or existed APK file
