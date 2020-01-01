@@ -4,7 +4,15 @@
     "label" : "uCrop'n'Edit",
     "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
     "versionName" : "1.2.4",
-    "versionCode" : 12,
+    "versionCode" : 13,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "14",
     "targetSdkVersion" : "28",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.INTERNET" ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -28,11 +38,11 @@
     "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACjklEQVRo3u2avY7aQBDH/8vXFTGQC/a2VKFNQ5U34AHo0vEGdBTU1/AK16XgAaABATIfKUBCCmVKlwhFSHCWhcCTAvuEwLnD2Gd7LxlpJJAWeX67+x8Ps8vgbMzyKBlZfhHo+fcYgITl8QiAEIADgL3lphOIHXxSluW0pmlVwzDmpmluKGQzTXNrGMZc07SqLMtpAEmnSWUAks1ms6Dr+ogiarquj5rNZsEJIi7LcjrKwZ9CWCsRP539O03TqiSIaZpWBXAHgMUsgATn/BsEMSvWhA0AAPFUKlUQBSCVSn22t5ANwBhjH0QBYIxJtohjENxiHmcCjDFxAfw2VVXRaDTEBFBVFeVyGcVi8aZVyN6Sj+0Cy6upqkqKotBgMHDz7Ky9AKECDIdDUhSF+v2+22e7AzgpZy/82nHnns1mSZIk6vV6t0xeFkDMLp/TRLR+LeP8td4lumqck0mShM1mc0sG/Ahgc7WIiejCrx137qPRCJxzAMB2u/UllQamgfF4TJxz6na7njQUiognk8lz8F6TQOAAs9mMOOfU6XR8yWKBA6xWK1JV1bc07DoLvZSZHAX98wfw+HD8XKkBX766+73fWci1PT4Av5dHt0HeezEXLYBKDfjEj16pvd2fG781MJ/Pkc/nkcvlvGkoDA1Mp1OUSiUsFovAt5HnNDqdTolzTu12O5DWiq/vATv4VqsVWG/IV4Cgg/ftRXZ/f4/1ev0m+/o1Yfsi4nq9jkwmE26PyMsK+NCginAp8S/2hf4DiGiJUE/vbhDvu91CRERPogRtxUqnAIfdbvdLFAAr1oMNQAD2y+XyuygAVqx7nBx4C33MapcUQh90P0OcXTXYRv2qgfCXPdgLVaoQ123+AJYiUPtcAEgRAAAAAElFTkSuQmCC",
     "file" : true
   },
-  "dexClasses" : 3249,
+  "dexClasses" : 2736,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
-  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"12\" android:versionName=\"1.2.4\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.yalantis.ucrop.sample\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"uCrop&apos;n&apos;Edit\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<provider android:name=\"android.support.v4.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.yalantis.ucrop.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/file_provider_paths.xml\" />\n\t\t</provider>\n\t\t<activity android:name=\"com.yalantis.ucrop.sample.SampleActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.yalantis.ucrop.sample.ResultActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f0147\" android:name=\"com.yalantis.ucrop.UCropActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 6663746,
-  "crc32" : 1437291734,
-  "sha256" : "160511dfa08cdc7e0bbf7c857be191e667503f7fe097a19ac4498306dd03caf8",
-  "buildTime" : 1555997280000
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"13\" android:versionName=\"1.2.4\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.yalantis.ucrop.sample\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0e0005\" android:label=\"uCrop&apos;n&apos;Edit\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<provider android:name=\"androidx.core.content.FileProvider\" android:exported=\"false\" android:authorities=\"com.yalantis.ucrop.provider\" android:grantUriPermissions=\"true\">\n\t\t\t<meta-data android:name=\"android.support.FILE_PROVIDER_PATHS\" android:resource=\"res/xml/file_provider_paths.xml\" />\n\t\t</provider>\n\t\t<activity android:name=\"com.yalantis.ucrop.sample.SampleActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.yalantis.ucrop.sample.ResultActivity\" android:screenOrientation=\"portrait\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e0108\" android:name=\"com.yalantis.ucrop.UCropActivity\" android:screenOrientation=\"portrait\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 6237772,
+  "crc32" : 899593254,
+  "sha256" : "6beec68d57c7e003f7f6b4c6bc27f896f4348422323345497aae323ab8a9834b",
+  "buildTime" : 1577886375000
 }

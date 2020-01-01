@@ -1,87 +1,68 @@
-2019-04-23 12:25:38,392 INFO  DownloadService - Downloading "https://github.com/krokyze/uCrop-n-Edit/archive/master.zip", attempt 3
-2019-04-23 12:26:05,124 INFO  DownloadService - Downloaded https://github.com/krokyze/uCrop-n-Edit/archive/master.zip, attempt 3
-2019-04-23 12:26:05,125 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/master.zip": 8 MB
-2019-04-23 12:26:05,125 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-23 12:26:05,126 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/master.zip: true
-2019-04-23 12:26:05,126 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src'.
-2019-04-23 12:26:05,492 INFO  FullProcessService - Size of directory with sources: 13 MB
-2019-04-23 12:26:05,492 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src]
-2019-04-23 12:26:05,544 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/.git/
+2020-01-01 20:44:54,437 INFO  DownloadService - Downloading "https://github.com/krokyze/uCrop-n-Edit/archive/master.zip", attempt 3
+2020-01-01 20:45:07,596 INFO  DownloadService - Downloaded https://github.com/krokyze/uCrop-n-Edit/archive/master.zip, attempt 3
+2020-01-01 20:45:07,597 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/master.zip": 8 MB
+2020-01-01 20:45:07,597 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-01 20:45:07,603 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/master.zip: true
+2020-01-01 20:45:07,603 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src'.
+2020-01-01 20:45:07,717 INFO  FullProcessService - Size of directory with sources: 13 MB
+2020-01-01 20:45:07,718 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src]
+2020-01-01 20:45:07,743 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/.git/
 
-2019-04-23 12:26:05,556 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/gradlew
-2019-04-23 12:26:05,566 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/ucrop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/build.gradle
-2019-04-23 12:26:05,594 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/ucrop/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/ucrop/build.gradle
-2019-04-23 12:26:05,595 INFO  ProjectBuildService - Remote scripts: none
-2019-04-23 12:26:05,595 INFO  ProjectFixService - Fixing project...
-2019-04-23 12:26:05,638 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/local.properties
-2019-04-23 12:26:05,640 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-23 12:26:05,640 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/ucrop/local.properties
-2019-04-23 12:26:05,641 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/ucrop/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-23 12:26:05,641 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/local.properties
-2019-04-23 12:26:05,648 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-04-23 12:26:05,653 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-04-23 12:26:05,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-04-23 12:26:05,665 INFO  ProjectFixService - Project was maybe fixed
-2019-04-23 12:26:05,665 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-23 12:26:05,665 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-23 12:26:18,462 INFO  ProjectTaskService - Detected possible tasks: 90
-2019-04-23 12:26:18,463 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
-2019-04-23 12:26:18,463 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
-2019-04-23 12:28:15,135 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :ucrop
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+2020-01-01 20:45:07,749 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/gradlew
+2020-01-01 20:45:07,754 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/ucrop/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/build.gradle
+2020-01-01 20:45:07,758 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/ucrop/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/ucrop/build.gradle
+2020-01-01 20:45:07,759 INFO  ProjectBuildService - Remote scripts: none
+2020-01-01 20:45:07,759 INFO  ProjectFixService - Fixing project...
+2020-01-01 20:45:07,770 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/local.properties
+2020-01-01 20:45:07,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-01 20:45:07,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/ucrop/local.properties
+2020-01-01 20:45:07,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/ucrop/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-01 20:45:07,773 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/local.properties
+2020-01-01 20:45:07,774 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-01 20:45:07,774 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-01 20:45:07,775 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-01-01 20:45:07,775 INFO  ProjectFixService - Project was maybe fixed
+2020-01-01 20:45:07,775 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 20:45:07,775 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 20:45:10,810 INFO  VirusProcessorServiceImpl - Queued project 6292 to scan viruses
+2020-01-01 20:45:15,680 INFO  ProjectTaskService - Detected possible tasks: 90
+2020-01-01 20:45:15,680 INFO  ProjectTaskService - Excluded tasks (8): deviceCheck lint deviceAndroidTest connectedCheck uninstallAll test check connectedAndroidTest
+2020-01-01 20:45:15,680 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, test, -x, check, -x, connectedAndroidTest, build]
+2020-01-01 20:46:18,976 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration(s) specified but the install task does not exist in project :ucrop.
-
 > Task :sample:preBuild UP-TO-DATE
+> Task :sample:preActivityDebugBuild UP-TO-DATE
 > Task :ucrop:preBuild UP-TO-DATE
 > Task :ucrop:preDebugBuild UP-TO-DATE
-> Task :ucrop:checkDebugManifest
-> Task :ucrop:processDebugManifest
-> Task :sample:preActivityDebugBuild
 > Task :ucrop:compileDebugAidl NO-SOURCE
 > Task :sample:compileActivityDebugAidl NO-SOURCE
 > Task :ucrop:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileActivityDebugRenderscript
 > Task :sample:checkActivityDebugManifest
+> Task :sample:compileActivityDebugRenderscript NO-SOURCE
 > Task :sample:generateActivityDebugBuildConfig
-> Task :sample:prepareLintJar
-> Task :sample:generateActivityDebugSources
-> Task :ucrop:compileDebugRenderscript
+> Task :ucrop:compileDebugRenderscript NO-SOURCE
+> Task :ucrop:checkDebugManifest
 > Task :ucrop:generateDebugBuildConfig
 > Task :ucrop:generateDebugResValues
 > Task :ucrop:generateDebugResources
 > Task :ucrop:packageDebugResources
+> Task :sample:mainApkListPersistenceActivityDebug
+> Task :sample:generateActivityDebugResValues
+> Task :sample:generateActivityDebugResources
+> Task :ucrop:parseDebugLibraryResources
+> Task :ucrop:processDebugManifest
+> Task :sample:mergeActivityDebugResources
+> Task :sample:createActivityDebugCompatibleScreenManifests
+> Task :sample:processActivityDebugManifest
 > Task :ucrop:generateDebugRFile
 > Task :ucrop:compileDebugKotlin
-> Task :ucrop:prepareLintJar
-> Task :ucrop:generateDebugSources
+> Task :sample:processActivityDebugResources
 > Task :ucrop:javaPreCompileDebug
 
 > Task :ucrop:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :ucrop:processDebugJavaRes NO-SOURCE
-> Task :ucrop:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :sample:javaPreCompileActivityDebug
-> Task :sample:mainApkListPersistenceActivityDebug
-> Task :sample:generateActivityDebugResValues
-> Task :sample:generateActivityDebugResources
-> Task :sample:mergeActivityDebugResources
-> Task :sample:createActivityDebugCompatibleScreenManifests
-> Task :sample:processActivityDebugManifest
-> Task :sample:processActivityDebugResources
-
-> Task :sample:compileActivityDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :sample:compileActivityDebugNdk NO-SOURCE
-> Task :sample:compileActivityDebugSources
 > Task :sample:mergeActivityDebugShaders
 > Task :sample:compileActivityDebugShaders
 > Task :sample:generateActivityDebugAssets
@@ -90,78 +71,69 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :ucrop:generateDebugAssets
 > Task :ucrop:packageDebugAssets
 > Task :sample:mergeActivityDebugAssets
+> Task :ucrop:bundleLibCompileDebug
+> Task :sample:javaPreCompileActivityDebug
+
+> Task :sample:compileActivityDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sample:compileActivityDebugSources
+> Task :sample:processActivityDebugJavaRes NO-SOURCE
+> Task :ucrop:processDebugJavaRes NO-SOURCE
+> Task :ucrop:bundleLibResDebug
+> Task :ucrop:bundleLibRuntimeDebug
 > Task :ucrop:createFullJarDebug
-> Transform full.jar (project :ucrop) with IdentityTransform
-> Task :sample:mergeExtDexActivityDebug
+> Task :sample:checkActivityDebugDuplicateClasses
+> Task :sample:mergeActivityDebugJavaResource
 > Task :sample:transformClassesWithDexBuilderForActivityDebug
-> Transform full.jar (project :ucrop) with DexingTransform
 > Task :sample:validateSigningActivityDebug
-> Task :sample:mergeDexActivityDebug
 > Task :sample:signingConfigWriterActivityDebug
 > Task :sample:mergeActivityDebugJniLibFolders
-> Task :ucrop:compileDebugNdk NO-SOURCE
 > Task :ucrop:mergeDebugJniLibFolders
-> Task :ucrop:transformNativeLibsWithMergeJniLibsForDebug
-
-> Task :ucrop:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-
-> Task :ucrop:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :sample:transformNativeLibsWithMergeJniLibsForActivityDebug
-
-> Task :sample:transformNativeLibsWithStripDebugSymbolForActivityDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/activity/debug/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-
-> Task :sample:processActivityDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForActivityDebug
-> Task :sample:packageActivityDebug
-> Task :sample:assembleActivityDebug
+> Task :sample:preActivityReleaseBuild UP-TO-DATE
 > Task :ucrop:preReleaseBuild UP-TO-DATE
-> Task :ucrop:checkReleaseManifest
-> Task :ucrop:processReleaseManifest
-> Task :sample:preActivityReleaseBuild
 > Task :ucrop:compileReleaseAidl NO-SOURCE
 > Task :sample:compileActivityReleaseAidl NO-SOURCE
 > Task :ucrop:packageReleaseRenderscript NO-SOURCE
-> Task :sample:compileActivityReleaseRenderscript
+> Task :sample:compileActivityReleaseRenderscript NO-SOURCE
 > Task :sample:checkActivityReleaseManifest
 > Task :sample:generateActivityReleaseBuildConfig
-> Task :sample:generateActivityReleaseSources
-> Task :ucrop:compileReleaseRenderscript
+> Task :ucrop:compileReleaseRenderscript NO-SOURCE
+> Task :ucrop:checkReleaseManifest
 > Task :ucrop:generateReleaseBuildConfig
 > Task :ucrop:generateReleaseResValues
 > Task :ucrop:generateReleaseResources
 > Task :ucrop:packageReleaseResources
+> Task :ucrop:mergeDebugNativeLibs
+
+> Task :ucrop:stripDebugDebugSymbols
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/merged_native_libs/debug/out/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
+> Task :ucrop:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mainApkListPersistenceActivityRelease
+> Task :sample:generateActivityReleaseResValues
+> Task :sample:generateActivityReleaseResources
+> Task :sample:createActivityReleaseCompatibleScreenManifests
+> Task :ucrop:parseReleaseLibraryResources
+> Task :ucrop:processReleaseManifest
+> Task :sample:processActivityReleaseManifest
+> Task :sample:mergeActivityDebugNativeLibs
+
+> Task :sample:stripActivityDebugDebugSymbols
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build/intermediates/merged_native_libs/activityDebug/out/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+
 > Task :ucrop:generateReleaseRFile
 > Task :ucrop:compileReleaseKotlin
-> Task :ucrop:generateReleaseSources
+> Task :sample:mergeActivityReleaseResources
+> Task :sample:processActivityReleaseResources
 > Task :ucrop:javaPreCompileRelease
 
 > Task :ucrop:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :ucrop:processReleaseJavaRes NO-SOURCE
-> Task :ucrop:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :sample:javaPreCompileActivityRelease
-> Task :sample:mainApkListPersistenceActivityRelease
-> Task :sample:generateActivityReleaseResValues
-> Task :sample:generateActivityReleaseResources
-> Task :sample:mergeActivityReleaseResources
-> Task :sample:createActivityReleaseCompatibleScreenManifests
-> Task :sample:processActivityReleaseManifest
-> Task :sample:processActivityReleaseResources
-
-> Task :sample:compileActivityReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :sample:compileActivityReleaseNdk NO-SOURCE
-> Task :sample:compileActivityReleaseSources
-
-> Task :sample:lintVitalActivityRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/6be26c9632db80088eaa88097b604f30/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
+> Task :sample:prepareLintJar
 > Task :sample:mergeActivityReleaseShaders
 > Task :sample:compileActivityReleaseShaders
 > Task :sample:generateActivityReleaseAssets
@@ -170,111 +142,121 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :ucrop:generateReleaseAssets
 > Task :ucrop:packageReleaseAssets
 > Task :sample:mergeActivityReleaseAssets
+> Task :sample:processActivityReleaseJavaRes NO-SOURCE
+> Task :ucrop:processReleaseJavaRes NO-SOURCE
+> Task :ucrop:bundleLibCompileRelease
+> Task :ucrop:prepareLintJarForPublish
+> Task :sample:checkActivityReleaseDuplicateClasses
+> Task :ucrop:bundleLibResRelease
+> Task :ucrop:bundleLibRuntimeRelease
 > Task :ucrop:createFullJarRelease
-> Transform full.jar (project :ucrop) with IdentityTransform
-> Task :sample:mergeExtDexActivityRelease
+> Task :sample:javaPreCompileActivityRelease
+
+> Task :sample:compileActivityReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sample:compileActivityReleaseSources
+
+> Task :sample:lintVitalActivityRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9f26ee79ec9d5d2a05d1b753a9e83377/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :sample:mergeExtDexActivityDebug
+> Task :sample:mergeActivityReleaseJavaResource
 > Task :sample:transformClassesWithDexBuilderForActivityRelease
 > Task :sample:signingConfigWriterActivityRelease
 > Task :sample:mergeActivityReleaseJniLibFolders
-> Task :ucrop:compileReleaseNdk NO-SOURCE
-> Transform full.jar (project :ucrop) with DexingTransform
 > Task :ucrop:mergeReleaseJniLibFolders
-> Task :sample:mergeDexActivityRelease
-> Task :ucrop:transformNativeLibsWithMergeJniLibsForRelease
-
-> Task :ucrop:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-
-> Task :ucrop:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :sample:transformNativeLibsWithMergeJniLibsForActivityRelease
-
-> Task :sample:transformNativeLibsWithStripDebugSymbolForActivityRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/activity/release/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
-
-> Task :sample:processActivityReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForActivityRelease
-> Task :sample:packageActivityRelease
-> Task :sample:assembleActivityRelease
-> Task :sample:assembleActivity
-> Task :sample:preFragmentDebugBuild
+> Task :sample:preFragmentDebugBuild UP-TO-DATE
 > Task :sample:compileFragmentDebugAidl NO-SOURCE
-> Task :sample:compileFragmentDebugRenderscript
+> Task :sample:compileFragmentDebugRenderscript NO-SOURCE
 > Task :sample:checkFragmentDebugManifest
 > Task :sample:generateFragmentDebugBuildConfig
-> Task :sample:generateFragmentDebugSources
-> Task :sample:javaPreCompileFragmentDebug
 > Task :sample:mainApkListPersistenceFragmentDebug
 > Task :sample:generateFragmentDebugResValues
 > Task :sample:generateFragmentDebugResources
-> Task :sample:mergeFragmentDebugResources
+> Task :sample:javaPreCompileFragmentDebug
 > Task :sample:createFragmentDebugCompatibleScreenManifests
 > Task :sample:processFragmentDebugManifest
-> Task :sample:processFragmentDebugResources
+> Task :sample:checkFragmentDebugDuplicateClasses
+> Task :ucrop:mergeReleaseNativeLibs
 
-> Task :sample:compileFragmentDebugJavaWithJavac
+> Task :ucrop:stripReleaseDebugSymbols
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/ucrop/build/intermediates/merged_native_libs/release/out/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
-> Task :sample:compileFragmentDebugNdk NO-SOURCE
-> Task :sample:compileFragmentDebugSources
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-> Task :sample:mergeExtDexFragmentDebug
-> Task :sample:transformClassesWithDexBuilderForFragmentDebug
-> Task :sample:mergeDexFragmentDebug
+> Task :ucrop:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeFragmentDebugShaders
 > Task :sample:compileFragmentDebugShaders
 > Task :sample:generateFragmentDebugAssets
 > Task :sample:mergeFragmentDebugAssets
+> Task :sample:processFragmentDebugJavaRes NO-SOURCE
 > Task :sample:validateSigningFragmentDebug
 > Task :sample:signingConfigWriterFragmentDebug
 > Task :sample:mergeFragmentDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForFragmentDebug
+> Task :sample:mergeFragmentDebugResources
+> Task :sample:processFragmentDebugResources
 
-> Task :sample:transformNativeLibsWithStripDebugSymbolForFragmentDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/fragment/debug/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+> Task :sample:compileFragmentDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-> Task :sample:processFragmentDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForFragmentDebug
-> Task :sample:packageFragmentDebug
-> Task :sample:assembleFragmentDebug
-> Task :sample:assembleDebug
-> Task :sample:preFragmentReleaseBuild
+> Task :sample:mergeDexActivityDebug
+> Task :sample:packageActivityDebug
+> Task :sample:assembleActivityDebug
+> Task :sample:compileFragmentDebugSources
+> Task :sample:transformClassesWithDexBuilderForFragmentDebug
+> Task :sample:preFragmentReleaseBuild UP-TO-DATE
 > Task :sample:compileFragmentReleaseAidl NO-SOURCE
-> Task :sample:compileFragmentReleaseRenderscript
+> Task :sample:compileFragmentReleaseRenderscript NO-SOURCE
 > Task :sample:checkFragmentReleaseManifest
 > Task :sample:generateFragmentReleaseBuildConfig
-> Task :sample:generateFragmentReleaseSources
-> Task :sample:javaPreCompileFragmentRelease
 > Task :sample:mainApkListPersistenceFragmentRelease
 > Task :sample:generateFragmentReleaseResValues
 > Task :sample:generateFragmentReleaseResources
-> Task :sample:mergeFragmentReleaseResources
+> Task :sample:mergeFragmentDebugJavaResource
 > Task :sample:createFragmentReleaseCompatibleScreenManifests
 > Task :sample:processFragmentReleaseManifest
-> Task :sample:processFragmentReleaseResources
-
-> Task :sample:compileFragmentReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :sample:compileFragmentReleaseNdk NO-SOURCE
-> Task :sample:compileFragmentReleaseSources
-> Task :sample:lintVitalFragmentRelease
-> Task :sample:mergeExtDexFragmentRelease
-> Task :sample:transformClassesWithDexBuilderForFragmentRelease
-> Task :sample:mergeDexFragmentRelease
+> Task :sample:checkFragmentReleaseDuplicateClasses
+> Task :sample:mergeActivityReleaseNativeLibs
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build/intermediates/merged_native_libs/activityRelease/out/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+> Task :sample:stripActivityReleaseDebugSymbols
 > Task :sample:mergeFragmentReleaseShaders
 > Task :sample:compileFragmentReleaseShaders
 > Task :sample:generateFragmentReleaseAssets
 > Task :sample:mergeFragmentReleaseAssets
+> Task :sample:processFragmentReleaseJavaRes NO-SOURCE
 > Task :sample:signingConfigWriterFragmentRelease
 > Task :sample:mergeFragmentReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForFragmentRelease
+> Task :sample:mergeExtDexFragmentDebug
+> Task :sample:mergeExtDexActivityRelease
+> Task :sample:javaPreCompileFragmentRelease
+> Task :sample:mergeFragmentReleaseResources
+> Task :sample:processFragmentReleaseResources
 
-> Task :sample:transformNativeLibsWithStripDebugSymbolForFragmentRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build/intermediates/transforms/mergeJniLibs/fragment/release/0/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+> Task :sample:compileFragmentReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/src/main/java/com/yalantis/ucrop/sample/ResultActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-> Task :sample:processFragmentReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForFragmentRelease
+> Task :sample:compileFragmentReleaseSources
+> Task :sample:lintVitalFragmentRelease
+> Task :sample:transformClassesWithDexBuilderForFragmentRelease
+> Task :sample:mergeDexFragmentDebug
+> Task :sample:mergeExtDexFragmentRelease
+> Task :sample:mergeFragmentReleaseNativeLibs
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build/intermediates/merged_native_libs/fragmentRelease/out/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+> Task :sample:stripFragmentReleaseDebugSymbols
+> Task :sample:mergeFragmentDebugNativeLibs
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build/intermediates/merged_native_libs/fragmentDebug/out/lib/armeabi/libucrop.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+> Task :sample:stripFragmentDebugDebugSymbols
+> Task :sample:packageFragmentDebug
+> Task :sample:assembleFragmentDebug
+> Task :sample:assembleDebug
+> Task :sample:mergeDexFragmentRelease
+> Task :sample:mergeDexActivityRelease
+> Task :sample:packageActivityRelease
+> Task :sample:assembleActivityRelease
+> Task :sample:assembleActivity
+> Task :sample:mergeFragmentReleaseJavaResource
 > Task :sample:packageFragmentRelease
 > Task :sample:assembleFragmentRelease
 > Task :sample:assembleFragment
@@ -282,11 +264,11 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 55s
+BUILD SUCCESSFUL in 1m 2s
 140 actionable tasks: 140 executed
 
-2019-04-23 12:28:15,317 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1555997138389-0/src/uCrop-n-Edit-master/sample/build/outputs/apk/activity/release/sample-activity-release-unsigned.apk
+2020-01-01 20:46:19,110 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577886294433-0/src/uCrop-n-Edit-master/sample/build/outputs/apk/activity/release/sample-activity-release-unsigned.apk
