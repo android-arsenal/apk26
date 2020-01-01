@@ -1,36 +1,36 @@
-2018-08-31 21:51:56,742 INFO  DownloadService - Downloading "https://github.com/hypeapps/MaterialTimelineView/archive/master.zip", attempt 3
-2018-08-31 21:51:57,231 INFO  DownloadService - Downloaded https://github.com/hypeapps/MaterialTimelineView/archive/master.zip, attempt 3
-2018-08-31 21:51:57,231 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/master.zip": 312 KB
-2018-08-31 21:51:57,231 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-31 21:51:57,237 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/master.zip: true
-2018-08-31 21:51:57,237 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src'.
-2018-08-31 21:51:57,264 INFO  FullProcessService - Size of directory with sources: 441 KB
-2018-08-31 21:51:57,264 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src]
-2018-08-31 21:51:57,280 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/.git/
+2020-01-01 19:14:41,967 INFO  DownloadService - Downloading "https://github.com/hypeapps/MaterialTimelineView/archive/master.zip", attempt 3
+2020-01-01 19:14:44,020 INFO  DownloadService - Downloaded https://github.com/hypeapps/MaterialTimelineView/archive/master.zip, attempt 3
+2020-01-01 19:14:44,020 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/master.zip": 312 KB
+2020-01-01 19:14:44,021 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-01 19:14:44,026 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/master.zip: true
+2020-01-01 19:14:44,027 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src'.
+2020-01-01 19:14:44,048 INFO  FullProcessService - Size of directory with sources: 441 KB
+2020-01-01 19:14:44,049 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src]
+2020-01-01 19:14:44,066 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/.git/
 
-2018-08-31 21:51:57,283 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew
-2018-08-31 21:51:57,286 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/build.gradle
-2018-08-31 21:51:57,288 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/settings.gradle
-2018-08-31 21:51:57,289 INFO  ProjectBuildService - Remote scripts: none
-2018-08-31 21:51:57,289 INFO  ProjectFixService - Fixing project...
-2018-08-31 21:51:57,296 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/local.properties
-2018-08-31 21:51:57,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2018-08-31 21:51:57,298 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2018-08-31 21:51:57,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/local.properties
-2018-08-31 21:51:57,302 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2018-08-31 21:51:57,302 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2018-08-31 21:51:57,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/local.properties
-2018-08-31 21:51:57,303 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-08-31 21:51:57,303 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-08-31 21:51:57,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
-2018-08-31 21:51:57,304 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=28]
-2018-08-31 21:51:57,304 INFO  ProjectFixService - Project was maybe fixed
-2018-08-31 21:51:57,304 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 21:51:57,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 21:52:04,510 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-08-31 21:52:04,510 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-08-31 21:52:04,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-08-31 21:52:21,769 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 19:14:44,069 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/gradlew
+2020-01-01 19:14:44,071 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/build.gradle
+2020-01-01 19:14:44,073 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/gradle/install-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/gradle/bintray-java-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/gradle/bintray-android-v1.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/settings.gradle
+2020-01-01 19:14:44,073 INFO  ProjectBuildService - Remote scripts: none
+2020-01-01 19:14:44,073 INFO  ProjectFixService - Fixing project...
+2020-01-01 19:14:44,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/materialtimelineview/local.properties
+2020-01-01 19:14:44,082 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2020-01-01 19:14:44,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=29]
+2020-01-01 19:14:44,083 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/sample/local.properties
+2020-01-01 19:14:44,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2020-01-01 19:14:44,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=29]
+2020-01-01 19:14:44,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/local.properties
+2020-01-01 19:14:44,087 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2020-01-01 19:14:44,088 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2020-01-01 19:14:44,089 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=<null>]
+2020-01-01 19:14:44,089 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=26,minSdkVersion=15,targetSdkVersion=29]
+2020-01-01 19:14:44,089 INFO  ProjectFixService - Project was maybe fixed
+2020-01-01 19:14:44,089 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 19:14:44,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 19:14:56,349 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-01-01 19:14:56,350 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-01 19:14:56,350 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/materialtimelineview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-01 19:15:12,780 INFO  SysUtils - Configuration on demand is an incubating feature.
 :materialtimelineview:preBuild UP-TO-DATE
 :materialtimelineview:preDebugBuild UP-TO-DATE
 :materialtimelineview:compileDebugAidl
@@ -106,15 +106,15 @@
 :materialtimelineview:assemble
 :materialtimelineview:build
 
-BUILD SUCCESSFUL in 16s
+BUILD SUCCESSFUL in 15s
 52 actionable tasks: 52 executed
 
-2018-08-31 21:52:21,786 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 21:52:21,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 21:52:27,996 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-08-31 21:52:27,997 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-08-31 21:52:27,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-08-31 21:53:09,499 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 19:15:12,791 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 19:15:12,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 19:15:18,434 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-01 19:15:18,434 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-01 19:15:18,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-01 19:16:00,872 INFO  SysUtils - Configuration on demand is an incubating feature.
 :materialtimelineview:preBuild UP-TO-DATE
 :materialtimelineview:preDebugBuild UP-TO-DATE
 :materialtimelineview:compileDebugAidl UP-TO-DATE
@@ -136,6 +136,7 @@ BUILD SUCCESSFUL in 16s
 :materialtimelineview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/27.1.0/cardview-v7-27.1.0.aar
 :sample:compileDebugAidl
 :materialtimelineview:packageDebugRenderscript NO-SOURCE
 :sample:compileDebugRenderscript
@@ -150,6 +151,7 @@ BUILD SUCCESSFUL in 16s
 :sample:splitsDiscoveryTaskDebug
 :sample:processDebugResources
 :sample:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.30/kotlin-stdlib-jre7-1.2.30.jar
 :sample:prepareLintJar
 :sample:generateDebugSources
 :sample:javaPreCompileDebug
@@ -165,6 +167,7 @@ BUILD SUCCESSFUL in 16s
 :sample:generateDebugAssets
 :sample:mergeDebugAssets
 :sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 2 methods.
 :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 :sample:transformDexArchiveWithDexMergerForDebug
 :materialtimelineview:compileDebugNdk NO-SOURCE
@@ -243,7 +246,7 @@ BUILD SUCCESSFUL in 16s
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 40s
+BUILD SUCCESSFUL in 41s
 95 actionable tasks: 59 executed, 36 up-to-date
 
-2018-08-31 21:53:09,584 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535727116738-0/src/MaterialTimelineView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-01-01 19:16:00,932 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880881959-0/src/MaterialTimelineView-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
