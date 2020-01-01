@@ -1,29 +1,29 @@
-2019-11-07 13:45:10,388 INFO  DownloadService - Downloading "https://github.com/nishkarsh/android-permissions/archive/master.zip", attempt 3
-2019-11-07 13:45:10,891 INFO  DownloadService - Downloaded https://github.com/nishkarsh/android-permissions/archive/master.zip, attempt 3
-2019-11-07 13:45:10,891 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/master.zip": 73 KB
-2019-11-07 13:45:10,891 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-11-07 13:45:10,896 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/master.zip: true
-2019-11-07 13:45:10,896 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src'.
-2019-11-07 13:45:10,906 INFO  FullProcessService - Size of directory with sources: 105 KB
-2019-11-07 13:45:10,906 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src]
-2019-11-07 13:45:10,926 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/.git/
+2020-01-01 18:24:29,134 INFO  DownloadService - Downloading "https://github.com/nishkarsh/android-permissions/archive/master.zip", attempt 3
+2020-01-01 18:24:31,147 INFO  DownloadService - Downloaded https://github.com/nishkarsh/android-permissions/archive/master.zip, attempt 3
+2020-01-01 18:24:31,147 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/master.zip": 73 KB
+2020-01-01 18:24:31,147 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-01 18:24:31,147 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/master.zip: true
+2020-01-01 18:24:31,147 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src'.
+2020-01-01 18:24:31,156 INFO  FullProcessService - Size of directory with sources: 105 KB
+2020-01-01 18:24:31,157 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src]
+2020-01-01 18:24:31,185 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/.git/
 
-2019-11-07 13:45:10,928 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/android-permissions-master/gradlew
-2019-11-07 13:45:10,929 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/android-permissions-master/build.gradle
-2019-11-07 13:45:10,931 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/android-permissions-master/build.gradle
-2019-11-07 13:45:10,931 INFO  ProjectBuildService - Remote scripts: none
-2019-11-07 13:45:10,931 INFO  ProjectFixService - Fixing project...
-2019-11-07 13:45:10,936 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/android-permissions-master/local.properties
-2019-11-07 13:45:10,937 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-11-07 13:45:10,937 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-11-07 13:45:10,937 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/android-permissions-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-11-07 13:45:10,937 INFO  ProjectFixService - Project was maybe fixed
-2019-11-07 13:45:10,937 INFO  ProjectTaskService - Detecting possible tasks...
-2019-11-07 13:45:10,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/android-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/android-permissions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-11-07 13:45:18,582 INFO  ProjectTaskService - Detected possible tasks: 75
-2019-11-07 13:45:18,582 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-11-07 13:45:18,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/android-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1573109110384-0/src/android-permissions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-11-07 13:45:31,250 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 18:24:31,187 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/android-permissions-master/gradlew
+2020-01-01 18:24:31,189 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/android-permissions-master/build.gradle
+2020-01-01 18:24:31,191 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/android-permissions-master/build.gradle
+2020-01-01 18:24:31,191 INFO  ProjectBuildService - Remote scripts: none
+2020-01-01 18:24:31,191 INFO  ProjectFixService - Fixing project...
+2020-01-01 18:24:31,195 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/android-permissions-master/local.properties
+2020-01-01 18:24:31,196 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-01 18:24:31,196 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-01 18:24:31,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/android-permissions-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 18:24:31,197 INFO  ProjectFixService - Project was maybe fixed
+2020-01-01 18:24:31,197 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 18:24:31,197 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/android-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/android-permissions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 18:24:41,881 INFO  ProjectTaskService - Detected possible tasks: 75
+2020-01-01 18:24:41,881 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-01-01 18:24:41,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/android-permissions-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577877869128-0/src/android-permissions-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-01-01 18:25:00,436 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :
 versionCode is set to 1
@@ -36,25 +36,16 @@ versionName is set to 1.0.0
 > Task :generateDebugResValues
 > Task :mergeDebugShaders
 > Task :compileDebugShaders
-> Task :processDebugManifest
 > Task :generateDebugAssets
 > Task :packageDebugAssets
 > Task :packageDebugRenderscript NO-SOURCE
-> Task :compileDebugRenderscript NO-SOURCE
-> Task :generateDebugResources
-> Task :packageDebugResources
-> Task :compileDebugAidl NO-SOURCE
 > Task :processDebugJavaRes NO-SOURCE
 > Task :mergeDebugJniLibFolders
+> Task :prepareLintJarForPublish
 > Task :preReleaseBuild UP-TO-DATE
-> Task :compileReleaseAidl NO-SOURCE
-> Task :compileReleaseRenderscript NO-SOURCE
 > Task :checkReleaseManifest
 > Task :generateReleaseBuildConfig
 > Task :generateReleaseResValues
-> Task :generateReleaseResources
-> Task :packageReleaseResources
-> Task :prepareLintJarForPublish
 > Task :mergeReleaseShaders
 > Task :compileReleaseShaders
 > Task :generateReleaseAssets
@@ -62,38 +53,47 @@ versionName is set to 1.0.0
 > Task :packageReleaseRenderscript NO-SOURCE
 > Task :processReleaseJavaRes NO-SOURCE
 > Task :mergeReleaseJniLibFolders
-> Task :processReleaseManifest
-> Task :parseReleaseLibraryResources
-> Task :mergeReleaseNativeLibs
-> Task :stripReleaseDebugSymbols
-> Task :transformNativeLibsWithSyncJniLibsForRelease
-> Task :parseDebugLibraryResources
 > Task :mergeDebugNativeLibs
 > Task :stripDebugDebugSymbols
 > Task :transformNativeLibsWithSyncJniLibsForDebug
+> Task :mergeReleaseNativeLibs
+> Task :stripReleaseDebugSymbols
+> Task :transformNativeLibsWithSyncJniLibsForRelease
+> Task :processReleaseManifest
+> Task :processDebugManifest
+> Task :compileDebugAidl NO-SOURCE
+> Task :compileDebugRenderscript NO-SOURCE
+> Task :generateDebugResources
+> Task :packageDebugResources
+> Task :compileReleaseAidl NO-SOURCE
+> Task :compileReleaseRenderscript NO-SOURCE
+> Task :generateReleaseResources
+> Task :packageReleaseResources
 > Task :mergeReleaseResources
-> Task :generateReleaseRFile
-> Task :generateDebugRFile
+> Task :javaPreCompileRelease
 > Task :javaPreCompileDebug
+> Task :parseDebugLibraryResources
+> Task :parseReleaseLibraryResources
+> Task :generateDebugRFile
 > Task :compileDebugJavaWithJavac
 > Task :extractDebugAnnotations
 > Task :mergeDebugGeneratedProguardFiles
 > Task :mergeDebugConsumerProguardFiles
+> Task :generateReleaseRFile
 > Task :compileDebugSources
-> Task :javaPreCompileRelease
 > Task :compileReleaseJavaWithJavac
 > Task :extractReleaseAnnotations
 > Task :mergeReleaseGeneratedProguardFiles
 > Task :mergeReleaseConsumerProguardFiles
+> Task :verifyReleaseResources
+> Task :compileReleaseSources
 > Task :mergeDebugJavaResource
 > Task :transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :bundleDebugAar
 > Task :assembleDebug
-> Task :compileReleaseSources
 > Task :mergeReleaseJavaResource
 > Task :transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :bundleReleaseAar
-> Task :verifyReleaseResources
 > Task :assembleRelease
 > Task :assemble
 > Task :build
@@ -102,8 +102,8 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 12s
+BUILD SUCCESSFUL in 18s
 47 actionable tasks: 47 executed
 
-2019-11-07 13:45:31,281 ERROR FullProcessService - Project build has not produced APK file
-2019-11-07 13:45:31,307 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-01 18:25:00,481 ERROR FullProcessService - Project build has not produced APK file
+2020-01-01 18:25:00,523 ERROR FullProcessService - Could not find generated or existed APK file
