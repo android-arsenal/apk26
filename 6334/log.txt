@@ -1,36 +1,37 @@
-2018-11-10 20:39:54,432 INFO  DownloadService - Downloading "https://github.com/armcha/PlayTabLayout/archive/master.zip", attempt 3
-2018-11-10 20:39:55,912 INFO  DownloadService - Downloaded https://github.com/armcha/PlayTabLayout/archive/master.zip, attempt 3
-2018-11-10 20:39:55,912 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/master.zip": 2 MB
-2018-11-10 20:39:55,912 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-10 20:39:55,915 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/master.zip: true
-2018-11-10 20:39:55,915 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src'.
-2018-11-10 20:39:55,966 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-11-10 20:39:55,966 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src]
-2018-11-10 20:39:55,987 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/.git/
+2020-01-01 20:20:45,772 INFO  DownloadService - Downloading "https://github.com/armcha/PlayTabLayout/archive/master.zip", attempt 3
+2020-01-01 20:20:49,496 INFO  DownloadService - Downloaded https://github.com/armcha/PlayTabLayout/archive/master.zip, attempt 3
+2020-01-01 20:20:49,497 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/master.zip": 2 MB
+2020-01-01 20:20:49,497 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-01 20:20:49,497 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/master.zip: true
+2020-01-01 20:20:49,498 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src'.
+2020-01-01 20:20:49,538 INFO  FullProcessService - Size of directory with sources: 3 MB
+2020-01-01 20:20:49,538 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src]
+2020-01-01 20:20:49,572 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/.git/
 
-2018-11-10 20:39:55,991 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/gradlew
-2018-11-10 20:39:55,995 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/build.gradle
-2018-11-10 20:39:56,001 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/settings.gradle
-2018-11-10 20:39:56,001 INFO  ProjectBuildService - Remote scripts: none
-2018-11-10 20:39:56,001 INFO  ProjectFixService - Fixing project...
-2018-11-10 20:39:56,015 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/app/local.properties
-2018-11-10 20:39:56,016 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-11-10 20:39:56,016 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-11-10 20:39:56,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/local.properties
-2018-11-10 20:39:56,019 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-11-10 20:39:56,019 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-11-10 20:39:56,020 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/local.properties
-2018-11-10 20:39:56,020 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2018-11-10 20:39:56,021 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2018-11-10 20:39:56,022 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-11-10 20:39:56,022 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-11-10 20:39:56,023 INFO  ProjectFixService - Project was maybe fixed
-2018-11-10 20:39:56,023 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-10 20:39:56,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-10 20:40:04,826 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-11-10 20:40:04,826 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-10 20:40:04,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-10 20:40:52,065 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 20:20:49,576 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/gradlew
+2020-01-01 20:20:49,579 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/build.gradle
+2020-01-01 20:20:49,582 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/settings.gradle
+2020-01-01 20:20:49,582 INFO  ProjectBuildService - Remote scripts: none
+2020-01-01 20:20:49,582 INFO  ProjectFixService - Fixing project...
+2020-01-01 20:20:49,589 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/app/local.properties
+2020-01-01 20:20:49,590 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:20:49,590 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:20:49,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/local.properties
+2020-01-01 20:20:49,592 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:20:49,593 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:20:49,594 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/local.properties
+2020-01-01 20:20:49,594 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2020-01-01 20:20:49,594 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2020-01-01 20:20:49,596 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:20:49,596 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:20:49,597 INFO  ProjectFixService - Project was maybe fixed
+2020-01-01 20:20:49,597 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 20:20:49,597 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 20:21:01,640 INFO  VirusProcessorServiceImpl - Queued project 6338 to scan viruses
+2020-01-01 20:21:04,182 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-01 20:21:04,182 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-01 20:21:04,183 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-01 20:22:05,454 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :playtablayout
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -64,12 +65,12 @@ To determine what is calling variant.getJavaCompiler(), use -Pandroid.debug.obso
 > Task :playtablayout:generateDebugRFile
 > Task :app:processDebugResources
 > Task :playtablayout:generateDebugBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (751, 13): Name shadowed: heightMeasureSpec
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (909, 40): Parameter 'position' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (909, 55): Parameter 'positionOffset' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1256, 41): 'Tab' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1262, 40): 'Tab' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1286, 21): Variable 'res' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (751, 13): Name shadowed: heightMeasureSpec
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (909, 40): Parameter 'position' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (909, 55): Parameter 'positionOffset' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1256, 41): 'Tab' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1262, 40): 'Tab' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1286, 21): Variable 'res' is never used
 > Task :playtablayout:compileDebugKotlin
 > Task :playtablayout:prepareLintJar
 > Task :playtablayout:generateDebugSources
@@ -95,16 +96,16 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/
 > Task :playtablayout:createFullJarDebug
 > Transform full.jar (project :playtablayout) with IdentityTransform
 > Task :app:mergeExtDexDebug
+> Transform full.jar (project :playtablayout) with DexingTransform
 > Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
 > Task :app:mergeDebugJniLibFolders
 > Task :playtablayout:compileDebugNdk NO-SOURCE
 > Task :playtablayout:mergeDebugJniLibFolders
 > Task :playtablayout:transformNativeLibsWithMergeJniLibsForDebug
 > Task :playtablayout:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :playtablayout:transformNativeLibsWithIntermediateJniLibsForDebug
-> Transform full.jar (project :playtablayout) with DexingTransform
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:mergeDexDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
@@ -134,12 +135,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/
 > Task :playtablayout:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :playtablayout:generateReleaseBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (751, 13): Name shadowed: heightMeasureSpec
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (909, 40): Parameter 'position' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (909, 55): Parameter 'positionOffset' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1256, 41): 'Tab' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1262, 40): 'Tab' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1286, 21): Variable 'res' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (751, 13): Name shadowed: heightMeasureSpec
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (909, 40): Parameter 'position' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (909, 55): Parameter 'positionOffset' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1256, 41): 'Tab' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1262, 40): 'Tab' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/playtablayout/src/main/java/io/armcha/playtablayout/core/TouchableTabLayout.kt: (1286, 21): Variable 'res' is never used
 > Task :playtablayout:compileReleaseKotlin
 > Task :playtablayout:generateReleaseSources
 > Task :playtablayout:javaPreCompileRelease
@@ -152,20 +153,23 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/eace9cb3c243ac9738af2fc6f10133ee/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :playtablayout:createFullJarRelease
 > Transform full.jar (project :playtablayout) with IdentityTransform
 > Task :app:mergeExtDexRelease
+> Transform full.jar (project :playtablayout) with DexingTransform
 > Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :playtablayout:mergeReleaseShaders
 > Task :playtablayout:compileReleaseShaders
 > Task :playtablayout:generateReleaseAssets
-> Transform full.jar (project :playtablayout) with DexingTransform
 > Task :playtablayout:packageReleaseAssets
-> Task :app:mergeDexRelease
 > Task :app:mergeReleaseAssets
 > Task :app:mergeReleaseJniLibFolders
 > Task :playtablayout:compileReleaseNdk NO-SOURCE
@@ -186,7 +190,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 46s
+BUILD SUCCESSFUL in 1m 0s
 90 actionable tasks: 90 executed
 
-2018-11-10 20:40:52,164 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541857194427-0/src/PlayTabLayout-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-01 20:22:05,539 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884845767-0/src/PlayTabLayout-master/app/build/outputs/apk/debug/app-debug.apk

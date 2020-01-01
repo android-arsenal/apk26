@@ -1,25 +1,25 @@
-2019-03-11 11:59:39,522 INFO  DownloadService - Downloading "https://github.com/shiburagi/Stylish-Widget-for-Android/archive/master.zip", attempt 3
-2019-03-11 11:59:42,918 INFO  DownloadService - Downloaded https://github.com/shiburagi/Stylish-Widget-for-Android/archive/master.zip, attempt 3
-2019-03-11 11:59:42,918 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/master.zip": 3 MB
-2019-03-11 11:59:42,918 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-11 11:59:42,922 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/master.zip: true
-2019-03-11 11:59:42,922 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src'.
-2019-03-11 11:59:43,020 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-03-11 11:59:43,020 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src]
-2019-03-11 11:59:43,038 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/.git/
+2020-01-01 20:18:38,850 INFO  DownloadService - Downloading "https://github.com/shiburagi/Stylish-Widget-for-Android/archive/master.zip", attempt 3
+2020-01-01 20:18:42,820 INFO  DownloadService - Downloaded https://github.com/shiburagi/Stylish-Widget-for-Android/archive/master.zip, attempt 3
+2020-01-01 20:18:42,821 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/master.zip": 3 MB
+2020-01-01 20:18:42,821 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-01 20:18:42,830 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/master.zip: true
+2020-01-01 20:18:42,831 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src'.
+2020-01-01 20:18:42,959 INFO  FullProcessService - Size of directory with sources: 5 MB
+2020-01-01 20:18:42,962 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src]
+2020-01-01 20:18:42,991 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/.git/
 
-2019-03-11 11:59:43,045 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/gradlew
-2019-03-11 11:59:43,052 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/build.gradle
-2019-03-11 11:59:43,059 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/settings.gradle
-2019-03-11 11:59:43,060 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/", attempt 3
-2019-03-11 11:59:48,290 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/", attempt 2
-2019-03-11 11:59:53,825 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/", attempt 1
-2019-03-11 12:00:53,827 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/blundell/release-android-library/"
+2020-01-01 20:18:43,011 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/gradlew
+2020-01-01 20:18:43,023 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/build.gradle
+2020-01-01 20:18:43,031 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/settings.gradle
+2020-01-01 20:18:43,039 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/", attempt 3
+2020-01-01 20:18:49,430 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/", attempt 2
+2020-01-01 20:18:54,766 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/", attempt 1
+2020-01-01 20:19:54,774 ERROR RemoteScriptService - Could not download content from "https://raw.githubusercontent.com/blundell/release-android-library/"
 org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connection from pool
 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.leaseConnection(PoolingHttpClientConnectionManager.java:314)
 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager$1.get(PoolingHttpClientConnectionManager.java:280)
 	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:190)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
 	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
 	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
 	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
@@ -46,80 +46,63 @@ org.apache.http.conn.ConnectionPoolTimeoutException: Timeout waiting for connect
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-11 12:00:53,827 INFO  ProjectBuildService - Remote scripts: none
-2019-03-11 12:00:53,827 INFO  ProjectFixService - Fixing project...
-2019-03-11 12:00:53,854 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/local.properties
-2019-03-11 12:00:53,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-11 12:00:53,855 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-11 12:00:53,856 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/stylishwidget/local.properties
-2019-03-11 12:00:53,857 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-03-11 12:00:53,857 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-03-11 12:00:53,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-03-11 12:00:53,859 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2019-03-11 12:00:53,861 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/local.properties
-2019-03-11 12:00:53,861 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-11 12:00:53,861 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-11 12:00:53,863 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-11 12:00:53,863 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-11 12:00:53,864 INFO  ProjectFixService - Project was maybe fixed
-2019-03-11 12:00:53,864 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-11 12:00:53,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-11 12:01:17,030 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-03-11 12:01:17,030 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-11 12:01:17,030 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-11 12:01:56,132 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-01 20:19:54,774 INFO  ProjectBuildService - Remote scripts: none
+2020-01-01 20:19:54,775 INFO  ProjectFixService - Fixing project...
+2020-01-01 20:19:54,825 INFO  AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2020-01-01 20:19:54,825 INFO  AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/sdk/ndk-bundle
+2020-01-01 20:19:54,833 INFO  AndroidToolsService - Available build tools: 21.0.1 22.0.0 23.0.0 22.0.1 21.0.0 20.0.0 23.0.1 27.0.1 24.0.0 19.0.0 25.0.0 26.0.1 18.0.1 24.0.1 27.0.0 26.0.0 25.0.1 19.0.1 28.0.0-rc1 29.0.2 28.0.2 21.1.2 28.0.3 23.0.3 21.0.2 23.0.2 19.0.3 25.0.3 26.0.2 27.0.2 24.0.3 26.0.3 25.0.2 19.0.2 24.0.2 27.0.3 28.0.1 17.0.0 21.1.1 28.0.0-rc2 29.0.1 21.1.0 28.0.0 29.0.0 18.1.0 19.1.0 18.1.1
+2020-01-01 20:19:54,836 INFO  AndroidToolsService - Available build tools after clean up: 17.0.0 18.0.1 18.1.0 18.1.1 19.0.0 19.0.1 19.0.2 19.0.3 19.1.0 20.0.0 21.0.0 21.0.1 21.0.2 21.1.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.0 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1 24.0.2 24.0.3 25.0.0 25.0.1 25.0.2 25.0.3 26.0.0 26.0.1 26.0.2 26.0.3 27.0.0 27.0.1 27.0.2 27.0.3 28.0.0 28.0.1 28.0.2 28.0.3 29.0.0 29.0.1 29.0.2 28.0.0-rc1 28.0.0-rc2
+2020-01-01 20:19:54,839 INFO  AndroidToolsService - Available platforms: 12 15 23 24 25 22 14 13 5 2 3 4 16 29 11 27 18 20 21 26 19 10 17 28 6 8 9 7
+2020-01-01 20:19:54,840 INFO  AndroidToolsService - Available platforms after clean up: 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29
+2020-01-01 20:19:54,841 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/app/local.properties
+2020-01-01 20:19:54,850 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:19:54,853 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:19:54,862 INFO  LocalPropertiesFixService - Updated fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/stylishwidget/local.properties
+2020-01-01 20:19:54,868 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2020-01-01 20:19:54,869 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2020-01-01 20:19:54,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:19:54,870 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/stylishwidget/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:19:54,872 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/local.properties
+2020-01-01 20:19:54,872 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-01 20:19:54,872 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-01 20:19:54,875 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:19:54,875 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-01-01 20:19:54,875 INFO  ProjectFixService - Project was maybe fixed
+2020-01-01 20:19:54,877 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-01 20:19:54,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-01 20:20:02,423 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-01 20:20:02,424 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-01 20:20:02,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-01 20:20:44,322 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
 > Task :stylishwidget:preBuild UP-TO-DATE
 > Task :stylishwidget:preDebugBuild UP-TO-DATE
-> Task :stylishwidget:checkDebugManifest
-> Task :stylishwidget:processDebugManifest
-> Task :app:preDebugBuild
 > Task :stylishwidget:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :stylishwidget:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
 > Task :app:checkDebugManifest
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:generateDebugBuildConfig
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :stylishwidget:compileDebugRenderscript
+> Task :stylishwidget:checkDebugManifest
+> Task :stylishwidget:compileDebugRenderscript NO-SOURCE
 > Task :stylishwidget:generateDebugBuildConfig
 > Task :stylishwidget:generateDebugResValues
 > Task :stylishwidget:generateDebugResources
 > Task :stylishwidget:packageDebugResources
-> Task :stylishwidget:generateDebugRFile
-> Task :stylishwidget:prepareLintJar
-> Task :stylishwidget:generateDebugSources
-> Task :stylishwidget:javaPreCompileDebug
-
-> Task :stylishwidget:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :stylishwidget:processDebugJavaRes NO-SOURCE
-> Task :stylishwidget:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :app:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
+> Task :stylishwidget:javaPreCompileDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:mergeDebugResources
+> Task :stylishwidget:parseDebugLibraryResources
 > Task :app:createDebugCompatibleScreenManifests
-> Task :app:processDebugManifest
-> Task :app:processDebugResources
-
-> Task :app:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/src/main/java/com/app/infideap/mystylishexample/MainActivity.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:compileDebugNdk NO-SOURCE
-> Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
@@ -128,74 +111,92 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :stylishwidget:generateDebugAssets
 > Task :stylishwidget:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :app:mergeDebugResources
+> Task :stylishwidget:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :stylishwidget:processDebugJavaRes NO-SOURCE
+> Task :stylishwidget:generateDebugRFile
+
+> Task :stylishwidget:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:processDebugResources
+> Task :app:checkDebugDuplicateClasses
+> Task :stylishwidget:bundleLibResDebug
+> Task :stylishwidget:bundleLibCompileDebug
+> Task :stylishwidget:bundleLibRuntimeDebug
 > Task :stylishwidget:createFullJarDebug
-> Transform full.jar (project :stylishwidget) with IdentityTransform
-> Task :app:mergeExtDexDebug
-> Transform full.jar (project :stylishwidget) with DexingTransform
+> Task :app:javaPreCompileDebug
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileDebugJavaWithJavac
+
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :stylishwidget:compileDebugNdk NO-SOURCE
 > Task :stylishwidget:mergeDebugJniLibFolders
-> Task :stylishwidget:transformNativeLibsWithMergeJniLibsForDebug
-> Task :stylishwidget:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :stylishwidget:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
+> Task :app:preReleaseBuild UP-TO-DATE
 > Task :stylishwidget:preReleaseBuild UP-TO-DATE
-> Task :stylishwidget:checkReleaseManifest
-> Task :stylishwidget:processReleaseManifest
-> Task :app:preReleaseBuild
 > Task :stylishwidget:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :stylishwidget:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
-> Task :app:generateReleaseSources
-> Task :stylishwidget:compileReleaseRenderscript
+> Task :stylishwidget:compileReleaseRenderscript NO-SOURCE
+> Task :stylishwidget:checkReleaseManifest
 > Task :stylishwidget:generateReleaseBuildConfig
 > Task :stylishwidget:generateReleaseResValues
 > Task :stylishwidget:generateReleaseResources
 > Task :stylishwidget:packageReleaseResources
-> Task :stylishwidget:generateReleaseRFile
-> Task :stylishwidget:generateReleaseSources
+> Task :stylishwidget:mergeDebugNativeLibs
+> Task :stylishwidget:stripDebugDebugSymbols
+> Task :stylishwidget:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :stylishwidget:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :stylishwidget:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :stylishwidget:parseReleaseLibraryResources
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:prepareLintJar
+> Task :stylishwidget:processReleaseJavaRes NO-SOURCE
+> Task :app:checkReleaseDuplicateClasses
+> Task :stylishwidget:prepareLintJarForPublish
+> Task :app:mergeReleaseResources
+> Task :stylishwidget:generateReleaseRFile
 
 > Task :stylishwidget:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :stylishwidget:processReleaseJavaRes NO-SOURCE
-> Task :stylishwidget:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :app:javaPreCompileRelease
-> Task :app:mainApkListPersistenceRelease
-> Task :app:generateReleaseResValues
-> Task :app:generateReleaseResources
-> Task :app:mergeReleaseResources
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :app:processReleaseManifest
 > Task :app:processReleaseResources
+> Task :stylishwidget:bundleLibCompileRelease
+> Task :stylishwidget:bundleLibResRelease
+> Task :stylishwidget:bundleLibRuntimeRelease
+> Task :stylishwidget:createFullJarRelease
+> Task :app:javaPreCompileRelease
 
 > Task :app:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/src/main/java/com/app/infideap/mystylishexample/MainActivity.java uses or overrides a deprecated API.
+Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+
 > Task :app:lintVitalRelease
-> Task :stylishwidget:createFullJarRelease
-> Transform full.jar (project :stylishwidget) with IdentityTransform
-> Task :app:mergeExtDexRelease
-> Transform full.jar (project :stylishwidget) with DexingTransform
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1fb35a5e899a2e7ba191b21148f65714/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeExtDexDebug
 > Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -204,23 +205,31 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :stylishwidget:generateReleaseAssets
 > Task :stylishwidget:packageReleaseAssets
 > Task :app:mergeReleaseAssets
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :stylishwidget:compileReleaseNdk NO-SOURCE
 > Task :stylishwidget:mergeReleaseJniLibFolders
-> Task :stylishwidget:transformNativeLibsWithMergeJniLibsForRelease
-> Task :stylishwidget:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:mergeReleaseJavaResource
+> Task :stylishwidget:mergeReleaseNativeLibs
+> Task :stylishwidget:stripReleaseDebugSymbols
 > Task :stylishwidget:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :app:transformNativeLibsWithMergeJniLibsForRelease
-> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :app:processReleaseJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 38s
-88 actionable tasks: 88 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2019-03-11 12:01:56,240 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552280379518-0/src/Stylish-Widget-for-Android-master/app/build/outputs/apk/debug/app-debug.apk
+BUILD SUCCESSFUL in 41s
+90 actionable tasks: 90 executed
+
+2020-01-01 20:20:44,444 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577884718793-0/src/Stylish-Widget-for-Android-master/app/build/outputs/apk/debug/app-debug.apk
