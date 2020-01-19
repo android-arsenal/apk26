@@ -1,34 +1,34 @@
-2020-01-01 18:30:19,500 INFO  DownloadService - Downloading "https://github.com/lsjwzh/FastTextView/archive/master.zip", attempt 3
-2020-01-01 18:30:20,032 INFO  DownloadService - Downloaded https://github.com/lsjwzh/FastTextView/archive/master.zip, attempt 3
-2020-01-01 18:30:20,032 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/master.zip": 264 KB
-2020-01-01 18:30:20,032 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-01 18:30:20,038 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/master.zip: true
-2020-01-01 18:30:20,038 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src'.
-2020-01-01 18:30:20,067 INFO  FullProcessService - Size of directory with sources: 440 KB
-2020-01-01 18:30:20,067 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src]
-2020-01-01 18:30:20,085 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/.git/
+2020-01-19 19:07:45,933 INFO  DownloadService - Downloading "https://github.com/lsjwzh/FastTextView/archive/master.zip", attempt 3
+2020-01-19 19:07:46,795 INFO  DownloadService - Downloaded https://github.com/lsjwzh/FastTextView/archive/master.zip, attempt 3
+2020-01-19 19:07:46,795 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/master.zip": 264 KB
+2020-01-19 19:07:46,795 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-19 19:07:46,801 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/master.zip: true
+2020-01-19 19:07:46,801 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src'.
+2020-01-19 19:07:46,830 INFO  FullProcessService - Size of directory with sources: 440 KB
+2020-01-19 19:07:46,830 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src]
+2020-01-19 19:07:46,849 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/.git/
 
-2020-01-01 18:30:20,088 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/gradlew
-2020-01-01 18:30:20,095 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/text.Textline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/widget.FastTextView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/build.gradle
-2020-01-01 18:30:20,098 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/widget.FastTextView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/text.Textline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/settings.gradle
-2020-01-01 18:30:20,098 INFO  ProjectBuildService - Remote scripts: none
-2020-01-01 18:30:20,098 INFO  ProjectFixService - Fixing project...
-2020-01-01 18:30:20,107 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/app/local.properties
-2020-01-01 18:30:20,108 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-01 18:30:20,108 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/text.Textline/local.properties
-2020-01-01 18:30:20,109 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/text.Textline/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2020-01-01 18:30:20,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/widget.FastTextView/local.properties
-2020-01-01 18:30:20,109 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/widget.FastTextView/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-01 18:30:20,110 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/local.properties
-2020-01-01 18:30:20,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2020-01-01 18:30:20,111 INFO  ProjectFixService - Project was maybe fixed
-2020-01-01 18:30:20,111 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-01 18:30:20,111 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-01 18:30:20,234 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-01 18:30:20,234 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-01 18:30:20,234 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-01 18:30:20,234 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-01 18:30:20,356 ERROR SysUtils - Could not process external command
+2020-01-19 19:07:46,852 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/gradlew
+2020-01-19 19:07:46,858 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/text.Textline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/widget.FastTextView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/build.gradle
+2020-01-19 19:07:46,861 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/widget.FastTextView/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/text.Textline/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/settings.gradle
+2020-01-19 19:07:46,861 INFO  ProjectBuildService - Remote scripts: none
+2020-01-19 19:07:46,861 INFO  ProjectFixService - Fixing project...
+2020-01-19 19:07:46,868 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/app/local.properties
+2020-01-19 19:07:46,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-19 19:07:46,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/text.Textline/local.properties
+2020-01-19 19:07:46,869 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/text.Textline/build.gradle": [buildToolsVersion=25.0.3,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2020-01-19 19:07:46,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/widget.FastTextView/local.properties
+2020-01-19 19:07:46,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/widget.FastTextView/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-19 19:07:46,870 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/local.properties
+2020-01-19 19:07:46,871 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2020-01-19 19:07:46,871 INFO  ProjectFixService - Project was maybe fixed
+2020-01-19 19:07:46,871 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 19:07:46,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 19:07:46,992 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 19:07:46,992 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 19:07:46,993 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 19:07:46,993 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 19:07:47,107 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,24 +47,25 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-01 18:30:20,356 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-01-19 19:07:47,107 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-01-01 18:30:20,359 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-01 18:30:20,360 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/text.Textline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-01 18:30:20,483 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-01 18:30:20,483 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-01 18:30:20,483 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-01 18:30:20,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/text.Textline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-01 18:30:20,618 ERROR SysUtils - Could not process external command
+2020-01-19 19:07:47,110 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 19:07:47,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/text.Textline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 19:07:47,123 INFO  VirusProcessorServiceImpl - Queued project 6923 to scan viruses
+2020-01-19 19:07:47,240 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 19:07:47,240 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 19:07:47,240 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 19:07:47,240 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/text.Textline/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 19:07:47,359 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -83,24 +84,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-01 18:30:20,618 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-01-19 19:07:47,359 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-01-01 18:30:20,622 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-01 18:30:20,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/widget.FastTextView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-01 18:30:20,766 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-01 18:30:20,766 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-01 18:30:20,766 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-01 18:30:20,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/widget.FastTextView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-01 18:30:20,904 ERROR SysUtils - Could not process external command
+2020-01-19 19:07:47,362 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 19:07:47,362 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/widget.FastTextView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 19:07:47,477 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 19:07:47,477 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 19:07:47,477 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 19:07:47,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/widget.FastTextView/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 19:07:47,590 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -119,24 +120,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-01 18:30:20,904 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-01-19 19:07:47,591 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-01-01 18:30:20,909 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-01 18:30:20,909 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-01 18:30:21,050 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2020-01-01 18:30:21,050 INFO  ProjectTaskService - Detected possible tasks: 0
-2020-01-01 18:30:21,051 INFO  ProjectTaskService - Excluded tasks (0): none
-2020-01-01 18:30:21,051 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577878219492-0/src/FastTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2020-01-01 18:30:21,176 ERROR SysUtils - Could not process external command
+2020-01-19 19:07:47,594 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-19 19:07:47,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-19 19:07:47,707 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2020-01-19 19:07:47,707 INFO  ProjectTaskService - Detected possible tasks: 0
+2020-01-19 19:07:47,708 INFO  ProjectTaskService - Excluded tasks (0): none
+2020-01-19 19:07:47,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579435665930-0/src/FastTextView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2020-01-19 19:07:47,821 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -155,16 +156,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-01 18:30:21,176 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2020-01-19 19:07:47,821 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2020-01-01 18:30:21,181 ERROR FullProcessService - Project build has not produced APK file
-2020-01-01 18:30:21,185 ERROR FullProcessService - Could not find generated or existed APK file
+2020-01-19 19:07:47,824 ERROR FullProcessService - Project build has not produced APK file
+2020-01-19 19:07:47,827 ERROR FullProcessService - Could not find generated or existed APK file
