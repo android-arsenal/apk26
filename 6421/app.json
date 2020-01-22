@@ -5,6 +5,14 @@
     "icon" : "res/mipmap-anydpi-v26/ic_launcher.xml",
     "versionName" : "1.0",
     "versionCode" : 1,
+    "revisionCode" : null,
+    "sharedUserId" : null,
+    "sharedUserLabel" : null,
+    "split" : null,
+    "configForSplit" : null,
+    "isFeatureSplit" : false,
+    "isSplitRequired" : false,
+    "isolatedSplits" : false,
     "installLocation" : null,
     "minSdkVersion" : "15",
     "targetSdkVersion" : "27",
@@ -20,7 +28,9 @@
     "largeScreens" : false,
     "usesPermissions" : [ ],
     "usesFeatures" : [ ],
-    "permissions" : [ ]
+    "permissions" : [ ],
+    "featureSplit" : false,
+    "splitRequired" : false
   },
   "icon" : {
     "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
@@ -31,8 +41,8 @@
   "dexClasses" : 2878,
   "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.huma.roomforasset\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"RoomAsset\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"com.huma.roomforasset.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.huma.roomforasset.JavaActivity\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2506050,
-  "crc32" : 3094268719,
-  "sha256" : "cb893dc4db9a7ef8d292de931e9d07793987d59eb2a742b4f34c14b80b0779e6",
-  "buildTime" : 1577878099000
+  "fileSize" : 2506010,
+  "crc32" : 3010244433,
+  "sha256" : "fb22217121ef7945d72d4dcdde0f4dc345c46673c4d718f409eb14b4067a0448",
+  "buildTime" : 1579690495000
 }

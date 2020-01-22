@@ -1,33 +1,34 @@
-2020-01-01 19:11:49,363 INFO  DownloadService - Downloading "https://github.com/lytefast/flex-input/archive/master.zip", attempt 3
-2020-01-01 19:11:50,716 INFO  DownloadService - Downloaded https://github.com/lytefast/flex-input/archive/master.zip, attempt 3
-2020-01-01 19:11:50,716 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/master.zip": 1 MB
-2020-01-01 19:11:50,716 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-01 19:11:50,723 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/master.zip: true
-2020-01-01 19:11:50,723 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src'.
-2020-01-01 19:11:50,773 INFO  FullProcessService - Size of directory with sources: 1 MB
-2020-01-01 19:11:50,773 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src]
-2020-01-01 19:11:50,790 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/.git/
+2020-01-22 17:55:11,268 INFO  DownloadService - Downloading "https://github.com/lytefast/flex-input/archive/master.zip", attempt 3
+2020-01-22 17:55:13,457 INFO  DownloadService - Downloaded https://github.com/lytefast/flex-input/archive/master.zip, attempt 3
+2020-01-22 17:55:13,458 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/master.zip": 1 MB
+2020-01-22 17:55:13,458 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-01-22 17:55:13,459 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/master.zip: true
+2020-01-22 17:55:13,459 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src'.
+2020-01-22 17:55:13,506 INFO  FullProcessService - Size of directory with sources: 1 MB
+2020-01-22 17:55:13,506 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src]
+2020-01-22 17:55:13,538 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/.git/
 
-2020-01-01 19:11:50,797 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/gradlew
-2020-01-01 19:11:50,802 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/build.gradle
-2020-01-01 19:11:50,806 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/settings.gradle
-2020-01-01 19:11:50,806 INFO  ProjectBuildService - Remote scripts: none
-2020-01-01 19:11:50,806 INFO  ProjectFixService - Fixing project...
-2020-01-01 19:11:50,815 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/app/local.properties
-2020-01-01 19:11:50,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-01-01 19:11:50,817 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/local.properties
-2020-01-01 19:11:50,819 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-01-01 19:11:50,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/local.properties
-2020-01-01 19:11:50,820 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-01 19:11:50,820 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-01 19:11:50,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2020-01-01 19:11:50,821 INFO  ProjectFixService - Project was maybe fixed
-2020-01-01 19:11:50,821 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-01 19:11:50,821 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-01 19:12:01,280 INFO  ProjectTaskService - Detected possible tasks: 66
-2020-01-01 19:12:01,281 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-01 19:12:01,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-01 19:13:03,641 ERROR SysUtils - Could not process external command
+2020-01-22 17:55:13,544 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/gradlew
+2020-01-22 17:55:13,552 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/build.gradle
+2020-01-22 17:55:13,558 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/settings.gradle
+2020-01-22 17:55:13,559 INFO  ProjectBuildService - Remote scripts: none
+2020-01-22 17:55:13,559 INFO  ProjectFixService - Fixing project...
+2020-01-22 17:55:13,572 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/app/local.properties
+2020-01-22 17:55:13,574 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-22 17:55:13,575 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/local.properties
+2020-01-22 17:55:13,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-22 17:55:13,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/local.properties
+2020-01-22 17:55:13,577 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-01-22 17:55:13,578 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-01-22 17:55:13,578 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2020-01-22 17:55:13,578 INFO  ProjectFixService - Project was maybe fixed
+2020-01-22 17:55:13,578 INFO  ProjectTaskService - Detecting possible tasks...
+2020-01-22 17:55:13,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-01-22 17:55:20,946 INFO  ProjectTaskService - Detected possible tasks: 66
+2020-01-22 17:55:20,947 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-01-22 17:55:20,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-01-22 17:55:22,195 INFO  VirusProcessorServiceImpl - Queued project 6421 to scan viruses
+2020-01-22 17:56:29,563 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,16 +47,16 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:197)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:131)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:114)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2020-01-01 19:13:03,647 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-01-22 17:56:29,564 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :flexinput:preBuild UP-TO-DATE
@@ -75,9 +76,9 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :flexinput:packageDebugResources
 > Task :app:createDebugCompatibleScreenManifests
 > Task :flexinput:checkDebugManifest
+> Task :app:mergeDebugResources
 > Task :flexinput:processDebugManifest
 > Task :app:processDebugManifest
-> Task :app:mergeDebugResources
 > Task :flexinput:parseDebugLibraryResources
 > Task :flexinput:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
@@ -94,54 +95,54 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:processDebugResources
 
 > Task :flexinput:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AddContentPagerAdapter.kt: (29, 5): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (141, 72): 'MINI_THUMB_MAGIC: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (142, 38): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 48): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 59): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 63): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 74): 'MINI_KIND: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 35): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 46): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (158, 43): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 38): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 49): 'IMAGE_ID: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 70): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 81): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (110, 72): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (121, 37): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 18): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 36): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 23): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 41): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 56): 'getNumberOfCameras(): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (390, 43): 'ACTION_MEDIA_SCANNER_SCAN_FILE: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (95, 38): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (42, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/managers/SimpleFileManager.kt: (27, 23): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 27): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 38): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (28, 35): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 30): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 41): 'IMAGE_ID: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 67): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 78): 'MINI_KIND: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 29): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 40): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 27): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 38): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 52): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 63): 'MINI_KIND: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AddContentPagerAdapter.kt: (29, 5): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (141, 72): 'MINI_THUMB_MAGIC: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (142, 38): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 48): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 59): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 63): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 74): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 35): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 46): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (158, 43): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 38): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 49): 'IMAGE_ID: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 70): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 81): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (110, 72): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (121, 37): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 18): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 36): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 23): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 41): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 56): 'getNumberOfCameras(): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (390, 43): 'ACTION_MEDIA_SCANNER_SCAN_FILE: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (95, 38): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (42, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/managers/SimpleFileManager.kt: (27, 23): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 27): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 38): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (28, 35): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 30): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 41): 'IMAGE_ID: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 67): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 78): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 29): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 40): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 27): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 38): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 52): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 63): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
 
 > Task :flexinput:javaPreCompileDebug
 
 > Task :flexinput:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/EmojiCategoryPagerFragment.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/EmojiCategoryPagerFragment.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -158,9 +159,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:compileDebugSources
 > Task :app:mergeDebugJavaResource
 > Task :flexinput:bundleLibRuntimeDebug
-> Task :flexinput:createFullJarDebug
-> Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
@@ -187,74 +187,74 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :flexinput:mergeDebugNativeLibs
 > Task :flexinput:stripDebugDebugSymbols
 > Task :flexinput:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :flexinput:parseReleaseLibraryResources
 > Task :flexinput:generateReleaseBuildConfig
-> Task :app:prepareLintJar
-> Task :flexinput:prepareLintJarForPublish
+> Task :flexinput:parseReleaseLibraryResources
 > Task :app:mergeReleaseResources
 > Task :app:multiDexListDebug
 > Task :flexinput:generateReleaseRFile
 > Task :app:processReleaseResources
 
 > Task :flexinput:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AddContentPagerAdapter.kt: (29, 5): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (141, 72): 'MINI_THUMB_MAGIC: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (142, 38): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 48): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 59): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 63): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 74): 'MINI_KIND: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 35): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 46): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (158, 43): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 38): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 49): 'IMAGE_ID: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 70): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 81): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (110, 72): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (121, 37): 'DATA: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 18): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 36): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 23): 'PreferenceManager' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 41): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 56): 'getNumberOfCameras(): Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (390, 43): 'ACTION_MEDIA_SCANNER_SCAN_FILE: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (95, 38): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (42, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/managers/SimpleFileManager.kt: (27, 23): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 27): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 38): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (28, 35): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 30): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 41): 'IMAGE_ID: String' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 67): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 78): 'MINI_KIND: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 29): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 40): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 27): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 38): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 52): 'Thumbnails' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 63): 'MINI_KIND: Int' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/AddContentPagerAdapter.kt: (29, 5): 'constructor FragmentPagerAdapter(FragmentManager)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (141, 72): 'MINI_THUMB_MAGIC: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (142, 38): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 48): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (151, 59): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 63): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (152, 74): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 35): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (157, 46): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (158, 43): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 38): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (159, 49): 'IMAGE_ID: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 70): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/FileListAdapter.kt: (168, 81): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (110, 72): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/adapters/PhotoCursorAdapter.kt: (121, 37): 'DATA: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (10, 25): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (17, 27): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 18): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (65, 36): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 23): 'PreferenceManager' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (69, 41): 'getDefaultSharedPreferences(Context!): SharedPreferences!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 49): 'Camera' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (132, 56): 'getNumberOfCameras(): Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/CameraFragment.kt: (390, 43): 'ACTION_MEDIA_SCANNER_SCAN_FILE: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (43, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/FilesFragment.kt: (95, 38): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/PhotosFragment.kt: (42, 57): Unchecked cast: Fragment? to FlexInputCoordinator<Any>
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/managers/SimpleFileManager.kt: (27, 23): 'getExternalStoragePublicDirectory(String!): File!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 27): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (27, 38): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (28, 35): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 30): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (29, 41): 'IMAGE_ID: String' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 67): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (30, 78): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 29): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (40, 40): 'EXTERNAL_CONTENT_URI: Uri!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 27): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (50, 38): 'getThumbnail(ContentResolver!, Long, Int, BitmapFactory.Options!): Bitmap!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 52): 'Thumbnails' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/model/Photo.kt: (51, 63): 'MINI_KIND: Int' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/utils/SelectionCoordinator.kt: (22, 54): Projection is redundant: the corresponding type parameter of ItemSelectionListener has the same variance
 
+> Task :app:mergeDexDebug
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :flexinput:javaPreCompileRelease
 
 > Task :flexinput:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/EmojiCategoryPagerFragment.java uses or overrides a deprecated API.
+
+> Task :app:prepareLintJar
+> Task :flexinput:prepareLintJarForPublish
+> Task :flexinput:bundleLibCompileRelease
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/flexinput/src/main/java/com/lytefast/flexinput/fragment/EmojiCategoryPagerFragment.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
-
-> Task :app:mergeDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
-> Task :flexinput:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :app:javaPreCompileRelease
 
@@ -265,8 +265,8 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:compileReleaseSources
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/cd2c3d78f22cc1ad2462487896d8c607/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/app/src/main/res/values-night/colors.xml:17: Error: The color "highlight_alpha_50" in values-night has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1ba3e3be34af367a14c324d908959ba7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/app/src/main/res/values-night/colors.xml:17: Error: The color "highlight_alpha_50" in values-night has no declaration in the base values folder; this can lead to crashes when the resource is queried in a configuration that does not match this qualifier [MissingDefaultResource]
     <color name="highlight_alpha_50">#80222222</color>
            ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -442,7 +442,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 1m 1s
-71 actionable tasks: 71 executed
+BUILD FAILED in 1m 7s
+70 actionable tasks: 70 executed
 
-2020-01-01 19:13:03,737 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1577880709360-0/src/flex-input-master/app/build/outputs/apk/debug/app-debug.apk
+2020-01-22 17:56:29,645 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1579690511265-0/src/flex-input-master/app/build/outputs/apk/debug/app-debug.apk
