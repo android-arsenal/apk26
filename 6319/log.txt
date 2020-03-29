@@ -1,37 +1,36 @@
-2020-01-04 22:47:22,763 INFO  DownloadService - Downloading "https://github.com/drawers/SpinnerDatePicker/archive/master.zip", attempt 3
-2020-01-04 22:47:25,099 INFO  DownloadService - Downloaded https://github.com/drawers/SpinnerDatePicker/archive/master.zip, attempt 3
-2020-01-04 22:47:25,099 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/master.zip": 240 KB
-2020-01-04 22:47:25,099 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-04 22:47:25,105 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/master.zip: true
-2020-01-04 22:47:25,105 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src'.
-2020-01-04 22:47:25,126 INFO  FullProcessService - Size of directory with sources: 302 KB
-2020-01-04 22:47:25,126 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src]
-2020-01-04 22:47:25,143 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/.git/
+2020-03-30 00:50:13,831 INFO  DownloadService - Downloading "https://github.com/drawers/SpinnerDatePicker/archive/master.zip", attempt 3
+2020-03-30 00:50:15,943 INFO  DownloadService - Downloaded https://github.com/drawers/SpinnerDatePicker/archive/master.zip, attempt 3
+2020-03-30 00:50:15,943 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/master.zip": 240 KB
+2020-03-30 00:50:15,943 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 00:50:15,944 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/master.zip: true
+2020-03-30 00:50:15,944 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src'.
+2020-03-30 00:50:15,966 INFO  FullProcessService - Size of directory with sources: 302 KB
+2020-03-30 00:50:15,966 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src]
+2020-03-30 00:50:15,993 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/.git/
 
-2020-01-04 22:47:25,146 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/gradlew
-2020-01-04 22:47:25,148 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/build.gradle
-2020-01-04 22:47:25,150 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle
-2020-01-04 22:47:25,150 INFO  ProjectBuildService - Remote scripts: none
-2020-01-04 22:47:25,150 INFO  ProjectFixService - Fixing project...
-2020-01-04 22:47:25,155 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/local.properties
-2020-01-04 22:47:25,156 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-04 22:47:25,156 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-04 22:47:25,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/local.properties
-2020-01-04 22:47:25,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-04 22:47:25,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-04 22:47:25,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/local.properties
-2020-01-04 22:47:25,160 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2020-01-04 22:47:25,160 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2020-01-04 22:47:25,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-04 22:47:25,161 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2020-01-04 22:47:25,161 INFO  ProjectFixService - Project was maybe fixed
-2020-01-04 22:47:25,161 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 22:47:25,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 22:47:33,522 INFO  ProjectTaskService - Detected possible tasks: 68
-2020-01-04 22:47:33,522 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-04 22:47:33,522 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-04 22:47:36,893 INFO  VirusProcessorServiceImpl - Queued project 6424 to scan viruses
-2020-01-04 22:48:03,052 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 00:50:15,996 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/gradlew
+2020-03-30 00:50:15,999 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/build.gradle
+2020-03-30 00:50:16,003 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle
+2020-03-30 00:50:16,003 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 00:50:16,004 INFO  ProjectFixService - Fixing project...
+2020-03-30 00:50:16,013 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/local.properties
+2020-03-30 00:50:16,014 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-30 00:50:16,015 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-30 00:50:16,015 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/local.properties
+2020-03-30 00:50:16,016 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-30 00:50:16,017 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerLib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-30 00:50:16,018 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/local.properties
+2020-03-30 00:50:16,019 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2020-03-30 00:50:16,019 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2020-03-30 00:50:16,021 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-30 00:50:16,021 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2020-03-30 00:50:16,022 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 00:50:16,022 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 00:50:16,023 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 00:50:23,465 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-03-30 00:50:23,465 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 00:50:23,465 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 00:50:58,510 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :SpinnerDatePickerExample
 WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
@@ -133,6 +132,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :SpinnerDatePickerLib:javaPreCompileRelease
 
 > Task :SpinnerDatePickerLib:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
 > Task :SpinnerDatePickerLib:processReleaseJavaRes NO-SOURCE
 > Task :SpinnerDatePickerLib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
@@ -140,8 +141,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :SpinnerDatePickerExample:mainApkListPersistenceRelease
 > Task :SpinnerDatePickerExample:generateReleaseResValues
 > Task :SpinnerDatePickerExample:generateReleaseResources
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
 > Task :SpinnerDatePickerExample:mergeReleaseResources
 > Task :SpinnerDatePickerExample:createReleaseCompatibleScreenManifests
 > Task :SpinnerDatePickerExample:processReleaseManifest
@@ -149,7 +148,11 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :SpinnerDatePickerExample:compileReleaseJavaWithJavac
 > Task :SpinnerDatePickerExample:compileReleaseNdk NO-SOURCE
 > Task :SpinnerDatePickerExample:compileReleaseSources
+
 > Task :SpinnerDatePickerExample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4110600b8d0f39c12a82184e24a194a5/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/be4da018d3716421586226581698940b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
 > Task :SpinnerDatePickerLib:createFullJarRelease
 > Transform full.jar (project :SpinnerDatePickerLib) with IdentityTransform
 > Task :SpinnerDatePickerExample:mergeExtDexRelease
@@ -180,7 +183,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :SpinnerDatePickerExample:assemble
 > Task :SpinnerDatePickerExample:build
 
-BUILD SUCCESSFUL in 29s
+BUILD SUCCESSFUL in 34s
 88 actionable tasks: 88 executed
 
-2020-01-04 22:48:03,128 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152842759-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build/outputs/apk/release/SpinnerDatePickerExample-release-unsigned.apk
+2020-03-30 00:50:58,613 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504213827-0/src/SpinnerDatePicker-master/SpinnerDatePickerExample/build/outputs/apk/release/SpinnerDatePickerExample-release-unsigned.apk

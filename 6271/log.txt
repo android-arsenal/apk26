@@ -1,36 +1,36 @@
-2018-12-02 16:41:27,600 INFO  DownloadService - Downloading "https://github.com/neworld/spanner/archive/master.zip", attempt 3
-2018-12-02 16:41:28,412 INFO  DownloadService - Downloaded https://github.com/neworld/spanner/archive/master.zip, attempt 3
-2018-12-02 16:41:28,412 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/master.zip": 149 KB
-2018-12-02 16:41:28,412 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-02 16:41:28,417 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/master.zip: true
-2018-12-02 16:41:28,417 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src'.
-2018-12-02 16:41:28,437 INFO  FullProcessService - Size of directory with sources: 183 KB
-2018-12-02 16:41:28,437 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src]
-2018-12-02 16:41:28,458 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/.git/
+2020-03-30 00:51:14,210 INFO  DownloadService - Downloading "https://github.com/neworld/spanner/archive/master.zip", attempt 3
+2020-03-30 00:51:14,805 INFO  DownloadService - Downloaded https://github.com/neworld/spanner/archive/master.zip, attempt 3
+2020-03-30 00:51:14,805 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/master.zip": 150 KB
+2020-03-30 00:51:14,805 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 00:51:14,806 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/master.zip: true
+2020-03-30 00:51:14,806 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src'.
+2020-03-30 00:51:14,826 INFO  FullProcessService - Size of directory with sources: 185 KB
+2020-03-30 00:51:14,826 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src]
+2020-03-30 00:51:14,848 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/.git/
 
-2018-12-02 16:41:28,461 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/gradlew
-2018-12-02 16:41:28,464 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/build.gradle
-2018-12-02 16:41:28,467 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/settings.gradle
-2018-12-02 16:41:28,468 INFO  ProjectBuildService - Remote scripts: none
-2018-12-02 16:41:28,468 INFO  ProjectFixService - Fixing project...
-2018-12-02 16:41:28,475 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/local.properties
-2018-12-02 16:41:28,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-02 16:41:28,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-02 16:41:28,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/local.properties
-2018-12-02 16:41:28,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-02 16:41:28,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-02 16:41:28,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/local.properties
-2018-12-02 16:41:28,482 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2018-12-02 16:41:28,482 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2018-12-02 16:41:28,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-12-02 16:41:28,484 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-12-02 16:41:28,485 INFO  ProjectFixService - Project was maybe fixed
-2018-12-02 16:41:28,485 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-02 16:41:28,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-02 16:41:36,399 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-12-02 16:41:36,399 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-02 16:41:36,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-02 16:41:58,589 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 00:51:14,852 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/gradlew
+2020-03-30 00:51:14,856 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/build.gradle
+2020-03-30 00:51:14,860 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/settings.gradle
+2020-03-30 00:51:14,861 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 00:51:14,861 INFO  ProjectFixService - Fixing project...
+2020-03-30 00:51:14,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/local.properties
+2020-03-30 00:51:14,872 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 00:51:14,872 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 00:51:14,873 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/local.properties
+2020-03-30 00:51:14,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 00:51:14,876 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 00:51:14,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/local.properties
+2020-03-30 00:51:14,878 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2020-03-30 00:51:14,878 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2020-03-30 00:51:14,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 00:51:14,880 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 00:51:14,881 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 00:51:14,881 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 00:51:14,881 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 00:51:23,378 INFO  ProjectTaskService - Detected possible tasks: 65
+2020-03-30 00:51:23,378 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2020-03-30 00:51:23,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2020-03-30 00:51:43,238 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
 > Task :lib:compileDebugAidl NO-SOURCE
@@ -42,14 +42,14 @@
 > Task :lib:packageDebugResources
 > Task :lib:processDebugManifest
 > Task :lib:generateDebugRFile
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spanner.kt: (100, 13): Name shadowed: text
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spanner.kt: (100, 13): Name shadowed: text
 > Task :lib:compileDebugKotlin
 > Task :lib:prepareLintJar
 > Task :lib:generateDebugSources
 > Task :lib:javaPreCompileDebug
 
 > Task :lib:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :lib:extractDebugAnnotations
@@ -80,13 +80,13 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :lib:packageReleaseResources
 > Task :lib:processReleaseManifest
 > Task :lib:generateReleaseRFile
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spanner.kt: (100, 13): Name shadowed: text
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spanner.kt: (100, 13): Name shadowed: text
 > Task :lib:compileReleaseKotlin
 > Task :lib:generateReleaseSources
 > Task :lib:javaPreCompileRelease
 
 > Task :lib:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :lib:extractReleaseAnnotations
@@ -111,490 +111,486 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :lib:assembleRelease
 
 > Task :lib:javadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:14: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:14: error: package android.support.annotation does not exist
 import android.support.annotation.ColorInt;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:15: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:15: error: package android.support.annotation does not exist
 import android.support.annotation.Dimension;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:16: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:16: error: package android.support.annotation does not exist
 import android.support.annotation.DrawableRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:17: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:17: error: package android.support.annotation does not exist
 import android.support.annotation.FloatRange;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:18: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:18: error: package android.support.annotation does not exist
+import android.support.annotation.IntRange;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:19: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:19: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:20: error: package android.support.annotation does not exist
 import android.support.annotation.Nullable;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:20: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.Px;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:22: error: package android.support.annotation does not exist
 import android.support.annotation.RequiresApi;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:52: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:46: error: cannot find symbol
+import lt.neworld.spanner.AbsoluteSizeSpanBuilder;
+                         ^
+  symbol:   class AbsoluteSizeSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:47: error: cannot find symbol
+import lt.neworld.spanner.AlignmentSpanBuilder;
+                         ^
+  symbol:   class AlignmentSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:48: error: cannot find symbol
+import lt.neworld.spanner.BulletSpanBuilder;
+                         ^
+  symbol:   class BulletSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:49: error: cannot find symbol
+import lt.neworld.spanner.ClickSpanBuilder;
+                         ^
+  symbol:   class ClickSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:50: error: cannot find symbol
+import lt.neworld.spanner.ColorSpanBuilder;
+                         ^
+  symbol:   class ColorSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:51: error: cannot find symbol
+import lt.neworld.spanner.ImageSpanBuilder;
+                         ^
+  symbol:   class ImageSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:52: error: cannot find symbol
+import lt.neworld.spanner.LeadingMarginSpanBuilder;
+                         ^
+  symbol:   class LeadingMarginSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:53: error: cannot find symbol
+import lt.neworld.spanner.LineHeightSpanBuilder;
+                         ^
+  symbol:   class LineHeightSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:54: error: cannot find symbol
+import lt.neworld.spanner.QuoteSpanBuilder;
+                         ^
+  symbol:   class QuoteSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:55: error: cannot find symbol
+import lt.neworld.spanner.Span;
+                         ^
+  symbol:   class Span
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:57: error: cannot find symbol
+import lt.neworld.spanner.StyleSpanBuilder;
+                         ^
+  symbol:   class StyleSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:58: error: cannot find symbol
+import lt.neworld.spanner.LineBackgroundSpanBuilder;
+                         ^
+  symbol:   class LineBackgroundSpanBuilder
+  location: package lt.neworld.spanner
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:68: error: cannot find symbol
     public static Span sizePX(@Dimension(unit = Dimension.PX) final int px) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:75: error: cannot find symbol
     public static Span sizeDP(@Dimension(unit = Dimension.DP) final int dp) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:82: error: cannot find symbol
     public static Span sizeSP(@Dimension(unit = Dimension.SP) final int sp) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:73: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:89: error: cannot find symbol
     public static Span scaleSize(@FloatRange(from = 0.0) final float proportion) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:85: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:101: error: cannot find symbol
     public static Span scaleXSize(@FloatRange(from = 0.0) final float proportion) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:97: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:113: error: cannot find symbol
     public static Span bold() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:104: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:120: error: cannot find symbol
     public static Span italic() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:111: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:127: error: cannot find symbol
     public static Span boldItalic() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:118: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:134: error: cannot find symbol
     public static Span font(@Nullable final String font) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:130: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:146: error: cannot find symbol
     public static Span strikeThrough() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:142: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:158: error: cannot find symbol
     public static Span underline() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:154: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:170: error: cannot find symbol
     public static Span background(@ColorInt final int color) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:161: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:177: error: cannot find symbol
     public static Span foreground(@ColorInt final int color) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:168: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:186: error: cannot find symbol
+    public static Span lineBackground(@ColorInt final int color) {
+                  ^
+  symbol:   class Span
+  location: class Spans
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:195: error: cannot find symbol
+    public static Span lineHeight(@Px @IntRange(from = 1) final int height) {
+                  ^
+  symbol:   class Span
+  location: class Spans
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:202: error: cannot find symbol
     public static Span subscript() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:180: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:214: error: cannot find symbol
     public static Span superscript() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:193: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:227: error: cannot find symbol
     public static lt.neworld.spanner.ImageSpan image(@NonNull final Drawable drawable) {
                                     ^
   symbol:   class ImageSpan
   location: package lt.neworld.spanner
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:206: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:240: error: cannot find symbol
     public static lt.neworld.spanner.ImageSpan image(@NonNull final Drawable drawable, final int verticalAlignment) {
                                     ^
   symbol:   class ImageSpan
   location: package lt.neworld.spanner
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:218: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:252: error: cannot find symbol
     public static lt.neworld.spanner.ImageSpan image(final Context context, @DrawableRes final int drawableId, final int verticalAlignment) {
                                     ^
   symbol:   class ImageSpan
   location: package lt.neworld.spanner
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:230: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:264: error: cannot find symbol
     public static lt.neworld.spanner.ImageSpan image(final Context context, @DrawableRes final int drawableId) {
                                     ^
   symbol:   class ImageSpan
   location: package lt.neworld.spanner
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:242: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:276: error: cannot find symbol
     public static Span quote() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:249: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:283: error: cannot find symbol
     public static Span quote(@ColorInt final int color) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:256: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:290: error: cannot find symbol
     public static Span image(@NonNull Context context, Bitmap bitmap) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:263: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:297: error: cannot find symbol
     public static Span image(@NonNull final Context context, final Bitmap bitmap, final int verticalAlignment) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:272: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:306: error: cannot find symbol
     public static Span custom(@NonNull SpanBuilder builder) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:285: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:319: error: cannot find symbol
     public static Span click(@NonNull final View.OnClickListener onClickListener) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:294: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:328: error: cannot find symbol
     public static Span url(@NonNull final String url) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:306: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:340: error: cannot find symbol
     public static Span center() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:313: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:347: error: cannot find symbol
     public static Span alignmentOpposite() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:320: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:354: error: cannot find symbol
     public static Span alignmentNormal() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:327: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:361: error: cannot find symbol
     public static Span bullet(final int gapWidth, @ColorInt final int color) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:334: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:368: error: cannot find symbol
     public static Span bullet(final int gapWidth) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:341: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:375: error: cannot find symbol
     public static Span bullet() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:348: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:382: error: cannot find symbol
     public static Span imageMargin(@NonNull final Drawable drawable) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:355: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:389: error: cannot find symbol
     public static Span imageMargin(@NonNull final Drawable drawable, final int pad) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:363: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:397: error: cannot find symbol
     public static Span edit() {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:377: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:411: error: cannot find symbol
     public static Span edit(@NonNull final PendingIntent pendingIntent) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:389: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:423: error: cannot find symbol
     public static Span imageMargin(@NonNull final Bitmap image) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:396: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:430: error: cannot find symbol
     public static Span imageMargin(@NonNull final Bitmap image, final int pad) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:404: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:438: error: cannot find symbol
     public static Span leadingMargin(final int first, final int rest) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:412: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:446: error: cannot find symbol
     public static Span leadingMargin(final int every) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:419: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:453: error: cannot find symbol
     public static Span blur(final float radius, @NonNull final BlurMaskFilter.Blur style) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:431: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:465: error: cannot find symbol
     public static Span emboss(@NonNull final float[] direction, final float ambient, final float specular, final float blurRadius) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:443: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:477: error: cannot find symbol
     public static Span tabStop(final int where) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:455: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:489: error: cannot find symbol
     public static Span appearance(@NonNull final Context context, final int appearance) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:467: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:501: error: cannot find symbol
     public static Span appearance(@NonNull final Context context, final int appearance, final int colorList) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:479: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:513: error: cannot find symbol
     public static Span appearance(@Nullable final String family, final int style, final int size, @Nullable final ColorStateList color, @Nullable final ColorStateList linkColor) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:492: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:526: error: cannot find symbol
     public static Span locale(@NonNull final Locale locale) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:505: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:539: error: cannot find symbol
     public static Span locale(@NonNull final LocaleList localeList) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:517: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:551: error: cannot find symbol
     public static Span suggestion(@NonNull final Context context, @NonNull final String[] suggestions, final int flags) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:529: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:563: error: cannot find symbol
     public static Span suggestion(@NonNull final Locale locale, @NonNull final String[] suggestions, final int flags) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:541: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:575: error: cannot find symbol
     public static Span suggestion(@NonNull final Context context, @NonNull final Locale locale, @NonNull final String[] suggestions, final int flags, @NonNull final Class<?> notificationTargetClass) {
                   ^
   symbol:   class Span
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:52: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:68: error: cannot find symbol
     public static Span sizePX(@Dimension(unit = Dimension.PX) final int px) {
                                ^
   symbol:   class Dimension
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:75: error: cannot find symbol
     public static Span sizeDP(@Dimension(unit = Dimension.DP) final int dp) {
                                ^
   symbol:   class Dimension
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:82: error: cannot find symbol
     public static Span sizeSP(@Dimension(unit = Dimension.SP) final int sp) {
                                ^
   symbol:   class Dimension
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:73: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:89: error: cannot find symbol
     public static Span scaleSize(@FloatRange(from = 0.0) final float proportion) {
                                   ^
   symbol:   class FloatRange
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:85: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:101: error: cannot find symbol
     public static Span scaleXSize(@FloatRange(from = 0.0) final float proportion) {
                                    ^
   symbol:   class FloatRange
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:118: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:134: error: cannot find symbol
     public static Span font(@Nullable final String font) {
                              ^
   symbol:   class Nullable
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:154: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:170: error: cannot find symbol
     public static Span background(@ColorInt final int color) {
                                    ^
   symbol:   class ColorInt
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:161: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:177: error: cannot find symbol
     public static Span foreground(@ColorInt final int color) {
                                    ^
   symbol:   class ColorInt
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:193: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:186: error: cannot find symbol
+    public static Span lineBackground(@ColorInt final int color) {
+                                       ^
+  symbol:   class ColorInt
+  location: class Spans
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:185: error: cannot find symbol
+    @RequiresApi(api = Build.VERSION_CODES.Q)
+     ^
+  symbol:   class RequiresApi
+  location: class Spans
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:195: error: cannot find symbol
+    public static Span lineHeight(@Px @IntRange(from = 1) final int height) {
+                                   ^
+  symbol:   class Px
+  location: class Spans
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:195: error: cannot find symbol
+    public static Span lineHeight(@Px @IntRange(from = 1) final int height) {
+                                       ^
+  symbol:   class IntRange
+  location: class Spans
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:194: error: cannot find symbol
+    @RequiresApi(api = Build.VERSION_CODES.Q)
+     ^
+  symbol:   class RequiresApi
+  location: class Spans
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:227: error: cannot find symbol
     public static lt.neworld.spanner.ImageSpan image(@NonNull final Drawable drawable) {
                                                       ^
   symbol:   class NonNull
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:206: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:240: error: cannot find symbol
     public static lt.neworld.spanner.ImageSpan image(@NonNull final Drawable drawable, final int verticalAlignment) {
                                                       ^
   symbol:   class NonNull
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:218: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:252: error: cannot find symbol
     public static lt.neworld.spanner.ImageSpan image(final Context context, @DrawableRes final int drawableId, final int verticalAlignment) {
                                                                              ^
   symbol:   class DrawableRes
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:230: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:264: error: cannot find symbol
     public static lt.neworld.spanner.ImageSpan image(final Context context, @DrawableRes final int drawableId) {
                                                                              ^
   symbol:   class DrawableRes
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:249: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:283: error: cannot find symbol
     public static Span quote(@ColorInt final int color) {
                               ^
   symbol:   class ColorInt
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:256: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:290: error: cannot find symbol
     public static Span image(@NonNull Context context, Bitmap bitmap) {
                               ^
   symbol:   class NonNull
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:263: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:297: error: cannot find symbol
     public static Span image(@NonNull final Context context, final Bitmap bitmap, final int verticalAlignment) {
                               ^
   symbol:   class NonNull
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:272: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:306: error: cannot find symbol
     public static Span custom(@NonNull SpanBuilder builder) {
                                ^
   symbol:   class NonNull
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:285: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:319: error: cannot find symbol
     public static Span click(@NonNull final View.OnClickListener onClickListener) {
                               ^
   symbol:   class NonNull
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:294: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:328: error: cannot find symbol
     public static Span url(@NonNull final String url) {
                             ^
   symbol:   class NonNull
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:327: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:361: error: cannot find symbol
     public static Span bullet(final int gapWidth, @ColorInt final int color) {
                                                    ^
   symbol:   class ColorInt
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:348: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:382: error: cannot find symbol
     public static Span imageMargin(@NonNull final Drawable drawable) {
                                     ^
   symbol:   class NonNull
   location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:355: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:389: error: cannot find symbol
     public static Span imageMargin(@NonNull final Drawable drawable, final int pad) {
                                     ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:377: error: cannot find symbol
-    public static Span edit(@NonNull final PendingIntent pendingIntent) {
-                             ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:376: error: cannot find symbol
-    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
-     ^
-  symbol:   class RequiresApi
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:389: error: cannot find symbol
-    public static Span imageMargin(@NonNull final Bitmap image) {
-                                    ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:396: error: cannot find symbol
-    public static Span imageMargin(@NonNull final Bitmap image, final int pad) {
-                                    ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:419: error: cannot find symbol
-    public static Span blur(final float radius, @NonNull final BlurMaskFilter.Blur style) {
-                                                 ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:431: error: cannot find symbol
-    public static Span emboss(@NonNull final float[] direction, final float ambient, final float specular, final float blurRadius) {
-                               ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:455: error: cannot find symbol
-    public static Span appearance(@NonNull final Context context, final int appearance) {
-                                   ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:467: error: cannot find symbol
-    public static Span appearance(@NonNull final Context context, final int appearance, final int colorList) {
-                                   ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:479: error: cannot find symbol
-    public static Span appearance(@Nullable final String family, final int style, final int size, @Nullable final ColorStateList color, @Nullable final ColorStateList linkColor) {
-                                   ^
-  symbol:   class Nullable
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:479: error: cannot find symbol
-    public static Span appearance(@Nullable final String family, final int style, final int size, @Nullable final ColorStateList color, @Nullable final ColorStateList linkColor) {
-                                                                                                   ^
-  symbol:   class Nullable
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:479: error: cannot find symbol
-    public static Span appearance(@Nullable final String family, final int style, final int size, @Nullable final ColorStateList color, @Nullable final ColorStateList linkColor) {
-                                                                                                                                         ^
-  symbol:   class Nullable
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:492: error: cannot find symbol
-    public static Span locale(@NonNull final Locale locale) {
-                               ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:491: error: cannot find symbol
-    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
-     ^
-  symbol:   class RequiresApi
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:505: error: cannot find symbol
-    public static Span locale(@NonNull final LocaleList localeList) {
-                               ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:504: error: cannot find symbol
-    @RequiresApi(api = Build.VERSION_CODES.N)
-     ^
-  symbol:   class RequiresApi
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:517: error: cannot find symbol
-    public static Span suggestion(@NonNull final Context context, @NonNull final String[] suggestions, final int flags) {
-                                   ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:517: error: cannot find symbol
-    public static Span suggestion(@NonNull final Context context, @NonNull final String[] suggestions, final int flags) {
-                                                                   ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:529: error: cannot find symbol
-    public static Span suggestion(@NonNull final Locale locale, @NonNull final String[] suggestions, final int flags) {
-                                   ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:529: error: cannot find symbol
-    public static Span suggestion(@NonNull final Locale locale, @NonNull final String[] suggestions, final int flags) {
-                                                                 ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:541: error: cannot find symbol
-    public static Span suggestion(@NonNull final Context context, @NonNull final Locale locale, @NonNull final String[] suggestions, final int flags, @NonNull final Class<?> notificationTargetClass) {
-                                   ^
-  symbol:   class NonNull
-  location: class Spans
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/lib/src/main/java/lt/neworld/spanner/Spans.java:541: error: cannot find symbol
-    public static Span suggestion(@NonNull final Context context, @NonNull final Locale locale, @NonNull final String[] suggestions, final int flags, @NonNull final Class<?> notificationTargetClass) {
-                                                                   ^
   symbol:   class NonNull
   location: class Spans
 100 warnings
@@ -604,15 +600,15 @@ import android.support.annotation.RequiresApi;
 > Task :lib:assemble
 > Task :lib:build
 
-BUILD SUCCESSFUL in 21s
+BUILD SUCCESSFUL in 19s
 50 actionable tasks: 50 executed
 
-2018-12-02 16:41:58,611 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-02 16:41:58,611 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-02 16:42:04,978 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-02 16:42:04,978 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-02 16:42:04,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-02 16:42:42,414 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 00:51:43,258 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 00:51:43,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 00:51:50,423 INFO  ProjectTaskService - Detected possible tasks: 69
+2020-03-30 00:51:50,423 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 00:51:50,424 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 00:52:27,617 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
 > Task :lib:compileDebugAidl NO-SOURCE
@@ -653,7 +649,7 @@ BUILD SUCCESSFUL in 21s
 > Task :sample:javaPreCompileDebug
 
 > Task :sample:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/src/main/java/lt/neworld/spanner/sample/SampleJavaActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/src/main/java/lt/neworld/spanner/sample/SampleJavaActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:compileDebugNdk NO-SOURCE
@@ -719,14 +715,14 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :sample:javaPreCompileRelease
 
 > Task :sample:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/src/main/java/lt/neworld/spanner/sample/SampleJavaActivity.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/src/main/java/lt/neworld/spanner/sample/SampleJavaActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :sample:compileReleaseNdk NO-SOURCE
 > Task :sample:compileReleaseSources
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/a6a2e287f37d0219e1a535d19fdc73fd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/adda16c2ba52aedfc59fc30a3cf477e1/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
 
 > Task :lib:mergeReleaseShaders UP-TO-DATE
 > Task :lib:compileReleaseShaders UP-TO-DATE
@@ -758,4 +754,4 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 BUILD SUCCESSFUL in 36s
 94 actionable tasks: 61 executed, 33 up-to-date
 
-2018-12-02 16:42:42,504 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543743687596-0/src/spanner-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2020-03-30 00:52:27,720 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585504274205-0/src/spanner-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
