@@ -1,436 +1,293 @@
-2018-08-31 21:35:50,500 INFO  DownloadService - Downloading "https://github.com/thepacific/divider/archive/master.zip", attempt 3
-2018-08-31 21:35:51,009 INFO  DownloadService - Downloaded https://github.com/thepacific/divider/archive/master.zip, attempt 3
-2018-08-31 21:35:51,009 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/master.zip": 156 KB
-2018-08-31 21:35:51,009 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-08-31 21:35:51,010 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/master.zip: true
-2018-08-31 21:35:51,010 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src'.
-2018-08-31 21:35:51,031 INFO  FullProcessService - Size of directory with sources: 198 KB
-2018-08-31 21:35:51,031 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src]
-2018-08-31 21:35:51,047 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/.git/
+2020-03-30 00:29:44,253 INFO  DownloadService - Downloading "https://github.com/thepacific/divider/archive/master.zip", attempt 3
+2020-03-30 00:29:46,595 INFO  DownloadService - Downloaded https://github.com/thepacific/divider/archive/master.zip, attempt 3
+2020-03-30 00:29:46,595 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/master.zip": 315 KB
+2020-03-30 00:29:46,595 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 00:29:46,596 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/master.zip: true
+2020-03-30 00:29:46,596 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src'.
+2020-03-30 00:29:46,655 INFO  FullProcessService - Size of directory with sources: 741 KB
+2020-03-30 00:29:46,655 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src]
+2020-03-30 00:29:46,680 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/.git/
 
-2018-08-31 21:35:51,050 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/gradlew
-2018-08-31 21:35:51,053 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/divider/build.gradle
-2018-08-31 21:35:51,056 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/config/doc_release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/config/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/config/app_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/config/bintray_push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/config/lib_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/config/check_style.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/settings.gradle
-2018-08-31 21:35:51,057 INFO  ProjectBuildService - Remote scripts: none
-2018-08-31 21:35:51,057 INFO  ProjectFixService - Fixing project...
-2018-08-31 21:35:51,071 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/app/local.properties
-2018-08-31 21:35:51,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-08-31 21:35:51,083 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-08-31 21:35:51,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/local.properties
-2018-08-31 21:35:51,084 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-08-31 21:35:51,085 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-08-31 21:35:51,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-08-31 21:35:51,090 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-08-31 21:35:51,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/divider/local.properties
-2018-08-31 21:35:51,097 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/divider/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-08-31 21:35:51,097 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/divider/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-08-31 21:35:51,098 INFO  ProjectFixService - Project was maybe fixed
-2018-08-31 21:35:51,098 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 21:35:51,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 21:35:53,717 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-08-31 21:35:53,717 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-08-31 21:35:53,717 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-08-31 21:35:53,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-08-31 21:35:57,511 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2018-08-31 21:35:57,511 INFO  SysUtils - Support for nested build without a settings file was deprecated and will be removed in Gradle 5.0. You should create a empty settings file in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/app
-	at org.gradle.initialization.DefaultSettingsLoader.deprecateWarningIfNecessary(DefaultSettingsLoader.java:89)
-	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:57)
-	at org.gradle.internal.composite.CompositeBuildSettingsLoader.findAndLoadSettings(CompositeBuildSettingsLoader.java:40)
-	at org.gradle.initialization.NotifyingSettingsLoader.findAndLoadSettings(NotifyingSettingsLoader.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher$LoadBuild.run(DefaultGradleLauncher.java:235)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.loadSettings(DefaultGradleLauncher.java:159)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:122)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+2020-03-30 00:29:46,687 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/gradlew
+2020-03-30 00:29:46,695 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/divider/build.gradle
+2020-03-30 00:29:46,701 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/gradle/android_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/gradle/jvm_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/gradle/android_app_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/gradle/android_lib_module.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/settings.gradle
+2020-03-30 00:29:46,702 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 00:29:46,702 INFO  ProjectFixService - Fixing project...
+2020-03-30 00:29:46,709 INFO  ManifestFixService - Found manifest(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/buildSrc/build/tmp/jar/MANIFEST.MF
+2020-03-30 00:29:46,721 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/app/local.properties
+2020-03-30 00:29:46,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 00:29:46,727 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 00:29:46,727 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/local.properties
+2020-03-30 00:29:46,728 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.4-all.zip
+2020-03-30 00:29:46,728 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.4-bin.zip)
+2020-03-30 00:29:46,733 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 00:29:46,733 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 00:29:46,735 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/divider/local.properties
+2020-03-30 00:29:46,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/divider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-03-30 00:29:46,741 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/divider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-03-30 00:29:46,741 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 00:29:46,741 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 00:29:46,741 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 00:29:59,715 INFO  VirusProcessorServiceImpl - Queued project 6385 to scan viruses
+2020-03-30 00:30:19,303 INFO  ProjectTaskService - Detected possible tasks: 68
+2020-03-30 00:30:19,303 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 00:30:19,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 00:33:05,672 INFO  SysUtils - > Task :buildSrc:compileKotlin UP-TO-DATE
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy NO-SOURCE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:inspectClassesForKotlinIC UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestKotlin NO-SOURCE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:validateTaskProperties UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
 Configuration on demand is an incubating feature.
 
-FAILURE: Build failed with an exception.
+> Configure project :divider
+WARNING: API 'variant.getGenerateBuildConfig()' is obsolete and has been replaced with 'variant.getGenerateBuildConfigProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getGenerateBuildConfig(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-* Where:
-Script '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/config/app_module.gradle' line: 1
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :divider:preBuild UP-TO-DATE
+> Task :divider:preDebugBuild UP-TO-DATE
+> Task :divider:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :divider:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:prepareLintJarForPublish
+> Task :app:generateDebugSources
+> Task :app:dataBindingExportBuildInfoDebug
+> Task :divider:dataBindingMergeDependencyArtifactsDebug
+> Task :divider:generateDebugResValues
+> Task :divider:compileDebugRenderscript NO-SOURCE
+> Task :divider:generateDebugResources
+> Task :divider:packageDebugResources
+> Task :divider:dataBindingMergeGenClassesDebug
+> Task :divider:dataBindingGenBaseClassesDebug
+> Task :divider:generateDebugBuildConfig SKIPPED
+> Task :divider:prepareLintJar
+> Task :divider:parseDebugLocalResources
+> Task :divider:prepareLintJarForPublish
+> Task :divider:generateDebugSources
+> Task :divider:dataBindingExportBuildInfoDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:dataBindingMergeGenClassesDebug
+> Task :divider:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:dataBindingExportFeaturePackageIdsDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :divider:extractDeepLinksDebug
+> Task :app:processDebugManifest
+> Task :divider:generateDebugRFile
+> Task :divider:kaptGenerateStubsDebugKotlin
 
-* What went wrong:
-A problem occurred evaluating script.
-> Plugin with id 'com.android.application' not found.
+> Task :divider:kaptDebugKotlin
+w: ATTENTION!
+This build uses unsafe internal compiler arguments:
 
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+-XXLanguage:+NewInference
 
-* Exception is:
-org.gradle.api.GradleScriptException: A problem occurred evaluating script.
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:199)
-	at org.gradle.configuration.DefaultScriptTarget.addConfiguration(DefaultScriptTarget.java:74)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:204)
-	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyScript(DefaultObjectConfigurationAction.java:109)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$000(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$1.run(DefaultObjectConfigurationAction.java:68)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
-	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
-	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at build_8ymlzee30ap8qrtujbkt1l38a.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/app/build.gradle:1)
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:199)
-	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
-	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:204)
-	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
-	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
-	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:249)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:167)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.android.application' not found.
-	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:123)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
-	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
-	at org.gradle.groovy.scripts.DefaultScript.apply(DefaultScript.java:126)
-	at org.gradle.api.Script$apply.callCurrent(Unknown Source)
-	at app_module_3ku9nlxacxvp2cmaj12sxl1ea.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/config/app_module.gradle:1)
-	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
-	... 101 more
+This mode is not recommended for production use,
+as no stability/compatibility guarantees are given on
+compiler or generated code. Use it at your own risk!
 
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL), androidx.remotecallback.compiler.RemoteCallbackProcessor (NON_INCREMENTAL).
 
-* Get more help at https://help.gradle.org
+> Task :divider:compileDebugKotlin
+> Task :app:dataBindingMergeDependencyArtifactsDebug
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :divider:compileDebugLibraryResources
+warn: removing resource com.example.divider:plurals/error_over_count without required default value.
 
-BUILD FAILED in 3s
+> Task :app:processDebugResources
+> Task :divider:javaPreCompileDebug
+> Task :divider:compileDebugJavaWithJavac
+> Task :divider:bundleLibCompileDebug
+> Task :app:kaptGenerateStubsDebugKotlin
 
-2018-08-31 21:35:57,516 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 21:35:57,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 21:36:46,336 INFO  ProjectTaskService - Detected possible tasks: 77
-2018-08-31 21:36:46,337 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-08-31 21:36:46,337 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-08-31 21:37:02,108 INFO  SysUtils - Configuration on demand is an incubating feature.
-:divider:preBuild UP-TO-DATE
-:divider:preDebugBuild UP-TO-DATE
-:divider:compileDebugAidl
-Download https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.3/javax.annotation-api-1.3.pom
-:divider:compileDebugRenderscript
-:divider:checkDebugManifest
-:divider:generateDebugBuildConfig
-:divider:generateDebugResValues
-:divider:generateDebugResources
-:divider:packageDebugResources
-:divider:platformAttrExtractor
-:divider:processDebugManifest
-:divider:prepareLintJar
-:divider:javaPreCompileDebug
-Download https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.3/javax.annotation-api-1.3.jar
-:divider:mergeDebugConsumerProguardFiles
-:divider:mergeDebugShaders
-:divider:compileDebugShaders
-:divider:generateDebugAssets
-:divider:packageDebugAssets
-:divider:packageDebugRenderscript NO-SOURCE
-:divider:processDebugJavaRes NO-SOURCE
-:divider:compileDebugNdk NO-SOURCE
-:divider:mergeDebugJniLibFolders
-:divider:transformNativeLibsWithMergeJniLibsForDebug
-:divider:transformNativeLibsWithStripDebugSymbolForDebug
-:divider:transformNativeLibsWithSyncJniLibsForDebug
-:divider:preReleaseBuild UP-TO-DATE
-:divider:compileReleaseAidl
-:divider:compileReleaseRenderscript
-:divider:checkReleaseManifest
-:divider:generateReleaseBuildConfig
-:divider:generateReleaseResValues
-:divider:generateReleaseResources
-:divider:packageReleaseResources
-:divider:processReleaseManifest
-:divider:javaPreCompileRelease
-:divider:mergeReleaseConsumerProguardFiles
-:divider:mergeReleaseShaders
-:divider:compileReleaseShaders
-:divider:generateReleaseAssets
-:divider:packageReleaseAssets
-:divider:packageReleaseRenderscript NO-SOURCE
-:divider:processReleaseJavaRes NO-SOURCE
-:divider:compileReleaseNdk NO-SOURCE
-:divider:mergeReleaseJniLibFolders
-:divider:transformNativeLibsWithMergeJniLibsForRelease
-:divider:transformNativeLibsWithStripDebugSymbolForRelease
-:divider:transformNativeLibsWithSyncJniLibsForRelease
-:divider:mergeReleaseResources
-:divider:verifyReleaseResources
-:divider:generateReleaseJavadoc NO-SOURCE
-:divider:generateReleaseJavadocJar
-:divider:generateDebugRFile
-:divider:generateDebugSources
-:divider:compileDebugJavaWithJavac
-:divider:extractDebugAnnotations
-:divider:transformResourcesWithMergeJavaResForDebug
-:divider:transformClassesAndResourcesWithSyncLibJarsForDebug
-:divider:bundleDebug
-:divider:compileDebugSources
-:divider:assembleDebug
-:divider:generateReleaseRFile
-:divider:generateReleaseSources
-:divider:compileReleaseJavaWithJavac
-:divider:extractReleaseAnnotations
-:divider:transformResourcesWithMergeJavaResForRelease
-:divider:transformClassesAndResourcesWithSyncLibJarsForRelease
-:divider:bundleRelease
-:divider:compileReleaseSources
-:divider:assembleRelease
-:divider:generateReleaseSourcesJar
-:divider:assemble
-:divider:build
+> Task :app:kaptDebugKotlin
+w: ATTENTION!
+This build uses unsafe internal compiler arguments:
 
-BUILD SUCCESSFUL in 15s
-50 actionable tasks: 50 executed
+-XXLanguage:+NewInference
 
-2018-08-31 21:37:02,155 INFO  ProjectTaskService - Detecting possible tasks...
-2018-08-31 21:37:02,155 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/divider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-08-31 21:37:21,932 INFO  ProjectTaskService - Detected possible tasks: 76
-2018-08-31 21:37:21,932 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-08-31 21:37:21,932 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1535726150494-0/src/divider-master/pacific-divider/divider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-08-31 21:37:44,267 INFO  SysUtils - Configuration on demand is an incubating feature.
-:divider:preBuild UP-TO-DATE
-:divider:preDebugBuild UP-TO-DATE
-:divider:compileDebugAidl UP-TO-DATE
-:divider:compileDebugRenderscript UP-TO-DATE
-:divider:checkDebugManifest UP-TO-DATE
-:divider:generateDebugBuildConfig UP-TO-DATE
-:divider:generateDebugResValues UP-TO-DATE
-:divider:generateDebugResources UP-TO-DATE
-:divider:packageDebugResources UP-TO-DATE
-:divider:platformAttrExtractor UP-TO-DATE
-:divider:processDebugManifest UP-TO-DATE
-:divider:generateDebugRFile UP-TO-DATE
-:divider:prepareLintJar UP-TO-DATE
-:divider:generateDebugSources UP-TO-DATE
-:divider:javaPreCompileDebug UP-TO-DATE
-:divider:compileDebugJavaWithJavac UP-TO-DATE
-:divider:extractDebugAnnotations UP-TO-DATE
-:divider:mergeDebugConsumerProguardFiles UP-TO-DATE
-:divider:mergeDebugShaders UP-TO-DATE
-:divider:compileDebugShaders UP-TO-DATE
-:divider:generateDebugAssets UP-TO-DATE
-:divider:packageDebugAssets UP-TO-DATE
-:divider:packageDebugRenderscript NO-SOURCE
-:divider:processDebugJavaRes NO-SOURCE
-:divider:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
-:divider:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
-:divider:compileDebugNdk NO-SOURCE
-:divider:mergeDebugJniLibFolders UP-TO-DATE
-:divider:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:divider:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:divider:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
-:divider:bundleDebug UP-TO-DATE
-:divider:compileDebugSources UP-TO-DATE
-:divider:assembleDebug UP-TO-DATE
-:divider:preReleaseBuild UP-TO-DATE
-:divider:compileReleaseAidl UP-TO-DATE
-:divider:compileReleaseRenderscript UP-TO-DATE
-:divider:checkReleaseManifest UP-TO-DATE
-:divider:generateReleaseBuildConfig UP-TO-DATE
-:divider:generateReleaseResValues UP-TO-DATE
-:divider:generateReleaseResources UP-TO-DATE
-:divider:packageReleaseResources UP-TO-DATE
-:divider:processReleaseManifest UP-TO-DATE
-:divider:generateReleaseRFile UP-TO-DATE
-:divider:generateReleaseSources UP-TO-DATE
-:divider:javaPreCompileRelease UP-TO-DATE
-:divider:compileReleaseJavaWithJavac UP-TO-DATE
-:divider:extractReleaseAnnotations UP-TO-DATE
-:divider:mergeReleaseConsumerProguardFiles UP-TO-DATE
-:divider:mergeReleaseShaders UP-TO-DATE
-:divider:compileReleaseShaders UP-TO-DATE
-:divider:generateReleaseAssets UP-TO-DATE
-:divider:packageReleaseAssets UP-TO-DATE
-:divider:packageReleaseRenderscript NO-SOURCE
-:divider:processReleaseJavaRes NO-SOURCE
-:divider:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
-:divider:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
-:divider:compileReleaseNdk NO-SOURCE
-:divider:mergeReleaseJniLibFolders UP-TO-DATE
-:divider:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:divider:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:divider:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
-:divider:bundleRelease UP-TO-DATE
-:divider:compileReleaseSources UP-TO-DATE
-:divider:mergeReleaseResources UP-TO-DATE
-:divider:verifyReleaseResources UP-TO-DATE
-:divider:assembleRelease UP-TO-DATE
-:divider:generateReleaseJavadoc NO-SOURCE
-:divider:generateReleaseJavadocJar UP-TO-DATE
-:divider:generateReleaseSourcesJar UP-TO-DATE
-:divider:assemble UP-TO-DATE
-:divider:build
+This mode is not recommended for production use,
+as no stability/compatibility guarantees are given on
+compiler or generated code. Use it at your own risk!
 
-BUILD SUCCESSFUL in 21s
-50 actionable tasks: 50 up-to-date
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL), androidx.remotecallback.compiler.RemoteCallbackProcessor (NON_INCREMENTAL).
 
-2018-08-31 21:37:44,327 ERROR FullProcessService - Project build has not produced APK file
-2018-08-31 21:37:44,435 ERROR FullProcessService - Could not find generated or existed APK file
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :divider:mergeDebugShaders
+> Task :divider:compileDebugShaders
+> Task :divider:generateDebugAssets
+> Task :divider:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :divider:processDebugJavaRes NO-SOURCE
+> Task :divider:bundleLibResDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+> Task :divider:bundleLibRuntimeDebug
+> Task :app:dexBuilderDebug
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :divider:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:extractProguardFiles
+> Task :app:preReleaseBuild
+> Task :divider:preReleaseBuild UP-TO-DATE
+> Task :divider:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :divider:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :app:dataBindingExportBuildInfoRelease
+> Task :divider:mergeDebugNativeLibs
+> Task :divider:stripDebugDebugSymbols
+> Task :divider:copyDebugJniLibsProjectOnly
+> Task :divider:dataBindingMergeDependencyArtifactsRelease
+> Task :divider:compileReleaseRenderscript NO-SOURCE
+> Task :divider:generateReleaseResValues
+> Task :divider:generateReleaseResources
+> Task :divider:packageReleaseResources
+> Task :divider:dataBindingMergeGenClassesRelease
+> Task :divider:dataBindingGenBaseClassesRelease
+> Task :divider:generateReleaseBuildConfig SKIPPED
+> Task :divider:generateReleaseSources
+> Task :divider:dataBindingExportBuildInfoRelease
+> Task :divider:processReleaseManifest
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :divider:parseReleaseLocalResources
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugNativeLibs
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libc++_shared.so, libmmkv.so.
+
+> Task :app:mainApkListPersistenceRelease
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :divider:extractDeepLinksRelease
+> Task :app:processReleaseManifest
+> Task :divider:generateReleaseRFile
+> Task :divider:kaptGenerateStubsReleaseKotlin
+
+> Task :divider:kaptReleaseKotlin
+w: ATTENTION!
+This build uses unsafe internal compiler arguments:
+
+-XXLanguage:+NewInference
+
+This mode is not recommended for production use,
+as no stability/compatibility guarantees are given on
+compiler or generated code. Use it at your own risk!
+
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL), androidx.remotecallback.compiler.RemoteCallbackProcessor (NON_INCREMENTAL).
+
+> Task :divider:compileReleaseKotlin
+> Task :app:mergeReleaseResources
+> Task :app:dataBindingExportFeaturePackageIdsRelease
+> Task :divider:javaPreCompileRelease
+> Task :divider:compileReleaseJavaWithJavac
+> Task :divider:compileReleaseLibraryResources
+warn: removing resource com.example.divider:plurals/error_over_count without required default value.
+
+> Task :app:processReleaseResources
+> Task :app:dataBindingMergeDependencyArtifactsRelease
+> Task :app:dataBindingMergeGenClassesRelease
+> Task :app:dataBindingGenBaseClassesRelease
+> Task :divider:bundleLibCompileRelease
+> Task :app:kaptGenerateStubsReleaseKotlin
+
+> Task :app:kaptReleaseKotlin
+w: ATTENTION!
+This build uses unsafe internal compiler arguments:
+
+-XXLanguage:+NewInference
+
+This mode is not recommended for production use,
+as no stability/compatibility guarantees are given on
+compiler or generated code. Use it at your own risk!
+
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL), androidx.remotecallback.compiler.RemoteCallbackProcessor (NON_INCREMENTAL).
+
+> Task :app:compileReleaseKotlin
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:mergeReleaseShaders
+> Task :app:lintVitalRelease
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :divider:mergeReleaseShaders
+> Task :divider:compileReleaseShaders
+> Task :divider:generateReleaseAssets
+> Task :divider:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :divider:mergeReleaseGeneratedProguardFiles
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :divider:processReleaseJavaRes NO-SOURCE
+> Task :divider:exportReleaseConsumerProguardFiles
+> Task :divider:bundleLibResRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :divider:mergeReleaseJniLibFolders
+> Task :divider:bundleLibRuntimeRelease
+> Task :divider:mergeReleaseNativeLibs
+> Task :divider:stripReleaseDebugSymbols
+> Task :divider:copyReleaseJniLibsProjectOnly
+> Task :app:mergeReleaseNativeLibs
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libc++_shared.so, libmmkv.so.
+
+> Task :app:mergeReleaseJavaResource
+
+> Task :app:minifyReleaseWithR8
+R8: Missing class: org.conscrypt.ConscryptHostnameVerifier
+
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+BUILD SUCCESSFUL in 2m 45s
+122 actionable tasks: 122 executed
+
+2020-03-30 00:33:05,750 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502984245-0/src/divider-master/pacific-divider/app/build/outputs/apk/debug/app-debug.apk

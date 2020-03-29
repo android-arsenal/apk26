@@ -1,37 +1,36 @@
-2020-01-04 22:46:16,387 INFO  DownloadService - Downloading "https://github.com/ajithvgiri/Search-Dialog/archive/master.zip", attempt 3
-2020-01-04 22:46:18,532 INFO  DownloadService - Downloaded https://github.com/ajithvgiri/Search-Dialog/archive/master.zip, attempt 3
-2020-01-04 22:46:18,532 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/master.zip": 155 KB
-2020-01-04 22:46:18,532 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-01-04 22:46:18,537 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/master.zip: true
-2020-01-04 22:46:18,538 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src'.
-2020-01-04 22:46:18,560 INFO  FullProcessService - Size of directory with sources: 167 KB
-2020-01-04 22:46:18,560 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src]
-2020-01-04 22:46:18,589 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/.git/
+2020-03-30 00:27:40,257 INFO  DownloadService - Downloading "https://github.com/ajithvgiri/Search-Dialog/archive/master.zip", attempt 3
+2020-03-30 00:27:41,059 INFO  DownloadService - Downloaded https://github.com/ajithvgiri/Search-Dialog/archive/master.zip, attempt 3
+2020-03-30 00:27:41,060 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/master.zip": 155 KB
+2020-03-30 00:27:41,060 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2020-03-30 00:27:41,065 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/master.zip: true
+2020-03-30 00:27:41,066 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src'.
+2020-03-30 00:27:41,092 INFO  FullProcessService - Size of directory with sources: 167 KB
+2020-03-30 00:27:41,092 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src]
+2020-03-30 00:27:41,111 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/.git/
 
-2020-01-04 22:46:18,591 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/gradlew
-2020-01-04 22:46:18,594 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/searchdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/build.gradle
-2020-01-04 22:46:18,597 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/searchdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/settings.gradle
-2020-01-04 22:46:18,598 INFO  ProjectBuildService - Remote scripts: none
-2020-01-04 22:46:18,598 INFO  ProjectFixService - Fixing project...
-2020-01-04 22:46:18,605 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/app/local.properties
-2020-01-04 22:46:18,606 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2020-01-04 22:46:18,606 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2020-01-04 22:46:18,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/searchdialog/local.properties
-2020-01-04 22:46:18,607 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/searchdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2020-01-04 22:46:18,607 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/searchdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2020-01-04 22:46:18,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/local.properties
-2020-01-04 22:46:18,609 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-01-04 22:46:18,609 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-01-04 22:46:18,610 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2020-01-04 22:46:18,610 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2020-01-04 22:46:18,611 INFO  ProjectFixService - Project was maybe fixed
-2020-01-04 22:46:18,611 INFO  ProjectTaskService - Detecting possible tasks...
-2020-01-04 22:46:18,611 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-01-04 22:46:26,431 INFO  ProjectTaskService - Detected possible tasks: 67
-2020-01-04 22:46:26,431 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-01-04 22:46:26,431 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-01-04 22:46:31,136 INFO  VirusProcessorServiceImpl - Queued project 6556 to scan viruses
-2020-01-04 22:47:22,053 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-03-30 00:27:41,115 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/gradlew
+2020-03-30 00:27:41,119 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/searchdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/build.gradle
+2020-03-30 00:27:41,123 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/searchdialog/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/settings.gradle
+2020-03-30 00:27:41,123 INFO  ProjectBuildService - Remote scripts: none
+2020-03-30 00:27:41,123 INFO  ProjectFixService - Fixing project...
+2020-03-30 00:27:41,132 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/app/local.properties
+2020-03-30 00:27:41,133 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-30 00:27:41,133 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-30 00:27:41,134 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/searchdialog/local.properties
+2020-03-30 00:27:41,135 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/searchdialog/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-30 00:27:41,135 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/searchdialog/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-30 00:27:41,136 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/local.properties
+2020-03-30 00:27:41,136 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-03-30 00:27:41,136 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-03-30 00:27:41,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-30 00:27:41,138 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2020-03-30 00:27:41,138 INFO  ProjectFixService - Project was maybe fixed
+2020-03-30 00:27:41,138 INFO  ProjectTaskService - Detecting possible tasks...
+2020-03-30 00:27:41,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-03-30 00:27:47,355 INFO  ProjectTaskService - Detected possible tasks: 67
+2020-03-30 00:27:47,355 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-03-30 00:27:47,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-03-30 00:28:38,308 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :app
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -59,9 +58,9 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:createDebugCompatibleScreenManifests
 > Task :searchdialog:checkDebugManifest
 > Task :app:mergeDebugResources
+> Task :searchdialog:parseDebugLibraryResources
 > Task :searchdialog:processDebugManifest
 > Task :app:processDebugManifest
-> Task :searchdialog:parseDebugLibraryResources
 > Task :searchdialog:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -77,7 +76,7 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :app:processDebugResources
 
 > Task :searchdialog:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/searchdialog/src/main/java/com/ajithvgiri/searchdialog/SearchListAdapter.kt: (45, 13): Condition 'inflateview == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/searchdialog/src/main/java/com/ajithvgiri/searchdialog/SearchListAdapter.kt: (45, 13): Condition 'inflateview == null' is always 'false'
 
 > Task :app:checkDebugDuplicateClasses
 > Task :searchdialog:javaPreCompileDebug
@@ -92,12 +91,12 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :searchdialog:mergeDebugJniLibFolders
 > Task :app:preReleaseBuild UP-TO-DATE
 > Task :searchdialog:preReleaseBuild UP-TO-DATE
 > Task :searchdialog:compileReleaseAidl NO-SOURCE
-> Task :app:mergeDebugJavaResource
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :searchdialog:packageReleaseRenderscript NO-SOURCE
 > Task :app:compileReleaseRenderscript NO-SOURCE
@@ -110,15 +109,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/
 > Task :searchdialog:generateReleaseResValues
 > Task :searchdialog:generateReleaseResources
 > Task :searchdialog:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :searchdialog:checkReleaseManifest
+> Task :searchdialog:generateReleaseBuildConfig
 > Task :searchdialog:mergeDebugNativeLibs
 > Task :searchdialog:stripDebugDebugSymbols
 > Task :searchdialog:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:createReleaseCompatibleScreenManifests
-> Task :searchdialog:checkReleaseManifest
+> Task :searchdialog:parseReleaseLibraryResources
 > Task :searchdialog:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :searchdialog:generateReleaseBuildConfig
-> Task :searchdialog:parseReleaseLibraryResources
 > Task :app:prepareLintJar
 > Task :app:checkReleaseDuplicateClasses
 > Task :searchdialog:prepareLintJarForPublish
@@ -127,11 +126,11 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/
 > Task :app:processReleaseResources
 
 > Task :searchdialog:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/searchdialog/src/main/java/com/ajithvgiri/searchdialog/SearchListAdapter.kt: (45, 13): Condition 'inflateview == null' is always 'false'
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/searchdialog/src/main/java/com/ajithvgiri/searchdialog/SearchListAdapter.kt: (45, 13): Condition 'inflateview == null' is always 'false'
 
+> Task :app:mergeExtDexDebug
 > Task :app:mergeDebugNativeLibs
 > Task :app:stripDebugDebugSymbols
-> Task :app:mergeExtDexDebug
 > Task :searchdialog:javaPreCompileRelease
 > Task :searchdialog:compileReleaseJavaWithJavac
 > Task :searchdialog:bundleLibCompileRelease
@@ -158,10 +157,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
 > Task :searchdialog:mergeReleaseJniLibFolders
-> Task :searchdialog:bundleLibResRelease
 > Task :searchdialog:mergeReleaseNativeLibs
 > Task :searchdialog:stripReleaseDebugSymbols
 > Task :searchdialog:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :searchdialog:bundleLibResRelease
 > Task :app:mergeReleaseNativeLibs
 > Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseJavaResource
@@ -176,7 +175,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 50s
 92 actionable tasks: 92 executed
 
-2020-01-04 22:47:22,133 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1578152776383-0/src/search-dialog-master/app/build/outputs/apk/debug/app-debug.apk
+2020-03-30 00:28:38,409 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502860254-0/src/search-dialog-master/app/build/outputs/apk/debug/app-debug.apk
