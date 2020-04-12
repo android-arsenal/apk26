@@ -1,91 +1,94 @@
-2020-03-30 00:22:15,594 INFO  DownloadService - Downloading "https://github.com/uber/RIBs/archive/master.zip", attempt 3
-2020-03-30 00:22:17,635 INFO  DownloadService - Downloaded https://github.com/uber/RIBs/archive/master.zip, attempt 3
-2020-03-30 00:22:17,636 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/master.zip": 1 MB
-2020-03-30 00:22:17,636 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2020-03-30 00:22:17,638 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/master.zip: true
-2020-03-30 00:22:17,638 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src'.
-2020-03-30 00:22:17,880 INFO  FullProcessService - Size of directory with sources: 2 MB
-2020-03-30 00:22:17,880 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src]
-2020-03-30 00:22:17,899 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/.git/
+2020-04-12 22:34:35,704 INFO  DownloadService - Downloading "https://github.com/uber/RIBs/archive/master.zip", attempt 3
+2020-04-12 22:34:45,204 INFO  VirusProcessorServiceImpl - Queued project 6561 to scan viruses
+2020-04-12 22:35:36,853 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2020-04-12 22:35:51,017 INFO  GithubDownloadService - Default branch of this repository: master
+2020-04-12 22:35:51,017 INFO  DownloadService - Downloading "https://github.com/uber/RIBs/archive/master.zip", attempt 3
+2020-04-12 22:36:52,712 DEBUG FullProcessService - Repository https://github.com/uber/RIBs available: true
+2020-04-12 22:36:52,712 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2020-04-12 22:36:52,712 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/uber/RIBs, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src]
+2020-04-12 22:37:18,954 INFO  SysUtils - 
+2020-04-12 22:37:19,054 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/.git": true
+2020-04-12 22:37:19,201 INFO  FullProcessService - Size of directory with sources: 2 MB
+2020-04-12 22:37:19,202 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src]
+2020-04-12 22:37:19,263 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/.git/
 
-2020-03-30 00:22:17,929 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/gradlew
-2020-03-30 00:22:17,966 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/demos/memory-leaks/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3-completed/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-debug-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-router-navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-test-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-uava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/autodispose-error-prone-checker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/rib-intellij-plugin/build.gradle
-2020-03-30 00:22:17,998 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/rib-intellij-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/autodispose-error-prone-checker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-router-navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-uava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-test-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-debug-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3-completed/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/demos/memory-leaks/build.gradle
-2020-03-30 00:22:18,001 INFO  ProjectBuildService - Remote scripts: none
-2020-03-30 00:22:18,001 INFO  ProjectFixService - Fixing project...
-2020-03-30 00:22:18,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/local.properties
-2020-03-30 00:22:18,094 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2020-03-30 00:22:18,094 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2020-03-30 00:22:18,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,113 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,115 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/demos/memory-leaks/local.properties
-2020-03-30 00:22:18,135 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/demos/memory-leaks/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,135 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/demos/memory-leaks/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android-test/local.properties
-2020-03-30 00:22:18,163 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,163 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,165 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/local.properties
-2020-03-30 00:22:18,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,184 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/local.properties
-2020-03-30 00:22:18,200 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,200 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,201 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/local.properties
-2020-03-30 00:22:18,216 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,216 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,218 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/local.properties
-2020-03-30 00:22:18,233 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,233 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial1/local.properties
-2020-03-30 00:22:18,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial1/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,249 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial1/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial2/local.properties
-2020-03-30 00:22:18,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,266 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,267 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3-completed/local.properties
-2020-03-30 00:22:18,283 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3-completed/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,284 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3-completed/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,285 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3/local.properties
-2020-03-30 00:22:18,300 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,300 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,301 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial4/local.properties
-2020-03-30 00:22:18,316 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial4/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,316 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial4/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,317 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-base/local.properties
-2020-03-30 00:22:18,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,332 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,333 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-app/local.properties
-2020-03-30 00:22:18,349 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,349 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-test/local.properties
-2020-03-30 00:22:18,365 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,365 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-compiler-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,366 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-debug-utils/local.properties
-2020-03-30 00:22:18,383 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-debug-utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,383 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-debug-utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,384 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-router-navigator/local.properties
-2020-03-30 00:22:18,400 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-router-navigator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,400 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-router-navigator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-test-utils/local.properties
-2020-03-30 00:22:18,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-test-utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,417 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-test-utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,417 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-uava/local.properties
-2020-03-30 00:22:18,435 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-uava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,436 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-uava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,436 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/autodispose-error-prone-checker/local.properties
-2020-03-30 00:22:18,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/autodispose-error-prone-checker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,451 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/autodispose-error-prone-checker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,452 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/rib-intellij-plugin/local.properties
-2020-03-30 00:22:18,468 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/rib-intellij-plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2020-03-30 00:22:18,468 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tooling/rib-intellij-plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2020-03-30 00:22:18,469 INFO  ProjectFixService - Project was maybe fixed
-2020-03-30 00:22:18,469 INFO  ProjectTaskService - Detecting possible tasks...
-2020-03-30 00:22:18,470 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2020-03-30 00:22:26,084 INFO  VirusProcessorServiceImpl - Queued project 6448 to scan viruses
-2020-03-30 00:23:42,289 INFO  ProjectTaskService - Detected possible tasks: 85
-2020-03-30 00:23:42,290 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2020-03-30 00:23:42,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2020-03-30 00:25:33,574 INFO  SysUtils - Configuration on demand is an incubating feature.
+2020-04-12 22:37:19,362 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/gradlew
+2020-04-12 22:37:19,412 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/demos/memory-leaks/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3-completed/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-debug-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-router-navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-test-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-uava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/autodispose-error-prone-checker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/rib-intellij-plugin/build.gradle
+2020-04-12 22:37:19,460 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/rib-intellij-plugin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/autodispose-error-prone-checker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-router-navigator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-uava/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-test-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-debug-utils/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial4/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial1/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3-completed/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/demos/memory-leaks/build.gradle
+2020-04-12 22:37:19,476 INFO  ProjectBuildService - Remote scripts: none
+2020-04-12 22:37:19,476 INFO  ProjectFixService - Fixing project...
+2020-04-12 22:37:19,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/local.properties
+2020-04-12 22:37:19,591 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2020-04-12 22:37:19,591 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2020-04-12 22:37:19,630 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,630 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/demos/memory-leaks/local.properties
+2020-04-12 22:37:19,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/demos/memory-leaks/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,658 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/demos/memory-leaks/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android-test/local.properties
+2020-04-12 22:37:19,684 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,684 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,686 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/local.properties
+2020-04-12 22:37:19,712 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,712 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,714 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/local.properties
+2020-04-12 22:37:19,734 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,734 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,736 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/local.properties
+2020-04-12 22:37:19,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,764 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,765 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/local.properties
+2020-04-12 22:37:19,787 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,788 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial1/local.properties
+2020-04-12 22:37:19,812 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial1/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,812 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial1/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,813 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial2/local.properties
+2020-04-12 22:37:19,836 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,836 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3-completed/local.properties
+2020-04-12 22:37:19,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3-completed/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,863 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3-completed/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3/local.properties
+2020-04-12 22:37:19,884 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,884 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,888 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial4/local.properties
+2020-04-12 22:37:19,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial4/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,913 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial4/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,915 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-base/local.properties
+2020-04-12 22:37:19,939 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,939 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,940 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-app/local.properties
+2020-04-12 22:37:19,965 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,965 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,967 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-test/local.properties
+2020-04-12 22:37:19,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:19,987 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-compiler-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:19,988 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-debug-utils/local.properties
+2020-04-12 22:37:20,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-debug-utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:20,012 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-debug-utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:20,014 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-router-navigator/local.properties
+2020-04-12 22:37:20,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-router-navigator/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:20,046 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-router-navigator/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:20,047 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-test-utils/local.properties
+2020-04-12 22:37:20,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-test-utils/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:20,076 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-test-utils/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:20,078 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-uava/local.properties
+2020-04-12 22:37:20,105 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-uava/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:20,106 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-uava/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:20,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/autodispose-error-prone-checker/local.properties
+2020-04-12 22:37:20,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/autodispose-error-prone-checker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:20,136 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/autodispose-error-prone-checker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:20,139 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/rib-intellij-plugin/local.properties
+2020-04-12 22:37:20,169 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/rib-intellij-plugin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2020-04-12 22:37:20,169 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tooling/rib-intellij-plugin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2020-04-12 22:37:20,170 INFO  ProjectFixService - Project was maybe fixed
+2020-04-12 22:37:20,171 INFO  ProjectTaskService - Detecting possible tasks...
+2020-04-12 22:37:20,171 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2020-04-12 22:37:41,893 INFO  ProjectTaskService - Detected possible tasks: 85
+2020-04-12 22:37:41,894 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2020-04-12 22:37:41,894 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2020-04-12 22:40:36,184 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :libraries:rib-uava:compileJava
 > Task :libraries:rib-uava:processResources NO-SOURCE
 > Task :libraries:rib-uava:classes
@@ -112,13 +115,13 @@
 > Task :libraries:rib-android:checkReleaseManifest
 > Task :libraries:rib-android:processReleaseManifest
 > Task :demos:memory-leaks:preDebugBuild
-> Task :libraries:rib-android:compileReleaseAidl NO-SOURCE
-> Task :demos:memory-leaks:compileDebugAidl NO-SOURCE
 > Task :libraries:rib-android:packageReleaseRenderscript NO-SOURCE
 > Task :demos:memory-leaks:checkDebugManifest
 > Task :demos:memory-leaks:compileDebugRenderscript NO-SOURCE
 > Task :demos:memory-leaks:generateDebugBuildConfig
 > Task :demos:memory-leaks:prepareLintJar
+> Task :libraries:rib-android:compileReleaseAidl NO-SOURCE
+> Task :demos:memory-leaks:compileDebugAidl NO-SOURCE
 > Task :demos:memory-leaks:generateDebugSources
 > Task :libraries:rib-android:generateReleaseBuildConfig SKIPPED
 > Task :libraries:rib-android:compileReleaseRenderscript NO-SOURCE
@@ -131,17 +134,17 @@
 > Task :demos:memory-leaks:generateDebugResValues
 > Task :demos:memory-leaks:generateDebugResources
 > Task :demos:memory-leaks:createDebugCompatibleScreenManifests
+
+> Task :demos:memory-leaks:processDebugManifest
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/demos/memory-leaks/src/main/AndroidManifest.xml:12:5-27:19 Warning:
+	application@android:theme was tagged at AndroidManifest.xml:12 to replace other declarations but no other declaration present
+
 > Task :libraries:rib-android:packageReleaseResources
 > Task :libraries:rib-android:generateReleaseRFile
 > Task :libraries:rib-android:compileReleaseJavaWithJavac
 > Task :libraries:rib-android:bundleLibCompileRelease
 > Task :demos:memory-leaks:javaPreCompileDebug
 > Task :demos:memory-leaks:mergeDebugResources
-
-> Task :demos:memory-leaks:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/demos/memory-leaks/src/main/AndroidManifest.xml:12:5-27:19 Warning:
-	application@android:theme was tagged at AndroidManifest.xml:12 to replace other declarations but no other declaration present
-
 > Task :demos:memory-leaks:processDebugResources
 
 > Task :demos:memory-leaks:compileDebugJavaWithJavac
@@ -161,7 +164,6 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :demos:memory-leaks:signingConfigWriterDebug
 > Task :libraries:rib-android:bundleLibRuntimeRelease
 > Task :demos:memory-leaks:checkDebugDuplicateClasses
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.uber.autodispose/autodispose/1.3.0/a2d2bdc187ed63838fe1ba65da53681ac9a48b33/autodispose-1.3.0.jar: D8: Type `kotlin.jvm.internal.Intrinsics` was not found, it is required for default or static interface methods desugaring of `com.uber.autodispose.FlowableSubscribeProxy com.uber.autodispose.KotlinExtensions.autoDisposable(io.reactivex.Flowable, io.reactivex.Completable)`
 > Task :demos:memory-leaks:transformClassesWithDexBuilderForDebug
 > Task :demos:memory-leaks:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :demos:memory-leaks:transformDexArchiveWithDexMergerForDebug
@@ -182,292 +184,292 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :demos:memory-leaks:build
 
 > Task :libraries:rib-android:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewPresenter.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewPresenter.java:25: error: cannot find symbol
 public abstract class ViewPresenter<V extends View> extends Presenter {
                                                             ^
   symbol: class Presenter
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewBuilder.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewBuilder.java:31: error: cannot find symbol
     extends Builder<RouterT, DependencyT> {
             ^
   symbol: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewBuilder.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewBuilder.java:30: error: cannot find symbol
 public abstract class ViewBuilder<ViewType extends View, RouterT extends Router, DependencyT>
                                                                          ^
   symbol: class Router
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:21: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:20: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:19: error: cannot find symbol
 import androidx.annotation.CallSuper;
                           ^
   symbol:   class CallSuper
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:20: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:20: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:22: error: package com.jakewharton.rxrelay2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:22: error: package com.jakewharton.rxrelay2 does not exist
 import com.jakewharton.rxrelay2.BehaviorRelay;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:23: error: package com.jakewharton.rxrelay2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:23: error: package com.jakewharton.rxrelay2 does not exist
 import com.jakewharton.rxrelay2.PublishRelay;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:24: error: package com.jakewharton.rxrelay2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:24: error: package com.jakewharton.rxrelay2 does not exist
 import com.jakewharton.rxrelay2.Relay;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:25: error: package com.uber.autodispose.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:25: error: package com.uber.autodispose.lifecycle does not exist
 import com.uber.autodispose.lifecycle.CorrespondingEventsFunction;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:26: error: package com.uber.autodispose.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:26: error: package com.uber.autodispose.lifecycle does not exist
 import com.uber.autodispose.lifecycle.LifecycleEndedException;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:27: error: package com.uber.autodispose.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:27: error: package com.uber.autodispose.lifecycle does not exist
 import com.uber.autodispose.lifecycle.LifecycleScopeProvider;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:28: error: package com.uber.autodispose.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:28: error: package com.uber.autodispose.lifecycle does not exist
 import com.uber.autodispose.lifecycle.LifecycleScopes;
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:32: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:32: error: package io.reactivex does not exist
 import io.reactivex.CompletableSource;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:33: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:33: error: package io.reactivex does not exist
 import io.reactivex.Observable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:34: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:34: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Function;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:35: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:35: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Predicate;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:36: error: package androidx.appcompat.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:36: error: package androidx.appcompat.app does not exist
 import androidx.appcompat.app.AppCompatActivity;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:39: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:39: error: cannot find symbol
 public abstract class RibActivity extends AppCompatActivity
                                           ^
   symbol: class AppCompatActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:40: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:40: error: cannot find symbol
     implements ActivityStarter, LifecycleScopeProvider<ActivityLifecycleEvent>, RxActivityEvents {
                                 ^
   symbol: class LifecycleScopeProvider
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RxActivityEvents.java:20: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RxActivityEvents.java:20: error: package io.reactivex does not exist
 import io.reactivex.Observable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:45: error: cannot find symbol
   private static final CorrespondingEventsFunction<ActivityLifecycleEvent> ACTIVITY_LIFECYCLE =
                        ^
   symbol:   class CorrespondingEventsFunction
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewRouter.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewRouter.java:29: error: cannot find symbol
     extends Router<I, C> {
             ^
   symbol: class Router
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewRouter.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewRouter.java:28: error: cannot find symbol
         V extends View, I extends Interactor, C extends InteractorBaseComponent>
                                   ^
   symbol: class Interactor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewRouter.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/ViewRouter.java:28: error: cannot find symbol
         V extends View, I extends Interactor, C extends InteractorBaseComponent>
                                                         ^
   symbol: class InteractorBaseComponent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:68: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:68: error: cannot find symbol
   private final BehaviorRelay<ActivityLifecycleEvent> lifecycleBehaviorRelay =
                 ^
   symbol:   class BehaviorRelay
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:70: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:70: error: cannot find symbol
   private final Relay<ActivityLifecycleEvent> lifecycleRelay =
                 ^
   symbol:   class Relay
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:72: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:72: error: cannot find symbol
   private final Relay<ActivityCallbackEvent> callbacksRelay =
                 ^
   symbol:   class Relay
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:77: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:77: error: cannot find symbol
   public Observable<ActivityLifecycleEvent> lifecycle() {
          ^
   symbol:   class Observable
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:86: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:86: error: cannot find symbol
   public <T extends ActivityLifecycleEvent> Observable<T> lifecycle(final Class<T> clazz) {
                                             ^
   symbol:   class Observable
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:100: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:100: error: cannot find symbol
   public Observable<ActivityCallbackEvent> callbacks() {
          ^
   symbol:   class Observable
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:109: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:109: error: cannot find symbol
   public <T extends ActivityCallbackEvent> Observable<T> callbacks(final Class<T> clazz) {
                                            ^
   symbol:   class Observable
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:122: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:122: error: cannot find symbol
   public CorrespondingEventsFunction<ActivityLifecycleEvent> correspondingEvents() {
          ^
   symbol:   class CorrespondingEventsFunction
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:133: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:133: error: cannot find symbol
   public CompletableSource requestScope() {
          ^
   symbol:   class CompletableSource
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:237: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:237: error: cannot find symbol
   protected Interactor getInteractor() {
             ^
   symbol:   class Interactor
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RxActivityEvents.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RxActivityEvents.java:26: error: cannot find symbol
   Observable<ActivityLifecycleEvent> lifecycle();
   ^
   symbol:   class Observable
   location: interface RxActivityEvents
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RxActivityEvents.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RxActivityEvents.java:29: error: cannot find symbol
   Observable<ActivityCallbackEvent> callbacks();
   ^
   symbol:   class Observable
   location: interface RxActivityEvents
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/ActivityContext.java:18: error: package javax.inject does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/ActivityContext.java:18: error: package javax.inject does not exist
 import javax.inject.Qualifier;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/ActivityContext.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/ActivityContext.java:24: error: cannot find symbol
 @Qualifier
  ^
   symbol: class Qualifier
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:46: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:46: error: cannot find symbol
       int requestCode, int resultCode, @Nullable Intent resultData) {
                                         ^
   symbol:   class Nullable
   location: class ActivityCallbackEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:74: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:74: error: cannot find symbol
   public static ActivityCallbackEvent createOnSaveInstanceStateEvent(@Nullable Bundle outState) {
                                                                       ^
   symbol:   class Nullable
   location: class ActivityCallbackEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:101: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:101: error: cannot find symbol
     @Nullable private final Intent data;
      ^
   symbol:   class Nullable
   location: class ActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:105: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:105: error: cannot find symbol
     private ActivityResult(@Nullable Intent data, int requestCode, int resultCode) {
                             ^
   symbol:   class Nullable
   location: class ActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:113: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:113: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class ActivityResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:135: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:135: error: cannot find symbol
     @Nullable private Bundle outState;
      ^
   symbol:   class Nullable
   location: class SaveInstanceState
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:137: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:137: error: cannot find symbol
     private SaveInstanceState(@Nullable Bundle outState) {
                                ^
   symbol:   class Nullable
   location: class SaveInstanceState
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:143: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityCallbackEvent.java:143: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class SaveInstanceState
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:45: error: cannot find symbol
   public static ActivityLifecycleEvent.Create createOnCreateEvent(@Nullable Bundle stateData) {
                                                                    ^
   symbol:   class Nullable
   location: class ActivityLifecycleEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:100: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:100: error: cannot find symbol
     @Nullable private final Bundle savedInstanceState;
      ^
   symbol:   class Nullable
   location: class Create
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:102: error: cannot find symbol
     private Create(@Nullable Bundle savedInstanceState) {
                     ^
   symbol:   class Nullable
   location: class Create
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:108: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/lifecycle/ActivityLifecycleEvent.java:108: error: cannot find symbol
     @Nullable
      ^
   symbol:   class Nullable
   location: class Create
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:126: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:126: error: cannot find symbol
   @Nullable
    ^
   symbol:   class Nullable
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:141: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:141: error: cannot find symbol
   protected void onCreate(@Nullable android.os.Bundle savedInstanceState) {
                            ^
   symbol:   class Nullable
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:138: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:138: error: cannot find symbol
   @Initializer
    ^
   symbol:   class Initializer
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:139: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:139: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:159: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:159: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:167: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:167: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:174: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:174: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:182: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:182: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:191: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:191: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:199: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:199: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:206: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:206: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class RibActivity
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:220: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:220: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class RibActivity
 javadoc: warning - Class Qualifier not found.
 javadoc: warning - Class Qualifier not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:251: warning - Tag @link: reference not found: Interactor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android/src/main/java/com/uber/rib/core/RibActivity.java:251: warning - Tag @link: reference not found: Interactor
 javadoc: warning - Class CallSuper not found.
 javadoc: warning - Class CallSuper not found.
 javadoc: warning - Class Initializer not found.
@@ -530,7 +532,7 @@ javadoc: warning - Class CallSuper not found.
 > Task :libraries:rib-android-test:packageReleaseResources
 
 > Task :libraries:rib-android-test:processReleaseManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-android-test/src/main/AndroidManifest.xml:7:5-9:50 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-android-test/src/main/AndroidManifest.xml:7:5-9:50 Warning:
 	application@android:theme was tagged at AndroidManifest.xml:7 to replace other declarations but no other declaration present
 
 > Task :libraries:rib-android-test:generateReleaseRFile
@@ -595,51 +597,51 @@ javadoc: warning - Class CallSuper not found.
 > Task :libraries:rib-router-navigator:build
 
 > Task :libraries:rib-screen-stack-base:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ScreenStackBase.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ScreenStackBase.java:19: error: cannot find symbol
 import androidx.annotation.IntRange;
                           ^
   symbol:   class IntRange
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:19: error: cannot find symbol
 import androidx.annotation.CallSuper;
                           ^
   symbol:   class CallSuper
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:23: error: package com.jakewharton.rxrelay2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:23: error: package com.jakewharton.rxrelay2 does not exist
 import com.jakewharton.rxrelay2.BehaviorRelay;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:24: error: package com.jakewharton.rxrelay2 does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:24: error: package com.jakewharton.rxrelay2 does not exist
 import com.jakewharton.rxrelay2.Relay;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:27: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:27: error: package io.reactivex does not exist
 import io.reactivex.Observable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:32: error: cannot find symbol
   private final Relay<ScreenStackEvent> lifecycleRelay =
                 ^
   symbol:   class Relay
   location: class ViewProvider
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:49: error: cannot find symbol
   public Observable<ScreenStackEvent> lifecycle() {
          ^
   symbol:   class Observable
   location: class ViewProvider
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ScreenStackBase.java:64: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ScreenStackBase.java:64: error: cannot find symbol
   void popBackTo(@IntRange(from = -1) final int index, final boolean shouldAnimate);
                   ^
   symbol:   class IntRange
   location: interface ScreenStackBase
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ScreenStackBase.java:88: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ScreenStackBase.java:88: error: cannot find symbol
   @IntRange(from = 0)
    ^
   symbol:   class IntRange
   location: interface ScreenStackBase
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:75: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:75: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
   location: class ViewProvider
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:81: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-screen-stack-base/src/main/java/com/uber/rib/core/screenstack/ViewProvider.java:81: error: cannot find symbol
   @CallSuper
    ^
   symbol:   class CallSuper
@@ -669,8 +671,8 @@ javadoc: warning - Class CallSuper not found.
 > Task :libraries:rib-screen-stack-base:androidSourcesJar
 > Task :libraries:rib-screen-stack-base:preBuild UP-TO-DATE
 > Task :libraries:rib-screen-stack-base:preReleaseBuild UP-TO-DATE
-> Task :libraries:rib-screen-stack-base:compileReleaseAidl NO-SOURCE
 > Task :libraries:rib-screen-stack-base:checkReleaseManifest
+> Task :libraries:rib-screen-stack-base:compileReleaseAidl NO-SOURCE
 > Task :libraries:rib-screen-stack-base:compileReleaseRenderscript NO-SOURCE
 > Task :libraries:rib-screen-stack-base:generateReleaseBuildConfig SKIPPED
 > Task :libraries:rib-screen-stack-base:generateReleaseResValues
@@ -700,16 +702,16 @@ javadoc: warning - Class CallSuper not found.
 > Task :libraries:rib-screen-stack-base:bundleReleaseAar
 > Task :libraries:rib-screen-stack-base:compileReleaseSources
 > Task :libraries:rib-screen-stack-base:signArchives SKIPPED
+
+> Task :libraries:rib-test-utils:compileJava
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-test-utils/src/main/java/com/uber/rib/core/AndroidRecordingRx2Observer.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
 > Task :libraries:rib-screen-stack-base:mergeReleaseResources
 > Task :libraries:rib-screen-stack-base:verifyReleaseResources
 > Task :libraries:rib-screen-stack-base:assembleRelease
 > Task :libraries:rib-screen-stack-base:assemble
 > Task :libraries:rib-screen-stack-base:build
-
-> Task :libraries:rib-test-utils:compileJava
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-test-utils/src/main/java/com/uber/rib/core/AndroidRecordingRx2Observer.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
 > Task :libraries:rib-test-utils:processResources NO-SOURCE
 > Task :libraries:rib-test-utils:classes
 > Task :libraries:rib-test-utils:jar
@@ -725,50 +727,50 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :libraries:rib-uava:build
 
 > Task :libraries:rib-workflow:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/ActionableItem.java:19: error: package com.uber.rib.core.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/ActionableItem.java:19: error: package com.uber.rib.core.lifecycle does not exist
 import com.uber.rib.core.lifecycle.InteractorEvent;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/ActionableItem.java:21: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/ActionableItem.java:21: error: package io.reactivex does not exist
 import io.reactivex.Observable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/ActionableItem.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/ActionableItem.java:30: error: cannot find symbol
   Observable<InteractorEvent> lifecycle();
   ^
   symbol:   class Observable
   location: interface ActionableItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/ActionableItem.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/ActionableItem.java:30: error: cannot find symbol
   Observable<InteractorEvent> lifecycle();
              ^
   symbol:   class InteractorEvent
   location: interface ActionableItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:19: error: package com.uber.rib.core does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:19: error: package com.uber.rib.core does not exist
 import com.uber.rib.core.Optional;
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:20: error: package com.uber.rib.core.lifecycle does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:20: error: package com.uber.rib.core.lifecycle does not exist
 import com.uber.rib.core.lifecycle.InteractorEvent;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:22: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:22: error: package io.reactivex does not exist
 import io.reactivex.Observable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:23: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:23: error: package io.reactivex does not exist
 import io.reactivex.ObservableSource;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:24: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:24: error: package io.reactivex does not exist
 import io.reactivex.Single;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:25: error: package io.reactivex.android.schedulers does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:25: error: package io.reactivex.android.schedulers does not exist
 import io.reactivex.android.schedulers.AndroidSchedulers;
                                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:26: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:26: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.BiFunction;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:27: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:27: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Function;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:28: error: package io.reactivex.functions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:28: error: package io.reactivex.functions does not exist
 import io.reactivex.functions.Predicate;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:38: error: cannot find symbol
   private final Single<Optional<Data<T, A>>> stepDataSingle;
                 ^
   symbol:   class Single
@@ -776,7 +778,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:38: error: cannot find symbol
   private final Single<Optional<Data<T, A>>> stepDataSingle;
                        ^
   symbol:   class Optional
@@ -784,7 +786,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:45: error: cannot find symbol
   private Step(Single<Optional<Data<T, A>>> stepDataSingle) {
                ^
   symbol:   class Single
@@ -792,7 +794,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:45: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:45: error: cannot find symbol
   private Step(Single<Optional<Data<T, A>>> stepDataSingle) {
                       ^
   symbol:   class Optional
@@ -800,7 +802,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:57: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:57: error: cannot find symbol
   public static <T, A extends ActionableItem> Step<T, A> from(Single<Data<T, A>> stepDataSingle) {
                                                               ^
   symbol:   class Single
@@ -808,7 +810,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:80: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:80: error: cannot find symbol
       Single<Optional<Data<T, A>>> stepDataSingle) {
       ^
   symbol:   class Single
@@ -816,7 +818,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:80: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:80: error: cannot find symbol
       Single<Optional<Data<T, A>>> stepDataSingle) {
              ^
   symbol:   class Optional
@@ -824,7 +826,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:97: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:97: error: cannot find symbol
           final BiFunction<T, A, Step<TNewValueType, TNewActionableItem>> func) {
                 ^
   symbol:   class BiFunction
@@ -832,7 +834,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:119: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:119: error: cannot find symbol
   protected Observable<Optional<Data<T, A>>> asObservable() {
             ^
   symbol:   class Observable
@@ -840,7 +842,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:119: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:119: error: cannot find symbol
   protected Observable<Optional<Data<T, A>>> asObservable() {
                        ^
   symbol:   class Optional
@@ -848,7 +850,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:157: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:157: error: cannot find symbol
   protected Observable<Optional<T>> asResultObservable() {
             ^
   symbol:   class Observable
@@ -856,7 +858,7 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:157: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Step.java:157: error: cannot find symbol
   protected Observable<Optional<T>> asResultObservable() {
                        ^
   symbol:   class Optional
@@ -864,16 +866,16 @@ import io.reactivex.functions.Predicate;
   where T,A are type-variables:
     T extends Object declared in class Step
     A extends ActionableItem declared in class Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:19: error: package com.uber.rib.core does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:19: error: package com.uber.rib.core does not exist
 import com.uber.rib.core.Optional;
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:21: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:21: error: package io.reactivex does not exist
 import io.reactivex.Single;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:37: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:37: error: package io.reactivex does not exist
   public io.reactivex.Single<Optional<TReturnValue>> createSingle(
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:37: error: cannot find symbol
   public io.reactivex.Single<Optional<TReturnValue>> createSingle(
                              ^
   symbol:   class Optional
@@ -881,7 +883,7 @@ import io.reactivex.Single;
   where TReturnValue,TRootActionableItem are type-variables:
     TReturnValue extends Object declared in class Workflow
     TRootActionableItem extends ActionableItem declared in class Workflow
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:37: warning - Tag @link: reference not found: Single
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow/src/main/java/com/uber/rib/workflow/core/Workflow.java:37: warning - Tag @link: reference not found: Single
 30 warnings
 
 > Task :libraries:rib-workflow:androidJavadocsJar
@@ -893,6 +895,8 @@ import io.reactivex.Single;
 > Task :libraries:rib-workflow:generateReleaseResValues
 > Task :libraries:rib-workflow:processReleaseManifest
 > Task :libraries:rib-workflow:prepareLintJar
+> Task :libraries:rib-workflow:mergeReleaseConsumerProguardFiles
+> Task :libraries:rib-workflow:mergeReleaseShaders
 > Task :libraries:rib-workflow:compileReleaseAidl NO-SOURCE
 > Task :libraries:rib-workflow:compileReleaseRenderscript NO-SOURCE
 > Task :libraries:rib-workflow:generateReleaseResources
@@ -902,8 +906,6 @@ import io.reactivex.Single;
 > Task :libraries:rib-workflow:javaPreCompileRelease
 > Task :libraries:rib-workflow:compileReleaseJavaWithJavac
 > Task :libraries:rib-workflow:extractReleaseAnnotations
-> Task :libraries:rib-workflow:mergeReleaseConsumerProguardFiles
-> Task :libraries:rib-workflow:mergeReleaseShaders
 > Task :libraries:rib-workflow:compileReleaseShaders
 > Task :libraries:rib-workflow:generateReleaseAssets
 > Task :libraries:rib-workflow:packageReleaseAssets
@@ -921,131 +923,131 @@ import io.reactivex.Single;
 > Task :libraries:rib-workflow:signArchives SKIPPED
 
 > Task :libraries:rib-workflow-test-utils:androidJavadocs
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:19: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:19: error: cannot find symbol
 import androidx.annotation.Nullable;
                           ^
   symbol:   class Nullable
   location: package androidx.annotation
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:21: error: package com.uber.rib.core does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:21: error: package com.uber.rib.core does not exist
 import com.uber.rib.core.Optional;
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:23: error: package io.reactivex does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:23: error: package io.reactivex does not exist
 import io.reactivex.Observable;
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:24: error: package io.reactivex.observers does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:24: error: package io.reactivex.observers does not exist
 import io.reactivex.observers.TestObserver;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:26: error: package org.assertj.core.api does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:26: error: package org.assertj.core.api does not exist
 import static org.assertj.core.api.Java6Assertions.assertThat;
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:26: error: static import only from classes and interfaces
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:26: error: static import only from classes and interfaces
 import static org.assertj.core.api.Java6Assertions.assertThat;
 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:41: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:41: error: cannot find symbol
   public static <T, A extends ActionableItem>
                               ^
   symbol:   class ActionableItem
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: error: cannot find symbol
       Observable<Optional<Step.Data<T, A>>> exposeObservable(Step<T, A> step) {
                                                              ^
   symbol:   class Step
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: error: cannot find symbol
       Observable<Optional<Step.Data<T, A>>> exposeObservable(Step<T, A> step) {
       ^
   symbol:   class Observable
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: error: cannot find symbol
       Observable<Optional<Step.Data<T, A>>> exposeObservable(Step<T, A> step) {
                  ^
   symbol:   class Optional
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: error: package Step does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: error: package Step does not exist
       Observable<Optional<Step.Data<T, A>>> exposeObservable(Step<T, A> step) {
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: error: cannot find symbol
   public static <T, A extends ActionableItem> T exposeStepData(Step.Data<T, A> step) {
                               ^
   symbol:   class ActionableItem
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: error: package Step does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: error: package Step does not exist
   public static <T, A extends ActionableItem> T exposeStepData(Step.Data<T, A> step) {
                                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: error: cannot find symbol
   public static <T, A extends ActionableItem> void assertStepNotYetEmitted(
                               ^
   symbol:   class ActionableItem
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:67: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:67: error: cannot find symbol
       TestObserver<Optional<Step.Data<T, A>>> testSubscriber) {
       ^
   symbol:   class TestObserver
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:67: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:67: error: cannot find symbol
       TestObserver<Optional<Step.Data<T, A>>> testSubscriber) {
                    ^
   symbol:   class Optional
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:67: error: package Step does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:67: error: package Step does not exist
       TestObserver<Optional<Step.Data<T, A>>> testSubscriber) {
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: error: cannot find symbol
   public static <T, A extends ActionableItem> void assertStepEmitted(
                               ^
   symbol:   class ActionableItem
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:81: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:81: error: cannot find symbol
       TestObserver<Optional<Step.Data<T, A>>> testSubscriber) {
       ^
   symbol:   class TestObserver
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:81: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:81: error: cannot find symbol
       TestObserver<Optional<Step.Data<T, A>>> testSubscriber) {
                    ^
   symbol:   class Optional
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:81: error: package Step does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:81: error: package Step does not exist
       TestObserver<Optional<Step.Data<T, A>>> testSubscriber) {
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:54: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:54: error: cannot find symbol
   @Nullable
    ^
   symbol:   class Nullable
   location: class StepTester
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Observable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: TestObserver
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: TestObserver
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: TestObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: TestObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: warning - Tag @link: reference not found: Step
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: com.uber.rib.workflow.core.Step.Data
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: com.uber.rib.workflow.core.Step.Data
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: Step
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: warning - Tag @link: reference not found: Observable
 javadoc: warning - Class Nullable not found.
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: com.uber.rib.workflow.core.Step.Data
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: TestObserver
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: TestObserver
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Observable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: TestObserver
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: TestObserver
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: com.uber.rib.workflow.core.Step.Data
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: TestObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: TestObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:80: warning - Tag @link: reference not found: TestObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:66: warning - Tag @link: reference not found: TestObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:42: warning - Tag @link: reference not found: Step
 javadoc: warning - Class Nullable not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: com.uber.rib.workflow.core.Step.Data
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: Step
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Observable
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: com.uber.rib.workflow.core.Step.Data
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:55: warning - Tag @link: reference not found: Step
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Observable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/libraries/rib-workflow-test-utils/src/main/java/com/uber/rib/workflow/core/StepTester.java:29: warning - Tag @link: reference not found: Step
 javadoc: warning - Class Nullable not found.
 56 warnings
 
@@ -1084,6 +1086,7 @@ javadoc: warning - Class Nullable not found.
 > Task :libraries:rib-workflow-test-utils:transformNativeLibsWithSyncJniLibsForRelease
 > Task :tooling:autodispose-error-prone-checker:assemble
 > Task :libraries:rib-workflow-test-utils:mergeReleaseResources
+> Task :libraries:rib-workflow-test-utils:verifyReleaseResources
 > Task :libraries:rib-workflow-test-utils:javaPreCompileRelease
 > Task :libraries:rib-workflow-test-utils:compileReleaseJavaWithJavac
 > Task :libraries:rib-workflow-test-utils:extractReleaseAnnotations
@@ -1091,7 +1094,6 @@ javadoc: warning - Class Nullable not found.
 > Task :libraries:rib-workflow-test-utils:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :libraries:rib-workflow-test-utils:bundleReleaseAar
 > Task :libraries:rib-workflow-test-utils:compileReleaseSources
-> Task :libraries:rib-workflow-test-utils:verifyReleaseResources
 > Task :libraries:rib-workflow-test-utils:assembleRelease
 > Task :libraries:rib-workflow-test-utils:signArchives SKIPPED
 > Task :libraries:rib-workflow-test-utils:assemble
@@ -1131,7 +1133,7 @@ Patching plugin.xml: value of `version[0.1.3]` tag will be set to `0.1.3`
 > Task :tutorials:tutorial1:createDebugCompatibleScreenManifests
 
 > Task :tutorials:tutorial1:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial1/src/main/AndroidManifest.xml:12:5-27:19 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial1/src/main/AndroidManifest.xml:12:5-27:19 Warning:
 	application@android:theme was tagged at AndroidManifest.xml:12 to replace other declarations but no other declaration present
 
 > Task :tutorials:tutorial1:processDebugResources
@@ -1176,7 +1178,7 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :tutorials:tutorial2:javaPreCompileDebug
 
 > Task :tutorials:tutorial2:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial2/src/main/AndroidManifest.xml:12:5-27:19 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial2/src/main/AndroidManifest.xml:12:5-27:19 Warning:
 	application@android:theme was tagged at AndroidManifest.xml:12 to replace other declarations but no other declaration present
 
 > Task :tutorials:tutorial2:processDebugResources
@@ -1184,7 +1186,7 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :tutorials:tutorial2:compileDebugJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: rib-compiler-test-0.9.3-SNAPSHOT.jar (project :libraries:rib-compiler-test).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial2/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial2/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :tutorials:tutorial2:compileDebugSources
@@ -1223,7 +1225,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :tutorials:tutorial3:javaPreCompileDebug
 
 > Task :tutorials:tutorial3:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3/src/main/AndroidManifest.xml:12:5-27:19 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3/src/main/AndroidManifest.xml:12:5-27:19 Warning:
 	application@android:theme was tagged at AndroidManifest.xml:12 to replace other declarations but no other declaration present
 
 > Task :tutorials:tutorial3:processDebugResources
@@ -1231,7 +1233,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :tutorials:tutorial3:compileDebugJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: rib-compiler-test-0.9.3-SNAPSHOT.jar (project :libraries:rib-compiler-test).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :tutorials:tutorial3:compileDebugSources
@@ -1242,9 +1244,6 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :tutorials:tutorial3:validateSigningDebug
 > Task :tutorials:tutorial3:signingConfigWriterDebug
 > Task :tutorials:tutorial3:checkDebugDuplicateClasses
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-android/a80ef47421d6607e749f8b7282dd7dee61adfea7/guava-27.1-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `void com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-android/a80ef47421d6607e749f8b7282dd7dee61adfea7/guava-27.1-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/27.1-android/a80ef47421d6607e749f8b7282dd7dee61adfea7/guava-27.1-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.hash.LittleEndianByteArray$UnsafeByteArray.getUnsafe()`
 > Task :tutorials:tutorial3:transformClassesWithDexBuilderForDebug
 > Task :tutorials:tutorial3:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :tutorials:tutorial3:transformDexArchiveWithDexMergerForDebug
@@ -1273,7 +1272,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :tutorials:tutorial3-completed:createDebugCompatibleScreenManifests
 
 > Task :tutorials:tutorial3-completed:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3-completed/src/main/AndroidManifest.xml:12:5-27:19 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3-completed/src/main/AndroidManifest.xml:12:5-27:19 Warning:
 	application@android:theme was tagged at AndroidManifest.xml:12 to replace other declarations but no other declaration present
 
 > Task :tutorials:tutorial3-completed:processDebugResources
@@ -1281,7 +1280,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :tutorials:tutorial3-completed:compileDebugJavaWithJavac
 Gradle may disable incremental compilation as the following annotation processors are not incremental: rib-compiler-test-0.9.3-SNAPSHOT.jar (project :libraries:rib-compiler-test).
 Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3-completed/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :tutorials:tutorial3-completed:compileDebugSources
@@ -1316,13 +1315,24 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :tutorials:tutorial4:generateDebugResValues
 > Task :tutorials:tutorial4:generateDebugResources
 > Task :tutorials:tutorial4:mergeDebugResources
+> Task :tutorials:tutorial4:javaPreCompileDebug
 > Task :tutorials:tutorial4:createDebugCompatibleScreenManifests
 
 > Task :tutorials:tutorial4:processDebugManifest
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial4/src/main/AndroidManifest.xml:12:5-33:19 Warning:
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial4/src/main/AndroidManifest.xml:12:5-33:19 Warning:
 	application@android:theme was tagged at AndroidManifest.xml:12 to replace other declarations but no other declaration present
 
 > Task :tutorials:tutorial4:processDebugResources
+
+> Task :tutorials:tutorial4:compileDebugJavaWithJavac
+Gradle may disable incremental compilation as the following annotation processors are not incremental: jetified-rave-compiler-2.0.0.jar (com.uber:rave-compiler:2.0.0), rib-compiler-test-0.9.3-SNAPSHOT.jar (project :libraries:rib-compiler-test).
+Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial4/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial4/src/main/java/com/uber/rib/RootActivity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :tutorials:tutorial4:compileDebugSources
 > Task :tutorials:tutorial4:mergeDebugShaders
 > Task :tutorials:tutorial4:compileDebugShaders
 > Task :tutorials:tutorial4:generateDebugAssets
@@ -1330,27 +1340,16 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :tutorials:tutorial4:validateSigningDebug
 > Task :tutorials:tutorial4:signingConfigWriterDebug
 > Task :libraries:rib-workflow:bundleLibRuntimeRelease
-> Task :libraries:rib-workflow:bundleLibResRelease
-> Task :libraries:rib-workflow:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :tutorials:tutorial4:mergeDebugJniLibFolders
-> Task :tutorials:tutorial4:processDebugJavaRes NO-SOURCE
 > Task :tutorials:tutorial4:checkDebugDuplicateClasses
-> Task :tutorials:tutorial4:transformNativeLibsWithMergeJniLibsForDebug
-> Task :tutorials:tutorial4:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :tutorials:tutorial4:javaPreCompileDebug
-
-> Task :tutorials:tutorial4:compileDebugJavaWithJavac
-Gradle may disable incremental compilation as the following annotation processors are not incremental: jetified-rave-compiler-2.0.0.jar (com.uber:rave-compiler:2.0.0), rib-compiler-test-0.9.3-SNAPSHOT.jar (project :libraries:rib-compiler-test).
-Consider setting the experimental feature flag android.enableSeparateAnnotationProcessing=true in the gradle.properties file to run annotation processing in a separate task and make compilation incremental.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial4/src/main/java/com/uber/rib/root/logged_in/tic_tac_toe/TicTacToeView.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial4/src/main/java/com/uber/rib/RootActivity.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :tutorials:tutorial4:compileDebugSources
 > Task :tutorials:tutorial4:transformClassesWithDexBuilderForDebug
 > Task :tutorials:tutorial4:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :tutorials:tutorial4:transformDexArchiveWithDexMergerForDebug
+> Task :libraries:rib-workflow:bundleLibResRelease
+> Task :libraries:rib-workflow:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :tutorials:tutorial4:mergeDebugJniLibFolders
+> Task :tutorials:tutorial4:transformNativeLibsWithMergeJniLibsForDebug
+> Task :tutorials:tutorial4:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :tutorials:tutorial4:processDebugJavaRes NO-SOURCE
 > Task :tutorials:tutorial4:transformResourcesWithMergeJavaResForDebug
 > Task :tutorials:tutorial4:packageDebug
 > Task :tutorials:tutorial4:assembleDebug
@@ -1361,7 +1360,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 50s
+BUILD SUCCESSFUL in 2m 53s
 331 actionable tasks: 331 executed
 
-2020-03-30 00:25:34,047 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1585502535591-0/src/RIBs-master/android/tutorials/tutorial3/build/outputs/apk/debug/tutorial3-debug.apk
+2020-04-12 22:40:36,673 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1586705675700-0/src/android/tutorials/tutorial3/build/outputs/apk/debug/tutorial3-debug.apk
